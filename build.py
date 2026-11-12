@@ -199,7 +199,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <link rel="stylesheet" href="/styles.css">
 {ld}
 </head>
-<body{f' data-story="{e(story_slug)}"' if story_slug else ''}>
+<body class="tl-b"{f' data-story="{e(story_slug)}"' if story_slug else ''}>
 <a class="sr-only" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/">{LOGO_SVG}<span>Newspin</span></a>
@@ -409,10 +409,11 @@ def build_story(site, stories, s, axis):
         x = d(ev["date"])
         items.append(f"""
 <li class="ev{' key' if ev.get('key') else ''}" data-added="{e(ev['added'])}" id="e{i+1}">
-  <div class="ev-date"><b>{e(ev['dateLabel'].rsplit(' ', 1)[0] if ev['dateLabel'][-4:].isdigit() and ' ' in ev['dateLabel'] else ev['dateLabel'])}</b><span>{x.year}</span></div>
+  <div class="ev-date"><i class="dd" style="{dot}"></i><b>{e(ev['dateLabel'].rsplit(' ', 1)[0] if ev['dateLabel'][-4:].isdigit() and ' ' in ev['dateLabel'] else ev['dateLabel'])}</b><span>{x.year}</span></div>
   <div class="ev-rail" aria-hidden="true"><div class="l1"></div><div class="d" style="{dot}"></div><div class="l2"></div></div>
   <div class="ev-card"><article>
     <div class="ev-tags">
+      <span class="ev-when">{e(ev['dateLabel'])}</span>
       <span class="pill" style="background:{ph[2]};color:{ph[1]}">{e(ph[0])}</span>
       <span class="badge-new" hidden>New since your last visit</span>
       <span class="ev-status">{ICON_CHECK}{e(ev['status'])}</span>
@@ -420,7 +421,7 @@ def build_story(site, stories, s, axis):
     <h3>{e(ev['title'])}</h3>
     <p>{e(ev['summary'])}</p>
     <details>
-      <summary><span style="display:inline-flex;align-items:center;gap:6px">{ICON_CHEV}Sources, documents and numbers</span><span class="cnt">{n} source{'s' if n != 1 else ''}</span></summary>
+      <summary><span style="display:inline-flex;align-items:center;gap:6px">{ICON_CHEV}<span class="long-l">Sources, documents and numbers</span><span class="short-l">Sources &amp; numbers</span></span><span class="cnt">{n} source{'s' if n != 1 else ''}</span></summary>
       <div class="depth">{nums_html}{differs}<div><span class="lbl">Reported by</span><div class="srcs">{srcs}</div></div>{link}</div>
     </details>
   </article></div>
@@ -430,9 +431,9 @@ def build_story(site, stories, s, axis):
         if d(u["date"]) >= axis.today:
             ups += f"""
 <div class="upcoming">
-  <div class="ev-date"><b>{e(u['label'])}</b><span>Upcoming</span></div>
+  <div class="ev-date"><i class="dd" style="border:2px dashed #1D4ED8;background:#fff"></i><b>{e(u['label'])}</b><span>Upcoming</span></div>
   <div class="ev-rail" aria-hidden="true"><div class="l1" style="height:16px"></div><div class="d" style="border:2px dashed #1D4ED8;background:#fff"></div></div>
-  <div class="box"><div><span class="lbl" style="color:#1D4ED8;margin:0">Upcoming</span><span class="t">{e(u['text'])}</span></div>{follow_btn(slug, 'btn btn-follow btn-sm', on='You’ll be caught up', off='Remind me')}</div>
+  <div class="box"><div><span class="lbl" style="color:#1D4ED8;margin:0">Upcoming<span class="ev-when-up"> · {e(u['label'])}</span></span><span class="t">{e(u['text'])}</span></div>{follow_btn(slug, 'btn btn-follow btn-sm', on='You’ll be caught up', off='Remind me')}</div>
 </div>"""
 
     keyn = ""
@@ -484,8 +485,8 @@ def build_story(site, stories, s, axis):
           <div><h2 id="tl-h">Timeline</h2><span class="sub">Simple: key events · Detailed: sources, documents and numbers</span></div>
           <div class="seg" role="group" aria-label="Detail level"><button type="button" data-mode="simple" aria-pressed="true">Simple</button><button type="button" data-mode="detailed" aria-pressed="false">Detailed</button></div>
         </div>
-        <ol class="events">{''.join(items)}</ol>
-        {ups}
+        <div class="tl-wrap"><ol class="events">{''.join(items)}</ol>
+        {ups}</div>
       </section>
       <p class="note">This timeline draws on {n_src} source links. Labels show whether each event is confirmed, official data, reported by a single outlet or a forecast. Spotted an error? <a href="/about/#corrections">Tell us</a>.</p>
     </div>

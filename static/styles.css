@@ -230,14 +230,40 @@ button{font-family:inherit}
 .site-footer .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-top:22px;padding-bottom:22px;font-size:14px;color:var(--muted)}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:16px} .site-footer a{color:var(--muted)}
 
+.ev-when,.ev-when-up,.short-l,.ev-date .dd{display:none}
 @media (max-width:640px){
   .wrap,.wrap-narrow{padding:0 16px}
-  .ev-date{width:64px;flex-basis:64px;padding-top:18px}
-  .ev-date b{font-size:13px}
-  .ev{gap:10px}
-  .ev-card article{padding:14px}
+  /* phones: date moves into the card, the rail becomes a thin line */
+  .ev-date{display:none}
+  .ev,.upcoming{gap:10px}
+  .ev-rail{width:10px;flex-basis:10px}
+  .ev-rail .l1{height:20px}
+  .ev-rail .d{width:10px;height:10px}
+  .ev-when{display:inline;font-size:13px;font-weight:700;color:var(--ink);margin-right:2px}
+  .ev-when-up{display:inline}
+  .ev-card{padding:6px 0 10px}
+  .ev-card article{padding:14px 14px 6px;gap:8px}
+  .ev h3{font-size:17px}
+  .ev p{font-size:15px}
+  .long-l{display:none}.short-l{display:inline}
+  .upcoming .box{margin:6px 0 10px;padding:12px 14px}
   .featured .big{font-size:56px}
   .catchup{padding:22px 20px}
   .grid-head h2{font-size:28px}
   .nav{order:3;flex-basis:100%}
+}
+
+/* Phone timeline (default; add ?tl=a to compare the older layout): line behind the cards on the left, date above each card */
+@media (max-width:640px){
+  .tl-b .tl-wrap{position:relative}
+  .tl-b .tl-wrap::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:#D9D9D3;z-index:0}
+  .tl-b .ev,.tl-b .upcoming{display:block}
+  .tl-b .ev-rail{display:none}
+  .tl-b .ev-date{display:flex;flex-direction:row;align-items:center;gap:8px;width:auto;text-align:left;padding:16px 0 8px 0;position:relative;z-index:1}
+  .tl-b .ev-date .dd{display:inline-block;width:16px;height:16px;border-radius:50%;box-sizing:border-box;box-shadow:0 0 0 4px var(--bg);flex:0 0 16px}
+  .tl-b .ev-date b{font-size:14px}
+  .tl-b .ev-date span{font-size:14px;color:var(--muted)}
+  .tl-b .ev-when,.tl-b .ev-when-up{display:none}
+  .tl-b .ev-card{padding:0;position:relative;z-index:1}
+  .tl-b .upcoming .box{margin:0 0 8px;position:relative;z-index:1;background:var(--bg)}
 }

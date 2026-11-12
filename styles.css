@@ -20,7 +20,7 @@ button{font-family:inherit}
 .site-header .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding-top:12px;padding-bottom:12px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
 .logo svg{display:block}
-.logo span{font-family:var(--serif);font-size:24px;font-weight:700;letter-spacing:-.01em;line-height:1;position:relative;top:-3px}
+.logo span{font-family:var(--serif);font-size:24px;font-weight:700;letter-spacing:-.01em;line-height:1;position:relative;top:3px}
 .nav{display:flex;flex-wrap:wrap;gap:2px;flex:1 1 auto}
 .nav a{padding:10px 12px;font-size:14px;color:var(--muted);text-decoration:none;border-radius:8px}
 .nav a[aria-current="page"]{color:var(--ink);font-weight:600}

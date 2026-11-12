@@ -114,45 +114,81 @@ class LocalAxis:
         return max(0.5, min(99.0, (x - self.start).days / span * 100))
 
 
-def track_html(s, axis, dark=False):
-    if (axis.today - d(s["events"][0]["date"])).days < 120:
-        axis = LocalAxis(s, axis.today)
-    parts = [f'<div class="track{" track-dark" if dark else ""}" role="img" aria-label="{e(track_label(s))}">', '<div class="axis"></div>']
-    if isinstance(axis, LocalAxis):
-        parts.append(f'<span class="yr" style="left:0">{axis.first_label}</span>')
-        for m, label in axis.marks:
-            p = axis.pos(m)
-            if 8 < p < 85:
-                parts.append(f'<div class="tick" style="left:{p:.2f}%"></div><span class="yr" style="left:calc({p:.2f}% + 4px)">{label}</span>')
-    else:
-        for i, y in enumerate(axis.years):
-            p = axis.pos(dt.date(y, 1, 1))
-            if i > 0:
-                parts.append(f'<div class="tick" style="left:{p:.2f}%"></div>')
-            left = "0" if i == 0 else f"calc({p:.2f}% + 4px)"
-            parts.append(f'<span class="yr" style="left:{left}">{y}</span>')
-    np_ = axis.pos(axis.today)
-    now_l = '<span class="now-l">Now</span>' if np_ > 90 else f'<span class="now-l" style="right:auto;left:{np_:.2f}%;transform:translateX(-50%)">Now</span>'
-    parts.append(f'<div class="now" style="left:{np_:.2f}%"></div>{now_l}')
+def short_date(x, today):
+    return f"{x.day} {x.strftime('%b')}" if x.year == today.year else f"{x.day} {x.strftime('%b %Y')}"
+
+
+def track_html(s, axis, dark=False, link_prefix=""):
+    """Horizontal timeline: zoomed to the story's own dates, nearby events grouped with a count,
+    past drawn solid, future dashed, labels for the start, the latest event, now and what's next."""
+    today = axis.today
+    evs = s["events"]
     ink = CAT_INK.get(s["category"], "#3F444E")
-    ring = "#15171C" if dark else "#FFFFFF"
-    real = [ev for ev in s["events"]]
-    latest = latest_event(s)["date"]
-    for ev in real:
-        p = axis.pos(ev["date"])
+    first = d(evs[0]["date"])
+    ups = sorted(d(u["date"]) for u in s.get("upcoming", []) if d(u["date"]) >= today)
+    end = max([today] + ups + [d(ev["date"]) for ev in evs])
+    start = first - dt.timedelta(days=max(2, int((end - first).days * 0.03)))
+    span = max((end - start).days, 1)
+    pos = lambda x: 3 + ((x - start).days / span) * 94
+    latest = latest_event(s)
+    now_p = pos(today)
+
+    parts = [f'<div class="track" role="img" aria-label="{e(track_label(s))}">']
+    parts.append(f'<div class="past" style="width:{now_p:.2f}%;background:{ink}"></div>')
+    if ups:
+        parts.append(f'<div class="future" style="left:{now_p:.2f}%;width:{pos(ups[-1]) - now_p:.2f}%;border-color:{ink}"></div>')
+    parts.append(f'<div class="now" style="left:{now_p:.2f}%"></div>')
+
+    # group events that would overlap
+    GAP = 7  # % of the track width below which two markers would touch on a phone
+    groups = []
+    for i, ev in enumerate(evs):
+        p = pos(d(ev["date"]))
+        groups.append({"items": [(i, ev)], "p_first": p, "p_last": p})
+    merged = True
+    while merged:  # merge neighbours until every marker has room
+        merged = False
+        for k in range(len(groups) - 1):
+            a, c = groups[k], groups[k + 1]
+            if (c["p_first"] + c["p_last"]) / 2 - (a["p_first"] + a["p_last"]) / 2 < GAP:
+                a["items"] += c["items"]; a["p_last"] = c["p_last"]; del groups[k + 1]; merged = True
+                break
+    for g in groups:
+        items = g["items"]
+        p = (g["p_first"] + g["p_last"]) / 2
+        idx, ev = items[-1]
+        has_latest = any(x is latest for _, x in items)
+        if has_latest:
+            idx, ev = next((i, x) for i, x in items if x is latest)
         ph = PHASES.get(ev["phase"], PHASES["policy"])
         color = ph[3] or ink
-        if ev["phase"] == "forecast":
-            st = f"width:12px;height:12px;top:8px;left:calc({p:.2f}% - 6px);border:2px dashed #5B3A9A;background:{ring};"
-        elif ev["date"] == latest:
-            st = f"width:16px;height:16px;top:6px;left:calc({p:.2f}% - 8px);background:{color};box-shadow:0 0 0 3px {ring},0 0 0 5px {color};"
+        tip = " · ".join(f'{x["dateLabel"]}: {x["title"]}' for _, x in items)
+        href = f'{link_prefix}#e{idx + 1}'
+        if len(items) > 1:
+            size = 22 if has_latest else 20
+            ring = f"box-shadow:0 0 0 3px #fff,0 0 0 6px {color}33;" if has_latest else "box-shadow:0 0 0 3px #fff;"
+            parts.append(f'<a class="dot cl" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:{size}px;height:{size}px;background:{color};{ring}">{len(items)}</a>')
+        elif ev["phase"] == "forecast":
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:12px;height:12px;background:#fff;border:2px dashed #5B3A9A"></a>')
+        elif has_latest:
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:16px;height:16px;background:{color};box-shadow:0 0 0 3px #fff,0 0 0 7px {color}33"></a>')
         else:
-            st = f"width:11px;height:11px;top:8.5px;left:calc({p:.2f}% - 5.5px);background:{color};border:2px solid {ring};"
-        parts.append(f'<span class="dot" style="{st}"></span>')
-    for up in s.get("upcoming", []):
-        if d(up["date"]) >= axis.today:
-            p = axis.pos(up["date"])
-            parts.append(f'<span class="dot" style="width:14px;height:14px;top:7px;left:calc({p:.2f}% - 7px);border:2px dashed {ink};background:{ring};"></span>')
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:11px;height:11px;background:{color};box-shadow:0 0 0 2.5px #fff"></a>')
+    if ups:  # only the next scheduled event gets a dot; the dashed line shows anything later
+        parts.append(f'<span class="dot" style="left:{pos(ups[0]):.2f}%;width:13px;height:13px;background:#fff;border:2px dashed {ink}"></span>')
+
+    # labels: latest above its dot; start, now and next below
+    lp = pos(d(latest["date"]))
+    anchor = "right:0;left:auto;transform:none" if lp > 78 else ("left:0;transform:none" if lp < 22 else f"left:{lp:.2f}%")
+    parts.append(f'<span class="tl-top" style="{anchor}">Latest · {e(short_date(d(latest["date"]), today))}</span>')
+    parts.append(f'<span class="tl-bot" style="left:0;transform:none">{e(short_date(first, today) if (today - first).days < 300 else first.strftime("%b %Y"))}</span>')
+    if ups:
+        up_p = pos(ups[0])
+        if up_p - now_p > 14:
+            parts.append(f'<span class="tl-bot now-l" style="left:{now_p:.2f}%">Now</span>')
+        parts.append(f'<span class="tl-bot next-l" style="right:0;left:auto;transform:none">Next · {e(short_date(ups[0], today))}</span>')
+    else:
+        parts.append(f'<span class="tl-bot now-l" style="right:0;left:auto;transform:none">Now</span>')
     parts.append("</div>")
     return "".join(parts)
 
@@ -312,7 +348,7 @@ def build_home(site, stories, order, axis):
   <div class="card-body">
     <h3><a href="/stories/{e(slug)}/">{e(s['title'])}</a></h3>
     {stands}
-    {track_html(s, axis)}
+    {track_html(s, axis, link_prefix=f"/stories/{slug}/")}
     <div class="latest"><span class="d">{e(latest['dateLabel'])}</span><span class="t">{e(latest['title'])}</span></div>
     <div class="next"><strong>Next:</strong> {e(s['next'])}</div>
     {linked}
@@ -373,9 +409,11 @@ def build_home(site, stories, order, axis):
     </section>
     <div class="legend"><b>Timeline key</b>
       <span><i class="kd" style="background:#3F444E"></i>Event</span>
-      <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 5px #3F444E"></i>Latest</span>
+      <span><i class="kd" style="width:18px;height:18px;background:#3F444E;color:#fff;font-size:10px;font-weight:700;font-style:normal;display:inline-flex;align-items:center;justify-content:center">3</i>Several events close together</span>
+      <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 6px #3F444E33"></i>Latest</span>
       <span><i class="kd" style="width:12px;height:12px;border:2px dashed #3F444E;box-sizing:border-box"></i>Scheduled or forecast</span>
       <span>RBI: <i class="kd" style="background:#1D4ED8"></i>cut <i class="kd" style="background:#9CA3AF"></i>hold <i class="kd" style="background:#C2410C"></i>hike</span>
+      <span>Tap a dot to jump to that event</span>
     </div>
   </section>
   <p class="note" style="margin-top:28px">Every event links to the outlets that reported it and, where available, the original document. Forecasts are labelled as forecasts, and disagreements between sources are flagged. <a href="/about/">How Newspin works</a></p>

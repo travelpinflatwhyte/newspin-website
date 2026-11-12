@@ -53,14 +53,17 @@ button{font-family:inherit}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
 /* timeline track */
-.track{position:relative;height:46px;margin:2px 4px 0}
-.track .axis{position:absolute;left:0;right:0;top:13px;height:2px;background:var(--line);border-radius:2px}
-.track .tick{position:absolute;top:6px;width:1px;height:16px;background:#C9C9C2}
-.track .yr{position:absolute;top:28px;font-size:11px;font-weight:600;color:#6B6F78;white-space:nowrap}
-.track .now{position:absolute;top:2px;width:2px;height:24px;background:var(--ink);border-radius:2px}
-.track .now-l{position:absolute;right:0;top:28px;font-size:11px;font-weight:700;color:var(--ink)}
-.track .dot{position:absolute;border-radius:50%;box-sizing:border-box}
-.track-dark .axis{background:#3A3F4A}.track-dark .tick{background:#5A5F6B}.track-dark .yr{color:#B9BEC8}.track-dark .now{background:#fff}.track-dark .now-l{color:#fff}
+.track{position:relative;height:58px;margin:4px 6px 0}
+.track .past{position:absolute;left:0;top:27px;height:3px;border-radius:3px;opacity:.28}
+.track .future{position:absolute;top:27px;height:0;border-top:3px dashed;opacity:.45}
+.track .now{position:absolute;top:19px;width:2px;height:19px;margin-left:-1px;background:var(--ink);border-radius:2px}
+.track .dot{position:absolute;top:28.5px;transform:translate(-50%,-50%);border-radius:50%;box-sizing:border-box;display:block;text-decoration:none}
+.track a.dot:hover{transform:translate(-50%,-50%) scale(1.25)}
+.track .dot.cl{display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;line-height:1}
+.track .tl-top{position:absolute;top:0;transform:translateX(-50%);font-size:11px;font-weight:700;color:var(--ink);white-space:nowrap}
+.track .tl-bot{position:absolute;top:42px;transform:translateX(-50%);font-size:11px;font-weight:600;color:#6B6F78;white-space:nowrap}
+.track .now-l{color:var(--ink);font-weight:700}
+.track .next-l{color:var(--blue);font-weight:700}
 
 /* home */
 .home-top{display:flex;flex-wrap:wrap;gap:20px;align-items:stretch;margin-top:32px}

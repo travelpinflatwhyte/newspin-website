@@ -1,0 +1,43 @@
+{
+  "slug": "online-gaming-rules",
+  "short": "Online gaming",
+  "category": "Policy",
+  "title": "India’s online gaming crackdown and its new regulator",
+  "dek": "Real-money games are banned. A new authority now decides what counts as esports or a social game.",
+  "seoTitle": "Online gaming rules 2026 timeline: real-money ban and the new regulator",
+  "status": "In force",
+  "tone": "quiet",
+  "big": "Banned",
+  "delta": "real-money games",
+  "bigLabel": "Under rules in force since 1 May 2026",
+  "updated": "2026-11-12",
+  "glance": {
+    "what": "Since 1 May 2026, online games with money stakes are banned, and the Online Gaming Authority of India classifies and registers games.",
+    "why": "It reshaped one of India’s fastest-growing digital industries, from fantasy sports to esports and game studios.",
+    "next": "Which titles the authority clears as esports or social games."
+  },
+  "keyNumbers": [
+    {"label": "In force", "value": "1 May 2026", "note": "rules and regulator", "hot": true},
+    {"label": "Regulator", "value": "6 members", "note": "attached to MeitY"},
+    {"label": "Classification", "value": "90 days", "note": "per determination"},
+    {"label": "Esports licence", "value": "up to 10 yrs", "note": "registration"}
+  ],
+  "forYou": "Games with no money at stake can keep running without mandatory registration unless the authority asks. Platforms must store Indian users’ data in India and offer age checks and parental controls.",
+  "upcoming": [],
+  "next": "Which games are cleared as esports or social games.",
+  "links": [],
+  "events": [
+    {"date": "2025-08-21", "dateLabel": "21 Aug 2025", "phase": "law", "title": "Parliament passes the gaming law",
+     "summary": "Hours after the Rajya Sabha clears the bill, India’s largest fantasy-sports platform stops all paid contests.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "iPleaders", "url": "https://blog.ipleaders.in/online-gaming-authority-india-ogai/"}]},
+    {"date": "2026-04-22", "dateLabel": "22 Apr 2026", "phase": "law", "title": "Gaming Rules notified; regulator set up",
+     "summary": "The IT ministry notifies the Promotion and Regulation of Online Gaming Rules, 2026 and constitutes a six-member Online Gaming Authority of India.",
+     "status": "Confirmed · Gazette", "numbers": [{"k": "Authority", "v": "6 members"}],
+     "sources": [{"name": "Mondaq", "url": "https://www.mondaq.com/india/gaming/1783990/regulatory-update-online-gaming-rules-2026-issued"}, {"name": "All India Radio", "url": "https://www.newsonair.gov.in/govt-sets-up-online-gaming-authority-to-regulate-gaming-sector/", "primary": true}]},
+    {"date": "2026-05-01", "dateLabel": "1 May 2026", "phase": "law", "key": true, "title": "Rules take effect; real-money games banned",
+     "summary": "The authority goes live. It classifies games as money games, social games or esports, with a 90-day determination process. Esports certificates can last up to 10 years.",
+     "status": "Confirmed", "numbers": [{"k": "Determination", "v": "90 days"}, {"k": "Esports certificate", "v": "up to 10 yrs"}],
+     "sources": [{"name": "The Quint", "url": "https://www.thequint.com/amp/story/news/breaking-news/government-of-india-notifies-online-gaming-rules-2026-ban"}, {"name": "GKToday", "url": "https://www.gktoday.in/ogai-to-regulate-indias-online-gaming-sector-from-may/"}, {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/india-launches-online-gaming-authority-with-strict-compliance-mandates-from-may-2026/"}]}
+  ]
+}

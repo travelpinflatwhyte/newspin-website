@@ -1,0 +1,47 @@
+{
+  "slug": "digi-yatra-international",
+  "short": "Digi Yatra",
+  "category": "Tech & travel",
+  "title": "Digi Yatra goes international",
+  "dek": "Face-based airport entry and boarding, already used at 39 domestic airports, is now on trial for overseas departures.",
+  "seoTitle": "Digi Yatra international flights 2026: trial airports, who can use it, timeline",
+  "status": "Trial live",
+  "tone": "live",
+  "big": "7",
+  "delta": "airports",
+  "bigLabel": "Running face-based boarding trials for international flights",
+  "updated": "2026-11-12",
+  "glance": {
+    "what": "Since 1 November 2026, Indian e-passport holders on select Air India and IndiGo international flights can use Digi Yatra at seven airports.",
+    "why": "It could make international departures quicker, but it does not replace passport, airline or immigration checks.",
+    "next": "The trial runs until December 2026. Feedback will shape a wider rollout in 2027."
+  },
+  "keyNumbers": [
+    {"label": "Trial airports", "value": "7", "note": "from 1 Nov", "hot": true},
+    {"label": "Airlines", "value": "2", "note": "Air India, IndiGo"},
+    {"label": "Users", "value": "26.5 M", "note": "per the ministry"},
+    {"label": "Domestic airports", "value": "39", "note": "already live"}
+  ],
+  "forYou": "To try it you need an Indian e-passport, the Digi Yatra app and a select Air India or IndiGo international flight from Delhi, Bengaluru, Hyderabad, Kochi, Mumbai, Chennai or Amritsar. Carry your documents as usual.",
+  "upcoming": [{"date": "2026-12-31", "label": "Dec", "text": "Digi Yatra international trial ends"}],
+  "next": "Trial runs to December; wider rollout planned for 2027.",
+  "links": [],
+  "events": [
+    {"date": "2026-04-09", "dateLabel": "9 Apr 2026", "phase": "tech", "title": "Contactless international trial with IATA in Bengaluru",
+     "summary": "IndiGo, Digi Yatra, Bengaluru airport and IATA complete technical trials of an integrated contactless international travel project.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "IndiGo press release", "url": "https://www.goindigo.in/press-releases/indigo-digi-yatra-bial-complete-contactless-international-travel-trials.html", "primary": true}]},
+    {"date": "2026-06-15", "dateLabel": "Jun 2026", "phase": "tech", "title": "Passes 100 million journeys",
+     "summary": "An IATA-led trial shows Digi Yatra can work with global systems and with Apple and Google wallets.",
+     "status": "Confirmed", "numbers": [{"k": "Journeys", "v": "100 M+"}],
+     "sources": [{"name": "Biometric Update", "url": "https://www.biometricupdate.com/202606/digi-yatra-passes-100m-journeys-as-iata-trial-validates-global-interoperability"}]},
+    {"date": "2026-09-22", "dateLabel": "22 Sep 2026", "phase": "tech", "title": "International trials announced",
+     "summary": "Plans are set for trials at major airports between October and December 2026.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "Channel IAM", "url": "https://en.channeliam.com/2026/09/22/digiyatra-international-departures-e-passport-airports-trials/"}]},
+    {"date": "2026-11-01", "dateLabel": "1 Nov 2026", "phase": "tech", "key": true, "title": "International trials begin at seven airports",
+     "summary": "Delhi, Bengaluru, Hyderabad, Kochi, Mumbai, Chennai and Amritsar start trials for Indian e-passport holders on select Air India and IndiGo flights.",
+     "status": "Confirmed · Ministry of Civil Aviation", "numbers": [{"k": "Airports", "v": "7"}, {"k": "Users", "v": "26.5 M"}],
+     "sources": [{"name": "All India Radio", "url": "https://newsonair.gov.in/digi-yatra-begins-international-passenger-trials-at-seven-indian-airports/", "primary": true}, {"name": "Elets eGov", "url": "https://egov.eletsonline.com/?p=107362"}, {"name": "Aviation A2Z", "url": "https://aviationa2z.com/index.php/2026/11/02/digi-yatra-goes-international-7-indian-airports-to-start-biometric-travel-trials/"}]}
+  ]
+}

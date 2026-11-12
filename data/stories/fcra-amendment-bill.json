@@ -1,0 +1,50 @@
+{
+  "slug": "fcra-amendment-bill",
+  "short": "FCRA bill",
+  "category": "Policy",
+  "title": "The FCRA Amendment Bill: tighter rules for foreign-funded NGOs",
+  "dek": "A bill that would let the government take over assets of NGOs that lose their foreign-funding licence is now with a parliamentary committee.",
+  "seoTitle": "FCRA Amendment Bill 2026 timeline: what it proposes and where it stands",
+  "status": "In committee",
+  "tone": "wait",
+  "big": "31",
+  "delta": "MPs reviewing",
+  "bigLabel": "Members of the joint committee examining the bill",
+  "updated": "2026-11-12",
+  "glance": {
+    "what": "The Foreign Contribution (Regulation) Amendment Bill, 2026 is being examined by a 31-member joint parliamentary committee. It is not yet law.",
+    "why": "It would affect thousands of NGOs, charities and religious bodies that receive foreign funding, including what happens to their assets if they lose registration.",
+    "next": "The committee’s report is due by the end of the first week of the 2026 Winter Session."
+  },
+  "keyNumbers": [
+    {"label": "Committee size", "value": "31", "note": "21 Lok Sabha, 10 Rajya Sabha", "hot": true},
+    {"label": "Introduced", "value": "25 Mar", "note": "Lok Sabha"},
+    {"label": "Status", "value": "Not law", "note": "in committee"}
+  ],
+  "forYou": "If you run or work with an FCRA-registered organisation, the current Act and the 2026 Rules still apply. The bill changes nothing until Parliament passes it.",
+  "upcoming": [{"date": "2026-12-30", "label": "Winter Session", "text": "Committee report on the FCRA bill due"}],
+  "next": "Committee report due in the first week of the Winter Session.",
+  "links": [],
+  "events": [
+    {"date": "2026-03-25", "dateLabel": "25 Mar 2026", "phase": "law", "title": "Bill introduced in the Lok Sabha",
+     "summary": "It proposes a designated authority to take control of assets of NGOs whose FCRA licences are cancelled, surrendered or lapsed.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "ThePrint / ANI", "url": "https://theprint.in/india/fcra-amendment-bill-referred-to-joint-parliamentary-committee-congress-sp-seek-bills-withdrawal/"}, {"name": "Brut", "url": "https://www.brut.media/in/videos/rss-gets-foreign-funding-opposition-mps-want-fcra-bill-withdrawn"}]},
+    {"date": "2026-06-22", "dateLabel": "22 Jun 2026", "phase": "law", "title": "Separate FCRA Rules, 2026 come into force",
+     "summary": "Revised rules are notified and take effect. They are distinct from the amendment bill, which is still pending.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "ThePrint / ANI", "url": "https://theprint.in/india/fcra-amendment-bill-referred-to-joint-parliamentary-committee-congress-sp-seek-bills-withdrawal/"}, {"name": "SetIndiaBiz", "url": "https://www.setindiabiz.com/?p=27034"}]},
+    {"date": "2026-08-12", "dateLabel": "12 Aug 2026", "phase": "law", "title": "Sent to a joint committee amid protests",
+     "summary": "After opposition parties and minority groups demand its withdrawal, the Lok Sabha refers the bill to a 31-member joint parliamentary committee.",
+     "status": "Confirmed", "numbers": [{"k": "Committee", "v": "21 LS + 10 RS"}],
+     "sources": [{"name": "Business Today", "url": "https://www.businesstoday.in/india/story/fcra-bill-sent-to-31-member-joint-parliamentary-committee-for-detailed-scrutiny-548783-2026-08-12"}, {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/top-headlines/amid-uproar-fcra-bill-referred-to-jpc/"}, {"name": "ThePrint / ANI", "url": "https://theprint.in/india/fcra-amendment-bill-referred-to-joint-parliamentary-committee-congress-sp-seek-bills-withdrawal/"}]},
+    {"date": "2026-09-03", "dateLabel": "3 Sep 2026", "phase": "law", "title": "Committee formed, chaired by Sanjay Jaiswal",
+     "summary": "The joint committee is constituted with BJP MP Sanjay Jaiswal as chair.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "Telangana Today", "url": "https://telanganatoday.com/parliament-forms-31-members-panel-to-examine-contentious-fcra-amendment-bill"}, {"name": "Catholic Connect", "url": "https://catholicconnect.in/news/31-member-parliamentary-panel-to-examine-fcra-amendment-bill"}]},
+    {"date": "2026-09-18", "dateLabel": "18 Sep 2026", "phase": "law", "key": true, "title": "Home Ministry briefs the committee",
+     "summary": "The panel begins detailed examination after a briefing from the Ministry of Home Affairs.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "SetIndiaBiz", "url": "https://www.setindiabiz.com/?p=27034"}]}
+  ]
+}

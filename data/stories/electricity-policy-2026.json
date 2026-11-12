@@ -1,0 +1,39 @@
+{
+  "slug": "electricity-policy-2026",
+  "short": "Electricity policy",
+  "category": "Policy",
+  "title": "New National Electricity Policy: what it could mean for your power bill",
+  "dek": "A draft policy to replace the 2005 rules proposes yearly automatic tariff increases and cutting cross-subsidies.",
+  "seoTitle": "Draft National Electricity Policy 2026 explained: tariffs, subsidies, timeline",
+  "status": "Draft",
+  "tone": "quiet",
+  "big": "2,000",
+  "delta": "kWh by 2030",
+  "bigLabel": "Per-person electricity use the draft policy targets",
+  "updated": "2026-11-12",
+  "glance": {
+    "what": "The Power Ministry released a draft National Electricity Policy in January 2026 to replace the 2005 policy. Public comments closed on 19 February.",
+    "why": "It proposes index-linked tariff increases every April and limits on cross-subsidies, which could change household and industrial power bills.",
+    "next": "The final policy has to be notified. Nothing in the draft applies until then."
+  },
+  "keyNumbers": [
+    {"label": "Per-capita target", "value": "2,000 kWh", "note": "by 2030", "hot": true},
+    {"label": "Long-term target", "value": "4,000+ kWh", "note": "by 2047"},
+    {"label": "Tariff floor", "value": "50%", "note": "of average cost of supply"},
+    {"label": "Nuclear goal", "value": "100 GWe", "note": "by 2047"}
+  ],
+  "forYou": "Under the draft, tariffs would rise each April by an index rather than waiting for state regulators, and free power would need the subsidy paid to discoms in advance.",
+  "upcoming": [],
+  "next": "Final policy notification.",
+  "links": ["inflation-2026"],
+  "events": [
+    {"date": "2026-01-20", "dateLabel": "20 Jan 2026", "phase": "policy", "title": "Draft policy released for consultation",
+     "summary": "It proposes automatic yearly tariff revisions, no tariff below 50% of the average cost of supply, and exempting manufacturing and railways from cross-subsidy charges.",
+     "status": "Confirmed", "numbers": [{"k": "Tariff floor", "v": "50% of ACoS"}, {"k": "Target, 2030", "v": "2,000 kWh/person"}],
+     "sources": [{"name": "JSA Law", "url": "https://www.jsalaw.com/newsletters-and-updates/jsa-prism-electricity-and-power-january-2026-2/"}, {"name": "SCC Online", "url": "https://www.scconline.com/blog/?p=373426"}, {"name": "PSU Watch", "url": "https://psuwatch.com/amp/story/newsupdates/govt-floats-draft-nep-2026-proposes-automatic-tariff-revisions-signals-end-to-cross-subsidy-discom-monopoly"}, {"name": "Outlook Business", "url": "https://www.outlookbusiness.com/amp/story/news/power-ministry-seeks-stakeholder-comments-on-draft-national-electricity-policy-2026"}]},
+    {"date": "2026-02-19", "dateLabel": "19 Feb 2026", "phase": "policy", "key": true, "title": "Public comment period closes",
+     "summary": "Stakeholders had until 19 February to send comments. Kerala media highlighted that power bills would rise automatically every 1 April under the draft.",
+     "status": "Confirmed", "numbers": [],
+     "sources": [{"name": "JSA Law", "url": "https://www.jsalaw.com/newsletters-and-updates/jsa-prism-electricity-and-power-january-2026-2/"}, {"name": "Kerala Kaumudi", "url": "https://keralakaumudi.com/en/news/news-amp.php?id=1686521"}]}
+  ]
+}

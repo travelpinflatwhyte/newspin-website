@@ -9,6 +9,7 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* storage blocked: features degrade quietly */ }
   }
   var today = new Date().toISOString().slice(0, 10);
+  if (/[?&]tl=a\b/.test(location.search)) document.body.classList.remove('tl-b'); // old phone layout, for comparison
   var follows = load('np_follow', {});   // slug -> date followed
   var seen = load('np_seen', {});        // slug -> date last opened
   var homeSeen = load('np_home', null);  // date of last home visit

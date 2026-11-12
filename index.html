@@ -61,10 +61,18 @@
 
   <section id="live" aria-labelledby="live-h">
     <div class="grid-head"><h2 id="live-h">Live timelines</h2><div class="seg" role="group" aria-label="Filter by region"><button type="button" data-region="All" aria-pressed="true">Everywhere</button><button type="button" data-region="India" aria-pressed="false">India</button><button type="button" data-region="World" aria-pressed="false">World</button><button type="button" data-region="US" aria-pressed="false">US</button></div></div>
-    <div class="chips" role="group" aria-label="Filter by topic" style="margin:-4px 0 18px"><button type="button" class="chip" data-filter="All" aria-pressed="true">All</button><button type="button" class="chip" data-filter="Economy" aria-pressed="false">Economy</button><button type="button" class="chip" data-filter="Markets" aria-pressed="false">Markets</button><button type="button" class="chip" data-filter="Trade" aria-pressed="false">Trade</button><button type="button" class="chip" data-filter="World" aria-pressed="false">World</button><button type="button" class="chip" data-filter="Policy" aria-pressed="false">Policy</button><button type="button" class="chip" data-filter="Tech" aria-pressed="false">Tech</button></div>
+    <div class="toolbar">
+      <div class="chips" role="group" aria-label="Filter by topic"><button type="button" class="chip" data-filter="All" aria-pressed="true">All</button><button type="button" class="chip" data-filter="Economy" aria-pressed="false">Economy</button><button type="button" class="chip" data-filter="Markets" aria-pressed="false">Markets</button><button type="button" class="chip" data-filter="Trade" aria-pressed="false">Trade</button><button type="button" class="chip" data-filter="World" aria-pressed="false">World</button><button type="button" class="chip" data-filter="Policy" aria-pressed="false">Policy</button><button type="button" class="chip" data-filter="Tech" aria-pressed="false">Tech</button></div>
+      <label class="sort">Sort <select id="sort">
+        <option value="moving">Moving now</option>
+        <option value="latest">Latest update</option>
+        <option value="upcoming">Coming up</option>
+        <option value="biggest">Biggest stories</option>
+      </select></label>
+    </div>
     <p class="note" id="nomatch" hidden>No timelines match these filters yet.</p>
-    <div class="cards">
-<article class="card cat-Economy featured hot" data-cat="Economy" data-regions="India">
+    <div class="cards" id="cards-live">
+<article class="card cat-Economy featured hot" data-slug="inflation-2026" data-cat="Economy" data-regions="India" data-latest="2026-11-09" data-next="2026-11-12" data-imp="5" data-added="2025-11-12 2025-12-12 2026-02-12 2026-09-12 2026-10-07 2026-10-12 2026-11-09">
   <div class="card-band">
     <div class="row"><span class="cat">Economy</span><span class="status tone-hot">Update due today</span></div>
     <div class="big-row"><span class="big">5.54%</span><span class="delta">▲ highest since late 2024</span></div>
@@ -83,9 +91,47 @@
     </div>
   </div>
 </article>
-<article class="card cat-Economy featured" data-cat="Economy" data-regions="India">
+<article class="card cat-Tech featured" data-slug="nvidia-huang-investigation" data-cat="Tech" data-regions="US World" data-latest="2026-11-09" data-next="2026-11-17" data-imp="4" data-added="2026-10-29 2026-11-05 2026-11-06 2026-11-08 2026-11-09">
   <div class="card-band">
-    <div class="row"><span class="cat">Economy</span><span class="status tone-wait">Waiting on next meeting</span></div>
+    <div class="row"><span class="cat">Tech</span><span class="status tone-live">Under investigation</span></div>
+    <div class="big-row"><span class="big long">$4.8 bn</span><span class="delta">reported</span></div>
+    <span class="big-label">Nvidia chips bought by the Megaspeed group in two years, per The New York Times</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/nvidia-huang-investigation/">Nvidia investigates its own CEO: the Jensen Huang espionage reports</a></h3>
+    <p class="stands">The New York Times reported on 29 October that US intelligence found Jensen Huang had a close relationship with a Megaspeed executive they concluded was gathering information for Beijing. On 8 November Nvidia’s board opened an independent investigation, and Huang acknowledged he had been unfaithful to his wife.</p>
+    <div class="track" role="img" aria-label="Timeline of 5 events from 29 Oct 2026 to 9 Nov 2026"><div class="axis"></div><span class="yr" style="left:0">26 Oct</span><div class="tick" style="left:22.22%"></div><span class="yr" style="left:calc(22.22% + 4px)">Nov</span><div class="now" style="left:62.96%"></div><span class="now-l" style="right:auto;left:62.96%;transform:translateX(-50%)">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(11.11% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(37.04% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(40.74% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(48.15% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(51.85% - 8px);background:#0B5A8A;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #0B5A8A;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(81.48% - 7px);border:2px dashed #0B5A8A;background:#FFFFFF;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(85.19% - 7px);border:2px dashed #0B5A8A;background:#FFFFFF;"></span></div>
+    <div class="latest"><span class="d">9 Nov 2026</span><span class="t">Shares slide; China rejects the claims</span></div>
+    <div class="next"><strong>Next:</strong> Earnings on 17 Nov; requested House briefing on 18 Nov.</div>
+    <div class="linked">Linked to <a href="/newspin-website/stories/india-us-trade-deal/">US trade deal</a></div>
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/nvidia-huang-investigation/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="nvidia-huang-investigation" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Nvidia &amp; Huang"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article>
+<article class="card cat-Trade" data-slug="india-us-trade-deal" data-cat="Trade" data-regions="India US" data-latest="2026-11-03" data-next="" data-imp="4" data-added="2026-02-02 2026-02-06 2026-02-20 2026-07-24 2026-09-18 2026-11-03">
+  <div class="card-band">
+    <div class="row"><span class="cat">Trade</span><span class="status tone-quiet">Stalled</span></div>
+    <div class="big-row"><span class="big">10%</span><span class="delta">deal unsigned</span></div>
+    <span class="big-label">US duty on most Indian goods since 24 Jul</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/india-us-trade-deal/">India–US trade deal: announced in February, still not signed</a></h3>
+    <p class="stands">The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. As of 3 November there is still no signed agreement.</p>
+    <div class="track" role="img" aria-label="Timeline of 6 events from 2 Feb 2026 to 3 Nov 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(54.46% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(55.01% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(56.93% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(78.05% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(85.73% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(92.04% - 8px);background:#9A3412;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #9A3412;"></span></div>
+    <div class="latest"><span class="d">3 Nov 2026</span><span class="t">Still no signed deal</span></div>
+    <div class="next"><strong>Next:</strong> No public deadline. Analysts expect movement after the US midterms.</div>
+    <div class="linked">Linked to <a href="/newspin-website/stories/russian-oil/">Russian oil</a>, <a href="/newspin-website/stories/rupee-slide-2026/">Rupee</a></div>
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/india-us-trade-deal/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="india-us-trade-deal" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow US trade deal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article>
+<article class="card cat-Economy" data-slug="rbi-rate-cycle" data-cat="Economy" data-regions="India" data-latest="2026-10-07" data-next="2026-12-02" data-imp="5" data-added="2025-02-07 2025-04-09 2025-06-06 2025-10-01 2025-12-05 2026-02-06 2026-06-05 2026-08-05 2026-09-24 2026-09-30 2026-10-07">
+  <div class="card-band">
+    <div class="row"><span class="cat">Economy</span><span class="status tone-wait">Next meeting 2–4 Dec</span></div>
     <div class="big-row"><span class="big">5.50%</span><span class="delta">▲ 25 bps</span></div>
     <span class="big-label">Repo rate after the 7 Oct hike</span>
   </div>
@@ -102,121 +148,7 @@
     </div>
   </div>
 </article>
-<article class="card cat-Tech" data-cat="Tech" data-regions="US World">
-  <div class="card-band">
-    <div class="row"><span class="cat">Tech</span><span class="status tone-live">Under investigation</span></div>
-    <div class="big-row"><span class="big long">$4.8 bn</span><span class="delta">reported</span></div>
-    <span class="big-label">Nvidia chips bought by the Megaspeed group in two years, per The New York Times</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/nvidia-huang-investigation/">Nvidia investigates its own CEO: the Jensen Huang espionage reports</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 5 events from 29 Oct 2026 to 9 Nov 2026"><div class="axis"></div><span class="yr" style="left:0">26 Oct</span><div class="tick" style="left:22.22%"></div><span class="yr" style="left:calc(22.22% + 4px)">Nov</span><div class="now" style="left:62.96%"></div><span class="now-l" style="right:auto;left:62.96%;transform:translateX(-50%)">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(11.11% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(37.04% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(40.74% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(48.15% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(51.85% - 8px);background:#0B5A8A;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #0B5A8A;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(81.48% - 7px);border:2px dashed #0B5A8A;background:#FFFFFF;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(85.19% - 7px);border:2px dashed #0B5A8A;background:#FFFFFF;"></span></div>
-    <div class="latest"><span class="d">9 Nov 2026</span><span class="t">Shares slide; China rejects the claims</span></div>
-    <div class="next"><strong>Next:</strong> Earnings on 17 Nov; requested House briefing on 18 Nov.</div>
-    <div class="linked">Linked to <a href="/newspin-website/stories/india-us-trade-deal/">US trade deal</a></div>
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/nvidia-huang-investigation/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="nvidia-huang-investigation" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Nvidia &amp; Huang"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-World" data-cat="World" data-regions="World India">
-  <div class="card-band">
-    <div class="row"><span class="cat">World</span><span class="status tone-live">Developing</span></div>
-    <div class="big-row"><span class="big">≈ $100</span><span class="delta">Brent, 3 Sep</span></div>
-    <span class="big-label">Up from about $65 a barrel before the crisis</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/west-asia-oil/">West Asia war, the Strait of Hormuz and India’s oil bill</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 7 events from 1 Mar 2026 to 3 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.16% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.57% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(60.36% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(65.57% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(72.70% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(81.89% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(83.68% - 8px);background:#5B3A9A;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #5B3A9A;"></span></div>
-    <div class="latest"><span class="d">3 Sep 2026</span><span class="t">Brent nears $100 again</span></div>
-    <div class="next"><strong>Next:</strong> Any reopening of Hormuz shipping lanes.</div>
-    <div class="linked">Linked to <a href="/newspin-website/stories/rupee-slide-2026/">Rupee</a>, <a href="/newspin-website/stories/russian-oil/">Russian oil</a>, <a href="/newspin-website/stories/inflation-2026/">Inflation</a></div>
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/west-asia-oil/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="west-asia-oil" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow West Asia &amp; oil"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-Markets" data-cat="Markets" data-regions="India">
-  <div class="card-band">
-    <div class="row"><span class="cat">Markets</span><span class="status tone-live">Developing</span></div>
-    <div class="big-row"><span class="big">96.4</span><span class="delta">nearly −8% in 2026</span></div>
-    <span class="big-label">Rupees per US dollar, 6 Oct</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/rupee-slide-2026/">The rupee’s record slide in 2026</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 5 events from 21 Jan 2026 to 6 Oct 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(52.81% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(59.40% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(61.18% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(68.86% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(88.20% - 8px);background:#0F5B4E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #0F5B4E;"></span></div>
-    <div class="latest"><span class="d">6 Oct 2026</span><span class="t">Hovering near record lows ahead of the RBI decision</span></div>
-    <div class="next"><strong>Next:</strong> Watch oil prices and foreign investor flows.</div>
-    <div class="linked">Linked to <a href="/newspin-website/stories/west-asia-oil/">West Asia &amp; oil</a>, <a href="/newspin-website/stories/rbi-rate-cycle/">RBI rates</a></div>
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/rupee-slide-2026/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="rupee-slide-2026" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Rupee"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-Trade" data-cat="Trade" data-regions="India US">
-  <div class="card-band">
-    <div class="row"><span class="cat">Trade</span><span class="status tone-quiet">Stalled</span></div>
-    <div class="big-row"><span class="big">10%</span><span class="delta">deal unsigned</span></div>
-    <span class="big-label">US duty on most Indian goods since 24 Jul</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/india-us-trade-deal/">India–US trade deal: announced in February, still not signed</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 6 events from 2 Feb 2026 to 3 Nov 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(54.46% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(55.01% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(56.93% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(78.05% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(85.73% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(92.04% - 8px);background:#9A3412;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #9A3412;"></span></div>
-    <div class="latest"><span class="d">3 Nov 2026</span><span class="t">Still no signed deal</span></div>
-    <div class="next"><strong>Next:</strong> No public deadline. Analysts expect movement after the US midterms.</div>
-    <div class="linked">Linked to <a href="/newspin-website/stories/russian-oil/">Russian oil</a>, <a href="/newspin-website/stories/rupee-slide-2026/">Rupee</a></div>
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/india-us-trade-deal/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="india-us-trade-deal" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow US trade deal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-Trade" data-cat="Trade" data-regions="India World">
-  <div class="card-band">
-    <div class="row"><span class="cat">Trade</span><span class="status tone-live">Developing</span></div>
-    <div class="big-row"><span class="big">100%</span><span class="delta">tariff risk</span></div>
-    <span class="big-label">Maximum US tariff the new sanctions law allows</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/russian-oil/">India’s Russian oil dilemma</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 4 events from 2 Feb 2026 to 18 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(54.46% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.57% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(74.76% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(85.73% - 8px);background:#9A3412;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #9A3412;"></span></div>
-    <div class="latest"><span class="d">18 Sep 2026</span><span class="t">US law names India at risk of tariffs up to 100%</span></div>
-    <div class="next"><strong>Next:</strong> Whether the US applies the new tariffs.</div>
-    <div class="linked">Linked to <a href="/newspin-website/stories/india-us-trade-deal/">US trade deal</a>, <a href="/newspin-website/stories/west-asia-oil/">West Asia &amp; oil</a></div>
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/russian-oil/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="russian-oil" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Russian oil"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-Policy" data-cat="Policy" data-regions="India">
-  <div class="card-band">
-    <div class="row"><span class="cat">Policy</span><span class="status tone-wait">In committee</span></div>
-    <div class="big-row"><span class="big">31</span><span class="delta">MPs reviewing</span></div>
-    <span class="big-label">Members of the joint committee examining the bill</span>
-  </div>
-  <div class="card-body">
-    <h3><a href="/newspin-website/stories/fcra-amendment-bill/">The FCRA Amendment Bill: tighter rules for foreign-funded NGOs</a></h3>
-    
-    <div class="track" role="img" aria-label="Timeline of 5 events from 25 Mar 2026 to 18 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(61.45% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(73.66% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(80.66% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(83.68% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(85.73% - 8px);background:#3F444E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #3F444E;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(99.00% - 7px);border:2px dashed #3F444E;background:#FFFFFF;"></span></div>
-    <div class="latest"><span class="d">18 Sep 2026</span><span class="t">Home Ministry briefs the committee</span></div>
-    <div class="next"><strong>Next:</strong> Committee report due in the first week of the Winter Session.</div>
-    
-    <div class="card-actions">
-      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/fcra-amendment-bill/">Open timeline</a>
-      <button type="button" class="btn btn-follow btn-sm" data-follow="fcra-amendment-bill" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow FCRA bill"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
-    </div>
-  </div>
-</article>
-<article class="card cat-Tech" data-cat="Tech" data-regions="India">
+<article class="card cat-Tech" data-slug="digi-yatra-international" data-cat="Tech" data-regions="India" data-latest="2026-11-01" data-next="2026-12-31" data-imp="3" data-added="2026-04-09 2026-06-15 2026-09-22 2026-11-01">
   <div class="card-band">
     <div class="row"><span class="cat">Tech</span><span class="status tone-live">Trial live</span></div>
     <div class="big-row"><span class="big">7</span><span class="delta">airports</span></div>
@@ -224,7 +156,7 @@
   </div>
   <div class="card-body">
     <h3><a href="/newspin-website/stories/digi-yatra-international/">Digi Yatra goes international</a></h3>
-    
+    <p class="stands">Since 1 November 2026, Indian e-passport holders on select Air India and IndiGo international flights can use Digi Yatra at seven airports.</p>
     <div class="track" role="img" aria-label="Timeline of 4 events from 9 Apr 2026 to 1 Nov 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(63.51% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(72.70% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(86.28% - 5.5px);background:#0B5A8A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(91.77% - 8px);background:#0B5A8A;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #0B5A8A;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(99.00% - 7px);border:2px dashed #0B5A8A;background:#FFFFFF;"></span></div>
     <div class="latest"><span class="d">1 Nov 2026</span><span class="t">International trials begin at seven airports</span></div>
     <div class="next"><strong>Next:</strong> Trial runs to December; wider rollout planned for 2027.</div>
@@ -235,15 +167,94 @@
     </div>
   </div>
 </article>
-<article class="card cat-Policy" data-cat="Policy" data-regions="India">
+<article class="card cat-Markets" data-slug="rupee-slide-2026" data-cat="Markets" data-regions="India" data-latest="2026-10-06" data-next="" data-imp="4" data-added="2026-01-21 2026-03-10 2026-03-23 2026-05-18 2026-10-06">
   <div class="card-band">
-    <div class="row"><span class="cat">Policy</span><span class="status tone-quiet">In force</span></div>
+    <div class="row"><span class="cat">Markets</span><span class="status tone-live">Developing</span></div>
+    <div class="big-row"><span class="big">96.4</span><span class="delta">nearly −8% in 2026</span></div>
+    <span class="big-label">Rupees per US dollar, 6 Oct</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/rupee-slide-2026/">The rupee’s record slide in 2026</a></h3>
+    <p class="stands">The rupee has lost close to 8% against the dollar in 2026, setting record lows again and again.</p>
+    <div class="track" role="img" aria-label="Timeline of 5 events from 21 Jan 2026 to 6 Oct 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(52.81% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(59.40% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(61.18% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(68.86% - 5.5px);background:#0F5B4E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(88.20% - 8px);background:#0F5B4E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #0F5B4E;"></span></div>
+    <div class="latest"><span class="d">6 Oct 2026</span><span class="t">Hovering near record lows ahead of the RBI decision</span></div>
+    <div class="next"><strong>Next:</strong> Watch oil prices and foreign investor flows.</div>
+    <div class="linked">Linked to <a href="/newspin-website/stories/west-asia-oil/">West Asia &amp; oil</a>, <a href="/newspin-website/stories/rbi-rate-cycle/">RBI rates</a></div>
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/rupee-slide-2026/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="rupee-slide-2026" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Rupee"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article>
+<article class="card cat-Trade" data-slug="russian-oil" data-cat="Trade" data-regions="India World" data-latest="2026-09-18" data-next="" data-imp="3" data-added="2026-02-02 2026-03-04 2026-06-30 2026-09-18">
+  <div class="card-band">
+    <div class="row"><span class="cat">Trade</span><span class="status tone-live">Developing</span></div>
+    <div class="big-row"><span class="big">100%</span><span class="delta">tariff risk</span></div>
+    <span class="big-label">Maximum US tariff the new sanctions law allows</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/russian-oil/">India’s Russian oil dilemma</a></h3>
+    <p class="stands">India agreed to halt Russian oil purchases as part of the February US trade deal, but the Hormuz crisis pushed refiners back toward Russian crude.</p>
+    <div class="track" role="img" aria-label="Timeline of 4 events from 2 Feb 2026 to 18 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(54.46% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.57% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(74.76% - 5.5px);background:#9A3412;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(85.73% - 8px);background:#9A3412;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #9A3412;"></span></div>
+    <div class="latest"><span class="d">18 Sep 2026</span><span class="t">US law names India at risk of tariffs up to 100%</span></div>
+    <div class="next"><strong>Next:</strong> Whether the US applies the new tariffs.</div>
+    <div class="linked">Linked to <a href="/newspin-website/stories/india-us-trade-deal/">US trade deal</a>, <a href="/newspin-website/stories/west-asia-oil/">West Asia &amp; oil</a></div>
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/russian-oil/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="russian-oil" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow Russian oil"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article>
+<article class="card cat-Policy" data-slug="fcra-amendment-bill" data-cat="Policy" data-regions="India" data-latest="2026-09-18" data-next="2026-12-30" data-imp="3" data-added="2026-03-25 2026-06-22 2026-08-12 2026-09-03 2026-09-18">
+  <div class="card-band">
+    <div class="row"><span class="cat">Policy</span><span class="status tone-wait">In committee</span></div>
+    <div class="big-row"><span class="big">31</span><span class="delta">MPs reviewing</span></div>
+    <span class="big-label">Members of the joint committee examining the bill</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/fcra-amendment-bill/">The FCRA Amendment Bill: tighter rules for foreign-funded NGOs</a></h3>
+    <p class="stands">The Foreign Contribution (Regulation) Amendment Bill, 2026 is being examined by a 31-member joint parliamentary committee. It is not yet law.</p>
+    <div class="track" role="img" aria-label="Timeline of 5 events from 25 Mar 2026 to 18 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(61.45% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(73.66% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(80.66% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(83.68% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(85.73% - 8px);background:#3F444E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #3F444E;"></span><span class="dot" style="width:14px;height:14px;top:7px;left:calc(99.00% - 7px);border:2px dashed #3F444E;background:#FFFFFF;"></span></div>
+    <div class="latest"><span class="d">18 Sep 2026</span><span class="t">Home Ministry briefs the committee</span></div>
+    <div class="next"><strong>Next:</strong> Committee report due in the first week of the Winter Session.</div>
+    
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/fcra-amendment-bill/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="fcra-amendment-bill" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow FCRA bill"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article></div>
+    <section id="quiet" aria-labelledby="quiet-h">
+      <div class="grid-head" style="margin-top:40px"><h2 id="quiet-h" style="font-size:26px">Quiet for now</h2><span class="note">No new developments in 60 days. They come back to the top when something happens.</span></div>
+      <div class="cards" id="cards-quiet">
+<article class="card cat-World" data-slug="west-asia-oil" data-cat="World" data-regions="World India" data-latest="2026-09-03" data-next="" data-imp="4" data-added="2026-03-01 2026-03-04 2026-03-17 2026-04-24 2026-06-15 2026-08-21 2026-09-03">
+  <div class="card-band">
+    <div class="row"><span class="cat">World</span><span class="status tone-quiet">No update in 70 days</span></div>
+    <div class="big-row"><span class="big">≈ $100</span><span class="delta">Brent, 3 Sep</span></div>
+    <span class="big-label">Up from about $65 a barrel before the crisis</span>
+  </div>
+  <div class="card-body">
+    <h3><a href="/newspin-website/stories/west-asia-oil/">West Asia war, the Strait of Hormuz and India’s oil bill</a></h3>
+    <p class="stands">Since strikes on Iran in March 2026, shipping through the Strait of Hormuz has been disrupted and oil prices have swung between about $80 and over $100.</p>
+    <div class="track" role="img" aria-label="Timeline of 7 events from 1 Mar 2026 to 3 Sep 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.16% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(58.57% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(60.36% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(65.57% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(72.70% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(81.89% - 5.5px);background:#5B3A9A;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(83.68% - 8px);background:#5B3A9A;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #5B3A9A;"></span></div>
+    <div class="latest"><span class="d">3 Sep 2026</span><span class="t">Brent nears $100 again</span></div>
+    <div class="next"><strong>Next:</strong> Any reopening of Hormuz shipping lanes.</div>
+    <div class="linked">Linked to <a href="/newspin-website/stories/rupee-slide-2026/">Rupee</a>, <a href="/newspin-website/stories/russian-oil/">Russian oil</a>, <a href="/newspin-website/stories/inflation-2026/">Inflation</a></div>
+    <div class="card-actions">
+      <a class="btn btn-dark btn-sm" href="/newspin-website/stories/west-asia-oil/">Open timeline</a>
+      <button type="button" class="btn btn-follow btn-sm" data-follow="west-asia-oil" data-on="Following" data-off="Follow" aria-pressed="false" aria-label="Follow West Asia &amp; oil"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class="label">Follow</span></button>
+    </div>
+  </div>
+</article>
+<article class="card cat-Policy" data-slug="online-gaming-rules" data-cat="Policy" data-regions="India" data-latest="2026-05-01" data-next="" data-imp="2" data-added="2025-08-21 2026-04-22 2026-05-01">
+  <div class="card-band">
+    <div class="row"><span class="cat">Policy</span><span class="status tone-quiet">No update in 195 days</span></div>
     <div class="big-row"><span class="big">Banned</span><span class="delta">real-money games</span></div>
     <span class="big-label">Under rules in force since 1 May 2026</span>
   </div>
   <div class="card-body">
     <h3><a href="/newspin-website/stories/online-gaming-rules/">India’s online gaming crackdown and its new regulator</a></h3>
-    
+    <p class="stands">Since 1 May 2026, online games with money stakes are banned, and the Online Gaming Authority of India classifies and registers games.</p>
     <div class="track" role="img" aria-label="Timeline of 3 events from 21 Aug 2025 to 1 May 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(31.82% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(65.29% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(66.53% - 8px);background:#3F444E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #3F444E;"></span></div>
     <div class="latest"><span class="d">1 May 2026</span><span class="t">Rules take effect; real-money games banned</span></div>
     <div class="next"><strong>Next:</strong> Which games are cleared as esports or social games.</div>
@@ -254,15 +265,15 @@
     </div>
   </div>
 </article>
-<article class="card cat-Policy" data-cat="Policy" data-regions="India">
+<article class="card cat-Policy" data-slug="electricity-policy-2026" data-cat="Policy" data-regions="India" data-latest="2026-02-19" data-next="" data-imp="2" data-added="2026-01-20 2026-02-19">
   <div class="card-band">
-    <div class="row"><span class="cat">Policy</span><span class="status tone-quiet">Draft</span></div>
+    <div class="row"><span class="cat">Policy</span><span class="status tone-quiet">No update in 266 days</span></div>
     <div class="big-row"><span class="big">2,000</span><span class="delta">kWh by 2030</span></div>
     <span class="big-label">Per-person electricity use the draft policy targets</span>
   </div>
   <div class="card-body">
     <h3><a href="/newspin-website/stories/electricity-policy-2026/">New National Electricity Policy: what it could mean for your power bill</a></h3>
-    
+    <p class="stands">The Power Ministry released a draft National Electricity Policy in January 2026 to replace the 2005 policy. Public comments closed on 19 February.</p>
     <div class="track" role="img" aria-label="Timeline of 2 events from 20 Jan 2026 to 19 Feb 2026"><div class="axis"></div><span class="yr" style="left:0">2025</span><div class="tick" style="left:50.07%"></div><span class="yr" style="left:calc(50.07% + 4px)">2026</span><div class="now" style="left:93.28%"></div><span class="now-l">Now</span><span class="dot" style="width:11px;height:11px;top:8.5px;left:calc(52.67% - 5.5px);background:#3F444E;border:2px solid #FFFFFF;"></span><span class="dot" style="width:16px;height:16px;top:6px;left:calc(56.79% - 8px);background:#3F444E;box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #3F444E;"></span></div>
     <div class="latest"><span class="d">19 Feb 2026</span><span class="t">Public comment period closes</span></div>
     <div class="next"><strong>Next:</strong> Final policy notification.</div>
@@ -273,6 +284,7 @@
     </div>
   </div>
 </article></div>
+    </section>
     <div class="legend"><b>Timeline key</b>
       <span><i class="kd" style="background:#3F444E"></i>Event</span>
       <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 5px #3F444E"></i>Latest</span>

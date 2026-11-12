@@ -58,22 +58,90 @@
     });
   });
 
-  // ---- home: region and topic filters ----
+  // ---- home: ranking, sorting and filters ----
+  // Mirrors rank() in build.py so the order stays right between rebuilds.
+  var QUIET_DAYS = 60;
+  function daysBetween(a, b) { return Math.round((new Date(b + 'T00:00:00') - new Date(a + 'T00:00:00')) / 86400000); }
+  function rank(card) {
+    var latest = card.getAttribute('data-latest');
+    var next = card.getAttribute('data-next');
+    var imp = +card.getAttribute('data-imp') || 3;
+    var added = (card.getAttribute('data-added') || '').split(' ').filter(Boolean);
+    var days = daysBetween(latest, today);
+    var fresh = Math.max(0, 10 - days * 0.5);
+    var up = 0, until = null;
+    if (next && next >= today) {
+      until = daysBetween(today, next);
+      up = until <= 7 ? 6 - until * 0.5 : (until <= 21 ? 2 : 0);
+    }
+    var recent = Math.min(4, added.filter(function (x) { var g = daysBetween(x, today); return g >= 0 && g <= 14; }).length);
+    return {
+      score: fresh + up + imp * 2 + recent,
+      quiet: days > QUIET_DAYS && !(until !== null && until <= 30),
+      latest: latest, next: (next && next >= today) ? next : '', imp: imp
+    };
+  }
+  var liveBox = document.getElementById('cards-live');
+  var quietBox = document.getElementById('cards-quiet');
+  var sortSel = document.getElementById('sort');
   var chips = document.querySelectorAll('[data-filter]');
   var regionBtns = document.querySelectorAll('[data-region]');
   var filt = { cat: 'All', region: 'All' };
+  var allCards = Array.prototype.slice.call(document.querySelectorAll('.card[data-slug]'));
+
+  function arrange() {
+    if (!liveBox) return;
+    var mode = sortSel ? sortSel.value : 'moving';
+    var info = allCards.map(function (c) { return { el: c, r: rank(c) }; });
+    var cmp = {
+      moving: function (a, b) { return b.r.score - a.r.score; },
+      latest: function (a, b) { return a.r.latest < b.r.latest ? 1 : a.r.latest > b.r.latest ? -1 : b.r.score - a.r.score; },
+      upcoming: function (a, b) {
+        if (a.r.next && b.r.next) return a.r.next < b.r.next ? -1 : a.r.next > b.r.next ? 1 : 0;
+        if (a.r.next) return -1; if (b.r.next) return 1;
+        return b.r.score - a.r.score;
+      },
+      biggest: function (a, b) { return (b.r.imp - a.r.imp) || (b.r.score - a.r.score); }
+    }[mode];
+    info.sort(cmp);
+    var quietCount = 0;
+    info.forEach(function (x) {
+      var st = x.el.querySelector('.status');
+      if (st && !st.hasAttribute('data-orig')) { st.setAttribute('data-orig', st.textContent); st.setAttribute('data-tone', st.className); }
+      if (x.r.quiet && quietBox) {
+        quietBox.appendChild(x.el); quietCount++;
+        if (st) { st.textContent = 'No update in ' + daysBetween(x.r.latest, today) + ' days'; st.className = 'status tone-quiet'; }
+      } else {
+        liveBox.appendChild(x.el);
+        if (st) { st.textContent = st.getAttribute('data-orig'); st.className = st.getAttribute('data-tone'); }
+      }
+    });
+    var quietSec = document.getElementById('quiet');
+    if (quietSec) quietSec.hidden = quietCount === 0;
+    applyFilters();
+  }
+
   function applyFilters() {
-    var shown = 0;
-    document.querySelectorAll('.card[data-cat]').forEach(function (card) {
-      var okCat = filt.cat === 'All' || card.getAttribute('data-cat') === filt.cat;
-      var regions = (card.getAttribute('data-regions') || '').split(' ');
-      var okReg = filt.region === 'All' || regions.indexOf(filt.region) !== -1;
-      card.hidden = !(okCat && okReg);
-      if (!card.hidden) shown++;
+    var shownLive = 0, shownQuiet = 0, featured = 0;
+    allCards.forEach(function (card) { card.classList.remove('featured'); });
+    [liveBox, quietBox].forEach(function (box) {
+      if (!box) return;
+      Array.prototype.forEach.call(box.children, function (card) {
+        var okCat = filt.cat === 'All' || card.getAttribute('data-cat') === filt.cat;
+        var regions = (card.getAttribute('data-regions') || '').split(' ');
+        var okReg = filt.region === 'All' || regions.indexOf(filt.region) !== -1;
+        card.hidden = !(okCat && okReg);
+        if (card.hidden) return;
+        if (box === liveBox) { shownLive++; if (featured < 2) { card.classList.add('featured'); featured++; } }
+        else shownQuiet++;
+      });
     });
     var none = document.getElementById('nomatch');
-    if (none) none.hidden = shown > 0;
+    if (none) none.hidden = shownLive + shownQuiet > 0;
+    var quietSec = document.getElementById('quiet');
+    if (quietSec && quietBox) quietSec.hidden = shownQuiet === 0;
   }
+
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {
       filt.cat = chip.getAttribute('data-filter');
@@ -88,6 +156,11 @@
       applyFilters();
     });
   });
+  if (sortSel) {
+    sortSel.value = load('np_sort', 'moving');
+    sortSel.addEventListener('change', function () { save('np_sort', sortSel.value); arrange(); });
+  }
+  arrange();
 
   // ---- home: catch-up across followed stories ----
   function renderCatchup() {

@@ -40,8 +40,8 @@ ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke
 ICON_CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>'
 ICON_CHECK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>'
 ICON_WARN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>'
-LOGO_SVG = '<svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="none" stroke="#15171C" stroke-width="2.5"></circle><circle cx="14" cy="14" r="4" fill="#1D4ED8"></circle><line x1="14" y1="2" x2="14" y2="7" stroke="#15171C" stroke-width="2.5"></line></svg>'
-FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><rect width="28" height="28" rx="7" fill="#F7F7F4"/><circle cx="14" cy="14" r="10" fill="none" stroke="#15171C" stroke-width="2.5"/><circle cx="14" cy="14" r="3.6" fill="#1D4ED8"/><line x1="14" y1="4" x2="14" y2="8" stroke="#15171C" stroke-width="2.5"/></svg>'
+LOGO_SVG = '<svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 50V14L48 50V14" fill="none" stroke="#15171C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="16" cy="50" r="5" fill="#15171C"></circle><circle cx="16" cy="14" r="5" fill="#15171C"></circle><circle cx="48" cy="50" r="5" fill="#15171C"></circle><circle cx="48" cy="14" r="8" fill="#C2410C" stroke="#FFFFFF" stroke-width="3"></circle></svg>'
+FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#15171C"/><path d="M18 48V18L44 48V18" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="18" cy="18" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="18" r="9" fill="#F97316" stroke="#15171C" stroke-width="3"/></svg>'
 
 
 def src_link(src):
@@ -589,8 +589,13 @@ def build_og(site, stories, order, axis):
     def card(path, kicker, big, title, s=None):
         im = Image.new("RGB", (1200, 630), "#15171C")
         dr = ImageDraw.Draw(im)
-        dr.ellipse((60, 52, 100, 92), outline="#FFFFFF", width=4)
-        dr.ellipse((73, 65, 87, 79), fill="#3B6CF0")
+        # N-timeline mark, 44px tall, top-left
+        sx, sy, k = 56, 50, 44 / 64
+        pt = lambda x, y: (sx + x * k, sy + y * k)
+        dr.line([pt(16, 50), pt(16, 14), pt(48, 50), pt(48, 14)], fill="#FFFFFF", width=5, joint="curve")
+        for (cx, cy, r, col) in [(16, 50, 5, "#FFFFFF"), (16, 14, 5, "#FFFFFF"), (48, 50, 5, "#FFFFFF"), (48, 14, 9, "#F97316")]:
+            x, y = pt(cx, cy); rr = r * k
+            dr.ellipse((x - rr, y - rr, x + rr, y + rr), fill=col)
         dr.text((116, 50), "Newspin", font=serif(36), fill="#FFFFFF")
         dr.text((60, 130), kicker.upper(), font=semi(24), fill="#B9BEC8")
         y = 170

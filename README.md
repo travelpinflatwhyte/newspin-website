@@ -38,6 +38,17 @@ Upload the contents of `dist/` to the host that runs travelpinapp.com, as a sepa
 5. Have the About, Privacy and corrections wording reviewed, including any obligations for digital news publishers in India.
 6. Open item in the data: the RBI's October FY27 inflation projection is listed as 5.0% (PRS) vs 5.2% (Swarajya, Deccan Herald). It's flagged as "Sources differ" on the page; confirm against the RBI statement and update.
 
+## How the home page is ordered
+
+Stories are ranked automatically; there is no manual order. Each story's score is:
+
+- **freshness:** up to 10 points, fading over 20 days since the last event was added
+- **coming up:** up to 6 points if a scheduled event is within a week (2 if within three weeks)
+- **importance × 2:** `"importance"` in the story file, 1 (niche) to 5 (huge)
+- **activity:** 1 point per event added in the last 14 days, up to 4
+
+The top two stories are shown large. A story with no new event for 60 days, and nothing scheduled within 30 days, moves to "Quiet for now" until it gets a new event. Readers can switch the order to Latest update, Coming up or Biggest stories. The ranking runs in `build.py` and again in the reader's browser (`static/app.js`), so the order stays current between rebuilds. Keep the two in step if you change the formula.
+
 ## Updating stories
 
 Each story is a JSON file. To add an event, add an object to `events`:
@@ -51,6 +62,8 @@ Each story is a JSON file. To add an event, add an object to `events`:
 Optional: `"key": true` highlights it, `"differs": "…"` adds a Sources differ note, `"link": "<slug>"` links another story, `"added": "YYYY-MM-DD"` sets when it was added (used for "new since your last visit"; defaults to the event date).
 
 Phases: cut, hold, hike, data, forecast, policy, market, world, trade, law, tech.
+
+Each story also has `"regions"` (any of India, World, US), which drives the region filter on the home page, and a `category` (Economy, Markets, Trade, World, Policy, Tech). Stories that started less than four months ago get a zoomed-in timeline track automatically.
 
 Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `tone`, `next`), `glance` and `upcoming` as the story moves. Then run `python3 build.py` and upload `dist/` again.
 

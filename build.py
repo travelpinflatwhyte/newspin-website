@@ -227,6 +227,29 @@ def follow_btn(slug, cls="btn btn-follow", on="Following", off="Follow", short="
     return f'<button type="button" class="{cls}" data-follow="{e(slug)}" data-on="{e(on)}" data-off="{e(off)}" aria-pressed="false"{aria}>{ICON_BELL}<span class="label">{e(off)}</span></button>'
 
 
+# ---------- ranking (mirrors rank() in static/app.js) ----------
+QUIET_DAYS = 60
+
+
+def story_facts(s, today):
+    added = sorted(ev["added"] for ev in s["events"])
+    nxt = sorted(u["date"] for u in s.get("upcoming", []) if d(u["date"]) >= today)
+    return {"latest": added[-1], "next": nxt[0] if nxt else "", "added": added, "imp": s.get("importance", 3)}
+
+
+def rank(f, today):
+    days = (today - d(f["latest"])).days
+    fresh = max(0.0, 10 - days * 0.5)
+    up = 0.0
+    if f["next"]:
+        until = (d(f["next"]) - today).days
+        up = 6 - until * 0.5 if until <= 7 else (2 if until <= 21 else 0)
+    recent = min(4, sum(1 for a in f["added"] if 0 <= (today - d(a)).days <= 14))
+    score = fresh + up + f["imp"] * 2 + recent
+    quiet = days > QUIET_DAYS and not (f["next"] and (d(f["next"]) - today).days <= 30)
+    return score, quiet
+
+
 # ---------- home ----------
 def build_home(site, stories, order, axis):
     today = axis.today
@@ -259,20 +282,30 @@ def build_home(site, stories, order, axis):
     chips = "".join(f'<button type="button" class="chip" data-filter="{e(c)}" aria-pressed="{"true" if c == "All" else "false"}">{e(c)}</button>' for c in site["categories"])
     region_btns = "".join(f'<button type="button" data-region="{e(r)}" aria-pressed="{"true" if r == "All" else "false"}">{e(r if r != "All" else "Everywhere")}</button>' for r in site.get("regions", ["All"]))
 
-    cards = []
-    for slug in order:
+    facts = {slug: story_facts(stories[slug], today) for slug in order}
+    ranked = sorted(order, key=lambda x: -rank(facts[x], today)[0])
+    live = [x for x in ranked if not rank(facts[x], today)[1]]
+    quiet = [x for x in ranked if rank(facts[x], today)[1]]
+    cards, quiet_cards = [], []
+    for slug in live + quiet:
         s = stories[slug]
+        f = facts[slug]
         latest = latest_event(s)
-        feat = " featured" if s.get("featured") else ""
+        feat = " featured" if slug in live[:2] else ""
         hot = " hot" if s["tone"] == "hot" else ""
         long_ = " long" if len(s["big"]) > 6 else ""
-        stands = f'<p class="stands">{e(s["glance"]["what"])}</p>' if s.get("featured") else ""
+        stands = f'<p class="stands">{e(s["glance"]["what"])}</p>'
         links = ", ".join(f'<a href="/stories/{e(l)}/">{e(stories[l]["short"])}</a>' for l in s.get("links", []) if l in stories)
         linked = f'<div class="linked">Linked to {links}</div>' if links else ""
-        cards.append(f"""
-<article class="card {cat_class(s['category'])}{feat}{hot}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}">
+        target = cards if slug in live else quiet_cards
+        if slug in live:
+            status_pill = f'<span class="status tone-{e(s["tone"])}">{e(s["status"])}</span>'
+        else:
+            status_pill = f'<span class="status tone-quiet">No update in {(today - d(f["latest"])).days} days</span>'
+        target.append(f"""
+<article class="card {cat_class(s['category'])}{feat}{hot}" data-slug="{e(slug)}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}" data-latest="{e(f['latest'])}" data-next="{e(f['next'])}" data-imp="{f['imp']}" data-added="{e(' '.join(f['added']))}">
   <div class="card-band">
-    <div class="row"><span class="cat">{e(s['category'])}</span><span class="status tone-{e(s['tone'])}">{e(s['status'])}</span></div>
+    <div class="row"><span class="cat">{e(s['category'])}</span>{status_pill}</div>
     <div class="big-row"><span class="big{long_}">{e(s['big'])}</span><span class="delta">{e(s['delta'])}</span></div>
     <span class="big-label">{e(s['bigLabel'])}</span>
   </div>
@@ -323,9 +356,21 @@ def build_home(site, stories, order, axis):
 
   <section id="live" aria-labelledby="live-h">
     <div class="grid-head"><h2 id="live-h">Live timelines</h2><div class="seg" role="group" aria-label="Filter by region">{region_btns}</div></div>
-    <div class="chips" role="group" aria-label="Filter by topic" style="margin:-4px 0 18px">{chips}</div>
+    <div class="toolbar">
+      <div class="chips" role="group" aria-label="Filter by topic">{chips}</div>
+      <label class="sort">Sort <select id="sort">
+        <option value="moving">Moving now</option>
+        <option value="latest">Latest update</option>
+        <option value="upcoming">Coming up</option>
+        <option value="biggest">Biggest stories</option>
+      </select></label>
+    </div>
     <p class="note" id="nomatch" hidden>No timelines match these filters yet.</p>
-    <div class="cards">{''.join(cards)}</div>
+    <div class="cards" id="cards-live">{''.join(cards)}</div>
+    <section id="quiet" aria-labelledby="quiet-h"{'' if quiet_cards else ' hidden'}>
+      <div class="grid-head" style="margin-top:40px"><h2 id="quiet-h" style="font-size:26px">Quiet for now</h2><span class="note">No new developments in {QUIET_DAYS} days. They come back to the top when something happens.</span></div>
+      <div class="cards" id="cards-quiet">{''.join(quiet_cards)}</div>
+    </section>
     <div class="legend"><b>Timeline key</b>
       <span><i class="kd" style="background:#3F444E"></i>Event</span>
       <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 5px #3F444E"></i>Latest</span>

@@ -11,32 +11,32 @@
   "seoTitle": "Jensen Huang Nvidia investigation timeline: what happened and what’s next",
   "importance": 4,
   "status": "Under investigation",
-  "tone": "live",
-  "big": "$4.8 bn",
-  "delta": "reported",
-  "bigLabel": "Nvidia chips bought by the Megaspeed group in two years, per The New York Times",
+  "tone": "hot",
+  "big": "≈ $500 bn",
+  "delta": "market value lost",
+  "bigLabel": "Fall in Nvidia’s value since 9 Nov, per NBC News",
   "updated": "2026-11-12",
   "glance": {
-    "what": "The New York Times reported on 29 October that US intelligence found Jensen Huang had a close relationship with a Megaspeed executive they concluded was gathering information for Beijing. On 8 November Nvidia’s board opened an independent investigation, and Huang acknowledged he had been unfaithful to his wife.",
-    "why": "Nvidia makes the chips behind most of the world’s AI. The story touches US–China chip export rules, a major customer that bought billions of dollars of Nvidia chips, and the company most investors now hold.",
-    "next": "Nvidia reports quarterly earnings on 17 November. Three House committee chairs have asked Huang for a closed-door briefing on 18 November."
+    "what": "The New York Times reported on 29 October that US intelligence found Jensen Huang had a close relationship with a Megaspeed executive they concluded was gathering information for Beijing. Nvidia’s board opened an independent investigation on 8 November, Huang admitted infidelity, and on 10 November the board hired a former US attorney and Wachtell Lipton to run the inquiry. On 11 November the Times reported a second alleged relationship, with a senior Nvidia executive.",
+    "why": "Nvidia makes the chips behind most of the world’s AI. The story now touches US–China chip export rules, a customer that bought billions of dollars of Nvidia chips, workplace rules at the top of the company, and whether its founder stays in charge.",
+    "next": "Nvidia reports quarterly earnings on 17 November. Three House committee chairs asked Huang for a closed-door briefing on 18 November; we haven’t found a public answer to their 11 November deadline yet."
   },
   "keyNumbers": [
     {
-      "label": "Megaspeed chip purchases",
-      "value": "$4.8 bn",
-      "note": "two years, reported by NYT",
+      "label": "Market value lost",
+      "value": "≈ $500 bn",
+      "note": "since 9 Nov, per NBC",
       "hot": true
     },
     {
-      "label": "Close, 6 Nov",
-      "value": "$186.64",
-      "note": "before the board probe"
+      "label": "Megaspeed chip purchases",
+      "value": "$4.8 bn",
+      "note": "two years, reported by NYT"
     },
     {
-      "label": "Low, 9 Nov",
-      "value": "$171.80",
-      "note": "down as much as 8%"
+      "label": "Lead investigator",
+      "value": "Joon Kim",
+      "note": "ex-acting US Attorney"
     },
     {
       "label": "Status",
@@ -44,7 +44,7 @@
       "note": "during the review"
     }
   ],
-  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and any congressional briefing. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the claims about the Megaspeed executive are allegations, which China denies.",
+  "forYou": "If you hold Nvidia shares or tech funds, expect swings around the 17 November earnings and any congressional briefing. No outlet has reported that Huang broke any law or that Nvidia secrets were lost. The claims about the Megaspeed executive are allegations, which China denies, and the second relationship is reported, not confirmed.",
   "upcoming": [
     {
       "date": "2026-11-17",
@@ -145,7 +145,6 @@
       "date": "2026-11-08",
       "dateLabel": "8 Nov 2026",
       "phase": "policy",
-      "key": true,
       "title": "Board opens independent investigation; Huang admits infidelity",
       "summary": "A committee of independent directors with outside counsel will review the reports. The board says it has no reason to believe national security or company secrets were compromised and that it has confidence in Huang, who stays CEO. In a message to staff, Huang says he was unfaithful to his wife and will cooperate fully. President Trump calls him an honourable man and says he has not discussed the matter with him.",
       "status": "Confirmed · Nvidia statement",
@@ -156,6 +155,11 @@
         }
       ],
       "sources": [
+        {
+          "name": "Nvidia board statement",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "primary": true
+        },
         {
           "name": "AP (via WPXI)",
           "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
@@ -171,6 +175,10 @@
         {
           "name": "Interesting Engineering",
           "url": "https://interestingengineering.com/culture/nvidia-jensen-huang-admits-affair-chinese-spy"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
         }
       ]
     },
@@ -215,6 +223,57 @@
         {
           "name": "ABC News",
           "url": "https://abc30.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026",
+      "phase": "policy",
+      "key": true,
+      "added": "2026-11-12",
+      "title": "Former US attorney and Wachtell Lipton hired to run the inquiry",
+      "summary": "The board names Joon Kim, a former acting US Attorney, and the law firm Wachtell, Lipton, Rosen & Katz to lead the independent investigation. Nvidia’s losses since Monday reach close to $500 billion in market value, according to NBC News.",
+      "status": "Confirmed · Nvidia statement",
+      "numbers": [
+        {
+          "k": "Lead counsel",
+          "v": "Joon Kim, Wachtell Lipton"
+        },
+        {
+          "k": "Market value lost",
+          "v": "≈ $500 bn (NBC)"
+        }
+      ],
+      "differs": "NBC News puts the fall at more than 10% since Monday; CNN reported the shares down over 5% for the week on 11 November.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026",
+      "phase": "world",
+      "added": "2026-11-12",
+      "title": "New report alleges a second relationship, with a senior Nvidia executive",
+      "summary": "The New York Times reports, citing five employees, that Huang is also suspected of a relationship with a married executive who reports directly to him. Nvidia has rules discouraging relationships between managers and subordinates. This is a reported allegation; Nvidia’s response had not been published in the coverage we reviewed. Analysts have started asking whether Huang could be forced to step aside, with no public succession plan.",
+      "status": "Reported, not confirmed",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "TechCrunch (citing The New York Times)",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
         }
       ]
     }

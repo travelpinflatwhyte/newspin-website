@@ -33,7 +33,7 @@ PHASES = {
     "law": ("Law", "#3F444E", "#EEEEEA", None),
     "tech": ("Tech", "#0B5A8A", "#E6F1FA", None),
 }
-CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech & travel": "#0B5A8A"}
+CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech": "#0B5A8A"}
 
 ICON_BELL = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>'
 ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>'
@@ -92,15 +92,48 @@ class Axis:
         return max(0.5, min(99.0, (x - self.start).days / span * 100))
 
 
+class LocalAxis:
+    """Zoomed axis for short stories, so a two-week story isn't a single blob."""
+    def __init__(self, s, today):
+        first = d(s["events"][0]["date"])
+        ends = [d(s["events"][-1]["date"]), today] + [d(u["date"]) for u in s.get("upcoming", []) if d(u["date"]) >= today]
+        self.start = first - dt.timedelta(days=3)
+        self.end = max(ends) + dt.timedelta(days=4)
+        self.today = today
+        self.marks = []
+        m = dt.date(self.start.year, self.start.month, 1)
+        while m <= self.end:
+            if m >= self.start:
+                self.marks.append((m, m.strftime("%b")))
+            m = dt.date(m.year + (m.month // 12), m.month % 12 + 1, 1)
+        self.first_label = self.start.strftime("%-d %b")
+
+    def pos(self, date):
+        x = d(date) if isinstance(date, str) else date
+        span = (self.end - self.start).days
+        return max(0.5, min(99.0, (x - self.start).days / span * 100))
+
+
 def track_html(s, axis, dark=False):
+    if (axis.today - d(s["events"][0]["date"])).days < 120:
+        axis = LocalAxis(s, axis.today)
     parts = [f'<div class="track{" track-dark" if dark else ""}" role="img" aria-label="{e(track_label(s))}">', '<div class="axis"></div>']
-    for i, y in enumerate(axis.years):
-        p = axis.pos(dt.date(y, 1, 1))
-        if i > 0:
-            parts.append(f'<div class="tick" style="left:{p:.2f}%"></div>')
-        left = "0" if i == 0 else f"calc({p:.2f}% + 4px)"
-        parts.append(f'<span class="yr" style="left:{left}">{y}</span>')
-    parts.append(f'<div class="now" style="left:{axis.pos(axis.today):.2f}%"></div><span class="now-l">Now</span>')
+    if isinstance(axis, LocalAxis):
+        parts.append(f'<span class="yr" style="left:0">{axis.first_label}</span>')
+        for m, label in axis.marks:
+            p = axis.pos(m)
+            if 8 < p < 85:
+                parts.append(f'<div class="tick" style="left:{p:.2f}%"></div><span class="yr" style="left:calc({p:.2f}% + 4px)">{label}</span>')
+    else:
+        for i, y in enumerate(axis.years):
+            p = axis.pos(dt.date(y, 1, 1))
+            if i > 0:
+                parts.append(f'<div class="tick" style="left:{p:.2f}%"></div>')
+            left = "0" if i == 0 else f"calc({p:.2f}% + 4px)"
+            parts.append(f'<span class="yr" style="left:{left}">{y}</span>')
+    np_ = axis.pos(axis.today)
+    now_l = '<span class="now-l">Now</span>' if np_ > 90 else f'<span class="now-l" style="right:auto;left:{np_:.2f}%;transform:translateX(-50%)">Now</span>'
+    parts.append(f'<div class="now" style="left:{np_:.2f}%"></div>{now_l}')
     ink = CAT_INK.get(s["category"], "#3F444E")
     ring = "#15171C" if dark else "#FFFFFF"
     real = [ev for ev in s["events"]]
@@ -224,6 +257,7 @@ def build_home(site, stories, order, axis):
         return "".join(out)
 
     chips = "".join(f'<button type="button" class="chip" data-filter="{e(c)}" aria-pressed="{"true" if c == "All" else "false"}">{e(c)}</button>' for c in site["categories"])
+    region_btns = "".join(f'<button type="button" data-region="{e(r)}" aria-pressed="{"true" if r == "All" else "false"}">{e(r if r != "All" else "Everywhere")}</button>' for r in site.get("regions", ["All"]))
 
     cards = []
     for slug in order:
@@ -236,7 +270,7 @@ def build_home(site, stories, order, axis):
         links = ", ".join(f'<a href="/stories/{e(l)}/">{e(stories[l]["short"])}</a>' for l in s.get("links", []) if l in stories)
         linked = f'<div class="linked">Linked to {links}</div>' if links else ""
         cards.append(f"""
-<article class="card {cat_class(s['category'])}{feat}{hot}" data-cat="{e(s['category'])}">
+<article class="card {cat_class(s['category'])}{feat}{hot}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}">
   <div class="card-band">
     <div class="row"><span class="cat">{e(s['category'])}</span><span class="status tone-{e(s['tone'])}">{e(s['status'])}</span></div>
     <div class="big-row"><span class="big{long_}">{e(s['big'])}</span><span class="delta">{e(s['delta'])}</span></div>
@@ -264,9 +298,9 @@ def build_home(site, stories, order, axis):
 <div class="wrap">
   <div class="home-top">
     <section class="catchup" id="catchup-intro" aria-labelledby="intro-h">
-      <span class="kicker">{len(order)} live timelines · updated {e(nice_date(site['today']))}</span>
+      <span class="kicker">{len(order)} live timelines · India, World and US · updated {e(nice_date(site['today']))}</span>
       <h1 id="intro-h">Every big story, from the beginning.</h1>
-      <p>Newspin turns India’s biggest ongoing stories into clear timelines: what happened, when, and what comes next. Every event links to its sources.</p>
+      <p>Newspin turns the biggest ongoing stories in India and around the world into clear timelines: what happened, when, and what comes next. Every event links to its sources.</p>
       <p>Follow a few stories and this space becomes your catch-up: what changed since you last looked.</p>
       <div class="hero-actions"><a class="btn btn-light" href="#live">Browse timelines</a><a class="btn btn-ghost" href="/about/">How it works</a></div>
     </section>
@@ -288,7 +322,9 @@ def build_home(site, stories, order, axis):
   </section>
 
   <section id="live" aria-labelledby="live-h">
-    <div class="grid-head"><h2 id="live-h">Live timelines</h2><div class="chips" role="group" aria-label="Filter by topic">{chips}</div></div>
+    <div class="grid-head"><h2 id="live-h">Live timelines</h2><div class="seg" role="group" aria-label="Filter by region">{region_btns}</div></div>
+    <div class="chips" role="group" aria-label="Filter by topic" style="margin:-4px 0 18px">{chips}</div>
+    <p class="note" id="nomatch" hidden>No timelines match these filters yet.</p>
     <div class="cards">{''.join(cards)}</div>
     <div class="legend"><b>Timeline key</b>
       <span><i class="kd" style="background:#3F444E"></i>Event</span>
@@ -302,7 +338,7 @@ def build_home(site, stories, order, axis):
 <script>window.NP_STORIES={json.dumps(js_data, ensure_ascii=False)};</script>
 """
     ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Newspin", "url": site["domain"], "description": site["description"]}
-    return page(site, title="Newspin · India’s big stories as timelines", desc=site["description"], path="/", body=body, jsonld=ld)
+    return page(site, title="Newspin · The big stories, as timelines", desc=site["description"], path="/", body=body, jsonld=ld)
 
 
 # ---------- story ----------
@@ -528,7 +564,7 @@ def build_og(site, stories, order, axis):
             dr.text((x1 - 50, ty + 16), "Now", font=semi(20), fill="#FFFFFF")
         im.save(path, optimize=True)
 
-    card(out / "home.png", f"{len(order)} live timelines", None, "India’s biggest stories, as timelines you can read in 30 seconds.")
+    card(out / "home.png", f"{len(order)} live timelines", None, "The biggest stories in India and the world, as timelines you can read in 30 seconds.")
     for slug in order:
         s = stories[slug]
         card(out / f"{slug}.png", s["category"] + " · " + s["status"], s["big"], s["title"], s)

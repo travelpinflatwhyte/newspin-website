@@ -1,0 +1,221 @@
+{
+  "slug": "nvidia-huang-investigation",
+  "short": "Nvidia & Huang",
+  "category": "Tech",
+  "regions": [
+    "US",
+    "World"
+  ],
+  "title": "Nvidia investigates its own CEO: the Jensen Huang espionage reports",
+  "dek": "A report that the world’s most valuable chipmaker’s CEO was targeted by Chinese intelligence has led to a board inquiry, a share sell-off and questions from Congress.",
+  "seoTitle": "Jensen Huang Nvidia investigation timeline: what happened and what’s next",
+  "status": "Under investigation",
+  "tone": "live",
+  "big": "$4.8 bn",
+  "delta": "reported",
+  "bigLabel": "Nvidia chips bought by the Megaspeed group in two years, per The New York Times",
+  "updated": "2026-11-12",
+  "glance": {
+    "what": "The New York Times reported on 29 October that US intelligence found Jensen Huang had a close relationship with a Megaspeed executive they concluded was gathering information for Beijing. On 8 November Nvidia’s board opened an independent investigation, and Huang acknowledged he had been unfaithful to his wife.",
+    "why": "Nvidia makes the chips behind most of the world’s AI. The story touches US–China chip export rules, a major customer that bought billions of dollars of Nvidia chips, and the company most investors now hold.",
+    "next": "Nvidia reports quarterly earnings on 17 November. Three House committee chairs have asked Huang for a closed-door briefing on 18 November."
+  },
+  "keyNumbers": [
+    {
+      "label": "Megaspeed chip purchases",
+      "value": "$4.8 bn",
+      "note": "two years, reported by NYT",
+      "hot": true
+    },
+    {
+      "label": "Close, 6 Nov",
+      "value": "$186.64",
+      "note": "before the board probe"
+    },
+    {
+      "label": "Low, 9 Nov",
+      "value": "$171.80",
+      "note": "down as much as 8%"
+    },
+    {
+      "label": "Status",
+      "value": "Huang stays CEO",
+      "note": "during the review"
+    }
+  ],
+  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and any congressional briefing. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the claims about the Megaspeed executive are allegations, which China denies.",
+  "upcoming": [
+    {
+      "date": "2026-11-17",
+      "label": "17 Nov",
+      "text": "Nvidia third-quarter earnings"
+    },
+    {
+      "date": "2026-11-18",
+      "label": "18 Nov",
+      "text": "Requested House briefing with Jensen Huang"
+    }
+  ],
+  "next": "Earnings on 17 Nov; requested House briefing on 18 Nov.",
+  "links": [
+    "india-us-trade-deal"
+  ],
+  "events": [
+    {
+      "date": "2026-10-29",
+      "dateLabel": "29 Oct 2026",
+      "phase": "world",
+      "title": "New York Times report: Huang targeted by Chinese intelligence",
+      "summary": "US intelligence agencies found Huang had developed a close relationship with an executive at Singapore-based Megaspeed, one of Nvidia’s biggest Southeast Asian customers, whom US officials concluded was gathering information for Beijing. Officials did not believe Huang knew. Nvidia said the interactions were a normal part of his job. China called the claims baseless smears.",
+      "status": "Reported · The New York Times",
+      "numbers": [
+        {
+          "k": "Megaspeed chip purchases",
+          "v": "$4.8 bn (2 yrs, reported)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
+        },
+        {
+          "name": "The Telegraph (via t2)",
+          "url": "https://t2online.in/tech/tech-news/nvidia-board-orders-independent-investigation-into-jensen-huang-over-links-to-suspected-chinese-spy/2009133"
+        },
+        {
+          "name": "AP (via WPXI)",
+          "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "dateLabel": "4–5 Nov 2026",
+      "phase": "law",
+      "title": "House committee chairs ask Huang for a closed-door briefing",
+      "summary": "Three Republican House committee chairs ask Huang to brief them on 18 November about his contacts with the Megaspeed executive and Nvidia’s protections against espionage, with a reply due by 11 November. The letter comes a day after midterms in which Republicans lost control of Congress.",
+      "status": "Confirmed · committee release",
+      "numbers": [
+        {
+          "k": "Requested date",
+          "v": "18 Nov"
+        },
+        {
+          "k": "Reply due",
+          "v": "11 Nov"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Tech Insider",
+          "url": "https://tech-insider.org/?p=55787"
+        },
+        {
+          "name": "AI Chat Daily",
+          "url": "https://www.aichatdaily.com/ai-security/nvidia-pushes-back-house-chairs-seek-jensen-huang"
+        },
+        {
+          "name": "ABC7",
+          "url": "https://abc7news.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
+        },
+        {
+          "name": "Let’s Data Science (citing Axios)",
+          "url": "https://letsdatascience.com/news/house-chairs-ask-nvidia-ceo-jensen-huang-for-closed-door-bri-d3ca0fdc"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "dateLabel": "6 Nov 2026",
+      "phase": "law",
+      "title": "Incoming Democratic majority signals its own questions",
+      "summary": "Bloomberg reports that the new Democratic majority in Congress is set to demand answers from Nvidia on keeping its AI chips out of China. The new Congress sits from 3 January.",
+      "status": "Reported · Bloomberg",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "FourWeekMBA (citing Bloomberg)",
+          "url": "https://fourweekmba.com/ai-nvidia-declined-a-june-hearing-democrats-win-2027-gavels/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "dateLabel": "8 Nov 2026",
+      "phase": "policy",
+      "key": true,
+      "title": "Board opens independent investigation; Huang admits infidelity",
+      "summary": "A committee of independent directors with outside counsel will review the reports. The board says it has no reason to believe national security or company secrets were compromised and that it has confidence in Huang, who stays CEO. In a message to staff, Huang says he was unfaithful to his wife and will cooperate fully. President Trump calls him an honourable man and says he has not discussed the matter with him.",
+      "status": "Confirmed · Nvidia statement",
+      "numbers": [
+        {
+          "k": "CEO",
+          "v": "Stays in role"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP (via WPXI)",
+          "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
+        },
+        {
+          "name": "TechRepublic",
+          "url": "https://techrepublic.com/article/news-nvidia-jensen-huang-espionage-inquiry-apac-china/"
+        },
+        {
+          "name": "Interesting Engineering",
+          "url": "https://interestingengineering.com/culture/nvidia-jensen-huang-admits-affair-chinese-spy"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "market",
+      "title": "Shares slide; China rejects the claims",
+      "summary": "Nvidia falls as much as 8% in early trading before recovering to about 4% down, while rivals AMD and Broadcom rise. China’s Foreign Ministry calls the allegations unsubstantiated. Huang pulls out of an AI industry CEO forum.",
+      "status": "Market data",
+      "numbers": [
+        {
+          "k": "Prior close",
+          "v": "$186.64"
+        },
+        {
+          "k": "Early low",
+          "v": "$171.80"
+        },
+        {
+          "k": "Late move",
+          "v": "≈ −4%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Finviz",
+          "url": "https://finviz.com/news/418813/nvidia-shares-fall-more-than-4-as-board-investigates-allegations-involving-ceo-jensen-huang"
+        },
+        {
+          "name": "Beinsure",
+          "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/"
+        },
+        {
+          "name": "Good Morning America",
+          "url": "https://www.goodmorningamerica.com/news/story/nvidia-stock-falls-after-company-opens-probe-ceo-137970524"
+        },
+        {
+          "name": "IBTimes",
+          "url": "https://www.ibtimes.com/nvidia-stock-falls-huang-board-investigation-3809545"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abc30.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
+        }
+      ]
+    }
+  ]
+}

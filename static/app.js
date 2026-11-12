@@ -58,15 +58,34 @@
     });
   });
 
-  // ---- home: filter chips ----
+  // ---- home: region and topic filters ----
   var chips = document.querySelectorAll('[data-filter]');
+  var regionBtns = document.querySelectorAll('[data-region]');
+  var filt = { cat: 'All', region: 'All' };
+  function applyFilters() {
+    var shown = 0;
+    document.querySelectorAll('.card[data-cat]').forEach(function (card) {
+      var okCat = filt.cat === 'All' || card.getAttribute('data-cat') === filt.cat;
+      var regions = (card.getAttribute('data-regions') || '').split(' ');
+      var okReg = filt.region === 'All' || regions.indexOf(filt.region) !== -1;
+      card.hidden = !(okCat && okReg);
+      if (!card.hidden) shown++;
+    });
+    var none = document.getElementById('nomatch');
+    if (none) none.hidden = shown > 0;
+  }
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {
-      var cat = chip.getAttribute('data-filter');
+      filt.cat = chip.getAttribute('data-filter');
       chips.forEach(function (c) { c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
-      document.querySelectorAll('.card[data-cat]').forEach(function (card) {
-        card.hidden = !(cat === 'All' || card.getAttribute('data-cat') === cat);
-      });
+      applyFilters();
+    });
+  });
+  regionBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filt.region = btn.getAttribute('data-region');
+      regionBtns.forEach(function (c) { c.setAttribute('aria-pressed', c === btn ? 'true' : 'false'); });
+      applyFilters();
     });
   });
 

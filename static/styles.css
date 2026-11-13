@@ -255,7 +255,10 @@ button{font-family:inherit}
   .featured .big{font-size:56px}
   .catchup{padding:22px 20px}
   .grid-head h2{font-size:28px}
-  .nav{order:3;flex-basis:100%}
+  .site-header .wrap{flex-wrap:nowrap;gap:4px 6px}
+  .logo{flex:0 0 auto;gap:8px}
+  .nav{order:0;flex:0 1 auto;flex-basis:auto;flex-wrap:nowrap;gap:0}
+  .nav a{padding:8px 4px;white-space:nowrap}
 }
 
 /* Phone timeline (default; add ?tl=a to compare the older layout): line behind the cards on the left, date above each card */

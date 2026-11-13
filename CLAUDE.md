@@ -30,4 +30,4 @@ Newspin (newspinapp.com) turns big ongoing news stories into sourced timelines. 
 8. Finish with a short report: stories updated, new stories, anything uncertain or left out and why.
 
 ## Style of code changes
-Keep the design as it is unless asked. Owner's choices to preserve: light theme by default (dark only when the reader switches), the theme button's current position, the original story cards.
+Keep the design as it is unless asked. Owner's choices to preserve: light theme by default (dark only when the reader switches), the theme button's current position, the original story cards, and the brand accent in Travelpin's pin green (`--pin` #4B9C78; `--pin-ink` #2B6F51 for text; #6FC39C in dark mode), not orange.

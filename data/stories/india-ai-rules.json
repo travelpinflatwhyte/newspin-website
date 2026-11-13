@@ -1,0 +1,221 @@
+{
+ "slug": "india-ai-rules",
+ "short": "India AI rules",
+ "category": "AI",
+ "regions": [
+  "India"
+ ],
+ "title": "India's AI rules: from guidelines to a draft law",
+ "dek": "India chose light-touch AI guidelines in 2025. A year later the government is preparing draft rules, funding homegrown models and asking where Indians' data goes.",
+ "seoTitle": "India AI regulation 2026: MeitY rules timeline",
+ "importance": 3,
+ "status": "Draft rules expected",
+ "tone": "wait",
+ "big": "₹10,372 cr",
+ "delta": "IndiaAI outlay",
+ "bigLabel": "Five-year budget of the IndiaAI Mission; MeitY told Parliament only a fraction has been released",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "India published voluntary AI governance guidelines in November 2025 and hosted a global AI summit in February 2026. In October, IT Minister Ashwini Vaishnaw promised a consultation paper on AI rules covering safety and deepfakes, and the government is backing 20 homegrown AI models.",
+  "why": "The rules will decide how deepfakes are handled, what AI apps must tell you, how your data can be used to train AI, and how easily Indian startups can compete.",
+  "next": "The consultation paper was promised within a month of 8 October and is expected in November. Draft rules are open to public comment once published."
+ },
+ "keyNumbers": [
+  {
+   "label": "IndiaAI outlay",
+   "value": "₹10,372 cr",
+   "note": "5 years",
+   "hot": true
+  },
+  {
+   "label": "Models approved",
+   "value": "20",
+   "note": "12 startups"
+  },
+  {
+   "label": "Delhi Declaration",
+   "value": "88–89",
+   "note": "signatories, Feb 2026"
+  },
+  {
+   "label": "Draft AI rules",
+   "value": "Due",
+   "note": "expected Nov"
+  }
+ ],
+ "forYou": "Once the consultation paper is out, anyone can send comments. Rules on deepfakes and AI labels could change what platforms must remove and what they must tell you.",
+ "upcoming": [
+  {
+   "date": "2026-11-30",
+   "label": "Nov (expected)",
+   "text": "MeitY's AI regulation consultation paper"
+  }
+ ],
+ "next": "MeitY's consultation paper, expected in November.",
+ "links": [
+  "ai-this-week"
+ ],
+ "events": [
+  {
+   "date": "2025-11-05",
+   "dateLabel": "5 Nov 2025",
+   "phase": "policy",
+   "title": "India AI Governance Guidelines",
+   "summary": "The IT ministry unveils voluntary AI governance guidelines built on a 'do no harm' principle, favouring sandboxes for innovation over a new law.",
+   "status": "Confirmed · MeitY",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "All India Radio",
+     "url": "https://www.newsonair.gov.in/meity-unveils-india-ai-governance-guidelines-to-promote-safe-and-responsible-ai-adoption",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-02-19",
+   "dateLabel": "16–21 Feb 2026",
+   "phase": "world",
+   "key": true,
+   "title": "AI Impact Summit and the New Delhi Declaration",
+   "summary": "India hosts the AI Impact Summit at Bharat Mandapam. A non-binding New Delhi Declaration on inclusive, trusted AI is endorsed by countries including the US and China. OpenAI announces an 'OpenAI for India' partnership with Tata.",
+   "status": "Confirmed",
+   "differs": "Reports give 88 or 89 signatories, depending on when they were counted.",
+   "numbers": [
+    {
+     "k": "Signatories",
+     "v": "88–89"
+    }
+   ],
+   "sources": [
+    {
+     "name": "All India Radio",
+     "url": "https://www.newsonair.gov.in/india-ai-impact-summit-2026-adopts-new-delhi-declaration",
+     "primary": true
+    },
+    {
+     "name": "Global Government Forum",
+     "url": "https://www.globalgovernmentforum.com/declaration-on-leveraging-ai-for-growth-and-good-endorsed-at-global-summit-in-india/"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2026/02/23/indias-ai-impact-summit-closes-with-the-new-delhi-declaration-and-a-200-billion-boost/"
+    },
+    {
+     "name": "Mobile World Live",
+     "url": "https://www.mobileworldlive.com/asia-pacific/openai-taps-tata-to-power-india-sovereign-ai-push/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-10-08",
+   "dateLabel": "8 Oct 2026",
+   "phase": "policy",
+   "title": "Minister promises draft AI rules within a month",
+   "summary": "Ashwini Vaishnaw says the IT ministry will publish a consultation paper on AI within a month, covering AI safety, deepfakes and compliance for startups.",
+   "status": "Stated · minister",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/",
+     "primary": true
+    },
+    {
+     "name": "AF",
+     "url": "https://af.net/realtime/india-to-release-ai-regulation-consultation-paper-addressing-safety-and-deepfakes-by-november-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-10-26",
+   "dateLabel": "Late Oct 2026",
+   "phase": "policy",
+   "title": "'In the coming weeks'",
+   "summary": "At the NDTV World Summit, Vaishnaw repeats that the consultation paper is coming in the next few weeks and will seek views from citizens, civil society and industry.",
+   "status": "Stated · minister",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-04",
+   "dateLabel": "4 Nov 2026",
+   "phase": "ai",
+   "title": "More homegrown models released",
+   "summary": "Soket's Eka-1 and ZenteiQ's Dhir models join three earlier releases under the IndiaAI Mission. In all, 20 models are approved, being built by 12 startups including Sarvam and BharatGen.",
+   "status": "Confirmed · MeitY",
+   "numbers": [
+    {
+     "k": "Models approved",
+     "v": "20"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Convergence",
+     "url": "https://www.convergence-now.com/artificial-intelligence/meity-releases-two-more-indigenous-ai-models-under-indiaai-mission-what-are-their-features/",
+     "primary": true
+    },
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-government-indigenous-ai-critical-sectors/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "policy",
+   "title": "Push for Indian AI in critical sectors",
+   "summary": "The government is likely to push departments in sectors such as defence and aerospace to use Indian-built AI models and agents, MediaNama reports. It notes that MeitY has released only a fraction of the IndiaAI Mission's ₹10,371.92 crore budget.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Mission budget",
+     "v": "₹10,372 cr"
+    }
+   ],
+   "sources": [
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-government-indigenous-ai-critical-sectors/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "policy",
+   "key": true,
+   "title": "Questions over home footage used to train robots",
+   "summary": "IT Secretary S. Krishnan meets home-services apps and robotics firms over first-person video recorded by gig workers in Indian homes, and whether it is sold to overseas developers. Some executives ask the ministry to regulate such sales.",
+   "status": "Reported · ET via MediaNama",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-footage-train-robots-meity-questions-platforms/",
+     "primary": true
+    },
+    {
+     "name": "Elets CIO",
+     "url": "https://cio.eletsonline.com/artificial-intelligence/meity-physical-ai-data/76885/"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
+}

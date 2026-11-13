@@ -43,6 +43,8 @@
     "delhi-air-2026",
     "rbi-rate-cycle",
     "nvidia-huang-investigation",
+    "ai-this-week",
+    "india-ai-rules",
     "microsoft-365-outage",
     "west-asia-oil",
     "us-midterms-2026",
@@ -56,6 +58,7 @@
   ],
   "categories": [
     "All",
+    "AI",
     "Economy",
     "Markets",
     "Trade",

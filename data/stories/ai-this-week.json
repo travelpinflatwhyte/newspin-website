@@ -1,0 +1,292 @@
+{
+ "slug": "ai-this-week",
+ "short": "AI this week",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US",
+  "India"
+ ],
+ "title": "AI this week: the developments that matter",
+ "dek": "New models, money, lawsuits and rules. A running log of the AI news worth knowing, with what it means for ordinary users.",
+ "seoTitle": "AI news this week: timeline of key developments",
+ "importance": 4,
+ "status": "Updated with each refresh",
+ "tone": "live",
+ "big": "5",
+ "delta": "AI firms sued",
+ "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "In the past ten days Google and Anthropic released new models, Anthropic began marketing its stock market listing, Nvidia's founder was forced out, and nonprofits asked a court to freeze frontier AI. In India, the government released more homegrown models and questioned apps over footage used to train robots.",
+  "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
+  "next": "Nvidia reports earnings on 17 Nov. Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. India's draft AI rules are expected this month."
+ },
+ "keyNumbers": [
+  {
+   "label": "Firms in freeze lawsuit",
+   "value": "5",
+   "note": "filed 12 Nov",
+   "hot": true
+  },
+  {
+   "label": "Anthropic IPO range",
+   "value": "$70–78",
+   "note": "per share"
+  },
+  {
+   "label": "Free Google Vids clips",
+   "value": "3 a month",
+   "note": "15 seconds each"
+  },
+  {
+   "label": "IndiaAI models approved",
+   "value": "20",
+   "note": "12 startups"
+  }
+ ],
+ "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
+ "upcoming": [
+  {
+   "date": "2026-11-17",
+   "label": "17 Nov",
+   "text": "Nvidia earnings, first under interim CEO Colette Kress"
+  },
+  {
+   "date": "2026-11-18",
+   "label": "18 Nov",
+   "text": "Anthropic expected to price its IPO"
+  },
+  {
+   "date": "2026-11-19",
+   "label": "19 Nov",
+   "text": "Anthropic expected to start trading on Nasdaq as ANT"
+  },
+  {
+   "date": "2026-11-30",
+   "label": "Nov (expected)",
+   "text": "India's AI regulation consultation paper"
+  }
+ ],
+ "next": "Nvidia earnings 17 Nov; Anthropic IPO pricing 18 Nov.",
+ "links": [
+  "nvidia-huang-investigation",
+  "india-ai-rules"
+ ],
+ "events": [
+  {
+   "date": "2026-11-04",
+   "dateLabel": "4 Nov 2026",
+   "phase": "ai",
+   "title": "India releases more homegrown AI models",
+   "summary": "The IT ministry announces new models under the IndiaAI Mission: Soket's Eka-1 and ZenteiQ's Dhir 2B and 5B, built for Indian languages and, in some cases, offline use.",
+   "status": "Confirmed · MeitY",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Convergence",
+     "url": "https://www.convergence-now.com/artificial-intelligence/meity-releases-two-more-indigenous-ai-models-under-indiaai-mission-what-are-their-features/",
+     "primary": true
+    }
+   ],
+   "link": "india-ai-rules",
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-05",
+   "dateLabel": "5 Nov 2026",
+   "phase": "ai",
+   "title": "Free AI video in Google Vids",
+   "summary": "Google makes its Omni 1.2 Flash video model available in Google Vids, with three free 15-second clips a month, and cuts the developer price to 7 US cents a second.",
+   "status": "Confirmed · Google",
+   "numbers": [
+    {
+     "k": "Free clips",
+     "v": "3 a month"
+    }
+   ],
+   "sources": [
+    {
+     "name": "IT Cares (from Google's pages)",
+     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+     "primary": true
+    },
+    {
+     "name": "AI Impact Hub",
+     "url": "https://www.aiimpacthub.com/ai-news/2026-11-07"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+   "summary": "Anthropic releases new versions of its top models, saying they improve coding, multi-step reasoning and coordination between AI agents.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "IT Cares (from Anthropic's page)",
+     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+     "primary": true
+    },
+    {
+     "name": "AI Agent Store",
+     "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-10",
+   "dateLabel": "10 Nov 2026",
+   "phase": "ai",
+   "title": "Google launches Gemini 4 Carbon",
+   "summary": "Google releases Gemini 4 Carbon, mainly for its Ultra subscribers and developers, and expands Gemini features on more Android devices.",
+   "status": "Confirmed · Google",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "IT Cares (from Google's pages)",
+     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-10",
+   "dateLabel": "10 Nov 2026",
+   "phase": "market",
+   "key": true,
+   "title": "Anthropic starts marketing its IPO",
+   "summary": "Anthropic launches the roadshow for its share sale: 825 million shares at $70–78 each, to list on Nasdaq as 'ANT'. SiliconANGLE reports $17 billion revenue and a $536 million operating loss last quarter. Seven partners, including Nvidia, Google, Microsoft and TSMC, agree to buy $26 billion of shares privately.",
+   "status": "Confirmed · company filing",
+   "numbers": [
+    {
+     "k": "Price range",
+     "v": "$70–78"
+    },
+    {
+     "k": "Shares offered",
+     "v": "825 M"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Anthropic",
+     "url": "https://www.anthropic.com/news/roadshow-launch",
+     "primary": true
+    },
+    {
+     "name": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+    },
+    {
+     "name": "Blockchain.News",
+     "url": "https://blockchain.news/news/anthropic-ipo-roadshow-2026"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "law",
+   "key": true,
+   "title": "Nonprofits sue to freeze frontier AI",
+   "summary": "Four nonprofits, including Public Citizen, sue Anthropic, Google, Meta, OpenAI and SpaceXSI in San Francisco, asking a judge to stop them building or releasing more capable AI. They argue the risks break California's unfair competition law. The claims have not been tested in court, no freeze has been ordered, and the companies had not commented.",
+   "status": "Filed · not ruled on",
+   "numbers": [
+    {
+     "k": "Companies sued",
+     "v": "5"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AP via WTOP",
+     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+     "primary": true
+    },
+    {
+     "name": "BNN Bloomberg (AP)",
+     "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/12/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks/"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/regulation/56014"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "market",
+   "title": "TSMC to invest up to $1 billion in AI labs",
+   "summary": "Chipmaker TSMC's board approves up to $1 billion of AI investments, split between OpenAI and Anthropic shares, Ars Technica reports, citing Reuters.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "TSMC investment",
+     "v": "up to $1 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AI Weekly (Ars Technica / Reuters)",
+     "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
+     "primary": true
+    },
+    {
+     "name": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "policy",
+   "title": "India asks: is home footage training foreign robots?",
+   "summary": "The IT ministry meets Pronto, Urban Company, Snabbit and robotics firms over video recorded by workers inside Indian homes and whether it is sold to overseas developers of robot AI. Pronto says it keeps only anonymised footage for training.",
+   "status": "Reported · ET via MediaNama",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-footage-train-robots-meity-questions-platforms/",
+     "primary": true
+    },
+    {
+     "name": "Elets CIO",
+     "url": "https://cio.eletsonline.com/artificial-intelligence/meity-physical-ai-data/76885/"
+    }
+   ],
+   "link": "india-ai-rules",
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "12–13 Nov 2026",
+   "phase": "ai",
+   "title": "Nvidia's Jensen Huang is out",
+   "summary": "The founder of the company whose chips power most AI steps down as CEO; reports say the board pushed him out. CFO Colette Kress is interim CEO, and Nvidia says its product roadmap continues.",
+   "status": "Confirmed · Nvidia",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+     "primary": true
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-13"
+  }
+ ]
+}

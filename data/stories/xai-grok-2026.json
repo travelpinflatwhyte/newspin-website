@@ -1,0 +1,296 @@
+{
+ "slug": "xai-grok-2026",
+ "short": "xAI & Grok",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US"
+ ],
+ "title": "xAI and Grok: models, the SpaceX merger and the missing Grok 5",
+ "dek": "Elon Musk's AI company shipped Grok 3 to Grok 4.7, merged into SpaceX and bought Cursor. Grok 5 has slipped past every promised date.",
+ "seoTitle": "xAI Grok timeline 2025–2026: Grok 4.7, SpaceX, Grok 5",
+ "importance": 3,
+ "status": "Grok 5 still in training",
+ "tone": "wait",
+ "big": "Grok 4.7",
+ "delta": "latest model",
+ "bigLabel": "xAI's current flagship, released 21 Sep 2026; Grok 5 has no release date",
+ "glance": {
+  "what": "xAI released Grok 3 in February 2025 and Grok 4 in July 2025, then a run of Grok 4.x models through 2026. SpaceX acquired xAI in February 2026, and the company now uses SpaceX branding.",
+  "why": "Grok is built into X and Tesla products, and xAI's huge Colossus computers make it one of the few labs able to train the largest models.",
+  "next": "Grok 5: xAI said in January it was in training. Targets of late 2025, early 2026 and mid-2026 all passed; SpaceX has since pointed to before the end of 2026."
+ },
+ "keyNumbers": [
+  {
+   "label": "Latest model",
+   "value": "Grok 4.7",
+   "note": "21 Sep 2026",
+   "hot": true
+  },
+  {
+   "label": "SpaceX deal",
+   "value": "Feb 2026",
+   "note": "xAI ≈ $250 bn"
+  },
+  {
+   "label": "Grok 5",
+   "value": "No date",
+   "note": "in training"
+  },
+  {
+   "label": "Price, 4.7 API",
+   "value": "$2 / $6",
+   "note": "per M tokens"
+  }
+ ],
+ "forYou": "Grok is available in the X app and on its own app. New Grok versions usually reach paying X subscribers first.",
+ "upcoming": [
+  {
+   "date": "2026-12-31",
+   "label": "By end-2026?",
+   "text": "Grok 5, per SpaceX's August target"
+  }
+ ],
+ "next": "Grok 5 release, targeted before the end of 2026.",
+ "links": [
+  "ai-model-tracker",
+  "ai-this-week"
+ ],
+ "events": [
+  {
+   "date": "2025-02-17",
+   "dateLabel": "17 Feb 2025",
+   "phase": "ai",
+   "title": "Grok 3",
+   "summary": "xAI releases Grok 3 and Grok 3 mini, trained with about ten times the computing power of Grok 2, according to xAI.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-07-10",
+   "dateLabel": "Jul 2025",
+   "phase": "ai",
+   "title": "Grok 4 and Grok 4 Heavy",
+   "summary": "Models with always-on reasoning and strong maths results.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/",
+     "primary": true
+    },
+    {
+     "name": "Sumus",
+     "url": "https://sumus.im/blog/grok-5-release-date"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2025-08-28",
+   "dateLabel": "28 Aug 2025",
+   "phase": "ai",
+   "title": "Grok Code Fast 1",
+   "summary": "A model built for coding agents.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/spacexai-timeline-grok/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-11-17",
+   "dateLabel": "Nov 2025",
+   "phase": "ai",
+   "title": "Grok 4.1",
+   "summary": "xAI says Grok 4.1 makes fewer factual errors.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia: Grok",
+     "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
+    }
+   ],
+   "added": "2026-11-13",
+   "differs": "Sources give 17 or 19 November for the 4.1 versions."
+  },
+  {
+   "date": "2026-01-06",
+   "dateLabel": "Jan 2026",
+   "phase": "ai",
+   "title": "'Grok 5 is currently in training'",
+   "summary": "xAI's Series E funding announcement says Grok 5 is being trained on its Colossus 2 cluster. It remains xAI's only official statement on the model.",
+   "status": "Stated · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Kingy AI (from xAI's pages)",
+     "url": "https://kingy.ai/blog/grok-5/",
+     "primary": true
+    },
+    {
+     "name": "Sumus",
+     "url": "https://sumus.im/blog/grok-5-release-date"
+    },
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026"
+    }
+   ],
+   "added": "2026-11-13",
+   "differs": "Sources date the announcement 6 January or 28 January."
+  },
+  {
+   "date": "2026-02-02",
+   "dateLabel": "2 Feb 2026",
+   "phase": "market",
+   "title": "SpaceX acquires xAI",
+   "summary": "SpaceX buys xAI in a deal CNBC reports valued xAI at about $250 bn and the combined company at about $1.25 tn.",
+   "status": "Confirmed · SpaceX",
+   "numbers": [
+    {
+     "k": "xAI value",
+     "v": "≈ $250 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/spacexai-timeline-grok/",
+     "primary": true
+    },
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/"
+    },
+    {
+     "name": "Fello AI",
+     "url": "https://felloai.com/all-we-know-so-far-about-grok-5/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-04-30",
+   "dateLabel": "Apr 2026",
+   "phase": "ai",
+   "title": "Grok 4.3",
+   "summary": "A low-cost model with a 1-million-token context, on the API from 30 April after a beta.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-07-16",
+   "dateLabel": "Jul–Aug 2026",
+   "phase": "ai",
+   "title": "Grok 4.5, Cursor deal and Grok 4.6",
+   "summary": "Grok 4.5, a coding-focused model trained with Cursor, arrives in July; xAI's purchase of Cursor closes on 14 August; Grok 4.6 follows on 12 August.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Kingy AI (from xAI's pages)",
+     "url": "https://kingy.ai/blog/grok-5/",
+     "primary": true
+    },
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026"
+    },
+    {
+     "name": "Fello AI",
+     "url": "https://felloai.com/all-we-know-so-far-about-grok-5/"
+    }
+   ],
+   "added": "2026-11-13",
+   "differs": "Sources give 8 July or 16 July for Grok 4.5."
+  },
+  {
+   "date": "2026-09-21",
+   "dateLabel": "21 Sep 2026",
+   "phase": "ai",
+   "title": "Grok 4.7, the current flagship",
+   "summary": "A larger base model with a 500,000-token context at $2/$6 per million tokens. Musk says Grok 4.8 and 4.9 will come before Grok 5.",
+   "status": "Confirmed · xAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "Fello AI",
+     "url": "https://felloai.com/all-we-know-so-far-about-grok-5/"
+    },
+    {
+     "name": "Sumus",
+     "url": "https://sumus.im/blog/grok-5-release-date"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "law",
+   "title": "Named in AI freeze lawsuit",
+   "summary": "xAI, now SpaceX's AI arm (named in court papers as SpaceXSI), is one of five companies sued by nonprofits seeking to halt more capable AI.",
+   "status": "Filed · not ruled on",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via WTOP",
+     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+     "primary": true
+    },
+    {
+     "name": "The Star (AP)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/13/us-advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-039catastrophic039-risks"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "ai-this-week"
+  }
+ ],
+ "updated": "2026-11-13"
+}

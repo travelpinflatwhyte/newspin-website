@@ -1,0 +1,370 @@
+{
+ "slug": "openai-2026",
+ "short": "OpenAI",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US"
+ ],
+ "title": "OpenAI: every GPT model, the money and the IPO",
+ "dek": "From GPT-4.5 to GPT-6 in 19 months, plus a confidential IPO filing, billions in losses and a race with Anthropic.",
+ "seoTitle": "OpenAI timeline 2025–2026: GPT-5 to GPT-6, IPO",
+ "importance": 4,
+ "status": "GPT-6 era · IPO in 2027",
+ "tone": "live",
+ "big": "$6.7 bn",
+ "delta": "Q2 2026 revenue",
+ "bigLabel": "OpenAI's reported revenue for April–June 2026, with a $12.3 bn operating loss, per the Wall Street Journal",
+ "glance": {
+  "what": "OpenAI moved from GPT-5 in August 2025 to the GPT-6 family in September 2026, releasing a new GPT-5.x version roughly every quarter in between. It filed confidentially for an IPO in June 2026, but Sam Altman later ruled out listing this year.",
+  "why": "ChatGPT is the most widely used AI assistant, so OpenAI's choices on models, prices and safety set the pace for the whole industry.",
+  "next": "An IPO is now expected in 2027. Watch for GPT-6 updates and how OpenAI responds to Anthropic's listing next week."
+ },
+ "keyNumbers": [
+  {
+   "label": "Latest flagship",
+   "value": "GPT-6 Astra",
+   "note": "3 Sep 2026",
+   "hot": true
+  },
+  {
+   "label": "Q2 2026 revenue",
+   "value": "$6.7 bn",
+   "note": "per WSJ"
+  },
+  {
+   "label": "Q2 operating loss",
+   "value": "$12.3 bn",
+   "note": "per WSJ"
+  },
+  {
+   "label": "IPO",
+   "value": "2027",
+   "note": "expected"
+  }
+ ],
+ "forYou": "Free ChatGPT users get the 'Instant' version of each new model, usually within weeks. Paid plans get the larger 'Thinking' and 'Pro' versions first.",
+ "upcoming": [
+  {
+   "date": "2027-03-01",
+   "label": "2027",
+   "text": "Expected IPO, per CFO Sarah Friar"
+  }
+ ],
+ "next": "IPO expected in 2027.",
+ "links": [
+  "ai-model-tracker",
+  "anthropic-2026",
+  "ai-this-week"
+ ],
+ "events": [
+  {
+   "date": "2025-02-27",
+   "dateLabel": "27 Feb 2025",
+   "phase": "ai",
+   "title": "GPT-4.5 'Orion'",
+   "summary": "OpenAI releases GPT-4.5, its largest model at the time, aimed at more natural conversation. It is phased out of the API within months.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-4.5",
+     "url": "https://en.wikipedia.org/wiki/GPT-4.5",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-08-07",
+   "dateLabel": "7 Aug 2025",
+   "phase": "ai",
+   "title": "GPT-5 unifies everything",
+   "summary": "GPT-5 combines a fast model, a deeper 'thinking' model and an automatic router into one system, replacing the separate GPT and 'o' reasoning lines.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html",
+     "primary": true
+    },
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/chatgpt-models"
+    },
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2025-09-15",
+   "dateLabel": "15 Sep 2025",
+   "phase": "ai",
+   "title": "GPT-5-Codex for coding",
+   "summary": "A version of GPT-5 tuned for coding agents becomes the default in OpenAI's Codex tool.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-11-12",
+   "dateLabel": "12 Nov 2025",
+   "phase": "ai",
+   "title": "GPT-5.1",
+   "summary": "Instant and Thinking versions open a packed November in which Google and Anthropic also launch new models within days.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-12-11",
+   "dateLabel": "11 Dec 2025",
+   "phase": "ai",
+   "title": "GPT-5.2",
+   "summary": "OpenAI's December refresh adds a higher 'extra-high' reasoning setting.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/chatgpt-models",
+     "primary": true
+    },
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-02-05",
+   "dateLabel": "5 Feb 2026",
+   "phase": "ai",
+   "title": "GPT-5.3-Codex",
+   "summary": "A dedicated coding flagship for agentic software work.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-03-05",
+   "dateLabel": "5 Mar 2026",
+   "phase": "ai",
+   "title": "GPT-5.4 can use a computer",
+   "summary": "GPT-5.4 Thinking and Pro launch, OpenAI's first mainline model able to operate a computer itself. Mini and nano versions follow on 17 March.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-5.4",
+     "url": "https://en.wikipedia.org/wiki/GPT-5.4",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+    },
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-04-23",
+   "dateLabel": "23 Apr 2026",
+   "phase": "ai",
+   "title": "GPT-5.5 'Spud'",
+   "summary": "OpenAI calls GPT-5.5 more efficient and better at coding. Its Instant version becomes ChatGPT's default for all users, including free users, on 5 May.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-5.5",
+     "url": "https://en.wikipedia.org/wiki/GPT-5.5",
+     "primary": true
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-06-08",
+   "dateLabel": "8 Jun 2026",
+   "phase": "market",
+   "title": "Confidential IPO filing",
+   "summary": "Reuters reports OpenAI has filed confidentially for a US stock market listing. The Wall Street Journal later reports Q1 revenue of $5.7 bn and Q2 revenue of $6.7 bn, with large operating losses.",
+   "status": "Reported · Reuters, WSJ",
+   "numbers": [
+    {
+     "k": "Q1 revenue",
+     "v": "$5.7 bn"
+    },
+    {
+     "k": "Q2 revenue",
+     "v": "$6.7 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Investing.com (Reuters)",
+     "url": "https://www.investing.com/analysis/openai-ipo-everything-you-need-to-know-200682609",
+     "primary": true
+    },
+    {
+     "name": "AI Business Weekly (WSJ figures)",
+     "url": "https://aibusinessweekly.net/p/openai-ipo-2026"
+    },
+    {
+     "name": "Sacra",
+     "url": "https://sacra.com/c/openai/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-07-09",
+   "dateLabel": "9 Jul 2026",
+   "phase": "ai",
+   "title": "GPT-5.6 in three sizes",
+   "summary": "OpenAI replaces the single flagship with three named tiers: Sol, Terra and Luna.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/",
+     "primary": true
+    },
+    {
+     "name": "ReHack",
+     "url": "https://rehack.com/ai/the-complete-ai-timeline/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-03",
+   "dateLabel": "3–4 Sep 2026",
+   "phase": "ai",
+   "title": "GPT-6 Astra",
+   "summary": "OpenAI's sixth-generation model rolls out to approved users on 3 September and to everyone the next day, with tighter safeguards after an August warning about its cyber capabilities.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AIToolsReview",
+     "url": "https://aitoolsreview.co.uk/insights/next-gpt-model",
+     "primary": true
+    },
+    {
+     "name": "Times of AI",
+     "url": "https://www.timesofai.com/industry-insights/gpt-version-timeline/"
+    },
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/chatgpt-models"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-09-15",
+   "dateLabel": "Sep 2026",
+   "phase": "market",
+   "title": "Altman: no IPO in 2026",
+   "summary": "Sam Altman rules out a listing this year, citing safety concerns about increasingly capable AI. CFO Sarah Friar has pointed to 2027.",
+   "status": "Stated · CEO",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "SmartAsset",
+     "url": "https://smartasset.com/investing/openai-stock-ipo",
+     "primary": true
+    },
+    {
+     "name": "Sacra",
+     "url": "https://sacra.com/c/openai/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-22",
+   "dateLabel": "22 Sep 2026",
+   "phase": "ai",
+   "title": "GPT-6 Sol and Luna",
+   "summary": "Faster, cheaper GPT-6 models join Astra, which remains OpenAI's most capable.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html",
+     "primary": true
+    },
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/chatgpt-models"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "ai",
+   "title": "Sued, and TSMC invests",
+   "summary": "OpenAI is one of five AI companies named in a lawsuit asking a court to freeze advanced AI development. The same day, TSMC approves up to $1 bn of AI investments split between OpenAI and Anthropic, Reuters reports.",
+   "status": "Filed · Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via WTOP",
+     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+     "primary": true
+    },
+    {
+     "name": "AI Weekly (Ars Technica / Reuters)",
+     "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "ai-this-week"
+  }
+ ],
+ "updated": "2026-11-13"
+}

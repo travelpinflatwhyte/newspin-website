@@ -1,0 +1,237 @@
+{
+ "slug": "meta-ai-2026",
+ "short": "Meta AI",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US"
+ ],
+ "title": "Meta's AI reset: from Llama 4 to Muse",
+ "dek": "After Llama 4 disappointed, Meta spent billions on a new superintelligence lab, dropped the Llama name and shipped the Muse models.",
+ "seoTitle": "Meta AI timeline 2025–2026: Llama 4 to Muse",
+ "importance": 3,
+ "status": "Muse Wonder era",
+ "tone": "live",
+ "big": "6",
+ "delta": "releases in 6 months",
+ "bigLabel": "Major Muse releases between April and October 2026, per MindStudio's count",
+ "glance": {
+  "what": "Llama 4 launched in April 2025 amid a benchmark controversy. Meta then invested about $14 bn in Scale AI, set up Meta Superintelligence Labs under Alexandr Wang, and from April 2026 released the closed Muse Spark, open Muse Glimmer and, in October, Muse Wonder, which Mark Zuckerberg called Meta's first frontier model.",
+  "why": "Meta AI is built into WhatsApp, Instagram and Facebook, used by billions, and Meta's shift away from fully open models changes what developers can freely use.",
+  "next": "How Muse Wonder performs, and whether Meta keeps releasing open-weight models."
+ },
+ "keyNumbers": [
+  {
+   "label": "Latest frontier model",
+   "value": "Muse Wonder",
+   "note": "12 Oct 2026",
+   "hot": true
+  },
+  {
+   "label": "Scale AI deal",
+   "value": "≈ $14 bn",
+   "note": "2025"
+  },
+  {
+   "label": "Last Llama",
+   "value": "Apr 2025",
+   "note": "Llama 4"
+  },
+  {
+   "label": "Open model",
+   "value": "Glimmer 30B",
+   "note": "Apache 2.0"
+  }
+ ],
+ "forYou": "Meta AI inside WhatsApp and Instagram now runs on Muse models. Meta's 'Muse' personal agent launched in the US in September.",
+ "upcoming": [],
+ "next": "Muse Wonder rollout.",
+ "links": [
+  "ai-model-tracker",
+  "ai-this-week"
+ ],
+ "events": [
+  {
+   "date": "2025-04-05",
+   "dateLabel": "5 Apr 2025",
+   "phase": "ai",
+   "title": "Llama 4 and a benchmark row",
+   "summary": "Meta releases Llama 4 Scout and Maverick. Critics say a specially tuned Maverick submitted to a public leaderboard did not match the downloadable model.",
+   "status": "Confirmed · Meta",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Llama",
+     "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+     "primary": true
+    },
+    {
+     "name": "MindStudio",
+     "url": "https://www.mindstudio.ai/blog/meta-ai-turnaround-six-models-six-months"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2025-06-30",
+   "dateLabel": "30 Jun 2025",
+   "phase": "ai",
+   "title": "Meta Superintelligence Labs",
+   "summary": "Mark Zuckerberg creates a new lab led by Scale AI founder Alexandr Wang, after Meta invests about $14 bn in Scale AI.",
+   "status": "Confirmed · Meta",
+   "numbers": [
+    {
+     "k": "Scale AI stake",
+     "v": "≈ $14 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/history-of-meta-muse",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia: Meta Superintelligence Labs",
+     "url": "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs"
+    },
+    {
+     "name": "BuysiDomains",
+     "url": "https://www.buysidomains.si/meta-superintelligence-labs/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-11-15",
+   "dateLabel": "Nov 2025",
+   "phase": "ai",
+   "title": "Yann LeCun to leave",
+   "summary": "Meta's long-time chief AI scientist says he will leave to found a new lab, according to the BBC and AP.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/history-of-meta-muse",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-04-08",
+   "dateLabel": "8 Apr 2026",
+   "phase": "ai",
+   "title": "Muse Spark replaces Llama",
+   "summary": "The superintelligence lab's first model, Muse Spark, powers Meta AI. Unlike Llama, it is closed.",
+   "status": "Confirmed · Meta",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "FutureAGI",
+     "url": "https://futureagi.com/blog/llama-traditional-ai-models-2025/",
+     "primary": true
+    },
+    {
+     "name": "BuysiDomains",
+     "url": "https://www.buysidomains.si/meta-superintelligence-labs/"
+    },
+    {
+     "name": "Gradually.ai",
+     "url": "https://www.gradually.ai/en/meta-ai-statistics/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-08-10",
+   "dateLabel": "10 Aug 2026",
+   "phase": "ai",
+   "title": "Muse Glimmer: open weights return",
+   "summary": "A 30-billion-parameter open model under the Apache 2.0 licence that can run on a single consumer graphics card.",
+   "status": "Confirmed · Meta",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Meta AI",
+     "url": "https://en.wikipedia.org/wiki/Meta_AI",
+     "primary": true
+    },
+    {
+     "name": "innFactory",
+     "url": "https://innfactory.ai/en/ai-models/meta-llama/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-08",
+   "dateLabel": "8 Sep 2026",
+   "phase": "ai",
+   "title": "Muse personal agent",
+   "summary": "A Muse Spark-powered personal AI agent launches in the US on iOS, Android and the web.",
+   "status": "Confirmed · Meta",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Gradually.ai",
+     "url": "https://www.gradually.ai/en/meta-ai-statistics/",
+     "primary": true
+    },
+    {
+     "name": "BuysiDomains",
+     "url": "https://www.buysidomains.si/meta-superintelligence-labs/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-10-12",
+   "dateLabel": "12–15 Oct 2026",
+   "phase": "ai",
+   "title": "Muse Wonder, 'our first frontier model'",
+   "summary": "Meta releases Muse Wonder and Wonder Full, which Zuckerberg calls its first frontier model, and on 15 October an open-weights Muse Spark Open.",
+   "status": "Confirmed · Meta",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/history-of-meta-muse",
+     "primary": true
+    },
+    {
+     "name": "innFactory",
+     "url": "https://innfactory.ai/en/ai-models/meta-llama/"
+    },
+    {
+     "name": "Second Talent",
+     "url": "https://www.secondtalent.com/resources/every-llama-ai-model-explained-compared/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "law",
+   "title": "Named in AI freeze lawsuit",
+   "summary": "Meta is one of five companies nonprofits are asking a court to stop from building more capable AI.",
+   "status": "Filed · not ruled on",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via WTOP",
+     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "ai-this-week"
+  }
+ ],
+ "updated": "2026-11-13"
+}

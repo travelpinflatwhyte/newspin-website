@@ -1,0 +1,424 @@
+{
+ "slug": "anthropic-2026",
+ "short": "Anthropic",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US"
+ ],
+ "title": "Anthropic: every Claude model and the road to an IPO",
+ "dek": "From Claude 4 to the Mythos-class models, a pause under US export controls, and a Nasdaq listing set for next week.",
+ "seoTitle": "Anthropic timeline 2025–2026: Claude models, IPO",
+ "importance": 4,
+ "status": "IPO pricing 18 Nov",
+ "tone": "hot",
+ "big": "$70–78",
+ "delta": "IPO price range",
+ "bigLabel": "Price range per share for Anthropic's IPO; listing on Nasdaq as 'ANT' expected on 19 Nov",
+ "glance": {
+  "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
+  "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
+  "next": "Pricing is expected on 18 November and trading on 19 November, subject to regulatory clearance."
+ },
+ "keyNumbers": [
+  {
+   "label": "Latest model",
+   "value": "Fable 5.2",
+   "note": "9 Nov 2026",
+   "hot": true
+  },
+  {
+   "label": "IPO price range",
+   "value": "$70–78",
+   "note": "per share"
+  },
+  {
+   "label": "Shares offered",
+   "value": "825 M",
+   "note": "Class A"
+  },
+  {
+   "label": "Last quarter revenue",
+   "value": "≈ $17 bn",
+   "note": "per SiliconANGLE"
+  }
+ ],
+ "forYou": "Anthropic's most capable model, Claude Fable, is public. A version with fewer safety limits, Claude Mythos, is available only to approved organisations working in cybersecurity and life sciences.",
+ "upcoming": [
+  {
+   "date": "2026-11-18",
+   "label": "18 Nov",
+   "text": "IPO pricing expected"
+  },
+  {
+   "date": "2026-11-19",
+   "label": "19 Nov",
+   "text": "Trading on Nasdaq as ANT expected"
+  }
+ ],
+ "next": "IPO pricing 18 Nov; trading expected 19 Nov.",
+ "links": [
+  "ai-model-tracker",
+  "openai-2026",
+  "ai-this-week"
+ ],
+ "events": [
+  {
+   "date": "2025-05-22",
+   "dateLabel": "22 May 2025",
+   "phase": "ai",
+   "title": "Claude 4: Opus 4 and Sonnet 4",
+   "summary": "Anthropic opens the Claude 4 generation with Opus 4 and Sonnet 4.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2025-08-05",
+   "dateLabel": "5 Aug 2025",
+   "phase": "ai",
+   "title": "Claude Opus 4.1",
+   "summary": "An upgrade to Opus 4 focused on coding precision and agent tasks.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/anthropic-claude-timeline/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-09-29",
+   "dateLabel": "29 Sep 2025",
+   "phase": "ai",
+   "title": "Claude Sonnet 4.5",
+   "summary": "A mid-priced model aimed at coding, agents and computer use.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-10-15",
+   "dateLabel": "15 Oct 2025",
+   "phase": "ai",
+   "title": "Claude Haiku 4.5",
+   "summary": "A new version of Anthropic's smallest, fastest model.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2025-11-24",
+   "dateLabel": "24 Nov 2025",
+   "phase": "ai",
+   "title": "Claude Opus 4.5",
+   "summary": "A new top model, released days after Google's Gemini 3.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-02-05",
+   "dateLabel": "5–17 Feb 2026",
+   "phase": "ai",
+   "title": "Opus 4.6 and Sonnet 4.6",
+   "summary": "Opus 4.6 arrives on 5 February and Sonnet 4.6 on 17 February.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-04-07",
+   "dateLabel": "7 Apr 2026",
+   "phase": "ai",
+   "title": "Claude Mythos Preview, for a few",
+   "summary": "Anthropic introduces a new tier above Opus, called Mythos, available only to a small number of organisations. Opus 4.7 follows on 16 April and Opus 4.8 on 28 May.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-06-09",
+   "dateLabel": "9 Jun 2026",
+   "phase": "ai",
+   "title": "Claude Fable 5 and Mythos 5",
+   "summary": "The first Mythos-class models: Fable 5 for the public with stricter safeguards, and Mythos 5 for approved organisations.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-06-12",
+   "dateLabel": "12 Jun–1 Jul 2026",
+   "phase": "policy",
+   "title": "Paused under US export controls",
+   "summary": "Anthropic suspends access to Fable 5 and Mythos 5 to comply with US Commerce Department export controls. The controls are lifted on 30 June and access returns on 1 July.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Anthropic",
+     "url": "https://www.anthropic.com/news/fable-mythos-access",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-06-30",
+   "dateLabel": "30 Jun–24 Jul 2026",
+   "phase": "ai",
+   "title": "Sonnet 5 and Opus 5",
+   "summary": "Sonnet 5 launches on 30 June and Opus 5 on 24 July.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/",
+     "primary": true
+    },
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-01",
+   "dateLabel": "1 Sep 2026",
+   "phase": "ai",
+   "title": "Fable 5.1 and Mythos 5.1",
+   "summary": "Updated Mythos-class models.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Claude timeline (GitHub)",
+     "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-10",
+   "dateLabel": "10 Sep 2026",
+   "phase": "ai",
+   "title": "Accuses Chinese labs of copying Claude",
+   "summary": "Anthropic publishes a report accusing seven Chinese labs of harvesting about 190 million Claude responses to train their own models.",
+   "status": "Allegation · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "GrandLinux",
+     "url": "https://www.grandlinux.com/en/blogs/china-ai-update-september-2569.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "china-ai-labs"
+  },
+  {
+   "date": "2026-09-22",
+   "dateLabel": "Late Sep 2026",
+   "phase": "ai",
+   "title": "Opus 5.5 and Sonnet 5.5",
+   "summary": "Opus 5.5 arrives on 22 September, with Sonnet 5.5 in the same period.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/anthropic-claude-timeline/",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)"
+    },
+    {
+     "name": "Claude timeline (GitHub)",
+     "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
+    }
+   ],
+   "added": "2026-11-13",
+   "differs": "Sources give 22 or 28 September for Sonnet 5.5."
+  },
+  {
+   "date": "2026-10-26",
+   "dateLabel": "26 Oct 2026",
+   "phase": "market",
+   "title": "Public IPO filing",
+   "summary": "Anthropic files its S-1 with the US securities regulator, making its finances public.",
+   "status": "Confirmed · SEC filing",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Leverage Shares",
+     "url": "https://leverageshares.com/us/anthropic-ipo-tracker/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "summary": "New versions of the top models, with Anthropic citing gains in coding, multi-step reasoning and coordinating AI agents.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Claude timeline (GitHub)",
+     "url": "https://github.com/jqueryscript/anthropic-claude-timeline",
+     "primary": true
+    },
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/anthropic-claude-timeline/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-10",
+   "dateLabel": "10 Nov 2026",
+   "phase": "market",
+   "title": "IPO roadshow begins",
+   "summary": "Anthropic offers 825 million shares at $70–78 each, to list on Nasdaq as 'ANT'. SiliconANGLE reports about $17 bn revenue and a $536 m operating loss last quarter.",
+   "status": "Confirmed · Anthropic",
+   "numbers": [
+    {
+     "k": "Price range",
+     "v": "$70–78"
+    },
+    {
+     "k": "Shares",
+     "v": "825 M"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Anthropic",
+     "url": "https://www.anthropic.com/news/roadshow-launch",
+     "primary": true
+    },
+    {
+     "name": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+    },
+    {
+     "name": "FourWeekMBA",
+     "url": "https://fourweekmba.com/how-the-anthropic-ipo-works/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "law",
+   "title": "Named in AI freeze lawsuit",
+   "summary": "Four nonprofits ask a San Francisco court to stop Anthropic and four rivals from building more capable AI. No ruling has been made.",
+   "status": "Filed · not ruled on",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via WTOP",
+     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+     "primary": true
+    },
+    {
+     "name": "The Star (AP)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/13/us-advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-039catastrophic039-risks"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "ai-this-week"
+  }
+ ],
+ "updated": "2026-11-13"
+}

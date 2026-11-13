@@ -4,11 +4,10 @@
  "category": "AI",
  "regions": [
   "World",
-  "US",
-  "India"
+  "US"
  ],
  "title": "AI this week: the developments that matter",
- "dek": "New models, money, lawsuits and rules. A running log of the AI news worth knowing, with what it means for ordinary users.",
+ "dek": "New models, money, lawsuits and leadership changes at OpenAI, Anthropic, Google, Meta, Nvidia and others. The AI news worth knowing, updated with each refresh.",
  "seoTitle": "AI news this week: timeline of key developments",
  "importance": 4,
  "status": "Updated with each refresh",
@@ -18,9 +17,9 @@
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
  "updated": "2026-11-13",
  "glance": {
-  "what": "In the past ten days Google and Anthropic released new models, Anthropic began marketing its stock market listing, Nvidia's founder was forced out, and nonprofits asked a court to freeze frontier AI. In India, the government released more homegrown models and questioned apps over footage used to train robots.",
+  "what": "In the past ten days Google and Anthropic released new models, Anthropic began marketing its shares ahead of a Nasdaq listing, Nvidia's founder was forced out, TSMC said it would invest in OpenAI and Anthropic, and nonprofits asked a court to freeze frontier AI.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
-  "next": "Nvidia reports earnings on 17 Nov. Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. India's draft AI rules are expected this month."
+  "next": "Nvidia reports earnings on 17 Nov. Anthropic expects to price its IPO on 18 Nov and list on 19 Nov."
  },
  "keyNumbers": [
   {
@@ -40,9 +39,9 @@
    "note": "15 seconds each"
   },
   {
-   "label": "IndiaAI models approved",
-   "value": "20",
-   "note": "12 startups"
+   "label": "TSMC AI investment",
+   "value": "up to $1 bn",
+   "note": "OpenAI and Anthropic"
   }
  ],
  "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
@@ -61,37 +60,18 @@
    "date": "2026-11-19",
    "label": "19 Nov",
    "text": "Anthropic expected to start trading on Nasdaq as ANT"
-  },
-  {
-   "date": "2026-11-30",
-   "label": "Nov (expected)",
-   "text": "India's AI regulation consultation paper"
   }
  ],
  "next": "Nvidia earnings 17 Nov; Anthropic IPO pricing 18 Nov.",
  "links": [
-  "nvidia-huang-investigation",
-  "india-ai-rules"
+  "ai-model-tracker",
+  "openai-2026",
+  "anthropic-2026",
+  "google-gemini-2026",
+  "meta-ai-2026",
+  "nvidia-huang-investigation"
  ],
  "events": [
-  {
-   "date": "2026-11-04",
-   "dateLabel": "4 Nov 2026",
-   "phase": "ai",
-   "title": "India releases more homegrown AI models",
-   "summary": "The IT ministry announces new models under the IndiaAI Mission: Soket's Eka-1 and ZenteiQ's Dhir 2B and 5B, built for Indian languages and, in some cases, offline use.",
-   "status": "Confirmed · MeitY",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Convergence",
-     "url": "https://www.convergence-now.com/artificial-intelligence/meity-releases-two-more-indigenous-ai-models-under-indiaai-mission-what-are-their-features/",
-     "primary": true
-    }
-   ],
-   "link": "india-ai-rules",
-   "added": "2026-11-13"
-  },
   {
    "date": "2026-11-05",
    "dateLabel": "5 Nov 2026",
@@ -246,28 +226,6 @@
      "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
     }
    ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "policy",
-   "title": "India asks: is home footage training foreign robots?",
-   "summary": "The IT ministry meets Pronto, Urban Company, Snabbit and robotics firms over video recorded by workers inside Indian homes and whether it is sold to overseas developers of robot AI. Pronto says it keeps only anonymised footage for training.",
-   "status": "Reported · ET via MediaNama",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "MediaNama",
-     "url": "https://www.medianama.com/2026/11/223-footage-train-robots-meity-questions-platforms/",
-     "primary": true
-    },
-    {
-     "name": "Elets CIO",
-     "url": "https://cio.eletsonline.com/artificial-intelligence/meity-physical-ai-data/76885/"
-    }
-   ],
-   "link": "india-ai-rules",
    "added": "2026-11-13"
   },
   {

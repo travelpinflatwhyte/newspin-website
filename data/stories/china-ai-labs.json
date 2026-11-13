@@ -1,0 +1,261 @@
+{
+ "slug": "china-ai-labs",
+ "short": "China's AI labs",
+ "category": "AI",
+ "regions": [
+  "World"
+ ],
+ "title": "China's AI labs: DeepSeek, Qwen, Kimi and the open-model race",
+ "dek": "Cheap, open models from DeepSeek, Alibaba, Moonshot and Zhipu closed much of the gap with US labs, and sparked accusations of copying.",
+ "seoTitle": "Chinese AI models 2025–2026: DeepSeek V4, Qwen, Kimi",
+ "importance": 3,
+ "status": "Qwen 4 expected",
+ "tone": "live",
+ "big": "6",
+ "delta": "releases in ~2 months",
+ "bigLabel": "Near-frontier releases from five Chinese firms between June and August 2026, per State Street Global Advisors",
+ "glance": {
+  "what": "DeepSeek's R1 shook the industry in January 2025. In 2026 Chinese labs released a wave of large open-weight models, including DeepSeek V4, Moonshot's Kimi K3, Alibaba's Qwen3.8-Max and Zhipu's GLM-5.2, often far cheaper than US rivals.",
+  "why": "Open, cheap models let anyone build AI products without paying US companies, and they sit at the centre of the US–China technology contest.",
+  "next": "Alibaba says Qwen 4 is coming 'very soon', and DeepSeek has confirmed a V4.1 Pro, without dates."
+ },
+ "keyNumbers": [
+  {
+   "label": "Releases Jun–Aug 2026",
+   "value": "6",
+   "note": "five firms",
+   "hot": true
+  },
+  {
+   "label": "DeepSeek V4 launch",
+   "value": "24 Apr 2026",
+   "note": "open weights"
+  },
+  {
+   "label": "Kimi K3",
+   "value": "16 Jul 2026",
+   "note": "Moonshot"
+  },
+  {
+   "label": "Claude responses alleged",
+   "value": "190 M",
+   "note": "Anthropic claim"
+  }
+ ],
+ "forYou": "Chinese models are free to download and run, and some apps you use may be built on them. Their chatbots follow Chinese content rules, which shape answers on some political topics.",
+ "upcoming": [],
+ "next": "Qwen 4 and DeepSeek V4.1 Pro, both undated.",
+ "links": [
+  "ai-model-tracker",
+  "anthropic-2026"
+ ],
+ "events": [
+  {
+   "date": "2025-01-10",
+   "dateLabel": "Jan 2025",
+   "phase": "ai",
+   "title": "DeepSeek's R1 shock",
+   "summary": "DeepSeek releases its chatbot built on the R1 reasoning model, matching larger US rivals at far lower cost and rattling markets.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: DeepSeek",
+     "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-04-20",
+   "dateLabel": "Apr 2026",
+   "phase": "ai",
+   "title": "Kimi K2.6 and Qwen 3.6",
+   "summary": "Moonshot releases Kimi K2.6 on 20 April, and Alibaba releases its Qwen 3.6 models under an open licence the same month.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "RenovateQR",
+     "url": "https://renovateqr.com/blog/chinese-ai-models-april-2026",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia: Qwen",
+     "url": "https://en.wikipedia.org/wiki/Qwen"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-04-24",
+   "dateLabel": "24 Apr 2026",
+   "phase": "ai",
+   "title": "DeepSeek V4",
+   "summary": "After months of delays, DeepSeek launches V4 and V4 Pro, a 1.6-trillion-parameter open model, a day after OpenAI's GPT-5.5.",
+   "status": "Confirmed · DeepSeek",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: DeepSeek",
+     "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+     "primary": true
+    },
+    {
+     "name": "RenovateQR",
+     "url": "https://renovateqr.com/blog/chinese-ai-models-april-2026"
+    },
+    {
+     "name": "36Kr",
+     "url": "https://eu.36kr.com/en/p/3784369980660996"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true
+  },
+  {
+   "date": "2026-06-16",
+   "dateLabel": "16 Jun 2026",
+   "phase": "ai",
+   "title": "GLM-5.2 opens a summer wave",
+   "summary": "Zhipu's Z.ai releases GLM-5.2, briefly the top open model.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "State Street Global Advisors",
+     "url": "https://www.ssga.com/us/en/intermediary/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-07-16",
+   "dateLabel": "16 Jul 2026",
+   "phase": "ai",
+   "title": "Kimi K3",
+   "summary": "Moonshot's Kimi K3 becomes the leading open-weight model; sign-ups pause when it runs out of chips. Weights follow on 27 July.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "State Street Global Advisors",
+     "url": "https://www.ssga.com/us/en/intermediary/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack",
+     "primary": true
+    },
+    {
+     "name": "AI in China",
+     "url": "https://www.ainchina.com/blog/china-open-weight-trinity-kimi-qwen-deepseek-global-ai-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-08-03",
+   "dateLabel": "3 Aug 2026",
+   "phase": "ai",
+   "title": "Qwen3.8-Max",
+   "summary": "Alibaba releases the cloud version of its 2.4-trillion-parameter Qwen3.8-Max, and says big commercial users of its next open model will need a revenue-sharing deal.",
+   "status": "Confirmed · Alibaba",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Qwen",
+     "url": "https://en.wikipedia.org/wiki/Qwen",
+     "primary": true
+    },
+    {
+     "name": "AI in China",
+     "url": "https://www.ainchina.com/blog/china-open-weight-trinity-kimi-qwen-deepseek-global-ai-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-08-13",
+   "dateLabel": "13 Aug 2026",
+   "phase": "ai",
+   "title": "DeepSeek V4 Pro, and price rises",
+   "summary": "DeepSeek's V4 Pro becomes generally available, and it raises V4 API prices with peak and off-peak rates, Reuters reports.",
+   "status": "Confirmed · Reuters",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "State Street Global Advisors",
+     "url": "https://www.ssga.com/us/en/intermediary/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack",
+     "primary": true
+    },
+    {
+     "name": "Yotta Labs",
+     "url": "https://www.yottalabs.ai/post/best-chinese-llm-models-2026-deepseek-qwen-glm-kimi-compared"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-10",
+   "dateLabel": "10 Sep 2026",
+   "phase": "ai",
+   "title": "Copying accusation; DeepSeek V4.1 Flash",
+   "summary": "Anthropic accuses seven Chinese labs of harvesting about 190 million Claude responses to train their models. The same day DeepSeek releases V4.1 Flash on a new design and cuts prices.",
+   "status": "Allegation · Anthropic",
+   "numbers": [
+    {
+     "k": "Alleged exchanges",
+     "v": "190 M"
+    }
+   ],
+   "sources": [
+    {
+     "name": "GrandLinux",
+     "url": "https://www.grandlinux.com/en/blogs/china-ai-update-september-2569.html",
+     "primary": true
+    },
+    {
+     "name": "Yotta Labs",
+     "url": "https://www.yottalabs.ai/post/best-chinese-llm-models-2026-deepseek-qwen-glm-kimi-compared"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-10-17",
+   "dateLabel": "17 Oct 2026",
+   "phase": "ai",
+   "title": "DeepSeek V4.1 Flash update",
+   "summary": "A checkpoint update with the same price and an improved coding score, per DeepSeek's own tests.",
+   "status": "Confirmed · DeepSeek",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Yotta Labs",
+     "url": "https://www.yottalabs.ai/post/best-chinese-llm-models-2026-deepseek-qwen-glm-kimi-compared",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "ai",
+   "title": "ByteDance: frontier parity by 2029–30",
+   "summary": "ByteDance plans a Meta Muse-style assistant within weeks, and co-founder Zhang Yiming tells staff catching OpenAI and Anthropic will not happen before 2029 or 2030, Bloomberg reports.",
+   "status": "Reported · Bloomberg",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AI Weekly (Ars Technica / Reuters)",
+     "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ],
+ "updated": "2026-11-13"
+}

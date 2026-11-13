@@ -1,0 +1,852 @@
+{
+ "slug": "ai-model-tracker",
+ "short": "AI model tracker",
+ "category": "AI",
+ "regions": [
+  "World",
+  "US"
+ ],
+ "title": "Every major AI model release, 2025–2026",
+ "dek": "OpenAI, Anthropic, Google, Meta, xAI and China's labs: which model came out when, in one timeline.",
+ "seoTitle": "AI model release dates 2025–2026: full timeline",
+ "importance": 4,
+ "status": "Updated with each release",
+ "tone": "live",
+ "big": "37",
+ "delta": "releases tracked",
+ "bigLabel": "Major model launches from the leading AI companies since January 2025",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
+  "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
+  "next": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro are all promised without dates."
+ },
+ "keyNumbers": [
+  {
+   "label": "OpenAI latest",
+   "value": "GPT-6 Astra",
+   "note": "Sep 2026",
+   "hot": true
+  },
+  {
+   "label": "Anthropic latest",
+   "value": "Fable 5.2",
+   "note": "Nov 2026"
+  },
+  {
+   "label": "Google latest",
+   "value": "Gemini 4 Carbon",
+   "note": "Oct–Nov 2026"
+  },
+  {
+   "label": "Meta latest",
+   "value": "Muse Wonder",
+   "note": "Oct 2026"
+  }
+ ],
+ "forYou": "You do not need the newest model for most everyday tasks. Free tiers of ChatGPT, Gemini, Claude and Meta AI usually get a smaller version of each new model within weeks.",
+ "upcoming": [
+  {
+   "date": "2026-12-31",
+   "label": "Undated",
+   "text": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro"
+  }
+ ],
+ "next": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro, all undated.",
+ "links": [
+  "openai-2026",
+  "anthropic-2026",
+  "google-gemini-2026",
+  "meta-ai-2026",
+  "xai-grok-2026",
+  "china-ai-labs"
+ ],
+ "events": [
+  {
+   "date": "2025-01-10",
+   "dateLabel": "Jan 2025",
+   "phase": "ai",
+   "title": "DeepSeek: R1 app",
+   "summary": "A low-cost Chinese reasoning model that matched far bigger US rivals.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: DeepSeek",
+     "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "china-ai-labs"
+  },
+  {
+   "date": "2025-02-17",
+   "dateLabel": "17 Feb 2025",
+   "phase": "ai",
+   "title": "xAI: Grok 3",
+   "summary": "Trained with about ten times Grok 2's computing power, per xAI.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "xai-grok-2026"
+  },
+  {
+   "date": "2025-02-27",
+   "dateLabel": "27 Feb 2025",
+   "phase": "ai",
+   "title": "OpenAI: GPT-4.5",
+   "summary": "OpenAI's largest model at the time, soon phased out.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-4.5",
+     "url": "https://en.wikipedia.org/wiki/GPT-4.5",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2025-04-05",
+   "dateLabel": "5 Apr 2025",
+   "phase": "ai",
+   "title": "Meta: Llama 4",
+   "summary": "Scout and Maverick; Meta's last Llama release so far.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Llama",
+     "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "meta-ai-2026"
+  },
+  {
+   "date": "2025-05-22",
+   "dateLabel": "22 May 2025",
+   "phase": "ai",
+   "title": "Anthropic: Claude Opus 4 and Sonnet 4",
+   "summary": "The start of the Claude 4 generation.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2025-07-10",
+   "dateLabel": "Jul 2025",
+   "phase": "ai",
+   "title": "xAI: Grok 4",
+   "summary": "Always-on reasoning, with a 'Heavy' version.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The AI Rankings (CNBC figures)",
+     "url": "https://theairankings.com/xai/",
+     "primary": true
+    },
+    {
+     "name": "Sumus",
+     "url": "https://sumus.im/blog/grok-5-release-date"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "xai-grok-2026"
+  },
+  {
+   "date": "2025-08-07",
+   "dateLabel": "7 Aug 2025",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5",
+   "summary": "One system combining fast and 'thinking' models with an automatic router.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html",
+     "primary": true
+    },
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "openai-2026"
+  },
+  {
+   "date": "2025-09-29",
+   "dateLabel": "29 Sep 2025",
+   "phase": "ai",
+   "title": "Anthropic: Claude Sonnet 4.5",
+   "summary": "Mid-priced model for coding and agents.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2025-11-12",
+   "dateLabel": "12 Nov 2025",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5.1",
+   "summary": "Opened four frontier launches in under two weeks.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2025-11-17",
+   "dateLabel": "Nov 2025",
+   "phase": "ai",
+   "title": "xAI: Grok 4.1",
+   "summary": "Fewer factual errors, per xAI.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia: Grok",
+     "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "xai-grok-2026"
+  },
+  {
+   "date": "2025-11-18",
+   "dateLabel": "18 Nov 2025",
+   "phase": "ai",
+   "title": "Google: Gemini 3",
+   "summary": "Gemini 3 Pro and Deep Think with a 1-million-token context.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Gemini 3",
+     "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
+     "primary": true
+    },
+    {
+     "name": "BenchLM",
+     "url": "https://benchlm.ai/model-updates/providers/google"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2025-11-24",
+   "dateLabel": "24 Nov 2025",
+   "phase": "ai",
+   "title": "Anthropic: Claude Opus 4.5",
+   "summary": "Anthropic's new top model, six days after Gemini 3.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2025-12-11",
+   "dateLabel": "11 Dec 2025",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5.2",
+   "summary": "December refresh with an extra-high reasoning setting.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/chatgpt-models",
+     "primary": true
+    },
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2025-12-17",
+   "dateLabel": "17 Dec 2025",
+   "phase": "ai",
+   "title": "Google: Gemini 3 Flash",
+   "summary": "Becomes the default in the Gemini app.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Gemini 3",
+     "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2026-02-05",
+   "dateLabel": "5 Feb 2026",
+   "phase": "ai",
+   "title": "Anthropic · OpenAI: Claude Opus 4.6 and GPT-5.3-Codex",
+   "summary": "Two launches on the same day; Sonnet 4.6 follows on 17 February.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-02-12",
+   "dateLabel": "12 Feb 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 3 Deep Think update",
+   "summary": "An updated deep-reasoning model.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Google Gemini",
+     "url": "https://en.wikipedia.org/wiki/Google_Gemini",
+     "primary": true
+    },
+    {
+     "name": "BenchLM",
+     "url": "https://benchlm.ai/model-updates/providers/google"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2026-03-05",
+   "dateLabel": "5 Mar 2026",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5.4",
+   "summary": "First mainline OpenAI model that can operate a computer.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-5.4",
+     "url": "https://en.wikipedia.org/wiki/GPT-5.4",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2026-04-07",
+   "dateLabel": "7 Apr 2026",
+   "phase": "ai",
+   "title": "Anthropic: Claude Mythos Preview",
+   "summary": "A new tier above Opus, for a handful of organisations.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-04-08",
+   "dateLabel": "8 Apr 2026",
+   "phase": "ai",
+   "title": "Meta: Muse Spark",
+   "summary": "Meta's first model from its superintelligence lab, and closed.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "FutureAGI",
+     "url": "https://futureagi.com/blog/llama-traditional-ai-models-2025/",
+     "primary": true
+    },
+    {
+     "name": "BuysiDomains",
+     "url": "https://www.buysidomains.si/meta-superintelligence-labs/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "meta-ai-2026"
+  },
+  {
+   "date": "2026-04-16",
+   "dateLabel": "16 Apr 2026",
+   "phase": "ai",
+   "title": "Anthropic: Claude Opus 4.7",
+   "summary": "Followed by Opus 4.8 on 28 May.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-04-23",
+   "dateLabel": "23 Apr 2026",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5.5",
+   "summary": "Codenamed 'Spud'; its Instant version reaches free users in May.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: GPT-5.5",
+     "url": "https://en.wikipedia.org/wiki/GPT-5.5",
+     "primary": true
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "openai-2026"
+  },
+  {
+   "date": "2026-04-24",
+   "dateLabel": "24 Apr 2026",
+   "phase": "ai",
+   "title": "DeepSeek: V4",
+   "summary": "A 1.6-trillion-parameter open model, a day after GPT-5.5.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: DeepSeek",
+     "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+     "primary": true
+    },
+    {
+     "name": "RenovateQR",
+     "url": "https://renovateqr.com/blog/chinese-ai-models-april-2026"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "china-ai-labs"
+  },
+  {
+   "date": "2026-06-09",
+   "dateLabel": "9 Jun 2026",
+   "phase": "ai",
+   "title": "Anthropic: Claude Fable 5 and Mythos 5",
+   "summary": "The first Mythos-class models; Fable is public.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Claude (AI)",
+     "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-06-16",
+   "dateLabel": "16 Jun 2026",
+   "phase": "ai",
+   "title": "Zhipu: GLM-5.2",
+   "summary": "Briefly the top open-weight model.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "State Street Global Advisors",
+     "url": "https://www.ssga.com/us/en/intermediary/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "china-ai-labs"
+  },
+  {
+   "date": "2026-07-09",
+   "dateLabel": "9 Jul 2026",
+   "phase": "ai",
+   "title": "OpenAI: GPT-5.6 Sol, Terra and Luna",
+   "summary": "Three named tiers replace a single flagship.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Whizi",
+     "url": "https://whizi.io/resources/ai-model-timeline/",
+     "primary": true
+    },
+    {
+     "name": "ReHack",
+     "url": "https://rehack.com/ai/the-complete-ai-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2026-07-16",
+   "dateLabel": "16 Jul 2026",
+   "phase": "ai",
+   "title": "Moonshot · xAI: Kimi K3 and Grok 4.5",
+   "summary": "Moonshot's open Kimi K3 and xAI's coding-focused Grok 4.5.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "State Street Global Advisors",
+     "url": "https://www.ssga.com/us/en/intermediary/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack",
+     "primary": true
+    },
+    {
+     "name": "Kingy AI (from xAI's pages)",
+     "url": "https://kingy.ai/blog/grok-5/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-07-24",
+   "dateLabel": "24 Jul 2026",
+   "phase": "ai",
+   "title": "Anthropic: Claude Opus 5",
+   "summary": "After Sonnet 5 on 30 June.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Tech Jack Solutions",
+     "url": "https://techjacksolutions.com/ai-tools/anthropic-claude/claude-model-lineage-2026/",
+     "primary": true
+    },
+    {
+     "name": "Techiefied",
+     "url": "https://techiefied.com/claude-version-history/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-08-03",
+   "dateLabel": "3 Aug 2026",
+   "phase": "ai",
+   "title": "Alibaba: Qwen3.8-Max",
+   "summary": "A 2.4-trillion-parameter model, cloud version first.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Qwen",
+     "url": "https://en.wikipedia.org/wiki/Qwen",
+     "primary": true
+    },
+    {
+     "name": "AI in China",
+     "url": "https://www.ainchina.com/blog/china-open-weight-trinity-kimi-qwen-deepseek-global-ai-2026/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "china-ai-labs"
+  },
+  {
+   "date": "2026-08-10",
+   "dateLabel": "10 Aug 2026",
+   "phase": "ai",
+   "title": "Meta: Muse Glimmer 30B",
+   "summary": "Meta's return to open weights, under Apache 2.0.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: Meta AI",
+     "url": "https://en.wikipedia.org/wiki/Meta_AI",
+     "primary": true
+    },
+    {
+     "name": "innFactory",
+     "url": "https://innfactory.ai/en/ai-models/meta-llama/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "meta-ai-2026"
+  },
+  {
+   "date": "2026-09-02",
+   "dateLabel": "2 Sep 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 3.8 Flash",
+   "summary": "Third Flash release in six weeks.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+     "primary": true
+    },
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2026-09-03",
+   "dateLabel": "3–4 Sep 2026",
+   "phase": "ai",
+   "title": "OpenAI: GPT-6 Astra",
+   "summary": "OpenAI's sixth generation, with tighter cyber safeguards.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AIToolsReview",
+     "url": "https://aitoolsreview.co.uk/insights/next-gpt-model",
+     "primary": true
+    },
+    {
+     "name": "Times of AI",
+     "url": "https://www.timesofai.com/industry-insights/gpt-version-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "openai-2026"
+  },
+  {
+   "date": "2026-09-21",
+   "dateLabel": "21 Sep 2026",
+   "phase": "ai",
+   "title": "xAI: Grok 4.7",
+   "summary": "xAI's current flagship.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Presenc",
+     "url": "https://presenc.ai/research/xai-grok-model-lineage-2026",
+     "primary": true
+    },
+    {
+     "name": "Fello AI",
+     "url": "https://felloai.com/all-we-know-so-far-about-grok-5/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "xai-grok-2026"
+  },
+  {
+   "date": "2026-09-22",
+   "dateLabel": "22 Sep 2026",
+   "phase": "ai",
+   "title": "Anthropic · OpenAI: Claude Opus 5.5 and GPT-6 Sol/Luna",
+   "summary": "Another same-day pair of launches.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/anthropic-claude-timeline/",
+     "primary": true
+    },
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/openai_gpt_model_release_timeline.html"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-09-30",
+   "dateLabel": "30 Sep 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 4 Argon",
+   "summary": "Google's new frontier model, widely available from 13 October.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Hidekazu Konishi",
+     "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+     "primary": true
+    },
+    {
+     "name": "BenchLM",
+     "url": "https://benchlm.ai/model-updates/providers/google"
+    }
+   ],
+   "added": "2026-11-13",
+   "key": true,
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2026-10-12",
+   "dateLabel": "12 Oct 2026",
+   "phase": "ai",
+   "title": "Meta: Muse Wonder",
+   "summary": "What Zuckerberg calls Meta's first frontier model.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Taskade",
+     "url": "https://www.taskade.com/blog/history-of-meta-muse",
+     "primary": true
+    },
+    {
+     "name": "innFactory",
+     "url": "https://innfactory.ai/en/ai-models/meta-llama/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "meta-ai-2026"
+  },
+  {
+   "date": "2026-10-28",
+   "dateLabel": "28 Oct 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 4 Carbon",
+   "summary": "Announced; reaches Ultra subscribers and developers on 10 November.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "BenchLM",
+     "url": "https://benchlm.ai/model-updates/providers/google",
+     "primary": true
+    },
+    {
+     "name": "IT Cares (from Google's and Anthropic's pages)",
+     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "google-gemini-2026"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Anthropic: Claude Fable 5.2 and Mythos 5.2",
+   "summary": "The newest Claude models.",
+   "status": "Released",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Claude timeline (GitHub)",
+     "url": "https://github.com/jqueryscript/anthropic-claude-timeline",
+     "primary": true
+    },
+    {
+     "name": "ScriptByAI",
+     "url": "https://www.scriptbyai.com/anthropic-claude-timeline/"
+    }
+   ],
+   "added": "2026-11-13",
+   "link": "anthropic-2026"
+  }
+ ]
+}

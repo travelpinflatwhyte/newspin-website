@@ -268,7 +268,8 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 </main>
 <footer class="site-footer"><div class="wrap">
   <span>© {dt.date.today().year} Newspin · {e(site['tagline'])}</span>
-  <nav aria-label="Footer"><a href="/about/">How it works</a><a href="/about/#corrections">Corrections</a><a href="/privacy/">Privacy</a></nav>
+  <nav aria-label="Footer"><a href="/about/">How it works</a><a href="/about/#corrections">Corrections</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms &amp; disclaimer</a></nav>
+  <p class="foot-note">Newspin summarises reporting from the sources linked on each timeline. It is general information, not financial, legal or medical advice.</p>
   <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark mode"><svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button>
 </div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
@@ -439,7 +440,7 @@ def build_home(site, stories, order, axis):
     n_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/"><b>{e(u["label"])}</b> · {e(u["text"])}</a>' for date, u, s in ups if d(date) > today][:5]
     strip = '<div class="strip" aria-label="Today and next">'
     if t_chips:
-        strip += '<span class="strip-l hot">Today</span>' + "".join(t_chips)
+        strip += f'<span class="strip-l hot" data-ist-day="{site["today"]}">Today</span>' + "".join(t_chips)
     if n_chips:
         strip += '<span class="strip-l">Next</span>' + "".join(n_chips)
     strip += '</div>'
@@ -665,21 +666,63 @@ def build_about(site):
 
 
 def build_privacy(site):
+    mail = e(site.get('contactEmail', 'hello@newspinapp.com'))
     body = f"""<div class="wrap-narrow prose">
 <h1>Privacy</h1>
-<p><em>Last updated {e(nice_date(site['today']))}.</em></p>
-<h2>No accounts, no tracking cookies</h2>
-<p>You can read Newspin without signing up. Newspin does not set advertising or tracking cookies.</p>
-<h2>What your browser stores</h2>
-<p>When you follow a story, switch the detail level or open a timeline, Newspin saves that choice and the date in your browser’s local storage, so it can show you what changed since your last visit. This stays on your device and is never sent to us. Clearing your browser data removes it.</p>
-<h2>Fonts</h2>
-<p>Pages load fonts from Google Fonts, which means your browser connects to Google’s servers to fetch them.</p>
+<p><em>Last updated 13 November 2026.</em></p>
+<p>Newspin is built to work without knowing who you are. This page explains the little that is stored or shared when you use it.</p>
+<h2>No accounts, no tracking</h2>
+<p>You can read Newspin without signing up. We do not use advertising or tracking cookies, and we do not run analytics or share data with advertisers. If that ever changes, we will update this page first and say so on the site.</p>
+<h2>What your browser stores on your device</h2>
+<p>To remember your choices, Newspin saves a few small items in your browser’s local storage:</p>
+<ul>
+<li>stories you follow, and the date you last opened each story (so we can show what changed since your last visit);</li>
+<li>your detail level, sort order and light or dark theme;</li>
+<li>your preferred listening speed.</li>
+</ul>
+<p>These stay on your device and are not sent to us. Clearing your browser data removes them.</p>
+<h2>Listen</h2>
+<p>The Listen feature uses your device’s built-in text-to-speech. Newspin does not send the text anywhere. Some browsers offer online voices run by the browser maker; if you have chosen one of those, your browser may process the text on its maker’s servers under its own privacy policy.</p>
+<h2>Services we rely on</h2>
+<ul>
+<li><strong>Hosting:</strong> the site is hosted on GitHub Pages. Like any web host, GitHub may log technical data such as your IP address for security and operations.</li>
+<li><strong>Fonts:</strong> pages load fonts from Google Fonts, so your browser connects to Google’s servers to fetch them.</li>
+<li><strong>Sharing:</strong> if you use Share, your device’s own share menu or clipboard handles it.</li>
+<li><strong>Links:</strong> source links take you to other websites, which have their own privacy policies.</li>
+</ul>
 <h2>Email alerts</h2>
-<p>If email alerts are offered and you sign up, we use your email address only to send updates on the stories you chose, and you can unsubscribe at any time.</p>
-<h2>Contact</h2>
-<p>Questions: <a href="mailto:{e(site.get('contactEmail', 'hello@newspinapp.com'))}">{e(site.get('contactEmail', 'hello@newspinapp.com'))}</a></p>
+<p>Email alerts are not live yet. When they are, we will use your email address only to send updates on the stories you chose, and every email will have an unsubscribe link.</p>
+<h2>Children</h2>
+<p>Newspin is a general news site and does not knowingly collect information from children.</p>
+<h2>Changes and contact</h2>
+<p>If this policy changes, we will update the date at the top. Questions or requests: <a href="mailto:{mail}">{mail}</a>.</p>
 </div>"""
-    return page(site, title="Privacy | Newspin", desc="What Newspin stores and why.", path="/privacy/", body=body, nav="privacy")
+    return page(site, title="Privacy | Newspin", desc="What Newspin stores, what it shares and why.", path="/privacy/", body=body, nav="privacy")
+
+
+def build_terms(site):
+    mail = e(site.get('contactEmail', 'hello@newspinapp.com'))
+    body = f"""<div class="wrap-narrow prose">
+<h1>Terms of use and disclaimer</h1>
+<p><em>Last updated 13 November 2026.</em></p>
+<h2>What Newspin is</h2>
+<p>Newspin organises reporting on major ongoing news stories into timelines. Each event summarises, in our own words, what published sources have reported, and links to those sources so you can read them yourself.</p>
+<h2>Not advice</h2>
+<p>Everything on Newspin is general information. It is not financial, investment, legal, tax or medical advice, and it is not a recommendation to buy, sell or hold anything. Make important decisions using the original sources and, where appropriate, a qualified professional.</p>
+<h2>Accuracy</h2>
+<p>We work to keep timelines accurate and current: every event is sourced, reports are labelled by how firm they are (confirmed, reported, allegation, forecast), and disagreements between outlets are flagged. News changes quickly, though, and sources can be wrong or updated after we read them. Newspin is provided as it is, without guarantees of completeness or accuracy. Allegations described on Newspin are claims made by the people or outlets named, not findings of fact.</p>
+<h2>How Newspin is made</h2>
+<p>Newspin uses AI tools to help find news, draft summaries and update timelines, working to written editorial rules. Updates may be published automatically. Every event links to its sources so you can check it.</p>
+<h2>Corrections and complaints</h2>
+<p>If you spot an error, or believe something on Newspin is unfair or unlawful, email <a href="mailto:{mail}">{mail}</a> with the page link and what is wrong. We review every report and correct mistakes openly on the timeline.</p>
+<h2>Using Newspin</h2>
+<p>You are welcome to read, link to and share Newspin pages. Please do not copy timelines wholesale, republish them or scrape the site for commercial use without permission.</p>
+<h2>Other people’s content and names</h2>
+<p>Linked articles and documents belong to their publishers. Company and product names belong to their owners and are used only to identify them; Newspin is not affiliated with or endorsed by them.</p>
+<h2>Changes</h2>
+<p>We may update these terms; the date at the top shows the latest version. Continuing to use Newspin means you accept the current terms.</p>
+</div>"""
+    return page(site, title="Terms and disclaimer | Newspin", desc="How to use Newspin, and what it is and is not.", path="/terms/", body=body, nav="terms")
 
 
 def build_404(site):
@@ -771,13 +814,13 @@ def main():
         p = DIST / "stories" / slug
         p.mkdir(parents=True)
         (p / "index.html").write_text(build_story(site, stories, stories[slug], axis))
-    for name, fn in [("about", build_about), ("privacy", build_privacy)]:
+    for name, fn in [("about", build_about), ("privacy", build_privacy), ("terms", build_terms)]:
         (DIST / name).mkdir()
         (DIST / name / "index.html").write_text(fn(site))
     (DIST / "404.html").write_text(build_404(site))
     dom = site["domain"].rstrip("/")
     newest = max(stories[x]["updated"] for x in order)
-    urls = [("/", newest)] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"])]
+    urls = [("/", newest)] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"]), ("/terms/", site["today"])]
     sm = "".join(f"<url><loc>{dom}{u}</loc><lastmod>{m}</lastmod></url>" for u, m in urls)
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n")

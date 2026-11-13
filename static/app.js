@@ -8,7 +8,14 @@
   function save(key, value) {
     try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* storage blocked: features degrade quietly */ }
   }
-  var today = new Date().toISOString().slice(0, 10);
+  function localDay(dt) { // the reader's own calendar date, not UTC
+    return dt.getFullYear() + '-' + ('0' + (dt.getMonth() + 1)).slice(-2) + '-' + ('0' + dt.getDate()).slice(-2);
+  }
+  var today = localDay(new Date());
+  // "Today" on the home strip is India's date; say so for readers whose date differs
+  document.querySelectorAll('[data-ist-day]').forEach(function (el) {
+    if (el.getAttribute('data-ist-day') !== today) el.textContent = 'Today in India';
+  });
   if (/[?&]tl=a\b/.test(location.search)) document.body.classList.remove('tl-b'); // old phone layout, for comparison
   var follows = load('np_follow', {});   // slug -> date followed
   var seen = load('np_seen', {});        // slug -> date last opened
@@ -182,7 +189,7 @@
   // ---- home: greeting + bubbles ----
   var seenAtLoad = JSON.parse(JSON.stringify(seen));
   var DATA = window.NP_STORIES || [];
-  function addDays(d, n) { var x = new Date(d + 'T00:00:00'); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); }
+  function addDays(d, n) { var x = new Date(d + 'T00:00:00'); x.setDate(x.getDate() + n); return localDay(x); }
   var threeAgo = addDays(today, -3);
   function isNew(s) { return s.latestAdded > (seenAtLoad[s.slug] || threeAgo); }
   var helloH = document.getElementById('hello-h');

@@ -40,7 +40,7 @@ ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke
 ICON_CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>'
 ICON_CHECK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>'
 ICON_WARN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>'
-LOGO_SVG = '<svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 50V14L48 50V14" fill="none" stroke="#15171C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="16" cy="50" r="5" fill="#15171C"></circle><circle cx="16" cy="14" r="5" fill="#15171C"></circle><circle cx="48" cy="50" r="5" fill="#15171C"></circle><circle cx="48" cy="14" r="8" fill="#C2410C" stroke="#FFFFFF" stroke-width="3"></circle></svg>'
+LOGO_SVG = '<svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 50V14L48 50V14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="16" cy="50" r="5" fill="currentColor"></circle><circle cx="16" cy="14" r="5" fill="currentColor"></circle><circle cx="48" cy="50" r="5" fill="currentColor"></circle><circle cx="48" cy="14" r="8" fill="#C2410C" stroke="var(--surface,#fff)" stroke-width="3"></circle></svg>'
 FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#15171C"/><path d="M18 48V18L44 48V18" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="18" cy="18" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="18" r="9" fill="#F97316" stroke="#15171C" stroke-width="3"/></svg>'
 
 
@@ -166,16 +166,16 @@ def track_html(s, axis, dark=False, link_prefix=""):
         href = f'{link_prefix}#e{idx + 1}'
         if len(items) > 1:
             size = 22 if has_latest else 20
-            ring = f"box-shadow:0 0 0 3px #fff,0 0 0 6px {color}33;" if has_latest else "box-shadow:0 0 0 3px #fff;"
+            ring = f"box-shadow:0 0 0 3px var(--surface),0 0 0 6px {color}33;" if has_latest else "box-shadow:0 0 0 3px var(--surface);"
             parts.append(f'<a class="dot cl" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:{size}px;height:{size}px;background:{color};{ring}">{len(items)}</a>')
         elif ev["phase"] == "forecast":
-            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:12px;height:12px;background:#fff;border:2px dashed #5B3A9A"></a>')
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:12px;height:12px;background:var(--surface);border:2px dashed #5B3A9A"></a>')
         elif has_latest:
-            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:16px;height:16px;background:{color};box-shadow:0 0 0 3px #fff,0 0 0 7px {color}33"></a>')
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:16px;height:16px;background:{color};box-shadow:0 0 0 3px var(--surface),0 0 0 7px {color}33"></a>')
         else:
-            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:11px;height:11px;background:{color};box-shadow:0 0 0 2.5px #fff"></a>')
+            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:11px;height:11px;background:{color};box-shadow:0 0 0 2.5px var(--surface)"></a>')
     if ups:  # only the next scheduled event gets a dot; the dashed line shows anything later
-        parts.append(f'<span class="dot" style="left:{pos(ups[0]):.2f}%;width:13px;height:13px;background:#fff;border:2px dashed {ink}"></span>')
+        parts.append(f'<span class="dot" style="left:{pos(ups[0]):.2f}%;width:13px;height:13px;background:var(--surface);border:2px dashed {ink}"></span>')
 
     # labels: latest above its dot; start, now and next below
     lp = pos(d(latest["date"]))
@@ -186,7 +186,9 @@ def track_html(s, axis, dark=False, link_prefix=""):
         up_p = pos(ups[0])
         if up_p - now_p > 14:
             parts.append(f'<span class="tl-bot now-l" style="left:{now_p:.2f}%">Now</span>')
-        parts.append(f'<span class="tl-bot next-l" style="right:0;left:auto;transform:none">Next · {e(short_date(ups[0], today))}</span>')
+        nxt = ups[1] if ups[0] == today and len(ups) > 1 else ups[0]
+        nxt_label = next((u["label"] for u in s.get("upcoming", []) if d(u["date"]) == nxt), short_date(nxt, today))
+        parts.append(f'<span class="tl-bot next-l" style="right:0;left:auto;transform:none">Next · {e(nxt_label)}</span>')
     else:
         parts.append(f'<span class="tl-bot now-l" style="right:0;left:auto;transform:none">Now</span>')
     parts.append("</div>")
@@ -231,8 +233,10 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<meta name="color-scheme" content="light dark">
+<script>(function(){{try{{var t=localStorage.getItem('np_theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();</script>
 {ld}
 </head>
 <body class="tl-b"{f' data-story="{e(story_slug)}"' if story_slug else ''}>
@@ -243,6 +247,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
     <a href="/"{cur('home')}>Timelines</a>
     <a href="/about/"{cur('about')}>How it works</a>
   </nav>
+  <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark mode"><svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button>
 </div></header>
 <main id="main">
 {body}
@@ -286,6 +291,21 @@ def rank(f, today):
     return score, quiet
 
 
+# ---------- story mode data (used by "Catch me up") ----------
+CAT_BG = {"Economy": "#1D3FB0", "Markets": "#0B5A4C", "World": "#4A2F82", "Trade": "#8A2E0E", "Policy": "#353A45", "Tech": "#0B5A8A"}
+
+
+def sm_data(s):
+    evs = []
+    for i, ev in enumerate(s["events"]):
+        evs.append({"i": i + 1, "date": ev["date"], "added": ev["added"], "label": ev["dateLabel"], "title": ev["title"],
+                    "summary": ev["summary"], "status": ev["status"], "nums": ev.get("numbers", [])[:2],
+                    "sources": len(ev["sources"]), "forecast": ev["phase"] == "forecast"})
+    return {"slug": s["slug"], "short": s["short"], "url": f"/stories/{s['slug']}/", "bg": CAT_BG.get(s["category"], "#353A45"),
+            "letter": s["short"][0].upper(), "latestAdded": max(ev["added"] for ev in s["events"]),
+            "latestTitle": latest_event(s)["title"], "latestLabel": latest_event(s)["dateLabel"], "events": evs}
+
+
 # ---------- home ----------
 def build_home(site, stories, order, axis):
     today = axis.today
@@ -322,18 +342,20 @@ def build_home(site, stories, order, axis):
     ranked = sorted(order, key=lambda x: -rank(facts[x], today)[0])
     live = [x for x in ranked if not rank(facts[x], today)[1]]
     quiet = [x for x in ranked if rank(facts[x], today)[1]]
+    hero_slug = live[0] if live else ranked[0]
+    grid_live = [x for x in live if x != hero_slug]
     cards, quiet_cards = [], []
-    for slug in live + quiet:
+    for slug in grid_live + quiet:
         s = stories[slug]
         f = facts[slug]
         latest = latest_event(s)
-        feat = " featured" if slug in live[:2] else ""
+        feat = " featured" if slug in grid_live[:2] else ""
         hot = " hot" if s["tone"] == "hot" else ""
         long_ = " long" if len(s["big"]) > 6 else ""
         stands = f'<p class="stands">{e(s["glance"]["what"])}</p>'
         links = ", ".join(f'<a href="/stories/{e(l)}/">{e(stories[l]["short"])}</a>' for l in s.get("links", []) if l in stories)
         linked = f'<div class="linked">Linked to {links}</div>' if links else ""
-        target = cards if slug in live else quiet_cards
+        target = cards if slug in grid_live else quiet_cards
         if slug in live:
             status_pill = f'<span class="status tone-{e(s["tone"])}">{e(s["status"])}</span>'
         else:
@@ -359,32 +381,63 @@ def build_home(site, stories, order, axis):
   </div>
 </article>""")
 
-    js_data = [{"slug": s["slug"], "short": s["short"], "url": f"/stories/{s['slug']}/",
-                "latestAdded": max(ev["added"] for ev in s["events"]),
-                "latestTitle": latest_event(s)["title"], "latestLabel": latest_event(s)["dateLabel"]} for s in (stories[x] for x in order)]
+    js_data = [sm_data(stories[x]) for x in [hero_slug] + grid_live + quiet]
+
+    # greeting + story bubbles (top 8 by rank)
+    bubble_slugs = ([hero_slug] + grid_live)[:8]
+    bubbles = "".join(
+        f'<li><button type="button" class="bubble" data-sm-open="{e(x)}" aria-label="Catch up on {e(stories[x]["short"])}">'
+        f'<span class="ring"><span class="face" style="background:{CAT_BG.get(stories[x]["category"], "#353A45")}">{e(stories[x]["short"][0].upper())}</span></span>'
+        f'<span class="bl">{e(stories[x]["short"])}</span></button></li>' for x in bubble_slugs)
+
+    # lead story
+    h = stories[hero_slug]
+    hl = latest_event(h)
+    kn = h.get("keyNumbers", [{}])[0]
+    hero_title = h.get("heroTitle") or hl["title"]
+    hero_dek = h.get("heroDek") or h["dek"]
+    regions = " · ".join(h.get("regions", ["India"]))
+    n_ev = len(h["events"])
+    hero_html = f"""
+  <section class="lead {cat_class(h['category'])}" aria-labelledby="lead-h">
+    <div class="lead-main">
+      <div class="lead-tags"><span class="live-tag">Top story · updated {e(short_date(d(h['updated']), today))}</span><span class="lead-cat">{e(h['category'])} · {e(regions)}</span></div>
+      <h1 id="lead-h"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h1>
+      <p>{e(hero_dek)}</p>
+      <div class="lead-actions">
+        <button type="button" class="btn btn-pill-light" data-sm-open="{e(hero_slug)}">Catch me up · {n_ev} events</button>
+        <a class="btn btn-pill-ghost" href="/stories/{e(hero_slug)}/">Full timeline</a>
+        {follow_btn(hero_slug, "btn btn-pill-ghost", short=h['short'])}
+      </div>
+    </div>
+    <div class="lead-side">
+      <div class="lead-stat"><span class="lbl2">{e(kn.get('label', h['bigLabel']))}</span><div><span class="lead-big">{e(h['big'])}</span>{'' if h['delta'].lower() in kn.get('label', h['bigLabel']).lower() else '<span class="lead-delta">'+e(h['delta'])+'</span>'}</div></div>
+      {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/")}
+      <span class="lead-note">Next: {e(h['next'])}</span>
+    </div>
+  </section>"""
+
+    # today / next strip
+    t_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/">{e(s["short"])}: {e(u["text"])}</a>' for date, u, s in ups if d(date) == today]
+    n_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/"><b>{e(u["label"])}</b> · {e(u["text"])}</a>' for date, u, s in ups if d(date) > today][:5]
+    strip = '<div class="strip" aria-label="Today and next">'
+    if t_chips:
+        strip += '<span class="strip-l hot">Today</span>' + "".join(t_chips)
+    if n_chips:
+        strip += '<span class="strip-l">Next</span>' + "".join(n_chips)
+    strip += '</div>'
+
+    top_html = f"""
+  <section class="hello" aria-labelledby="hello-h">
+    <div class="hello-text"><h1 id="hello-h">Hello</h1><p id="hello-sub">{len(order)} live timelines across India, the US and the world</p></div>
+    <ul class="bubbles" aria-label="Catch up story by story">{bubbles}</ul>
+  </section>
+  {hero_html}
+  {strip}"""
 
     body = f"""
 <div class="wrap">
-  <div class="home-top">
-    <section class="catchup" id="catchup-intro" aria-labelledby="intro-h">
-      <span class="kicker">{len(order)} live timelines · India, World and US · updated {e(nice_date(site['today']))}</span>
-      <h1 id="intro-h">Every big story, from the beginning.</h1>
-      <p>Newspin turns the biggest ongoing stories in India and around the world into clear timelines: what happened, when, and what comes next. Every event links to its sources.</p>
-      <p>Follow a few stories and this space becomes your catch-up: what changed since you last looked.</p>
-      <div class="hero-actions"><a class="btn btn-light" href="#live">Browse timelines</a><a class="btn btn-ghost" href="/about/">How it works</a></div>
-    </section>
-    <section class="catchup" id="catchup" aria-live="polite" hidden>
-      <span class="kicker">Your stories</span>
-      <h1>Your stories</h1>
-      <ul></ul>
-      <div class="hero-actions"><a class="btn btn-light" data-all href="#live">Catch me up</a><a class="btn btn-ghost" href="#live">All timelines</a></div>
-    </section>
-    <section class="cal" aria-labelledby="cal-h">
-      <h2 class="eyebrow" id="cal-h">Coming up</h2>
-      <ol>{cal}</ol>
-    </section>
-  </div>
-
+{top_html}
   <section class="chain" aria-labelledby="chain-h">
     <div class="chain-head"><h2 id="chain-h">How these stories connect</h2><span class="note">Cause and effect across timelines</span></div>
     <div class="chain-row">{chain_row(site['chain'])}<span class="arr" aria-hidden="true" style="padding:0 6px">·</span>{chain_row(site['chain2']).replace('→', '↔')}</div>
@@ -500,7 +553,7 @@ def build_story(site, stories, s, axis):
     <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span><span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
     <h1 id="t">{e(s['title'])}</h1>
     <p class="dek">{e(s['dek'])}</p>
-    <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
+    <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
   </section>
   <div class="story-cols">
     <div class="story-main">
@@ -536,6 +589,7 @@ def build_story(site, stories, s, axis):
   </div>
 </div>
 """
+    body += f'<script>window.NP_STORIES={json.dumps([sm_data(s)], ensure_ascii=False)};</script>'
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": s["title"], "description": s["dek"],
           "dateModified": s["updated"], "datePublished": s["updated"], "url": f"{site['domain']}/stories/{slug}/",
           "image": f"{site['domain']}/og/{slug}.png", "publisher": {"@type": "Organization", "name": "Newspin", "url": site["domain"]},
@@ -662,7 +716,8 @@ def build_og(site, stories, order, axis):
 # ---------- main ----------
 def main():
     site, stories, order = load()
-    today = dt.date.fromisoformat(os.environ.get("NEWSPIN_TODAY") or dt.date.today().isoformat())
+    ist_today = dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).date()  # the site's home time zone
+    today = dt.date.fromisoformat(os.environ.get("NEWSPIN_TODAY") or ist_today.isoformat())
     axis = Axis(stories, today)
     if DIST.exists():
         shutil.rmtree(DIST)

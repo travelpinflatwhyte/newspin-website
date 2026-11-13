@@ -163,40 +163,146 @@
   }
   arrange();
 
-  // ---- home: catch-up across followed stories ----
-  function renderCatchup() {
-    var box = document.getElementById('catchup');
-    var data = window.NP_STORIES;
-    if (!box || !data) return;
-    var intro = document.getElementById('catchup-intro');
-    var mine = data.filter(function (s) { return follows[s.slug]; });
-    if (!mine.length) { box.hidden = true; if (intro) intro.hidden = false; return; }
-    box.hidden = false; if (intro) intro.hidden = true;
-    var moved = mine.filter(function (s) {
-      var since = seen[s.slug] || follows[s.slug];
-      return s.latestAdded > since;
-    });
-    var h = box.querySelector('h1');
-    var kicker = box.querySelector('.kicker');
-    var list = box.querySelector('ul');
-    var all = box.querySelector('[data-all]');
-    kicker.textContent = homeSeen ? 'Last visit ' + fmt(homeSeen) : 'Your stories';
-    h.textContent = moved.length
-      ? moved.length + ' of your ' + mine.length + ' ' + (mine.length === 1 ? 'story' : 'stories') + ' moved since you last looked'
-      : 'You’re caught up on your ' + mine.length + ' ' + (mine.length === 1 ? 'story' : 'stories');
-    list.innerHTML = '';
-    (moved.length ? moved : mine).forEach(function (s) {
-      var li = document.createElement('li');
-      var a = document.createElement('a'); a.href = s.url; a.textContent = s.short;
-      var span = document.createElement('span');
-      span.appendChild(a);
-      span.appendChild(document.createTextNode(': ' + s.latestTitle + ' (' + s.latestLabel + ')'));
-      li.appendChild(span); list.appendChild(li);
-    });
-    if (all) { all.href = (moved[0] || mine[0]).url; all.textContent = moved.length ? 'Start with ' + (moved[0].short) : 'Open ' + mine[0].short; }
+  // ---- theme ----
+  var themeBtn = document.getElementById('theme-btn');
+  function paintTheme() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (themeBtn) themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
   }
-  renderCatchup();
-  if (document.getElementById('catchup')) save('np_home', today);
+  if (themeBtn) themeBtn.addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('np_theme', next); } catch (e) {}
+    paintTheme();
+  });
+  paintTheme();
+
+  // ---- home: greeting + bubbles ----
+  var seenAtLoad = JSON.parse(JSON.stringify(seen));
+  var DATA = window.NP_STORIES || [];
+  function addDays(d, n) { var x = new Date(d + 'T00:00:00'); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); }
+  var threeAgo = addDays(today, -3);
+  function isNew(s) { return s.latestAdded > (seenAtLoad[s.slug] || threeAgo); }
+  var helloH = document.getElementById('hello-h');
+  if (helloH) {
+    var hr = new Date().getHours();
+    helloH.textContent = hr < 12 ? 'Good morning' : hr < 17 ? 'Good afternoon' : 'Good evening';
+    var sub = document.getElementById('hello-sub');
+    var mine = DATA.filter(function (s) { return follows[s.slug]; });
+    if (sub) {
+      if (mine.length) {
+        var moved = mine.filter(isNew).length;
+        sub.textContent = moved ? moved + ' of your ' + mine.length + ' stories moved since your last visit.' : 'You’re caught up on your ' + mine.length + (mine.length === 1 ? ' story.' : ' stories.');
+      } else {
+        var n = DATA.filter(function (s) { return s.latestAdded >= threeAgo; }).length;
+        sub.textContent = n + (n === 1 ? ' story' : ' stories') + ' moved in the last 3 days. Tap one to catch up.';
+      }
+    }
+    // followed stories first among the bubbles
+    var ul = document.querySelector('.bubbles');
+    if (ul) {
+      var lis = Array.prototype.slice.call(ul.children);
+      lis.sort(function (x, y) {
+        var fx = follows[x.querySelector('[data-sm-open]').getAttribute('data-sm-open')] ? 1 : 0;
+        var fy = follows[y.querySelector('[data-sm-open]').getAttribute('data-sm-open')] ? 1 : 0;
+        return fy - fx;
+      }).forEach(function (li) { ul.appendChild(li); });
+    }
+    save('np_home', today);
+  }
+  function paintBubbles() {
+    document.querySelectorAll('.bubble[data-sm-open]').forEach(function (b) {
+      var s = byslug(b.getAttribute('data-sm-open'));
+      var fresh = s && s.latestAdded > (seen[s.slug] || threeAgo);
+      b.classList.toggle('new', !!fresh);
+      var name = s ? s.short : '';
+      b.setAttribute('aria-label', 'Catch up on ' + name + (fresh ? ', new updates' : ''));
+    });
+  }
+  function byslug(slug) { for (var i = 0; i < DATA.length; i++) if (DATA[i].slug === slug) return DATA[i]; return null; }
+  paintBubbles();
+
+  // ---- story mode ("Catch me up") ----
+  var sm, smStory, smSlides, smIdx, smOpener;
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function buildSm() {
+    sm = el('div', 'sm'); sm.hidden = true;
+    sm.setAttribute('role', 'dialog'); sm.setAttribute('aria-modal', 'true'); sm.setAttribute('aria-label', 'Catch me up');
+    sm.innerHTML = '<div class="sm-card"><div class="sm-bars"></div><div class="sm-top"><div class="sm-who"><span class="sm-av"></span><span><span class="sm-name"></span><span class="sm-pos"></span></span></div><button type="button" class="sm-x" aria-label="Close">×</button></div>' +
+      '<button type="button" class="sm-zone prev" aria-label="Previous"></button><button type="button" class="sm-zone next" aria-label="Next"></button>' +
+      '<div class="sm-body" aria-live="polite"></div><div class="sm-foot"><p class="sm-hint">Tap the right side for next, left for back</p><div class="sm-actions"><a class="go"></a><a class="ghost"></a></div></div></div>';
+    document.body.appendChild(sm);
+    sm.querySelector('.sm-x').addEventListener('click', closeSm);
+    sm.querySelector('.sm-zone.prev').addEventListener('click', function () { step(-1); });
+    sm.querySelector('.sm-zone.next').addEventListener('click', function () { step(1); });
+    sm.addEventListener('click', function (e) { if (e.target === sm) closeSm(); });
+    document.addEventListener('keydown', function (e) {
+      if (!sm || sm.hidden) return;
+      if (e.key === 'Escape') closeSm();
+      else if (e.key === 'ArrowRight') step(1);
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'Tab') { // keep focus inside
+        var f = sm.querySelectorAll('button,a[href]'); var first = f[0], lastF = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); lastF.focus(); }
+        else if (!e.shiftKey && document.activeElement === lastF) { e.preventDefault(); first.focus(); }
+      }
+    });
+  }
+  function openSm(slug, opener) {
+    var s = byslug(slug); if (!s) return;
+    if (!sm) buildSm();
+    smStory = s; smOpener = opener || smOpener;
+    var since = seenAtLoad[slug];
+    var fresh = since ? s.events.filter(function (e) { return e.added > since; }) : [];
+    smSlides = fresh.length ? fresh : s.events.slice(-3);
+    smIdx = 0;
+    seen[slug] = today; save('np_seen', seen); paintBubbles();
+    sm.querySelector('.sm-card').style.setProperty('--sm-bg', s.bg);
+    sm.querySelector('.sm-av').textContent = s.letter;
+    sm.querySelector('.sm-name').textContent = s.short;
+    var bars = sm.querySelector('.sm-bars'); bars.innerHTML = '';
+    smSlides.forEach(function () { bars.appendChild(el('i')); });
+    sm.hidden = false; document.documentElement.style.overflow = 'hidden';
+    render();
+    sm.querySelector('.sm-zone.next').focus();
+  }
+  function render() {
+    var ev = smSlides[smIdx], s = smStory;
+    Array.prototype.forEach.call(sm.querySelectorAll('.sm-bars i'), function (b, i) { b.className = i < smIdx ? 'done' : i === smIdx ? 'cur' : ''; });
+    sm.querySelector('.sm-pos').textContent = 'Update ' + (smIdx + 1) + ' of ' + smSlides.length + (seenAtLoad[s.slug] && smSlides.length && smSlides[0].added > seenAtLoad[s.slug] ? ' · new since your visit' : ' · latest');
+    var body = sm.querySelector('.sm-body'); body.innerHTML = '';
+    body.appendChild(el('span', 'sm-pill', ev.label + ' · ' + (ev.forecast ? 'Expected' : ev.status)));
+    body.appendChild(el('h2', null, ev.title));
+    body.appendChild(el('p', null, ev.summary));
+    if (ev.nums && ev.nums.length) {
+      var nums = el('div', 'sm-nums');
+      ev.nums.forEach(function (n) { var d = el('div'); d.appendChild(el('span', null, n.k || n.label)); d.appendChild(el('b', null, n.v || n.value)); nums.appendChild(d); });
+      body.appendChild(nums);
+    }
+    var go = sm.querySelector('.sm-actions .go'), src = sm.querySelector('.sm-actions .ghost');
+    go.href = s.url + '#e' + ev.i; go.textContent = 'Open full timeline';
+    src.href = s.url + '#e' + ev.i; src.textContent = ev.sources + (ev.sources === 1 ? ' source' : ' sources');
+    var lastOne = smIdx === smSlides.length - 1;
+    var nxt = nextStory();
+    sm.querySelector('.sm-zone.next').setAttribute('aria-label', lastOne ? (nxt ? 'Next story: ' + nxt.short : 'Close') : 'Next update');
+    sm.querySelector('.sm-hint').textContent = lastOne ? (nxt ? 'Tap right for the next story: ' + nxt.short : 'That’s everything. Tap right to close.') : 'Tap the right side for next, left for back';
+  }
+  function nextStory() {
+    var order = Array.prototype.map.call(document.querySelectorAll('.bubble[data-sm-open]'), function (b) { return b.getAttribute('data-sm-open'); });
+    var i = order.indexOf(smStory.slug);
+    return i > -1 && i < order.length - 1 ? byslug(order[i + 1]) : null;
+  }
+  function step(d) {
+    if (d > 0 && smIdx === smSlides.length - 1) { var n = nextStory(); if (n) openSm(n.slug); else closeSm(); return; }
+    smIdx = Math.max(0, Math.min(smSlides.length - 1, smIdx + d)); render();
+  }
+  function closeSm() {
+    sm.hidden = true; document.documentElement.style.overflow = '';
+    if (smOpener && smOpener.focus) smOpener.focus();
+  }
+  document.querySelectorAll('[data-sm-open]').forEach(function (b) {
+    b.addEventListener('click', function () { openSm(b.getAttribute('data-sm-open'), b); });
+  });
 
   // ---- story page ----
   var story = document.body.getAttribute('data-story');

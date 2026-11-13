@@ -208,10 +208,12 @@ def track_label(s):
 
 
 # ---------- layout ----------
-def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.png", jsonld=None, nav="home", noindex=False):
+def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.png", jsonld=None, nav="home", noindex=False, og_alt="Newspin", published=None, modified=None):
     url = site["domain"].rstrip("/") + path
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    robots = '<meta name="robots" content="noindex">' if noindex else ""
+    robots = '<meta name="robots" content="noindex">' if noindex else '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">'
+    dom = site["domain"].rstrip("/")
+    times = (f'<meta property="article:published_time" content="{published}T09:00:00+05:30">\n<meta property="article:modified_time" content="{modified}T09:00:00+05:30">') if published else ""
     cur = lambda k: ' aria-current="page"' if nav == k else ""
     return f"""<!doctype html>
 <html lang="en-IN">
@@ -227,10 +229,22 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{e(url)}">
-<meta property="og:image" content="{e(site['domain'].rstrip('/') + og_image)}">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="{e(dom + og_image)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{e(og_alt)}">
+{times}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{e(site['domain'].rstrip('/') + og_image)}">
+<meta name="twitter:title" content="{e(title)}">
+<meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:image" content="{e(dom + og_image)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#F7F7F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0D12" media="(prefers-color-scheme: dark)">
+<link rel="alternate" type="application/rss+xml" title="Newspin: latest updates" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -402,7 +416,7 @@ def build_home(site, stories, order, axis):
   <section class="lead {cat_class(h['category'])}" aria-labelledby="lead-h">
     <div class="lead-main">
       <div class="lead-tags"><span class="live-tag">Top story · updated {e(short_date(d(h['updated']), today))}</span><span class="lead-cat">{e(h['category'])} · {e(regions)}</span></div>
-      <h1 id="lead-h"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h1>
+      <h2 id="lead-h"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h2>
       <p>{e(hero_dek)}</p>
       <div class="lead-actions">
         <button type="button" class="btn btn-pill-light" data-sm-open="{e(hero_slug)}">Catch me up · {n_ev} events</button>
@@ -429,7 +443,8 @@ def build_home(site, stories, order, axis):
 
     top_html = f"""
   <section class="hello" aria-labelledby="hello-h">
-    <div class="hello-text"><h1 id="hello-h">Hello</h1><p id="hello-sub">{len(order)} live timelines across India, the US and the world</p></div>
+    <h1 class="sr-only">Newspin: the big news stories in India, the US and the world, as timelines</h1>
+    <div class="hello-text"><p class="hello-hd" id="hello-h">Hello</p><p id="hello-sub">{len(order)} live timelines across India, the US and the world</p></div>
     <ul class="bubbles" aria-label="Catch up story by story">{bubbles}</ul>
   </section>
   {hero_html}
@@ -473,8 +488,18 @@ def build_home(site, stories, order, axis):
 </div>
 <script>window.NP_STORIES={json.dumps(js_data, ensure_ascii=False)};</script>
 """
-    ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Newspin", "url": site["domain"], "description": site["description"]}
-    return page(site, title="Newspin · The big stories, as timelines", desc=site["description"], path="/", body=body, jsonld=ld)
+    dom = site["domain"].rstrip("/")
+    ranked = [hero_slug] + [x for x in order if x != hero_slug]
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "@id": f"{dom}/#site", "name": "Newspin", "url": dom + "/", "description": site["description"],
+         "inLanguage": "en-IN", "publisher": {"@id": f"{dom}/#org"}},
+        {"@type": "Organization", "@id": f"{dom}/#org", "name": "Newspin", "url": dom + "/",
+         "logo": {"@type": "ImageObject", "url": f"{dom}/logo-512.png", "width": 512, "height": 512}},
+        {"@type": "ItemList", "name": "Live news timelines", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "url": f"{dom}/stories/{x}/", "name": stories[x]["title"]}
+            for i, x in enumerate(ranked)]}]}
+    return page(site, title="Newspin: news timelines for India, the US and the world", desc=site["description"], path="/", body=body, jsonld=ld,
+                og_alt="Newspin: the big stories, as timelines")
 
 
 # ---------- story ----------
@@ -590,12 +615,25 @@ def build_story(site, stories, s, axis):
 </div>
 """
     body += f'<script>window.NP_STORIES={json.dumps([sm_data(s)], ensure_ascii=False)};</script>'
-    ld = {"@context": "https://schema.org", "@type": "Article", "headline": s["title"], "description": s["dek"],
-          "dateModified": s["updated"], "datePublished": s["updated"], "url": f"{site['domain']}/stories/{slug}/",
-          "image": f"{site['domain']}/og/{slug}.png", "publisher": {"@type": "Organization", "name": "Newspin", "url": site["domain"]},
-          "articleSection": s["category"]}
+    dom = site["domain"].rstrip("/")
+    published = min(ev["added"] for ev in s["events"])
+    url = f"{dom}/stories/{slug}/"
+    org = {"@type": "Organization", "@id": f"{dom}/#org", "name": "Newspin", "url": dom + "/",
+           "logo": {"@type": "ImageObject", "url": f"{dom}/logo-512.png", "width": 512, "height": 512}}
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "NewsArticle", "headline": s["title"][:110], "description": s["dek"], "url": url,
+         "mainEntityOfPage": url, "inLanguage": "en-IN",
+         "datePublished": f"{published}T09:00:00+05:30", "dateModified": f"{s['updated']}T09:00:00+05:30",
+         "image": [f"{dom}/og/{slug}.png"], "articleSection": s["category"],
+         "author": {"@id": f"{dom}/#org"}, "publisher": {"@id": f"{dom}/#org"}},
+        org,
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Timelines", "item": dom + "/"},
+            {"@type": "ListItem", "position": 2, "name": s["category"], "item": dom + "/"},
+            {"@type": "ListItem", "position": 3, "name": s["short"], "item": url}]}]}
     return page(site, title=f"{s['seoTitle']} | Newspin", desc=s["dek"], path=f"/stories/{slug}/", body=body,
-                story_slug=slug, og_image=f"/og/{slug}.png", jsonld=ld, nav="story")
+                story_slug=slug, og_image=f"/og/{slug}.png", jsonld=ld, nav="story",
+                og_alt=f"{s['short']} timeline: {s['big']}", published=published, modified=s["updated"])
 
 
 # ---------- simple pages ----------
@@ -735,12 +773,42 @@ def main():
         (DIST / name / "index.html").write_text(fn(site))
     (DIST / "404.html").write_text(build_404(site))
     dom = site["domain"].rstrip("/")
-    urls = [("/", site["today"])] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"])]
+    newest = max(stories[x]["updated"] for x in order)
+    urls = [("/", newest)] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"])]
     sm = "".join(f"<url><loc>{dom}{u}</loc><lastmod>{m}</lastmod></url>" for u, m in urls)
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n")
+    (DIST / "CNAME").write_text("newspinapp.com\n")
+    (DIST / "feed.xml").write_text(build_feed(site, stories, order))
     build_og(site, stories, order, axis)
     print(f"Built {len(order)} stories into {DIST}")
+
+
+def build_feed(site, stories, order, limit=40):
+    """RSS 2.0 feed of the newest timeline entries, for feed readers and news aggregators."""
+    from email.utils import format_datetime
+    dom = site["domain"].rstrip("/")
+    items = []
+    for slug in order:
+        s = stories[slug]
+        for i, ev in enumerate(s["events"]):
+            if ev["phase"] == "forecast":
+                continue
+            items.append((ev["added"], i, s, ev))
+    items.sort(key=lambda t: (t[0], t[3]["date"]), reverse=True)
+    def rfc(d):
+        return format_datetime(dt.datetime.fromisoformat(d + "T09:00:00+05:30"))
+    out = []
+    for added, i, s, ev in items[:limit]:
+        link = f"{dom}/stories/{s['slug']}/#e{i + 1}"
+        out.append(f"<item><title>{e(s['short'])}: {e(ev['title'])}</title><link>{link}</link>"
+                   f"<guid isPermaLink=\"true\">{link}</guid><pubDate>{rfc(added)}</pubDate>"
+                   f"<category>{e(s['category'])}</category><description>{e(ev['dateLabel'] + ' · ' + ev['summary'])}</description></item>")
+    newest = items[0][0] if items else site["today"]
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
+            f"<title>Newspin: latest timeline updates</title><link>{dom}/</link><description>{e(site['description'])}</description>"
+            f"<language>en-in</language><lastBuildDate>{rfc(newest)}</lastBuildDate>"
+            f'<atom:link href="{dom}/feed.xml" rel="self" type="application/rss+xml"/>' + "".join(out) + "</channel></rss>\n")
 
 
 if __name__ == "__main__":

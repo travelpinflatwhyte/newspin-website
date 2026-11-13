@@ -68,3 +68,9 @@ Each story also has `"regions"` (any of India, World, US), which drives the regi
 Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `tone`, `next`), `glance` and `upcoming` as the story moves. Then run `python3 build.py` and upload `dist/` again.
 
 Or ask Claude: "Update the RBI story with today's decision", attach this project (or link the GitHub repo), and it will research, edit the JSON, rebuild and hand back a new `dist/`.
+
+## Search and sharing
+- Every page: title, description, canonical, Open Graph and Twitter tags, `max-image-preview:large`.
+- Story pages: NewsArticle + BreadcrumbList structured data; datePublished = first event added, dateModified = `updated`. Keep `updated` current on every edit.
+- Keep `seoTitle` under about 50 characters (" | Newspin" is added) and `dek` under 160.
+- `feed.xml` (RSS, latest 40 entries), `sitemap.xml`, `robots.txt`, and `CNAME` (newspinapp.com) are generated. Upload the whole zip so CNAME is never lost.

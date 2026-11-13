@@ -400,6 +400,40 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "policy",
+   "title": "Lawyers, a chip-smuggling probe and a CEO search",
+   "summary": "Bloomberg reports Huang has hired the law firm Paul Weiss, and that the Justice Department is looking into the woman at the centre of the case over possible links to chip smuggling. Kress keeps her CFO role while the board considers inside and outside candidates. Commerce Secretary Howard Lutnick will appear before the Senate Banking Committee, and Fortune reports Huang keeps a 3.6% stake.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Huang's stake",
+     "v": "3.6%"
+    }
+   ],
+   "added": "2026-11-13",
+   "sources": [
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/jensen-huang-reckons-with-nvidia-fall",
+     "primary": true
+    },
+    {
+     "name": "Quartz",
+     "url": "https://qz.com/nvidia-cfo-colette-kress-interim-ceo-huang-resigns-111226"
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/live-news/ai-news-china-nvidia-jensen-huang-resigns-super-intelligence-safety-11-13-26"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2026/11/13/jensen-huang-nvidia-elon-musk-hire-honor/"
+    }
+   ]
   }
  ],
  "heroTitle": "Jensen Huang resigns as Nvidia CEO",

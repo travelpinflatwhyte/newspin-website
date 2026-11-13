@@ -11,23 +11,22 @@
  "dek": "What broke, when (in India time), what Microsoft has said, and what still works.",
  "seoTitle": "Outlook down: Microsoft 365 outage timeline (IST)",
  "importance": 3,
- "status": "Not yet fixed",
- "tone": "hot",
- "big": "130,000",
- "delta": "Outlook reports",
- "bigLabel": "Problem reports for Outlook on Downdetector at the peak, around midnight IST on 12–13 Nov",
+ "status": "Service restored",
+ "tone": "live",
+ "big": "≈ 20 hrs",
+ "delta": "to restore",
+ "bigLabel": "Roughly how long from the first reports (≈ 11:30 pm IST, 12 Nov) to Microsoft saying service health was restored (evening, 13 Nov IST)",
  "updated": "2026-11-13",
  "glance": {
-  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers began failing, taking down Outlook email and parts of Teams, SharePoint and Copilot worldwide. Servers that came back kept failing again under traffic.",
+  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot worldwide for about 20 hours. Microsoft has linked it to an overloaded secure-connection process on its servers; reports point to a network configuration change or software update as the trigger.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "As of Microsoft's latest updates on the morning of 13 November (India time), recovery was partial and not sustained. It has not given a time for a full fix or a final cause."
+  "next": "Service is restored and email queues are nearing normal. Microsoft's post-incident report should confirm the root cause."
  },
  "keyNumbers": [
   {
    "label": "Outlook reports",
    "value": "130,000",
-   "note": "Downdetector peak",
-   "hot": true
+   "note": "Downdetector peak"
   },
   {
    "label": "Started",
@@ -40,20 +39,20 @@
    "note": "Downdetector"
   },
   {
-   "label": "Cyber attack?",
-   "value": "No sign",
-   "note": "per Microsoft"
+   "label": "Root cause",
+   "value": "Pending",
+   "note": "no sign of attack"
   }
  ],
- "forYou": "If you use Outlook for work or college, email may be delayed rather than lost, Microsoft says. Teams chat and meetings mostly work; calendar and scheduling may fail. Microsoft posts official updates on its @MSFT365Status account on X.",
+ "forYou": "Outlook and Teams should be working again. Emails sent during the outage may arrive late as queues clear. If something still fails, restart the app or sign out and back in.",
  "upcoming": [
   {
-   "date": "2026-11-14",
-   "label": "Soon",
-   "text": "Microsoft's all-clear and its explanation of the cause"
+   "date": "2026-11-16",
+   "label": "Pending",
+   "text": "Microsoft's post-incident report on the cause"
   }
  ],
- "next": "Microsoft's all-clear, and its explanation of what went wrong.",
+ "next": "Microsoft's post-incident report on the cause.",
  "links": [
   "nvidia-huang-investigation"
  ],
@@ -184,6 +183,80 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "≈ 5:40 pm IST, 13 Nov",
+   "phase": "tech",
+   "title": "'Encouraging recovery progress'",
+   "summary": "Microsoft says service availability and email delivery are improving across a growing share of affected systems, after restarting servers and redirecting traffic. Some users report regaining access.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "added": "2026-11-13",
+   "sources": [
+    {
+     "name": "ABC7",
+     "url": "https://abc7.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "Evening, 13 Nov IST",
+   "phase": "tech",
+   "key": true,
+   "title": "Microsoft: service restored",
+   "summary": "Microsoft says its fixes have restored service health and functionality, and that email queues are approaching normal levels. It repeats there is no sign of a cyber attack.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "added": "2026-11-13",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203",
+     "primary": true
+    },
+    {
+     "name": "ABC7 New York",
+     "url": "https://abc7ny.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "tech",
+   "key": true,
+   "title": "What caused it: early explanations",
+   "summary": "Microsoft has traced the trouble to an overloaded process on affected servers that sets up secure connections, which caused them to fail health checks. The Verge's Tom Warren reports it is linked to an Azure network (VNET) configuration change, and Australia's Home Affairs Minister Tony Burke says Microsoft told him it was related to a software update. Microsoft has not confirmed a root cause and has promised a post-incident report.",
+   "status": "Partly confirmed · root cause pending",
+   "differs": "Microsoft describes overloaded servers; The Verge points to a network configuration change; Australia's minister cites a software update. These may be parts of the same chain, but Microsoft has not confirmed which started it.",
+   "numbers": [],
+   "added": "2026-11-13",
+   "sources": [
+    {
+     "name": "Outlook India",
+     "url": "https://www.outlookindia.com/international/microsoft-outage-cause-cyberattack-server-failure-executive-clarifies",
+     "primary": true
+    },
+    {
+     "name": "XDA Developers (citing The Verge)",
+     "url": "https://www.xda-developers.com/microsoft-massive-outage-easing-up-outlook-teams-onedrive-other-services-remain-disrupted/"
+    },
+    {
+     "name": "Gulf Business",
+     "url": "https://gulfbusiness.com/en/2026/tech/microsoft-outage-cause-outlook-teams-restoration-november-2026/"
+    },
+    {
+     "name": "SOCRadar",
+     "url": "https://socradar.io/blog/microsoft-outlook-outage/"
+    }
+   ]
   }
  ]
 }

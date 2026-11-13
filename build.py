@@ -604,7 +604,7 @@ def build_story(site, stories, s, axis):
           <div><h2 id="tl-h">Timeline</h2><span class="sub">Simple: key events · Detailed: sources, documents and numbers</span></div>
           <div class="seg" role="group" aria-label="Detail level"><button type="button" data-mode="simple" aria-pressed="true">Simple</button><button type="button" data-mode="detailed" aria-pressed="false">Detailed</button></div>
         </div>
-        <div class="tl-wrap"><ol class="events">{''.join(items)}</ol>
+        <div class="tl-wrap">{'<p class="tl-order">Newest first</p>' if s.get("order") == "desc" else ""}<ol class="events">{''.join(reversed(items) if s.get("order") == "desc" else items)}</ol>
         {ups}</div>
       </section>
       <p class="note">This timeline draws on {n_src} source links. Labels show whether each event is confirmed, official data, reported by a single outlet or a forecast. Spotted an error? <a href="/about/#corrections">Tell us</a>.</p>

@@ -441,3 +441,4 @@ body.has-player{padding-bottom:90px}
 [data-theme="dark"] .np-player{background:#1E222B;border:1px solid #2E3440}
 [data-theme="dark"] .pl-ctrls button{background:#2A2F3B}
 [data-theme="dark"] .pl-ctrls .pl-pp{background:#F2F4F7;color:#0B0D12}
+.tl-order{margin:0 0 12px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}

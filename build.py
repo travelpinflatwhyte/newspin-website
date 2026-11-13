@@ -42,8 +42,8 @@ ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke
 ICON_CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>'
 ICON_CHECK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>'
 ICON_WARN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>'
-LOGO_SVG = '<svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 50V14L48 50V14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="16" cy="50" r="5" fill="currentColor"></circle><circle cx="16" cy="14" r="5" fill="currentColor"></circle><circle cx="48" cy="50" r="5" fill="currentColor"></circle><circle cx="48" cy="14" r="8" fill="#C2410C" stroke="var(--surface,#fff)" stroke-width="3"></circle></svg>'
-FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#15171C"/><path d="M18 48V18L44 48V18" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="18" cy="18" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="18" r="9" fill="#F97316" stroke="#15171C" stroke-width="3"/></svg>'
+LOGO_SVG = '<svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 50V14L48 50V14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="16" cy="50" r="5" fill="currentColor"></circle><circle cx="16" cy="14" r="5" fill="currentColor"></circle><circle cx="48" cy="50" r="5" fill="currentColor"></circle><circle cx="48" cy="14" r="8" fill="var(--pin,#4B9C78)" stroke="var(--surface,#fff)" stroke-width="3"></circle></svg>'
+FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#15171C"/><path d="M18 48V18L44 48V18" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="18" cy="18" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="48" r="5.5" fill="#FFFFFF"/><circle cx="44" cy="18" r="9" fill="#6FC39C" stroke="#15171C" stroke-width="3"/></svg>'
 
 
 def src_link(src):
@@ -769,7 +769,7 @@ def build_og(site, stories, order, axis):
         sx, sy, k = 56, 50, 44 / 64
         pt = lambda x, y: (sx + x * k, sy + y * k)
         dr.line([pt(16, 50), pt(16, 14), pt(48, 50), pt(48, 14)], fill="#FFFFFF", width=5, joint="curve")
-        for (cx, cy, r, col) in [(16, 50, 5, "#FFFFFF"), (16, 14, 5, "#FFFFFF"), (48, 50, 5, "#FFFFFF"), (48, 14, 9, "#F97316")]:
+        for (cx, cy, r, col) in [(16, 50, 5, "#FFFFFF"), (16, 14, 5, "#FFFFFF"), (48, 50, 5, "#FFFFFF"), (48, 14, 9, "#6FC39C")]:
             x, y = pt(cx, cy); rr = r * k
             dr.ellipse((x - rr, y - rr, x + rr, y + rr), fill=col)
         dr.text((116, 50), "Newspin", font=serif(36), fill="#FFFFFF")
@@ -786,7 +786,7 @@ def build_og(site, stories, order, axis):
             dr.line((x0, ty, x1, ty), fill="#3A3F4A", width=3)
             for ev in s["events"]:
                 px = x0 + (x1 - x0) * axis.pos(ev["date"]) / 100
-                dr.ellipse((px - 8, ty - 8, px + 8, ty + 8), fill="#FFFFFF" if ev is not s["events"][-1] else "#F97316")
+                dr.ellipse((px - 8, ty - 8, px + 8, ty + 8), fill="#FFFFFF" if ev is not s["events"][-1] else "#6FC39C")
             dr.text((x0, ty + 16), str(axis.years[0]), font=reg(20), fill="#9CA3AF")
             dr.text((x1 - 50, ty + 16), "Now", font=semi(20), fill="#FFFFFF")
         im.save(path, optimize=True)

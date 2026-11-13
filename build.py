@@ -9,6 +9,7 @@ to dist/. No dependencies beyond Python 3 (Pillow is optional, for share images)
 import datetime as dt
 import html
 import json
+import re
 import os
 import shutil
 from pathlib import Path
@@ -436,8 +437,17 @@ def build_home(site, stories, order, axis):
   </section>"""
 
     # today / next strip
-    t_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/">{e(s["short"])}: {e(u["text"])}</a>' for date, u, s in ups if d(date) == today]
-    n_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/"><b>{e(u["label"])}</b> · {e(u["text"])}</a>' for date, u, s in ups if d(date) > today][:5]
+    # Strip shows only firm, dated items (labels like "17 Nov" or "2–4 Dec", not "Pending" or "2027"),
+    # and each event once even if several stories list it.
+    seen_up, firm = set(), []
+    for date, u, s in ups:
+        key = (date, re.sub(r"\W+", " ", u["text"].lower()).strip())
+        if not re.match(r"\d", u["label"]) or key in seen_up:
+            continue
+        seen_up.add(key)
+        firm.append((date, u, s))
+    t_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/">{e(s["short"])}: {e(u["text"])}</a>' for date, u, s in firm if d(date) == today]
+    n_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/"><b>{e(u["label"])}</b> · {e(u["text"])}</a>' for date, u, s in firm if d(date) > today][:5]
     strip = '<div class="strip" aria-label="Today and next">'
     if t_chips:
         strip += f'<span class="strip-l hot" data-ist-day="{site["today"]}">Today</span>' + "".join(t_chips)

@@ -35,6 +35,7 @@ PHASES = {
 }
 CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech": "#0B5A8A"}
 
+ICON_PLAY = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>'
 ICON_BELL = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>'
 ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>'
 ICON_CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>'
@@ -316,7 +317,8 @@ def sm_data(s):
                     "sources": len(ev["sources"]), "forecast": ev["phase"] == "forecast"})
     return {"slug": s["slug"], "short": s["short"], "url": f"/stories/{s['slug']}/", "bg": CAT_BG.get(s["category"], "#353A45"),
             "letter": s["short"][0].upper(), "latestAdded": max(ev["added"] for ev in s["events"]),
-            "latestTitle": latest_event(s)["title"], "latestLabel": latest_event(s)["dateLabel"], "events": evs}
+            "latestTitle": latest_event(s)["title"], "latestLabel": latest_event(s)["dateLabel"], "events": evs,
+            "title": s["title"], "intro": [s["glance"]["what"], s["glance"]["why"], s["glance"]["next"]]}
 
 
 # ---------- home ----------
@@ -419,6 +421,7 @@ def build_home(site, stories, order, axis):
       <p>{e(hero_dek)}</p>
       <div class="lead-actions">
         <button type="button" class="btn btn-pill-light" data-sm-open="{e(hero_slug)}">Catch me up · {n_ev} events</button>
+        <button type="button" class="btn btn-pill-ghost listen-btn" data-listen-story="{e(hero_slug)}" hidden>{ICON_PLAY}Listen</button>
         <a class="btn btn-pill-ghost" href="/stories/{e(hero_slug)}/">Full timeline</a>
         {follow_btn(hero_slug, "btn btn-pill-ghost", short=h['short'])}
       </div>
@@ -443,7 +446,7 @@ def build_home(site, stories, order, axis):
     top_html = f"""
   <section class="hello" aria-labelledby="hello-h">
     <h1 class="sr-only">Newspin: the big news stories in India, the US and the world, as timelines</h1>
-    <div class="hello-text"><p class="hello-hd" id="hello-h">Hello</p><p id="hello-sub">{len(order)} live timelines across India, the US and the world</p></div>
+    <div class="hello-text"><p class="hello-hd" id="hello-h">Hello</p><p id="hello-sub">{len(order)} live timelines across India, the US and the world</p><button type="button" class="briefing-btn listen-btn" id="briefing-btn" hidden>{ICON_PLAY}<span>Play my briefing</span></button></div>
     <ul class="bubbles" aria-label="Catch up story by story">{bubbles}</ul>
   </section>
   {hero_html}
@@ -577,7 +580,7 @@ def build_story(site, stories, s, axis):
     <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span><span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
     <h1 id="t">{e(s['title'])}</h1>
     <p class="dek">{e(s['dek'])}</p>
-    <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
+    <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light listen-btn" data-listen-story="{e(slug)}" hidden>{ICON_PLAY}Listen</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
   </section>
   <div class="story-cols">
     <div class="story-main">

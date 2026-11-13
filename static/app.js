@@ -225,16 +225,24 @@
   paintBubbles();
 
   // ---- story mode ("Catch me up") ----
-  var sm, smStory, smSlides, smIdx, smOpener;
+  var sm, smStory, smSlides, smIdx, smOpener, smNarrate = false;
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function buildSm() {
     sm = el('div', 'sm'); sm.hidden = true;
     sm.setAttribute('role', 'dialog'); sm.setAttribute('aria-modal', 'true'); sm.setAttribute('aria-label', 'Catch me up');
-    sm.innerHTML = '<div class="sm-card"><div class="sm-bars"></div><div class="sm-top"><div class="sm-who"><span class="sm-av"></span><span><span class="sm-name"></span><span class="sm-pos"></span></span></div><button type="button" class="sm-x" aria-label="Close">×</button></div>' +
+    sm.innerHTML = '<div class="sm-card"><div class="sm-bars"></div><div class="sm-top"><div class="sm-who"><span class="sm-av"></span><span><span class="sm-name"></span><span class="sm-pos"></span></span></div><span class="sm-tools"><button type="button" class="sm-listen" aria-pressed="false" aria-label="Read updates aloud" hidden>🔊</button><button type="button" class="sm-x" aria-label="Close">×</button></span></div>' +
       '<button type="button" class="sm-zone prev" aria-label="Previous"></button><button type="button" class="sm-zone next" aria-label="Next"></button>' +
       '<div class="sm-body" aria-live="polite"></div><div class="sm-foot"><p class="sm-hint">Tap the right side for next, left for back</p><div class="sm-actions"><a class="go"></a><a class="ghost"></a></div></div></div>';
     document.body.appendChild(sm);
     sm.querySelector('.sm-x').addEventListener('click', closeSm);
+    var lb = sm.querySelector('.sm-listen');
+    if (Audio.ok) {
+      lb.hidden = false;
+      lb.addEventListener('click', function () {
+        smNarrate = !smNarrate; lb.setAttribute('aria-pressed', smNarrate ? 'true' : 'false');
+        if (smNarrate) speakSlide(); else Audio.stop();
+      });
+    }
     sm.querySelector('.sm-zone.prev').addEventListener('click', function () { step(-1); });
     sm.querySelector('.sm-zone.next').addEventListener('click', function () { step(1); });
     sm.addEventListener('click', function (e) { if (e.target === sm) closeSm(); });
@@ -287,6 +295,7 @@
     var lastOne = smIdx === smSlides.length - 1;
     var nxt = nextStory();
     sm.querySelector('.sm-zone.next').setAttribute('aria-label', lastOne ? (nxt ? 'Next story: ' + nxt.short : 'Close') : 'Next update');
+    if (smNarrate) speakSlide();
     sm.querySelector('.sm-hint').textContent = lastOne ? (nxt ? 'Tap right for the next story: ' + nxt.short : 'That’s everything. Tap right to close.') : 'Tap the right side for next, left for back';
   }
   function nextStory() {
@@ -298,13 +307,137 @@
     if (d > 0 && smIdx === smSlides.length - 1) { var n = nextStory(); if (n) openSm(n.slug); else closeSm(); return; }
     smIdx = Math.max(0, Math.min(smSlides.length - 1, smIdx + d)); render();
   }
+  function speakSlide() {
+    var ev = smSlides[smIdx];
+    Audio.play([{ label: smStory.short + ' · ' + ev.label, text: (smIdx === 0 ? smStory.short + '. ' : '') + ev.label + '. ' + ev.title + '. ' + ev.summary }],
+      { title: smStory.short, onEnd: function () { if (sm && !sm.hidden && smNarrate) step(1); }, quiet: true });
+  }
   function closeSm() {
+    if (smNarrate) Audio.stop();
     sm.hidden = true; document.documentElement.style.overflow = '';
     if (smOpener && smOpener.focus) smOpener.focus();
   }
   document.querySelectorAll('[data-sm-open]').forEach(function (b) {
     b.addEventListener('click', function () { openSm(b.getAttribute('data-sm-open'), b); });
   });
+
+
+  // ---- listen (uses the device's own text-to-speech; nothing is sent anywhere) ----
+  var Audio = (function () {
+    var synth = window.speechSynthesis;
+    var ok = !!(synth && window.SpeechSynthesisUtterance);
+    var queue = [], qi = 0, parts = [], pi = 0, playing = false, rate = 1, opts = {}, voice = null, bar, token = 0;
+    try { rate = parseFloat(localStorage.getItem('np_rate')) || 1; } catch (e) {}
+    function pickVoice() {
+      var vs = synth.getVoices(); if (!vs.length) return;
+      var pref = ['en-IN', 'en-GB', 'en-US', 'en'];
+      for (var i = 0; i < pref.length && !voice; i++) {
+        for (var j = 0; j < vs.length; j++) { if (vs[j].lang && vs[j].lang.replace('_', '-').indexOf(pref[i]) === 0) { voice = vs[j]; break; } }
+      }
+    }
+    if (ok) { pickVoice(); if (synth.addEventListener) synth.addEventListener('voiceschanged', pickVoice); }
+    function clean(t) {
+      return String(t)
+        .replace(/₹\s?([\d.,–-]+)\s*(lakh crore|lakh cr|crore|cr)\b/g, function (m, n, u) { return n + ' ' + (u.indexOf('lakh') === 0 ? 'lakh crore' : 'crore') + ' rupees'; })
+        .replace(/₹\s?([\d.,]+)/g, '$1 rupees')
+        .replace(/\s\/\s?litre/g, ' per litre').replace(/\bcr\b/g, 'crore').replace(/\bmbpd\b/g, 'million barrels a day')
+        .replace(/\bbps\b/g, 'basis points').replace(/≈\s?/g, 'about ').replace(/−/g, 'minus ').replace(/\bvs\b/g, 'versus')
+        .replace(/(\d)\s?–\s?(\d)/g, '$1 to $2').replace(/\s·\s/g, ', ').replace(/[▲▼]/g, '').replace(/\bIST\b/g, 'India time');
+    }
+    function split(t) {
+      // break only at a full stop/question mark followed by a space, so 4.3% stays whole
+      return clean(t).replace(/([.!?]["'’”)\]]*)\s+/g, '$1\u0001').split('\u0001').filter(function (x) { return x.trim(); });
+    }
+    function buildBar() {
+      bar = document.createElement('div'); bar.className = 'np-player'; bar.hidden = true;
+      bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', 'Audio player');
+      bar.innerHTML = '<div class="pl-info"><span class="pl-kick">Listening</span><span class="pl-now" aria-live="polite"></span></div>' +
+        '<div class="pl-ctrls"><button type="button" class="pl-pp" aria-label="Pause">❚❚</button><button type="button" class="pl-next" aria-label="Skip to next">⏭</button>' +
+        '<button type="button" class="pl-rate" aria-label="Playback speed">1×</button><button type="button" class="pl-x" aria-label="Stop and close player">×</button></div>';
+      document.body.appendChild(bar);
+      bar.querySelector('.pl-pp').addEventListener('click', function () { playing ? pause() : resume(); });
+      bar.querySelector('.pl-next').addEventListener('click', function () { if (opts.onEnd && queue.length === 1) { finishItem(); } else { qi++; pi = 0; speak(); } });
+      bar.querySelector('.pl-rate').addEventListener('click', function () {
+        rate = rate >= 1.5 ? 1 : rate === 1 ? 1.25 : 1.5;
+        try { localStorage.setItem('np_rate', String(rate)); } catch (e) {}
+        paint(); if (playing) { speak(); }
+      });
+      bar.querySelector('.pl-x').addEventListener('click', stop);
+    }
+    function paint() {
+      if (!bar) buildBar();
+      var it = queue[qi];
+      bar.querySelector('.pl-now').textContent = it ? it.label : '';
+      bar.querySelector('.pl-kick').textContent = opts.title ? opts.title : 'Listening';
+      var pp = bar.querySelector('.pl-pp'); pp.textContent = playing ? '❚❚' : '▶'; pp.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+      bar.querySelector('.pl-rate').textContent = rate + '×';
+      document.body.classList.toggle('has-player', !bar.hidden);
+      document.querySelectorAll('.speaking').forEach(function (el) { el.classList.remove('speaking'); });
+      if (it && it.el && playing) it.el.classList.add('speaking');
+    }
+    function finishItem() { var cb = opts.onEnd; queue = []; playing = false; paint(); if (cb) cb(); }
+    function speak() {
+      synth.cancel(); var my = ++token;
+      if (qi >= queue.length) { if (opts.onEnd) { finishItem(); } else { stop(); } return; }
+      var it = queue[qi]; if (!parts.length || pi === 0) parts = split(it.text);
+      playing = true; paint();
+      var u = new SpeechSynthesisUtterance(parts[pi]);
+      if (voice) { u.voice = voice; u.lang = voice.lang; } else { u.lang = 'en-IN'; }
+      u.rate = rate;
+      u.onend = function () {
+        if (my !== token || !playing) return;
+        pi++; if (pi >= parts.length) { qi++; pi = 0; parts = []; }
+        speak();
+      };
+      u.onerror = function () { if (my === token) { playing = false; paint(); } };
+      synth.speak(u);
+    }
+    function pause() { playing = false; token++; synth.cancel(); paint(); }
+    function resume() { if (!queue.length) return; speak(); }
+    function stop() { token++; playing = false; queue = []; qi = 0; pi = 0; parts = []; if (ok) synth.cancel(); if (bar) { bar.hidden = true; paint(); } }
+    function play(items, o) {
+      if (!ok || !items.length) return;
+      opts = o || {}; queue = items; qi = 0; pi = 0; parts = [];
+      if (!bar) buildBar(); bar.hidden = !!opts.quiet; speak();
+    }
+    window.addEventListener('pagehide', function () { if (ok) synth.cancel(); });
+    return { ok: ok, play: play, stop: stop };
+  })();
+
+  function storyItems(s, max) {
+    var since = seenAtLoad[s.slug];
+    var fresh = since ? s.events.filter(function (e) { return e.added > since && !e.forecast; }) : [];
+    var evs = (fresh.length ? fresh : s.events.filter(function (e) { return !e.forecast; }).slice(-(max || 3))).slice(-(max || 3));
+    return evs.map(function (e) {
+      return { label: s.short + ' · ' + e.label, text: e.label + '. ' + e.title + '. ' + e.summary, el: document.getElementById('e' + e.i) };
+    });
+  }
+  if (Audio.ok) {
+    document.querySelectorAll('.listen-btn').forEach(function (b) { b.hidden = false; });
+    document.querySelectorAll('[data-listen-story]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var s = byslug(b.getAttribute('data-listen-story')); if (!s) return;
+        var onPage = document.body.getAttribute('data-story') === s.slug;
+        var items = [{ label: s.short + ' · In 30 seconds', text: s.title + '. ' + s.intro.join(' ') }].concat(storyItems(s, 3));
+        if (!onPage) items.push({ label: 'Full timeline', text: 'For the full timeline, open ' + s.short + ' on Newspin.' });
+        Audio.play(items, { title: s.short });
+      });
+    });
+    var bb = document.getElementById('briefing-btn');
+    if (bb) bb.addEventListener('click', function () {
+      var order = Array.prototype.map.call(document.querySelectorAll('.bubble[data-sm-open]'), function (x) { return byslug(x.getAttribute('data-sm-open')); }).filter(Boolean);
+      var mine = order.filter(function (s) { return follows[s.slug]; });
+      var pool = (mine.length ? mine : order).filter(function (s) { return s.latestAdded >= threeAgo || mine.length; }).slice(0, 6);
+      var hr = new Date().getHours();
+      var items = [{ label: 'Your briefing', text: (hr < 12 ? 'Good morning' : hr < 17 ? 'Good afternoon' : 'Good evening') + '. Here is your Newspin briefing: ' + pool.length + ' stories that moved.' }];
+      pool.forEach(function (s) {
+        var last = s.events.filter(function (e) { return !e.forecast; }).slice(-1)[0];
+        items.push({ label: s.short, text: s.short + '. ' + last.title + '. ' + last.summary });
+      });
+      items.push({ label: 'End of briefing', text: 'That is your briefing. Tap any story for the full timeline.' });
+      Audio.play(items, { title: 'Your briefing' });
+    });
+  }
 
   // ---- story page ----
   var story = document.body.getAttribute('data-story');

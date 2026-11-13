@@ -74,3 +74,10 @@ Or ask Claude: "Update the RBI story with today's decision", attach this project
 - Story pages: NewsArticle + BreadcrumbList structured data; datePublished = first event added, dateModified = `updated`. Keep `updated` current on every edit.
 - Keep `seoTitle` under about 50 characters (" | Newspin" is added) and `dek` under 160.
 - `feed.xml` (RSS, latest 40 entries), `sitemap.xml`, `robots.txt`, and `CNAME` (newspinapp.com) are generated. Upload the whole zip so CNAME is never lost.
+
+## Listen
+- Uses the device's built-in text-to-speech (Web Speech API). No audio files, no service, no cost; nothing is sent anywhere.
+- Story pages: "Listen" reads the 30-second summary, then the latest 3 updates (or what's new since the reader's last visit).
+- Home: "Play my briefing" reads the latest update of followed stories (or stories that moved in the last 3 days). The lead card also has Listen.
+- Catch me up: the speaker button narrates each update and moves on automatically.
+- Text is cleaned for speech in app.js `clean()` (₹, cr, bps, mbpd, ≈, ranges). Buttons stay hidden on browsers without speech.

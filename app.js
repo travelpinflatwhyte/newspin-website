@@ -168,6 +168,8 @@
   function paintTheme() {
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     if (themeBtn) themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', dark ? '#0B0D12' : '#F7F7F4');
   }
   if (themeBtn) themeBtn.addEventListener('click', function () {
     var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';

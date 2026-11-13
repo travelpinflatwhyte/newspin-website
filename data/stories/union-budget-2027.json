@@ -1,75 +1,350 @@
 {
-  "slug": "union-budget-2027",
-  "short": "Budget 2027",
-  "category": "Economy",
-  "regions": ["India"],
-  "title": "The road to Budget 2027: what’s happened since the last Budget",
-  "dek": "From the February 2026 Budget to a fuel-tax cut, a new Income Tax Act and a widening deficit: everything that shapes the Budget due on 1 February 2027.",
-  "seoTitle": "Union Budget 2027-28 timeline: road to 1 February 2027",
-  "importance": 5,
-  "status": "Budget due 1 Feb (likely)",
-  "tone": "live",
-  "big": "42.1%",
-  "delta": "of deficit target used",
-  "bigLabel": "Share of the 2026-27 fiscal deficit target used by September, vs 36.5% a year earlier",
-  "updated": "2026-11-13",
-  "glance": {
-    "what": "The last Budget, on 1 February 2026, aimed for a fiscal deficit of 4.3% of GDP and brought in a new Income Tax Act from April. Since then a ₹10-a-litre fuel tax cut and higher spending have pushed the deficit up faster than last year, and work on Budget 2027-28 began in August.",
-    "why": "The Budget sets income tax, fuel duties, government spending and borrowing for the year. This one has to balance a bigger deficit, oil-price shocks and the coming 8th Pay Commission bill.",
-    "next": "Ministry-level budget meetings were scheduled to end in mid-November. Final spending figures are due by early January, and the Budget is likely to be presented on 1 February 2027."
+ "slug": "union-budget-2027",
+ "short": "Budget 2027",
+ "category": "Economy",
+ "regions": [
+  "India"
+ ],
+ "title": "The road to Budget 2027: what’s happened since the last Budget",
+ "dek": "From the February 2026 Budget to a fuel-tax cut, a new Income Tax Act and a widening deficit: everything that shapes the Budget due on 1 February 2027.",
+ "seoTitle": "Union Budget 2027-28 timeline: road to 1 February 2027",
+ "importance": 5,
+ "status": "Budget due 1 Feb (likely)",
+ "tone": "live",
+ "big": "42.1%",
+ "delta": "of deficit target used",
+ "bigLabel": "Share of the 2026-27 fiscal deficit target used by September, vs 36.5% a year earlier",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "The last Budget, on 1 February 2026, aimed for a fiscal deficit of 4.3% of GDP and brought in a new Income Tax Act from April. Since then a ₹10-a-litre fuel tax cut and higher spending have pushed the deficit up faster than last year, and work on Budget 2027-28 began in August.",
+  "why": "The Budget sets income tax, fuel duties, government spending and borrowing for the year. This one has to balance a bigger deficit, oil-price shocks and the coming 8th Pay Commission bill.",
+  "next": "Ministry-level budget meetings were scheduled to end in mid-November. Final spending figures are due by early January, and the Budget is likely to be presented on 1 February 2027."
+ },
+ "keyNumbers": [
+  {
+   "label": "Deficit target, 2026-27",
+   "value": "4.3%",
+   "note": "of GDP (was 4.4%)"
   },
-  "keyNumbers": [
-    {"label": "Deficit target, 2026-27", "value": "4.3%", "note": "of GDP (was 4.4%)"},
-    {"label": "Deficit, Apr–Sep", "value": "₹7.14 lakh cr", "note": "42.1% of target", "hot": true},
-    {"label": "Capital spending, budgeted", "value": "₹12.2 lakh cr", "note": "2026-27"},
-    {"label": "Fuel tax cut cost", "value": "₹1.3–1.75 lakh cr", "note": "a year, estimates vary"}
-  ],
-  "forYou": "Income tax rates were unchanged in the last Budget, and the new Income Tax Act has applied since April 2026. For Budget 2027, watch for any change to tax slabs, fuel duties, and money set aside for the 8th Pay Commission, which matters to about 1.1 crore central government employees and pensioners.",
-  "upcoming": [
-    {"date": "2026-11-13", "label": "13 Nov", "text": "Pre-Budget meetings with ministries scheduled to end"},
-    {"date": "2027-01-05", "label": "Early Jan", "text": "Final spending figures due in the budget system"},
-    {"date": "2027-02-01", "label": "1 Feb 2027", "text": "Budget 2027-28 likely presented"}
-  ],
-  "next": "Budget 2027-28 likely on 1 Feb 2027; spending figures due by early January.",
-  "links": ["inflation-2026", "rbi-rate-cycle", "west-asia-oil"],
-  "events": [
-    {"date": "2026-02-01", "dateLabel": "1 Feb 2026", "phase": "policy", "title": "Budget 2026-27 presented",
-     "summary": "Nirmala Sitharaman presents her ninth straight Budget, the first on a Sunday since 2000. It targets a fiscal deficit of 4.3% of GDP, keeps income tax rates unchanged and confirms the new Income Tax Act from 1 April.",
-     "status": "Confirmed",
-     "numbers": [{"k": "Total spending", "v": "₹53.5 lakh cr"}, {"k": "Deficit target", "v": "4.3% of GDP"}, {"k": "Capex", "v": "₹12.2 lakh cr"}, {"k": "Debt-to-GDP", "v": "55.6%"}, {"k": "Net borrowing", "v": "₹11.7 lakh cr"}],
-     "sources": [{"name": "SCC Online", "url": "https://www.scconline.com/blog/post/2026/02/02/union-budget-2026-27-highlights-key-announcements/"}, {"name": "ICICI Direct", "url": "https://icicidirect.com/research/equity/finace/union-budget-2026-27-what-was-announced-and-what-changed"}, {"name": "Moneylife", "url": "https://www.moneylife.in/article/budget-202627-explained-how-the-govt-hopes-to-power-growth-amid-global-uncertainty/79536.html"}, {"name": "Basis Point Insight", "url": "https://www.basispointinsight.com/Story/highlights-of-union-budget-for-2026-27-_a9114e3145ae.html"}, {"name": "Daily Excelsior", "url": "https://www.dailyexcelsior.com/?p=2150040"}]},
-    {"date": "2026-03-27", "dateLabel": "27 Mar 2026", "phase": "policy", "title": "Fuel tax cut of ₹10 a litre as oil prices surge",
-     "summary": "To stop pump prices rising as crude soars during the West Asia crisis, the government cuts the special excise duty on petrol and diesel by ₹10 a litre and brings back export duties on fuel. Pump prices stay unchanged.",
-     "status": "Confirmed",
-     "numbers": [{"k": "Petrol duty", "v": "₹13 → ₹3 / litre"}, {"k": "Diesel duty", "v": "₹10 → nil"}, {"k": "Estimated cost", "v": "₹1.3–1.75 lakh cr a year"}],
-     "differs": "Estimates of the yearly revenue cost range from over ₹1 lakh crore to ₹1.75 lakh crore, depending on assumptions about prices and volumes.",
-     "link": "west-asia-oil",
-     "sources": [{"name": "Outlook Business", "url": "https://www.outlookbusiness.com/economy-and-policy/govt-cuts-excise-duty-on-petrol-diesel-windfall-tax-on-fuel-export-back"}, {"name": "Business Today", "url": "https://www.businesstoday.in/latest/economy/story/petrol-diesel-excise-duty-cut-may-cost-govt-over-rs-1-lakh-crore-fiscal-hit-to-be-reviewed-fortnightly-522729-2026-03-27"}, {"name": "PTI (via TaxTMI)", "url": "https://www.taxtmi.com/news?id=71866"}, {"name": "Rajya Sabha reply (via TaxGuru)", "url": "https://taxguru.in/?p=1066264", "primary": true}]},
-    {"date": "2026-04-01", "dateLabel": "1 Apr 2026", "phase": "law", "title": "New Income Tax Act takes over from the 1961 law",
-     "summary": "The Income Tax Act, 2025 comes into force, replacing the six-decade-old Income Tax Act, 1961, with simplified rules and redesigned return forms.",
-     "status": "Confirmed (announced in the Budget)",
-     "numbers": [],
-     "sources": [{"name": "ICICI Direct", "url": "https://icicidirect.com/research/equity/finace/union-budget-2026-27-what-was-announced-and-what-changed"}, {"name": "DT Next", "url": "https://www.dtnext.in/news/business/live-union-budget-2026-key-expectations-ahead-of-finance-minister-nirmala-sitharamans-budget-presentation-today"}, {"name": "Razorpay", "url": "https://razorpay.com/learn/union-budget-2026-27-new-tax-rules-highlights-and-more/"}]},
-    {"date": "2026-05-29", "dateLabel": "May 2026", "phase": "data", "title": "Last year’s deficit target met, but April’s deficit nearly doubles",
-     "summary": "Official accounts show the 2025-26 fiscal deficit target of 4.4% of GDP was met. But April 2026 alone used 21% of this year’s target, unusually high for the first month, as fuel-tax cuts hit receipts.",
-     "status": "Official data · CGA",
-     "numbers": [{"k": "FY26 deficit", "v": "4.4% of GDP (met)"}, {"k": "April 2026", "v": "21% of target"}],
-     "sources": [{"name": "Deccan Herald", "url": "https://www.deccanherald.com/business/economy/government-achieves-fiscal-deficit-target-of-44-for-fy26-4023562"}, {"name": "Multibagg", "url": "https://www.multibagg.ai/market-pulse/articles/india-fiscal-deficit-excise-cuts-cmr0wugz46wc3o20jikeqevbz"}]},
-    {"date": "2026-08-27", "dateLabel": "27 Aug 2026", "phase": "policy", "title": "Work on Budget 2027-28 begins",
-     "summary": "The Finance Ministry issues the Budget Circular 2027-28, asking ministries to submit estimates by 6 October for meetings starting 12 October. It will be Sitharaman’s 10th straight Budget, and may need to make room for the 8th Pay Commission.",
-     "status": "Confirmed · Budget Circular",
-     "numbers": [{"k": "Data due", "v": "6 Oct"}, {"k": "Meetings", "v": "12 Oct – mid-Nov"}],
-     "sources": [{"name": "Devdiscourse / ANI", "url": "https://www.devdiscourse.com/article/business/3969462-finance-ministry-kicks-off-budget-making-exercise-for-fy-2027-28"}, {"name": "Business Today", "url": "https://www.businesstoday.in/amp/india/story/budget-2027-28-preparations-commence-with-pre-budget-meetings-from-october-12-552040-2026-08-29"}, {"name": "The Sunday Guardian", "url": "https://sundayguardianlive.com/business/finance-ministry-begins-fy28-budget-exercise-272828/"}, {"name": "KNN India", "url": "https://knnindia.co.in/news/newsdetails/economy/govt-starts-budget-2027-28-preparations-with-focus-on-fiscal-discipline-realistic-estimates"}, {"name": "DD News", "url": "https://ddnews.gov.in/en/govt-begins-preparations-for-union-budget-2027-28-pre-budget-meetings-from-oct-12/"}]},
-    {"date": "2026-10-12", "dateLabel": "12 Oct 2026", "phase": "policy", "title": "Pre-Budget meetings with ministries begin",
-     "summary": "Meetings chaired by the Expenditure Secretary start working out each ministry’s spending for 2027-28 and revised figures for this year. They were scheduled to run until 13 November.",
-     "status": "Scheduled · Finance Ministry notice",
-     "numbers": [{"k": "Scheduled end", "v": "13 Nov"}],
-     "sources": [{"name": "Free Press Journal / PTI", "url": "https://www.freepressjournal.in/business/union-budget-2027-28-finance-ministry-to-begin-pre-budget-meetings-from-october-12"}, {"name": "Angel One", "url": "https://www.angelone.in/news/market-updates/union-budget-2027-28-finance-ministry-to-begin-pre-budget-discussions-on-october-12-2026"}]},
-    {"date": "2026-10-30", "dateLabel": "30 Oct 2026", "phase": "data", "key": true, "title": "Half-year deficit runs ahead of last year",
-     "summary": "The deficit for April–September reaches ₹7.14 lakh crore, about 25% higher than a year earlier and 42.1% of the full-year target, compared with 36.5% at the same point last year.",
-     "status": "Official data · CGA",
-     "numbers": [{"k": "Deficit, Apr–Sep", "v": "₹7.14 lakh cr"}, {"k": "Share of target", "v": "42.1%"}, {"k": "Same point last year", "v": "36.5%"}],
-     "differs": "Most reports give 42.1% of the target; Deccan Herald reports 44.5%.",
-     "sources": [{"name": "CGA accounts (via Oquilia)", "url": "https://www.oquilia.com/news/centre-fiscal-deficit-april-september-42-percent-of-fy27-target", "primary": true}, {"name": "Trading Economics", "url": "https://tradingeconomics.com/india/government-budget-value/news/596809"}, {"name": "Business Standard (via A2Z Taxcorp)", "url": "https://a2ztaxcorp.net/?p=41250"}, {"name": "Deccan Herald", "url": "https://www.deccanherald.com/business/fiscal-deficit-rises-to-rs-714-lakh-crore-in-april-september-2026-4201647"}]}
-  ]
+  {
+   "label": "Deficit, Apr–Sep",
+   "value": "₹7.14 lakh cr",
+   "note": "42.1% of target",
+   "hot": true
+  },
+  {
+   "label": "Capital spending, budgeted",
+   "value": "₹12.2 lakh cr",
+   "note": "2026-27"
+  },
+  {
+   "label": "Fuel tax cut cost",
+   "value": "₹1.3–1.75 lakh cr",
+   "note": "a year, estimates vary"
+  }
+ ],
+ "forYou": "Income tax rates were unchanged in the last Budget, and the new Income Tax Act has applied since April 2026. For Budget 2027, watch for any change to tax slabs, fuel duties, and money set aside for the 8th Pay Commission, which matters to about 1.1 crore central government employees and pensioners.",
+ "upcoming": [
+  {
+   "date": "2027-01-05",
+   "label": "Early Jan",
+   "text": "Final spending figures due in the budget system"
+  },
+  {
+   "date": "2027-02-01",
+   "label": "1 Feb 2027",
+   "text": "Budget 2027-28 likely presented"
+  }
+ ],
+ "next": "Budget 2027-28 likely on 1 Feb 2027; spending figures due by early January.",
+ "links": [
+  "inflation-2026",
+  "rbi-rate-cycle",
+  "west-asia-oil"
+ ],
+ "events": [
+  {
+   "date": "2026-02-01",
+   "dateLabel": "1 Feb 2026",
+   "phase": "policy",
+   "title": "Budget 2026-27 presented",
+   "summary": "Nirmala Sitharaman presents her ninth straight Budget, the first on a Sunday since 2000. It targets a fiscal deficit of 4.3% of GDP, keeps income tax rates unchanged and confirms the new Income Tax Act from 1 April.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Total spending",
+     "v": "₹53.5 lakh cr"
+    },
+    {
+     "k": "Deficit target",
+     "v": "4.3% of GDP"
+    },
+    {
+     "k": "Capex",
+     "v": "₹12.2 lakh cr"
+    },
+    {
+     "k": "Debt-to-GDP",
+     "v": "55.6%"
+    },
+    {
+     "k": "Net borrowing",
+     "v": "₹11.7 lakh cr"
+    }
+   ],
+   "sources": [
+    {
+     "name": "SCC Online",
+     "url": "https://www.scconline.com/blog/post/2026/02/02/union-budget-2026-27-highlights-key-announcements/"
+    },
+    {
+     "name": "ICICI Direct",
+     "url": "https://icicidirect.com/research/equity/finace/union-budget-2026-27-what-was-announced-and-what-changed"
+    },
+    {
+     "name": "Moneylife",
+     "url": "https://www.moneylife.in/article/budget-202627-explained-how-the-govt-hopes-to-power-growth-amid-global-uncertainty/79536.html"
+    },
+    {
+     "name": "Basis Point Insight",
+     "url": "https://www.basispointinsight.com/Story/highlights-of-union-budget-for-2026-27-_a9114e3145ae.html"
+    },
+    {
+     "name": "Daily Excelsior",
+     "url": "https://www.dailyexcelsior.com/?p=2150040"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-27",
+   "dateLabel": "27 Mar 2026",
+   "phase": "policy",
+   "title": "Fuel tax cut of ₹10 a litre as oil prices surge",
+   "summary": "To stop pump prices rising as crude soars during the West Asia crisis, the government cuts the special excise duty on petrol and diesel by ₹10 a litre and brings back export duties on fuel. Pump prices stay unchanged.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Petrol duty",
+     "v": "₹13 → ₹3 / litre"
+    },
+    {
+     "k": "Diesel duty",
+     "v": "₹10 → nil"
+    },
+    {
+     "k": "Estimated cost",
+     "v": "₹1.3–1.75 lakh cr a year"
+    }
+   ],
+   "differs": "Estimates of the yearly revenue cost range from over ₹1 lakh crore to ₹1.75 lakh crore, depending on assumptions about prices and volumes.",
+   "link": "west-asia-oil",
+   "sources": [
+    {
+     "name": "Outlook Business",
+     "url": "https://www.outlookbusiness.com/economy-and-policy/govt-cuts-excise-duty-on-petrol-diesel-windfall-tax-on-fuel-export-back"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/latest/economy/story/petrol-diesel-excise-duty-cut-may-cost-govt-over-rs-1-lakh-crore-fiscal-hit-to-be-reviewed-fortnightly-522729-2026-03-27"
+    },
+    {
+     "name": "PTI (via TaxTMI)",
+     "url": "https://www.taxtmi.com/news?id=71866"
+    },
+    {
+     "name": "Rajya Sabha reply (via TaxGuru)",
+     "url": "https://taxguru.in/?p=1066264",
+     "primary": true
+    }
+   ]
+  },
+  {
+   "date": "2026-04-01",
+   "dateLabel": "1 Apr 2026",
+   "phase": "law",
+   "title": "New Income Tax Act takes over from the 1961 law",
+   "summary": "The Income Tax Act, 2025 comes into force, replacing the six-decade-old Income Tax Act, 1961, with simplified rules and redesigned return forms.",
+   "status": "Confirmed (announced in the Budget)",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ICICI Direct",
+     "url": "https://icicidirect.com/research/equity/finace/union-budget-2026-27-what-was-announced-and-what-changed"
+    },
+    {
+     "name": "DT Next",
+     "url": "https://www.dtnext.in/news/business/live-union-budget-2026-key-expectations-ahead-of-finance-minister-nirmala-sitharamans-budget-presentation-today"
+    },
+    {
+     "name": "Razorpay",
+     "url": "https://razorpay.com/learn/union-budget-2026-27-new-tax-rules-highlights-and-more/"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "dateLabel": "May 2026",
+   "phase": "data",
+   "title": "Last year’s deficit target met, but April’s deficit nearly doubles",
+   "summary": "Official accounts show the 2025-26 fiscal deficit target of 4.4% of GDP was met. But April 2026 alone used 21% of this year’s target, unusually high for the first month, as fuel-tax cuts hit receipts.",
+   "status": "Official data · CGA",
+   "numbers": [
+    {
+     "k": "FY26 deficit",
+     "v": "4.4% of GDP (met)"
+    },
+    {
+     "k": "April 2026",
+     "v": "21% of target"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Deccan Herald",
+     "url": "https://www.deccanherald.com/business/economy/government-achieves-fiscal-deficit-target-of-44-for-fy26-4023562"
+    },
+    {
+     "name": "Multibagg",
+     "url": "https://www.multibagg.ai/market-pulse/articles/india-fiscal-deficit-excise-cuts-cmr0wugz46wc3o20jikeqevbz"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "dateLabel": "27 Aug 2026",
+   "phase": "policy",
+   "title": "Work on Budget 2027-28 begins",
+   "summary": "The Finance Ministry issues the Budget Circular 2027-28, asking ministries to submit estimates by 6 October for meetings starting 12 October. It will be Sitharaman’s 10th straight Budget, and may need to make room for the 8th Pay Commission.",
+   "status": "Confirmed · Budget Circular",
+   "numbers": [
+    {
+     "k": "Data due",
+     "v": "6 Oct"
+    },
+    {
+     "k": "Meetings",
+     "v": "12 Oct – mid-Nov"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Devdiscourse / ANI",
+     "url": "https://www.devdiscourse.com/article/business/3969462-finance-ministry-kicks-off-budget-making-exercise-for-fy-2027-28"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/amp/india/story/budget-2027-28-preparations-commence-with-pre-budget-meetings-from-october-12-552040-2026-08-29"
+    },
+    {
+     "name": "The Sunday Guardian",
+     "url": "https://sundayguardianlive.com/business/finance-ministry-begins-fy28-budget-exercise-272828/"
+    },
+    {
+     "name": "KNN India",
+     "url": "https://knnindia.co.in/news/newsdetails/economy/govt-starts-budget-2027-28-preparations-with-focus-on-fiscal-discipline-realistic-estimates"
+    },
+    {
+     "name": "DD News",
+     "url": "https://ddnews.gov.in/en/govt-begins-preparations-for-union-budget-2027-28-pre-budget-meetings-from-oct-12/"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "dateLabel": "12 Oct 2026",
+   "phase": "policy",
+   "title": "Pre-Budget meetings with ministries begin",
+   "summary": "Meetings chaired by the Expenditure Secretary start working out each ministry’s spending for 2027-28 and revised figures for this year. They were scheduled to run until 13 November.",
+   "status": "Scheduled · Finance Ministry notice",
+   "numbers": [
+    {
+     "k": "Scheduled end",
+     "v": "13 Nov"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Free Press Journal / PTI",
+     "url": "https://www.freepressjournal.in/business/union-budget-2027-28-finance-ministry-to-begin-pre-budget-meetings-from-october-12"
+    },
+    {
+     "name": "Angel One",
+     "url": "https://www.angelone.in/news/market-updates/union-budget-2027-28-finance-ministry-to-begin-pre-budget-discussions-on-october-12-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "dateLabel": "30 Oct 2026",
+   "phase": "data",
+   "key": true,
+   "title": "Half-year deficit runs ahead of last year",
+   "summary": "The deficit for April–September reaches ₹7.14 lakh crore, about 25% higher than a year earlier and 42.1% of the full-year target, compared with 36.5% at the same point last year.",
+   "status": "Official data · CGA",
+   "numbers": [
+    {
+     "k": "Deficit, Apr–Sep",
+     "v": "₹7.14 lakh cr"
+    },
+    {
+     "k": "Share of target",
+     "v": "42.1%"
+    },
+    {
+     "k": "Same point last year",
+     "v": "36.5%"
+    }
+   ],
+   "differs": "Most reports give 42.1% of the target; Deccan Herald reports 44.5%.",
+   "sources": [
+    {
+     "name": "CGA accounts (via Oquilia)",
+     "url": "https://www.oquilia.com/news/centre-fiscal-deficit-april-september-42-percent-of-fy27-target",
+     "primary": true
+    },
+    {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-budget-value/news/596809"
+    },
+    {
+     "name": "Business Standard (via A2Z Taxcorp)",
+     "url": "https://a2ztaxcorp.net/?p=41250"
+    },
+    {
+     "name": "Deccan Herald",
+     "url": "https://www.deccanherald.com/business/fiscal-deficit-rises-to-rs-714-lakh-crore-in-april-september-2026-4201647"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "policy",
+   "title": "Diesel support costs ₹14,000 crore a month, PM says",
+   "summary": "PM Modi says crude's jump from $70 to $122 a barrel called for a diesel increase of at least ₹50 a litre, but the government raised it by ₹7 and absorbed the rest. He puts the cost at ₹14,000 crore every month, a pressure on the deficit going into the Budget.",
+   "status": "Stated · PM's speech",
+   "numbers": [
+    {
+     "k": "Absorbed",
+     "v": "₹43 / litre"
+    },
+    {
+     "k": "Monthly cost",
+     "v": "₹14,000 cr"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/india/absorbed-diesel-burden-to-protect-farmers-pm-narendra-modi/",
+     "primary": true
+    },
+    {
+     "name": "NewsBytes",
+     "url": "https://www.newsbytesapp.com/news/india/government-shields-farmers-from-diesel-price-surge/story"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
 }

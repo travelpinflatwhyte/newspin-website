@@ -1,0 +1,185 @@
+{
+ "slug": "microsoft-365-outage",
+ "short": "Outlook outage",
+ "category": "Tech",
+ "regions": [
+  "World",
+  "US",
+  "India"
+ ],
+ "title": "Outlook and Teams down: the Microsoft 365 outage, hour by hour",
+ "dek": "What broke, when (in India time), what Microsoft has said, and what still works.",
+ "seoTitle": "Outlook down: Microsoft 365 outage timeline (IST)",
+ "importance": 3,
+ "status": "Not yet fixed",
+ "tone": "hot",
+ "big": "130,000",
+ "delta": "Outlook reports",
+ "bigLabel": "Problem reports for Outlook on Downdetector at the peak, around midnight IST on 12–13 Nov",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers began failing, taking down Outlook email and parts of Teams, SharePoint and Copilot worldwide. Servers that came back kept failing again under traffic.",
+  "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
+  "next": "As of 10 am IST on 13 November, Microsoft said it had not seen a sustained recovery. It has not given a time for a full fix or a final cause."
+ },
+ "keyNumbers": [
+  {
+   "label": "Outlook reports",
+   "value": "130,000",
+   "note": "Downdetector peak",
+   "hot": true
+  },
+  {
+   "label": "Started",
+   "value": "≈ 11:30 pm",
+   "note": "IST, 12 Nov"
+  },
+  {
+   "label": "Microsoft 365 reports",
+   "value": "46,000+",
+   "note": "Downdetector"
+  },
+  {
+   "label": "Cyber attack?",
+   "value": "No sign",
+   "note": "per Microsoft"
+  }
+ ],
+ "forYou": "If you use Outlook for work or college, email may be delayed rather than lost, Microsoft says. Teams chat and meetings mostly work; calendar and scheduling may fail. Microsoft posts official updates on its @MSFT365Status account on X.",
+ "upcoming": [
+  {
+   "date": "2026-11-14",
+   "label": "Soon",
+   "text": "Microsoft's all-clear and its explanation of the cause"
+  }
+ ],
+ "next": "Microsoft's all-clear, and its explanation of what went wrong.",
+ "links": [
+  "nvidia-huang-investigation"
+ ],
+ "events": [
+  {
+   "date": "2026-11-12",
+   "dateLabel": "≈ 11:30 pm IST, 12 Nov",
+   "phase": "tech",
+   "title": "Microsoft starts investigating email problems",
+   "summary": "Shortly before 1 pm US Eastern time, Microsoft says it is investigating reports of users unable to reach Exchange Online mailboxes in the Americas. It soon says users in any region could be affected.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203",
+     "primary": true
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "≈ 11:56 pm IST, 12 Nov",
+   "phase": "tech",
+   "key": true,
+   "title": "Outage spreads across Microsoft 365",
+   "summary": "Microsoft opens a wider incident at 1:26 pm ET: customers may be unable to connect to Exchange Online, Teams, SharePoint, Copilot and Defender XDR. Outlook problem reports on Downdetector reach about 130,000.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [
+    {
+     "k": "Outlook reports",
+     "v": "≈ 130,000"
+    },
+    {
+     "k": "Microsoft 365",
+     "v": "46,000+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "primary": true
+    },
+    {
+     "name": "TechRepublic (Reuters)",
+     "url": "https://www.techrepublic.com/article/news-microsoft-outlook-outage-130000-reports-2026/"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "≈ 2:30 am IST, 13 Nov",
+   "phase": "tech",
+   "title": "A first fix brings some servers back",
+   "summary": "Microsoft says it has validated a different way of running server health checks, bringing some affected servers back online, and starts applying it more widely. It says the cause was servers unexpectedly going offline, not extra traffic.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+     "primary": true
+    },
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "≈ 4:30 am IST, 13 Nov",
+   "phase": "tech",
+   "title": "Restored servers fail again",
+   "summary": "Microsoft says servers it returned to service can become unresponsive again once they receive traffic. It pauses deployments, limits some traffic to the affected systems and keeps restarting servers.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203",
+     "primary": true
+    },
+    {
+     "name": "CyberPress",
+     "url": "https://cyberpress.org/microsoft-365-outage/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "≈ 10 am IST, 13 Nov",
+   "phase": "tech",
+   "title": "No sustained recovery yet; not a cyber attack",
+   "summary": "As Europe wakes up, the outage is still widespread. Microsoft says its fixes are bringing partial recovery but not a sustained one, and a Microsoft executive says it was not caused by a cyber attack. No time is given for a full fix.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203"
+    },
+    {
+     "name": "The Statesman",
+     "url": "https://www.thestatesman.com/technology/microsoft-365-outage-hits-outlook-teams-copilot-what-happened-and-when-it-could-be-fixed-1503661970.html"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
+}

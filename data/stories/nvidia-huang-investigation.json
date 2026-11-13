@@ -1,329 +1,380 @@
 {
-  "slug": "nvidia-huang-investigation",
-  "short": "Nvidia & Huang",
-  "category": "Tech",
-  "regions": [
-    "US",
-    "World"
-  ],
-  "title": "Jensen Huang resigns: how the Nvidia espionage reports unfolded",
-  "dek": "In two weeks, a report that Nvidia’s founder was targeted by Chinese intelligence led to a board inquiry, another allegation, a share slide and his resignation.",
-  "seoTitle": "Jensen Huang resigns as Nvidia CEO: timeline",
-  "importance": 4,
-  "status": "Huang resigned",
-  "tone": "hot",
-  "big": "$3.75 tn",
-  "delta": "market value, 12 Nov",
-  "bigLabel": "Nvidia was once worth about $5 trillion, per Yahoo Finance",
-  "updated": "2026-11-13",
-  "glance": {
-    "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
-    "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-    "next": "Interim CEO Colette Kress leads Nvidia’s earnings on 17 November. House committees still want to hear from Huang, and the board is searching for a permanent CEO."
+ "slug": "nvidia-huang-investigation",
+ "short": "Nvidia & Huang",
+ "category": "Tech",
+ "regions": [
+  "US",
+  "World"
+ ],
+ "title": "Jensen Huang resigns: how the Nvidia espionage reports unfolded",
+ "dek": "In two weeks, a report that Nvidia’s founder was targeted by Chinese intelligence led to a board inquiry, another allegation, a share slide and his resignation.",
+ "seoTitle": "Jensen Huang resigns as Nvidia CEO: timeline",
+ "importance": 4,
+ "status": "Huang resigned",
+ "tone": "hot",
+ "big": "−30.5%",
+ "delta": "since 6 Oct record",
+ "bigLabel": "Fall in Nvidia's share price from its record high, per CNN (12 Nov close)",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
+  "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
+  "next": "Interim CEO Colette Kress leads Nvidia's earnings on 17 November. Huang has agreed to appear voluntarily before House committees, and the board is searching for a permanent CEO."
+ },
+ "keyNumbers": [
+  {
+   "label": "Share price vs record",
+   "value": "−30.5%",
+   "note": "12 Nov close, CNN",
+   "hot": true
   },
-  "keyNumbers": [
+  {
+   "label": "Interim CEO",
+   "value": "Colette Kress",
+   "note": "was CFO"
+  },
+  {
+   "label": "First board chair",
+   "value": "Harvey C. Jones",
+   "note": "from 12 Nov"
+  },
+  {
+   "label": "Investigations",
+   "value": "Board, FBI, Congress",
+   "note": "plus a shareholder lawsuit"
+  }
+ ],
+ "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
+ "upcoming": [
+  {
+   "date": "2026-11-17",
+   "label": "17 Nov",
+   "text": "Nvidia earnings, first under interim CEO Colette Kress"
+  },
+  {
+   "date": "2026-11-18",
+   "label": "18 Nov",
+   "text": "Date House chairs requested for Huang’s briefing"
+  }
+ ],
+ "next": "Earnings on 17 Nov under interim CEO Colette Kress; CEO search under way.",
+ "links": [
+  "india-us-trade-deal"
+ ],
+ "events": [
+  {
+   "date": "2026-10-29",
+   "dateLabel": "29 Oct 2026",
+   "phase": "world",
+   "title": "New York Times report: Huang targeted by Chinese intelligence",
+   "summary": "US intelligence agencies found Huang had developed a close relationship with an executive at Singapore-based Megaspeed, one of Nvidia’s biggest Southeast Asian customers, whom US officials concluded was gathering information for Beijing. Officials did not believe Huang knew. Nvidia said the interactions were a normal part of his job. China called the claims baseless smears.",
+   "status": "Reported · The New York Times",
+   "numbers": [
     {
-      "label": "Market value, 12 Nov",
-      "value": "$3.75 tn",
-      "note": "peak ≈ $5 tn",
-      "hot": true
-    },
-    {
-      "label": "Interim CEO",
-      "value": "Colette Kress",
-      "note": "was CFO"
-    },
-    {
-      "label": "First board chair",
-      "value": "Harvey C. Jones",
-      "note": "from 12 Nov"
-    },
-    {
-      "label": "Investigations",
-      "value": "Board, FBI, Congress",
-      "note": "plus a shareholder lawsuit"
+     "k": "Megaspeed chip purchases",
+     "v": "$4.8 bn (2 yrs, reported)"
     }
-  ],
-  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
-  "upcoming": [
+   ],
+   "sources": [
     {
-      "date": "2026-11-17",
-      "label": "17 Nov",
-      "text": "Nvidia earnings, first under interim CEO Colette Kress"
+     "name": "ABC News",
+     "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
     },
     {
-      "date": "2026-11-18",
-      "label": "18 Nov",
-      "text": "Date House chairs requested for Huang’s briefing"
+     "name": "The Telegraph (via t2)",
+     "url": "https://t2online.in/tech/tech-news/nvidia-board-orders-independent-investigation-into-jensen-huang-over-links-to-suspected-chinese-spy/2009133"
+    },
+    {
+     "name": "AP (via WPXI)",
+     "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
     }
-  ],
-  "next": "Earnings on 17 Nov under interim CEO Colette Kress; CEO search under way.",
-  "links": [
-    "india-us-trade-deal"
-  ],
-  "events": [
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "dateLabel": "4–5 Nov 2026",
+   "phase": "law",
+   "title": "House committee chairs ask Huang for a closed-door briefing",
+   "summary": "Three Republican House committee chairs ask Huang to brief them on 18 November about his contacts with the Megaspeed executive and Nvidia’s protections against espionage, with a reply due by 11 November. The letter comes a day after midterms in which Republicans lost control of Congress.",
+   "status": "Confirmed · committee release",
+   "numbers": [
     {
-      "date": "2026-10-29",
-      "dateLabel": "29 Oct 2026",
-      "phase": "world",
-      "title": "New York Times report: Huang targeted by Chinese intelligence",
-      "summary": "US intelligence agencies found Huang had developed a close relationship with an executive at Singapore-based Megaspeed, one of Nvidia’s biggest Southeast Asian customers, whom US officials concluded was gathering information for Beijing. Officials did not believe Huang knew. Nvidia said the interactions were a normal part of his job. China called the claims baseless smears.",
-      "status": "Reported · The New York Times",
-      "numbers": [
-        {
-          "k": "Megaspeed chip purchases",
-          "v": "$4.8 bn (2 yrs, reported)"
-        }
-      ],
-      "sources": [
-        {
-          "name": "ABC News",
-          "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
-        },
-        {
-          "name": "The Telegraph (via t2)",
-          "url": "https://t2online.in/tech/tech-news/nvidia-board-orders-independent-investigation-into-jensen-huang-over-links-to-suspected-chinese-spy/2009133"
-        },
-        {
-          "name": "AP (via WPXI)",
-          "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
-        }
-      ]
+     "k": "Requested date",
+     "v": "18 Nov"
     },
     {
-      "date": "2026-11-05",
-      "dateLabel": "4–5 Nov 2026",
-      "phase": "law",
-      "title": "House committee chairs ask Huang for a closed-door briefing",
-      "summary": "Three Republican House committee chairs ask Huang to brief them on 18 November about his contacts with the Megaspeed executive and Nvidia’s protections against espionage, with a reply due by 11 November. The letter comes a day after midterms in which Republicans lost control of Congress.",
-      "status": "Confirmed · committee release",
-      "numbers": [
-        {
-          "k": "Requested date",
-          "v": "18 Nov"
-        },
-        {
-          "k": "Reply due",
-          "v": "11 Nov"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Tech Insider",
-          "url": "https://tech-insider.org/?p=55787"
-        },
-        {
-          "name": "AI Chat Daily",
-          "url": "https://www.aichatdaily.com/ai-security/nvidia-pushes-back-house-chairs-seek-jensen-huang"
-        },
-        {
-          "name": "ABC7",
-          "url": "https://abc7news.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
-        },
-        {
-          "name": "Let’s Data Science (citing Axios)",
-          "url": "https://letsdatascience.com/news/house-chairs-ask-nvidia-ceo-jensen-huang-for-closed-door-bri-d3ca0fdc"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "dateLabel": "6 Nov 2026",
-      "phase": "law",
-      "title": "Incoming Democratic majority signals its own questions",
-      "summary": "Bloomberg reports that the new Democratic majority in Congress is set to demand answers from Nvidia on keeping its AI chips out of China. The new Congress sits from 3 January.",
-      "status": "Reported · Bloomberg",
-      "numbers": [],
-      "sources": [
-        {
-          "name": "FourWeekMBA (citing Bloomberg)",
-          "url": "https://fourweekmba.com/ai-nvidia-declined-a-june-hearing-democrats-win-2027-gavels/"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "dateLabel": "8 Nov 2026",
-      "phase": "policy",
-      "title": "Board opens independent investigation; Huang admits infidelity",
-      "summary": "A committee of independent directors with outside counsel will review the reports. The board says it has no reason to believe national security or company secrets were compromised and that it has confidence in Huang, who stays CEO. In a message to staff, Huang says he was unfaithful to his wife and will cooperate fully. President Trump calls him an honourable man and says he has not discussed the matter with him.",
-      "status": "Confirmed · Nvidia statement",
-      "numbers": [
-        {
-          "k": "CEO",
-          "v": "Stays in role"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Nvidia board statement",
-          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-          "primary": true
-        },
-        {
-          "name": "AP (via WPXI)",
-          "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
-        },
-        {
-          "name": "TechRepublic",
-          "url": "https://techrepublic.com/article/news-nvidia-jensen-huang-espionage-inquiry-apac-china/"
-        },
-        {
-          "name": "Interesting Engineering",
-          "url": "https://interestingengineering.com/culture/nvidia-jensen-huang-admits-affair-chinese-spy"
-        },
-        {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "dateLabel": "9 Nov 2026",
-      "phase": "market",
-      "title": "Shares slide; China rejects the claims",
-      "summary": "Nvidia falls as much as 8% in early trading before recovering to about 4% down, while rivals AMD and Broadcom rise. China’s Foreign Ministry calls the allegations unsubstantiated. Huang pulls out of an AI industry CEO forum.",
-      "status": "Market data",
-      "numbers": [
-        {
-          "k": "Prior close",
-          "v": "$186.64"
-        },
-        {
-          "k": "Early low",
-          "v": "$171.80"
-        },
-        {
-          "k": "Late move",
-          "v": "≈ −4%"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Finviz",
-          "url": "https://finviz.com/news/418813/nvidia-shares-fall-more-than-4-as-board-investigates-allegations-involving-ceo-jensen-huang"
-        },
-        {
-          "name": "Beinsure",
-          "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/"
-        },
-        {
-          "name": "Good Morning America",
-          "url": "https://www.goodmorningamerica.com/news/story/nvidia-stock-falls-after-company-opens-probe-ceo-137970524"
-        },
-        {
-          "name": "IBTimes",
-          "url": "https://www.ibtimes.com/nvidia-stock-falls-huang-board-investigation-3809545"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abc30.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "dateLabel": "10 Nov 2026",
-      "phase": "policy",
-      "added": "2026-11-12",
-      "title": "Former US attorney and Wachtell Lipton hired to run the inquiry",
-      "summary": "The board names Joon Kim, a former acting US Attorney, and the law firm Wachtell, Lipton, Rosen & Katz to lead the independent investigation. Nvidia’s losses since Monday reach close to $500 billion in market value, according to NBC News.",
-      "status": "Confirmed · Nvidia statement",
-      "numbers": [
-        {
-          "k": "Lead counsel",
-          "v": "Joon Kim, Wachtell Lipton"
-        },
-        {
-          "k": "Market value lost",
-          "v": "≈ $500 bn (NBC)"
-        }
-      ],
-      "differs": "NBC News puts the fall at more than 10% since Monday; CNN reported the shares down over 5% for the week on 11 November.",
-      "sources": [
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628"
-        },
-        {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "dateLabel": "11 Nov 2026",
-      "phase": "world",
-      "added": "2026-11-12",
-      "title": "New report alleges a second relationship, with a senior Nvidia executive",
-      "summary": "The New York Times reports, citing five employees, that Huang is also suspected of a relationship with a married executive who reports directly to him. Nvidia has rules discouraging relationships between managers and subordinates. This is a reported allegation; Nvidia’s response had not been published in the coverage we reviewed. Analysts have started asking whether Huang could be forced to step aside, with no public succession plan.",
-      "status": "Reported, not confirmed",
-      "numbers": [],
-      "sources": [
-        {
-          "name": "TechCrunch (citing The New York Times)",
-          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
-        },
-        {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-12",
-      "dateLabel": "12 Nov 2026",
-      "phase": "policy",
-      "key": true,
-      "added": "2026-11-13",
-      "title": "Jensen Huang resigns; CFO Colette Kress becomes interim CEO",
-      "summary": "After a board meeting on Wednesday night, Nvidia says its co-founder has stepped down as chief executive. Chief financial officer Colette Kress takes over on an interim basis, and venture investor Harvey C. Jones becomes the company’s first board chair. The board is reported to be looking at outside candidates for the permanent role. Investigations by the FBI and Congress, and a shareholder class-action lawsuit, continue.",
-      "status": "Confirmed · Nvidia announcement",
-      "numbers": [
-        {
-          "k": "Interim CEO",
-          "v": "Colette Kress"
-        },
-        {
-          "k": "Board chair",
-          "v": "Harvey C. Jones"
-        },
-        {
-          "k": "Market value",
-          "v": "$3.75 tn"
-        },
-        {
-          "k": "Intraday fall",
-          "v": "up to 13%"
-        }
-      ],
-      "differs": "Yahoo Finance reports the shares fell as much as 13% before recovering; StockTitan had them down 4.5% by early afternoon New York time.",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
-        },
-        {
-          "name": "CNN live updates",
-          "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
-        },
-        {
-          "name": "Yahoo Finance live",
-          "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html"
-        },
-        {
-          "name": "StockTitan",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
-        }
-      ]
+     "k": "Reply due",
+     "v": "11 Nov"
     }
-  ],
-  "heroTitle": "Jensen Huang resigns as Nvidia CEO",
-  "heroDek": "Two weeks after a report that he was targeted by Chinese intelligence, Nvidia’s founder steps down. CFO Colette Kress takes over for now."
+   ],
+   "sources": [
+    {
+     "name": "Tech Insider",
+     "url": "https://tech-insider.org/?p=55787"
+    },
+    {
+     "name": "AI Chat Daily",
+     "url": "https://www.aichatdaily.com/ai-security/nvidia-pushes-back-house-chairs-seek-jensen-huang"
+    },
+    {
+     "name": "ABC7",
+     "url": "https://abc7news.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
+    },
+    {
+     "name": "Let’s Data Science (citing Axios)",
+     "url": "https://letsdatascience.com/news/house-chairs-ask-nvidia-ceo-jensen-huang-for-closed-door-bri-d3ca0fdc"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "dateLabel": "6 Nov 2026",
+   "phase": "law",
+   "title": "Incoming Democratic majority signals its own questions",
+   "summary": "Bloomberg reports that the new Democratic majority in Congress is set to demand answers from Nvidia on keeping its AI chips out of China. The new Congress sits from 3 January.",
+   "status": "Reported · Bloomberg",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "FourWeekMBA (citing Bloomberg)",
+     "url": "https://fourweekmba.com/ai-nvidia-declined-a-june-hearing-democrats-win-2027-gavels/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "dateLabel": "8 Nov 2026",
+   "phase": "policy",
+   "title": "Board opens independent investigation; Huang admits infidelity",
+   "summary": "A committee of independent directors with outside counsel will review the reports. The board says it has no reason to believe national security or company secrets were compromised and that it has confidence in Huang, who stays CEO. In a message to staff, Huang says he was unfaithful to his wife and will cooperate fully. President Trump calls him an honourable man and says he has not discussed the matter with him.",
+   "status": "Confirmed · Nvidia statement",
+   "numbers": [
+    {
+     "k": "CEO",
+     "v": "Stays in role"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nvidia board statement",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+     "primary": true
+    },
+    {
+     "name": "AP (via WPXI)",
+     "url": "https://www.wpxi.com/news/business/nvidia-investigating/GY4WETDH6E6TPGD4N4DHOX3ES4/?outputType=amp"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abc30.com/post/nvidia-announces-investigation-ceo-jensen-huang-amid-foreign-intelligence-target-allegations/20024740/"
+    },
+    {
+     "name": "TechRepublic",
+     "url": "https://techrepublic.com/article/news-nvidia-jensen-huang-espionage-inquiry-apac-china/"
+    },
+    {
+     "name": "Interesting Engineering",
+     "url": "https://interestingengineering.com/culture/nvidia-jensen-huang-admits-affair-chinese-spy"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "market",
+   "title": "Shares slide; China rejects the claims",
+   "summary": "Nvidia falls as much as 8% in early trading before recovering to about 4% down, while rivals AMD and Broadcom rise. China’s Foreign Ministry calls the allegations unsubstantiated. Huang pulls out of an AI industry CEO forum.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Prior close",
+     "v": "$186.64"
+    },
+    {
+     "k": "Early low",
+     "v": "$171.80"
+    },
+    {
+     "k": "Late move",
+     "v": "≈ −4%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Finviz",
+     "url": "https://finviz.com/news/418813/nvidia-shares-fall-more-than-4-as-board-investigates-allegations-involving-ceo-jensen-huang"
+    },
+    {
+     "name": "Beinsure",
+     "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/"
+    },
+    {
+     "name": "Good Morning America",
+     "url": "https://www.goodmorningamerica.com/news/story/nvidia-stock-falls-after-company-opens-probe-ceo-137970524"
+    },
+    {
+     "name": "IBTimes",
+     "url": "https://www.ibtimes.com/nvidia-stock-falls-huang-board-investigation-3809545"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abc30.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "dateLabel": "10 Nov 2026",
+   "phase": "policy",
+   "added": "2026-11-12",
+   "title": "Former US attorney and Wachtell Lipton hired to run the inquiry",
+   "summary": "The board names Joon Kim, a former acting US Attorney, and the law firm Wachtell, Lipton, Rosen & Katz to lead the independent investigation. Nvidia’s losses since Monday reach close to $500 billion in market value, according to NBC News.",
+   "status": "Confirmed · Nvidia statement",
+   "numbers": [
+    {
+     "k": "Lead counsel",
+     "v": "Joon Kim, Wachtell Lipton"
+    },
+    {
+     "k": "Market value lost",
+     "v": "≈ $500 bn (NBC)"
+    }
+   ],
+   "differs": "NBC News puts the fall at more than 10% since Monday; CNN reported the shares down over 5% for the week on 11 November.",
+   "sources": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "dateLabel": "11 Nov 2026",
+   "phase": "world",
+   "added": "2026-11-12",
+   "title": "New report alleges a second relationship, with a senior Nvidia executive",
+   "summary": "The New York Times reports, citing five employees, that Huang is also suspected of a relationship with a married executive who reports directly to him. Nvidia has rules discouraging relationships between managers and subordinates. This is a reported allegation; Nvidia’s response had not been published in the coverage we reviewed. Analysts have started asking whether Huang could be forced to step aside, with no public succession plan.",
+   "status": "Reported, not confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "TechCrunch (citing The New York Times)",
+     "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "policy",
+   "key": true,
+   "added": "2026-11-13",
+   "title": "Jensen Huang resigns; CFO Colette Kress becomes interim CEO",
+   "summary": "After a board meeting on Wednesday night, Nvidia says its co-founder has stepped down as chief executive. Chief financial officer Colette Kress takes over on an interim basis, and venture investor Harvey C. Jones becomes the company’s first board chair. The board is reported to be looking at outside candidates for the permanent role. Investigations by the FBI and Congress, and a shareholder class-action lawsuit, continue.",
+   "status": "Confirmed · Nvidia announcement",
+   "numbers": [
+    {
+     "k": "Interim CEO",
+     "v": "Colette Kress"
+    },
+    {
+     "k": "Board chair",
+     "v": "Harvey C. Jones"
+    },
+    {
+     "k": "Market value",
+     "v": "$3.75 tn"
+    },
+    {
+     "k": "Intraday fall",
+     "v": "up to 13%"
+    }
+   ],
+   "differs": "Yahoo Finance reports the shares fell as much as 13% before recovering; StockTitan had them down 4.5% by early afternoon New York time.",
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+    },
+    {
+     "name": "CNN live updates",
+     "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+    },
+    {
+     "name": "Yahoo Finance live",
+     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html"
+    },
+    {
+     "name": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "market",
+   "title": "Shares fall 4% on the day he resigns",
+   "summary": "Nvidia closes down about 4%, taking its fall from the 6 October record high to 30.5%, according to CNN. Bloomberg, citing Vanda Research, reports retail investors bought a record $111 million of Nvidia shares in the first 30 minutes of trading.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "From record",
+     "v": "−30.5%"
+    },
+    {
+     "k": "Retail buying, first 30 min",
+     "v": "$111 M"
+    }
+   ],
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+     "primary": true
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-sees-record-open-retail-buy-after-ceo-ousted-vanda-says"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "policy",
+   "title": "Huang agrees to appear before Congress",
+   "summary": "Huang agrees to appear voluntarily before the relevant House committees, CNN reports. Senators from both parties call the case troubling, and some want Commerce Secretary Howard Lutnick to testify too. Nvidia says its product roadmap and customer commitments continue.",
+   "status": "Reported · CNN",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+     "primary": true
+    },
+    {
+     "name": "The Neuron",
+     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ],
+ "heroTitle": "Jensen Huang resigns as Nvidia CEO",
+ "heroDek": "Two weeks after a report that he was targeted by Chinese intelligence, Nvidia’s founder steps down. CFO Colette Kress takes over for now."
 }

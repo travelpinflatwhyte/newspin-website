@@ -1,61 +1,350 @@
 {
-  "slug": "west-asia-oil",
-  "short": "West Asia & oil",
-  "category": "World",
-  "regions": ["World", "India"],
-  "title": "West Asia war, the Strait of Hormuz and India’s oil bill",
-  "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
-  "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
-  "importance": 4,
-  "status": "Developing",
-  "tone": "live",
-  "big": "≈ $100",
-  "delta": "Brent, 3 Sep",
-  "bigLabel": "Up from about $65 a barrel before the crisis",
-  "updated": "2026-11-12",
-  "glance": {
-    "what": "Since strikes on Iran in March 2026, shipping through the Strait of Hormuz has been disrupted and oil prices have swung between about $80 and over $100.",
-    "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz.",
-    "next": "Any reopening of Hormuz shipping lanes, or a lasting ceasefire, would ease prices quickly."
+ "slug": "west-asia-oil",
+ "short": "West Asia & oil",
+ "category": "World",
+ "regions": [
+  "World",
+  "India"
+ ],
+ "title": "West Asia war, the Strait of Hormuz and India’s oil bill",
+ "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
+ "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
+ "importance": 4,
+ "status": "Talks, no deal",
+ "tone": "live",
+ "big": "$95.82",
+ "delta": "Brent, 12 Nov",
+ "bigLabel": "Down about 20% from a late-October peak near $118",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
+  "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
+  "next": "Whether the Qatar-brokered proposal to reopen Hormuz goes anywhere. On 12 November President Trump said the US did not need a deal with Iran."
+ },
+ "keyNumbers": [
+  {
+   "label": "Brent, 12 Nov",
+   "value": "$95.82",
+   "note": "per barrel",
+   "hot": true
   },
-  "keyNumbers": [
-    {"label": "Brent, 3 Sep", "value": "≈ $100", "note": "per barrel", "hot": true},
-    {"label": "Before the crisis", "value": "≈ $65", "note": "per barrel"},
-    {"label": "India’s crude via Hormuz", "value": "≈ 50%", "note": "pre-war, Kpler"},
-    {"label": "LPG via Hormuz", "value": "≈ 90–100%", "note": "most exposed"}
-  ],
-  "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
-  "upcoming": [],
-  "next": "Any reopening of Hormuz shipping lanes.",
-  "links": ["rupee-slide-2026", "russian-oil", "inflation-2026"],
-  "events": [
-    {"date": "2026-03-01", "dateLabel": "1 Mar 2026", "phase": "world", "title": "Strikes on Iran; the Strait of Hormuz closes",
-     "summary": "After US and Israeli strikes on Iran, Hormuz shipping is shut. Brent ends the week near a seven-month high of about $73.",
-     "status": "Confirmed", "numbers": [{"k": "Brent", "v": "≈ $73"}],
-     "sources": [{"name": "News Arena India", "url": "https://newsarenaindia.com/economy/no-immediate-oil-shock-for-india-despite-hormuz-closure/71126"}, {"name": "bne IntelliNews", "url": "https://www.intellinews.com/india-braces-for-oil-shock-as-iran-fallout-begins-428755/"}]},
-    {"date": "2026-03-04", "dateLabel": "4 Mar 2026", "phase": "world", "title": "Tankers hit; shipping lines suspend Hormuz routes",
-     "summary": "At least three tankers are damaged and Maersk suspends all cargo through the strait. Brent closed above $79 on 3 March, up from about $65 before the crisis.",
-     "status": "Confirmed", "numbers": [{"k": "Brent, 3 Mar", "v": "> $79"}],
-     "sources": [{"name": "Business Today", "url": "https://businesstoday.in/markets/stocks/story/oil-up-37-in-2026-will-india-return-to-russian-oil-amid-strait-of-hormuz-disruptions-519084-2026-03-04"}, {"name": "bne IntelliNews", "url": "https://new.intellinews.com/articles/price-sensitive-import-reliant-india-grapples-to-shore-up-energy-security-amid-hormuz-crisis-429285"}]},
-    {"date": "2026-03-17", "dateLabel": "17 Mar 2026", "phase": "world", "title": "Brent crosses $100",
-     "summary": "Oil climbs back above $100 a barrel as the disruption drags on.",
-     "status": "Confirmed", "numbers": [{"k": "Brent", "v": "> $100"}],
-     "sources": [{"name": "ORF Middle East", "url": "https://orfme.org/expert-speak/hormuz-and-the-geopolitics-of-energy/"}]},
-    {"date": "2026-04-24", "dateLabel": "23–24 Apr 2026", "phase": "world", "title": "Blockade continues as peace talks stall",
-     "summary": "Brent trades at $102.40 on 23 April and above $106 the next day.",
-     "status": "Market data", "numbers": [{"k": "Brent, 23 Apr", "v": "$102.40"}, {"k": "Brent, 24 Apr", "v": "> $106"}],
-     "sources": [{"name": "Mint (via Pulse)", "url": "https://www.pulse.bot/energy/news/oil-prices-up-amid-stalemate-over-next-round-of-peace-talks-continued-blockade-of-strait-of-hormuz-9d27b4f3-a839-41bc-b67c-061d63fcc74a/"}, {"name": "Basis Point Insight", "url": "https://www.basispointinsight.com/Story/brent-crude-above--106-as-hormuz-tensions-cloud-global-supply-outlook_31d76bcee3a8.html"}]},
-    {"date": "2026-06-15", "dateLabel": "15 Jun 2026", "phase": "world", "title": "Ceasefire news brings relief",
-     "summary": "Brent falls about 4% to around $84 on news of a ceasefire and hopes that Hormuz shipping will normalise.",
-     "status": "Market data", "numbers": [{"k": "Brent", "v": "≈ $84"}],
-     "sources": [{"name": "PTI (via HDFC Sky)", "url": "https://hdfcsky.com/news/hormuz-reopening-to-ease-oil-supply-risks-for-india"}]},
-    {"date": "2026-08-21", "dateLabel": "21 Aug 2026", "phase": "world", "title": "Oil back above $90",
-     "summary": "A US–Iran deadlock keeps Hormuz disrupted, raising India’s import bill and pressure on the rupee.",
-     "status": "Market data", "numbers": [{"k": "Brent", "v": "> $90"}],
-     "sources": [{"name": "ThePrint", "url": "https://theprint.in/economy/crude-above-90-again-india-faces-higher-import-bill-rupee-pressure-as-oil-prices-rise/3021387/"}]},
-    {"date": "2026-09-03", "dateLabel": "3 Sep 2026", "phase": "world", "key": true, "title": "Brent nears $100 again",
-     "summary": "A fresh escalation in the US–Iran conflict renews fears for Gulf supplies, with Hormuz shipping still severely disrupted.",
-     "status": "Market data", "numbers": [{"k": "Brent", "v": "≈ $100"}],
-     "sources": [{"name": "ThePrint", "url": "https://theprint.in/economy/brent-nears-100-again-as-us-iran-conflict-threatens-oil-supplies-india-faces-fresh-risks/3032919/"}]}
-  ]
+  {
+   "label": "Late-Oct peak",
+   "value": "≈ $118",
+   "note": "per barrel"
+  },
+  {
+   "label": "India's Gulf crude, Nov",
+   "value": "2.1 mbpd",
+   "note": "Kpler, so far"
+  },
+  {
+   "label": "Diesel cost absorbed",
+   "value": "₹43 / litre",
+   "note": "per the PM"
+  }
+ ],
+ "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
+ "upcoming": [],
+ "next": "Whether Hormuz reopens under the Qatar-brokered proposal.",
+ "links": [
+  "rupee-slide-2026",
+  "russian-oil",
+  "inflation-2026"
+ ],
+ "events": [
+  {
+   "date": "2026-03-01",
+   "dateLabel": "1 Mar 2026",
+   "phase": "world",
+   "title": "Strikes on Iran; the Strait of Hormuz closes",
+   "summary": "After US and Israeli strikes on Iran, Hormuz shipping is shut. Brent ends the week near a seven-month high of about $73.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "≈ $73"
+    }
+   ],
+   "sources": [
+    {
+     "name": "News Arena India",
+     "url": "https://newsarenaindia.com/economy/no-immediate-oil-shock-for-india-despite-hormuz-closure/71126"
+    },
+    {
+     "name": "bne IntelliNews",
+     "url": "https://www.intellinews.com/india-braces-for-oil-shock-as-iran-fallout-begins-428755/"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-04",
+   "dateLabel": "4 Mar 2026",
+   "phase": "world",
+   "title": "Tankers hit; shipping lines suspend Hormuz routes",
+   "summary": "At least three tankers are damaged and Maersk suspends all cargo through the strait. Brent closed above $79 on 3 March, up from about $65 before the crisis.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Brent, 3 Mar",
+     "v": "> $79"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://businesstoday.in/markets/stocks/story/oil-up-37-in-2026-will-india-return-to-russian-oil-amid-strait-of-hormuz-disruptions-519084-2026-03-04"
+    },
+    {
+     "name": "bne IntelliNews",
+     "url": "https://new.intellinews.com/articles/price-sensitive-import-reliant-india-grapples-to-shore-up-energy-security-amid-hormuz-crisis-429285"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-17",
+   "dateLabel": "17 Mar 2026",
+   "phase": "world",
+   "title": "Brent crosses $100",
+   "summary": "Oil climbs back above $100 a barrel as the disruption drags on.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "> $100"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ORF Middle East",
+     "url": "https://orfme.org/expert-speak/hormuz-and-the-geopolitics-of-energy/"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-24",
+   "dateLabel": "23–24 Apr 2026",
+   "phase": "world",
+   "title": "Blockade continues as peace talks stall",
+   "summary": "Brent trades at $102.40 on 23 April and above $106 the next day.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent, 23 Apr",
+     "v": "$102.40"
+    },
+    {
+     "k": "Brent, 24 Apr",
+     "v": "> $106"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Mint (via Pulse)",
+     "url": "https://www.pulse.bot/energy/news/oil-prices-up-amid-stalemate-over-next-round-of-peace-talks-continued-blockade-of-strait-of-hormuz-9d27b4f3-a839-41bc-b67c-061d63fcc74a/"
+    },
+    {
+     "name": "Basis Point Insight",
+     "url": "https://www.basispointinsight.com/Story/brent-crude-above--106-as-hormuz-tensions-cloud-global-supply-outlook_31d76bcee3a8.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-15",
+   "dateLabel": "15 Jun 2026",
+   "phase": "world",
+   "title": "Ceasefire news brings relief",
+   "summary": "Brent falls about 4% to around $84 on news of a ceasefire and hopes that Hormuz shipping will normalise.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "≈ $84"
+    }
+   ],
+   "sources": [
+    {
+     "name": "PTI (via HDFC Sky)",
+     "url": "https://hdfcsky.com/news/hormuz-reopening-to-ease-oil-supply-risks-for-india"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "dateLabel": "21 Aug 2026",
+   "phase": "world",
+   "title": "Oil back above $90",
+   "summary": "A US–Iran deadlock keeps Hormuz disrupted, raising India’s import bill and pressure on the rupee.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "> $90"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint",
+     "url": "https://theprint.in/economy/crude-above-90-again-india-faces-higher-import-bill-rupee-pressure-as-oil-prices-rise/3021387/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "dateLabel": "3 Sep 2026",
+   "phase": "world",
+   "key": true,
+   "title": "Brent nears $100 again",
+   "summary": "A fresh escalation in the US–Iran conflict renews fears for Gulf supplies, with Hormuz shipping still severely disrupted.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "≈ $100"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint",
+     "url": "https://theprint.in/economy/brent-nears-100-again-as-us-iran-conflict-threatens-oil-supplies-india-faces-fresh-risks/3032919/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "dateLabel": "14 Sep 2026",
+   "phase": "world",
+   "title": "Saudi pipeline hit; Brent above $107",
+   "summary": "An Iranian ship is attacked in the Strait of Hormuz and Saudi Arabia's East–West pipeline, used to bypass the strait, is damaged in a drone attack. Brent crosses $107 even as the US says it is escorting more tankers.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "> $107"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/9/15/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-10-30",
+   "dateLabel": "Late Oct 2026",
+   "phase": "market",
+   "title": "Oil peaks near $118",
+   "summary": "Brent climbs to a late-October peak of about $118 a barrel after tankers are struck in the strait, its highest close in six months.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent peak",
+     "v": "≈ $118"
+    }
+   ],
+   "sources": [
+    {
+     "name": "OilPrice via Yahoo Finance",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-squeezed-between-peace-000000715.html",
+     "primary": true
+    },
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/business/energy/oil-plunges-8-as-us-iran-peace-hopes-ease-hormuz-fears-1.500733408"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-02",
+   "dateLabel": "2 Nov 2026",
+   "phase": "world",
+   "title": "Qatar talks: oil plunges about 8%",
+   "summary": "After weekend mediation talks between Iran and Qatar, a draft proposal to end the war circulates, reportedly centred on reopening Hormuz. Brent settles 7.6% lower, even as tankers near the strait are hit.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Brent, 2 Nov",
+     "v": "$104.77"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/business/energy/oil-plunges-8-as-us-iran-peace-hopes-ease-hormuz-fears-1.500733408",
+     "primary": true
+    },
+    {
+     "name": "Oil & Gas Middle East",
+     "url": "https://www.oilandgasmiddleeast.com/news/brent-hits-4-week-low-on-iran-talks"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "world",
+   "title": "Iran's Hormuz plan goes to the White House",
+   "summary": "Qatar's prime minister takes an Iranian proposal to reopen Hormuz to President Trump. Under the reported plan, the US would lift its blockade and release $8 billion in frozen funds. A Qatari official called one report of the terms false. Brent falls to its lowest close since 31 August.",
+   "status": "Reported · terms disputed",
+   "differs": "An Israeli outlet reported Iran had dropped its demand to charge tolls in the strait; a Qatari official told Bloomberg that report was false.",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "≈ $94"
+    }
+   ],
+   "sources": [
+    {
+     "name": "OilPrice",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
+     "primary": true
+    },
+    {
+     "name": "Capital Brief",
+     "url": "https://www.capitalbrief.com/briefing/oil-prices-fall-on-disputed-report-iran-eased-hormuz-demands-1e1fa85e-20d0-4fc7-a395-b1101609b5d4/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "market",
+   "key": true,
+   "title": "Trump says no deal needed; oil jumps 3%",
+   "summary": "Trump posts that the US does not need a deal with Iran. Houthis claim attacks on Saudi energy sites, and Iran's military reports tankers hit in the strait. Brent settles 3.3% higher at $95.82. In India, PM Modi says the government absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
+   "status": "Market data · Reuters",
+   "numbers": [
+    {
+     "k": "Brent",
+     "v": "$95.82"
+    },
+    {
+     "k": "Diesel rise passed on",
+     "v": "₹7 / litre"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via AsiaOne",
+     "url": "https://www.asiaone.com/money/oil-settles-3-higher-attacks-saudi-energy-sites-strait-hormuz-disruptions",
+     "primary": true
+    },
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/india/absorbed-diesel-burden-to-protect-farmers-pm-narendra-modi/"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-squeezed-between-peace-000000715.html"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
 }

@@ -3,7 +3,7 @@
   "domain": "https://newspinapp.com",
   "tagline": "Every big story, from the beginning.",
   "description": "Newspin turns the biggest ongoing news stories in India, the US and around the world into clear, sourced timelines: what happened, when, and what comes next.",
-  "today": "2026-11-12",
+  "today": "2026-11-13",
   "signupAction": "",
   "contactEmail": "hello@newspinapp.com",
   "chain": [
@@ -40,9 +40,12 @@
   ],
   "order": [
     "inflation-2026",
+    "delhi-air-2026",
     "rbi-rate-cycle",
     "nvidia-huang-investigation",
+    "microsoft-365-outage",
     "west-asia-oil",
+    "us-midterms-2026",
     "rupee-slide-2026",
     "india-us-trade-deal",
     "russian-oil",

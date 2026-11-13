@@ -1,50 +1,194 @@
 {
-  "slug": "russian-oil",
-  "short": "Russian oil",
-  "category": "Trade",
-  "regions": ["India", "World"],
-  "title": "India’s Russian oil dilemma",
-  "dek": "India promised Washington it would stop buying Russian oil. Then war closed the Gulf’s main shipping route.",
-  "seoTitle": "India's Russian oil imports 2026: timeline",
-  "importance": 3,
-  "status": "Developing",
-  "tone": "live",
-  "big": "100%",
-  "delta": "tariff risk",
-  "bigLabel": "Maximum US tariff the new sanctions law allows",
-  "updated": "2026-11-12",
-  "glance": {
-    "what": "India agreed to halt Russian oil purchases as part of the February US trade deal, but the Hormuz crisis pushed refiners back toward Russian crude.",
-    "why": "Cheap Russian oil cushions India’s import bill; losing it, or being punished for it, would raise costs and strain relations with the US.",
-    "next": "Whether the US applies the new sanctions tariffs to India."
+ "slug": "russian-oil",
+ "short": "Russian oil",
+ "category": "Trade",
+ "regions": [
+  "India",
+  "World"
+ ],
+ "title": "India’s Russian oil dilemma",
+ "dek": "India promised Washington it would stop buying Russian oil. Then war closed the Gulf. Now the Gulf is back on top and the US tariff threat is on hold.",
+ "seoTitle": "India's Russian oil imports 2026: timeline",
+ "importance": 3,
+ "status": "Tariff threat waived",
+ "tone": "live",
+ "big": "2.1 vs 1.8",
+ "delta": "mbpd, Gulf vs Russia",
+ "bigLabel": "India's crude imports so far in November: Persian Gulf vs Russia, per Kpler",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "Russian crude filled the gap when Hormuz was disrupted. In October the US waived its threatened tariffs on big buyers of Russian oil, and in November India's imports from the Gulf overtook Russia's for the first time since the Iran war began.",
+  "why": "Cheap Russian oil cushions India's import bill; being punished for it would raise costs and strain relations with the US.",
+  "next": "The waiver is temporary. Whether Russian crude stays competitive as Gulf supplies recover."
+ },
+ "keyNumbers": [
+  {
+   "label": "Gulf crude, Nov",
+   "value": "2.1 mbpd",
+   "note": "Kpler, so far",
+   "hot": true
   },
-  "keyNumbers": [
-    {"label": "Possible US tariff", "value": "up to 100%", "note": "Sep 2026 law", "hot": true},
-    {"label": "Russian crude, Q2", "value": "2.25 mbpd", "note": "reported record"},
-    {"label": "Crude outside Hormuz", "value": "≈ 70%", "note": "reported, Jun 2026"}
-  ],
-  "forYou": "This story decides how much India pays for oil and how exposed exporters are to US penalties.",
-  "upcoming": [],
-  "next": "Whether the US applies the new tariffs.",
-  "links": ["india-us-trade-deal", "west-asia-oil"],
-  "events": [
-    {"date": "2026-02-02", "dateLabel": "2 Feb 2026", "phase": "trade", "title": "India agrees to halt Russian oil under the US deal",
-     "summary": "The commitment is part of the package that was meant to cut US tariffs to 18%.",
-     "status": "Announced", "numbers": [],
-     "link": "india-us-trade-deal",
-     "sources": [{"name": "investingLive", "url": "https://investinglive.com/news/us-cuts-tariffs-on-india-to-18-as-new-delhi-agrees-to-end-russian-oil-purchases-20260202"}, {"name": "India Briefing", "url": "https://www.india-briefing.com/news/india-us-trade-deal-tariff-cut-export-investment-outlook-2026-2-42367.html/"}]},
-    {"date": "2026-03-04", "dateLabel": "4 Mar 2026", "phase": "world", "title": "Hormuz shuts; analysts expect a return to Russian oil",
-     "summary": "Nomura says India may secure Russian oil via eastern routes and buy more from the US, West Africa and Latin America.",
-     "status": "Analysis", "numbers": [],
-     "link": "west-asia-oil",
-     "sources": [{"name": "Business Today", "url": "https://businesstoday.in/markets/stocks/story/oil-up-37-in-2026-will-india-return-to-russian-oil-amid-strait-of-hormuz-disruptions-519084-2026-03-04"}]},
-    {"date": "2026-06-30", "dateLabel": "Apr–Jun 2026", "phase": "trade", "title": "Russian crude imports reach a reported record",
-     "summary": "India’s Russian crude intake is reported at a record 2.25 million barrels a day, and about 70% of its crude now avoids Hormuz.",
-     "status": "Reported (single source)", "numbers": [{"k": "Russian crude", "v": "2.25 mbpd"}, {"k": "Outside Hormuz", "v": "≈ 70%"}],
-     "sources": [{"name": "Sahi", "url": "https://www.sahi.com/news/india-secures-70-crude-outside-hormuz-amid-trump-s-drone-attack-warning-attack-PE3_M"}]},
-    {"date": "2026-09-18", "dateLabel": "18 Sep 2026", "phase": "trade", "key": true, "title": "US law names India at risk of tariffs up to 100%",
-     "summary": "The new sanctions law targets the five largest buyers of Russian oil and gas.",
-     "status": "Confirmed", "numbers": [{"k": "Maximum tariff", "v": "100%"}],
-     "sources": [{"name": "Peacock Tariff Consulting", "url": "https://www.peacocktariffconsulting.com/india-deal-push/"}]}
-  ]
+  {
+   "label": "Russian crude, Nov",
+   "value": "1.8 mbpd",
+   "note": "Kpler, so far"
+  },
+  {
+   "label": "US tariff threat",
+   "value": "Waived",
+   "note": "16 Oct order"
+  },
+  {
+   "label": "Russian crude, Sep",
+   "value": "1.9 mbpd",
+   "note": "over 35% of imports"
+  }
+ ],
+ "forYou": "This story decides how much India pays for oil and how exposed exporters are to US penalties.",
+ "upcoming": [],
+ "next": "Whether the US restores the tariff threat, and how much Russian crude India keeps buying.",
+ "links": [
+  "india-us-trade-deal",
+  "west-asia-oil"
+ ],
+ "events": [
+  {
+   "date": "2026-02-02",
+   "dateLabel": "2 Feb 2026",
+   "phase": "trade",
+   "title": "India agrees to halt Russian oil under the US deal",
+   "summary": "The commitment is part of the package that was meant to cut US tariffs to 18%.",
+   "status": "Announced",
+   "numbers": [],
+   "link": "india-us-trade-deal",
+   "sources": [
+    {
+     "name": "investingLive",
+     "url": "https://investinglive.com/news/us-cuts-tariffs-on-india-to-18-as-new-delhi-agrees-to-end-russian-oil-purchases-20260202"
+    },
+    {
+     "name": "India Briefing",
+     "url": "https://www.india-briefing.com/news/india-us-trade-deal-tariff-cut-export-investment-outlook-2026-2-42367.html/"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-04",
+   "dateLabel": "4 Mar 2026",
+   "phase": "world",
+   "title": "Hormuz shuts; analysts expect a return to Russian oil",
+   "summary": "Nomura says India may secure Russian oil via eastern routes and buy more from the US, West Africa and Latin America.",
+   "status": "Analysis",
+   "numbers": [],
+   "link": "west-asia-oil",
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://businesstoday.in/markets/stocks/story/oil-up-37-in-2026-will-india-return-to-russian-oil-amid-strait-of-hormuz-disruptions-519084-2026-03-04"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "dateLabel": "Apr–Jun 2026",
+   "phase": "trade",
+   "title": "Russian crude imports reach a reported record",
+   "summary": "India’s Russian crude intake is reported at a record 2.25 million barrels a day, and about 70% of its crude now avoids Hormuz.",
+   "status": "Reported (single source)",
+   "numbers": [
+    {
+     "k": "Russian crude",
+     "v": "2.25 mbpd"
+    },
+    {
+     "k": "Outside Hormuz",
+     "v": "≈ 70%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Sahi",
+     "url": "https://www.sahi.com/news/india-secures-70-crude-outside-hormuz-amid-trump-s-drone-attack-warning-attack-PE3_M"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "dateLabel": "18 Sep 2026",
+   "phase": "trade",
+   "key": true,
+   "title": "US law names India at risk of tariffs up to 100%",
+   "summary": "The new sanctions law targets the five largest buyers of Russian oil and gas.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Maximum tariff",
+     "v": "100%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Peacock Tariff Consulting",
+     "url": "https://www.peacocktariffconsulting.com/india-deal-push/"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "dateLabel": "16 Oct 2026",
+   "phase": "trade",
+   "key": true,
+   "title": "Trump waives the Russian-oil tariffs",
+   "summary": "An executive order waives the sanctions and duties of up to 100% that the new US law allowed on the biggest buyers of Russian oil. The waiver is not specific to India and could be reversed.",
+   "status": "Confirmed · US executive order",
+   "numbers": [
+    {
+     "k": "Tariff threat",
+     "v": "up to 100%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "BW Businessworld",
+     "url": "https://www.businessworld.in/article/trump-s-russian-oil-sanctions-waiver-gives-india-temporary-relief-from-tariff-threat-629194",
+     "primary": true
+    },
+    {
+     "name": "EcoNiti",
+     "url": "https://www.econiti.org/daily-news/2026-10-18/2026-10-18-us-waives-russia-oil-sanctions-law-india/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "trade",
+   "title": "Gulf overtakes Russia for the first time since the war",
+   "summary": "India's crude imports from the Persian Gulf reach about 2.1 million barrels a day so far in November, above Russia's 1.8 million, as Hormuz flows recover and Russian oil loses its price edge on higher freight costs.",
+   "status": "Market data · Kpler",
+   "numbers": [
+    {
+     "k": "Gulf",
+     "v": "2.1 mbpd"
+    },
+    {
+     "k": "Russia",
+     "v": "1.8 mbpd"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (Bloomberg)",
+     "url": "https://www.business-standard.com/amp/economy/news/india-s-gulf-oil-imports-surpass-russia-for-first-time-since-iran-war-126111200597_1.html",
+     "primary": true
+    },
+    {
+     "name": "OilPrice",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Boosts-Gulf-Oil-Imports-as-Russian-Crude-Loses-Its-Price-Advantage.html"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
 }

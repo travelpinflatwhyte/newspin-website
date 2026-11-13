@@ -1,0 +1,157 @@
+{
+ "slug": "us-midterms-2026",
+ "short": "US midterms",
+ "category": "World",
+ "regions": [
+  "US"
+ ],
+ "title": "US midterms 2026: from election night to a new Congress",
+ "dek": "The results so far, the races still being counted, and what changes when the new Congress meets in January.",
+ "seoTitle": "US midterm elections 2026: results timeline",
+ "importance": 4,
+ "status": "Counting continues",
+ "tone": "live",
+ "big": "255",
+ "delta": "House seats, Democrats",
+ "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 11:04 am IST, against 169 for Republicans. Counts may change.",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "Americans voted on 3 November for all 435 House seats and 35 Senate seats. As of 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169, and 55 Senate seats for Democrats (including 2 who caucus with them) against 44 for Republicans.",
+  "why": "Congress writes US spending and trade laws and confirms judges and officials, so the result shapes the last two years of President Trump's term, including tariff fights that matter to Indian exporters.",
+  "next": "Remaining races are still being counted. The new Congress is due to meet in early January 2027."
+ },
+ "keyNumbers": [
+  {
+   "label": "House, Democrats",
+   "value": "255",
+   "note": "won, AP, 13 Nov",
+   "hot": true
+  },
+  {
+   "label": "House, Republicans",
+   "value": "169",
+   "note": "won, AP, 13 Nov"
+  },
+  {
+   "label": "Senate, Democrats",
+   "value": "55",
+   "note": "incl. 2 independents"
+  },
+  {
+   "label": "Senate, Republicans",
+   "value": "44",
+   "note": "AP, 13 Nov"
+  }
+ ],
+ "forYou": "For India, the result matters most through trade: tariffs, the unsigned India–US deal and sanctions on Russian oil all pass through Washington. Commerce ministry sources say the result will not affect the interim trade deal.",
+ "upcoming": [
+  {
+   "date": "2027-01-03",
+   "label": "Early Jan 2027",
+   "text": "New Congress meets"
+  }
+ ],
+ "next": "Final counts in the remaining races; the new Congress meets in January.",
+ "links": [
+  "india-us-trade-deal",
+  "russian-oil"
+ ],
+ "events": [
+  {
+   "date": "2026-11-03",
+   "dateLabel": "3 Nov 2026",
+   "phase": "world",
+   "key": true,
+   "title": "Election day, record midterm turnout",
+   "summary": "Voters choose all 435 House seats and 35 Senate seats, plus governors. More than 124 million ballots are cast, above the previous midterm record of nearly 119 million in 2018, according to the University of Florida Election Lab.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Ballots cast",
+     "v": "124 M+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Gray DC via WBTV",
+     "url": "https://www.wbtv.com/2026/11/04/midterm-election-results-three-things-know/?outputType=amp",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-04",
+   "dateLabel": "4 Nov 2026",
+   "phase": "world",
+   "title": "Seven Senate seats flip, including Texas",
+   "summary": "Senate seats in North Carolina, South Carolina, Ohio, Texas, Kansas, Iowa and Maine flip from Republican to Democratic, NPR reports. Races in Mississippi and Alaska are too close to call on 4 November. The campaign was dominated by the cost of living.",
+   "status": "Reported · NPR, based on AP race calls",
+   "numbers": [
+    {
+     "k": "Senate flips",
+     "v": "7"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NPR via KUT",
+     "url": "https://www.kut.org/politics/2026-11-03/democrats-win-full-control-of-congress-ushering-in-a-new-era-of-divided-government",
+     "primary": true
+    },
+    {
+     "name": "Gray DC via WBTV",
+     "url": "https://www.wbtv.com/2026/11/04/midterm-election-results-three-things-know/?outputType=amp"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-05",
+   "dateLabel": "Early Nov 2026",
+   "phase": "policy",
+   "title": "Trump: 'I have total veto power'",
+   "summary": "President Trump tells The New York Times that he has veto power over legislation and is open to good ideas. Senate Democratic leader Chuck Schumer calls the results a 'generational remake' of the Senate map.",
+   "status": "Stated",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "WSOC (Cox Media)",
+     "url": "https://www.wsoctv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/?outputType=amp",
+     "primary": true
+    },
+    {
+     "name": "WFTV (Cox Media)",
+     "url": "https://www.wftv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/?outputType=amp"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "data",
+   "title": "Where the count stands",
+   "summary": "As of 11:04 am IST on 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169; 11 House seats are not yet counted as won for either party. In the Senate, Democrats have 55 seats including 2 who caucus with them, and Republicans 44; 1 seat is not yet counted for either. These numbers may change.",
+   "status": "AP count · may change",
+   "numbers": [
+    {
+     "k": "House D / R",
+     "v": "255 / 169"
+    },
+    {
+     "k": "Senate D / R",
+     "v": "55 / 44"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Associated Press",
+     "url": "https://apnews.com/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
+}

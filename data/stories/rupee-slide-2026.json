@@ -1,54 +1,230 @@
 {
-  "slug": "rupee-slide-2026",
-  "short": "Rupee",
-  "category": "Markets",
-  "regions": ["India"],
-  "title": "The rupee’s record slide in 2026",
-  "dek": "From near 89 to the dollar in January to above 96 by May. Why the rupee became Asia’s worst-performing currency this year.",
-  "seoTitle": "Rupee vs dollar 2026 timeline: every record low and why",
-  "importance": 4,
-  "status": "Developing",
-  "tone": "live",
-  "big": "96.4",
-  "delta": "nearly −8% in 2026",
-  "bigLabel": "Rupees per US dollar, 6 Oct",
-  "updated": "2026-11-12",
-  "glance": {
-    "what": "The rupee has lost close to 8% against the dollar in 2026, setting record lows again and again.",
-    "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
-    "next": "Watch oil prices and foreign investor flows. The RBI has been selling dollars to slow the fall rather than defend a level."
+ "slug": "rupee-slide-2026",
+ "short": "Rupee",
+ "category": "Markets",
+ "regions": [
+  "India"
+ ],
+ "title": "The rupee in 2026: a record slide, then a rebound",
+ "dek": "From near 89 to the dollar in January to a record low near 96.90, then a rebound in November. What moved the rupee this year.",
+ "seoTitle": "Rupee vs dollar 2026: record lows and the rebound",
+ "importance": 4,
+ "status": "Recovering",
+ "tone": "live",
+ "big": "93.93",
+ "delta": "▲ 3% off the low",
+ "bigLabel": "Rupees per US dollar at the 9 Nov close, from a record low near 96.90",
+ "updated": "2026-11-13",
+ "glance": {
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. Since October it has recovered more than 3%, reaching a six-month high of 93.70 on 9 November.",
+  "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
+  "next": "Falling oil prices, foreign inflows and RBI dollar sales are helping. A renewed oil spike would reverse that."
+ },
+ "keyNumbers": [
+  {
+   "label": "Rupee per $, 9 Nov",
+   "value": "93.93",
+   "note": "close",
+   "hot": true
   },
-  "keyNumbers": [
-    {"label": "Rupee per $, 6 Oct", "value": "≈ 96.4", "note": "near record lows", "hot": true},
-    {"label": "Start of 2026", "value": "≈ 89", "note": "per dollar"},
-    {"label": "Change in 2026", "value": "≈ −8%", "note": "Asia’s worst"},
-    {"label": "FPI outflows", "value": "≈ $20 bn", "note": "Jan–Apr 2026"}
-  ],
-  "forYou": "Anything priced in dollars costs more: foreign trips, overseas tuition, imported gadgets. Families receiving money from abroad get more rupees per dollar or dirham.",
-  "upcoming": [],
-  "next": "Watch oil prices and foreign investor flows.",
-  "links": ["west-asia-oil", "rbi-rate-cycle"],
-  "events": [
-    {"date": "2026-01-21", "dateLabel": "21 Jan 2026", "phase": "market", "title": "First record low of the year",
-     "summary": "The rupee weakens toward 91.7 per dollar as foreign investors sell Indian stocks.",
-     "status": "Market data", "numbers": [{"k": "Rupee per $", "v": "≈ 91.7"}],
-     "sources": [{"name": "Trading Economics", "url": "https://tradingeconomics.com/india/currency/news/518615"}]},
-    {"date": "2026-03-10", "dateLabel": "10 Mar 2026", "phase": "market", "title": "Past 92 as war in West Asia lifts oil",
-     "summary": "Soaring oil prices and fighting in the Gulf push the rupee past 92 for the first time.",
-     "status": "Market data", "numbers": [{"k": "Rupee per $", "v": "> 92"}],
-     "link": "west-asia-oil",
-     "sources": [{"name": "Trading Economics", "url": "https://tradingeconomics.com/india/currency/news/518615"}]},
-    {"date": "2026-03-23", "dateLabel": "23 Mar 2026", "phase": "market", "title": "A lifetime low of 93.96",
-     "summary": "Global uncertainty drives the rupee to a new record.",
-     "status": "Market data", "numbers": [{"k": "Rupee per $", "v": "93.96"}],
-     "sources": [{"name": "Bernama / Xinhua", "url": "https://bernama.com/tv/news.php?id=2536891"}]},
-    {"date": "2026-05-18", "dateLabel": "18 May 2026", "phase": "market", "title": "Through 96 as oil surges",
-     "summary": "The rupee hits 96.25 in early trade after closing below 96 for the first time the previous Friday. Foreign investors pulled nearly $20 billion from Indian equities in the first four months of 2026.",
-     "status": "Market data", "numbers": [{"k": "Rupee per $", "v": "96.25"}, {"k": "FPI outflows, Jan–Apr", "v": "≈ $20 bn"}],
-     "sources": [{"name": "Deccan Herald / PTI", "url": "https://www.deccanherald.com/business/markets/rupee-falls-to-record-low-of-9625-against-us-dollar-in-early-trade-4006721"}, {"name": "Free Press Journal", "url": "https://www.freepressjournal.in/business/rupee-slumps-to-all-time-low-of-9625-as-oil-surges-dollar-strengthens"}, {"name": "Gulf News", "url": "https://gulfnews.com/amp/story/business%2Fmarkets%2Findian-rupee-hits-new-record-below-26-as-oil-surge-boosts-uae-remittance-value-1.500538193"}]},
-    {"date": "2026-10-06", "dateLabel": "6 Oct 2026", "phase": "market", "key": true, "title": "Hovering near record lows ahead of the RBI decision",
-     "summary": "The rupee trades around 96.4 per dollar. The RBI keeps selling dollars to slow the fall, and markets price in a rate hike.",
-     "status": "Market data", "numbers": [{"k": "Rupee per $", "v": "≈ 96.4"}],
-     "sources": [{"name": "Trading Economics", "url": "https://tradingeconomics.com/india/currency/news/589727"}, {"name": "Outlook Business", "url": "https://www.outlookbusiness.com/economy-and-policy/rupee-nears-97-against-dollar-whats-driving-the-fall-and-how-india-is-fighting-back"}]}
-  ]
+  {
+   "label": "Record low",
+   "value": "≈ 96.90",
+   "note": "per dollar"
+  },
+  {
+   "label": "Start of 2026",
+   "value": "≈ 89",
+   "note": "per dollar"
+  },
+  {
+   "label": "RBI dollar sales",
+   "value": "$18.2 bn",
+   "note": "reported, Oct"
+  }
+ ],
+ "forYou": "Anything priced in dollars costs more: foreign trips, overseas tuition, imported gadgets. Families receiving money from abroad get more rupees per dollar or dirham.",
+ "upcoming": [],
+ "next": "Watch oil prices and foreign investor flows.",
+ "links": [
+  "west-asia-oil",
+  "rbi-rate-cycle"
+ ],
+ "events": [
+  {
+   "date": "2026-01-21",
+   "dateLabel": "21 Jan 2026",
+   "phase": "market",
+   "title": "First record low of the year",
+   "summary": "The rupee weakens toward 91.7 per dollar as foreign investors sell Indian stocks.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Rupee per $",
+     "v": "≈ 91.7"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/currency/news/518615"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-10",
+   "dateLabel": "10 Mar 2026",
+   "phase": "market",
+   "title": "Past 92 as war in West Asia lifts oil",
+   "summary": "Soaring oil prices and fighting in the Gulf push the rupee past 92 for the first time.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Rupee per $",
+     "v": "> 92"
+    }
+   ],
+   "link": "west-asia-oil",
+   "sources": [
+    {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/currency/news/518615"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-23",
+   "dateLabel": "23 Mar 2026",
+   "phase": "market",
+   "title": "A lifetime low of 93.96",
+   "summary": "Global uncertainty drives the rupee to a new record.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Rupee per $",
+     "v": "93.96"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama / Xinhua",
+     "url": "https://bernama.com/tv/news.php?id=2536891"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-18",
+   "dateLabel": "18 May 2026",
+   "phase": "market",
+   "title": "Through 96 as oil surges",
+   "summary": "The rupee hits 96.25 in early trade after closing below 96 for the first time the previous Friday. Foreign investors pulled nearly $20 billion from Indian equities in the first four months of 2026.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Rupee per $",
+     "v": "96.25"
+    },
+    {
+     "k": "FPI outflows, Jan–Apr",
+     "v": "≈ $20 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Deccan Herald / PTI",
+     "url": "https://www.deccanherald.com/business/markets/rupee-falls-to-record-low-of-9625-against-us-dollar-in-early-trade-4006721"
+    },
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/business/rupee-slumps-to-all-time-low-of-9625-as-oil-surges-dollar-strengthens"
+    },
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/amp/story/business%2Fmarkets%2Findian-rupee-hits-new-record-below-26-as-oil-surge-boosts-uae-remittance-value-1.500538193"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "dateLabel": "6 Oct 2026",
+   "phase": "market",
+   "key": true,
+   "title": "Hovering near record lows ahead of the RBI decision",
+   "summary": "The rupee trades around 96.4 per dollar. The RBI keeps selling dollars to slow the fall, and markets price in a rate hike.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Rupee per $",
+     "v": "≈ 96.4"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/currency/news/589727"
+    },
+    {
+     "name": "Outlook Business",
+     "url": "https://www.outlookbusiness.com/economy-and-policy/rupee-nears-97-against-dollar-whats-driving-the-fall-and-how-india-is-fighting-back"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "dateLabel": "Late Oct–5 Nov",
+   "phase": "market",
+   "title": "RBI steps in; the rupee turns",
+   "summary": "After the RBI sells dollars and tightens currency rules, the rupee rises nearly 1% in October, one of Asia's best performers that month, and settles around 94.46 on 5 November.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Close, 5 Nov",
+     "v": "94.46"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NewsBytes",
+     "url": "https://www.newsbytesapp.com/news/business/indian-rupee-rises-nearly-1-to-9447-after-rbi-actions/tldr"
+    },
+    {
+     "name": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/rupee-ends-unchanged-at-94-46-against-us-dollar-after-intraday-losses",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "market",
+   "key": true,
+   "title": "A six-month high of 93.70",
+   "summary": "The rupee touches 93.70 per dollar in early trade, its strongest in about six months, as crude falls and foreign money flows back in. It has recovered more than 3% from its record low near 96.90, and closes the day at 93.93.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Intraday high",
+     "v": "93.70"
+    },
+    {
+     "k": "Close",
+     "v": "93.93"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/global-markets/rupee-vs-dollar-today-november-9-2026-six-month-high/",
+     "primary": true
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-rises-5-paise-to-close-at-93-93-against-us-dollar"
+    }
+   ],
+   "added": "2026-11-13"
+  }
+ ]
 }

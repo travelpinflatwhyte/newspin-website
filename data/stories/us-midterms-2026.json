@@ -13,7 +13,7 @@
  "tone": "live",
  "big": "255",
  "delta": "House seats, Democrats",
- "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 11:04 am IST, against 169 for Republicans. Counts may change.",
+ "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 1:16 pm IST, against 169 for Republicans. Counts may change.",
  "updated": "2026-11-13",
  "glance": {
   "what": "Americans voted on 3 November for all 435 House seats and 35 Senate seats. As of 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169, and 55 Senate seats for Democrats (including 2 who caucus with them) against 44 for Republicans.",
@@ -132,7 +132,7 @@
    "dateLabel": "13 Nov 2026",
    "phase": "data",
    "title": "Where the count stands",
-   "summary": "As of 11:04 am IST on 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169; 11 House seats are not yet counted as won for either party. In the Senate, Democrats have 55 seats including 2 who caucus with them, and Republicans 44; 1 seat is not yet counted for either. These numbers may change.",
+   "summary": "As of 1:16 pm IST on 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169; 11 House seats are not yet counted as won for either party. In the Senate, Democrats have 55 seats including 2 who caucus with them, and Republicans 44; 1 seat is not yet counted for either. These numbers may change.",
    "status": "AP count · may change",
    "numbers": [
     {

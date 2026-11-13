@@ -373,6 +373,33 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "policy",
+   "title": "Reports: the board pushed him out",
+   "summary": "A person familiar with the matter tells CNBC the board decided to oust Huang after the report of a second alleged affair. Bloomberg, via The Japan Times, reports he will no longer have ties to Nvidia, and that an outside firm is helping find CEO candidates. Rival AMD's shares are up nearly 17% this week.",
+   "status": "Reported · anonymous source",
+   "numbers": [
+    {
+     "k": "AMD this week",
+     "v": "+17%"
+    }
+   ],
+   "differs": "Nvidia's statement calls it a resignation; CNBC's source says the board decided to remove him.",
+   "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+     "primary": true
+    },
+    {
+     "name": "The Japan Times (Bloomberg)",
+     "url": "https://www.japantimes.co.jp/business/2026/11/13/companies/nvidia-huang-ousted/"
+    }
+   ],
+   "added": "2026-11-13"
   }
  ],
  "heroTitle": "Jensen Huang resigns as Nvidia CEO",

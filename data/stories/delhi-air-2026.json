@@ -9,22 +9,22 @@
  "dek": "From a clean October day to Diwali smog and Stage III curbs. How Delhi's air turned this season, and what the rules mean for you.",
  "seoTitle": "Delhi AQI and GRAP 2026: winter pollution timeline",
  "importance": 4,
- "status": "GRAP Stage III",
+ "status": "Severe · Stage III",
  "tone": "hot",
- "big": "391",
- "delta": "very poor",
- "bigLabel": "Delhi's AQI at 7 am on 9 Nov, the season's highest so far, with several stations above 400",
+ "big": "403",
+ "delta": "severe",
+ "bigLabel": "Delhi's AQI at 6 am on 13 Nov, the first 'severe' reading of the season, with 33 of 58 stations severe",
  "updated": "2026-11-13",
  "glance": {
-  "what": "Delhi's air went from an AQI of 60 in late October to 'very poor' in November. Pollution curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403 and 33 of 58 stations in the severe band. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
   "next": "Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "Season high so far",
-   "value": "391",
-   "note": "9 Nov, 7 am",
+   "label": "AQI, 13 Nov 6 am",
+   "value": "403",
+   "note": "severe",
    "hot": true
   },
   {
@@ -56,7 +56,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "Whether curbs move up to Stage IV or ease back.",
+ "next": "Whether the air commission moves to Stage IV, the strictest level, if AQI keeps rising.",
  "links": [
   "west-asia-oil"
  ],
@@ -279,6 +279,41 @@
      "name": "Outlook Business",
      "url": "https://www.outlookbusiness.com/planet/climate/delhi-air-quality-improves-still-very-poor-grap3-on-hold",
      "primary": true
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "data",
+   "key": true,
+   "title": "Air turns 'severe' for the first time this season",
+   "summary": "After 350 on 12 November, Delhi's AQI crosses 400 to reach 403 at 6 am. CPCB data shows 33 of 58 stations in the 'severe' band, with IIT Delhi at 487 and Chandni Chowk and North Campus at 476. Weak winds and smoke from crop fires are blamed. Stage III stays in force.",
+   "status": "Official data · CPCB",
+   "numbers": [
+    {
+     "k": "AQI, 6 am",
+     "v": "403"
+    },
+    {
+     "k": "Severe stations",
+     "v": "33 of 58"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Federal",
+     "url": "https://thefederal.com/category/states/north/delhi/delhi-aqi-turns-severe-at-403-as-thick-smog-blankets-city-262746",
+     "primary": true
+    },
+    {
+     "name": "Down To Earth",
+     "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-snowfall-forecast-in-himalayas-delhis-air-quality-turns-severe"
+    },
+    {
+     "name": "Outlook India",
+     "url": "https://www.outlookindia.com/national/delhi-aqi-today-severe-402-toxic-haze-iit-delhi-488-farm-fire-smoke"
     }
    ],
    "added": "2026-11-13"

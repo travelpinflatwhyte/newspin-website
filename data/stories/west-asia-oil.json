@@ -19,7 +19,7 @@
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Whether the Qatar-brokered proposal to reopen Hormuz goes anywhere. On 12 November President Trump said the US did not need a deal with Iran."
+  "next": "Oil is on track for a second weekly fall, but tanker and Houthi attacks keep prices jumpy. On 12 November President Trump said the US did not need a deal with Iran."
  },
  "keyNumbers": [
   {
@@ -307,6 +307,32 @@
     {
      "name": "Capital Brief",
      "url": "https://www.capitalbrief.com/briefing/oil-prices-fall-on-disputed-report-iran-eased-hormuz-demands-1e1fa85e-20d0-4fc7-a395-b1101609b5d4/"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-11",
+   "dateLabel": "11 Nov 2026",
+   "phase": "market",
+   "title": "Brent briefly drops below $90",
+   "summary": "Brent dips under $90 for the first time since August as Hormuz flows recover to near pre-war levels, then rebounds after Iran denies it is negotiating with Washington and more ships are attacked.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Brent low",
+     "v": "< $90"
+    }
+   ],
+   "sources": [
+    {
+     "name": "OilPrice via Yahoo Finance",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-squeezed-between-peace-000000715.html",
+     "primary": true
+    },
+    {
+     "name": "OilPrice",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html"
     }
    ],
    "added": "2026-11-13"

@@ -11,9 +11,9 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "93.93",
+ "big": "94.05",
  "delta": "▲ 3% off the low",
- "bigLabel": "Rupees per US dollar at the 9 Nov close, from a record low near 96.90",
+ "bigLabel": "Rupees per US dollar in early trade on 13 Nov, from a record low near 96.90",
  "updated": "2026-11-13",
  "glance": {
   "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. Since October it has recovered more than 3%, reaching a six-month high of 93.70 on 9 November.",
@@ -22,9 +22,9 @@
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 9 Nov",
-   "value": "93.93",
-   "note": "close",
+   "label": "Rupee per $, 13 Nov",
+   "value": "94.05",
+   "note": "early trade",
    "hot": true
   },
   {
@@ -222,6 +222,36 @@
     {
      "name": "HDFC Sky (PTI)",
      "url": "https://hdfcsky.com/news/rupee-rises-5-paise-to-close-at-93-93-against-us-dollar"
+    }
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12–13 Nov",
+   "phase": "market",
+   "title": "A small pullback from the high",
+   "summary": "The rupee slips 41 paise to close at 94.12 on 12 November as the dollar strengthens, then edges up to 94.05 in early trade on 13 November on foreign inflows and softer oil. One forex adviser still sees the broader trend favouring the rupee.",
+   "status": "Market data · PTI",
+   "numbers": [
+    {
+     "k": "Close, 12 Nov",
+     "v": "94.12"
+    },
+    {
+     "k": "Early, 13 Nov",
+     "v": "94.05"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Deccan Herald (PTI)",
+     "url": "https://www.deccanherald.com/business/markets/rupee-rises-7-paise-to-9405-against-us-dollar-in-early-trade-4216856",
+     "primary": true
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-rises-7-paise-to-94-05-against-us-dollar-in-early-trade"
     }
    ],
    "added": "2026-11-13"

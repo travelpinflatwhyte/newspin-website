@@ -20,7 +20,7 @@
  "glance": {
   "what": "From late on 12 November (India time), Microsoft's Exchange Online servers began failing, taking down Outlook email and parts of Teams, SharePoint and Copilot worldwide. Servers that came back kept failing again under traffic.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "As of 10 am IST on 13 November, Microsoft said it had not seen a sustained recovery. It has not given a time for a full fix or a final cause."
+  "next": "As of Microsoft's latest updates on the morning of 13 November (India time), recovery was partial and not sustained. It has not given a time for a full fix or a final cause."
  },
  "keyNumbers": [
   {
@@ -119,7 +119,7 @@
    "dateLabel": "≈ 2:30 am IST, 13 Nov",
    "phase": "tech",
    "title": "A first fix brings some servers back",
-   "summary": "Microsoft says it has validated a different way of running server health checks, bringing some affected servers back online, and starts applying it more widely. It says the cause was servers unexpectedly going offline, not extra traffic.",
+   "summary": "Microsoft says it has validated a different way of running server health checks, bringing some servers back online. It says it has found no recent change linked to the start of the problem; its investigation points to a component that processes server health checks.",
    "status": "Confirmed · Microsoft",
    "numbers": [],
    "sources": [
@@ -131,6 +131,10 @@
     {
      "name": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+    },
+    {
+     "name": "Tom's Guide",
+     "url": "https://www.tomsguide.com/news/live/microsoft-outlook-down-live-updates-outage-11-12-26"
     }
    ],
    "added": "2026-11-13"

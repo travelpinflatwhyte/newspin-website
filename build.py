@@ -242,15 +242,14 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<meta name="theme-color" content="#F7F7F4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0B0D12" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F7F7F4">
 <link rel="alternate" type="application/rss+xml" title="Newspin: latest updates" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
-<meta name="color-scheme" content="light dark">
-<script>(function(){{try{{var t=localStorage.getItem('np_theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();</script>
+<meta name="color-scheme" content="light">
+<script>(function(){{try{{var t=localStorage.getItem('np_theme')||'light';document.documentElement.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='dark'?'#0B0D12':'#F7F7F4');}}catch(e){{}}}})();</script>
 {ld}
 </head>
 <body class="tl-b"{f' data-story="{e(story_slug)}"' if story_slug else ''}>

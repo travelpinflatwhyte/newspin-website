@@ -1,0 +1,289 @@
+{
+ "slug": "airfares-jet-fuel-2026",
+ "short": "Airfares & fuel",
+ "category": "Travel",
+ "regions": [
+  "India"
+ ],
+ "title": "Why flying costs more: jet fuel, surcharges and new fare rules",
+ "dek": "Jet fuel has risen four months in a row, airlines have added fuel surcharges, and the government has given itself new powers over ticket prices from January.",
+ "seoTitle": "Airfares and jet fuel prices India 2026: timeline",
+ "importance": 3,
+ "status": "New fare rules from 1 Jan 2027",
+ "tone": "live",
+ "big": "₹138.50",
+ "delta": "per litre",
+ "bigLabel": "Price of jet fuel (ATF) for domestic airlines in Delhi from 1 November 2026, after a fourth monthly rise in a row",
+ "updated": "2026-11-14",
+ "glance": {
+  "what": "Jet fuel, also called aviation turbine fuel or ATF, makes up roughly 35–40% of an airline's costs. Since the Strait of Hormuz closed, its price in India has kept climbing, and airlines have added fuel surcharges to tickets. On 2 November the government notified rules that let it cap fares in an \"extraordinary situation\".",
+  "why": "Higher fuel costs mean higher fares and fewer flights. Airlines scheduled 2.6% fewer weekly flights in November than in October 2025, and domestic passenger numbers fell 6.5% year on year in September.",
+  "next": "The Supreme Court hears a petition on high fares on 16 November. Jet fuel prices are revised on the 1st of each month, and the new fare rules take effect on 1 January 2027."
+ },
+ "keyNumbers": [
+  {
+   "label": "Jet fuel, Delhi",
+   "value": "₹138.50/litre",
+   "note": "domestic airlines, from 1 Nov"
+  },
+  {
+   "label": "Since April",
+   "value": "≈ +32%",
+   "note": "from ₹104.93/litre on 1 Apr (our calculation)"
+  },
+  {
+   "label": "Weekly flights, Nov",
+   "value": "22,306",
+   "note": "2.6% fewer than Oct 2025 (Cirium)"
+  },
+  {
+   "label": "Domestic flyers, Sept",
+   "value": "−6.5%",
+   "note": "year on year"
+  }
+ ],
+ "forYou": "Fuel surcharges are part of the ticket price, so compare the total fare, not the base fare. From 1 January 2027, airlines must show a full breakup: base fare, taxes, fees, cancellation charges and refund conditions. Booking early and avoiding festival dates is still the main way to pay less.",
+ "upcoming": [
+  {
+   "date": "2026-11-16",
+   "label": "16 Nov",
+   "text": "Supreme Court hears petition against high airfares"
+  },
+  {
+   "date": "2026-12-01",
+   "label": "1 Dec",
+   "text": "Monthly revision of jet fuel prices"
+  },
+  {
+   "date": "2027-01-01",
+   "label": "1 Jan 2027",
+   "text": "New airfare rules take effect"
+  }
+ ],
+ "next": "Supreme Court hearing on airfares, 16 November.",
+ "links": [
+  "west-asia-oil",
+  "rupee-slide-2026",
+  "spicejet-crisis-2026",
+  "india-flying-winter-2026"
+ ],
+ "events": [
+  {
+   "date": "1994-01-01",
+   "dateLabel": "1994",
+   "phase": "travel",
+   "title": "Airlines get to set their own fares",
+   "summary": "Background: India stops fixing airfares and lets airlines price tickets according to the market. Until now, the regulator could step in only over excessive or predatory pricing.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ANI",
+     "url": "https://aninews.in/news/business/government-notifies-new-airfare-rules-allows-intervention-in-extraordinary-situations20261102100420/",
+     "primary": true
+    },
+    {
+     "name": "Zee Business",
+     "url": "https://www.zeebiz.com/economy-infra/aviation/news-government-strengthens-airfare-rules-mandates-price-transparency-and-dgca-monitoring-404962"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-04-01",
+   "dateLabel": "1 Apr",
+   "phase": "travel",
+   "title": "Jet fuel doubles for foreign airlines; domestic rise capped",
+   "summary": "With the Strait of Hormuz closed, jet fuel for foreign airlines and charter operators in Delhi more than doubles to ₹2,07,341 per kilolitre. Domestic airlines get a smaller, staggered rise of 8.56% to ₹1,04,927 per kilolitre (about ₹104.93 a litre), which the oil ministry says is to protect domestic travel costs.",
+   "status": "Official data · Oil companies",
+   "numbers": [
+    {
+     "k": "Domestic",
+     "v": "₹1,04,927/kl"
+    },
+    {
+     "k": "Foreign airlines",
+     "v": "₹2,07,341/kl"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Outlook Business (PTI)",
+     "url": "https://www.outlookbusiness.com/industry/atf-prices-double-domestic-airlines-face-only-85-pc-increase",
+     "primary": true
+    },
+    {
+     "name": "Outlook Business",
+     "url": "https://www.outlookbusiness.com/industry/airfares-likely-to-rise-with-steep-jump-in-jet-fuel-price"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  },
+  {
+   "date": "2026-08-01",
+   "dateLabel": "1 Aug",
+   "phase": "travel",
+   "title": "Jet fuel up ₹5 a litre",
+   "summary": "Oil companies raise the price of jet fuel for domestic airlines by ₹5 a litre, the first of four monthly increases in a row.",
+   "status": "Official data · Oil companies",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "WION",
+     "url": "https://www.wionews.com/india-news/india-atf-commercial-lpg-price-hike-november-2026-1793543836063",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-09-01",
+   "dateLabel": "1 Sep",
+   "phase": "travel",
+   "title": "Up ₹6.28 a litre",
+   "summary": "Jet fuel in Delhi rises by ₹6.28 to ₹121.28 a litre.",
+   "status": "Official data · Oil companies",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Wire",
+     "url": "https://m.thewire.in/article/energy/sc-says-dont-travel-by-air-to-plea-on-high-airfares",
+     "primary": true
+    },
+    {
+     "name": "WION",
+     "url": "https://www.wionews.com/india-news/india-atf-commercial-lpg-price-hike-november-2026-1793543836063"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-10-01",
+   "dateLabel": "1 Oct",
+   "phase": "travel",
+   "title": "The biggest monthly jump: up about ₹16",
+   "summary": "Jet fuel rises 13.22%, or nearly ₹16 a litre, to ₹137.12 in Delhi.",
+   "status": "Official data · Oil companies",
+   "numbers": [
+    {
+     "k": "Delhi",
+     "v": "₹137.12/litre"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Office Newz",
+     "url": "https://officenewz.com/2026/11/01/atf-price-hike-aviation-fuel-rates-raised-for-fourth-straight-month-festive-season-airfares-set-to-rise/",
+     "primary": true
+    },
+    {
+     "name": "WION",
+     "url": "https://www.wionews.com/india-news/india-atf-commercial-lpg-price-hike-november-2026-1793543836063"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-10-09",
+   "dateLabel": "5–9 Oct",
+   "phase": "travel",
+   "title": "Airlines add fuel surcharges",
+   "summary": "IndiGo raises its fuel charges first. Akasa Air, Air India and Air India Express follow with surcharges on new bookings from 9 October: ₹375 to ₹1,150 on Akasa's domestic flights and ₹400 to ₹1,200 on Air India's, depending on distance, and up to $215 each way on Air India's North America flights. The airlines call the surcharges temporary.",
+   "status": "Confirmed · Airlines",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "InsideFlyer",
+     "url": "https://www.insideflyer.com/posts/indian-airlines-add-fuel-surcharges-amid-rising-atf-costs/",
+     "primary": true
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/pay-more-for-air-travel-indigo-increases-jet-fuel-charges-on-all-sectors-559533-2026-10-05"
+    }
+   ],
+   "added": "2026-11-14",
+   "differs": "Business Today dates IndiGo's increase to 5 October; InsideFlyer says 6 October."
+  },
+  {
+   "date": "2026-11-01",
+   "dateLabel": "1 Nov",
+   "phase": "travel",
+   "title": "Fourth monthly rise in a row",
+   "summary": "Jet fuel in Delhi rises to ₹138.50 a litre. According to IATA's fuel price monitor, India's domestic jet fuel costs roughly 28% more than the global average.",
+   "status": "Official data · Oil companies",
+   "numbers": [
+    {
+     "k": "Delhi",
+     "v": "₹138.50/litre"
+    }
+   ],
+   "sources": [
+    {
+     "name": "WION",
+     "url": "https://www.wionews.com/india-news/india-atf-commercial-lpg-price-hike-november-2026-1793543836063",
+     "primary": true
+    },
+    {
+     "name": "Odisha Connect",
+     "url": "https://odishaconnect.com/atf-price-hike-november-2026-flight-ticket-prices-may-rise/"
+    },
+    {
+     "name": "Office Newz",
+     "url": "https://officenewz.com/2026/11/01/atf-price-hike-aviation-fuel-rates-raised-for-fourth-straight-month-festive-season-airfares-set-to-rise/"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true,
+   "differs": "Reports give the increase as ₹1.30, ₹1.37 or ₹1.38 a litre."
+  },
+  {
+   "date": "2026-11-02",
+   "dateLabel": "2 Nov",
+   "phase": "travel",
+   "title": "Supreme Court: \"Don't travel by air\"",
+   "summary": "The Supreme Court refuses to urgently hear a request in a public-interest case against high fares. \"Don't travel by air. Next case,\" says Justice Vikram Nath. The main case, which asks for limits on surge pricing and festival-season fare caps, continues, with a hearing on 16 November.",
+   "status": "Confirmed · Supreme Court",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Wire",
+     "url": "https://m.thewire.in/article/energy/sc-says-dont-travel-by-air-to-plea-on-high-airfares",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-02",
+   "dateLabel": "2 Nov",
+   "phase": "travel",
+   "title": "New rules let the government cap fares",
+   "summary": "The civil aviation ministry notifies Rule 192 of the Bharatiya Vayuyan Niyam, 2026. The government can order limits on fares in an \"extraordinary situation\", for a set period. Airlines must publish fares and show a full breakup of base fare, taxes, fees and cancellation charges, and the DGCA will monitor fares. The rules apply from 1 January 2027. Some experts quoted by the Free Press Journal say the rules do not define an extraordinary situation.",
+   "status": "Confirmed · Civil aviation ministry",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ANI",
+     "url": "https://aninews.in/news/business/government-notifies-new-airfare-rules-allows-intervention-in-extraordinary-situations20261102100420/",
+     "primary": true
+    },
+    {
+     "name": "The Wire",
+     "url": "https://m.thewire.in/article/energy/sc-says-dont-travel-by-air-to-plea-on-high-airfares"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/sky-high-airfares-new-regulations-give-government-power-to-cap-sudden-spikes-565009-2026-11-02"
+    },
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/mumbai/new-airfare-regulations-centre-reserves-power-to-cap-fares-in-extraordinary-situations-mandates-complete-tariff-breakup"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  }
+ ]
+}

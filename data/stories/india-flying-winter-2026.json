@@ -1,0 +1,179 @@
+{
+ "slug": "india-flying-winter-2026",
+ "short": "Flying this winter",
+ "category": "Travel",
+ "regions": [
+  "India"
+ ],
+ "title": "Flying in India this winter: fog, airport closures and your rights",
+ "dek": "Smog and fog delays at Delhi, a six-hour shutdown at Mumbai on 19 November, and the refund rules every flyer should know.",
+ "seoTitle": "Flying in India winter 2026: fog delays, Mumbai closure",
+ "importance": 3,
+ "status": "Fog season under way",
+ "tone": "live",
+ "big": "6 hrs",
+ "delta": "Mumbai shut 19 Nov",
+ "bigLabel": "Both runways at Mumbai airport close from 11 am to 5 pm on Thursday 19 November for annual maintenance, says the airport operator",
+ "updated": "2026-11-14",
+ "glance": {
+  "what": "Winter is the hardest season for flying in north India. Smog and fog cut visibility, and airports switch to slower low-visibility procedures. Delhi's airport used them for the first time this season on Diwali night, and close to half of its departures were delayed the next day.",
+  "why": "Delays at Delhi spread across the country because so many flights pass through it. Mumbai, India's second-busiest airport, will also stop all flights for six hours on 19 November for runway repairs after the monsoon.",
+  "next": "Mumbai's shutdown on 19 November. Dense fog usually peaks in December and January."
+ },
+ "keyNumbers": [
+  {
+   "label": "Mumbai closure",
+   "value": "11 am–5 pm",
+   "note": "Thursday 19 Nov, both runways"
+  },
+  {
+   "label": "Delhi departures delayed",
+   "value": "44%",
+   "note": "8–9 Nov, Diwali smog (reported)"
+  },
+  {
+   "label": "Free change window",
+   "value": "48 hrs",
+   "note": "after booking, DGCA rule since 26 Mar"
+  },
+  {
+   "label": "Mumbai daily flights",
+   "value": "≈ 1,000",
+   "note": "take-offs and landings, typical day"
+  }
+ ],
+ "forYou": "Flying on 19 November via Mumbai? Check with your airline whether your flight has moved. In fog season, check flight status before leaving home, especially for early-morning flights in north India. Under DGCA rules in force since 26 March 2026, you can cancel or change a ticket within 48 hours of booking without a cancellation charge (conditions apply); after that, normal charges apply. If the airline cancels your flight, you can ask for a refund or another flight.",
+ "upcoming": [
+  {
+   "date": "2026-11-19",
+   "label": "19 Nov",
+   "text": "Mumbai airport closed 11 am to 5 pm for runway maintenance"
+  }
+ ],
+ "next": "Mumbai airport closes for six hours on 19 November.",
+ "links": [
+  "us-flights-ground-stop",
+  "delhi-air-2026",
+  "spicejet-crisis-2026",
+  "airfares-jet-fuel-2026"
+ ],
+ "events": [
+  {
+   "date": "2025-12-29",
+   "dateLabel": "29 Dec 2025",
+   "phase": "travel",
+   "title": "Last winter: fog cancels more than 100 Delhi flights",
+   "summary": "Background: on one of last winter's worst fog days, at least 128 flights were cancelled and about 200 delayed at Delhi airport as visibility collapsed. It shows how bad a peak fog day can get.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Cancelled",
+     "v": "128+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (Bernama)",
+     "url": "https://www.malaymail.com/news/world/2025/12/29/more-than-100-flights-cancelled-at-delhi-airport-amid-dense-fog-and-smog/203640",
+     "primary": true
+    },
+    {
+     "name": "Outlook Traveller",
+     "url": "https://www.outlooktraveller.com/News/dense-fog-brings-delhi-airport-to-a-standstill-as-airlines-warn-of-prolonged-disruptions"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-03-26",
+   "dateLabel": "26 Mar 2026",
+   "phase": "travel",
+   "title": "New refund rules for air tickets take effect",
+   "summary": "DGCA rules issued on 24 February take effect. Passengers can cancel or change a ticket within 48 hours of booking without a cancellation charge; after that, normal charges apply. The rules also set deadlines for refunds and apply to Indian and foreign airlines flying to and from India.",
+   "status": "Confirmed · DGCA",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/industry/aviation/dgca-air-ticket-cancellation-flyers-ticket-prices-126022600781_1.html",
+     "primary": true
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/latest/corporate/story/air-travel-refund-norms-dgca-introduces-48-hour-free-cancellation-window-tightens-refund-timelines-for-airlines-518183-2026-02-26"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-04",
+   "dateLabel": "4 Nov",
+   "phase": "travel",
+   "title": "Mumbai airport announces a six-hour shutdown",
+   "summary": "Mumbai International Airport Ltd says both runways will close from 11 am to 5 pm on Thursday 19 November for annual post-monsoon maintenance. Airlines were given six months' notice to change schedules, and a notice to pilots has been issued. The airport handles nearly 1,000 take-offs and landings on a typical day.",
+   "status": "Confirmed · Mumbai airport operator",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/flying-via-mumbai-on-november-19-six-hour-airport-shutdown-could-disrupt-your-travel-plans-565611-2026-11-04",
+     "primary": true
+    },
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/business/aviation/india-uae-travel-mumbai-airport-to-temporarily-close-both-runways-on-nov-19-1.500730864"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  },
+  {
+   "date": "2026-11-08",
+   "dateLabel": "Diwali night, 8 Nov",
+   "phase": "travel",
+   "title": "Delhi airport's first low-visibility procedures of the season",
+   "summary": "As smog and shallow fog cut visibility on Diwali night, Delhi airport switches to low-visibility procedures, which space flights further apart. About 44% of departures between midnight on 8 November and 8 pm on 9 November are delayed, by about 20 minutes on average.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Departures delayed",
+     "v": "≈ 44%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Curly Tales (citing NDTV)",
+     "url": "https://curlytales.com/india/travel/delhi-pollution-flight-departures-delayed-after-diwali-as-toxic-haze-hits-visibility/",
+     "primary": true
+    },
+    {
+     "name": "Urban Acres (citing Jagran)",
+     "url": "https://urbanacres.in/delhi-airport-activates-low-visibility-procedure-as-smog-delays-flights/"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "14 Nov",
+   "phase": "travel",
+   "title": "US flights halted for four hours",
+   "summary": "A nationwide ground stop in the US, from 2:24 am to 6:45 am India time, cancels thousands of flights. Travellers flying to or from the US this weekend should check their connections. See the full timeline of the US ground stop.",
+   "status": "Confirmed · FAA",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+     "primary": true
+    },
+    {
+     "name": "Flightradar24",
+     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    }
+   ],
+   "added": "2026-11-14"
+  }
+ ]
+}

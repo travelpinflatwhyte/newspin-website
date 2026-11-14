@@ -21,7 +21,7 @@ Newspin (newspinapp.com) turns big ongoing news stories into sourced timelines. 
 
 ## Update routine (scheduled runs)
 1. `git pull` on `main`.
-2. For every story with `tone` "hot" or "live", and anything with an `upcoming` date that has passed, search for news since the story's `updated` date. Also check the AI stories (`ai-this-week`, `ai-model-tracker` and the company timelines) for new model releases and company news.
+2. For every story with `tone` "hot" or "live", and anything with an `upcoming` date that has passed, search for news since the story's `updated` date. Also check the AI stories (`ai-this-week`, `ai-model-tracker` and the company timelines) for new model releases and company news. Check the Travel stories too (airline disruptions, airport closures, jet fuel prices on the 1st of each month, fare rules); only big, sourced air travel news becomes a new story.
 3. Add new events (with `added` set to today's date in IST), update `big`, `delta`, `bigLabel`, `glance`, `keyNumbers`, `status`, `tone`, `next` and `upcoming` where they changed, and set `updated` to today. Remove `upcoming` items whose date has passed.
 4. `ai-model-tracker` uses `"order": "desc"` (newest first on the page); keep events sorted by date in the file as usual. Add each major model launch there and to the company's own timeline.
 5. Only add a new story if it is clearly big news and can be sourced well; add its slug to `site.json` `order`.

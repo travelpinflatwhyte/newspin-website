@@ -1,0 +1,301 @@
+{
+ "slug": "spicejet-crisis-2026",
+ "short": "SpiceJet",
+ "category": "Travel",
+ "regions": [
+  "India"
+ ],
+ "title": "SpiceJet's troubles: cancellations, unpaid dues and a search for money",
+ "dek": "How one of India's oldest budget airlines came to cancel one in five flights, what it owes, and what its board will consider on 18 November.",
+ "seoTitle": "SpiceJet crisis 2026: cancellations, dues, fundraising",
+ "importance": 3,
+ "status": "Board meets 18 Nov on raising money",
+ "tone": "hot",
+ "big": "20.29%",
+ "delta": "flights cancelled",
+ "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
+ "updated": "2026-11-14",
+ "glance": {
+  "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
+  "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
+  "next": "SpiceJet's board meets on 18 November to consider raising fresh capital through shares, debt or a share sale to institutions."
+ },
+ "keyNumbers": [
+  {
+   "label": "Market share",
+   "value": "0.6%",
+   "note": "domestic, September (DGCA)"
+  },
+  {
+   "label": "On time",
+   "value": "16.6%",
+   "note": "September, at 10 major airports"
+  },
+  {
+   "label": "Aircraft",
+   "value": "12",
+   "note": "3 reportedly grounded"
+  },
+  {
+   "label": "Aircraft in 2020",
+   "value": "≈ 120",
+   "note": "per The Week"
+  }
+ ],
+ "forYou": "Booked on SpiceJet? Check your flight status on the day and keep proof of any cancellation or long delay. If SpiceJet cancels your flight, ask for a refund or a seat on another flight; DGCA rules set deadlines for airlines to pay refunds.",
+ "upcoming": [
+  {
+   "date": "2026-11-18",
+   "label": "18 Nov",
+   "text": "SpiceJet board meets to consider raising fresh capital"
+  }
+ ],
+ "next": "SpiceJet's board meets on 18 November to consider raising money.",
+ "links": [
+  "india-flying-winter-2026",
+  "airfares-jet-fuel-2026"
+ ],
+ "events": [
+  {
+   "date": "2026-01-31",
+   "dateLabel": "January 2026",
+   "phase": "travel",
+   "title": "A normal month: 1 in 70 flights cancelled",
+   "summary": "Background: in January, SpiceJet cancelled 1.44% of its flights and 56.8% were on time, according to DGCA data. It carried about 592,000 domestic passengers.",
+   "status": "Official data · DGCA",
+   "numbers": [
+    {
+     "k": "Cancelled",
+     "v": "1.44%"
+    },
+    {
+     "k": "On time",
+     "v": "56.8%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-04-15",
+   "dateLabel": "April 2026",
+   "phase": "travel",
+   "title": "Credit rating cut",
+   "summary": "CareEdge Ratings lowers SpiceJet's long-term bank rating to B+, citing continuing losses, a weak financial position and tight cash flow.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-07-13",
+   "dateLabel": "13 Jul",
+   "phase": "travel",
+   "title": "Lessors move to take back four grounded jets",
+   "summary": "The DGCA publishes notices to remove four grounded Boeing 737 MAX planes from SpiceJet's records after the companies that lease them asked for them back on 9 July. The planes had been idle for over a year.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "InsideFlyer",
+     "url": "https://www.insideflyer.com/posts/spicejet-cancellations-remained-above-20-in-september/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-08-31",
+   "dateLabel": "August 2026",
+   "phase": "travel",
+   "title": "One in five flights cancelled",
+   "summary": "DGCA data shows SpiceJet cancelled 20.92% of its scheduled flights in August, against an industry average of 1.04%.",
+   "status": "Official data · DGCA",
+   "numbers": [
+    {
+     "k": "Cancelled",
+     "v": "20.92%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "InsideFlyer",
+     "url": "https://www.insideflyer.com/posts/spicejet-cancellations-remained-above-20-in-september/",
+     "primary": true
+    },
+    {
+     "name": "Live From A Lounge",
+     "url": "https://livefromalounge.com/?p=45395"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  },
+  {
+   "date": "2026-09-22",
+   "dateLabel": "22 Sep",
+   "phase": "travel",
+   "title": "Minister: regulator reviewing SpiceJet",
+   "summary": "Civil Aviation Minister K. Rammohan Naidu says the DGCA is carrying out an operational and financial review of SpiceJet, with safety and passenger disruption as priorities.",
+   "status": "Stated · Civil Aviation Minister",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "InsideFlyer",
+     "url": "https://www.insideflyer.com/posts/spicejet-cancellations-remained-above-20-in-september/",
+     "primary": true
+    },
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-09-30",
+   "dateLabel": "September 2026",
+   "phase": "travel",
+   "title": "Market share falls to 0.6%",
+   "summary": "In September, SpiceJet cancels 20.29% of flights and only 16.6% are on time at 10 major airports. Nearly two in five flights are delayed by more than two hours. Its domestic market share falls to 0.6%, below the regional airline Star Air.",
+   "status": "Official data · DGCA",
+   "numbers": [
+    {
+     "k": "Cancelled",
+     "v": "20.29%"
+    },
+    {
+     "k": "Market share",
+     "v": "0.6%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/",
+     "primary": true
+    },
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/13/spicejet-dubai-unpaid-dues.html"
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true,
+   "differs": "Mint reports about 73,000 passengers in September; The Week reports 7.3 lakh (730,000)."
+  },
+  {
+   "date": "2026-10-30",
+   "dateLabel": "30 Oct",
+   "phase": "travel",
+   "title": "Filing shows small suppliers waiting to be paid",
+   "summary": "In a half-yearly filing, SpiceJet reports that ₹63 crore of the ₹123 crore it owed to small businesses between April and September was unpaid for more than 45 days. The airline gave \"invoice received late\" as the reason for nearly every overdue entry.",
+   "status": "Filed · Corporate affairs ministry",
+   "numbers": [
+    {
+     "k": "Overdue to small suppliers",
+     "v": "₹63 crore"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "5–9 Nov",
+   "phase": "travel",
+   "title": "A wave of cancellations",
+   "summary": "Passengers report cancellations on routes including Mumbai–Bengaluru and Delhi–Pune. SpiceJet is reported to be cancelling 15 to 20 of about 65 daily flights, with delays of three to five hours.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/business/spicejet-crisis-deepens-20-daily-flight-cancellations-as-fleet-shrinks-to-just-12-aircraft-amid-mounting-dues",
+     "primary": true
+    },
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/13/spicejet-dubai-unpaid-dues.html"
+    }
+   ],
+   "added": "2026-11-14",
+   "differs": "The Week reports that nearly a third of daily flights were cancelled in recent days."
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov",
+   "phase": "travel",
+   "title": "Nine of 12 planes flying; staff say salaries are late",
+   "summary": "Mint reports that only nine of SpiceJet's 12 aircraft are flying, with three grounded because the airline is struggling to pay lessors. Two employees tell Mint that salaries are delayed, some by more than four months; Mint says it could not verify this. SpiceJet has not commented.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Mint",
+     "url": "https://www.tradingview.com/news/moodys:565f58065430e:0-spicejet-is-running-late-on-three-fronts-flights-supplier-payments-salaries/",
+     "primary": true
+    },
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/business/spicejet-crisis-2026-reports-claim-unpaid-salaries-grounded-aircraft-widespread-flight-disruptions"
+    }
+   ],
+   "added": "2026-11-14",
+   "differs": "Free Press Journal, citing sources, reports that salaries have been unpaid since June 2026."
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov (Thursday)",
+   "phase": "travel",
+   "title": "Dubai flights cancelled over unpaid dues",
+   "summary": "Reports say SpiceJet passengers in Dubai were refused check-in over unpaid dues, reported at ₹36 crore, and four SpiceJet flights from Dubai were cancelled. SpiceJet says it has \"adequate bank guarantee cover in place\" and is in talks with Dubai authorities.",
+   "status": "Reported · SpiceJet responds",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/13/spicejet-dubai-unpaid-dues.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov",
+   "phase": "travel",
+   "title": "Board to consider raising money",
+   "summary": "SpiceJet tells the stock exchanges that its board will meet on 18 November to consider raising fresh capital through shares, preference shares, debt or a share sale to institutional investors.",
+   "status": "Confirmed · SpiceJet filing",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/13/spicejet-dubai-unpaid-dues.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14",
+   "key": true
+  }
+ ]
+}

@@ -170,6 +170,27 @@
   }
   arrange();
 
+  // ---- home v3: day labels in the reader's own time zone; timeline groups fold on phones ----
+  (function () {
+    var y = (function () { var x = new Date(); x.setDate(x.getDate() - 1); return localDay(x); })();
+    document.querySelectorAll('.lu-day[data-day]').forEach(function (li) {
+      var day = li.getAttribute('data-day');
+      var dt = new Date(day + 'T00:00:00');
+      var base = dt.getDate() + ' ' + dt.toLocaleString('en-GB', { month: 'short' });
+      var name = day === today ? 'Today' : day === y ? 'Yesterday' : dt.toLocaleString('en-GB', { weekday: 'long' });
+      li.textContent = name + ' · ' + base;
+    });
+    var groups = document.querySelectorAll('.ix-group');
+    if (!groups.length || !window.matchMedia) return;
+    var mq = window.matchMedia('(max-width:640px)');
+    function setGroups() { groups.forEach(function (g, i) { g.open = !mq.matches || i === 0; }); }
+    setGroups();
+    if (mq.addEventListener) mq.addEventListener('change', setGroups);
+    groups.forEach(function (g) {
+      g.querySelector('summary').addEventListener('click', function (ev) { if (!mq.matches) ev.preventDefault(); });
+    });
+  })();
+
   // ---- theme ----
   var themeBtn = document.getElementById('theme-btn');
   function paintTheme() {

@@ -11,20 +11,20 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "94.05",
- "delta": "▲ 3% off the low",
- "bigLabel": "Rupees per US dollar in early trade on 13 Nov, from a record low near 96.90",
- "updated": "2026-11-13",
+ "big": "94.20",
+ "delta": "▲ ≈ 2.8% off the low",
+ "bigLabel": "Rupees per US dollar at the close on 13 Nov (provisional), from a record low near 96.90",
+ "updated": "2026-11-14",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. Since October it has recovered more than 3%, reaching a six-month high of 93.70 on 9 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to a six-month high of 93.70 on 9 November, then eased back to 94.20 by 13 November.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
-  "next": "Falling oil prices, foreign inflows and RBI dollar sales are helping. A renewed oil spike would reverse that."
+  "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
    "label": "Rupee per $, 13 Nov",
-   "value": "94.05",
-   "note": "early trade",
+   "value": "94.20",
+   "note": "close, provisional",
    "hot": true
   },
   {
@@ -255,6 +255,32 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "market",
+   "title": "Slips to 94.20 on US rate worries",
+   "summary": "The rupee falls 8 paise to close at 94.20 per dollar (provisional). Dealers point to a stronger dollar after higher-than-expected US inflation data, which raised bets that the US Federal Reserve will raise interest rates in December, and to falling Indian shares.",
+   "status": "Market data · PTI",
+   "numbers": [
+    {
+     "k": "Close",
+     "v": "94.20"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-falls-8-paise-to-close-at-94-20-against-us-dollar",
+     "primary": true
+    },
+    {
+     "name": "The Sen Times (PTI)",
+     "url": "https://thesentimes.com/rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+    }
+   ],
+   "added": "2026-11-14"
   }
  ]
 }

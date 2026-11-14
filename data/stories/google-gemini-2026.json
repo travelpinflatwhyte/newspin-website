@@ -13,12 +13,12 @@
  "status": "Gemini 4 rolling out",
  "tone": "live",
  "big": "Gemini 4",
- "delta": "Argon, Carbon",
+ "delta": "Argon, Carbon, Hydrogen",
  "bigLabel": "Google's newest model family, announced from 30 Sep 2026",
  "glance": {
-  "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September) and Carbon (28 October).",
+  "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September), Carbon (28 October) and the faster, cheaper Hydrogen (12 November).",
   "why": "Gemini sits inside Search, Android, Gmail and YouTube, so Google's models reach more people by default than any rival's.",
-  "next": "Wider Gemini 4 Carbon availability, and a reported Gemini 4 Hydrogen."
+  "next": "Wider Gemini 4 Carbon availability, and Hydrogen rolling out globally in Search and the Gemini app."
  },
  "keyNumbers": [
   {
@@ -33,9 +33,9 @@
    "note": ""
   },
   {
-   "label": "Fastest model",
-   "value": "3.8 Flash",
-   "note": "2 Sep 2026"
+   "label": "Everyday model",
+   "value": "4 Hydrogen",
+   "note": "12 Nov 2026, replaces 3.8 Flash"
   },
   {
    "label": "Free Vids clips",
@@ -227,11 +227,11 @@
   },
   {
    "date": "2026-11-12",
-   "dateLabel": "12–13 Nov 2026",
+   "dateLabel": "12 Nov 2026",
    "phase": "ai",
-   "title": "AlphaGenome 2, a reported Gemini 4 Hydrogen, and a lawsuit",
-   "summary": "Google DeepMind releases AlphaGenome 2, a DNA model. The Neuron reports a Gemini 4 Hydrogen release. Google is among five companies named in the AI freeze lawsuit.",
-   "status": "Mixed · see sources",
+   "title": "AlphaGenome 2 and a lawsuit",
+   "summary": "Google DeepMind releases AlphaGenome 2, a DNA model. Google is among five companies named in the AI freeze lawsuit.",
+   "status": "Released · Filed, not ruled on",
    "numbers": [],
    "sources": [
     {
@@ -240,16 +240,43 @@
      "primary": true
     },
     {
-     "name": "The Neuron",
-     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/"
-    },
-    {
      "name": "AP via WTOP",
      "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks"
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "ai",
+   "key": true,
+   "title": "Gemini 4 Hydrogen, the new everyday model",
+   "summary": "Google releases Gemini 4 Hydrogen, a fast, cheaper model built for AI agents that replaces Gemini 3.8 Flash as its everyday model. It is rolling out globally in Google Search for all users, in the Gemini app (free users get it through automatic model selection) and to developers at $1.50 per million input tokens and $7.50 per million output tokens. Google says it finishes tasks 2.5 times faster than 3.8 Flash; these are Google's own figures.",
+   "status": "Confirmed · Google",
+   "numbers": [
+    {
+     "k": "API price (in / out)",
+     "v": "$1.50 / $7.50 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "primary": true
+    },
+    {
+     "name": "Google (Search)",
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+    },
+    {
+     "name": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
+    }
+   ],
+   "added": "2026-11-14"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

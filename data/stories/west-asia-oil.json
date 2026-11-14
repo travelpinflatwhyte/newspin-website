@@ -12,19 +12,19 @@
  "importance": 4,
  "status": "Talks, no deal",
  "tone": "live",
- "big": "$95.82",
- "delta": "Brent, 12 Nov",
+ "big": "$95.84",
+ "delta": "Brent, 13 Nov",
  "bigLabel": "Down about 20% from a late-October peak near $118",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Oil is on track for a second weekly fall, but tanker and Houthi attacks keep prices jumpy. On 12 November President Trump said the US did not need a deal with Iran."
+  "next": "Oil posted a second weekly fall, and the IEA expects a supply surplus this quarter. But tanker and Houthi attacks keep prices jumpy, and on 12 November President Trump said the US did not need a deal with Iran."
  },
  "keyNumbers": [
   {
-   "label": "Brent, 12 Nov",
-   "value": "$95.82",
+   "label": "Brent, 13 Nov",
+   "value": "$95.84",
    "note": "per barrel",
    "hot": true
   },
@@ -371,6 +371,36 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "market",
+   "title": "Oil ends a second losing week; IEA sees a surplus",
+   "summary": "Brent settles 2 cents higher at $95.84 a barrel after swinging in a $2 range, its second weekly fall in a row. The International Energy Agency (IEA), which advises rich countries on energy, says the oil market will be in surplus this quarter for the first time since the war began, as high prices have cut demand. Iran said four tankers were hit in the Strait of Hormuz the day before.",
+   "status": "Market data · Bloomberg",
+   "numbers": [
+    {
+     "k": "Brent settle",
+     "v": "$95.84"
+    },
+    {
+     "k": "WTI settle",
+     "v": "$88.56"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Rigzone (Bloomberg)",
+     "url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article",
+     "primary": true
+    },
+    {
+     "name": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-13-2026-brent-slips-0-3percent-to-95-5-per-barrel-as-oil-heads-for-second-weekly-decline"
+    }
+   ],
+   "added": "2026-11-14"
   }
  ]
 }

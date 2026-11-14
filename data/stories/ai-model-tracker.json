@@ -12,10 +12,10 @@
  "importance": 4,
  "status": "Updated with each release",
  "tone": "live",
- "big": "37",
+ "big": "39",
  "delta": "releases tracked",
  "bigLabel": "Major model launches from the leading AI companies since January 2025",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "glance": {
   "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
   "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
@@ -35,13 +35,13 @@
   },
   {
    "label": "Google latest",
-   "value": "Gemini 4 Carbon",
-   "note": "Oct–Nov 2026"
+   "value": "Gemini 4 Hydrogen",
+   "note": "Nov 2026"
   },
   {
    "label": "Meta latest",
-   "value": "Muse Wonder",
-   "note": "Oct 2026"
+   "value": "Muse Ember",
+   "note": "Nov 2026"
   }
  ],
  "forYou": "You do not need the newest model for most everyday tasks. Free tiers of ChatGPT, Gemini, Claude and Meta AI usually get a smaller version of each new model within weeks.",
@@ -847,6 +847,46 @@
    ],
    "added": "2026-11-13",
    "link": "anthropic-2026"
+  },
+  {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Meta: Muse Ember",
+   "summary": "A low-cost model for repetitive agent work, paired with Muse Wonder.",
+   "status": "Released",
+   "sources": [
+    {
+     "name": "Let's Data Science (TechCrunch)",
+     "url": "https://letsdatascience.com/news/meta-releases-muse-ember-a-low-cost-model-for-agent-executio-7b564cff",
+     "primary": true
+    }
+   ],
+   "link": "meta-ai-2026",
+   "numbers": [],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 4 Hydrogen",
+   "summary": "Google's fast everyday model, replacing Gemini 3.8 Flash; in Search, the Gemini app and the API.",
+   "status": "Released",
+   "sources": [
+    {
+     "name": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "primary": true
+    },
+    {
+     "name": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
+    }
+   ],
+   "link": "google-gemini-2026",
+   "numbers": [],
+   "added": "2026-11-14"
   }
  ],
  "order": "desc"

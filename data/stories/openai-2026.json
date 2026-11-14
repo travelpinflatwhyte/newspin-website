@@ -364,7 +364,28 @@
    ],
    "added": "2026-11-13",
    "link": "ai-this-week"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "12–13 Nov 2026",
+   "phase": "ai",
+   "title": "ChatGPT Wallet and security agents",
+   "summary": "OpenAI launches ChatGPT Wallet, which lets its 'dots' AI agents buy things for users, with American Express, Mastercard and Visa. It is limited at first to ChatGPT Pro users aged 18 or over in the US, who approve each purchase with a check such as Face ID; it will not work on sites that block agents. A day earlier, President Greg Brockman showed Daybreak Red Team, in early access, which uses AI agents to test web apps for security holes, and Daybreak Defense Factory, which prepares fixes for engineers to review.",
+   "status": "Announced · OpenAI",
+   "sources": [
+    {
+     "name": "9to5Mac",
+     "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+     "primary": true
+    },
+    {
+     "name": "AI Weekly (The Register)",
+     "url": "https://aiweekly.co/alerts/openai-ships-daybreak-red-team-and-defense-factory-agents"
+    }
+   ],
+   "numbers": [],
+   "added": "2026-11-14"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

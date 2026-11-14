@@ -215,6 +215,28 @@
    "key": true
   },
   {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Muse Ember, a low-cost worker model",
+   "summary": "Meta Superintelligence Lab releases Muse Ember, its lightest and cheapest Muse model, designed to handle repetitive agent tasks such as tool calls, coding subtasks and document parsing alongside the larger Muse Wonder. TechCrunch reports a price of 10 cents per million input tokens. Meta says it is cheaper and smarter than Anthropic's Haiku and OpenAI's Luna; no independent tests were reported.",
+   "status": "Released · per TechCrunch",
+   "numbers": [
+    {
+     "k": "Input price",
+     "v": "$0.10 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Let's Data Science (TechCrunch)",
+     "url": "https://letsdatascience.com/news/meta-releases-muse-ember-a-low-cost-model-for-agent-executio-7b564cff",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
    "date": "2026-11-12",
    "dateLabel": "12 Nov 2026",
    "phase": "law",
@@ -233,5 +255,5 @@
    "link": "ai-this-week"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

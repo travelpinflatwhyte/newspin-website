@@ -12,10 +12,10 @@
  "importance": 4,
  "status": "Huang resigned",
  "tone": "hot",
- "big": "−30.5%",
- "delta": "since 6 Oct record",
- "bigLabel": "Fall in Nvidia's share price from its record high, per CNN (12 Nov close)",
- "updated": "2026-11-13",
+ "big": "< $4 tn",
+ "delta": "market value, 13 Nov",
+ "bigLabel": "Nvidia's market value at the 13 Nov close, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
+ "updated": "2026-11-14",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
@@ -23,9 +23,9 @@
  },
  "keyNumbers": [
   {
-   "label": "Share price vs record",
-   "value": "−30.5%",
-   "note": "12 Nov close, CNN",
+   "label": "Share price, 13 Nov",
+   "value": "$162.85",
+   "note": "week ≈ −12%",
    "hot": true
   },
   {
@@ -434,6 +434,37 @@
      "url": "https://fortune.com/2026/11/13/jensen-huang-nvidia-elon-musk-hire-honor/"
     }
    ]
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "market",
+   "key": true,
+   "title": "Market value falls below $4 trillion",
+   "summary": "Nvidia shares fall 2% to close at $162.85, ending the week down about 12%, and its market value closes below $4 trillion. It was worth as much as $5.75 trillion on 5 October. HSBC downgrades the stock to Hold and cuts its price target to $170 from $365, a day after Bernstein cut its target to $200 from $400.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Close",
+     "v": "$162.85"
+    },
+    {
+     "k": "Week",
+     "v": "≈ −12%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+     "primary": true
+    },
+    {
+     "name": "Yahoo Finance (12 Nov live blog)",
+     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"
+    }
+   ],
+   "added": "2026-11-14"
   }
  ],
  "heroTitle": "Jensen Huang resigns as Nvidia CEO",

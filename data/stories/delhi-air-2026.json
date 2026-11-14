@@ -14,11 +14,11 @@
  "big": "403",
  "delta": "severe",
  "bigLabel": "Delhi's AQI at 6 am on 13 Nov, the first 'severe' reading of the season, with 33 of 58 stations severe",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "glance": {
   "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403 and 33 of 58 stations in the severe band. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "The IMD expects 'very poor' to 'severe' air until 16 November. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
@@ -45,6 +45,11 @@
  ],
  "forYou": "Check the AQI before going out, limit outdoor exercise on 'very poor' and 'severe' days, and follow the official CAQM orders for what Stage III restricts. If your car is registered outside Delhi and is not BS-VI, it can be turned back at the border until 31 January.",
  "upcoming": [
+  {
+   "date": "2026-11-16",
+   "label": "16 Nov",
+   "text": "IMD's forecast of 'very poor' to 'severe' air runs to this date"
+  },
   {
    "date": "2026-11-20",
    "label": "20 Nov",
@@ -317,6 +322,27 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "policy",
+   "title": "NCR schools go hybrid; severe air forecast to last",
+   "summary": "Noida, Greater Noida and Ghaziabad move classes up to grade 5 to hybrid mode, and Ghaziabad halts government and private construction until 20 November. The weather office (IMD) expects air to stay 'very poor' to 'severe' until 16 November. Stage III curbs remain; no move to Stage IV had been announced.",
+   "status": "Reported",
+   "sources": [
+    {
+     "name": "Aaj Tak",
+     "url": "https://www.aajtak.in/india/delhi/story/delhi-air-pollution-aqi-400-anand-vihar-noida-ghaziabad-ntc-dhrj-rpti-2695041-2026-11-13",
+     "primary": true
+    },
+    {
+     "name": "ap7am (IANS)",
+     "url": "https://www.ap7am.com/en/139272/aqi-remains-severe-at-419-thick-smoky-haze-continues-to-envelop-delhi"
+    }
+   ],
+   "numbers": [],
+   "added": "2026-11-14"
   }
  ]
 }

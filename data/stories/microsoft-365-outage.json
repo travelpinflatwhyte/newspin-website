@@ -11,16 +11,16 @@
  "dek": "What broke, when (in India time), what Microsoft has said, and what still works.",
  "seoTitle": "Outlook down: Microsoft 365 outage timeline (IST)",
  "importance": 3,
- "status": "Service restored",
+ "status": "Restored · cause named",
  "tone": "live",
  "big": "≈ 20 hrs",
  "delta": "to restore",
  "bigLabel": "Roughly how long from the first reports (≈ 11:30 pm IST, 12 Nov) to Microsoft saying service health was restored (evening, 13 Nov IST)",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "glance": {
-  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot worldwide for about 20 hours. Microsoft has linked it to an overloaded secure-connection process on its servers; reports point to a network configuration change or software update as the trigger.",
+  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot in 74 countries and territories for about a day. Microsoft says a problem introduced during an earlier network capacity upgrade surfaced after a recent network change, and that it was not a cyber attack.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "Service is restored and email queues are nearing normal. Microsoft's post-incident report should confirm the root cause."
+  "next": "Microsoft reports broad recovery and has apologised. Its full incident report should give more detail on what went wrong."
  },
  "keyNumbers": [
   {
@@ -40,8 +40,8 @@
   },
   {
    "label": "Root cause",
-   "value": "Pending",
-   "note": "no sign of attack"
+   "value": "Network upgrade",
+   "note": "per Microsoft; full report pending"
   }
  ],
  "forYou": "Outlook and Teams should be working again. Emails sent during the outage may arrive late as queues clear. If something still fails, restart the app or sign out and back in.",
@@ -257,6 +257,33 @@
      "url": "https://socradar.io/blog/microsoft-outlook-outage/"
     }
    ]
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "tech",
+   "key": true,
+   "title": "Microsoft names a cause and apologises",
+   "summary": "In an updated statement, Microsoft says the incident \"was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change\", and that it was a technical issue not related to cyber attacks or AI agents. It says it is \"deeply sorry\", reports broad recovery, and says it will give a fuller explanation in a full incident report. Downdetector data showed services hit in 74 countries and territories.",
+   "status": "Confirmed · Microsoft",
+   "numbers": [
+    {
+     "k": "Countries affected",
+     "v": "74 (Downdetector)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "KIRO 7",
+     "url": "https://www.kiro7.com/news/local/microsoft-attributes-massive-global-email-outage-technical-issue/4AYALYE3PVBMXHWL63XB3HKUNE/",
+     "primary": true
+    },
+    {
+     "name": "ABC News Australia (AFP)",
+     "url": "https://www.abc.net.au/news/2026-11-14/microsoft-says-sorry-for-global-outage-and-details-recovery/107385540"
+    }
+   ],
+   "added": "2026-11-14"
   }
  ]
 }

@@ -15,9 +15,9 @@
  "big": "5",
  "delta": "AI firms sued",
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "glance": {
-  "what": "In the past ten days Google and Anthropic released new models, Anthropic began marketing its shares ahead of a Nasdaq listing, Nvidia's founder was forced out, TSMC said it would invest in OpenAI and Anthropic, and nonprofits asked a court to freeze frontier AI.",
+  "what": "In the past ten days Google, Meta and Anthropic released new models, Anthropic's share sale drew strong reported demand ahead of a Nasdaq listing, OpenAI let ChatGPT agents make purchases, Nvidia's founder was forced out, and nonprofits asked a court to freeze frontier AI.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
   "next": "Nvidia reports earnings on 17 Nov. Anthropic expects to price its IPO on 18 Nov and list on 19 Nov."
  },
@@ -229,6 +229,28 @@
    "added": "2026-11-13"
   },
   {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "ai",
+   "title": "Google releases Gemini 4 Hydrogen",
+   "summary": "Google's new fast, cheaper model replaces Gemini 3.8 Flash and is rolling out in Search for all users, in the Gemini app and to developers.",
+   "status": "Confirmed · Google",
+   "sources": [
+    {
+     "name": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "primary": true
+    },
+    {
+     "name": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
+    }
+   ],
+   "link": "google-gemini-2026",
+   "numbers": [],
+   "added": "2026-11-14"
+  },
+  {
    "date": "2026-11-13",
    "dateLabel": "12–13 Nov 2026",
    "phase": "ai",
@@ -245,6 +267,42 @@
    ],
    "link": "nvidia-huang-investigation",
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "ai",
+   "title": "ChatGPT agents can now pay for things",
+   "summary": "OpenAI launches ChatGPT Wallet for US Pro users, letting its agents make purchases with card networks' tokens after the user approves each one.",
+   "status": "Announced · OpenAI",
+   "sources": [
+    {
+     "name": "9to5Mac",
+     "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+     "primary": true
+    }
+   ],
+   "link": "openai-2026",
+   "numbers": [],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "12–13 Nov 2026",
+   "phase": "market",
+   "title": "Anthropic IPO reportedly six times oversubscribed",
+   "summary": "Bloomberg News reports demand for Anthropic's shares at about six times the shares on offer, ahead of pricing expected on 18 November.",
+   "status": "Reported · Bloomberg, via Reuters",
+   "sources": [
+    {
+     "name": "Interaksyon (Reuters)",
+     "url": "https://interaksyon.philstar.com/trends-spotlights/2026/11/13/321853/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports/",
+     "primary": true
+    }
+   ],
+   "link": "anthropic-2026",
+   "numbers": [],
+   "added": "2026-11-14"
   }
  ]
 }

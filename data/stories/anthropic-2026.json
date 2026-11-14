@@ -418,7 +418,33 @@
    ],
    "added": "2026-11-13",
    "link": "ai-this-week"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "12–13 Nov 2026",
+   "phase": "market",
+   "title": "IPO reportedly six times oversubscribed",
+   "summary": "Bloomberg News reports, citing people familiar with the matter, that the share sale has drawn about six times as many orders as there are shares, and that bankers will favour existing backers, so some buyers may get less than expected. At the top of the range the sale would raise up to $64.4 billion. Demand figures could still change; Anthropic had not commented.",
+   "status": "Reported · Bloomberg, via Reuters",
+   "numbers": [
+    {
+     "k": "Demand",
+     "v": "≈ 6× shares on offer"
+    },
+    {
+     "k": "Raise, top of range",
+     "v": "up to $64.4 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Interaksyon (Reuters)",
+     "url": "https://interaksyon.philstar.com/trends-spotlights/2026/11/13/321853/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-14"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

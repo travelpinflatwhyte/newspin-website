@@ -324,6 +324,29 @@ def sm_data(s):
             "title": s["title"], "intro": [s["glance"]["what"], s["glance"]["why"], s["glance"]["next"]]}
 
 
+# Home v3: roll-up stories repeat news that already sits in each company's timeline,
+# so they stay out of "Moving now" and "Latest updates" (they still appear in the AI group).
+ROLLUPS = {"ai-this-week", "ai-model-tracker"}
+HOME_GROUPS = ["AI", "India economy", "World and US", "Policy and everyday"]
+
+
+def home_group(s):
+    cat, regions = s["category"], s.get("regions", ["India"])
+    if cat == "AI":
+        return "AI"
+    if cat in ("Economy", "Markets", "Trade"):
+        return "India economy"
+    if cat == "World" or (cat == "Tech" and regions != ["India"]):
+        return "World and US"
+    return "Policy and everyday"
+
+
+def day_label(x, today):
+    gap = (today - x).days
+    base = short_date(x, today)
+    return f"Today · {base}" if gap == 0 else f"Yesterday · {base}" if gap == 1 else f"{x.strftime('%A')} · {base}"
+
+
 # ---------- home ----------
 def build_home(site, stories, order, axis):
     today = axis.today
@@ -353,8 +376,6 @@ def build_home(site, stories, order, axis):
             out.append(f'<a class="{cat_class(s["category"])}" href="/stories/{e(s["slug"])}/">{e(it["label"])}</a>')
         return "".join(out)
 
-    chips = "".join(f'<button type="button" class="chip" data-filter="{e(c)}" aria-pressed="{"true" if c == "All" else "false"}">{e(c)}</button>' for c in site["categories"])
-    region_btns = "".join(f'<button type="button" data-region="{e(r)}" aria-pressed="{"true" if r == "All" else "false"}">{e(r if r != "All" else "Everywhere")}</button>' for r in site.get("regions", ["All"]))
 
     facts = {slug: story_facts(stories[slug], today) for slug in order}
     ranked = sorted(order, key=lambda x: -rank(facts[x], today)[0])
@@ -362,18 +383,25 @@ def build_home(site, stories, order, axis):
     quiet = [x for x in ranked if rank(facts[x], today)[1]]
     hero_slug = live[0] if live else ranked[0]
     grid_live = [x for x in live if x != hero_slug]
+    # Moving now: up to four stories with news in the last 48 hours (roll-ups and the lead excluded),
+    # topped up with the next most active stories if fewer than four moved.
+    pool = [x for x in grid_live if x not in ROLLUPS]
+    moved = [x for x in pool if (today - d(latest_event(stories[x]).get("added", latest_event(stories[x])["date"]))).days <= 2
+             or (today - d(latest_event(stories[x])["date"])).days <= 2]
+    moving = (moved + [x for x in pool if x not in moved])[:4]
+    all_moved = all(x in moved for x in moving)
     cards, quiet_cards = [], []
-    for slug in grid_live + quiet:
+    for slug in moving:
         s = stories[slug]
         f = facts[slug]
         latest = latest_event(s)
-        feat = " featured" if slug in grid_live[:2] else ""
+        feat = ""
         hot = " hot" if s["tone"] == "hot" else ""
         long_ = " long" if len(s["big"]) > 6 else ""
         stands = f'<p class="stands">{e(s["glance"]["what"])}</p>'
         links = ", ".join(f'<a href="/stories/{e(l)}/">{e(stories[l]["short"])}</a>' for l in s.get("links", []) if l in stories)
         linked = f'<div class="linked">Linked to {links}</div>' if links else ""
-        target = cards if slug in grid_live else quiet_cards
+        target = cards
         if slug in live:
             status_pill = f'<span class="status tone-{e(s["tone"])}">{e(s["status"])}</span>'
         else:
@@ -464,39 +492,82 @@ def build_home(site, stories, order, axis):
   {hero_html}
   {strip}"""
 
+    # Latest updates: one line per event across all stories, newest first, grouped by day
+    evs = []
+    for slug in order:
+        if slug in ROLLUPS:
+            continue
+        s = stories[slug]
+        for i, ev in enumerate(s["events"]):
+            if ev["phase"] == "forecast" or d(ev["date"]) > today:
+                continue
+            evs.append((ev["date"], ev["added"], i, slug, ev))
+    evs.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
+    lu, last_day = [], None
+    for date, _, i, slug, ev in evs[:8]:
+        s = stories[slug]
+        if date != last_day:
+            lu.append(f'<li class="lu-day" data-day="{e(date)}">{e(day_label(d(date), today))}</li>')
+            last_day = date
+        lu.append(f'<li class="lu-item {cat_class(s["category"])}"><a href="/stories/{e(slug)}/#e{i + 1}"><span class="lu-dot" aria-hidden="true"></span>'
+                  f'<span><span class="lu-s">{e(s["short"])}</span><span class="lu-t">{e(ev["title"])}</span></span></a></li>')
+
+    # All timelines: every active story as one line, in four groups
+    groups = {g: [] for g in HOME_GROUPS}
+    for slug in sorted(live, key=lambda x: (facts[x]["latest"], rank(facts[x], today)[0]), reverse=True):
+        groups[home_group(stories[slug])].append(slug)
+    ix_html = []
+    for gi, g in enumerate(HOME_GROUPS):
+        if not groups[g]:
+            continue
+        rows = []
+        for slug in groups[g]:
+            s = stories[slug]
+            le = latest_event(s)
+            fresh = (today - d(le["date"])).days <= 1
+            rows.append(f'<li><a href="/stories/{e(slug)}/" data-ix="{e(slug)}"><span class="ix-dot{" fresh" if fresh else ""}" aria-hidden="true"></span>'
+                        f'<span class="ix-main"><span class="ix-name">{e(s["short"])}{"<span class=sr-only> (updated in the last day)</span>" if fresh else ""}</span>'
+                        f'<span class="ix-t">{e(le["title"])}</span></span><span class="ix-d">{e(short_date(d(le["date"]), today))}</span></a></li>')
+        ix_html.append(f'<details class="ix-group" open><summary><span>{e(g)}</span> <span class="n">· {len(groups[g])}</span></summary><ul class="ix">{"".join(rows)}</ul></details>')
+    quiet_links = ", ".join(f'<a href="/stories/{e(x)}/">{e(stories[x]["short"])}</a>' for x in quiet)
+    quiet_line = (f'<p class="quiet-line"><b>Quiet for now · {len(quiet)}</b> {quiet_links}. '
+                  f'<span class="note">No news in {QUIET_DAYS} days; they come back up when something happens.</span></p>') if quiet else ""
+    moving_note = "News in the last 48 hours" if all_moved else "The most active stories right now"
+
     body = f"""
 <div class="wrap">
 {top_html}
-  <section class="chain" aria-labelledby="chain-h">
-    <div class="chain-head"><h2 id="chain-h">How these stories connect</h2><span class="note">Cause and effect across timelines</span></div>
-    <div class="chain-row">{chain_row(site['chain'])}<span class="arr" aria-hidden="true" style="padding:0 6px">·</span>{chain_row(site['chain2']).replace('→', '↔')}</div>
+  <div class="home-grid">
+    <section class="moving-sec" aria-labelledby="moving-h">
+      <div class="sec-head"><h2 id="moving-h">Moving now</h2><span class="note">{moving_note}</span></div>
+      <div class="cards moving">{''.join(cards)}</div>
+    </section>
+    <section class="updates" aria-labelledby="lu-h">
+      <div class="sec-head"><h2 id="lu-h">Latest updates</h2><span class="note">All stories</span></div>
+      <ul class="lu">{''.join(lu)}</ul>
+    </section>
+  </div>
+
+  <section class="index" id="all" aria-labelledby="all-h">
+    <div class="sec-head"><h2 id="all-h">All timelines</h2><span class="note">{len(live)} active stories · <i class="ix-dot fresh" aria-hidden="true"></i> updated in the last day</span></div>
+    <div class="index-grid">{''.join(ix_html)}</div>
   </section>
 
-  <section id="live" aria-labelledby="live-h">
-    <div class="grid-head"><h2 id="live-h">Live timelines</h2><div class="seg" role="group" aria-label="Filter by region">{region_btns}</div></div>
-    <div class="toolbar">
-      <div class="chips" role="group" aria-label="Filter by topic">{chips}</div>
-      <label class="sort">Sort <select id="sort">
-        <option value="moving">Moving now</option>
-        <option value="latest">Latest update</option>
-        <option value="upcoming">Coming up</option>
-        <option value="biggest">Biggest stories</option>
-      </select></label>
-    </div>
-    <p class="note" id="nomatch" hidden>No timelines match these filters yet.</p>
-    <div class="cards" id="cards-live">{''.join(cards)}</div>
-    <section id="quiet" aria-labelledby="quiet-h"{'' if quiet_cards else ' hidden'}>
-      <div class="grid-head" style="margin-top:40px"><h2 id="quiet-h" style="font-size:26px">Quiet for now</h2><span class="note">No new developments in {QUIET_DAYS} days. They come back to the top when something happens.</span></div>
-      <div class="cards" id="cards-quiet">{''.join(quiet_cards)}</div>
-    </section>
-    <div class="legend"><b>Timeline key</b>
-      <span><i class="kd" style="background:#3F444E"></i>Event</span>
-      <span><i class="kd" style="width:18px;height:18px;background:#3F444E;color:#fff;font-size:10px;font-weight:700;font-style:normal;display:inline-flex;align-items:center;justify-content:center">3</i>Several events close together</span>
-      <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 6px #3F444E33"></i>Latest</span>
-      <span><i class="kd" style="width:12px;height:12px;border:2px dashed #3F444E;box-sizing:border-box"></i>Scheduled or forecast</span>
-      <span>RBI: <i class="kd" style="background:#1D4ED8"></i>cut <i class="kd" style="background:#9CA3AF"></i>hold <i class="kd" style="background:#C2410C"></i>hike</span>
-      <span>Tap a dot to jump to that event</span>
-    </div>
+  <section class="foot-line" aria-label="More">
+    {quiet_line}
+    <details class="more"><summary>How these stories connect</summary>
+      <div class="chain-row">{chain_row(site['chain'])}<span class="arr" aria-hidden="true" style="padding:0 6px">·</span>{chain_row(site['chain2']).replace('→', '↔')}</div>
+    </details>
+    <details class="more"><summary>How to read the timeline dots</summary>
+      <div class="legend">
+        <span><i class="kd" style="background:#3F444E"></i>Event</span>
+        <span><i class="kd" style="width:18px;height:18px;background:#3F444E;color:#fff;font-size:10px;font-weight:700;font-style:normal;display:inline-flex;align-items:center;justify-content:center">3</i>Several events close together</span>
+        <span><i class="kd" style="width:14px;height:14px;background:#3F444E;box-shadow:0 0 0 3px #fff,0 0 0 6px #3F444E33"></i>Latest</span>
+        <span><i class="kd" style="width:12px;height:12px;border:2px dashed #3F444E;box-sizing:border-box"></i>Scheduled or forecast</span>
+        <span>RBI: <i class="kd" style="background:#1D4ED8"></i>cut <i class="kd" style="background:#9CA3AF"></i>hold <i class="kd" style="background:#C2410C"></i>hike</span>
+        <span>Tap a dot to jump to that event</span>
+      </div>
+    </details>
   </section>
   <p class="note" style="margin-top:28px">Every event links to the outlets that reported it and, where available, the original document. Forecasts are labelled as forecasts, and disagreements between sources are flagged. <a href="/about/">How Newspin works</a></p>
 </div>

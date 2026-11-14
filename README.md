@@ -8,7 +8,7 @@ A static website: India's biggest ongoing stories as sourced timelines. No serve
 data/site.json            site settings, home-page order, "how stories connect" chain
 data/stories/*.json       one file per story (events, numbers, sources, glance)
 static/styles.css         all styles
-static/app.js             follow, catch-me-up, Simple/Detailed, filters, share (stored in the reader's browser only)
+static/app.js             follow, catch-me-up, Simple/Detailed, listen, share (stored in the reader's browser only)
 build.py                  turns data/ into the finished site in dist/
 dist/                     the finished site: upload this folder
 ```
@@ -47,7 +47,17 @@ Stories are ranked automatically; there is no manual order. Each story's score i
 - **importance × 2:** `"importance"` in the story file, 1 (niche) to 5 (huge)
 - **activity:** 1 point per event added in the last 14 days, up to 4
 
-The top two stories are shown large. A story with no new event for 60 days, and nothing scheduled within 30 days, moves to "Quiet for now" until it gets a new event. Readers can switch the order to Latest update, Coming up or Biggest stories. The ranking runs in `build.py` and again in the reader's browser (`static/app.js`), so the order stays current between rebuilds. Keep the two in step if you change the formula.
+The home page, top to bottom:
+
+- **Greeting and story bubbles:** the top eight stories; tapping one opens "Catch me up".
+- **Lead card:** the highest-ranked story.
+- **Next strip:** firm, dated events coming up.
+- **Moving now:** up to four stories in the full card style, with news in the last 48 hours (topped up with the next highest-ranked stories if fewer moved). The roll-ups `ai-this-week` and `ai-model-tracker` are left out here and in Latest updates, because they repeat news from each company's timeline (`ROLLUPS` in `build.py`). Followed stories are not forced in.
+- **Latest updates:** the eight newest events across all stories, grouped by day, each linking to that event.
+- **All timelines:** every active story as one line in four groups (AI, India economy, World and US, Policy and everyday; see `home_group()`). A green dot means its latest event is from today or yesterday. On phones the groups fold, with the first open.
+- **Quiet for now:** a story with no new event for 60 days, and nothing scheduled within 30 days, is listed in one line at the bottom until it gets a new event.
+
+The ranking runs in `build.py` (and the same formula exists in `static/app.js`). Keep the two in step if you change the formula.
 
 ## Updating stories
 
@@ -63,7 +73,7 @@ Optional: `"key": true` highlights it, `"differs": "…"` adds a Sources differ 
 
 Phases: cut, hold, hike, data, forecast, policy, market, world, trade, law, tech.
 
-Each story also has `"regions"` (any of India, World, US), which drives the region filter on the home page, and a `category` (Economy, Markets, Trade, World, Policy, Tech). Stories that started less than four months ago get a zoomed-in timeline track automatically.
+Each story also has `"regions"` (any of India, World, US), and a `category` (Economy, Markets, Trade, World, Policy, Tech). Stories that started less than four months ago get a zoomed-in timeline track automatically.
 
 Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `tone`, `next`), `glance` and `upcoming` as the story moves. Then run `python3 build.py` and upload `dist/` again.
 

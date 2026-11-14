@@ -40,6 +40,7 @@
   ],
   "order": [
     "inflation-2026",
+    "us-flights-ground-stop",
     "union-budget-2027",
     "delhi-air-2026",
     "rbi-rate-cycle",
@@ -72,7 +73,8 @@
     "Trade",
     "World",
     "Policy",
-    "Tech"
+    "Tech",
+    "Travel"
   ],
   "regions": [
     "All",

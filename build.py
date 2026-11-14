@@ -34,8 +34,9 @@ PHASES = {
     "law": ("Law", "#3F444E", "#EEEEEA", None),
     "tech": ("Tech", "#0B5A8A", "#E6F1FA", None),
     "ai": ("AI", "#7A2E8E", "#F6EAF8", None),
+    "travel": ("Travel", "#0E7490", "#E0F4F8", None),
 }
-CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech": "#0B5A8A", "AI": "#7A2E8E"}
+CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech": "#0B5A8A", "AI": "#7A2E8E", "Travel": "#0E7490"}
 
 ICON_PLAY = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>'
 ICON_BELL = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>'
@@ -312,7 +313,7 @@ def rank(f, today):
 # Bright gradients for the home-page story bubbles (white letters stay readable on both stops)
 BUBBLE_BG = {"Economy": ("#2563EB", "#60A5FA"), "Markets": ("#047857", "#10B981"), "World": ("#6D28D9", "#A78BFA"),
              "Trade": ("#C2410C", "#F97316"), "Policy": ("#BE185D", "#F472B6"), "Tech": ("#0369A1", "#0EA5E9"),
-             "AI": ("#A21CAF", "#E879F9")}
+             "AI": ("#A21CAF", "#E879F9"), "Travel": ("#0E7490", "#22D3EE")}
 
 
 def bubble_bg(cat):
@@ -320,7 +321,7 @@ def bubble_bg(cat):
     return f"linear-gradient(135deg,{a},{b})"
 
 
-CAT_BG = {"Economy": "#1D3FB0", "Markets": "#0B5A4C", "World": "#4A2F82", "Trade": "#8A2E0E", "Policy": "#353A45", "Tech": "#0B5A8A", "AI": "#6A2380"}
+CAT_BG = {"Economy": "#1D3FB0", "Markets": "#0B5A4C", "World": "#4A2F82", "Trade": "#8A2E0E", "Policy": "#353A45", "Tech": "#0B5A8A", "AI": "#6A2380", "Travel": "#0B5E73"}
 
 
 def sm_data(s):
@@ -338,7 +339,7 @@ def sm_data(s):
 # Home v3: roll-up stories repeat news that already sits in each company's timeline,
 # so they stay out of "Moving now" and "Latest updates" (they still appear in the AI group).
 ROLLUPS = {"ai-this-week", "ai-model-tracker"}
-HOME_GROUPS = ["AI", "India economy", "World and US", "Policy and everyday"]
+HOME_GROUPS = ["AI", "India economy", "World and US", "Travel and everyday"]
 
 
 def home_group(s):
@@ -349,7 +350,7 @@ def home_group(s):
         return "India economy"
     if cat == "World" or (cat == "Tech" and regions != ["India"]):
         return "World and US"
-    return "Policy and everyday"
+    return "Travel and everyday"
 
 
 def day_label(x, today):

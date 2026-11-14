@@ -1,0 +1,238 @@
+{
+ "slug": "us-flights-ground-stop",
+ "short": "US ground stop",
+ "category": "Travel",
+ "regions": [
+  "US",
+  "World"
+ ],
+ "title": "All US flights halted: the FAA ground stop, hour by hour",
+ "dek": "Why every departure in the United States stopped for about four hours on Friday, what officials say caused it, and what it means if you are flying this weekend.",
+ "seoTitle": "US FAA nationwide ground stop: timeline in IST",
+ "importance": 4,
+ "status": "Lifted · recovery under way",
+ "tone": "hot",
+ "big": "10,000+",
+ "delta": "flights disrupted",
+ "bigLabel": "Flights delayed or cancelled during Friday's nationwide ground stop, per CNBC. Counts differ between flight trackers and keep changing.",
+ "updated": "2026-11-14",
+ "glance": {
+  "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
+  "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
+  "next": "Officials say there was no cyber attack. Transportation Secretary Sean Duffy blames old equipment and says more outages will follow unless it is replaced. Watch for a fuller explanation and for how quickly airlines recover."
+ },
+ "keyNumbers": [
+  {
+   "label": "Ground stop",
+   "value": "≈ 4 hrs 20 min",
+   "note": "2:24 am to 6:45 am IST, 14 Nov"
+  },
+  {
+   "label": "Cancelled Friday",
+   "value": "6,000+",
+   "note": "FlightAware, 9 pm US Eastern"
+  },
+  {
+   "label": "Cancelled Saturday",
+   "value": "2,000+",
+   "note": "FlightAware, as reported by CNN"
+  },
+  {
+   "label": "Cause",
+   "value": "Overloaded routers",
+   "note": "per Transportation Secretary"
+  }
+ ],
+ "forYou": "Flying to, from or within the US this weekend? Check your flight status with the airline before leaving for the airport. Delta and United are letting affected passengers change flights without a fee. Under US Transportation Department rules, if your flight is cancelled and you do not accept another flight, you are entitled to a refund.",
+ "upcoming": [],
+ "next": "How fast airlines recover over the weekend, and a fuller account of what failed.",
+ "links": [
+  "microsoft-365-outage"
+ ],
+ "events": [
+  {
+   "date": "2023-01-11",
+   "dateLabel": "11 Jan 2023",
+   "phase": "travel",
+   "title": "The last nationwide ground stop",
+   "summary": "Background: the FAA last halted departures across the US when its NOTAM system failed. NOTAMs are the safety notices that warn pilots about hazards such as closed runways. Before that, the last nationwide stop was on 11 September 2001.",
+   "status": "Confirmed · FAA",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia: 2023 FAA system outage",
+     "url": "https://en.wikipedia.org/wiki/2023_FAA_system_outage",
+     "primary": true
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "2:24 am IST, 14 Nov",
+   "phase": "travel",
+   "key": true,
+   "title": "FAA stops all departures across the US",
+   "summary": "Just before 4 pm US Eastern time on Friday, the FAA orders a ground stop for all US airports after \"communication issues impacting multiple Air Route Traffic Control Centers\", which guide planes at high altitude between airports. Planes already in the air keep flying to their destinations. Some flights over the ocean and from Alaska and Hawaii are allowed to leave.",
+   "status": "Confirmed · FAA",
+   "numbers": [
+    {
+     "k": "Flights in the air",
+     "v": "≈ 3,100–4,000"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Flightradar24",
+     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/",
+     "primary": true
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+    }
+   ],
+   "differs": "Counts of flights in the air when the stop began vary: Flightradar24 reported about 3,100 heading to US airports just after the order and 4,042 bound for the US at the moment it was issued; Fox News reported more than 3,500 airborne.",
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "Early hours IST, 14 Nov",
+   "phase": "travel",
+   "title": "Officials: a telecommunications outage, not an attack",
+   "summary": "The FAA says the problem is not a cyber attack. Homeland Security Secretary Markwayne Mullin calls it \"a telecommunication outage\" and says all flights are accounted for. Airlines pause new departures and cancellations start to climb.",
+   "status": "Stated · FAA, Homeland Security",
+   "numbers": [
+    {
+     "k": "Cancelled (≈ 7 pm ET)",
+     "v": "4,000+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+     "primary": true
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "6:45 am IST, 14 Nov",
+   "phase": "travel",
+   "key": true,
+   "title": "Ground stop lifted after about four hours",
+   "summary": "The FAA lifts the stop at 8:15 pm US Eastern time. It says it tested its systems first to make sure they were stable. Delta and United say they are resuming flights, but airlines warn that delays and cancellations will continue into the weekend.",
+   "status": "Confirmed · FAA",
+   "numbers": [
+    {
+     "k": "Flights disrupted",
+     "v": "10,000+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+     "primary": true
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+    },
+    {
+     "name": "Flightradar24",
+     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+    }
+   ],
+   "differs": "CNBC and NPR describe the stop as lasting about four hours; CBS News says about five.",
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "≈ 7 am IST, 14 Nov",
+   "phase": "travel",
+   "key": true,
+   "title": "Duffy blames old equipment: \"It got overloaded\"",
+   "summary": "At a late-night press conference, Transportation Secretary Sean Duffy says old switches and routers that carry air traffic data were overloaded and began giving inconsistent data. Mullin says new security patches added to the older system appear to have overwhelmed the routers, and that the outage is not linked to the Microsoft outage a day earlier. Duffy warns there will be more such outages unless the system is upgraded and calls for funding, saying \"This is an emergency.\"",
+   "status": "Stated · US Transportation Secretary",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+     "primary": true
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop"
+    }
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "Saturday, 14 Nov",
+   "phase": "travel",
+   "title": "Thousands more cancellations as airlines recover",
+   "summary": "FlightAware counts more than 2,000 flights within, into or out of the US cancelled for Saturday, as planes and crews are out of place after Friday's stop. Delta is letting passengers change Friday and Saturday flights without extra cost; United is waiving change fees for travel between 12 and 20 November.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Cancelled Saturday",
+     "v": "2,000+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+    },
+    {
+     "name": "Flightradar24",
+     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+    }
+   ],
+   "differs": "Cancellation totals vary by tracker and time: Axios cited FlightAware at more than 6,000 for Friday as of 9 pm ET; NPR cited about 7,000; Flightradar24 counted nearly 10,000 cancelled to or from US airports across Friday and Saturday.",
+   "added": "2026-11-14"
+  }
+ ]
+}

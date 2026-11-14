@@ -54,7 +54,7 @@ The home page, top to bottom:
 - **Next strip:** firm, dated events coming up.
 - **Moving now:** up to four stories in the full card style, with news in the last 48 hours (topped up with the next highest-ranked stories if fewer moved). The roll-ups `ai-this-week` and `ai-model-tracker` are left out here and in Latest updates, because they repeat news from each company's timeline (`ROLLUPS` in `build.py`). Followed stories are not forced in.
 - **Latest updates:** the eight newest events across all stories, grouped by day, each linking to that event.
-- **All timelines:** every active story as one line in four groups (AI, India economy, World and US, Policy and everyday; see `home_group()`). A green dot means its latest event is from today or yesterday. On phones the groups fold, with the first open.
+- **All timelines:** every active story as one line in four groups (AI, India economy, World and US, Travel and everyday; see `home_group()`). A green dot means its latest event is from today or yesterday. On phones the groups fold, with the first open.
 - **Quiet for now:** a story with no new event for 60 days, and nothing scheduled within 30 days, is listed in one line at the bottom until it gets a new event.
 
 The ranking runs in `build.py` (and the same formula exists in `static/app.js`). Keep the two in step if you change the formula.
@@ -73,7 +73,7 @@ Optional: `"key": true` highlights it, `"differs": "…"` adds a Sources differ 
 
 Phases: cut, hold, hike, data, forecast, policy, market, world, trade, law, tech.
 
-Each story also has `"regions"` (any of India, World, US), and a `category` (Economy, Markets, Trade, World, Policy, Tech). Stories that started less than four months ago get a zoomed-in timeline track automatically.
+Each story also has `"regions"` (any of India, World, US), and a `category` (Economy, Markets, Trade, World, Policy, Tech, AI, Travel). Stories that started less than four months ago get a zoomed-in timeline track automatically.
 
 Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `tone`, `next`), `glance` and `upcoming` as the story moves. Then run `python3 build.py` and upload `dist/` again.
 

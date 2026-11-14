@@ -9,23 +9,28 @@
  "dek": "From a clean October day to Diwali smog and Stage III curbs. How Delhi's air turned this season, and what the rules mean for you.",
  "seoTitle": "Delhi AQI and GRAP 2026: winter pollution timeline",
  "importance": 4,
- "status": "Severe · Stage III",
+ "status": "Very poor · Stage III",
  "tone": "hot",
- "big": "403",
- "delta": "severe",
- "bigLabel": "Delhi's AQI at 6 am on 13 Nov, the first 'severe' reading of the season, with 33 of 58 stations severe",
+ "big": "349",
+ "delta": "very poor",
+ "bigLabel": "Delhi's AQI at 7 am on 14 Nov (CPCB), down from the season's first 'severe' reading of 403 a day earlier",
  "updated": "2026-11-14",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403 and 33 of 58 stations in the severe band. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased to 349 ('very poor') on the morning of 14 November. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "The IMD expects 'very poor' to 'severe' air until 16 November. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "The IMD says light rain or drizzle and stronger winds are possible on Sunday 15 November, which may help clear the air. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
+   "label": "AQI, 14 Nov 7 am",
+   "value": "349",
+   "note": "very poor",
+   "hot": true
+  },
+  {
    "label": "AQI, 13 Nov 6 am",
    "value": "403",
-   "note": "severe",
-   "hot": true
+   "note": "first 'severe' of the season"
   },
   {
    "label": "GRAP stage",
@@ -36,11 +41,6 @@
    "label": "Diwali, 4 pm",
    "value": "376",
    "note": "worst since 2021"
-  },
-  {
-   "label": "Late October",
-   "value": "60",
-   "note": "after rain"
   }
  ],
  "forYou": "Check the AQI before going out, limit outdoor exercise on 'very poor' and 'severe' days, and follow the official CAQM orders for what Stage III restricts. If your car is registered outside Delhi and is not BS-VI, it can be turned back at the border until 31 January.",
@@ -61,7 +61,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "Whether the air commission moves to Stage IV, the strictest level, if AQI keeps rising.",
+ "next": "Whether Sunday's forecast rain and wind bring the AQI down, or the air commission moves to Stage IV if it rises again.",
  "links": [
   "west-asia-oil"
  ],
@@ -342,6 +342,41 @@
     }
    ],
    "numbers": [],
+   "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "14 Nov 2026",
+   "phase": "air",
+   "title": "Back to 'very poor'; light rain possible on Sunday",
+   "summary": "Delhi's AQI eases to 349 at 7 am, back in the 'very poor' band after a day of 'severe' air. Some stations are still 'severe', including IIT Delhi at 419. The weather office (IMD) says a western disturbance could bring very light rain or drizzle to parts of Delhi on Sunday, with stronger winds that may help clear the air. Stage III curbs stay in place.",
+   "status": "Official data",
+   "numbers": [
+    {
+     "k": "AQI, 7 am",
+     "v": "349"
+    },
+    {
+     "k": "IIT Delhi",
+     "v": "419"
+    }
+   ],
+   "differs": "ETV Bharat names four stations in the 'severe' band; The Week says two.",
+   "sources": [
+    {
+     "name": "ETV Bharat (CPCB data)",
+     "url": "https://www.etvbharat.com/en/bharat/air-quality-in-delhi-aqi-today-pollution-levels-updates-november-14-enn26111400647",
+     "primary": true
+    },
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/india/2026/11/14/delhi-weather-update-imd-predicts-rain-on-sunday-will-it-bring-respite-from-toxic-air.html"
+    },
+    {
+     "name": "IANS via Punjab Kesari",
+     "url": "https://english.punjabkesari.com/india/delhi-air-quality-sees-marginal-improvement-with-349-aqi"
+    }
+   ],
    "added": "2026-11-14"
   }
  ]

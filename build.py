@@ -309,6 +309,17 @@ def rank(f, today):
 
 
 # ---------- story mode data (used by "Catch me up") ----------
+# Bright gradients for the home-page story bubbles (white letters stay readable on both stops)
+BUBBLE_BG = {"Economy": ("#2563EB", "#60A5FA"), "Markets": ("#047857", "#10B981"), "World": ("#6D28D9", "#A78BFA"),
+             "Trade": ("#C2410C", "#F97316"), "Policy": ("#BE185D", "#F472B6"), "Tech": ("#0369A1", "#0EA5E9"),
+             "AI": ("#A21CAF", "#E879F9")}
+
+
+def bubble_bg(cat):
+    a, b = BUBBLE_BG.get(cat, ("#334155", "#64748B"))
+    return f"linear-gradient(135deg,{a},{b})"
+
+
 CAT_BG = {"Economy": "#1D3FB0", "Markets": "#0B5A4C", "World": "#4A2F82", "Trade": "#8A2E0E", "Policy": "#353A45", "Tech": "#0B5A8A", "AI": "#6A2380"}
 
 
@@ -433,7 +444,7 @@ def build_home(site, stories, order, axis):
     bubble_slugs = ([hero_slug] + grid_live)[:8]
     bubbles = "".join(
         f'<li><button type="button" class="bubble" data-sm-open="{e(x)}" aria-label="Catch up on {e(stories[x]["short"])}">'
-        f'<span class="ring"><span class="face" style="background:{CAT_BG.get(stories[x]["category"], "#353A45")}">{e(stories[x]["short"][0].upper())}</span></span>'
+        f'<span class="ring"><span class="face" style="background:{bubble_bg(stories[x]["category"])}">{e(stories[x]["short"][0].upper())}</span></span>'
         f'<span class="bl">{e(stories[x]["short"])}</span></button></li>' for x in bubble_slugs)
 
     # lead story

@@ -26,6 +26,14 @@
     return dt.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   }
 
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function copied(btn) {
+    if (btn.classList.contains('copied')) return;
+    var tick = document.createElement('span'); tick.className = 'tick'; tick.setAttribute('aria-hidden', 'true'); tick.textContent = '✓';
+    btn.classList.add('copied'); btn.insertBefore(tick, btn.firstChild);
+    setTimeout(function () { btn.classList.remove('copied'); if (tick.parentNode) tick.parentNode.removeChild(tick); }, 1600);
+  }
+
   // ---- toast ----
   var toast = document.getElementById('toast');
   var toastTimer;
@@ -48,10 +56,9 @@
     btn.addEventListener('click', function () {
       var slug = btn.getAttribute('data-follow');
       if (follows[slug]) { delete follows[slug]; say('Unfollowed'); }
-      else { follows[slug] = today; if (!seen[slug]) seen[slug] = today; save('np_seen', seen); say('Following. We’ll catch you up here.'); }
+      else { follows[slug] = today; if (!seen[slug]) seen[slug] = today; save('np_seen', seen); say('Following. You’ll see a green ring when it moves.'); btn.classList.remove('swing'); void btn.offsetWidth; btn.classList.add('swing'); }
       save('np_follow', follows);
       document.querySelectorAll('[data-follow="' + slug + '"]').forEach(paintFollow);
-      renderCatchup();
     });
   });
 
@@ -61,7 +68,7 @@
       var url = btn.getAttribute('data-share') || location.href;
       var title = document.title;
       if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
-      if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () { say('Link copied'); }, function () { say(url); }); }
+      if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () { say('Link copied'); copied(btn); }, function () { say(url); }); }
       else { say(url); }
     });
   });
@@ -191,6 +198,82 @@
     });
   })();
 
+  // ---- micro-interactions ----
+  (function () {
+    // bubbles: stagger the green ring drawing in
+    document.querySelectorAll('.bubbles > li').forEach(function (li, i) { li.style.setProperty('--i', i); });
+
+    // a single soft pulse on stories that changed since the reader last opened them
+    if (!reduceMotion) {
+      document.querySelectorAll('.card[data-slug]').forEach(function (c) {
+        var slug = c.getAttribute('data-slug'), last = seen[slug];
+        var added = (c.getAttribute('data-added') || '').split(' ').sort().pop();
+        if (last && added > last) c.classList.add('pulse');
+      });
+      document.querySelectorAll('[data-ix]').forEach(function (a) {
+        var slug = a.getAttribute('data-ix'), last = seen[slug];
+        var s = (window.NP_STORIES || []).filter(function (x) { return x.slug === slug; })[0];
+        if (last && s && s.latestAdded > last) a.classList.add('pulse');
+      });
+    }
+
+    // Moving now on phones: position dots under the swipe row
+    var row = document.querySelector('.cards.moving');
+    if (row && row.children.length > 1) {
+      var dots = document.createElement('div'); dots.className = 'mv-dots'; dots.setAttribute('aria-hidden', 'true');
+      Array.prototype.forEach.call(row.children, function () { dots.appendChild(document.createElement('i')); });
+      row.parentNode.insertBefore(dots, row.nextSibling);
+      var paintDots = function () {
+        var w = row.children[0].getBoundingClientRect().width || 1;
+        var idx = Math.round(row.scrollLeft / (w + 12));
+        if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 4) idx = row.children.length - 1;
+        Array.prototype.forEach.call(dots.children, function (d, i) { d.classList.toggle('on', i === idx); });
+      };
+      row.addEventListener('scroll', function () { requestAnimationFrame(paintDots); }, { passive: true });
+      paintDots();
+    }
+
+    // story page: key numbers count up the first time they are seen
+    var vals = document.querySelectorAll('.keynums .v');
+    if (vals.length && !reduceMotion && 'IntersectionObserver' in window) {
+      var run = function (el) {
+        var orig = el.textContent;
+        var m = orig.match(/^([^\d]*?)(\d[\d,]*(?:\.\d+)?)([^\d]*)$/);
+        if (!m) return;
+        var target = parseFloat(m[2].replace(/,/g, '')), dec = (m[2].split('.')[1] || '').length;
+        if (!isFinite(target) || target === 0) return;
+        var t0 = null, dur = 800;
+        el.style.fontVariantNumeric = 'tabular-nums';
+        var tick = function (ts) {
+          if (!t0) t0 = ts;
+          var k = Math.min(1, (ts - t0) / dur), ease = 1 - Math.pow(1 - k, 3);
+          var v = (target * ease).toLocaleString('en-IN', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+          el.textContent = k < 1 ? m[1] + v + m[3] : orig;
+          if (k < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { io.unobserve(en.target); run(en.target); } });
+      }, { threshold: 0.6 });
+      vals.forEach(function (v) { io.observe(v); });
+    }
+
+    // story page: reading progress line under the header
+    var tl = document.querySelector('ol.events'), head = document.querySelector('.site-header');
+    if (tl && head) {
+      var bar = document.createElement('div'); bar.className = 'read-progress'; bar.setAttribute('aria-hidden', 'true');
+      var fill = document.createElement('i'); bar.appendChild(fill); head.appendChild(bar);
+      var paintBar = function () {
+        var r = tl.getBoundingClientRect(), vh = window.innerHeight;
+        var k = Math.max(0, Math.min(1, (vh - r.top) / (r.height + vh * 0.5)));
+        fill.style.transform = 'scaleX(' + k.toFixed(3) + ')';
+      };
+      window.addEventListener('scroll', function () { requestAnimationFrame(paintBar); }, { passive: true });
+      paintBar();
+    }
+  })();
+
   // ---- theme ----
   var themeBtn = document.getElementById('theme-btn');
   function paintTheme() {
@@ -202,6 +285,7 @@
   if (themeBtn) themeBtn.addEventListener('click', function () {
     var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
+    themeBtn.classList.remove('spin'); void themeBtn.offsetWidth; themeBtn.classList.add('spin');
     try { localStorage.setItem('np_theme', next); } catch (e) {}
     paintTheme();
   });
@@ -379,7 +463,7 @@
     function buildBar() {
       bar = document.createElement('div'); bar.className = 'np-player'; bar.hidden = true;
       bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', 'Audio player');
-      bar.innerHTML = '<div class="pl-info"><span class="pl-kick">Listening</span><span class="pl-now" aria-live="polite"></span></div>' +
+      bar.innerHTML = '<span class="pl-wave" aria-hidden="true"><i></i><i></i><i></i><i></i></span><div class="pl-info"><span class="pl-kick">Listening</span><span class="pl-now" aria-live="polite"></span></div>' +
         '<div class="pl-ctrls"><button type="button" class="pl-pp" aria-label="Pause">❚❚</button><button type="button" class="pl-next" aria-label="Skip to next">⏭</button>' +
         '<button type="button" class="pl-rate" aria-label="Playback speed">1×</button><button type="button" class="pl-x" aria-label="Stop and close player">×</button></div>';
       document.body.appendChild(bar);
@@ -400,6 +484,7 @@
       var pp = bar.querySelector('.pl-pp'); pp.textContent = playing ? '❚❚' : '▶'; pp.setAttribute('aria-label', playing ? 'Pause' : 'Play');
       bar.querySelector('.pl-rate').textContent = rate + '×';
       document.body.classList.toggle('has-player', !bar.hidden);
+      bar.classList.toggle('playing', !!playing);
       document.querySelectorAll('.speaking').forEach(function (el) { el.classList.remove('speaking'); });
       if (it && it.el && playing) it.el.classList.add('speaking');
     }

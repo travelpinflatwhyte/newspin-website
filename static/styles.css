@@ -280,9 +280,11 @@ button{font-family:inherit}
 
 /* ---------- header theme toggle ---------- */
 .theme-btn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;margin-left:auto;flex:0 0 auto}
-.theme-btn .i-sun{display:none}
-[data-theme="dark"] .theme-btn .i-sun{display:block}
-[data-theme="dark"] .theme-btn .i-moon{display:none}
+.theme-btn{position:relative}
+.theme-btn svg{position:absolute;inset:0;margin:auto;transition:transform .45s cubic-bezier(.2,.8,.2,1),opacity .3s}
+.theme-btn .i-sun{opacity:0;transform:rotate(-90deg) scale(.5)}
+[data-theme="dark"] .theme-btn .i-sun{opacity:1;transform:none}
+[data-theme="dark"] .theme-btn .i-moon{opacity:0;transform:rotate(90deg) scale(.5)}
 
 /* ---------- home: greeting + story bubbles ---------- */
 .tight{font-family:"Inter Tight",var(--sans)}
@@ -507,4 +509,56 @@ body.has-player{padding-bottom:90px}
   .ix-group summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin-top:-4px}
   .ix-group[open] summary::after{transform:rotate(-135deg);margin-top:4px}
   .ix-group .ix{padding-bottom:8px}
+}
+
+/* ---------- micro-interactions ---------- */
+@property --p{syntax:"<percentage>";inherits:false;initial-value:100%}
+.bubble .ring{position:relative;transition:transform .2s ease,border-color .4s ease}
+.bubble.new .ring{border-color:var(--line)}
+.bubble.new .ring::before{content:"";position:absolute;inset:-3px;border-radius:50%;background:conic-gradient(var(--pin) var(--p),transparent 0);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 3px))}
+.mv-dots{display:none}
+.read-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:70;pointer-events:none}
+.read-progress i{display:block;height:100%;background:var(--pin);transform-origin:0 50%;transform:scaleX(0)}
+.btn .tick{display:inline-flex;font-weight:800;color:var(--pin-ink)}
+.btn.copied svg{display:none}
+[data-theme="dark"] .btn .tick{color:var(--pin)}
+.pl-wave{display:none;align-items:flex-end;gap:3px;height:18px;flex:0 0 auto}
+.pl-wave i{width:3px;height:30%;border-radius:2px;background:#6FC39C}
+.np-player.playing .pl-wave{display:inline-flex}
+.ix a,.lu-item a{transition:background-color .15s ease}
+@media (hover:hover){
+  .ix a:hover,.lu-item a:hover{background:linear-gradient(90deg,transparent,var(--line-2) 12%,var(--line-2) 88%,transparent)}
+}
+@media (max-width:640px){
+  .mv-dots{display:flex;justify-content:center;gap:6px;margin-top:10px}
+  .mv-dots i{width:6px;height:6px;border-radius:3px;background:var(--line);transition:width .25s ease,background-color .25s ease}
+  .mv-dots i.on{width:18px;background:var(--pin)}
+}
+@media (prefers-reduced-motion:no-preference){
+  :root{interpolate-size:allow-keywords}
+  @view-transition{navigation:auto}
+  ::view-transition-old(root),::view-transition-new(root){animation-duration:.22s}
+  ::view-transition-group(*){animation-duration:.35s;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+  .bubble.new .ring::before{animation:np-draw .9s cubic-bezier(.3,.7,.2,1) both;animation-delay:calc(var(--i,0) * 70ms + .15s)}
+  @keyframes np-draw{from{--p:0%}to{--p:100%}}
+  .card{transition:transform .2s ease,box-shadow .2s ease}
+  @media (hover:hover){.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(16,24,40,.10)}}
+  .card:active,.bubble:active .ring,.ix a:active,.lu-item a:active{transform:scale(.985)}
+  .card.pulse{animation:np-pulse 1.8s ease-out .4s 1}
+  .ix a.pulse .ix-dot{animation:np-dot 1.6s ease-out .4s 2}
+  @keyframes np-pulse{0%{box-shadow:0 0 0 0 rgba(75,156,120,.45)}100%{box-shadow:0 0 0 14px rgba(75,156,120,0)}}
+  @keyframes np-dot{0%{box-shadow:0 0 0 0 rgba(75,156,120,.6)}100%{box-shadow:0 0 0 8px rgba(75,156,120,0)}}
+  .story-track .dot.latest::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--c-ink,#3F444E);opacity:0;animation:np-ripple 1.4s ease-out .5s 1}
+  @keyframes np-ripple{0%{transform:scale(.6);opacity:.7}100%{transform:scale(2.4);opacity:0}}
+  .ev-card details::details-content,.more::details-content{height:0;overflow:clip;transition:height .28s ease,content-visibility .28s allow-discrete}
+  .ev-card details[open]::details-content,.more[open]::details-content{height:auto}
+  .btn-follow.swing svg{animation:np-swing .7s ease-in-out 1;transform-origin:50% 10%}
+  @keyframes np-swing{0%{transform:rotate(0)}20%{transform:rotate(18deg)}40%{transform:rotate(-14deg)}60%{transform:rotate(8deg)}80%{transform:rotate(-4deg)}100%{transform:rotate(0)}}
+  .btn .tick{animation:np-pop .3s cubic-bezier(.3,1.6,.5,1) 1}
+  @keyframes np-pop{from{transform:scale(.3);opacity:0}to{transform:none;opacity:1}}
+  .pl-wave i{animation:np-wave 1s ease-in-out infinite}
+  .pl-wave i:nth-child(2){animation-delay:-.75s}.pl-wave i:nth-child(3){animation-delay:-.5s}.pl-wave i:nth-child(4){animation-delay:-.25s}
+  @keyframes np-wave{0%,100%{height:25%}50%{height:100%}}
+  .toast:not([hidden]){animation:np-toast .25s ease-out 1}
+  @keyframes np-toast{from{opacity:0;transform:translate(-50%,8px)}to{opacity:1;transform:translate(-50%,0)}}
 }

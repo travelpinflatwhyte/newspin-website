@@ -175,7 +175,7 @@ def track_html(s, axis, dark=False, link_prefix=""):
         elif ev["phase"] == "forecast":
             parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:12px;height:12px;background:var(--surface);border:2px dashed #5B3A9A"></a>')
         elif has_latest:
-            parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:16px;height:16px;background:{color};box-shadow:0 0 0 3px var(--surface),0 0 0 7px {color}33"></a>')
+            parts.append(f'<a class="dot latest" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:16px;height:16px;background:{color};box-shadow:0 0 0 3px var(--surface),0 0 0 7px {color}33"></a>')
         else:
             parts.append(f'<a class="dot" href="{e(href)}" title="{e(tip)}" style="left:{p:.2f}%;width:11px;height:11px;background:{color};box-shadow:0 0 0 2.5px var(--surface)"></a>')
     if ups:  # only the next scheduled event gets a dot; the dashed line shows anything later
@@ -426,7 +426,7 @@ def build_home(site, stories, order, axis):
     <span class="big-label">{e(s['bigLabel'])}</span>
   </div>
   <div class="card-body">
-    <h3><a href="/stories/{e(slug)}/">{e(s['title'])}</a></h3>
+    <h3 style="view-transition-name:t-{e(slug)}"><a href="/stories/{e(slug)}/">{e(s['title'])}</a></h3>
     {stands}
     {track_html(s, axis, link_prefix=f"/stories/{slug}/")}
     <div class="latest"><span class="d">{e(latest['dateLabel'])}</span><span class="t">{e(latest['title'])}</span></div>
@@ -460,7 +460,7 @@ def build_home(site, stories, order, axis):
   <section class="lead {cat_class(h['category'])}" aria-labelledby="lead-h">
     <div class="lead-main">
       <div class="lead-tags"><span class="live-tag">Top story · updated {e(short_date(d(h['updated']), today))}</span><span class="lead-cat">{e(h['category'])} · {e(regions)}</span></div>
-      <h2 id="lead-h"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h2>
+      <h2 id="lead-h" style="view-transition-name:t-{e(hero_slug)}"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h2>
       <p>{e(hero_dek)}</p>
       <div class="lead-actions">
         <button type="button" class="btn btn-pill-light" data-sm-open="{e(hero_slug)}">Catch me up · {n_ev} events</button>
@@ -673,7 +673,7 @@ def build_story(site, stories, s, axis):
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Timelines</a> / {e(s['category'])}</nav>
   <section class="story-hero" aria-labelledby="t">
     <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span><span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
-    <h1 id="t">{e(s['title'])}</h1>
+    <h1 id="t" style="view-transition-name:t-{e(slug)}">{e(s['title'])}</h1>
     <p class="dek">{e(s['dek'])}</p>
     <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light listen-btn" data-listen-story="{e(slug)}" hidden>{ICON_PLAY}Listen</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
   </section>

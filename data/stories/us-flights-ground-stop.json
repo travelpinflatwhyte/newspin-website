@@ -29,13 +29,13 @@
   },
   {
    "label": "Cancelled Friday",
-   "value": "6,000+",
-   "note": "FlightAware, 9 pm US Eastern"
+   "value": "9,000+",
+   "note": "FlightAware final count of 9,138, via Men's Journal"
   },
   {
    "label": "Cancelled Saturday",
-   "value": "2,000+",
-   "note": "FlightAware, as reported by CNN"
+   "value": "3,400+",
+   "note": "FlightAware, 6:45 am US Eastern (5:15 pm IST), via Men's Journal"
   },
   {
    "label": "Cause",
@@ -206,33 +206,37 @@
   },
   {
    "date": "2026-11-14",
-   "dateLabel": "Saturday, 14 Nov",
+   "dateLabel": "Saturday, 14 Nov (5:15 pm IST count)",
    "phase": "travel",
-   "title": "Thousands more cancellations as airlines recover",
-   "summary": "FlightAware counts more than 2,000 flights within, into or out of the US cancelled for Saturday, as planes and crews are out of place after Friday's stop. Delta is letting passengers change Friday and Saturday flights without extra cost; United is waiving change fees for travel between 12 and 20 November.",
+   "title": "More than 3,400 Saturday flights cancelled as airlines recover",
+   "summary": "FlightAware counts more than 3,400 flights within, into or out of the US cancelled by Saturday morning (6:45 am US Eastern, 5:15 pm IST), as planes and crews are out of place after Friday's stop. Delta has cancelled 629 flights, about 20% of its schedule, and JetBlue 335, about 40%. Delta is letting passengers change Friday and Saturday flights without extra cost; United is waiving change fees for travel between 12 and 20 November. Officials say the system should be working normally in time for Thanksgiving travel later this month.",
    "status": "Reported",
    "numbers": [
     {
      "k": "Cancelled Saturday",
-     "v": "2,000+"
+     "v": "3,400+"
     }
    ],
    "sources": [
     {
-     "name": "CNN",
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+     "name": "Men's Journal",
+     "url": "https://www.mensjournal.com/news/faa-ground-stop-saturday-flight-cancellations",
      "primary": true
+    },
+    {
+     "name": "AP (via Now Georgia)",
+     "url": "https://nowgeorgia.com/thousands-of-flights-canceled-as-airlines-work-to-dig-out-from-nationwide-ground-stop/"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
     },
     {
      "name": "ABC News",
      "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
-    },
-    {
-     "name": "Flightradar24",
-     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
     }
    ],
-   "differs": "Cancellation totals vary by tracker and time: Axios cited FlightAware at more than 6,000 for Friday as of 9 pm ET; NPR cited about 7,000; Flightradar24 counted nearly 10,000 cancelled to or from US airports across Friday and Saturday.",
+   "differs": "Counts vary by outlet and time: Men's Journal cites FlightAware at more than 3,400 Saturday cancellations as of 6:45 am ET; an AP report the same morning cites FlightAware at more than 2,500 (and more than 2,000 in its opening line). For Friday, Men's Journal cites FlightAware at 9,138 cancellations; earlier counts were about 6,000 (Axios, 9 pm ET) and about 7,000 (NPR).",
    "added": "2026-11-14"
   }
  ]

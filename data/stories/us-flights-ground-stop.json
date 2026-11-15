@@ -34,13 +34,18 @@
   },
   {
    "label": "Cancelled Saturday",
-   "value": "5,000+",
-   "note": "FlightAware, 2:48 pm US Eastern (1:18 am IST 15 Nov), via Yahoo News"
+   "value": "6,400+",
+   "note": "FlightAware via Reuters (Latin Times); ABC7 says nearly 6,500"
   },
   {
    "label": "Cause",
    "value": "Overloaded routers",
    "note": "on L3Harris-run FAA network, per Transportation Secretary"
+  },
+  {
+   "label": "Cancelled Sunday",
+   "value": "≈ 910",
+   "note": "early count, late Saturday US time (ABC7)"
   }
  ],
  "forYou": "Flying to, from or within the US this weekend? Check your flight status with the airline before leaving for the airport. Delta and United are letting affected passengers change flights without a fee. Under US Transportation Department rules, if your flight is cancelled and you do not accept another flight, you are entitled to a refund.",
@@ -330,6 +335,41 @@
     {
      "name": "CBS News",
      "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2026-11-15",
+   "dateLabel": "Sunday, 15 Nov",
+   "phase": "travel",
+   "title": "Saturday ends with about 6,400 cancellations; more than 900 Sunday flights already cancelled",
+   "summary": "Reuters, citing the flight tracker FlightAware, reports that Saturday ended with more than 6,400 US flights cancelled and more than 8,000 delayed, according to Latin Times. ABC7 puts Saturday's cancellations at nearly 6,500. By late Saturday US time, about 910 flights scheduled for Sunday had already been cancelled, both outlets report. The FAA reports no active ground stops. FAA chief Bryan Bedford has said he expects \"full schedule integrity by the close of business on Sunday\".",
+   "status": "Reported · FlightAware data",
+   "differs": "Saturday's cancellation total differs: more than 6,400 (Reuters via Latin Times) and nearly 6,500 (ABC7). Counts keep changing.",
+   "numbers": [
+    {
+     "k": "Cancelled Saturday",
+     "v": "6,400+"
+    },
+    {
+     "k": "Sunday flights cancelled (early count)",
+     "v": "≈ 910"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Latin Times",
+     "url": "https://www.latintimes.com/faa-flight-recovery-after-mass-cancellations-601362",
+     "primary": true
+    },
+    {
+     "name": "ABC7",
+     "url": "https://abc7.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20041434/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
     }
    ],
    "added": "2026-11-15"

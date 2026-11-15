@@ -14,11 +14,11 @@
  "big": "20.29%",
  "delta": "flights cancelled",
  "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "glance": {
   "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
-  "next": "SpiceJet's board meets on 18 November to consider raising fresh capital through shares, debt or a share sale to institutions."
+  "next": "SpiceJet's board meets on 18 November to consider raising fresh capital through shares, debt or a share sale to institutions. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
  "keyNumbers": [
   {
@@ -48,9 +48,19 @@
    "date": "2026-11-18",
    "label": "18 Nov",
    "text": "SpiceJet board meets to consider raising fresh capital"
+  },
+  {
+   "date": "2026-12-07",
+   "label": "7 Dec",
+   "text": "Deadline for SpiceJet to file its overdue March and June quarter results"
+  },
+  {
+   "date": "2026-12-10",
+   "label": "10 Dec",
+   "text": "BSE to suspend trading in SpiceJet shares if the results are not filed"
   }
  ],
- "next": "SpiceJet's board meets on 18 November to consider raising money.",
+ "next": "SpiceJet's board meets on 18 November to consider raising money; overdue results are due by 7 December to avoid a trading suspension.",
  "links": [
   "india-flying-winter-2026",
   "airfares-jet-fuel-2026"
@@ -296,6 +306,36 @@
    ],
    "added": "2026-11-14",
    "key": true
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov",
+   "phase": "travel",
+   "title": "Stock exchange warns of a trading halt; SpiceJet promises results by 7 December",
+   "summary": "The BSE (Bombay Stock Exchange) says in a notice issued on Monday that it will suspend trading in SpiceJet shares from 10 December, because the airline has not filed its results for the March and June 2026 quarters. The suspension will not happen if SpiceJet meets the listing rules by 7 December. On Friday SpiceJet says it will publish the overdue results by that deadline. A spokesperson tells Reuters: \"The completion of audit has taken longer time and hence caused delay in filing of results.\" SpiceJet's last results, published in February, covered October to December 2025.",
+   "status": "Confirmed · BSE notice, SpiceJet statement",
+   "numbers": [
+    {
+     "k": "Deadline to file",
+     "v": "7 Dec"
+    },
+    {
+     "k": "Suspension from",
+     "v": "10 Dec"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (Reuters)",
+     "url": "https://www.business-standard.com/companies/news/spicejet-to-file-overdue-financial-results-after-bse-warns-of-suspension-126111300636_1.html",
+     "primary": true
+    },
+    {
+     "name": "Daily Excelsior (UNI)",
+     "url": "https://www.dailyexcelsior.com/spicejet-must-file-pending-financial-results-by-dec-7-gets-bse-warning"
+    }
+   ],
+   "added": "2026-11-15"
   }
  ]
 }

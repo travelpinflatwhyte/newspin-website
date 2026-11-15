@@ -15,7 +15,7 @@
  "big": "< $4 tn",
  "delta": "market value, 13 Nov",
  "bigLabel": "Nvidia's market value at the 13 Nov close, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
@@ -465,6 +465,31 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "14 Nov 2026",
+   "phase": "policy",
+   "title": "Who might replace Huang: Trump backs Tim Cook; other names floated",
+   "summary": "On Thursday, hours after the resignation, President Donald Trump wrote on Truth Social that \"there is only one man to take his place - TIM COOK of Apple.\" Nvidia and Apple had not replied to requests for comment, per Newsweek. Business Insider reports that the Financial Times said Nvidia had approached Arm CEO Rene Haas, though it is not certain he would be offered the job or accept it, and that a person familiar with the matter told Semafor Apple hardware chief Johny Srouji is being considered. Analysts have also named Nvidia's Ian Buck and interim CEO Colette Kress. Nvidia has not named any candidates.",
+   "status": "Stated · Trump; candidate names Reported or analyst views",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Business Insider (via Yahoo Finance)",
+     "url": "https://uk.finance.yahoo.com/news/nvidias-ceo-search-top-candidates-163713679.html",
+     "primary": true
+    },
+    {
+     "name": "Newsweek",
+     "url": "https://www.newsweek.com/trump-tim-cook-replace-jensen-huang-nvidia-ceo-12706299"
+    },
+    {
+     "name": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board"
+    }
+   ],
+   "added": "2026-11-15"
   }
  ],
  "heroTitle": "Jensen Huang resigns as Nvidia CEO",

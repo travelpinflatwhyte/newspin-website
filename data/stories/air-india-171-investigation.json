@@ -1,0 +1,301 @@
+{
+ "slug": "air-india-171-investigation",
+ "short": "Air India 171",
+ "category": "Travel",
+ "regions": [
+  "India",
+  "World"
+ ],
+ "title": "Air India 171: the crash investigation, step by step",
+ "dek": "What the investigators have found so far about the June 2025 Ahmedabad crash that killed 260 people, what they have not, and why the final report is taking so long.",
+ "seoTitle": "Air India 171 crash investigation: full timeline",
+ "importance": 3,
+ "status": "Final report awaited",
+ "tone": "live",
+ "big": "260",
+ "delta": "lives lost",
+ "bigLabel": "241 of the 242 people on board and 19 people on the ground died when Air India flight 171 crashed in Ahmedabad on 12 June 2025",
+ "updated": "2026-11-15",
+ "glance": {
+  "what": "Air India flight 171, a Boeing 787-8 from Ahmedabad to London Gatwick, crashed about 32 seconds after take-off. A preliminary report found that the switches that send fuel to both engines moved to the off position about three seconds after lift-off, one second apart. It did not say why or how.",
+  "why": "It is the deadliest crash of a Boeing 787 and the type's first fatal accident. The investigation, by India's Aircraft Accident Investigation Bureau (AAIB), decides what changes airlines, Boeing and regulators may have to make. Its purpose is safety, not deciding who is to blame or who pays compensation.",
+  "next": "The AAIB said its draft final report would be ready around October 2026 and the government told the Supreme Court it would be filed in a sealed cover. The draft goes to the US safety board for comments before the final report is published. Newspin has not been able to confirm whether the draft was filed in October."
+ },
+ "keyNumbers": [
+  {
+   "label": "Time in the air",
+   "value": "≈ 32 sec",
+   "note": "from take-off to crash"
+  },
+  {
+   "label": "Between the two switches",
+   "value": "1 sec",
+   "note": "both moved to CUTOFF (AAIB)"
+  },
+  {
+   "label": "Investigation steps done",
+   "value": "49 of 66",
+   "note": "as of July 2026 (AAIB)"
+  },
+  {
+   "label": "Final report",
+   "value": "Awaited",
+   "note": "draft due around Oct 2026"
+  }
+ ],
+ "forYou": "The cause has not been established. No regulator has ordered changes to Boeing 787s: the preliminary report made no recommendations, and the US Federal Aviation Administration said in July 2025 that the fuel switch design is not an unsafe condition. The final report is what will say why the crash happened and what should change.",
+ "upcoming": [],
+ "next": "The AAIB's final report, after the US safety board's review.",
+ "links": [
+  "india-flying-winter-2026",
+  "airfares-jet-fuel-2026",
+  "us-flights-ground-stop"
+ ],
+ "events": [
+  {
+   "date": "2025-06-12",
+   "dateLabel": "1:38 pm IST, 12 Jun 2025",
+   "phase": "travel",
+   "title": "Flight 171 crashes seconds after take-off",
+   "summary": "The Boeing 787-8, bound for London Gatwick, crashes about 32 seconds after taking off from Ahmedabad and hits the campus of BJ Medical College. 241 of the 242 people on board die, including all 12 crew, along with 19 people on the ground; one passenger survives. Former Gujarat chief minister Vijay Rupani is among the victims. The Tata Group, which owns Air India, announces a voluntary payment to each victim's family.",
+   "status": "Confirmed · AAIB",
+   "numbers": [
+    {
+     "k": "Deaths",
+     "v": "260"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/business/aviation/air-india-ai171-crash-indias-aviation-investigation-body-says-probe-still-ongoing-a-year-later-1.500608879",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171"
+    }
+   ],
+   "added": "2026-11-15",
+   "key": true
+  },
+  {
+   "date": "2025-06-13",
+   "dateLabel": "13–24 Jun 2025",
+   "phase": "travel",
+   "title": "Flight recorders recovered and read in Delhi",
+   "summary": "The first flight recorder is found on 13 June and the second on 16 June. The DGCA orders extra checks on Air India's Boeing 787 fleet from 15 June. On 24 June, data from the front recorder is downloaded at the AAIB's lab in Delhi; the rear one is too damaged for standard recovery.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2025-06-28",
+   "dateLabel": "28 Jun 2025",
+   "phase": "travel",
+   "title": "All 260 victims identified",
+   "summary": "Authorities finish identifying the victims, mostly through DNA tests.",
+   "status": "Reported",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2025-07-12",
+   "dateLabel": "12 Jul 2025 (early hours IST)",
+   "phase": "travel",
+   "title": "Preliminary report: both fuel switches moved to CUTOFF",
+   "summary": "The AAIB's 15-page preliminary report says that about three seconds after lift-off, the fuel control switches for both engines moved from RUN to CUTOFF, one second apart, starving the engines of fuel. They were moved back to RUN about 10 and 14 seconds later and one engine began to relight, but the plane was too low to recover. On the cockpit recording, one pilot asks the other, \"Why did you cut off?\" and the other says he did not; the report does not say who said what. It finds the plane airworthy, notes that Air India had not done a 2018 FAA-advised check of the switch locks because it was not mandatory, and makes no safety recommendations.",
+   "status": "Confirmed · AAIB",
+   "numbers": [
+    {
+     "k": "Switches moved",
+     "v": "≈ 3 sec after lift-off"
+    }
+   ],
+   "sources": [
+    {
+     "name": "All India Radio",
+     "url": "https://www.newsonair.gov.in/preliminary-report-of-investigation-into-air-india-plane-crash-reveals-fuel-supply-to-both-engines-was-cut-off-soon-after-takeoff",
+     "primary": true
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2025/7/12/how-air-india-flight-171-crashed-and-its-fatal-last-moments"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171"
+    }
+   ],
+   "added": "2026-11-15",
+   "key": true
+  },
+  {
+   "date": "2025-07-14",
+   "dateLabel": "11–14 Jul 2025",
+   "phase": "travel",
+   "title": "FAA: fuel switch design is not unsafe",
+   "summary": "In a notice to other countries' regulators dated 11 July, the US Federal Aviation Administration says the fuel switch design, including its lock, is not an unsafe condition that would require an airworthiness directive on any Boeing model, including the 787. Boeing refers questions to the FAA notice.",
+   "status": "Stated · FAA",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Onmanorama (Reuters)",
+     "url": "https://www.onmanorama.com/news/india/2025/07/14/faa-boeing-fuel-switch-safety-reports.amp.html",
+     "primary": true
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171"
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2025-07-17",
+   "dateLabel": "17 Jul 2025",
+   "phase": "travel",
+   "title": "Investigators ask the public not to speculate",
+   "summary": "The AAIB appeals to the media and the public to avoid speculation and wait for the final report.",
+   "status": "Stated · AAIB",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2025-07-22",
+   "dateLabel": "22 Jul 2025",
+   "phase": "travel",
+   "title": "Air India: no problems found with switch locks",
+   "summary": "Air India says its checks of the fuel switch locking mechanisms on its Boeing planes found no problems.",
+   "status": "Stated · Air India",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "date": "2025-11-07",
+   "dateLabel": "7 Nov 2025",
+   "phase": "travel",
+   "title": "Supreme Court: \"no suggestion of fault\" in the report",
+   "summary": "Hearing a petition by the father of the flight's captain and the Federation of Indian Pilots, who seek an independent, court-monitored inquiry, the bench says the preliminary report contains \"no insinuation\" against the pilot. When the petitioners cite a Wall Street Journal report quoting an unnamed source, the court says it is \"not bothered by foreign reports\". It issues notices to the government, the DGCA and the AAIB.",
+   "status": "Stated · Supreme Court bench",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/india/no-one-is-blaming-your-son-sc-tells-father-of-crashed-ai-jet-pilot",
+     "primary": true
+    },
+    {
+     "name": "Outlook",
+     "url": "https://www.outlookindia.com/national/supreme-court-says-air-india-pilot-not-to-blame-in-ahmedabad-crash"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Air_India_Flight_171"
+    }
+   ],
+   "added": "2026-11-15",
+   "key": true
+  },
+  {
+   "date": "2026-06-11",
+   "dateLabel": "11 Jun 2026",
+   "phase": "travel",
+   "title": "One year on: \"significant progress\", no date for the report",
+   "summary": "On the eve of the first anniversary, the AAIB says it has made significant progress analysing aircraft systems, flight recorder data, engine parts and maintenance records, but gives no timeline. The final report will come only after international review under ICAO rules. Four days later, Civil Aviation Minister K. Rammohan Naidu says the report is expected soon.",
+   "status": "Stated · AAIB",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/business/aviation/air-india-ai171-crash-indias-aviation-investigation-body-says-probe-still-ongoing-a-year-later-1.500608879",
+     "primary": true
+    },
+    {
+     "name": "Asia News Network",
+     "url": "https://asianews.network/air-india-ai-171-crash-probe-in-last-stage-investigation-bureaus-final-report-expected-soon-civil-aviation-minister/"
+    }
+   ],
+   "added": "2026-11-15",
+   "differs": "Gulf News says the statement was issued on Thursday, 11 June; Prism News dates it 12 June."
+  },
+  {
+   "date": "2026-07-15",
+   "dateLabel": "14–15 Jul 2026",
+   "phase": "travel",
+   "title": "AAIB to Supreme Court: draft report around October",
+   "summary": "In an affidavit, the AAIB says it has completed 49 of 66 required investigation steps, that remaining work should take about six weeks, and that a draft final report is expected around October 2026. Analysis of engine monitoring data and of organisational factors is still under way. The draft must first go to the US National Transportation Safety Board for comments. The AAIB argues a court-monitored inquiry is not needed because its investigation follows international rules and is about safety, not blame.",
+   "status": "Filed · AAIB affidavit",
+   "numbers": [
+    {
+     "k": "Steps done",
+     "v": "49 of 66"
+    }
+   ],
+   "sources": [
+    {
+     "name": "LiveLaw",
+     "url": "https://www.livelaw.in/top-stories/air-india-crash-aaib-opposes-need-for-supreme-court-monitored-investigation-says-its-probe-as-per-international-treaty-541380",
+     "primary": true
+    },
+    {
+     "name": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/aaib-tells-sc-final-draft-report-on-air-india-ai-171-crash-likely-by-october"
+    }
+   ],
+   "added": "2026-11-15",
+   "key": true
+  },
+  {
+   "date": "2026-07-28",
+   "dateLabel": "28 Jul 2026",
+   "phase": "travel",
+   "title": "Draft to be filed in a sealed cover in October",
+   "summary": "The Solicitor General tells the Supreme Court that the draft final report will be filed in a sealed cover in the first week of October, and that four simulator tests sought by a petitioner have been done. The court says the pilots' federation can send its inputs to the AAIB and lists the case for 13 October.",
+   "status": "Stated · Government, in court",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "ThePrint (PTI)",
+     "url": "https://theprint.in/india/draft-final-probe-report-of-aaib-in-ahmedabad-plane-crash-will-be-filed-in-october-sc-told/2998916/",
+     "primary": true
+    },
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/india/will-file-ai-crash-probe-report-draft-in-oct-centre-tells-sc/"
+    }
+   ],
+   "added": "2026-11-15",
+   "key": true,
+   "differs": "Kalinga TV reported the next hearing as 12 October; the Free Press Journal reported the court asked for the case to be listed in the last week of October."
+  }
+ ]
+}

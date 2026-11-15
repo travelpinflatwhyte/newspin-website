@@ -11,19 +11,19 @@
  "importance": 4,
  "status": "Very poor · Stage III",
  "tone": "hot",
- "big": "349",
+ "big": "351",
  "delta": "very poor",
- "bigLabel": "Delhi's AQI at 7 am on 14 Nov (CPCB), down from the season's first 'severe' reading of 403 a day earlier",
- "updated": "2026-11-14",
+ "bigLabel": "Delhi's AQI at 8 am on 15 Nov (CPCB, via Business Today), after the season's first 'severe' reading of 403 on 13 Nov",
+ "updated": "2026-11-15",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased to 349 ('very poor') on the morning of 14 November. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased back to 'very poor': 349 on the morning of 14 November and 351 on the morning of 15 November. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "The IMD says light rain or drizzle and stronger winds are possible on Sunday 15 November, which may help clear the air. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "The IMD had said light rain or drizzle and stronger winds were possible on Sunday 15 November, which may help clear the air; none had been reported by Sunday morning. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 14 Nov 7 am",
-   "value": "349",
+   "label": "AQI, 15 Nov 8 am",
+   "value": "351",
    "note": "very poor",
    "hot": true
   },
@@ -378,6 +378,37 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-15",
+   "dateLabel": "15 Nov 2026",
+   "phase": "air",
+   "title": "Sunday morning: still 'very poor', smog over the city",
+   "summary": "Delhi's AQI is 351 at 8 am, per CPCB data reported by Business Today, still in the 'very poor' band and about the same as Saturday morning. Several stations are in the 'severe' band (above 400), with IIT Delhi the worst at 426. PM2.5, the fine dust that gets deep into the lungs, is the main pollutant at most stations. No rain had been reported by Sunday morning. Stage III curbs stay in place.",
+   "status": "Official data",
+   "numbers": [
+    {
+     "k": "AQI, 8 am",
+     "v": "351"
+    },
+    {
+     "k": "IIT Delhi",
+     "v": "426"
+    }
+   ],
+   "differs": "OneIndia, using CPCB figures from Hindustan Times' dashboard, gives 353 at 6 am; Business Today gives 351 at 8 am. The page title of Business Today's article says 363.",
+   "sources": [
+    {
+     "name": "Business Today (CPCB data)",
+     "url": "https://www.businesstoday.in/india/story/smog-keeps-delhi-in-grip-another-day-of-hazardous-air-as-aqi-stays-very-poor-at-351-567502-2026-11-15",
+     "primary": true
+    },
+    {
+     "name": "OneIndia",
+     "url": "https://www.oneindia.com/india/delhis-air-quality-remains-very-poor-iit-delhi-records-highest-aqi-at-426-8260103.html"
+    }
+   ],
+   "added": "2026-11-15"
   }
  ]
 }

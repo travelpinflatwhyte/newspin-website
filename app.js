@@ -649,4 +649,13 @@
       if (ev.key === '/' && !dlg.open && tag !== 'input' && tag !== 'textarea' && !ev.target.isContentEditable) { ev.preventDefault(); open(); }
     });
   })();
+
+  /* ---------- Sticky header shadow ---------- */
+  (function () {
+    var h = document.querySelector('.site-header');
+    if (!h) return;
+    var on = false;
+    function check() { var s = window.scrollY > 4; if (s !== on) { on = s; h.classList.toggle('scrolled', s); } }
+    window.addEventListener('scroll', check, { passive: true }); check();
+  })();
 })();

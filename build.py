@@ -122,13 +122,22 @@ def short_date(x, today):
     return f"{x.day} {x.strftime('%b')}" if x.year == today.year else f"{x.day} {x.strftime('%b %Y')}"
 
 
-def track_html(s, axis, dark=False, link_prefix=""):
+def track_html(s, axis, dark=False, link_prefix="", recent=False):
     """Horizontal timeline: zoomed to the story's own dates, nearby events grouped with a count,
     past drawn solid, future dashed, labels for the start, the latest event, now and what's next."""
     today = axis.today
     evs = s["events"]
     ink = CAT_INK.get(s["category"], "#3F444E")
     first = d(evs[0]["date"])
+    hidden = 0
+    if recent:  # small tracks: skip old background events cut off by a long gap, so recent news isn't squeezed
+        ds = [d(ev["date"]) for ev in evs]
+        span_all = (max([today] + ds) - first).days or 1
+        gaps = [((ds[k + 1] - ds[k]).days, k + 1) for k in range(len(ds) - 1)]
+        if gaps:
+            gap, cut = max(gaps)
+            if gap > span_all * 0.5 and len(evs) - cut >= 2:
+                hidden, first = cut, ds[cut]
     ups = sorted(d(u["date"]) for u in s.get("upcoming", []) if d(u["date"]) >= today)
     end = max([today] + ups + [d(ev["date"]) for ev in evs])
     start = first - dt.timedelta(days=max(2, int((end - first).days * 0.03)))
@@ -147,6 +156,8 @@ def track_html(s, axis, dark=False, link_prefix=""):
     GAP = 7  # % of the track width below which two markers would touch on a phone
     groups = []
     for i, ev in enumerate(evs):
+        if i < hidden:
+            continue
         p = pos(d(ev["date"]))
         groups.append({"items": [(i, ev)], "p_first": p, "p_last": p})
     merged = True
@@ -185,7 +196,10 @@ def track_html(s, axis, dark=False, link_prefix=""):
     lp = pos(d(latest["date"]))
     anchor = "right:0;left:auto;transform:none" if lp > 78 else ("left:0;transform:none" if lp < 22 else f"left:{lp:.2f}%")
     parts.append(f'<span class="tl-top" style="{anchor}">Latest · {e(short_date(d(latest["date"]), today))}</span>')
-    parts.append(f'<span class="tl-bot" style="left:0;transform:none">{e(short_date(first, today) if (today - first).days < 300 else first.strftime("%b %Y"))}</span>')
+    start_l = short_date(first, today) if (today - first).days < 300 else first.strftime("%b %Y")
+    if hidden:
+        start_l = f"{start_l} · +{hidden} earlier"
+    parts.append(f'<span class="tl-bot" style="left:0;transform:none">{e(start_l)}</span>')
     if ups:
         up_p = pos(ups[0])
         if up_p - now_p > 14:
@@ -428,7 +442,7 @@ def build_home(site, stories, order, axis):
   <div class="card-body">
     <h3 style="view-transition-name:t-{e(slug)}"><a href="/stories/{e(slug)}/">{e(s['title'])}</a></h3>
     {stands}
-    {track_html(s, axis, link_prefix=f"/stories/{slug}/")}
+    {track_html(s, axis, link_prefix=f"/stories/{slug}/", recent=True)}
     <div class="latest"><span class="d">{e(latest['dateLabel'])}</span><span class="t">{e(latest['title'])}</span></div>
     <div class="next"><strong>Next:</strong> {e(s['next'])}</div>
     {linked}
@@ -471,7 +485,7 @@ def build_home(site, stories, order, axis):
     </div>
     <div class="lead-side">
       <div class="lead-stat"><span class="lbl2">{e(kn.get('label', h['bigLabel']))}</span><div><span class="lead-big">{e(h['big'])}</span>{'' if h['delta'].lower() in kn.get('label', h['bigLabel']).lower() else '<span class="lead-delta">'+e(h['delta'])+'</span>'}</div></div>
-      {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/")}
+      {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/", recent=True)}
       <span class="lead-note">Next: {e(h['next'])}</span>
     </div>
   </section>"""

@@ -226,6 +226,9 @@ def track_label(s):
 
 
 # ---------- layout ----------
+N_STORIES = 0
+
+
 def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.png", jsonld=None, nav="home", noindex=False, og_alt="Newspin", published=None, modified=None):
     url = site["domain"].rstrip("/") + path
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
@@ -278,7 +281,13 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
     <a href="/"{cur('home')}>Timelines</a>
     <a href="/about/"{cur('about')}>How it works</a>
   </nav>
+  <button type="button" class="search-btn" id="search-btn" aria-haspopup="dialog" aria-label="Search stories"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span>Search</span><kbd>/</kbd></button>
 </div></header>
+<dialog class="search-dlg" id="search-dlg" aria-label="Search stories">
+  <div class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><label class="sr-only" for="search-q">Search stories</label><input id="search-q" type="search" placeholder="Search stories, e.g. SpaceX, SpiceJet, RBI" autocomplete="off" spellcheck="false"><button type="button" class="search-close" id="search-close">Close</button></div>
+  <ul class="search-res" id="search-res" role="listbox" aria-label="Results"></ul>
+  <p class="search-hint" id="search-hint">Type to search all {N_STORIES} timelines.</p>
+</dialog>
 <main id="main">
 {body}
 </main>
@@ -928,6 +937,14 @@ def main():
     for f in STATIC.iterdir():
         shutil.copy(f, DIST / f.name)
     (DIST / "favicon.svg").write_text(FAVICON)
+    global N_STORIES
+    N_STORIES = len(order)
+    idx = []
+    for slug in order:
+        st = stories[slug]
+        kw = " ".join([st.get("heroTitle", ""), st.get("status", "")] + [ev["title"] for ev in st["events"]])
+        idx.append({"s": slug, "t": st["title"], "d": st["dek"], "c": st["category"], "u": st["updated"], "k": kw})
+    (DIST / "search.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
     (DIST / "index.html").write_text(build_home(site, stories, order, axis))
     for slug in order:
         p = DIST / "stories" / slug

@@ -11,16 +11,16 @@
  "dek": "What broke, when (in India time), what Microsoft has said, and what still works.",
  "seoTitle": "Outlook down: Microsoft 365 outage timeline (IST)",
  "importance": 3,
- "status": "Restored · cause named",
+ "status": "Restored · preliminary report out",
  "tone": "live",
- "big": "≈ 20 hrs",
- "delta": "to restore",
- "bigLabel": "Roughly how long from the first reports (≈ 11:30 pm IST, 12 Nov) to Microsoft saying service health was restored (evening, 13 Nov IST)",
- "updated": "2026-11-14",
+ "big": "23 h 50 m",
+ "delta": "outage, per Microsoft",
+ "bigLabel": "Length of the outage in Microsoft's preliminary report: 4:20 pm UTC 12 Nov (9:50 pm IST) to 4:10 pm UTC 13 Nov (9:40 pm IST)",
+ "updated": "2026-11-16",
  "glance": {
-  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot in 74 countries and territories for about a day. Microsoft says a problem introduced during an earlier network capacity upgrade surfaced after a recent network change, and that it was not a cyber attack.",
+  "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot in 74 countries and territories for about a day. Microsoft's preliminary report blames a hidden bug in a months-old fix to its gateway servers, which surfaced after Teams traffic was moved onto them while some capacity was already offline. It says it was not a cyber attack.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "Microsoft reports broad recovery and has apologised. Its full incident report should give more detail on what went wrong."
+  "next": "Microsoft says its final incident report, with a full list of fixes, is due by 20 November."
  },
  "keyNumbers": [
   {
@@ -40,19 +40,19 @@
   },
   {
    "label": "Root cause",
-   "value": "Network upgrade",
-   "note": "per Microsoft; full report pending"
+   "value": "Hidden bug",
+   "note": "in gateway servers, per Microsoft"
   }
  ],
  "forYou": "Outlook and Teams should be working again. Emails sent during the outage may arrive late as queues clear. If something still fails, restart the app or sign out and back in.",
  "upcoming": [
   {
-   "date": "2026-11-16",
-   "label": "Pending",
-   "text": "Microsoft's post-incident report on the cause"
+   "date": "2026-11-20",
+   "label": "20 Nov",
+   "text": "Microsoft's final incident report"
   }
  ],
- "next": "Microsoft's post-incident report on the cause.",
+ "next": "Microsoft's final incident report, due 20 Nov.",
  "links": [
   "nvidia-huang-investigation",
   "us-flights-ground-stop"
@@ -285,6 +285,42 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-15",
+   "dateLabel": "15 Nov 2026",
+   "phase": "tech",
+   "key": true,
+   "title": "Microsoft's preliminary report: a months-old hidden bug",
+   "summary": "In a preliminary incident report for customers, Microsoft says three things combined. A \"latent defect\" in a fix rolled out from July to the servers that route traffic into Microsoft 365 made them freeze under certain loads. About 15 hours earlier, Teams traffic had been moved onto the same gateway that serves Exchange Online email. And nearly 14% of the gateway's servers were already out of service for an unrelated reason. Within two hours the fault spread across the fleet, and at worst more than 80% of servers stopped responding. Microsoft puts the outage at 4:20 pm UTC on 12 Nov (9:50 pm IST) to 4:10 pm UTC on 13 Nov (9:40 pm IST). It says the defect does not affect ordinary Windows computers, that it has added capacity and guardrails, and that a final report will follow.",
+   "status": "Stated · Microsoft (preliminary report)",
+   "numbers": [
+    {
+     "k": "Servers unresponsive at worst",
+     "v": "80%+"
+    },
+    {
+     "k": "Capacity already offline",
+     "v": "≈ 14%"
+    }
+   ],
+   "differs": "Webhosting.today describes the trigger as a network configuration change that was rolled back, echoing Microsoft's earlier public statement. The preliminary report, as reproduced by Office Watch, points to the Teams traffic shift and lost capacity.",
+   "sources": [
+    {
+     "name": "Office Watch (report text)",
+     "url": "https://office-watch.com/2026/microsoft-365-outage-explained/",
+     "primary": true
+    },
+    {
+     "name": "Cyber Security News",
+     "url": "https://cybersecuritynews.com/microsoft-outage-incident-report/"
+    },
+    {
+     "name": "Webhosting.today",
+     "url": "https://webhosting.today/2026/11/16/microsoft-points-to-a-latent-bug-behind-its-day-long-outlook-outage/"
+    }
+   ],
+   "added": "2026-11-16"
   }
  ]
 }

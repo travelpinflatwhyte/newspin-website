@@ -14,9 +14,9 @@
  "big": "6.09%",
  "delta": "▲ above RBI's 6% limit",
  "bigLabel": "Retail inflation, October 2026",
- "updated": "2026-11-13",
+ "updated": "2026-11-16",
  "glance": {
-  "what": "Retail inflation rose to 6.09% in October 2026, above the RBI's 6% upper tolerance limit for the first time in two years. Food inflation reached 8.94%.",
+  "what": "Retail inflation rose to 6.09% in October 2026, above the RBI's 6% upper tolerance limit for the first time in two years. Food inflation reached 8.94%. Wholesale inflation rose to 12.29%, pushed up by fuel and power prices.",
   "why": "Higher prices for food and fuel squeeze household budgets. Inflation above 6% puts pressure on the RBI to raise rates again.",
   "next": "The RBI's next policy decision comes after its 2–4 Dec meeting. November inflation is due on 12 December."
  },
@@ -38,6 +38,11 @@
    "note": "Oct 2026"
   },
   {
+   "label": "Wholesale (WPI), Oct",
+   "value": "12.29%",
+   "note": "Sep: 11.39%"
+  },
+  {
    "label": "RBI target",
    "value": "4%",
    "note": "2–6% band"
@@ -49,6 +54,11 @@
    "date": "2026-12-02",
    "label": "2–4 Dec",
    "text": "RBI policy meeting"
+  },
+  {
+   "date": "2026-12-14",
+   "label": "14 Dec",
+   "text": "November wholesale (WPI) inflation"
   },
   {
    "date": "2026-12-12",
@@ -280,6 +290,44 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "data",
+   "title": "Wholesale inflation rises to 12.29%, led by fuel and power",
+   "summary": "Wholesale price (WPI) inflation, which tracks prices businesses pay in bulk, rises to 12.29% in October from 11.39% in September, provisional government data show. Fuel and power prices are up 32.84% from a year earlier (25.85% in September), driven by mineral oils, crude petroleum, natural gas and electricity. Inflation in manufactured products eases slightly to 9.54%, and the food index to 8.58%. Higher wholesale costs can feed into shop prices over time.",
+   "status": "Official data · Commerce Ministry",
+   "numbers": [
+    {
+     "k": "WPI, Oct",
+     "v": "12.29%"
+    },
+    {
+     "k": "Fuel and power",
+     "v": "32.84%"
+    },
+    {
+     "k": "Food index",
+     "v": "8.58%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+     "primary": true
+    },
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+    },
+    {
+     "name": "Xinhua",
+     "url": "https://english.news.cn/20261116/4570bdc54fd8469bad1407f403ae951a/c.html"
+    }
+   ],
+   "added": "2026-11-16"
   }
  ]
 }

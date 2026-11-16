@@ -9,7 +9,7 @@
  "dek": "Cheap, open models from DeepSeek, Alibaba, Moonshot and Zhipu closed much of the gap with US labs, and sparked accusations of copying.",
  "seoTitle": "Chinese AI models 2025–2026: DeepSeek V4, Qwen, Kimi",
  "importance": 3,
- "status": "Qwen 4 expected",
+ "status": "Qwen4-Max released",
  "tone": "live",
  "big": "6",
  "delta": "releases in ~2 months",
@@ -17,7 +17,7 @@
  "glance": {
   "what": "DeepSeek's R1 shook the industry in January 2025. In 2026 Chinese labs released a wave of large open-weight models, including DeepSeek V4, Moonshot's Kimi K3, Alibaba's Qwen3.8-Max and Zhipu's GLM-5.2, often far cheaper than US rivals.",
   "why": "Open, cheap models let anyone build AI products without paying US companies, and they sit at the centre of the US–China technology contest.",
-  "next": "Alibaba says Qwen 4 is coming 'very soon', and DeepSeek has confirmed a V4.1 Pro, without dates."
+  "next": "Alibaba plans open versions of smaller Qwen4 models, and DeepSeek has confirmed a V4.1 Pro; neither has a date."
  },
  "keyNumbers": [
   {
@@ -44,7 +44,7 @@
  ],
  "forYou": "Chinese models are free to download and run, and some apps you use may be built on them. Their chatbots follow Chinese content rules, which shape answers on some political topics.",
  "upcoming": [],
- "next": "Qwen 4 and DeepSeek V4.1 Pro, both undated.",
+ "next": "Smaller open Qwen4 models and DeepSeek V4.1 Pro, both undated.",
  "links": [
   "ai-model-tracker",
   "anthropic-2026"
@@ -255,7 +255,40 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "ai",
+   "key": true,
+   "title": "Alibaba releases Qwen4-Max, its new flagship",
+   "summary": "Alibaba makes Qwen4-Max generally available after a preview that began on 11 November. It is a 2.4-trillion-parameter model that can read up to one million tokens at once. Unlike many Chinese models, its weights are closed, so it cannot be downloaded. Alibaba says it beats Anthropic's Claude Fable 5.1 and Moonshot's Kimi K3.1 Pro on some coding tests, and that smaller Qwen4 models will be released openly, with no date. API prices are $1.50 per million input tokens and $4.50 per million output tokens, per The Next Web.",
+   "status": "Released · Alibaba",
+   "numbers": [
+    {
+     "k": "Parameters",
+     "v": "2.4 trillion"
+    },
+    {
+     "k": "Context",
+     "v": "1M tokens"
+    }
+   ],
+   "differs": "Alibaba's cost-saving figures are reported differently: TechNode gives an average task cost falling from RMB 26.58 to RMB 11.16 (about 58%); The Next Web gives $4.43 to $1.67.",
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights",
+     "primary": true
+    },
+    {
+     "name": "TechNode",
+     "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/"
+    }
+   ],
+   "link": "ai-model-tracker",
+   "added": "2026-11-16"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-16"
 }

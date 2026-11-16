@@ -17,7 +17,7 @@
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
  "updated": "2026-11-16",
  "glance": {
-  "what": "In the past ten days Google, Meta and Anthropic released new models, Anthropic's share sale drew strong reported demand ahead of a Nasdaq listing, OpenAI let ChatGPT agents make purchases, Nvidia's founder was forced out, and nonprofits asked a court to freeze frontier AI.",
+  "what": "In the past ten days Google, Meta, Anthropic and Alibaba released new models, Anthropic's share sale drew strong reported demand ahead of a Nasdaq listing, OpenAI let ChatGPT agents make purchases, Nvidia's founder was forced out, and nonprofits asked a court to freeze frontier AI.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
   "next": "Nvidia reports earnings on 17 Nov. Anthropic expects to price its IPO on 18 Nov and list on 19 Nov."
  },
@@ -324,6 +324,29 @@
     }
    ],
    "link": "nvidia-huang-investigation",
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "ai",
+   "title": "Alibaba launches Qwen4-Max",
+   "summary": "China's Alibaba releases Qwen4-Max, a closed-weight flagship model that can read up to one million tokens at once. Alibaba says it beats some US and Chinese rivals on coding tests and costs less per task than its previous model.",
+   "status": "Released · Alibaba",
+   "numbers": [],
+   "differs": "Alibaba's cost-saving figures are reported differently: TechNode gives an average task cost falling from RMB 26.58 to RMB 11.16 (about 58%); The Next Web gives $4.43 to $1.67.",
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights",
+     "primary": true
+    },
+    {
+     "name": "TechNode",
+     "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/"
+    }
+   ],
+   "link": "china-ai-labs",
    "added": "2026-11-16"
   }
  ]

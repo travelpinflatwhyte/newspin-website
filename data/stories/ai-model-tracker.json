@@ -12,14 +12,14 @@
  "importance": 4,
  "status": "Updated with each release",
  "tone": "live",
- "big": "39",
+ "big": "40",
  "delta": "releases tracked",
  "bigLabel": "Major model launches from the leading AI companies since January 2025",
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "glance": {
   "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
   "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
-  "next": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro are all promised without dates."
+  "next": "Grok 5 and DeepSeek V4.1 Pro are both promised without dates."
  },
  "keyNumbers": [
   {
@@ -49,10 +49,10 @@
   {
    "date": "2026-12-31",
    "label": "Undated",
-   "text": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro"
+   "text": "Grok 5 and DeepSeek V4.1 Pro"
   }
  ],
- "next": "Grok 5, Qwen 4 and DeepSeek V4.1 Pro, all undated.",
+ "next": "Grok 5 and DeepSeek V4.1 Pro, both undated.",
  "links": [
   "openai-2026",
   "anthropic-2026",
@@ -887,6 +887,28 @@
    "link": "google-gemini-2026",
    "numbers": [],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "ai",
+   "title": "Alibaba: Qwen4-Max",
+   "summary": "Alibaba's new flagship: 2.4 trillion parameters, a one-million-token context window and closed weights. Alibaba claims it beats Claude Fable 5.1 and Kimi K3.1 Pro on some coding tests.",
+   "status": "Released",
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights",
+     "primary": true
+    },
+    {
+     "name": "TechNode",
+     "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/"
+    }
+   ],
+   "link": "china-ai-labs",
+   "numbers": [],
+   "added": "2026-11-16"
   }
  ],
  "order": "desc"

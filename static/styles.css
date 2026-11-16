@@ -645,3 +645,10 @@ main::before{content:"";position:absolute;inset:0 0 auto 0;height:620px;z-index:
   background-image:radial-gradient(var(--dot) 1.1px,transparent 1.5px);background-size:20px 20px;background-position:10px 10px;
   -webkit-mask-image:linear-gradient(to bottom,#000 0,#000 45%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0,#000 45%,transparent 100%)}
 @media (max-width:640px){main::before{height:460px;background-size:18px 18px}}
+
+/* sticky header */
+.site-header{position:sticky;top:0;z-index:60;background:color-mix(in srgb,var(--surface) 88%,transparent);-webkit-backdrop-filter:saturate(1.4) blur(10px);backdrop-filter:saturate(1.4) blur(10px);transition:box-shadow .2s}
+.site-header.scrolled{box-shadow:0 1px 0 var(--line),0 6px 18px rgba(15,20,30,.06)}
+[data-theme="dark"] .site-header.scrolled{box-shadow:0 1px 0 var(--line),0 6px 18px rgba(0,0,0,.35)}
+html{scroll-padding-top:84px}
+.updates{top:84px}

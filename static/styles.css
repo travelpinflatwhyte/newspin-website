@@ -1,5 +1,5 @@
 :root{color-scheme:light;
-  --bg:#F7F7F4; --surface:#FFFFFF; --ink:#15171C; --ink-2:#3A3F4A; --muted:#4A4F59; --line:#E3E3DE; --line-2:#ECECE7;
+  --bg:#FFFFFF; --surface:#FFFFFF; --ink:#15171C; --ink-2:#3A3F4A; --muted:#4A4F59; --line:#E3E3DE; --line-2:#ECECE7;
   --blue:#1D4ED8; --blue-bg:#E8EEFD; --blue-line:#B9C7EE; --orange:#C2410C; --pin:#4B9C78; --pin-ink:#2B6F51; --pin-bg:#E8F4EE; --orange-ink:#9A3412; --orange-bg:#FCEBDD;
   --teal:#0F6B5C; --teal-ink:#0F5B4E; --teal-bg:#E3F2EE; --purple:#5B3A9A; --purple-bg:#F3EEFB; --gray-bg:#EEEEEA;
   --serif:"Newsreader",Georgia,"Times New Roman",serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;

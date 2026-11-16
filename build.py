@@ -672,7 +672,7 @@ def build_story(site, stories, s, axis):
     for i, x in enumerate(s.get("explainers", [])):
         frag = (ROOT / "data" / "explainers" / x["file"]).read_text(encoding="utf-8")
         srcs = " · ".join(f'<a href="{e(sr["url"])}" rel="noopener" target="_blank">{e(sr["name"])}</a>' for sr in x.get("sources", []))
-        xps += f"""<figure class="panel explainer {cat_class(s['category'])}" aria-labelledby="xp-h{i}">
+        xps += f"""<figure class="panel explainer{' has-size' if 'xp-size' in frag else ''} {cat_class(s['category'])}" aria-labelledby="xp-h{i}">
   <h2 class="eyebrow" id="xp-h{i}">{e(x['title'])}</h2>
   {frag}
   <figcaption>{e(x.get('caption', ''))}{' Sources: ' + srcs if srcs else ''}</figcaption>

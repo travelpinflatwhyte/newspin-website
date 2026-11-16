@@ -45,6 +45,37 @@
   ],
   "explainers": [
     {
+      "file": "spacex-starship-flight15.html",
+      "title": "How Flight 15 went",
+      "caption": "Not to scale. The ship's path leaves the right edge and comes back in on the left because it went around Earth.",
+      "sources": [
+        {
+          "name": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+        },
+        {
+          "name": "Space.com (hot staging)",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/the-worlds-biggest-rocket-how-spacexs-new-starship-v3-differs-from-its-predecessors"
+        },
+        {
+          "name": "The Next Web (flaps, flip and landing burn)",
+          "url": "https://thenextweb.com/news/spacex-starship-flight-13-starlink-v3-raptor-relight-catch"
+        },
+        {
+          "name": "Interesting Engineering (deorbit burn)",
+          "url": "https://interestingengineering.com/videos/watch-ship-42-fires-all-six-engines-ahead-of-starship-flight-15"
+        },
+        {
+          "name": "Next Spaceflight (plan to catch both stages)",
+          "url": "https://nextspaceflight.com/launches/details/8403/"
+        },
+        {
+          "name": "SpaceX's booster plan, quoted by BrainDetox",
+          "url": "https://braindetox.kr/en/posts/starship_flight_15_booster_ship_catch.html"
+        }
+      ]
+    },
+    {
       "file": "spacex-starship-size.html",
       "title": "How big is Starship?",
       "caption": "Heights are to scale. The rocket's width and the split between its two stages are approximate. Starship is about 1.7 times as tall as the Qutub Minar.",
@@ -64,21 +95,6 @@
         {
           "name": "Delhi Tourism (Qutub Minar)",
           "url": "https://www.delhitourism.gov.in/tourist_place/qutab_minar.html"
-        }
-      ]
-    },
-    {
-      "file": "spacex-starship-flight15.html",
-      "title": "How Flight 15 went",
-      "caption": "Not to scale.",
-      "sources": [
-        {
-          "name": "Space.com",
-          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
-        },
-        {
-          "name": "Space.com (hot staging)",
-          "url": "https://www.space.com/space-exploration/launches-spacecraft/the-worlds-biggest-rocket-how-spacexs-new-starship-v3-differs-from-its-predecessors"
         }
       ]
     }

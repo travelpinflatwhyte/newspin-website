@@ -1,0 +1,380 @@
+{
+ "slug": "spacex-starship",
+ "short": "Starship",
+ "category": "Tech",
+ "regions": [
+  "US",
+  "World"
+ ],
+ "title": "SpaceX's Starship: every test flight, from first launch to the first ship catch",
+ "dek": "How the world's largest rocket went from losing both stages on its first flight in 2023 to being caught by its launch tower after almost a day in space, and what comes next.",
+ "seoTitle": "SpaceX Starship test flights timeline: Flight 1 to 15",
+ "importance": 3,
+ "status": "First ship caught · Flight 16 next",
+ "tone": "hot",
+ "big": "15",
+ "delta": "test flights",
+ "bigLabel": "Starship test flights since April 2023: 10 counted as successes and 5 as failures, as of 14 November 2026",
+ "updated": "2026-11-16",
+ "glance": {
+  "what": "Starship is SpaceX's giant two-stage rocket: a Super Heavy booster and the Starship spacecraft on top, both meant to be reused. On Flight 15 the spacecraft was caught by the arms of its launch tower in Texas after about 22.5 hours in space, the first time a rocket's upper stage has been recovered this way. The booster's catch was called off and it came down in the Gulf of Mexico.",
+  "why": "Reusing both stages, like an aircraft, could make launches much cheaper. Starship is central to SpaceX's next-generation Starlink satellites and to NASA's plan to land astronauts on the Moon.",
+  "next": "SpaceX is expected to try catching both stages on the next flight, and to begin launching from Florida. NASA's Moon plans need a demonstration of refuelling in orbit, planned for 2027."
+ },
+ "keyNumbers": [
+  {
+   "label": "Test flights",
+   "value": "15",
+   "note": "since April 2023"
+  },
+  {
+   "label": "Booster catches",
+   "value": "3",
+   "note": "Flights 5, 7 and 8"
+  },
+  {
+   "label": "Ship catches",
+   "value": "1",
+   "note": "Flight 15, 14 Nov 2026"
+  },
+  {
+   "label": "Starlink V3 launched",
+   "value": "52",
+   "note": "on Flights 14 and 15"
+  }
+ ],
+ "forYou": "Starship is how SpaceX plans to launch its next-generation Starlink internet satellites, which are bigger and faster than today's. If both stages can be caught and flown again quickly, the cost of getting things into space could fall sharply, which affects everything from satellite internet to Moon missions.",
+ "upcoming": [],
+ "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida.",
+ "links": [
+  "xai-grok-2026",
+  "us-flights-ground-stop"
+ ],
+ "events": [
+  {
+   "date": "2023-04-20",
+   "dateLabel": "20 Apr 2023",
+   "phase": "tech",
+   "title": "Flight 1: clears the pad, then is lost",
+   "summary": "The first full Starship launch. Several engines fail and both stages are lost over the Gulf of Mexico. SpaceX calls it a success because its main goal was to clear the launch pad.",
+   "status": "Confirmed · SpaceX",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2023-11-18",
+   "dateLabel": "18 Nov 2023",
+   "phase": "tech",
+   "title": "Flight 2: both stages lost",
+   "summary": "The booster is lost over the Gulf and the ship is destroyed by its flight termination system after a fire.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2024-03-14",
+   "dateLabel": "14 Mar 2024",
+   "phase": "tech",
+   "title": "Flight 3: reaches space, lost on reentry",
+   "summary": "Launch and stage separation succeed, but the booster is lost during its landing burn and the ship breaks up when it comes back into the atmosphere.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2024-06-06",
+   "dateLabel": "6 Jun 2024",
+   "phase": "tech",
+   "title": "Flight 4: both stages splash down under control",
+   "summary": "For the first time, both the booster and the ship make controlled splashdowns, the booster in the Gulf and the ship in the Indian Ocean.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2024-10-13",
+   "dateLabel": "13 Oct 2024",
+   "phase": "tech",
+   "title": "Flight 5: the tower catches a booster",
+   "summary": "The Super Heavy booster flies back to Starbase and is caught by the launch tower's \"chopstick\" arms, a first. The ship splashes down in the Indian Ocean.",
+   "status": "Confirmed · SpaceX",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/?p=2897782"
+    },
+    {
+     "name": "The Star (Reuters)",
+     "url": "https://www.thestar.com.my/news/world/2024/10/13/spacex-launches-fifth-starship-test-eyes-novel-booster-039catch039"
+    }
+   ],
+   "added": "2026-11-16",
+   "key": true
+  },
+  {
+   "date": "2024-11-19",
+   "dateLabel": "19 Nov 2024",
+   "phase": "tech",
+   "title": "Flight 6: booster diverted to the sea",
+   "summary": "The booster catch is called off because of damage to the tower and it splashes down in the Gulf. The ship completes a controlled splashdown.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2025-01-16",
+   "dateLabel": "Jan–Mar 2025",
+   "phase": "tech",
+   "title": "Flights 7 and 8: boosters caught, ships lost",
+   "summary": "On both flights the booster is caught by the tower, but the ship is lost minutes into flight: after a propellant leak on Flight 7 (16 January) and after engines shut down on Flight 8 (6 March).",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2025/01/16/spacex-catches-starship-booster-a-second-time-loses-ship-to-an-anomaly-in-space"
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2025-05-27",
+   "dateLabel": "27 May 2025",
+   "phase": "tech",
+   "title": "Flight 9: both stages lost",
+   "summary": "The booster, flying for the second time, is lost before splashdown, and the ship fails to release its payload and breaks up over the Indian Ocean.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2025-08-26",
+   "dateLabel": "26 Aug 2025",
+   "phase": "tech",
+   "title": "Flight 10: back on track",
+   "summary": "Both stages complete controlled splashdowns, and the ship releases eight dummy Starlink satellites for the first time and relights an engine in space.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    },
+    {
+     "name": "Space.com",
+     "url": "https://www.space.com/space-exploration/private-spaceflight/spacex-launches-starship-flight-10-critical-test-flight-video"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/science/science-news/spacexs-starship-passes-development-rut-deploys-first-mock-satellites-rcna227472"
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2025-10-13",
+   "dateLabel": "13 Oct 2025",
+   "phase": "tech",
+   "title": "Flight 11: last flight of the second design",
+   "summary": "Another success, with the ship landing on target in the Indian Ocean. It is the final flight of the \"Block 2\" version.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-05-22",
+   "dateLabel": "22 May 2026",
+   "phase": "tech",
+   "title": "Flight 12: the bigger Block 3 debuts",
+   "summary": "The first flight of the larger third-generation Starship, from a new launch pad. The ship splashes down under control, but the booster is lost after its landing burn fails.",
+   "status": "Confirmed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-07-24",
+   "dateLabel": "24 Jul 2026",
+   "phase": "tech",
+   "title": "Flight 13: first real Starlink satellites",
+   "summary": "The ship releases 20 next-generation Starlink V3 satellites, the first working ones, on a path that brings them back down soon after, and returns intact. The booster is lost after engine failures.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Starlink V3 released",
+     "v": "20"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/spacex-starship-flight-13-starlink-v3-raptor-relight-catch"
+    },
+    {
+     "name": "The Register",
+     "url": "https://www.theregister.com/a/5278725"
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-09-28",
+   "dateLabel": "28 Sep 2026",
+   "phase": "tech",
+   "title": "Flight 14: first time in orbit",
+   "summary": "Starship reaches orbit for the first time and places 26 Starlink V3 satellites in orbit, despite one upper-stage engine shutting down early. The flight is cut short and the ship splashes down in the Pacific.",
+   "status": "Confirmed",
+   "numbers": [
+    {
+     "k": "Starlink V3 in orbit",
+     "v": "26"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/List_of_Starship_launches",
+     "primary": true
+    },
+    {
+     "name": "Aerospace America",
+     "url": "https://aerospaceamerica.aiaa.org/spacex-shortens-starships-first-orbital-flight-but-achieves-other-objectives/"
+    },
+    {
+     "name": "TechSpot",
+     "url": "https://www.techspot.com/community/topics/spacexs-starship-finally-reaches-orbit-and-puts-26-starlink-satellites-into-space.298975/"
+    }
+   ],
+   "added": "2026-11-16",
+   "key": true
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov (evening, Texas)",
+   "phase": "tech",
+   "title": "Flight 15 launches; booster catch called off",
+   "summary": "Flight 15 lifts off from Starbase, aiming to catch both stages for the first time. The booster's catch is aborted after a low-fuel alarm and it is sent to the Gulf of Mexico; CNBC reports it exploded before hitting the water. The ship reaches orbit and releases 26 more Starlink V3 satellites.",
+   "status": "Confirmed · SpaceX",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+     "primary": true
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/science/space/spacex-launches-15th-starship-flight-aborts-booster-recovery-maneuver-rcna609274"
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-14",
+   "dateLabel": "2:50 am IST, 15 Nov",
+   "phase": "tech",
+   "title": "The tower catches the ship",
+   "summary": "After about 22.5 hours in flight (around 14 orbits of Earth, according to CNBC), Ship 42 flies back to Starbase and is caught by the tower arms at 3:20 pm Texas time on 14 November, the first time a rocket's upper stage has returned from orbit to be caught for reuse. \"We caught a Starship, and now everything changes,\" says SpaceX's Dan Huot.",
+   "status": "Confirmed · SpaceX",
+   "numbers": [
+    {
+     "k": "Time in flight",
+     "v": "≈ 22.5 hrs"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+     "primary": true
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
+    },
+    {
+     "name": "Space.com live",
+     "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-13-2026-starship-first-double-landing-attempt"
+    }
+   ],
+   "added": "2026-11-16",
+   "key": true
+  }
+ ]
+}

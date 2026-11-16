@@ -668,6 +668,17 @@ def build_story(site, stories, s, axis):
         word = " word" if len(k["value"]) > 9 else ""
         keyn += f'<div><span class="l">{e(k["label"])}</span><span class="v{word}">{e(k["value"])}</span><span class="n{" hot" if k.get("hot") else ""}">{e(k.get("note", ""))}</span></div>'
 
+    xps = ""
+    for i, x in enumerate(s.get("explainers", [])):
+        frag = (ROOT / "data" / "explainers" / x["file"]).read_text(encoding="utf-8")
+        srcs = " · ".join(f'<a href="{e(sr["url"])}" rel="noopener" target="_blank">{e(sr["name"])}</a>' for sr in x.get("sources", []))
+        xps += f"""<figure class="panel explainer {cat_class(s['category'])}" aria-labelledby="xp-h{i}">
+  <h2 class="eyebrow" id="xp-h{i}">{e(x['title'])}</h2>
+  {frag}
+  <figcaption>{e(x.get('caption', ''))}{' Sources: ' + srcs if srcs else ''}</figcaption>
+</figure>"""
+    xps_html = f'<div class="explainers">{xps}</div>' if xps else ""
+
     linked = ""
     for l in s.get("links", []):
         if l in stories:
@@ -703,6 +714,7 @@ def build_story(site, stories, s, axis):
         <div class="keynums">{keyn}</div>
       </section>
       <div class="story-track {cat_class(s['category'])}">{track_html(s, axis)}</div>
+      {xps_html}
       <section class="newbar" id="newbar" aria-live="polite" hidden>
         <div><span class="k"></span><span class="h"></span></div>
         <button type="button" class="btn btn-light" aria-pressed="false">Show only what’s new</button>

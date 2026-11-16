@@ -15,11 +15,11 @@
  "big": "$95.84",
  "delta": "Brent, 13 Nov",
  "bigLabel": "Down about 20% from a late-October peak near $118",
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Oil posted a second weekly fall, and the IEA expects a supply surplus this quarter. But tanker and Houthi attacks keep prices jumpy, and on 12 November President Trump said the US did not need a deal with Iran."
+  "next": "Oil posted a second weekly fall, and the IEA expects a supply surplus this quarter. But attacks keep prices jumpy: Iran fired drones at a US base in Bahrain on 13 and 15 November, and President Trump has said the US does not need a deal with Iran."
  },
  "keyNumbers": [
   {
@@ -46,7 +46,7 @@
  ],
  "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
  "upcoming": [],
- "next": "Whether Hormuz reopens under the Qatar-brokered proposal.",
+ "next": "Whether the Bahrain attacks escalate, and whether Hormuz reopens under the Qatar-brokered proposal.",
  "links": [
   "rupee-slide-2026",
   "russian-oil",
@@ -402,6 +402,42 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-15",
+   "dateLabel": "15 Nov 2026",
+   "phase": "conflict",
+   "key": true,
+   "title": "Iran fires drones at a US base in Bahrain, twice in three days",
+   "summary": "Iran's Revolutionary Guards (IRGC) say they sent six drones at Riffa Air Base in Bahrain on Sunday, aiming at US military equipment, in retaliation for US strikes on Iran, including on Qeshm Island. It was the second such attack in three days: on Friday the IRGC said it hit a US early-warning radar there. Bahrain says its air defences intercepted the drones. The US military's Central Command (CENTCOM) said it shot down two drones on Friday with no injuries or damage, and a spokesman said there were \"no impacts to American forces\" on Sunday. The Washington Post says Bahrain had been relatively quiet for months. Iran's foreign ministry said Tehran would keep responding to \"military aggression\". On Monday morning in India, Brent crude was trading about 1% lower at $94.85 a barrel, PTI reported.",
+   "status": "Stated · IRGC, Bahrain, CENTCOM; Market data · PTI",
+   "differs": "Iran's described target differs: \"U.S. military equipment at a helicopter base\" (Washington Post) versus \"a U.S. air defense radar system\" (SOFX).",
+   "numbers": [
+    {
+     "k": "Drones claimed, Sunday",
+     "v": "6"
+    },
+    {
+     "k": "Brent, Mon morning",
+     "v": "$94.85"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Washington Post via Spokesman-Review",
+     "url": "https://www.spokesman.com/stories/2026/nov/15/iran-targets-bahrain-twice-after-months-of-quiet-c/",
+     "primary": true
+    },
+    {
+     "name": "SOFX",
+     "url": "https://www.sofx.com/iran-hits-u-s-base-in-bahrain-with-drones-for-second-time-in-three-days/"
+    },
+    {
+     "name": "Daily Excelsior (PTI)",
+     "url": "https://www.dailyexcelsior.com/rupee-rises-6-paise-to-94-13-against-us-dollar-in-early-trade"
+    }
+   ],
+   "added": "2026-11-16"
   }
  ]
 }

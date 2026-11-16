@@ -11,20 +11,20 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "94.20",
- "delta": "▲ ≈ 2.8% off the low",
- "bigLabel": "Rupees per US dollar at the close on 13 Nov (provisional), from a record low near 96.90",
- "updated": "2026-11-14",
+ "big": "94.13",
+ "delta": "▲ ≈ 2.9% off the low",
+ "bigLabel": "Rupees per US dollar in early trade on 16 Nov, from a record low near 96.90",
+ "updated": "2026-11-16",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to a six-month high of 93.70 on 9 November, then eased back to 94.20 by 13 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to a six-month high of 93.70 on 9 November, eased to 94.19 by 13 November, and was at 94.13 in early trade on 16 November.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 13 Nov",
-   "value": "94.20",
-   "note": "close, provisional",
+   "label": "Rupee per $, 16 Nov",
+   "value": "94.13",
+   "note": "early trade",
    "hot": true
   },
   {
@@ -281,6 +281,32 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "market",
+   "title": "Edges up to 94.13 as oil eases",
+   "summary": "The rupee rises 6 paise to 94.13 per dollar in early trade on Monday, after closing Friday at 94.19 (final figure). Forex traders credit lower crude oil prices and rising Indian shares, while a strong dollar, rising US bond yields and US-Iran tension limit the gain.",
+   "status": "Market data · PTI",
+   "numbers": [
+    {
+     "k": "Early trade",
+     "v": "94.13"
+    },
+    {
+     "k": "Friday close",
+     "v": "94.19"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Daily Excelsior (PTI)",
+     "url": "https://www.dailyexcelsior.com/rupee-rises-6-paise-to-94-13-against-us-dollar-in-early-trade",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-16"
   }
  ]
 }

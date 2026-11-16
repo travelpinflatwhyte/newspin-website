@@ -10,7 +10,7 @@
  "dek": "Why every departure in the United States stopped for about four hours on Friday, what officials say caused it, and what it means if you are flying this weekend.",
  "seoTitle": "US FAA nationwide ground stop: timeline in IST",
  "importance": 4,
- "status": "Recovering · normal by Monday expected",
+ "status": "Recovering · near normal on Monday",
  "tone": "hot",
  "big": "10,000+",
  "delta": "flights disrupted",
@@ -19,7 +19,7 @@
  "glance": {
   "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
   "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
-  "next": "Officials say there was no cyber attack, but Duffy says the root cause is not yet known. The FAA has switched off the faulty routers and about 60 similar ones. Duffy expects flights to be fully normal on Monday US time, and wants Congress to approve $50 billion to replace old equipment. Congress plans to review what went wrong."
+  "next": "Only 88 Monday flights had been cancelled by Sunday night US time, per FlightAware. Officials say there was no cyber attack, but Duffy says the root cause is not yet known. The FAA has switched off the faulty routers and about 60 similar ones. Duffy wants Congress to approve $50 billion to replace old equipment, and Congress plans to review what went wrong."
  },
  "keyNumbers": [
   {
@@ -35,7 +35,7 @@
   {
    "label": "Cancelled Saturday",
    "value": "6,400+",
-   "note": "FlightAware via Reuters (Latin Times); ABC7 says nearly 6,500"
+   "note": "FlightAware via Reuters; latest count nearly 6,700"
   },
   {
    "label": "Cause",
@@ -44,8 +44,8 @@
   },
   {
    "label": "Cancelled Sunday",
-   "value": "2,300+",
-   "note": "FlightAware via Reuters; an earlier count said 1,600+"
+   "value": "≈ 2,100",
+   "note": "FlightAware via Reuters; earlier counts said 1,600+ and 2,300+"
   },
   {
    "label": "Funding asked",
@@ -414,6 +414,45 @@
     {
      "name": "Reuters via Business Recorder",
      "url": "https://www.brecorder.com/news/40449089/us-air-travel-disruptions-continue-into-third-day"
+    }
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "Monday, 16 Nov",
+   "phase": "travel",
+   "title": "Sunday ends with about 2,100 cancellations; Monday looks close to normal",
+   "summary": "Reuters, citing the flight tracker FlightAware, reports that about 2,100 US flights were cancelled and 9,400 delayed on Sunday, the third day of disruption, with more than 11,500 flights affected that day. JetBlue cancelled about 28% of its flights and American about 20%; United, Southwest and Delta 3% to 5%. As of 8:28 pm US Eastern time on Sunday (6:58 am IST Monday), just 88 Monday flights had been cancelled. Duffy said there was no evidence of a cyber attack but the cause is still unclear. Two Democratic lawmakers asked to be told again why more money is needed, saying most of last year's $12.5 billion is unspent.",
+   "status": "Reported · FlightAware data; Stated · Duffy",
+   "differs": "Final counts differ from earlier versions of the Reuters report: Sunday about 2,100 cancelled and 9,400 delayed (latest) versus more than 2,300 and about 7,700 (earlier); Saturday now nearly 6,700 cancelled versus more than 6,400 earlier.",
+   "numbers": [
+    {
+     "k": "Cancelled Sunday",
+     "v": "≈ 2,100"
+    },
+    {
+     "k": "Delayed Sunday",
+     "v": "≈ 9,400"
+    },
+    {
+     "k": "Monday cancellations (early count)",
+     "v": "88"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via RTÉ",
+     "url": "https://www.rte.ie/news/us/2026/1116/1599324-us-flight-world/",
+     "primary": true
+    },
+    {
+     "name": "Reuters via The Tribune",
+     "url": "https://www.tribuneindia.com/news/usa-news/us-flight-disruptions-continue-for-third-day-over-11500-flights-affected/"
+    },
+    {
+     "name": "Reuters via Media Selangor",
+     "url": "https://mediaselangor.com/en/2026/11/407141"
     }
    ],
    "added": "2026-11-16"

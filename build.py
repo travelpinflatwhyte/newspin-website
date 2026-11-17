@@ -524,15 +524,26 @@ def build_home(site, stories, order, axis):
     # today / next strip
     # Strip shows only firm, dated items (labels like "17 Nov" or "2–4 Dec", not "Pending" or "2027"),
     # and each event once even if several stories list it.
-    seen_up, firm = set(), []
+    # Roll-up stories (AI this week, model tracker) repeat company news, so they are left out, and an
+    # item is skipped if one already shown on the same day shares most of its words.
+    def words(t):
+        return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 3}
+    firm, shown = [], {}
     for date, u, s in ups:
-        key = (date, re.sub(r"\W+", " ", u["text"].lower()).strip())
-        if not re.match(r"\d", u["label"]) or key in seen_up:
+        if not re.match(r"\d", u["label"]) or s["slug"] in ROLLUPS:
             continue
-        seen_up.add(key)
+        w = words(u["text"])
+        if any(len(w & o) >= 0.4 * min(len(w), len(o)) for o in shown.get(date, [])):
+            continue
+        shown.setdefault(date, []).append(w)
         firm.append((date, u, s))
-    t_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/">{e(s["short"])}: {e(u["text"])}</a>' for date, u, s in firm if d(date) == today]
-    n_chips = [f'<a class="tchip" href="/stories/{e(s["slug"])}/"><b>{e(u["label"])}</b> · {e(u["text"])}</a>' for date, u, s in firm if d(date) > today][:5]
+
+    def chip(lead, u, s):
+        full = f'{s["short"]}: {u["text"]}'
+        return (f'<a class="tchip" href="/stories/{e(s["slug"])}/" title="{e(full)}">'
+                f'<b>{e(lead)}</b><span class="tc-t">{e(u["text"])}</span></a>')
+    t_chips = [chip(s["short"], u, s) for date, u, s in firm if d(date) == today][:2]
+    n_chips = [chip(u["label"], u, s) for date, u, s in firm if d(date) > today][:4]
     strip = '<div class="strip" aria-label="Today and next">'
     if t_chips:
         strip += f'<span class="strip-l hot" data-ist-day="{site["today"]}">Today</span>' + "".join(t_chips)

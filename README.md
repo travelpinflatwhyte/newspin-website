@@ -79,6 +79,10 @@ Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `t
 
 Or ask Claude: "Update the RBI story with today's decision", attach this project (or link the GitHub repo), and it will research, edit the JSON, rebuild and hand back a new `dist/`.
 
+### Flags on story bubbles (optional)
+
+A story about one foreign country can set `"flag": "us"` (two-letter country code). The home-page bubble then shows that flag instead of a letter. Flag images live in `data/flags/` and come from the MIT-licensed flag-icons project (1x1 set); add a new file there before using a new code. Stories about India, about several countries, or about a company keep the letter. Company logos are not used: Nvidia and Anthropic both require written permission.
+
 ### Explainer diagrams (optional)
 
 A story can carry an `explainers` list. Each item has `file` (an HTML fragment with an inline SVG in `data/explainers/`), `title`, `caption` and `sources`. They appear between the story's track and the timeline. Draw them from sourced figures only, say in the caption what is to scale and what isn't, and style them with the site's CSS variables so they work in dark mode. Don't use photos unless their licence allows commercial use.

@@ -339,6 +339,16 @@ BUBBLE_BG = {"Economy": ("#2563EB", "#60A5FA"), "Markets": ("#047857", "#10B981"
              "AI": ("#A21CAF", "#E879F9"), "Travel": ("#0E7490", "#22D3EE")}
 
 
+def bubble_face(s):
+    """Bubble face: a country flag when the story sets `flag`, else the first letter on the category colour."""
+    fl = s.get("flag")
+    if fl:
+        svg = (ROOT / "data" / "flags" / f"{fl}.svg").read_text(encoding="utf-8")
+        svg = svg.replace("<svg ", '<svg aria-hidden="true" focusable="false" ', 1)
+        return f'<span class="face flag">{svg}</span>'
+    return f'<span class="face" style="background:{bubble_bg(s["category"])}">{e(s["short"][0].upper())}</span>'
+
+
 def bubble_bg(cat):
     a, b = BUBBLE_BG.get(cat, ("#334155", "#64748B"))
     return f"linear-gradient(135deg,{a},{b})"
@@ -468,7 +478,7 @@ def build_home(site, stories, order, axis):
     bubble_slugs = ([hero_slug] + grid_live)[:8]
     bubbles = "".join(
         f'<li><button type="button" class="bubble" data-sm-open="{e(x)}" aria-label="Catch up on {e(stories[x]["short"])}">'
-        f'<span class="ring"><span class="face" style="background:{bubble_bg(stories[x]["category"])}">{e(stories[x]["short"][0].upper())}</span></span>'
+        f'<span class="ring">{bubble_face(stories[x])}</span>'
         f'<span class="bl">{e(stories[x]["short"])}</span></button></li>' for x in bubble_slugs)
 
     # lead story

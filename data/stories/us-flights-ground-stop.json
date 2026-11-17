@@ -2,6 +2,7 @@
  "slug": "us-flights-ground-stop",
  "short": "US ground stop",
  "category": "Travel",
+ "flag": "us",
  "regions": [
   "US",
   "World"

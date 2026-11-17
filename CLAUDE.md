@@ -24,7 +24,7 @@ Newspin (newspinapp.com) turns big ongoing news stories into sourced timelines. 
 2. For every story with `tone` "hot" or "live", and anything with an `upcoming` date that has passed, search for news since the story's `updated` date. Also check the AI stories (`ai-this-week`, `ai-model-tracker` and the company timelines) for new model releases and company news. Check the Travel stories too (airline disruptions, airport closures, jet fuel prices on the 1st of each month, fare rules); only big, sourced air travel news becomes a new story.
 3. Add new events (with `added` set to today's date in IST), update `big`, `delta`, `bigLabel`, `glance`, `keyNumbers`, `status`, `tone`, `next` and `upcoming` where they changed, and set `updated` to today. Remove `upcoming` items whose date has passed.
 4. `ai-model-tracker` uses `"order": "desc"` (newest first on the page); keep events sorted by date in the file as usual. Add each major model launch there and to the company's own timeline.
-5. Only add a new story if it is clearly big news and can be sourced well; add its slug to `site.json` `order`.
+5. Only add a new story if it is clearly big news and can be sourced well; add its slug to `site.json` `order`. If the story is about one foreign country and its flag file exists in `data/flags/`, set `flag` (see README). Do not add company logos.
 6. Run `python3 build.py`. It must finish with "Built N stories". Check that every JSON file still parses.
 7. Commit with a plain summary of what changed (one line per story) and push to `main`. If nothing material changed, do not commit.
 8. Finish with a short report: stories updated, new stories, anything uncertain or left out and why.

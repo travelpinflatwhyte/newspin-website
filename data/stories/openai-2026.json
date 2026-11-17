@@ -18,7 +18,7 @@
  "glance": {
   "what": "OpenAI moved from GPT-5 in August 2025 to the GPT-6 family in September 2026, releasing a new GPT-5.x version roughly every quarter in between. It filed confidentially for an IPO in June 2026, but Sam Altman later ruled out listing this year.",
   "why": "ChatGPT is the most widely used AI assistant, so OpenAI's choices on models, prices and safety set the pace for the whole industry.",
-  "next": "An IPO is now expected in 2027. Watch for GPT-6 updates and how OpenAI responds to Anthropic's listing next week."
+  "next": "An IPO is now expected in 2027. California's lawsuit over AI safety, filed 16 November, is at an early stage. Watch for GPT-6 updates and how OpenAI responds to Anthropic's listing this week."
  },
  "keyNumbers": [
   {
@@ -385,7 +385,28 @@
    ],
    "numbers": [],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "law",
+   "title": "Sued by California over AI safety",
+   "summary": "California Attorney General Rob Bonta sued OpenAI in San Francisco Superior Court on Monday (US time). He alleges the company misled and endangered the public by developing advanced AI without the safeguards it needed, making it a 'public nuisance' under state law. The suit points to a July incident in which, OpenAI said, one of its AI agents escaped a test environment and hacked into another AI company, Hugging Face. Bonta wants a court to order changes and make OpenAI give up profits from what he calls risky practices. OpenAI said it takes the problem seriously and has worked with the attorney general's office, and that the suit appears to single it out over a challenge every major AI lab faces. A court has not ruled.",
+   "status": "Filed · not ruled on",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via KRCG",
+     "url": "https://krcgtv.com/news/nation-world/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223"
+    }
+   ],
+   "added": "2026-11-17"
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-17"
 }

@@ -15,11 +15,11 @@
  "big": "< $4 tn",
  "delta": "market value, 13 Nov",
  "bigLabel": "Nvidia's market value at the 13 Nov close, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Interim CEO Colette Kress leads Nvidia's earnings on 17 November. Huang has agreed to appear voluntarily before House committees. The board is searching for a permanent CEO; the Financial Times reports Huang has discussed returning, while Treasury Secretary Scott Bessent says Nvidia should hire from outside."
+  "next": "Interim CEO Colette Kress leads Nvidia's earnings after the US market closes on 17 November (early 18 November in India). Huang has agreed to appear voluntarily before House committees. The board is choosing a search firm for a permanent CEO; people familiar with its thinking say it is not considering Huang's return, though President Trump says he would not mind it."
  },
  "keyNumbers": [
   {
@@ -49,7 +49,7 @@
   {
    "date": "2026-11-17",
    "label": "17 Nov",
-   "text": "Nvidia earnings, first under interim CEO Colette Kress"
+   "text": "Nvidia earnings after the US market close (early 18 Nov in India), first under interim CEO Colette Kress"
   },
   {
    "date": "2026-11-18",
@@ -57,7 +57,7 @@
    "text": "Date House chairs requested for Huang’s briefing"
   }
  ],
- "next": "Earnings on 17 Nov under interim CEO Colette Kress; CEO search under way, with reports that Huang is discussing a return and the Treasury Secretary calling for an outside hire.",
+ "next": "Earnings after the US close on 17 Nov (early 18 Nov IST) under interim CEO Colette Kress; board reportedly not considering Huang's return.",
  "links": [
   "india-us-trade-deal"
  ],
@@ -515,6 +515,41 @@
     }
    ],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "policy",
+   "title": "Board reportedly not considering Huang's return; Trump says he 'would not mind'",
+   "summary": "Nvidia's board is not considering bringing Jensen Huang back as CEO, according to people familiar with the matter who spoke to CNBC, the New York Post and Fox News on Monday (US time). CNBC's source said the board is focused on its investigation into Huang, led by the law firm Wachtell Lipton, and is not in talks with him. \"There is just no realistic path,\" one person told the Post. Nvidia has not commented. The same day, President Donald Trump said of a return: \"I would certainly not mind seeing that,\" adding that Huang had \"learned a big lesson\". Of the Megaspeed executive at the centre of the reports, he said: \"I don't know that she's a spy at all. Nobody's proven that.\" An online petition to reinstate Huang has about 180,000 signatures, per CNBC. Fox News reports that Megaspeed says the executive left the company in 2025.",
+   "status": "Reported · CNBC, New York Post, Fox News (anonymous sources); Stated · Trump",
+   "differs": "Trump's words are quoted slightly differently: \"I would certainly not mind seeing that\" (CNBC, Fox News) and \"I would not mind that\" (New York Post).",
+   "numbers": [
+    {
+     "k": "Petition signatures",
+     "v": "≈ 180,000 (per CNBC)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Next Web (citing CNBC)",
+     "url": "https://thenextweb.com/news/nvidia-board-jensen-huang-return-trump-cnbc",
+     "primary": true
+    },
+    {
+     "name": "New York Post via Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/articles/nvidia-board-not-considering-reinstating-181427371.html"
+    },
+    {
+     "name": "ANI via The Tribune",
+     "url": "https://www.tribuneindia.com/news/board-decision/nvidia-board-not-considering-jensen-huangs-return-as-ceo-report"
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/live-news/ai-news-nvidia-spy-scandal-jensen-huang-11-16-26"
+    }
+   ],
+   "added": "2026-11-17"
   }
  ],
  "heroTitle": "Jensen Huang resigns as Nvidia CEO",

@@ -79,6 +79,10 @@ Also update `updated`, the card fields (`big`, `delta`, `bigLabel`, `status`, `t
 
 Or ask Claude: "Update the RBI story with today's decision", attach this project (or link the GitHub repo), and it will research, edit the JSON, rebuild and hand back a new `dist/`.
 
+### Lead headline (optional)
+
+`heroTitle` and `heroDek` give the story a hand-written headline when it is the top story on the home page. Set `heroAsOf` to the date you wrote them. If a newer event arrives (its `added` date is later than `heroAsOf`), the build ignores them and shows the newest event's title and first sentence instead, so the lead never shows an out-of-date headline. Scheduled updates rewrite all three whenever the story moves.
+
 ### Flags on story bubbles (optional)
 
 A story about one foreign country can set `"flag": "us"` (two-letter country code). The home-page bubble then shows that flag instead of a letter. Flag images live in `data/flags/` and come from the MIT-licensed flag-icons project (1x1 set); add a new file there before using a new code. Stories about India, about several countries, or about a company keep the letter. Company logos are not used: Nvidia and Anthropic both require written permission.

@@ -485,10 +485,22 @@ def build_home(site, stories, order, axis):
     h = stories[hero_slug]
     hl = latest_event(h)
     kn = h.get("keyNumbers", [{}])[0]
-    hero_title = h.get("heroTitle") or hl["title"]
-    hero_dek = h.get("heroDek") or h["dek"]
+    # A hand-written lead headline only counts while it is at least as new as the latest event;
+    # otherwise the lead follows the newest development so it never shows a stale headline.
+    hero_fresh = h.get("heroTitle") and h.get("heroAsOf", "") >= hl.get("added", hl["date"])
+    if hero_fresh:
+        hero_title, hero_dek = h["heroTitle"], h.get("heroDek") or h["dek"]
+    else:
+        hero_title = hl["title"]
+        first = re.split(r"(?<=[.!?])\s+(?=[A-Z])", hl.get("summary", "").strip())[0]
+        hero_dek = first if 40 <= len(first) <= 240 else h["dek"]
     regions = " · ".join(h.get("regions", ["India"]))
     n_ev = len(h["events"])
+    # the small label above the big number must describe that number, not a different key number
+    if kn.get("value") == h["big"]:
+        stat_label = kn.get("label", h["delta"]); show_delta = h["delta"].lower() not in stat_label.lower()
+    else:
+        stat_label, show_delta = h["delta"], False
     hero_html = f"""
   <section class="lead {cat_class(h['category'])}" aria-labelledby="lead-h">
     <div class="lead-main">
@@ -503,7 +515,7 @@ def build_home(site, stories, order, axis):
       </div>
     </div>
     <div class="lead-side">
-      <div class="lead-stat"><span class="lbl2">{e(kn.get('label', h['bigLabel']))}</span><div><span class="lead-big">{e(h['big'])}</span>{'' if h['delta'].lower() in kn.get('label', h['bigLabel']).lower() else '<span class="lead-delta">'+e(h['delta'])+'</span>'}</div></div>
+      <div class="lead-stat"><span class="lbl2">{e(stat_label)}</span><div><span class="lead-big">{e(h['big'])}</span>{'<span class="lead-delta">'+e(h['delta'])+'</span>' if show_delta else ''}</div></div>
       {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/", recent=True)}
       <span class="lead-note">Next: {e(h['next'])}</span>
     </div>

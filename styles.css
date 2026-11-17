@@ -331,7 +331,9 @@ button{font-family:inherit}
 .strip-l{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-left:6px}
 .strip-l:first-child{margin-left:0}
 .strip-l.hot{color:var(--pin-ink)}
-.tchip{padding:8px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}
+.tchip{display:inline-flex;align-items:center;gap:6px;max-width:320px;padding:7px 13px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13px;font-weight:500;color:var(--ink-2);text-decoration:none;white-space:nowrap}
+.tchip b{font-weight:700;color:var(--ink);flex:none}
+.tchip .tc-t{overflow:hidden;text-overflow:ellipsis;min-width:0}
 .tchip:hover{border-color:var(--muted);color:var(--ink)}
 
 @media (max-width:640px){
@@ -341,7 +343,7 @@ button{font-family:inherit}
   .bubbles{margin:0 -16px;padding:4px 16px}
   .bubble{width:70px} .bubble .ring{width:58px;height:58px}
   .strip{flex-wrap:nowrap;overflow-x:auto;margin:16px -16px 0;padding:0 16px 4px;scrollbar-width:none}
-  .tchip{white-space:nowrap}
+  .tchip{max-width:260px;flex:none}
 }
 
 /* ---------- story mode ("Catch me up") ---------- */

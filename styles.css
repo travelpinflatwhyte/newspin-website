@@ -652,3 +652,9 @@ main::before{content:"";position:absolute;inset:0 0 auto 0;height:620px;z-index:
 [data-theme="dark"] .site-header.scrolled{box-shadow:0 1px 0 var(--line),0 6px 18px rgba(0,0,0,.35)}
 html{scroll-padding-top:84px}
 .updates{top:84px}
+
+/* country flags on story bubbles */
+.bubble .face.flag{overflow:hidden;background:var(--surface);box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.bubble .face.flag svg{width:100%;height:100%;display:block}
+.bubble .face.flag{position:relative}
+.bubble .face.flag::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.14)}

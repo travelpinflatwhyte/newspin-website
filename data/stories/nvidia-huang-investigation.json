@@ -12,9 +12,9 @@
  "importance": 4,
  "status": "Huang resigned",
  "tone": "hot",
- "big": "< $4 tn",
- "delta": "market value, 13 Nov",
- "bigLabel": "Nvidia's market value at the 13 Nov close, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
+ "big": "≈ $3.92 tn",
+ "delta": "market value, 16 Nov",
+ "bigLabel": "Nvidia's market value at the 16 Nov close, per the Motley Fool, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
  "updated": "2026-11-17",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
@@ -23,9 +23,9 @@
  },
  "keyNumbers": [
   {
-   "label": "Share price, 13 Nov",
-   "value": "$162.85",
-   "note": "week ≈ −12%",
+   "label": "Share price, 16 Nov",
+   "value": "$156.14",
+   "note": "−4.12% on the day",
    "hot": true
   },
   {
@@ -547,6 +547,40 @@
     {
      "name": "Fox News",
      "url": "https://www.foxnews.com/live-news/ai-news-nvidia-spy-scandal-jensen-huang-11-16-26"
+    }
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026 (US close)",
+   "phase": "market",
+   "title": "Shares fall 4% on the eve of earnings",
+   "summary": "Nvidia shares closed at $156.14 on Monday, down 4.12%, per the Motley Fool, leaving the company's market value at about $3.92 trillion. The Independent also reports a drop of more than 4% and says Nvidia has lost about $800 billion in market value since details of Huang's relationship emerged. The wider Nasdaq index fell 2.49%. The Motley Fool links the fall to new US limits on access to advanced AI chips, analysts lowering their price targets and uncertainty over the leadership change. The Independent reports that more than 190,000 people have signed a petition to reinstate Huang; the petition's figures for Nvidia employees and shareholders who signed are self-reported and not checked.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Close, 16 Nov",
+     "v": "$156.14 (−4.12%)"
+    },
+    {
+     "k": "Market value",
+     "v": "≈ $3.92 tn"
+    },
+    {
+     "k": "Petition signatures",
+     "v": "190,000+ (per The Independent)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/",
+     "primary": true
+    },
+    {
+     "name": "The Independent via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-rejects-calls-jensen-110525986.html"
     }
    ],
    "added": "2026-11-17"

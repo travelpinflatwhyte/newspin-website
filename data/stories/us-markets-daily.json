@@ -1,0 +1,347 @@
+{
+  "slug": "us-markets-daily",
+  "short": "US markets",
+  "category": "Markets",
+  "regions": [
+    "US",
+    "World"
+  ],
+  "title": "US markets: the daily wrap",
+  "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
+  "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
+  "importance": 4,
+  "status": "Three days down",
+  "tone": "live",
+  "big": "7,416.59",
+  "delta": "▼ 145.08 (1.92%)",
+  "bigLabel": "S&P 500 close on 16 Nov (US time)",
+  "updated": "2026-11-17",
+  "market": {
+    "index": "S&P 500",
+    "second": "Dow and Nasdaq",
+    "tz": "US time; closes 2:30 am IST"
+  },
+  "glance": {
+    "what": "The S&P 500 fell 1.92% to 7,416.59 on 16 November, its third loss in a row, as chip and AI shares sold off a day before Nvidia's results. It had jumped 2.35% on 9 November and gained 2.5% over that week.",
+    "why": "Wall Street's swings have been driven by Nvidia's leadership crisis, hotter inflation data that raised bets on a Fed rate rise, and oil prices. Big US moves often set the tone for Indian markets the next morning.",
+    "next": "Nvidia reports results after the US close on 17 November (early 18 November in India). Anthropic is expected to start trading on 19 November."
+  },
+  "keyNumbers": [
+    {
+      "label": "S&P 500, 16 Nov",
+      "value": "7,416.59",
+      "note": "−1.92%",
+      "hot": true
+    },
+    {
+      "label": "Dow",
+      "value": "51,608.17",
+      "note": "−1.41%"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "24,509.76",
+      "note": "−2.49%"
+    },
+    {
+      "label": "16 Nov open",
+      "value": "7,513.98",
+      "note": "gap down −47.69"
+    }
+  ],
+  "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
+  "upcoming": [
+    {
+      "date": "2026-11-18",
+      "label": "18 Nov",
+      "text": "Nvidia results (after the US close on 17 Nov)"
+    },
+    {
+      "date": "2026-11-19",
+      "label": "19 Nov",
+      "text": "Anthropic expected to start trading on Nasdaq"
+    }
+  ],
+  "next": "Nvidia's results and Anthropic's market debut this week.",
+  "links": [
+    "india-markets-daily",
+    "nvidia-huang-investigation",
+    "anthropic-2026"
+  ],
+  "events": [
+    {
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "market",
+      "title": "Gap up and the S&P 500's best day since April",
+      "summary": "The S&P 500 opened higher and rallied 2.35%, its best day since 8 April, as oil prices fell, CNBC reports via StockTitan. All 11 sectors rose. Nvidia fell about 4% after its board opened an investigation into reports about CEO Jensen Huang.",
+      "status": "Market data · TheStreet, Zacks via Yahoo Finance",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "52,389.75 (+2.15%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "25,253.14 (+2.74%)"
+        }
+      ],
+      "session": {
+        "prev": 7376.86,
+        "open": 7422.24,
+        "close": 7549.94,
+        "low": 7422.24,
+        "high": 7577.39
+      },
+      "sources": [
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+          "primary": true
+        },
+        {
+          "name": "Zacks via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-10-094800346.html"
+        },
+        {
+          "name": "StockTitan (CNBC)",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026"
+        },
+        {
+          "name": "Yahoo Finance (open)",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026",
+      "phase": "market",
+      "title": "Gap down on hotter inflation; Nvidia falls 5%",
+      "summary": "Stocks opened lower and closed down after October's core inflation rose 0.3%, more than forecast, CNBC reports, adding that expectations of a Federal Reserve rate rise next month grew. Technology was the weakest sector, and Nvidia ended down about 5%.",
+      "status": "Market data · TheStreet, CNBC",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "52,231.89 (−0.30%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "25,065.88 (−0.74%)"
+        }
+      ],
+      "session": {
+        "prev": 7549.94,
+        "open": 7513.09,
+        "close": 7520.93,
+        "low": 7470.43,
+        "high": 7543.92
+      },
+      "sources": [
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
+          "primary": true
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "StockTitan (CNBC)",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
+        },
+        {
+          "name": "Yahoo Finance (open)",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026",
+      "phase": "market",
+      "title": "Gap up as CoreWeave's results revive the AI trade",
+      "summary": "The S&P 500 opened higher and closed up 1.31% after cloud company CoreWeave beat forecasts and raised its outlook, which lifted chip and AI shares, CNBC reports. Every stock in the Philadelphia semiconductor index rose, per CappNotes. The S&P 500 ended within 2.6% of its record high, AP reports.",
+      "status": "Market data · CNBC, AP",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "52,486.49 (+0.49%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "25,466.19 (+1.60%)"
+        }
+      ],
+      "session": {
+        "prev": 7520.93,
+        "open": 7586.65,
+        "close": 7619.38,
+        "low": 7571.88,
+        "high": 7647.2
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html",
+          "primary": true
+        },
+        {
+          "name": "AP via KRMG",
+          "url": "https://krmg.com/2026/11/11/how-major-us-stock-indexes-fared-wednesday-11-11-2026/"
+        },
+        {
+          "name": "CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+        },
+        {
+          "name": "Investing.com (open)",
+          "url": "https://www.investing.com/indices/us-spx-500-historical-data"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "market",
+      "title": "Gap down as Nvidia's CEO leaves and Iran tensions rise",
+      "summary": "Wall Street opened lower and ended down 0.35% as Jensen Huang's departure as Nvidia CEO, rising tension with Iran and expectations of a Fed rate rise weighed on shares, Zacks reports via Yahoo Finance. Nineteen of the 30 Dow stocks fell.",
+      "status": "Market data · Zacks via Yahoo Finance",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "52,297.09 (−189.40)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "25,366.09 (−100.10)"
+        }
+      ],
+      "session": {
+        "prev": 7619.38,
+        "open": 7550.84,
+        "close": 7592.4,
+        "low": 7550.84,
+        "high": 7652.76
+      },
+      "sources": [
+        {
+          "name": "Zacks via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-13-081500049.html",
+          "primary": true
+        },
+        {
+          "name": "Portfolio Terminal",
+          "url": "https://portfolio-terminal.com/markets/stock-market-close"
+        },
+        {
+          "name": "FRED (St Louis Fed)",
+          "url": "https://fred.stlouisfed.org/series/SP500"
+        },
+        {
+          "name": "Yahoo Finance (open)",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-13",
+      "dateLabel": "13 Nov 2026",
+      "phase": "market",
+      "title": "Opens higher, then slips as chip stocks fall again",
+      "summary": "Stocks opened higher but the S&P 500 closed down 0.40% as Nvidia and other chip shares fell after a hotter-than-expected inflation reading, Yahoo Finance reports. The Dow edged up 0.1%. All three indices still ended the week higher; the S&P 500 gained 2.5% for the week, AP reports.",
+      "status": "Market data · TheStreet, AP",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "52,347.55 (+50.46)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "25,136.27 (−0.91%)"
+        }
+      ],
+      "session": {
+        "prev": 7592.4,
+        "open": 7616.85,
+        "close": 7561.67,
+        "low": 7499.4,
+        "high": 7621.78
+      },
+      "sources": [
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026",
+          "primary": true
+        },
+        {
+          "name": "AP via The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+        },
+        {
+          "name": "StockTitan (higher open)",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026"
+        },
+        {
+          "name": "Yahoo Finance (open)",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026",
+      "phase": "market",
+      "title": "Gap down and a 1.9% slide as chip stocks sell off before Nvidia's results",
+      "summary": "The S&P 500 opened lower and fell 1.92%, its third straight loss, as chip and AI shares sold off, CNBC reports. Nvidia fell 4.1% a day before its earnings, after reports that its board is not considering bringing back Jensen Huang. Only consumer staples and utilities rose, per CappNotes.",
+      "status": "Market data · CNBC, CNN",
+      "numbers": [
+        {
+          "k": "Dow",
+          "v": "51,608.17 (−739.38)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "24,509.76 (−2.49%)"
+        }
+      ],
+      "session": {
+        "prev": 7561.67,
+        "open": 7513.98,
+        "close": 7416.59,
+        "low": 7400.15,
+        "high": 7515.6
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+          "primary": true
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic"
+        },
+        {
+          "name": "CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-monday-november-16-2026"
+        },
+        {
+          "name": "Google Finance (open)",
+          "url": "https://www.google.com/finance/quote/.INX:INDEXSP"
+        }
+      ],
+      "added": "2026-11-17"
+    }
+  ]
+}

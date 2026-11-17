@@ -392,6 +392,106 @@ def day_label(x, today):
     return f"Today · {base}" if gap == 0 else f"Yesterday · {base}" if gap == 1 else f"{x.strftime('%A')} · {base}"
 
 
+
+# ---------- market sessions (open, close and the gap at the open) ----------
+def sess_info(ss):
+    """Gap = today's open minus the previous close; a gap under 0.1% counts as a flat open."""
+    gap = ss["open"] - ss["prev"]
+    gp = gap / ss["prev"] * 100
+    kind = "flat" if abs(gp) < 0.1 else ("up" if gap > 0 else "down")
+    chg = ss["close"] - ss["prev"]
+    return {"gap": gap, "gp": gp, "kind": kind, "chg": chg, "cp": chg / ss["prev"] * 100,
+            "day": "up" if chg > 0 else ("down" if chg < 0 else "flat")}
+
+
+def fnum(v):
+    return f"{v:,.2f}"
+
+
+def fsign(v, pct=False):
+    sign = "+" if v > 0 else ("−" if v < 0 else "")
+    return f"{sign}{abs(v):,.2f}{'%' if pct else ''}"
+
+
+GAP_LABEL = {"up": "Gap up", "down": "Gap down", "flat": "Flat open"}
+GAP_ARROW = {"up": "▲", "down": "▼", "flat": "–"}
+
+
+def session_tags(ss):
+    si = sess_info(ss)
+    close_l = {"up": "Closed higher", "down": "Closed lower", "flat": "Closed flat"}[si["day"]]
+    return (f'<span class="stag g-{si["kind"]}">{GAP_ARROW[si["kind"]]} {GAP_LABEL[si["kind"]]}'
+            f'{"" if si["kind"] == "flat" else " " + fsign(si["gap"])}</span>'
+            f'<span class="stag d-{si["day"]}">{close_l}</span>')
+
+
+def session_row(ss):
+    si = sess_info(ss)
+    rng = f'<div><span class="k">Day\'s range</span><span class="v">{fnum(ss["low"])} – {fnum(ss["high"])}</span></div>' if ss.get("low") and ss.get("high") else ""
+    return (f'<div class="sess-row"><div><span class="k">Previous close</span><span class="v">{fnum(ss["prev"])}</span></div>'
+            f'<div><span class="k">Open</span><span class="v">{fnum(ss["open"])} <em class="c-{si["kind"]}">{fsign(si["gap"])}</em></span></div>'
+            f'<div><span class="k">Close</span><span class="v">{fnum(ss["close"])} <em class="c-{si["day"]}">{fsign(si["chg"])} ({fsign(si["cp"], True)})</em></span></div>{rng}</div>')
+
+
+def session_svg(ss, label):
+    si = sess_info(ss)
+    vals = [ss["prev"], ss["open"], ss["close"]] + [ss[k] for k in ("low", "high") if ss.get(k)]
+    lo, hi = min(vals), max(vals)
+    pad = (hi - lo) * 0.06 or 1
+    lo, hi = lo - pad, hi + pad
+    X = lambda v: round(30 + (v - lo) / (hi - lo) * 580, 1)
+    xp, xo, xc = X(ss["prev"]), X(ss["open"]), X(ss["close"])
+    parts = ['<line x1="20" y1="62" x2="620" y2="62" class="sb-base"/>']
+    if ss.get("low") and ss.get("high"):
+        parts.append(f'<line x1="{X(ss["low"])}" y1="62" x2="{X(ss["high"])}" y2="62" class="sb-range"/>')
+        parts.append(f'<text x="{X(ss["low"])}" y="84" class="sb-small" text-anchor="middle">low</text><text x="{X(ss["high"])}" y="84" class="sb-small" text-anchor="middle">high</text>')
+    parts.append(f'<rect x="{min(xp, xo)}" y="56" width="{max(abs(xo - xp), 2)}" height="12" rx="3" class="sb-gap g-{si["kind"]}"/>')
+    intr = "up" if ss["close"] >= ss["open"] else "down"
+    parts.append(f'<rect x="{min(xo, xc)}" y="56" width="{max(abs(xc - xo), 2)}" height="12" rx="3" class="sb-day d-{intr}"/>')
+    parts.append(f'<circle cx="{xp}" cy="62" r="7" class="sb-prev"/><circle cx="{xo}" cy="62" r="7" class="sb-open g-{si["kind"]}"/><circle cx="{xc}" cy="62" r="8" class="sb-close d-{si["day"]}"/>')
+    # labels: alternate above/below so they never overlap
+    labs = sorted([(xp, "Previous close", ss["prev"]), (xo, "Open", ss["open"]), (xc, "Close", ss["close"])], key=lambda t: t[0])
+    ys = [30, 108, 30] if abs(labs[2][0] - labs[0][0]) > 150 else [30, 108, 132]
+    if abs(labs[1][0] - labs[0][0]) > 150 and abs(labs[2][0] - labs[1][0]) > 150:
+        ys = [30, 30, 30]
+    for (x, name, v), y in zip(labs, ys):
+        anchor = "start" if x < 90 else ("end" if x > 550 else "middle")
+        parts.append(f'<text x="{x}" y="{y - 14}" class="sb-lbl" text-anchor="{anchor}">{name}</text><text x="{x}" y="{y}" class="sb-val" text-anchor="{anchor}">{fnum(v)}</text>')
+    title = (f"{label}: previous close {fnum(ss['prev'])}, opened at {fnum(ss['open'])} ({GAP_LABEL[si['kind']].lower()}), "
+             f"closed at {fnum(ss['close'])}, {fsign(si['chg'])} on the day.")
+    return f'<svg viewBox="0 0 640 140" width="640" height="140" role="img" aria-label="{e(title)}">{"".join(parts)}</svg>'
+
+
+def market_panel(s):
+    mk = s["market"]
+    sess_evs = [(ev, ev["session"]) for ev in s["events"] if ev.get("session")]
+    if not sess_evs:
+        return ""
+    ev, ss = sess_evs[-1]
+    si = sess_info(ss)
+    intr = "rose through the day" if ss["close"] > ss["open"] else "fell through the day"
+    pts = lambda v: f'{abs(v):,.2f} points {"higher" if v > 0 else "lower"}'
+    opening = (f'Opened {pts(si["gap"])} ({fsign(si["gp"], True)}), a {GAP_LABEL[si["kind"]].lower()}'
+               if si["kind"] != "flat" else f'Opened almost flat ({fsign(si["gap"])} points)')
+    blurb = f'{opening}, then {intr} to close {pts(si["chg"])} ({fsign(si["cp"], True)}).'
+    cells = ""
+    for ev2, ss2 in sess_evs[-7:]:
+        s2 = sess_info(ss2)
+        cells += (f'<li><a href="#e{s["events"].index(ev2) + 1}"><span class="wk-d">{e(ev2["dateLabel"].rsplit(" ", 1)[0])}</span>'
+                  f'<span class="wk-g g-{s2["kind"]}">{GAP_ARROW[s2["kind"]]} {GAP_LABEL[s2["kind"]]}</span>'
+                  f'<span class="wk-r"><i>Open</i> {fnum(ss2["open"])}</span><span class="wk-r"><i>Close</i> {fnum(ss2["close"])}</span>'
+                  f'<span class="wk-c c-{s2["day"]}">{fsign(s2["cp"], True)}</span></a></li>')
+    return f"""<section class="panel mkt {cat_class(s['category'])}" aria-labelledby="mkt-h">
+  <div class="mkt-hd"><h2 class="eyebrow" id="mkt-h">Latest session · {e(mk['index'])} · {e(ev['dateLabel'])}</h2>{session_tags(ss)}</div>
+  <div class="mkt-bar">{session_svg(ss, mk['index'] + ' on ' + ev['dateLabel'])}</div>
+  <div class="mkt-nums">{session_row(ss)}</div>
+  <p class="mkt-blurb">{e(blurb)}</p>
+  <h3 class="mkt-sub">Day by day</h3>
+  <ul class="wk">{cells}</ul>
+  <p class="mkt-note">The gap is the difference between the opening level and the previous day's close; under 0.1% counts as a flat open. Times: {e(mk.get('tz', ''))}. Information, not investment advice.</p>
+</section>"""
+
+
 # ---------- home ----------
 def build_home(site, stories, order, axis):
     today = axis.today
@@ -688,6 +788,7 @@ def build_story(site, stories, s, axis):
       <span class="ev-status">{ICON_CHECK}{e(ev['status'])}</span>
     </div>
     <h3>{e(ev['title'])}</h3>
+    {('<div class="sess"><div class="sess-tags">' + session_tags(ev['session']) + '</div>' + session_row(ev['session']) + '</div>') if ev.get('session') else ''}
     <p>{e(ev['summary'])}</p>
     <details>
       <summary><span style="display:inline-flex;align-items:center;gap:6px">{ICON_CHEV}<span class="long-l">Sources, documents and numbers</span><span class="short-l">Sources &amp; numbers</span></span><span class="cnt">{n} source{'s' if n != 1 else ''}</span></summary>
@@ -720,6 +821,8 @@ def build_story(site, stories, s, axis):
   <figcaption>{e(x.get('caption', ''))}{' Sources: ' + srcs if srcs else ''}</figcaption>
 </figure>"""
     xps_html = f'<div class="explainers">{xps}</div>' if xps else ""
+    if s.get("market"):
+        xps_html = market_panel(s) + xps_html
 
     linked = ""
     for l in s.get("links", []):

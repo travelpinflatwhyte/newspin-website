@@ -12,20 +12,20 @@
  "importance": 4,
  "status": "Talks, no deal",
  "tone": "live",
- "big": "$95.84",
- "delta": "Brent, 13 Nov",
- "bigLabel": "Down about 20% from a late-October peak near $118",
- "updated": "2026-11-16",
+ "big": "$91.66",
+ "delta": "Down about 22% from a late-October peak near $118",
+ "bigLabel": "Brent, 0430 GMT on 17 Nov (Reuters)",
+ "updated": "2026-11-17",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Oil posted a second weekly fall, and the IEA expects a supply surplus this quarter. But attacks keep prices jumpy: Iran fired drones at a US base in Bahrain on 13 and 15 November, and President Trump has said the US does not need a deal with Iran."
+  "next": "Oil fell below $92 on 17 November as Gulf exports recover, and the IEA and Goldman Sachs expect a supply surplus. But attacks keep prices jumpy: Iran fired drones at a US base in Bahrain on 13 and 15 November, and Hormuz traffic is about half its pre-war level. OPEC+ meets on 29 November."
  },
  "keyNumbers": [
   {
-   "label": "Brent, 13 Nov",
-   "value": "$95.84",
-   "note": "per barrel",
+   "label": "Brent, 17 Nov",
+   "value": "$91.66",
+   "note": "per barrel, early trade",
    "hot": true
   },
   {
@@ -46,7 +46,7 @@
  ],
  "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
  "upcoming": [],
- "next": "Whether the Bahrain attacks escalate, and whether Hormuz reopens under the Qatar-brokered proposal.",
+ "next": "OPEC+ meets on 29 November; whether the Bahrain attacks escalate, and whether Hormuz reopens.",
  "links": [
   "rupee-slide-2026",
   "russian-oil",
@@ -438,6 +438,40 @@
     }
    ],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "market",
+   "title": "Brent falls below $92 as Gulf exports recover",
+   "summary": "Brent crude fell 78 cents to $91.66 a barrel by 0430 GMT on Tuesday (10 am in India), Reuters reports, after a sharp fall on Monday. JournalArta puts Monday's drop at 3.5%, to $92.44. Traders say recovering oil exports from the Middle East and expectations of a supply surplus outweigh continued Iranian attacks on US bases in Bahrain and disruption in the Strait of Hormuz. ANZ analysts say traffic through Hormuz is still only 49% of pre-war levels. Goldman Sachs expects a surplus of about 2 million barrels a day in 2027. OPEC+ meets on 29 November to decide output for 2027.",
+   "status": "Market data · Reuters",
+   "numbers": [
+    {
+     "k": "Brent, Tue 0430 GMT",
+     "v": "$91.66"
+    },
+    {
+     "k": "Hormuz traffic",
+     "v": "49% of pre-war"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Recorder (Reuters)",
+     "url": "https://www.brecorder.com/news/40449308/oil-slips-as-recovering-mideast-exports-blunt-gulf-tensions",
+     "primary": true
+    },
+    {
+     "name": "JournalArta",
+     "url": "https://journalarta.com/en/2026/11/17/oil-prices-today-crude-falls-supply-surplus/"
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-rises-31-paise-to-93-63-against-us-dollar-in-early-trade-november-17-2026"
+    }
+   ],
+   "added": "2026-11-17"
   }
  ]
 }

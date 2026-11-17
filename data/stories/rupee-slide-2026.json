@@ -11,19 +11,19 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "94.13",
- "delta": "▲ ≈ 2.9% off the low",
- "bigLabel": "Rupees per US dollar in early trade on 16 Nov, from a record low near 96.90",
- "updated": "2026-11-16",
+ "big": "93.63",
+ "delta": "▲ ≈ 3.4% off the low",
+ "bigLabel": "Rupees per US dollar in early trade on 17 Nov, from a record low near 96.90",
+ "updated": "2026-11-17",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to a six-month high of 93.70 on 9 November, eased to 94.19 by 13 November, and was at 94.13 in early trade on 16 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened again: it closed at 93.94 on 16 November and touched 93.63 in early trade on 17 November.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 16 Nov",
-   "value": "94.13",
+   "label": "Rupee per $, 17 Nov",
+   "value": "93.63",
    "note": "early trade",
    "hot": true
   },
@@ -307,6 +307,37 @@
     }
    ],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "market",
+   "title": "Rises to 93.63 as oil falls and foreign money flows in",
+   "summary": "The rupee closed Monday 25 paise stronger at 93.94 per dollar, then opened at 93.72 on Tuesday and touched 93.63 in early trade, PTI reports. Dealers credit lower oil prices, which ease India's import bill, and foreign investors buying Indian shares: they bought ₹4,864.68 crore of shares on Monday alone, according to exchange data. Moneycontrol links the inflows to investors moving money away from AI-linked trades elsewhere.",
+   "status": "Market data · PTI",
+   "differs": "Moneycontrol gives Monday's close as 93.93 and Tuesday's opening as 93.73; PTI gives 93.94 and 93.72.",
+   "numbers": [
+    {
+     "k": "Early trade",
+     "v": "93.63"
+    },
+    {
+     "k": "Monday close",
+     "v": "93.94"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-rises-31-paise-to-93-63-against-us-dollar-in-early-trade-november-17-2026",
+     "primary": true
+    },
+    {
+     "name": "Moneycontrol via TradingView",
+     "url": "https://www.tradingview.com/news/moneycontrol:7fca6c7da094b:0-currency-check-rupee-opens-20-paise-higher-at-93-73-on-lower-oil-prices-foreign-inflows/"
+    }
+   ],
+   "added": "2026-11-17"
   }
  ]
 }

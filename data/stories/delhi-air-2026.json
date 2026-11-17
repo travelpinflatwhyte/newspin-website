@@ -11,26 +11,26 @@
  "importance": 4,
  "status": "Poor · Stage III",
  "tone": "hot",
- "big": "290",
+ "big": "246",
  "delta": "poor",
- "bigLabel": "Delhi's AQI at 4 pm on 15 Nov (PTI), after light rain and wind; it was 351 that morning and 403 ('severe') on 13 Nov",
- "updated": "2026-11-16",
+ "bigLabel": "Delhi's AQI at 7 am on 17 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
+ "updated": "2026-11-17",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased: 351 ('very poor') on the morning of 15 November and 290 ('poor') that afternoon after light rain and wind. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 290 on the afternoon of 15 November and 246 at 7 am on 17 November. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "Light rain and wind brought the AQI down to 'poor' on Sunday 15 November. The forecast is 'poor' on 16 November and 'very poor' again on 17–18 November. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "Delhi's early-warning system expects a slight fall in PM2.5 and PM10 over the next two days, though one report warns air could worsen again. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 15 Nov 4 pm",
-   "value": "290",
+   "label": "AQI, 17 Nov 7 am",
+   "value": "246",
    "note": "poor",
    "hot": true
   },
   {
-   "label": "AQI, 15 Nov 8 am",
-   "value": "351",
-   "note": "very poor"
+   "label": "AQI, 15 Nov 4 pm",
+   "value": "290",
+   "note": "poor"
   },
   {
    "label": "AQI, 13 Nov 6 am",
@@ -51,11 +51,6 @@
  "forYou": "Check the AQI before going out, limit outdoor exercise on 'very poor' and 'severe' days, and follow the official CAQM orders for what Stage III restricts. If your car is registered outside Delhi and is not BS-VI, it can be turned back at the border until 31 January.",
  "upcoming": [
   {
-   "date": "2026-11-17",
-   "label": "17–18 Nov",
-   "text": "Air forecast to turn 'very poor' again"
-  },
-  {
    "date": "2026-11-20",
    "label": "20 Nov",
    "text": "Gurugram's pause on dust-raising works ends"
@@ -66,7 +61,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "Air is forecast to stay 'poor' on 16 Nov and turn 'very poor' again on 17–18 Nov. Stage III stays until the air commission says otherwise.",
+ "next": "A slight improvement is forecast for the next two days. Stage III stays until the air commission says otherwise.",
  "links": [
   "west-asia-oil"
  ],
@@ -444,6 +439,37 @@
     }
    ],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "air",
+   "title": "Tuesday morning: AQI 246, still 'poor'",
+   "summary": "Delhi's average AQI was 246 at 7 am on Tuesday, in the 'poor' band, according to Central Pollution Control Board (CPCB) data reported by Business Today and The Week. PM2.5, the fine dust that gets deep into the lungs, was the main pollutant. The Week says 52 of 58 stations were above 200 and 11 were above 300, with Siri Fort the worst at 341. Business Today says Delhi has now had 'poor' or worse air for 16 days in a row. Delhi's early-warning system forecasts a slight fall in PM2.5 and PM10 over the next two days. Stage III curbs, in force since 6 November, had not been changed.",
+   "status": "Official data · CPCB",
+   "differs": "Monday's figure is given differently: The Week puts Monday's citywide average at 290, while Business Today says the 7 am average on Monday was 221. Business Today also says pollution 'could deteriorate further', while The Week cites the forecast of a slight fall.",
+   "numbers": [
+    {
+     "k": "AQI, 7 am",
+     "v": "246"
+    },
+    {
+     "k": "Stations above 300",
+     "v": "11"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/delhi-pollution-air-quality-turns-poor-again-as-aqi-rises-to-246-ncr-cities-remain-in-grip-of-smog-567745-2026-11-17",
+     "primary": true
+    },
+    {
+     "name": "The Week",
+     "url": "https://www.theweek.in/news/india/2026/11/17/delhis-air-quality-to-remain-very-poor-over-week-aqi-rises-to-246.html"
+    }
+   ],
+   "added": "2026-11-17"
   }
  ]
 }

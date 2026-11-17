@@ -240,6 +240,37 @@
    "added": "2026-11-13"
   },
   {
+   "date": "2026-11-09",
+   "dateLabel": "9 Nov 2026",
+   "phase": "ai",
+   "title": "Meituan opens up LongCat-2.5, a 1.6-trillion-parameter agent model",
+   "summary": "Meituan, the Chinese food-delivery company, released the weights of LongCat-2.5 under the MIT licence, so anyone can download and use it. AI/TLDR, citing the model card, says it has 1.6 trillion parameters, of which about 48 billion are used for each word it produces, which keeps running costs down. It can read screenshots and video and is built for long, multi-step coding and agent tasks. Meituan's own test scores show large gains over the earlier LongCat-2.0; these are the company's measurements, not independent ones.",
+   "status": "Released · Meituan",
+   "differs": "Dates differ: AI/TLDR says the model was unveiled on 1 November; Let's Data Science, citing VentureBeat, says the weights were released on 9 November.",
+   "numbers": [
+    {
+     "k": "Parameters",
+     "v": "1.6 trillion"
+    },
+    {
+     "k": "Active per token",
+     "v": "≈ 48 billion"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Let's Data Science (citing VentureBeat)",
+     "url": "https://letsdatascience.com/news/meituan-releases-longcat-25-vision-model-weights-under-mit-l-7ce8142e",
+     "primary": true
+    },
+    {
+     "name": "AI/TLDR",
+     "url": "https://ai-tldr.dev/releases/meituan-longcat-2-5/"
+    }
+   ],
+   "added": "2026-11-17"
+  },
+  {
    "date": "2026-11-12",
    "dateLabel": "12 Nov 2026",
    "phase": "ai",
@@ -290,5 +321,5 @@
    "added": "2026-11-16"
   }
  ],
- "updated": "2026-11-16"
+ "updated": "2026-11-17"
 }

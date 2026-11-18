@@ -35,6 +35,7 @@ PHASES = {
     "tech": ("Tech", "#0B5A8A", "#E6F1FA", None),
     "ai": ("AI", "#7A2E8E", "#F6EAF8", None),
     "travel": ("Travel", "#0E7490", "#E0F4F8", None),
+    "leadership": ("Leadership", "#5B3A9A", "#F3EEFB", None),
 }
 CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trade": "#9A3412", "Policy": "#3F444E", "Tech": "#0B5A8A", "AI": "#7A2E8E", "Travel": "#0E7490"}
 

@@ -1,0 +1,859 @@
+{
+  "slug": "apple-story",
+  "short": "Apple",
+  "category": "Tech",
+  "regions": [
+    "US",
+    "World"
+  ],
+  "title": "Apple: from a garage to $5 trillion",
+  "dek": "Fifty years of Apple: the founding, the boardroom fight that pushed Steve Jobs out, his return, the iPhone, the Tim Cook years and the new CEO.",
+  "seoTitle": "The Apple story: a timeline from 1976 to John Ternus",
+  "importance": 3,
+  "status": "New CEO since 1 Sep",
+  "tone": "quiet",
+  "big": "≈ $5.1 tn",
+  "delta": "world's most valuable company",
+  "bigLabel": "Market value at the 9 Nov 2026 close",
+  "updated": "2026-11-18",
+  "glance": {
+    "what": "Apple was founded in a California garage in 1976. Steve Jobs was pushed out in 1985, came back in 1997 when the company was struggling, and led it through the iPod, iPhone and iPad. Tim Cook ran it from 2011 to 2026, and John Ternus took over on 1 September 2026.",
+    "why": "Apple's products changed how people use computers, music and phones, and it is now the world's most valuable company. Its history also includes a founder who was pushed out and later came back to lead a recovery.",
+    "next": "Ternus faces questions about Apple's place in AI and how well the foldable iPhone Duo sells. Cook stays on as executive chairman."
+  },
+  "keyNumbers": [
+    {
+      "label": "Founded",
+      "value": "1 Apr 1976",
+      "note": "Los Altos, California",
+      "hot": true
+    },
+    {
+      "label": "Shares first sold",
+      "value": "$22",
+      "note": "12 Dec 1980"
+    },
+    {
+      "label": "Value when Cook took over",
+      "value": "$350 bn",
+      "note": "Aug 2011, per AP"
+    },
+    {
+      "label": "Value, 9 Nov 2026",
+      "value": "≈ $5.1 tn",
+      "note": "record close"
+    }
+  ],
+  "forYou": "If you use an iPhone, iPad or Mac, the decisions on this timeline shaped them: the Mac's windows and mouse, the iPod's move into music, the App Store's model for apps, and Apple's own chips.",
+  "next": "How the iPhone Duo sells and what Apple does in AI under Ternus.",
+  "links": [
+    "nvidia-huang-investigation",
+    "ai-this-week"
+  ],
+  "events": [
+    {
+      "date": "1976-04-01",
+      "dateLabel": "1 Apr 1976",
+      "phase": "tech",
+      "key": true,
+      "title": "Apple is founded in a garage",
+      "summary": "Steve Jobs, Steve Wozniak and Ron Wayne start Apple Computer Company as a partnership in the Jobs family garage in Los Altos, California. Their first product is the Apple I, a circuit board Wozniak designed for hobbyists. Wayne pulls out 11 days later.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/future/technology/2026/04/01/apple-at-50-the-company-that-reshaped-the-world-must-now-reinvent-it-again"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1977-01-03",
+      "dateLabel": "3 Jan 1977",
+      "phase": "tech",
+      "title": "Apple becomes a company, with an investor's backing",
+      "summary": "After investor Mike Markkula agrees to back the two Steves and writes their business plan, Apple Computer, Inc. is incorporated.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Cult of Mac",
+          "url": "https://www.cultofmac.com/tiah-1970s"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1977-04-16",
+      "dateLabel": "16 Apr 1977",
+      "phase": "tech",
+      "title": "The Apple II arrives",
+      "summary": "Jobs and Wozniak show the Apple II at the first West Coast Computer Faire in San Francisco. Unlike the Apple I, it comes in a plastic case with a keyboard and colour graphics, and it becomes Apple's first big hit.",
+      "status": "Confirmed · Computer History Museum",
+      "differs": "The fair opened on 16 April; some accounts, such as Cult of Mac's, date the Apple II's debut to 17 April, the fair's second day.",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Living Computers Museum",
+          "url": "https://www.livingcomputers.org/News-Media/From-the-Garage-to-the-iMac-1976-1999.aspx"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1979-12-01",
+      "dateLabel": "Dec 1979",
+      "phase": "tech",
+      "title": "A visit to Xerox shapes the future",
+      "summary": "Jobs visits the Xerox PARC research lab and sees a computer controlled with windows, icons and a mouse. He decides Apple's next computers must work the same way.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1980-12-12",
+      "dateLabel": "12 Dec 1980",
+      "phase": "market",
+      "key": true,
+      "title": "Apple goes public",
+      "summary": "Apple sells shares on the stock market for the first time, at $22 each, raising more than $100 million. Jobs and Wozniak become millionaires overnight.",
+      "status": "Confirmed · Computer History Museum",
+      "numbers": [
+        {
+          "k": "Share price",
+          "v": "$22"
+        },
+        {
+          "k": "Raised",
+          "v": "over $100 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Reuters via ARY News",
+          "url": "https://arynews.tv/apples-50-year-journey-from-garage-to-tech-titan"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1983-01-19",
+      "dateLabel": "Jan 1983",
+      "phase": "tech",
+      "title": "The Lisa flops, and Apple hires a boss from Pepsi",
+      "summary": "Apple launches the Lisa, one of the first personal computers with a mouse and on-screen windows. At $9,995 it fails to sell. In 1983 Apple also recruits PepsiCo president John Sculley as chief executive, partly to mentor the young Jobs.",
+      "status": "Confirmed · Computer History Museum, Britannica",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Britannica (Steve Jobs)",
+          "url": "https://www.britannica.com/money/Steve-Jobs"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1984-01-24",
+      "dateLabel": "24 Jan 1984",
+      "phase": "tech",
+      "key": true,
+      "title": "The Macintosh, launched with the '1984' ad",
+      "summary": "Jobs unveils the Macintosh, which brings the mouse and on-screen windows to more people at about a quarter of the Lisa's price. It is launched with a TV ad called '1984'.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Britannica (Steve Jobs)",
+          "url": "https://www.britannica.com/money/Steve-Jobs"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1985-09-17",
+      "dateLabel": "17 Sep 1985",
+      "phase": "leadership",
+      "key": true,
+      "title": "Steve Jobs is pushed out of Apple",
+      "summary": "After the Mac sells poorly, Sculley strips Jobs of his duties in April and defeats his attempt to take back control in May. Jobs resigns in September and starts a new computer company, NeXT. Wozniak had already left in February 1985.",
+      "status": "Confirmed · Computer History Museum, Britannica",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/money/Apple-Inc/Desktop-publishing-revolution"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1991-10-21",
+      "dateLabel": "21 Oct 1991",
+      "phase": "tech",
+      "title": "The PowerBook sets the shape of the modern laptop",
+      "summary": "Apple's PowerBook pushes the keyboard back towards the screen, leaving room for palm rests and a pointing device in front. Most laptops still follow this layout.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1993-08-02",
+      "dateLabel": "2 Aug 1993",
+      "phase": "leadership",
+      "title": "The Newton stumbles and Sculley is replaced",
+      "summary": "Apple's first handheld computer, the Newton MessagePad, has a troubled launch. It contributes to Sculley being replaced as chief executive by Michael Spindler in 1993.",
+      "status": "Confirmed · Computer History Museum, Britannica",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/money/Apple-Inc/Desktop-publishing-revolution"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1996-12-20",
+      "dateLabel": "20 Dec 1996",
+      "phase": "leadership",
+      "key": true,
+      "title": "Apple buys NeXT, and Jobs comes back",
+      "summary": "Struggling to build a modern operating system of its own, Apple agrees to buy NeXT for $400 million. Jobs returns as an adviser to chief executive Gil Amelio, who had taken over earlier in 1996. NeXT's software later becomes the basis of Mac OS X.",
+      "status": "Confirmed · Apple (SEC filing)",
+      "numbers": [
+        {
+          "k": "Price",
+          "v": "$400 million"
+        }
+      ],
+      "differs": "Apple announced the deal at $400 million. The UK's Centre for Computing History says it completed on 7 February 1997 for $427 million in cash and stock; other accounts give 4 February.",
+      "sources": [
+        {
+          "name": "Apple press release (SEC filing)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019396000027/0000320193-96-000027.txt/seq-2",
+          "primary": true
+        },
+        {
+          "name": "MacTech",
+          "url": "https://www.mactech.com/1996/12/21/md1-apple-acquires-next-software/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/money/Apple-Inc/Desktop-publishing-revolution"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1997-07-09",
+      "dateLabel": "9 Jul 1997",
+      "phase": "leadership",
+      "title": "The board pushes out Gil Amelio",
+      "summary": "With Apple losing money and its shares at a 12-year low, the board removes Amelio as chief executive. Jobs takes on a bigger role with the board and management.",
+      "status": "Confirmed · TechCrunch, Mac History",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2008/09/16/today-in-history-steve-jobs-returns-to-apple/amp/",
+          "primary": true
+        },
+        {
+          "name": "Mac History",
+          "url": "https://www.mac-history.net/?p=576"
+        },
+        {
+          "name": "Cult of Mac",
+          "url": "https://www.cultofmac.com/apple-history/steve-jobs-apple-ceo"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1997-08-06",
+      "dateLabel": "6 Aug 1997",
+      "phase": "market",
+      "title": "Microsoft invests $150 million in Apple",
+      "summary": "On stage at Macworld in Boston, Jobs announces a deal with long-time rival Microsoft. It buys $150 million of Apple shares and commits to making Office for the Mac for five years. Some of the crowd boos when Bill Gates appears on the big screen. Apple's shares rose 33% that day.",
+      "status": "Confirmed · The Motley Fool, Mac History",
+      "numbers": [
+        {
+          "k": "Investment",
+          "v": "$150 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/investing/general/2013/08/06/the-day-apple-and-microsoft-traded-places.aspx",
+          "primary": true
+        },
+        {
+          "name": "Mac History (keynote transcript)",
+          "url": "https://mac-history.net/macworld-boston-1997-steve-jobs-returns-bill-gates-appeares-on-screen/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1997-09-16",
+      "dateLabel": "16 Sep 1997",
+      "phase": "leadership",
+      "key": true,
+      "title": "Jobs becomes interim CEO",
+      "summary": "Twelve years after he was forced out, Jobs is named Apple's interim chief executive. He cuts most of the product line to focus on a handful of computers.",
+      "status": "Confirmed · TechCrunch, Cult of Mac",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2008/09/16/today-in-history-steve-jobs-returns-to-apple/amp/",
+          "primary": true
+        },
+        {
+          "name": "Cult of Mac",
+          "url": "https://www.cultofmac.com/apple-history/steve-jobs-apple-ceo"
+        },
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "1998-05-06",
+      "dateLabel": "6 May 1998",
+      "phase": "tech",
+      "key": true,
+      "title": "The iMac starts the comeback",
+      "summary": "Jobs unveils the iMac, a colourful all-in-one computer built for getting online. It goes on sale on 15 August 1998 and becomes the best-selling Mac of all time; Apple returns to profit that year.",
+      "status": "Confirmed · Centre for Computing History, Britannica",
+      "sources": [
+        {
+          "name": "Centre for Computing History",
+          "url": "https://www.computinghistory.org.uk/det/6195/Apple-announces-the-iMac/",
+          "primary": true
+        },
+        {
+          "name": "iMore",
+          "url": "https://www.imore.com/imac-20-birthday"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/money/Apple-Inc/Desktop-publishing-revolution"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2001-03-24",
+      "dateLabel": "24 Mar 2001",
+      "phase": "tech",
+      "title": "Mac OS X replaces the old Mac software",
+      "summary": "Apple releases Mac OS X, built on NeXT's technology. It becomes the foundation for the software that runs Macs, iPhones and iPads today.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2001-10-23",
+      "dateLabel": "23 Oct 2001",
+      "phase": "tech",
+      "key": true,
+      "title": "The iPod: '1,000 songs in your pocket'",
+      "summary": "Apple unveils the iPod, a $399 music player that stores up to 1,000 songs and syncs with the iTunes software on a Mac. It marks Apple's move beyond computers.",
+      "status": "Confirmed · Apple",
+      "numbers": [
+        {
+          "k": "Price",
+          "v": "$399"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple press release",
+          "url": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+          "primary": true
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.go.com/amp/Technology/apple-unveils-digital-music-player/story?id=98226"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2003-04-28",
+      "dateLabel": "28 Apr 2003",
+      "phase": "tech",
+      "title": "The iTunes Music Store sells songs for 99 cents",
+      "summary": "Apple opens an online store selling single songs for 99 cents each with no subscription, at first only to US customers on Macs.",
+      "status": "Confirmed · Apple",
+      "sources": [
+        {
+          "name": "Apple press release",
+          "url": "https://www.apple.com/uk/newsroom/2003/04/28Apple-Launches-the-iTunes-Music-Store/",
+          "primary": true
+        },
+        {
+          "name": "TidBITS",
+          "url": "https://tidbits.com/2003/04/28/itunes-music-store-takes-the-stage/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2005-06-01",
+      "dateLabel": "Jun 2005",
+      "phase": "tech",
+      "title": "Macs switch to Intel chips",
+      "summary": "Apple announces it will move the Mac from PowerPC chips to Intel's, citing speed and energy use. The first Intel Macs arrive in January 2006.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Pocket-lint",
+          "url": "https://www.pocket-lint.com/laptops/news/144413-20-years-of-the-imac-looking-back-at-apple-s-legendary-imac-g3"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2007-01-09",
+      "dateLabel": "9 Jan 2007",
+      "phase": "tech",
+      "key": true,
+      "title": "Jobs unveils the iPhone, and 'Computer' is dropped from Apple's name",
+      "summary": "Jobs introduces the iPhone, a touchscreen phone, iPod and internet device in one, priced at $499 and $599 in the US. Apple Computer also renames itself Apple Inc. The iPhone goes on sale on 29 June 2007.",
+      "status": "Confirmed · Apple",
+      "numbers": [
+        {
+          "k": "Launch prices (US)",
+          "v": "$499 and $599"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple press release",
+          "url": "https://apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+          "primary": true
+        },
+        {
+          "name": "eWeek",
+          "url": "https://www.eweek.com/apple/finally-apple-rolls-out-the-iphone/"
+        },
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2008-07-10",
+      "dateLabel": "10 Jul 2008",
+      "phase": "tech",
+      "title": "The App Store opens with 500 apps",
+      "summary": "Apple lets outside developers sell apps for the iPhone. The App Store opens with 500 apps, a day before the iPhone 3G goes on sale.",
+      "status": "Confirmed · AppleInsider, MacRumors",
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "url": "https://appleinsider.com/articles/18/07/05/apple-details-history-of-app-store-on-its-10th-anniversary",
+          "primary": true
+        },
+        {
+          "name": "MacRumors",
+          "url": "https://macrumors.com/2018/07/05/apple-app-store-retrospective-10th-anniversary"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2010-01-27",
+      "dateLabel": "27 Jan 2010",
+      "phase": "tech",
+      "title": "The iPad",
+      "summary": "Apple announces the iPad tablet, which runs the same apps as the iPhone on a bigger screen. It goes on sale in the US on 3 April 2010.",
+      "status": "Confirmed · Apple",
+      "sources": [
+        {
+          "name": "Apple Newsroom archive",
+          "url": "https://www.apple.com/newsroom/archive/ipad/?page=21",
+          "primary": true
+        },
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2011-08-24",
+      "dateLabel": "24 Aug 2011",
+      "phase": "leadership",
+      "key": true,
+      "title": "Jobs steps down; Tim Cook becomes CEO",
+      "summary": "Jobs resigns as chief executive and recommends chief operating officer Tim Cook as his successor. The board names Cook CEO and Jobs chairman.",
+      "status": "Confirmed · Apple",
+      "sources": [
+        {
+          "name": "Apple statement via Betanews",
+          "url": "https://betanews.com/2011/08/24/steve-jobs-resigns/",
+          "primary": true
+        },
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2018/08/24/this-day-in-2011-steve-jobs-resigns-as-ceo/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2011-10-05",
+      "dateLabel": "5 Oct 2011",
+      "phase": "leadership",
+      "key": true,
+      "title": "Steve Jobs dies at 56",
+      "summary": "Jobs dies in Palo Alto, California, after a long fight with pancreatic cancer, six weeks after stepping down.",
+      "status": "Confirmed · Britannica, Computer History Museum",
+      "sources": [
+        {
+          "name": "Britannica (Steve Jobs)",
+          "url": "https://www.britannica.com/money/Steve-Jobs"
+        },
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2015-04-24",
+      "dateLabel": "24 Apr 2015",
+      "phase": "tech",
+      "title": "Apple Watch opens a new product category",
+      "summary": "The Apple Watch goes on sale. Sales start slowly but grow once Apple focuses it on fitness and health.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2018-08-02",
+      "dateLabel": "2 Aug 2018",
+      "phase": "market",
+      "key": true,
+      "title": "Apple becomes the first $1 trillion US company",
+      "summary": "Apple becomes the first publicly traded US company valued at $1 trillion. It passes $2 trillion on 19 August 2020.",
+      "status": "Market data · PYMNTS, Computer History Museum",
+      "sources": [
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/apple/2022/apple-breaks-3t-market-capitalization-barrier/",
+          "primary": true
+        },
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "AP via WJLA ($2 trillion)",
+          "url": "https://wjla.com/news/nation-world/apple-is-1st-us-company-to-be-valued-at-2-trillion-08-19-2020"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2020-11-01",
+      "dateLabel": "Nov 2020",
+      "phase": "tech",
+      "title": "Macs move to Apple's own chips",
+      "summary": "The first Macs with Apple-designed M1 chips arrive, after Apple announced in June that it would stop using Intel's chips.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2022-01-03",
+      "dateLabel": "3 Jan 2022",
+      "phase": "market",
+      "title": "Briefly worth $3 trillion, a first for any company",
+      "summary": "Apple's shares touch $182.88, making it the first company ever valued at $3 trillion, though only briefly during the day.",
+      "status": "Market data · CNN, PYMNTS",
+      "sources": [
+        {
+          "name": "CNN via WRAL TechWire",
+          "url": "https://wraltechwire.com/2022/01/04/apple-hits-3-trillion-in-value-a-first-as-stock-hits-new-record/",
+          "primary": true
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/apple/2022/apple-breaks-3t-market-capitalization-barrier/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2024-02-01",
+      "dateLabel": "Feb 2024",
+      "phase": "tech",
+      "title": "Vision Pro headset, then Apple Intelligence",
+      "summary": "Apple releases the Vision Pro mixed-reality headset at about $3,500. In June it announces Apple Intelligence, its AI features. Both get mixed reviews, and Apple is widely viewed as trailing rivals in AI, Invezz reports.",
+      "status": "Confirmed · Computer History Museum",
+      "sources": [
+        {
+          "name": "Computer History Museum",
+          "url": "https://computerhistory.org/apple-timeline/"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://invezz.com/au/news/2026/07/17/apple-reclaims-title-as-worlds-most-valuable-company-overtaking-nvidia/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2025-10-28",
+      "dateLabel": "28 Oct 2025",
+      "phase": "market",
+      "title": "Apple touches $4 trillion",
+      "summary": "Strong demand for the iPhone 17 pushes Apple's market value above $4 trillion for the first time during trading, making it the third company to get there after Nvidia and Microsoft. It closed just below, at about $3.99 trillion.",
+      "status": "Market data · Reuters, Entrepreneur",
+      "sources": [
+        {
+          "name": "Reuters via Aaj News",
+          "url": "https://english.aaj.tv/news/330441743",
+          "primary": true
+        },
+        {
+          "name": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/business-news/apple-hits-4-trillion-market-value-like-nvidia-microsoft/498841"
+        },
+        {
+          "name": "Tiger Newspress",
+          "url": "https://www.itiger.com/news/1169893161"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-04-01",
+      "dateLabel": "1 Apr 2026",
+      "phase": "tech",
+      "title": "Apple turns 50",
+      "summary": "Apple marks 50 years since its founding with a letter from Tim Cook titled '50 Years of Thinking Different' and events in its stores.",
+      "status": "Confirmed · Neowin, Cult of Mac",
+      "sources": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/amp/icelebrate-its-2026-and-apple-just-turned-50-years-old/",
+          "primary": true
+        },
+        {
+          "name": "Cult of Mac",
+          "url": "https://www.cultofmac.com/?p=925648"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-04-20",
+      "dateLabel": "20 Apr 2026",
+      "phase": "leadership",
+      "key": true,
+      "title": "Tim Cook says he will step down; John Ternus named next CEO",
+      "summary": "Apple announces that Cook, CEO for 15 years, will hand over to hardware engineering chief John Ternus on 1 September and become executive chairman. AP reports Apple's market value rose by more than $3.6 trillion under Cook, from $350 billion in August 2011 to about $4 trillion.",
+      "status": "Confirmed · Apple, via AP and Macworld",
+      "numbers": [
+        {
+          "k": "Value when Cook took over",
+          "v": "$350 bn (Aug 2011)"
+        },
+        {
+          "k": "Value at announcement",
+          "v": "≈ $4 tn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP via WHIO",
+          "url": "https://www.whio.com/news/business/tim-cook-will-step/YBX42BELIU3MPMNRSZUIGU2QU4/",
+          "primary": true
+        },
+        {
+          "name": "Macworld",
+          "url": "https://www.macworld.com/article/3119381/tim-cook-stepping-down-as-apple-ceo-in-shock-announcement.html"
+        },
+        {
+          "name": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-apple-tim-cook-steps-down-john-ternus-ceo/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1 Sep 2026",
+      "phase": "leadership",
+      "title": "John Ternus takes over as CEO",
+      "summary": "Ternus, 51, who has spent about 25 years at Apple, becomes chief executive. Cook moves to executive chairman.",
+      "status": "Confirmed · Apple, via iPhone in Canada",
+      "sources": [
+        {
+          "name": "iPhone in Canada",
+          "url": "https://www.iphoneincanada.ca/2026/09/01/apple-john-ternus-as-new-ceo/",
+          "primary": true
+        },
+        {
+          "name": "Manila Bulletin",
+          "url": "https://mb.com.ph/2026/04/21/tim-cook-steps-down-as-apple-ceo-after-15-years-names-john-ternus-as-successor"
+        },
+        {
+          "name": "Malay Mail (AFP)",
+          "url": "https://www.malaymail.com/amp/news/tech-gadgets/2026/09/01/new-apple-ceo-john-ternus-inherits-its-hardware-empire-and-its-ai-problem/233445"
+        },
+        {
+          "name": "AP via WHIO",
+          "url": "https://www.whio.com/news/business/tim-cook-will-step/YBX42BELIU3MPMNRSZUIGU2QU4/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 Sep 2026",
+      "phase": "tech",
+      "title": "Ternus's first launch: the foldable iPhone Duo",
+      "summary": "At his first product event as CEO, Ternus unveils the iPhone Duo, Apple's first foldable phone, from $1,999. It ships on 23 October. CBS News reports new iPhone prices rose partly because of a global shortage of memory chips.",
+      "status": "Confirmed · CBS News, AP",
+      "numbers": [
+        {
+          "k": "iPhone Duo",
+          "v": "from $1,999"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/apple-event-today-foldable-iphone/",
+          "primary": true
+        },
+        {
+          "name": "AP via Action News Jax",
+          "url": "https://www.actionnewsjax.com/news/business/apple-unveil-latest/EWBZY5FAXA6FNIS2QDDNTLV4RE/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026",
+      "phase": "market",
+      "key": true,
+      "title": "First close above $5 trillion",
+      "summary": "Apple ends a trading day worth more than $5 trillion for the first time. Only Nvidia had done so before, in October 2025. Apple had briefly touched $5 trillion during trading on 28 July.",
+      "status": "Market data · 9to5Mac, 24/7 Wall St",
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/14/apple-just-closed-the-day-above-5-trillion-for-the-first-time/",
+          "primary": true
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/11/10/apple-is-above-5-trillion-after-its-first-ever-close-above-350/"
+        },
+        {
+          "name": "Reuters via ARY News",
+          "url": "https://arynews.tv/apple-briefly-becomes-second-company-ever-to-notch-5-trillion"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "market",
+      "title": "Record share price as Apple stays the world's most valuable company",
+      "summary": "After record September-quarter revenue of $114.5 billion, reported on 2 November, Apple's shares close at a record $350.69, valuing it at about $5.1 trillion, the most of any company in the world, per 24/7 Wall St.",
+      "status": "Market data · 24/7 Wall St",
+      "numbers": [
+        {
+          "k": "Market value",
+          "v": "≈ $5.1 tn"
+        },
+        {
+          "k": "Sept-quarter revenue",
+          "v": "$114.5 bn (+12%)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/11/10/apple-is-above-5-trillion-after-its-first-ever-close-above-350/",
+          "primary": true
+        },
+        {
+          "name": "Trefis",
+          "url": "https://www.trefis.com/data/companies/aapl?from=INTC-2026-05-22"
+        }
+      ],
+      "added": "2026-11-18"
+    }
+  ]
+}

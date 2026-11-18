@@ -6,10 +6,10 @@
   "India"
  ],
  "title": "SpiceJet's troubles: cancellations, unpaid dues and a search for money",
- "dek": "How one of India's oldest budget airlines came to cancel one in five flights, what it owes, and what its board will consider on 18 November.",
+ "dek": "How one of India's oldest budget airlines came to cancel one in five flights, what it owes, and how it plans to raise up to ₹5,500 crore.",
  "seoTitle": "SpiceJet crisis 2026: cancellations, dues, fundraising",
  "importance": 3,
- "status": "Mumbai departures halted; board meets 18 Nov",
+ "status": "Board approves ₹5,500 crore fundraise",
  "tone": "hot",
  "big": "20.29%",
  "delta": "flights cancelled",
@@ -18,9 +18,15 @@
  "glance": {
   "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
-  "next": "SpiceJet's board meets on 18 November to consider raising fresh capital through shares, debt or a share sale to institutions. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
+  "next": "On 18 November SpiceJet's board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
  "keyNumbers": [
+  {
+   "label": "Fundraise approved",
+   "value": "₹5,500 cr",
+   "note": "board, 18 Nov; needs shareholder approval",
+   "hot": true
+  },
   {
    "label": "Market share",
    "value": "0.6%",
@@ -35,20 +41,10 @@
    "label": "Aircraft",
    "value": "12",
    "note": "3 reportedly grounded"
-  },
-  {
-   "label": "Aircraft in 2020",
-   "value": "≈ 120",
-   "note": "per The Week"
   }
  ],
  "forYou": "Booked on SpiceJet? Check your flight status on the day and keep proof of any cancellation or long delay. If SpiceJet cancels your flight, ask for a refund or a seat on another flight; DGCA rules set deadlines for airlines to pay refunds.",
  "upcoming": [
-  {
-   "date": "2026-11-18",
-   "label": "18 Nov",
-   "text": "SpiceJet board meets to consider raising fresh capital"
-  },
   {
    "date": "2026-12-07",
    "label": "7 Dec",
@@ -60,7 +56,7 @@
    "text": "BSE to suspend trading in SpiceJet shares if the results are not filed"
   }
  ],
- "next": "SpiceJet's board meets on 18 November to consider raising money; overdue results are due by 7 December to avoid a trading suspension.",
+ "next": "Shareholders must approve the ₹5,500 crore fundraise; overdue results are due by 7 December to avoid a trading suspension.",
  "links": [
   "india-flying-winter-2026",
   "airfares-jet-fuel-2026"
@@ -364,6 +360,49 @@
     {
      "name": "Dynamite News",
      "url": "https://www.dynamitenews.com/national/spicejet-flight-cancel-hundred-of-passengers-stranded-is-indias-aviation-industry-heading-towards-a-major-crisis"
+    }
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "travel",
+   "key": true,
+   "title": "Board approves raising up to ₹5,500 crore",
+   "summary": "SpiceJet's board approved raising up to ₹5,500 crore, in one or more rounds, through new shares, debt with warrants or other securities, the airline said in an exchange filing reported by Business Today, Angel One and Upstox. Routes could include a share sale to institutions (QIP), a rights issue or a preferential allotment. The board also approved raising the company's authorised share capital, the maximum it can issue, from ₹2,000 crore to ₹7,500 crore. Both need shareholder and regulatory approval. Chairman Ajay Singh said the fundraise is 'an important opportunity to rebuild the airline'. The board was told about talks with possible new investors and asked management to close them quickly; no investors were named. The shares rose 5% to ₹9.97, the daily limit.",
+   "status": "Confirmed · SpiceJet filing",
+   "numbers": [
+    {
+     "k": "Fundraise approved",
+     "v": "up to ₹5,500 crore"
+    },
+    {
+     "k": "Authorised capital",
+     "v": "₹2,000 cr → ₹7,500 cr"
+    },
+    {
+     "k": "Share price",
+     "v": "₹9.97 (+4.95%)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/spicejet-board-approves-rs-5500-crore-fundraise-stock-closes-5-higher-568182-2026-11-18",
+     "primary": true
+    },
+    {
+     "name": "Angel One",
+     "url": "https://www.angelone.in/news/stocks/spicejet-board-approves-fundraising-up-to-5-500-crore-and-authorised-share-capital-increase"
+    },
+    {
+     "name": "Upstox",
+     "url": "https://upstox.com/news/market-news/stocks/spice-jet-board-approves-fundraise-up-to-5-500-crore-shares-rise-5/article-203639/"
+    },
+    {
+     "name": "The Tribune (ANI)",
+     "url": "https://www.tribuneindia.com/news/airline-revival/spicejet-board-approves-plans-to-raise-upto-rs-5500-crore-amid-financial-crisis-flight-disruptions-and-passenger-woes"
     }
    ],
    "added": "2026-11-18"

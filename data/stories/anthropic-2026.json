@@ -10,7 +10,7 @@
  "dek": "From Claude 4 to the Mythos-class models, a pause under US export controls, and a Nasdaq listing set for next week.",
  "seoTitle": "Anthropic timeline 2025–2026: Claude models, IPO",
  "importance": 4,
- "status": "IPO pricing 18 Nov",
+ "status": "IPO pricing expected 18 Nov",
  "tone": "hot",
  "big": "$70–78",
  "delta": "IPO price range",
@@ -18,7 +18,7 @@
  "glance": {
   "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
   "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-  "next": "Pricing is expected on 18 November and trading on 19 November, subject to regulatory clearance."
+  "next": "Pricing is expected on 18 November (US time), reportedly at or above the top of the range, and trading on 19 November."
  },
  "keyNumbers": [
   {
@@ -56,7 +56,7 @@
    "text": "Anthropic expected to start trading on Nasdaq as ANT"
   }
  ],
- "next": "IPO pricing 18 Nov; trading expected 19 Nov.",
+ "next": "IPO pricing expected 18 Nov (US time); trading expected 19 Nov.",
  "links": [
   "ai-model-tracker",
   "openai-2026",
@@ -444,7 +444,34 @@
     }
    ],
    "added": "2026-11-14"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "market",
+   "title": "IPO price reportedly at or above the top of the range",
+   "summary": "Bloomberg News reports, citing unnamed sources, that Anthropic plans to price its shares at or above the top of its $70–78 range, with orders close to seven times the shares on offer. The Wall Street Journal reports the price could be above $80. Pricing is expected on Wednesday 18 November (US time) and trading on 19 November. These are reports; Anthropic has not announced a price.",
+   "status": "Reported · Bloomberg, WSJ",
+   "numbers": [
+    {
+     "k": "Price range",
+     "v": "$70–78"
+    },
+    {
+     "k": "Demand",
+     "v": "≈ 7× shares on offer (reported)"
+    }
+   ],
+   "differs": "Bloomberg reports a price at or above $78; the WSJ reports it could exceed $80.",
+   "sources": [
+    {
+     "name": "PYMNTS (citing Bloomberg and WSJ)",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-18"
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-18"
 }

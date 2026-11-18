@@ -10,7 +10,7 @@
  "dek": "From GPT-4.5 to GPT-6 in 19 months, plus a confidential IPO filing, billions in losses and a race with Anthropic.",
  "seoTitle": "OpenAI timeline 2025–2026: GPT-5 to GPT-6, IPO",
  "importance": 4,
- "status": "GPT-6 era · IPO in 2027",
+ "status": "GPT-6.2 out · IPO in 2027",
  "tone": "live",
  "big": "$6.7 bn",
  "delta": "Q2 2026 revenue",
@@ -18,13 +18,13 @@
  "glance": {
   "what": "OpenAI moved from GPT-5 in August 2025 to the GPT-6 family in September 2026, releasing a new GPT-5.x version roughly every quarter in between. It filed confidentially for an IPO in June 2026, but Sam Altman later ruled out listing this year.",
   "why": "ChatGPT is the most widely used AI assistant, so OpenAI's choices on models, prices and safety set the pace for the whole industry.",
-  "next": "An IPO is now expected in 2027. California's lawsuit over AI safety, filed 16 November, is at an early stage. Watch for GPT-6 updates and how OpenAI responds to Anthropic's listing this week."
+  "next": "An IPO is expected in 2027. California's lawsuit over AI safety, filed 16 November, is at an early stage. GPT-6.2 Astra and Sol rolled out on 17 November."
  },
  "keyNumbers": [
   {
    "label": "Latest flagship",
-   "value": "GPT-6 Astra",
-   "note": "3 Sep 2026",
+   "value": "GPT-6.2 Astra",
+   "note": "17 Nov 2026",
    "hot": true
   },
   {
@@ -406,7 +406,38 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "ai",
+   "key": true,
+   "title": "GPT-6.2 Astra and Sol",
+   "summary": "OpenAI releases GPT-6.2 Astra, for the hardest professional work such as documents, slides and coding, and GPT-6.2 Sol, a cheaper everyday model. Both are in ChatGPT and Codex for Plus, Pro, Enterprise and Edu users, and in the API. Astra costs $8 per million input tokens and $40 per million output tokens; Sol $2 and $10. OpenAI's own charts show gains over earlier versions on most tests. Independent results are mixed, per VentureBeat: Artificial Analysis ranks Astra second overall behind Claude Fable 5.2, and some well-known developers criticised the release.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [
+    {
+     "k": "Astra API price (in / out)",
+     "v": "$8 / $40 per m tokens"
+    },
+    {
+     "k": "Sol API price (in / out)",
+     "v": "$2 / $10 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "9to5Google",
+     "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2",
+     "primary": true
+    },
+    {
+     "name": "VentureBeat",
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
+    }
+   ],
+   "added": "2026-11-18"
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

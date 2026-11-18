@@ -10,23 +10,28 @@
  "dek": "In two weeks, a report that Nvidia’s founder was targeted by Chinese intelligence led to a board inquiry, another allegation, a share slide and his resignation.",
  "seoTitle": "Jensen Huang resigns as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang resigned",
+ "status": "Huang out · results beat",
  "tone": "hot",
- "big": "≈ $3.92 tn",
- "delta": "market value, 16 Nov",
- "bigLabel": "Nvidia's market value at the 16 Nov close, per the Motley Fool, down from as much as $5.75 trillion on 5 Oct, per Yahoo Finance",
- "updated": "2026-11-17",
+ "big": "$115.8 bn",
+ "delta": "▲ 103% year on year",
+ "bigLabel": "Nvidia's revenue for August–October 2026, its first quarter reported without Huang as CEO",
+ "updated": "2026-11-18",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Interim CEO Colette Kress leads Nvidia's earnings after the US market closes on 17 November (early 18 November in India). Huang has agreed to appear voluntarily before House committees. The board is choosing a search firm for a permanent CEO; people familiar with its thinking say it is not considering Huang's return, though President Trump says he would not mind it."
+  "next": "Huang has agreed to appear voluntarily before House committees. The board is searching for a permanent CEO, and its chair said on 17 November that it does not intend to reinstate Huang."
  },
  "keyNumbers": [
   {
-   "label": "Share price, 16 Nov",
-   "value": "$156.14",
-   "note": "−4.12% on the day",
+   "label": "Q3 revenue",
+   "value": "$115.8 bn",
+   "note": "+103% on a year earlier",
    "hot": true
+  },
+  {
+   "label": "Q4 outlook",
+   "value": "≈ $130 bn",
+   "note": "± 3%, per Nvidia"
   },
   {
    "label": "Interim CEO",
@@ -37,27 +42,17 @@
    "label": "First board chair",
    "value": "Harvey C. Jones",
    "note": "from 12 Nov"
-  },
-  {
-   "label": "Investigations",
-   "value": "Board, FBI, Congress",
-   "note": "plus a shareholder lawsuit"
   }
  ],
  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
  "upcoming": [
-  {
-   "date": "2026-11-17",
-   "label": "17 Nov",
-   "text": "Nvidia earnings after the US market close (early 18 Nov in India), first under interim CEO Colette Kress"
-  },
   {
    "date": "2026-11-18",
    "label": "18 Nov",
    "text": "Date House chairs requested for Huang’s briefing"
   }
  ],
- "next": "Earnings after the US close on 17 Nov (early 18 Nov IST) under interim CEO Colette Kress; board reportedly not considering Huang's return.",
+ "next": "The House committees' briefing with Huang; the board's search for a permanent CEO; investigations by the board, FBI and Congress.",
  "links": [
   "india-us-trade-deal"
  ],
@@ -584,9 +579,57 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "market",
+   "key": true,
+   "title": "First results without Huang: revenue doubles; board chair says Huang won't return",
+   "summary": "Nvidia reported revenue of $115.8 billion for August–October, up 103% from a year earlier, in its first results under interim CEO Colette Kress. Data centre sales, mostly AI chips, were $107.6 billion. Profit was $65.3 billion. Nvidia expects about $130 billion in sales next quarter, assuming no data centre chip sales to China. \"Our momentum is real,\" Kress said. On the earnings call, board chair Harvey Jones said \"the Nvidia board does not intend to reinstate Jensen as CEO\", per Constellation Research; CBS News, citing a person familiar with the board's thinking, also reports the board is against his return. Shares fell 0.44% in regular trading, then rose nearly 3% after hours, per CBS News.",
+   "status": "Confirmed · Nvidia (results); Stated · board chair (Huang)",
+   "numbers": [
+    {
+     "k": "Revenue, Q3",
+     "v": "$115.8 bn (+103%)"
+    },
+    {
+     "k": "Data centre",
+     "v": "$107.6 bn"
+    },
+    {
+     "k": "Next-quarter outlook",
+     "v": "≈ $130 bn ± 3%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nvidia (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+     "primary": true
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+    },
+    {
+     "name": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
+    },
+    {
+     "name": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+    },
+    {
+     "name": "Reuters via Star-Advertiser",
+     "url": "https://www.staradvertiser.com/2026/11/17/breaking-news/dow-drops-849-points-as-wall-street-slides-ahead-of-nvidia-results/"
+    }
+   ],
+   "differs": "Reports differ on the after-hours rise: CBS News says nearly 3% (to $159.60), Reuters says as much as 3%, and StockTitan gives 4.55% at 6:23 pm ET.",
+   "added": "2026-11-18"
   }
  ],
- "heroTitle": "Nvidia's board reportedly isn't considering Huang's return",
- "heroDek": "Shares fell 4% on Monday, the eve of Nvidia's first earnings under interim CEO Colette Kress. Huang resigned last week after reports he was targeted by Chinese intelligence.",
-  "heroAsOf": "2026-11-17"
+ "heroTitle": "Nvidia's sales double in its first quarter without Huang",
+ "heroDek": "Revenue reached $115.8 billion and the board chair said Huang will not be reinstated as CEO. Shares rose after hours.",
+ "heroAsOf": "2026-11-18"
 }

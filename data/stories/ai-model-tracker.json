@@ -12,10 +12,10 @@
  "importance": 4,
  "status": "Updated with each release",
  "tone": "live",
- "big": "40",
+ "big": "41",
  "delta": "releases tracked",
  "bigLabel": "Major model launches from the leading AI companies since January 2025",
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "glance": {
   "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
   "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
@@ -24,8 +24,8 @@
  "keyNumbers": [
   {
    "label": "OpenAI latest",
-   "value": "GPT-6 Astra",
-   "note": "Sep 2026",
+   "value": "GPT-6.2 Astra",
+   "note": "Nov 2026",
    "hot": true
   },
   {
@@ -909,6 +909,37 @@
    "link": "china-ai-labs",
    "numbers": [],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "ai",
+   "title": "OpenAI: GPT-6.2 Astra and Sol",
+   "summary": "OpenAI's new top model, Astra, and a cheaper everyday model, Sol, in ChatGPT, Codex and the API. Astra costs $8/$40 per million input/output tokens. OpenAI reports gains on most of its tests; independent results are mixed, per VentureBeat.",
+   "status": "Released",
+   "numbers": [
+    {
+     "k": "Astra API price (in / out)",
+     "v": "$8 / $40 per m tokens"
+    },
+    {
+     "k": "Sol API price (in / out)",
+     "v": "$2 / $10 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "9to5Google",
+     "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2",
+     "primary": true
+    },
+    {
+     "name": "VentureBeat",
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
+    }
+   ],
+   "added": "2026-11-18",
+   "link": "openai-2026"
   }
  ],
  "order": "desc"

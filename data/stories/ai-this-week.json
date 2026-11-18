@@ -15,11 +15,11 @@
  "big": "5",
  "delta": "AI firms sued",
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "glance": {
-  "what": "In the past ten days Google, Meta, Anthropic and Alibaba released new models, Anthropic's share sale drew strong reported demand ahead of a Nasdaq listing, Nvidia's founder was forced out, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
+  "what": "In the past ten days OpenAI, Google, Meta, Anthropic and Alibaba released new models, Nvidia reported doubled sales in its first quarter after its founder was forced out, Anthropic's share sale drew strong reported demand, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
-  "next": "Nvidia reports earnings after the US close on 17 Nov (early 18 Nov in India). Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
+  "next": "Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
  },
  "keyNumbers": [
   {
@@ -47,11 +47,6 @@
  "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
  "upcoming": [
   {
-   "date": "2026-11-17",
-   "label": "17 Nov",
-   "text": "Nvidia earnings, first under interim CEO Colette Kress"
-  },
-  {
    "date": "2026-11-18",
    "label": "18 Nov",
    "text": "Anthropic expected to price its IPO"
@@ -62,7 +57,7 @@
    "text": "Anthropic expected to start trading on Nasdaq as ANT"
   }
  ],
- "next": "Nvidia earnings 17 Nov; Anthropic IPO pricing 18 Nov.",
+ "next": "Anthropic IPO pricing 18 Nov; trading 19 Nov.",
  "links": [
   "ai-model-tracker",
   "openai-2026",
@@ -391,6 +386,68 @@
    ],
    "link": "openai-2026",
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "ai",
+   "title": "GPT-6.2 Astra and Sol",
+   "summary": "OpenAI releases GPT-6.2 Astra, for the hardest professional work such as documents, slides and coding, and GPT-6.2 Sol, a cheaper everyday model. Both are in ChatGPT and Codex for Plus, Pro, Enterprise and Edu users, and in the API. Astra costs $8 per million input tokens and $40 per million output tokens; Sol $2 and $10. OpenAI's own charts show gains over earlier versions on most tests. Independent results are mixed, per VentureBeat: Artificial Analysis ranks Astra second overall behind Claude Fable 5.2, and some well-known developers criticised the release.",
+   "status": "Confirmed · OpenAI",
+   "numbers": [
+    {
+     "k": "Astra API price (in / out)",
+     "v": "$8 / $40 per m tokens"
+    },
+    {
+     "k": "Sol API price (in / out)",
+     "v": "$2 / $10 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "9to5Google",
+     "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2",
+     "primary": true
+    },
+    {
+     "name": "VentureBeat",
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
+    }
+   ],
+   "added": "2026-11-18",
+   "link": "openai-2026"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "market",
+   "title": "Nvidia's sales double; board says Huang won't return",
+   "summary": "Nvidia reported $115.8 billion in quarterly revenue, up 103% on a year earlier, and expects about $130 billion next quarter. It was the first report under interim CEO Colette Kress. Board chair Harvey Jones said on the call that the board does not intend to reinstate Jensen Huang, per Constellation Research. Shares rose after hours.",
+   "status": "Confirmed · Nvidia",
+   "numbers": [
+    {
+     "k": "Revenue",
+     "v": "$115.8 bn (+103%)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nvidia (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+     "primary": true
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+    },
+    {
+     "name": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-18"
   }
  ]
 }

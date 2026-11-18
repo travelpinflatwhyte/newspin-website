@@ -10,59 +10,54 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Three days down",
+  "status": "Four days down",
   "tone": "live",
-  "big": "7,416.59",
-  "delta": "▼ 145.08 (1.92%)",
-  "bigLabel": "S&P 500 close on 16 Nov (US time)",
-  "updated": "2026-11-17",
+  "big": "7,340.53",
+  "delta": "▼ 76.06 (1.03%)",
+  "bigLabel": "S&P 500 close on 17 Nov (US time)",
+  "updated": "2026-11-18",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 fell 1.92% to 7,416.59 on 16 November, its third loss in a row, as chip and AI shares sold off a day before Nvidia's results. It had jumped 2.35% on 9 November and gained 2.5% over that week.",
+    "what": "The S&P 500 fell 1.03% to 7,340.53 on 17 November, its fourth loss in a row, led by software and health shares. It had fallen 1.92% the day before as chip stocks sold off.",
     "why": "Wall Street's swings have been driven by Nvidia's leadership crisis, hotter inflation data that raised bets on a Fed rate rise, and oil prices. Big US moves often set the tone for Indian markets the next morning.",
-    "next": "Nvidia reports results after the US close on 17 November (early 18 November in India). Anthropic is expected to start trading on 19 November."
+    "next": "Nvidia beat forecasts after the 17 November close and its shares rose after hours. Anthropic is expected to start trading on 19 November."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 16 Nov",
-      "value": "7,416.59",
-      "note": "−1.92%",
+      "label": "S&P 500, 17 Nov",
+      "value": "7,340.53",
+      "note": "−1.03%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "51,608.17",
-      "note": "−1.41%"
+      "value": "50,759.42",
+      "note": "−1.64%"
     },
     {
       "label": "Nasdaq",
-      "value": "24,509.76",
-      "note": "−2.49%"
+      "value": "24,328.38",
+      "note": "−0.74%"
     },
     {
-      "label": "16 Nov open",
-      "value": "7,513.98",
-      "note": "gap down −47.69"
+      "label": "16 Nov close",
+      "value": "7,416.59",
+      "note": "previous day"
     }
   ],
   "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
   "upcoming": [
-    {
-      "date": "2026-11-18",
-      "label": "18 Nov",
-      "text": "Nvidia results (after the US close on 17 Nov)"
-    },
     {
       "date": "2026-11-19",
       "label": "19 Nov",
       "text": "Anthropic expected to start trading on Nasdaq"
     }
   ],
-  "next": "Nvidia's results and Anthropic's market debut this week.",
+  "next": "Anthropic's expected market debut on 19 November, and how shares react to Nvidia's results.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -342,6 +337,45 @@
         }
       ],
       "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
+      "phase": "market",
+      "title": "Fourth straight loss for the S&P 500 as software and health shares fall",
+      "summary": "The S&P 500 fell 1.03% to 7,340.53 and the Nasdaq had its fourth loss in a row, per Reuters and CappNotes. All 11 sectors fell. Software companies such as Salesforce and Intuit, and health insurers, fell most; Reuters also points to worries about AI spending, hints from Fed officials that a rate rise is possible, and higher import prices. October retail sales rose more than forecast. Nvidia fell 0.44% before its results, then rose after hours. The opening level could not be confirmed from two reports, so this day has no gap figure.",
+      "status": "Market data · Reuters, CappNotes",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "7,340.53 (−76.06, −1.03%)"
+        },
+        {
+          "k": "Dow",
+          "v": "50,759.42 (−848.75, −1.64%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "24,328.38 (−181.37, −0.74%)"
+        }
+      ],
+      "differs": "24/7 Wall St reports bigger falls: Dow −1.85% (955 points) and Nasdaq −0.91%. Reuters and CappNotes agree on the figures above.",
+      "sources": [
+        {
+          "name": "Reuters via Star-Advertiser",
+          "url": "https://www.staradvertiser.com/2026/11/17/breaking-news/dow-drops-849-points-as-wall-street-slides-ahead-of-nvidia-results/",
+          "primary": true
+        },
+        {
+          "name": "CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/cards/the-dow-s-955-point-drop-led-the-selling-a-sharper-hit-than-gspc-market-bell-01m7nn5ym7r5nqbd4d83yt9zt1"
+        }
+      ],
+      "added": "2026-11-18"
     }
   ]
 }

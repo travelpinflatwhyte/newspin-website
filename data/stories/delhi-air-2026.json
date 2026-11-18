@@ -6,30 +6,30 @@
   "India"
  ],
  "title": "Delhi's air in winter 2026: every stage, every spike",
- "dek": "From a clean October day to Diwali smog and Stage III curbs. How Delhi's air turned this season, and what the rules mean for you.",
+ "dek": "From a clean October day to Diwali smog, Stage III curbs and their lifting. How Delhi's air turned this season, and what the rules mean for you.",
  "seoTitle": "Delhi AQI and GRAP 2026: winter pollution timeline",
  "importance": 4,
- "status": "Poor · Stage III",
+ "status": "Poor · Stage II",
  "tone": "hot",
- "big": "246",
+ "big": "214",
  "delta": "poor",
- "bigLabel": "Delhi's AQI at 7 am on 17 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
- "updated": "2026-11-17",
+ "bigLabel": "Delhi's AQI at 7 am on 18 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
+ "updated": "2026-11-18",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 290 on the afternoon of 15 November and 246 at 7 am on 17 November. Curbs moved from Stage I on 21 October to Stage III on 6 November, and Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 246 at 7 am on 17 November and 214 at 7 am on 18 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "Delhi's early-warning system expects a slight fall in PM2.5 and PM10 over the next two days, though one report warns air could worsen again. Stage III stays until the air commission says otherwise. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "The air commission cites forecasts of 'poor' to 'very poor' air in the coming days, so curbs could return if the air worsens. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 17 Nov 7 am",
-   "value": "246",
+   "label": "AQI, 18 Nov 7 am",
+   "value": "214",
    "note": "poor",
    "hot": true
   },
   {
-   "label": "AQI, 15 Nov 4 pm",
-   "value": "290",
+   "label": "AQI, 17 Nov 7 am",
+   "value": "246",
    "note": "poor"
   },
   {
@@ -39,8 +39,8 @@
   },
   {
    "label": "GRAP stage",
-   "value": "III",
-   "note": "since 6 Nov"
+   "value": "II",
+   "note": "Stage III lifted 17 Nov"
   },
   {
    "label": "Diwali, 4 pm",
@@ -48,7 +48,7 @@
    "note": "worst since 2021"
   }
  ],
- "forYou": "Check the AQI before going out, limit outdoor exercise on 'very poor' and 'severe' days, and follow the official CAQM orders for what Stage III restricts. If your car is registered outside Delhi and is not BS-VI, it can be turned back at the border until 31 January.",
+ "forYou": "Check the AQI before going out and limit outdoor exercise on 'very poor' and 'severe' days. Stage III is lifted, so Delhi-registered BS-III petrol and BS-IV diesel cars can drive again and Delhi schools are back to in-person classes. If your car is registered outside Delhi and is not BS-VI, it can still be turned back at the border until 31 January.",
  "upcoming": [
   {
    "date": "2026-11-20",
@@ -61,7 +61,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "A slight improvement is forecast for the next two days. Stage III stays until the air commission says otherwise.",
+ "next": "Forecasts point to 'poor' or 'very poor' air in the coming days. Stage I and II curbs stay.",
  "links": [
   "west-asia-oil"
  ],
@@ -470,6 +470,69 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "policy",
+   "title": "Stage III curbs lifted; Stage I and II stay",
+   "key": true,
+   "summary": "The Commission for Air Quality Management (CAQM), which runs Delhi-NCR's pollution action plan (GRAP), revoked Stage III curbs with immediate effect, citing a falling trend in daily AQI. The daily average reached 204 on Tuesday, per CAQM's sub-committee. Stage I and II measures continue across the NCR. Delhi-registered BS-III petrol and BS-IV diesel cars can drive again, Business Today reports. Delhi's education department told schools to hold classes in person for all students, per Business Standard. CAQM cited forecasts that air will stay 'poor' or 'very poor' in the coming days.",
+   "status": "Confirmed · CAQM",
+   "differs": "Business Standard says CAQM's separate 30 October order on 50% office attendance (5–20 November) stays; Business Today lists the 50% office limit among the Stage III curbs now lifted. Business Standard gives 204 as Delhi's daily average; Business Today describes it as the Delhi-NCR average at 4 pm.",
+   "numbers": [
+    {
+     "k": "Daily average AQI",
+     "v": "204"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/india-news/grap-iii-restrictions-revoked-as-delhi-aqi-falls-to-214-schools-reopen-126111800135_1.html",
+     "primary": true
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/grap-3-curbs-revoked-in-delhi-will-restrictions-on-bs-3-petrol-bs-4-diesel-cars-to-continue-what-we-know-568060-2026-11-18"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/delhi-gets-a-breather-aqi-improves-after-17-days-but-poor-air-quality-persists-568051-2026-11-18"
+    }
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "air",
+   "title": "Wednesday morning: AQI 214, still 'poor'",
+   "summary": "Delhi's average AQI was 214 at 7 am, down from 246 at the same time on Tuesday, per CPCB real-time data reported by Business Standard. None of 58 stations was 'severe'; one was above 300. That is still in the 'poor' band (201–300), which can cause breathing discomfort on long exposure. An earlier IITM forecast said air could turn 'very poor' on Wednesday; that had not happened by the morning.",
+   "status": "Official data · CPCB",
+   "differs": "Business Today gives 216 at 8 am; Business Standard gives 214 at 7 am.",
+   "numbers": [
+    {
+     "k": "AQI, 7 am",
+     "v": "214"
+    },
+    {
+     "k": "Stations above 300",
+     "v": "1"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (CPCB data)",
+     "url": "https://www.business-standard.com/india-news/grap-iii-restrictions-revoked-as-delhi-aqi-falls-to-214-schools-reopen-126111800135_1.html",
+     "primary": true
+    },
+    {
+     "name": "Business Today (CPCB data)",
+     "url": "https://www.businesstoday.in/india/story/grap-3-curbs-revoked-in-delhi-will-restrictions-on-bs-3-petrol-bs-4-diesel-cars-to-continue-what-we-know-568060-2026-11-18"
+    }
+   ],
+   "added": "2026-11-18"
   }
  ]
 }

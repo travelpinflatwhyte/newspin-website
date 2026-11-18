@@ -9,14 +9,14 @@
  "dek": "How one of India's oldest budget airlines came to cancel one in five flights, what it owes, and what its board will consider on 18 November.",
  "seoTitle": "SpiceJet crisis 2026: cancellations, dues, fundraising",
  "importance": 3,
- "status": "Board meets 18 Nov on raising money",
+ "status": "Mumbai departures halted; board meets 18 Nov",
  "tone": "hot",
  "big": "20.29%",
  "delta": "flights cancelled",
  "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
- "updated": "2026-11-15",
+ "updated": "2026-11-18",
  "glance": {
-  "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
+  "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
   "next": "SpiceJet's board meets on 18 November to consider raising fresh capital through shares, debt or a share sale to institutions. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
@@ -336,6 +336,37 @@
     }
    ],
    "added": "2026-11-15"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17–18 Nov",
+   "phase": "travel",
+   "title": "No SpiceJet departures from Mumbai for more than 12 hours",
+   "summary": "No SpiceJet flight left Mumbai airport from 7 pm on Tuesday, and the halt was still going on more than 12 hours later, according to Aviation Jeta, Amar Ujala and Dynamite News. Hundreds of passengers, on domestic and international routes, were stuck overnight, and some protested at the airline's counter. Aviation Jeta, citing airport sources, says 12 scheduled departures from Mumbai had been cancelled by Tuesday. SpiceJet had not issued a statement or given a reason by Wednesday morning. Passengers say they were not told about the delays or new departure times.",
+   "status": "Reported",
+   "differs": "Only Aviation Jeta gives a number of cancelled flights (12, from airport sources); the other reports say only 'hundreds' of passengers were affected.",
+   "numbers": [
+    {
+     "k": "Departures halted from",
+     "v": "7 pm, 17 Nov"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Aviation Jeta",
+     "url": "https://aviationjeta.com/mumbai-airport-news-no-spicejet-departures-for-12-hours-hundreds-stranded/",
+     "primary": true
+    },
+    {
+     "name": "Amar Ujala (Hindi)",
+     "url": "https://www.amarujala.com/india-news/spicejet-chaos-hundreds-of-passengers-stranded-overnight-as-no-flights-take-off-mumbai-patna-hindi-updates-2026-11-18"
+    },
+    {
+     "name": "Dynamite News",
+     "url": "https://www.dynamitenews.com/national/spicejet-flight-cancel-hundred-of-passengers-stranded-is-indias-aviation-industry-heading-towards-a-major-crisis"
+    }
+   ],
+   "added": "2026-11-18"
   }
  ]
 }

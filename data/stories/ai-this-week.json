@@ -17,7 +17,7 @@
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
  "updated": "2026-11-18",
  "glance": {
-  "what": "In the past ten days OpenAI, Google, Meta, Anthropic and Alibaba released new models, Nvidia reported doubled sales in its first quarter after its founder was forced out, Anthropic's share sale drew strong reported demand, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
+  "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales in its first quarter after its founder was forced out, Anthropic's share sale drew strong reported demand, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
   "next": "Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
  },
@@ -447,6 +447,37 @@
     }
    ],
    "link": "nvidia-huang-investigation",
+   "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "ai",
+   "title": "Microsoft launches its own coding and security models",
+   "summary": "At its Ignite conference, Microsoft released a new set of in-house MAI models, including MAI Code 2 for programming, a cybersecurity model offered at first to a limited group of customers, and image and speech models. Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol's quality at about 40% of the price, and 96% of Claude Opus 5.5's at 5% of the price, on its chosen coding tests; Reuters describes it as almost matching rivals at a fraction of the cost. MAI Code 2 is available in GitHub Copilot, per TestingCatalog. Microsoft also announced an AI Transparency Initiative with more than 40 organisations to develop open standards for checking AI models.",
+   "status": "Confirmed · Microsoft",
+   "differs": "TestingCatalog counts seven new models; Reuters gives no count and names only MAI Code 2.",
+   "numbers": [
+    {
+     "k": "MAI Code 2 vs GPT-6.1 Sol (Microsoft's claim)",
+     "v": "98% of quality, ~40% of price"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via The Korea Times",
+     "url": "https://www.koreatimes.co.kr/world/20261118/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai",
+     "primary": true
+    },
+    {
+     "name": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+    },
+    {
+     "name": "Microsoft",
+     "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/"
+    }
+   ],
    "added": "2026-11-18"
   }
  ]

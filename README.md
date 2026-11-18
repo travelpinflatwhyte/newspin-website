@@ -33,7 +33,7 @@ Upload the contents of `dist/` to the host that runs travelpinapp.com, as a sepa
 
 1. Create the mailbox `hello@newspinapp.com` (used for corrections), or change `contactEmail` in `data/site.json`.
 2. Email alerts: create a form with a newsletter or forms service and put its form URL in `signupAction` in `data/site.json`. While empty, story pages show "Follow" only.
-3. Add analytics if you want it (a privacy-friendly one), and update the privacy page to match.
+3. Analytics: Cloudflare Web Analytics (cookie-free) is on every page via `page()` in build.py; the dashboard is in the Cloudflare account under Observability > Analytics > Web analytics. Keep the privacy page in step with any change.
 4. Add the site to Google Search Console and submit `https://newspinapp.com/sitemap.xml`.
 5. Have the About, Privacy and corrections wording reviewed, including any obligations for digital news publishers in India.
 6. Open item in the data: the RBI's October FY27 inflation projection is listed as 5.0% (PRS) vs 5.2% (Swarajya, Deccan Herald). It's flagged as "Sources differ" on the page; confirm against the RBI statement and update.

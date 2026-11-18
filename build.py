@@ -299,6 +299,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 </div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script src="/app.js" defer></script>
+<!-- Cloudflare Web Analytics: anonymous, cookie-free page counts --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "04ce30d7635e40bfbbe09b27ebc122ab"}}'></script>
 </body>
 </html>
 """
@@ -933,10 +934,12 @@ def build_privacy(site):
     mail = e(site.get('contactEmail', 'hello@newspinapp.com'))
     body = f"""<div class="wrap-narrow prose">
 <h1>Privacy</h1>
-<p><em>Last updated 13 November 2026.</em></p>
+<p><em>Last updated 18 November 2026.</em></p>
 <p>Newspin is built to work without knowing who you are. This page explains the little that is stored or shared when you use it.</p>
 <h2>No accounts, no tracking</h2>
-<p>You can read Newspin without signing up. We do not use advertising or tracking cookies, and we do not run analytics or share data with advertisers. If that ever changes, we will update this page first and say so on the site.</p>
+<p>You can read Newspin without signing up. We do not use advertising or tracking cookies, and we do not share data with advertisers.</p>
+<h2>Counting visits</h2>
+<p>Since 18 November 2026 we use Cloudflare Web Analytics to count how many people visit Newspin and which stories they read. It sets no cookies, does not build a profile of you and does not follow you across other websites. When a page loads, your browser sends Cloudflare basic details such as the page address, the site that linked you here, your browser and device type and your rough country. We see only totals, such as page views per story. Cloudflare's own privacy policy covers how it handles this data. If your browser or an extension blocks the script, Newspin works exactly the same.</p>
 <h2>What your browser stores on your device</h2>
 <p>To remember your choices, Newspin saves a few small items in your browser’s local storage:</p>
 <ul>
@@ -950,6 +953,7 @@ def build_privacy(site):
 <h2>Services we rely on</h2>
 <ul>
 <li><strong>Hosting:</strong> the site is hosted on GitHub Pages. Like any web host, GitHub may log technical data such as your IP address for security and operations.</li>
+<li><strong>Visit counts:</strong> Cloudflare, Inc. (see Counting visits above).</li>
 <li><strong>Fonts:</strong> pages load fonts from Google Fonts, so your browser connects to Google’s servers to fetch them.</li>
 <li><strong>Sharing:</strong> if you use Share, your device’s own share menu or clipboard handles it.</li>
 <li><strong>Links:</strong> source links take you to other websites, which have their own privacy policies.</li>
@@ -968,7 +972,7 @@ def build_terms(site):
     mail = e(site.get('contactEmail', 'hello@newspinapp.com'))
     body = f"""<div class="wrap-narrow prose">
 <h1>Terms of use and disclaimer</h1>
-<p><em>Last updated 13 November 2026.</em></p>
+<p><em>Last updated 18 November 2026.</em></p>
 <h2>What Newspin is</h2>
 <p>Newspin organises reporting on major ongoing news stories into timelines. Each event summarises, in our own words, what published sources have reported, and links to those sources so you can read them yourself.</p>
 <h2>Not advice</h2>

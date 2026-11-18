@@ -19,7 +19,7 @@
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Huang has agreed to appear voluntarily before House committees. The board is searching for a permanent CEO, and its chair said on 17 November that it does not intend to reinstate Huang."
+  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang has agreed to appear voluntarily before House committees, and the board is searching for a permanent CEO."
  },
  "keyNumbers": [
   {
@@ -583,6 +583,26 @@
   {
    "date": "2026-11-17",
    "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "Huang says he would be 'honored' to return as CEO if the board wants him",
+   "summary": "In his first public statement since resigning, posted on X and sent to news outlets, Huang said he had \"made serious mistakes\" in his personal life and was committed to cooperating with the board's independent investigation. He said employees, investors, partners and customers had called for him to come back, and that he would be \"honored\" to return as CEO if the board decides that is in the best interest of shareholders, employees, the company and America. CBS News, citing a person familiar with the board's thinking, reports the board is not interested in reinstating him in any role.",
+   "status": "Stated · Jensen Huang",
+   "sources": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/",
+     "primary": true
+    },
+    {
+     "name": "TheWrap",
+     "url": "https://www.thewrap.com/industry-news/business/nvidia-jensen-huang-statement-chinese-spy/"
+    }
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
    "phase": "market",
    "key": true,
    "title": "First results without Huang: revenue doubles; board chair says Huang won't return",
@@ -630,6 +650,6 @@
   }
  ],
  "heroTitle": "Nvidia's sales double in its first quarter without Huang",
- "heroDek": "Revenue reached $115.8 billion and the board chair said Huang will not be reinstated as CEO. Shares rose after hours.",
+ "heroDek": "Revenue reached $115.8 billion. Hours earlier Huang said he would be honored to return; the board chair said it does not intend to reinstate him.",
  "heroAsOf": "2026-11-18"
 }

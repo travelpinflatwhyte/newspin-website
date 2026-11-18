@@ -80,7 +80,8 @@
      "name": "Free Press Journal",
      "url": "https://www.freepressjournal.in/amp/business/indian-economy-remains-resilient-rbi-governor-malhotra"
     }
-   ]
+   ],
+   "chartValue": 6.25
   },
   {
    "date": "2025-04-09",
@@ -100,7 +101,8 @@
      "name": "Free Press Journal",
      "url": "https://www.freepressjournal.in/amp/business/indian-economy-remains-resilient-rbi-governor-malhotra"
     }
-   ]
+   ],
+   "chartValue": 6.0
   },
   {
    "date": "2025-06-06",
@@ -133,7 +135,8 @@
      "name": "Outlook Money",
      "url": "https://www.outlookmoney.com/amp/story/banking/rbi-mpc-meet-2026-rbi-keeps-repo-rate-unchanged-at-525-per-cent"
     }
-   ]
+   ],
+   "chartValue": 5.5
   },
   {
    "date": "2025-10-01",
@@ -158,7 +161,8 @@
      "name": "Continuum Economics",
      "url": "https://continuumeconomics.com/a/9b35b127/rbi-holds-rates-balances-growth-optimism-with-global-risks"
     }
-   ]
+   ],
+   "chartValue": 5.5
   },
   {
    "date": "2025-12-05",
@@ -190,7 +194,8 @@
      "name": "Outlook Money",
      "url": "https://www.outlookmoney.com/banking/rbi-mpc-2026-5-key-takeaways-as-repo-rate-remains-at-525-per-cent"
     }
-   ]
+   ],
+   "chartValue": 5.25
   },
   {
    "date": "2026-02-06",
@@ -222,7 +227,8 @@
      "name": "IndiaBonds",
      "url": "https://www.indiabonds.com/bonduni/news/february-2026-rbi-monetary-policy-highlights/"
     }
-   ]
+   ],
+   "chartValue": 5.25
   },
   {
    "date": "2026-06-05",
@@ -246,7 +252,8 @@
      "name": "RBI statement, 5 Jun 2026 (via TaxGuru)",
      "url": "https://taxguru.in/?p=1048778"
     }
-   ]
+   ],
+   "chartValue": 5.25
   },
   {
    "date": "2026-08-05",
@@ -274,7 +281,8 @@
      "name": "Sahi",
      "url": "https://sahi.com/blogs/rbi-mpc-meeting-august-2026-highlights"
     }
-   ]
+   ],
+   "chartValue": 5.25
   },
   {
    "date": "2026-09-24",
@@ -385,7 +393,8 @@
      "name": "Corplaw Updates",
      "url": "https://www.corplawupdates.in/updates/rbi-repo-rate-hike-5-50-percent-october-2026"
     }
-   ]
+   ],
+   "chartValue": 5.5
   },
   {
    "date": "2026-11-12",
@@ -413,5 +422,11 @@
    ],
    "added": "2026-11-13"
   }
- ]
+ ],
+ "chart": {
+  "title": "Repo rate, %",
+  "unit": "%",
+  "step": true,
+  "note": "The RBI's repo rate after each decision in this timeline."
+ }
 }

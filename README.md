@@ -95,6 +95,12 @@ A story about one foreign country can set `"flag": "us"` (two-letter country cod
 
 A story can carry an `explainers` list. Each item has `file` (an HTML fragment with an inline SVG in `data/explainers/`), `title`, `caption` and `sources`. They appear between the story's track and the timeline. Draw them from sourced figures only, say in the caption what is to scale and what isn't, and style them with the site's CSS variables so they work in dark mode. Don't use photos unless their licence allows commercial use.
 
+### Timeline tools
+Story pages get a Key moments / Everything switch (stories with 3+ events marked `"key": true` and 10+ events; 20+ events and 5+ keys open on Key moments), an order button, filter chips (by `phase` and by status label), a sticky date scrubber (8+ events) and folds for hidden stretches. The latest event and anything new since the reader's last visit always stay visible.
+
+### Chart (optional)
+Add `"chart": {"title": "Repo rate, %", "unit": "%", "step": true, "note": "..."}` to a story and a `chartValue` number to each event that reports that figure (taken from the event's own sourced `numbers`). At least 3 points are needed. Market wraps chart their daily closes automatically. Don't chart figures that mix measures (intraday vs close, different times of day).
+
 ## Search and sharing
 - Every page: title, description, canonical, Open Graph and Twitter tags, `max-image-preview:large`.
 - Story pages: NewsArticle + BreadcrumbList structured data; datePublished = first event added, dateModified = `updated`. Keep `updated` current on every edit.

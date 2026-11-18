@@ -98,7 +98,8 @@
      "name": "PL Capital",
      "url": "https://www.plindia.com/news/india-retail-inflation-falls-record-low-0-25-october-pl-capital/"
     }
-   ]
+   ],
+   "chartValue": 0.25
   },
   {
    "date": "2025-12-12",
@@ -118,7 +119,8 @@
      "name": "MTS Insights",
      "url": "https://www.mtsinsights.com/events/4126/"
     }
-   ]
+   ],
+   "chartValue": 0.71
   },
   {
    "date": "2026-02-12",
@@ -142,7 +144,8 @@
      "name": "MTS Insights",
      "url": "https://www.mtsinsights.com/events/4126/"
     }
-   ]
+   ],
+   "chartValue": 2.75
   },
   {
    "date": "2026-09-12",
@@ -166,7 +169,8 @@
      "name": "Trading Economics",
      "url": "https://tradingeconomics.com/india/currency/news/589727"
     }
-   ]
+   ],
+   "chartValue": 4.83
   },
   {
    "date": "2026-10-07",
@@ -238,7 +242,8 @@
      "name": "MoneyWorks4Me",
      "url": "https://www.moneyworks4me.com/company/news/index/id/841597"
     }
-   ]
+   ],
+   "chartValue": 5.54
   },
   {
    "date": "2026-11-09",
@@ -289,7 +294,8 @@
      "url": "https://www.businessworld.in/article/retail-inflation-breaches-rbi-s-6-threshold-after-nine-month-rise-633336"
     }
    ],
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "chartValue": 6.09
   },
   {
    "date": "2026-11-16",
@@ -329,5 +335,10 @@
    ],
    "added": "2026-11-16"
   }
- ]
+ ],
+ "chart": {
+  "title": "CPI inflation, %",
+  "unit": "%",
+  "note": "Each point is the monthly figure given in that event, plotted on its release date. August is the revised figure."
+ }
 }

@@ -9,6 +9,7 @@ to dist/. No dependencies beyond Python 3 (Pillow is optional, for share images)
 import datetime as dt
 import html
 import json
+import math
 import re
 import os
 import shutil
@@ -758,9 +759,96 @@ def build_home(site, stories, order, axis):
 
 
 # ---------- story ----------
+STATUS_GROUPS = [("allegation", "Allegation"), ("partly", "Reported"), ("confirmed", "Confirmed"), ("official data", "Official data"),
+                 ("ap count", "Official data"), ("market data", "Market data"), ("reported", "Reported"), ("stated", "Stated"),
+                 ("filed", "Filed"), ("forecast", "Forecast")]
+
+
+def status_group(st):
+    low = st.lower()
+    return next((g for k, g in STATUS_GROUPS if low.startswith(k)), "")
+
+
+def nice_ticks(lo, hi, n=4):
+    raw = (hi - lo) / n or 1
+    mag = 10 ** math.floor(math.log10(raw))
+    step = next(m * mag for m in (1, 2, 2.5, 5, 10) if m * mag >= raw)
+    t = math.floor(lo / step) * step
+    out = []
+    while True:  # ticks reach outward so the top and bottom of the plot are labelled
+        out.append(round(t, 6))
+        if t >= hi - step * 0.001:
+            break
+        t += step
+    return out, step
+
+
+def chart_panel(s):
+    """Line chart of the story's main number. Points come from events: session closes for market wraps,
+    otherwise each event's `chartValue`. Each point links to its event."""
+    evs = s["events"]
+    if s.get("market"):
+        pts = [(i, ev, ev["session"]["close"]) for i, ev in enumerate(evs) if ev.get("session")]
+        title, unit, step = s["market"]["index"] + ", daily close", "", False
+        note = "Closing level on each trading day in this timeline."
+        fmt = fnum
+    elif s.get("chart"):
+        c = s["chart"]
+        pts = [(i, ev, ev["chartValue"]) for i, ev in enumerate(evs) if "chartValue" in ev]
+        title, unit, step, note = c["title"], c.get("unit", ""), c.get("step", False), c.get("note", "")
+        fmt = lambda v: f"{v:,.2f}".rstrip("0").rstrip(".")
+    else:
+        return ""
+    if len(pts) < 3:
+        return ""
+    vals = [v for _, _, v in pts]
+    lo, hi = min(vals), max(vals)
+    pad = (hi - lo) * 0.12 or abs(hi) * 0.05 or 1
+    ticks, tstep = nice_ticks(lo - pad, hi + pad)
+    lo, hi = min(ticks[0], lo - pad), max(ticks[-1], hi + pad)
+    t0, t1 = d(pts[0][1]["date"]), d(pts[-1][1]["date"])
+    span = max((t1 - t0).days, 1)
+    X = lambda ev: 3 + (d(ev["date"]) - t0).days / span * 94
+    Y = lambda v: (hi - v) / (hi - lo) * 100
+    path = ""
+    for k, (_, ev, v) in enumerate(pts):
+        x, y = X(ev), Y(v)
+        if k == 0:
+            path = f"M{x:.2f} {y:.2f}"
+        elif step:
+            path += f" H{x:.2f} V{y:.2f}"
+        else:
+            path += f" L{x:.2f} {y:.2f}"
+    grid = "".join(f'<line x1="0" x2="100" y1="{Y(t):.2f}" y2="{Y(t):.2f}"/>' for t in ticks)
+    tlab = lambda t: (f"{t:,.0f}" if tstep >= 1 else f"{t:,.2f}".rstrip("0").rstrip(".")) + unit
+    ylabels = "".join(f'<span style="top:{Y(t):.2f}%">{e(tlab(t))}</span>' for t in ticks)
+    dots = ""
+    last_i = len(pts) - 1
+    for k, (i, ev, v) in enumerate(pts):
+        tip = f'{ev["dateLabel"]}: {fmt(v)}{unit} · {ev["title"]}'
+        dots += (f'<a class="ch-pt{" last" if k == last_i else ""}" href="#e{i + 1}" style="left:{X(ev):.2f}%;top:{Y(v):.2f}%" '
+                 f'data-tip="{e(tip)}" aria-label="{e(tip)}"></a>')
+    lv = pts[-1][2]
+    lx, ly = X(pts[-1][1]), Y(lv)
+    vlabel = f'<span class="ch-last" style="right:{100 - lx:.2f}%;top:{ly:.2f}%">{e(fmt(lv))}{e(unit)}</span>'
+    short = lambda ev: ev["dateLabel"]
+    xl = f'<span style="left:0">{e(short(pts[0][1]))}</span><span style="right:0">{e(short(pts[-1][1]))}</span>'
+    label = f"{title}: {len(pts)} values from {fmt(vals[0])}{unit} on {pts[0][1]['dateLabel']} to {fmt(lv)}{unit} on {pts[-1][1]['dateLabel']}."
+    return f"""<section class="panel chart {cat_class(s['category'])}" aria-labelledby="ch-h">
+  <div class="ch-hd"><h2 class="eyebrow" id="ch-h">{e(title)}</h2><span>Tap a point to jump to that event</span></div>
+  <div class="ch-box" role="img" aria-label="{e(label)}">
+    <div class="ch-y">{ylabels}</div>
+    <div class="ch-plot"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><g class="ch-grid">{grid}</g><path class="ch-line" d="{path}"/></svg>{dots}{vlabel}<div class="ch-tip" hidden></div></div>
+    <div class="ch-x">{xl}</div>
+  </div>
+  {f'<p class="ch-note">{e(note)}</p>' if note else ''}
+</section>"""
+
+
 def build_story(site, stories, s, axis):
     slug = s["slug"]
     evs = s["events"]
+    latest = latest_event(s)
     items = []
     for i, ev in enumerate(evs):
         ph = PHASES.get(ev["phase"], PHASES["policy"])
@@ -779,7 +867,7 @@ def build_story(site, stories, s, axis):
         n = len(ev["sources"])
         x = d(ev["date"])
         items.append(f"""
-<li class="ev{' key' if ev.get('key') else ''}" data-added="{e(ev['added'])}" id="e{i+1}">
+<li class="ev{' key' if ev.get('key') else ''}{' latest-ev' if ev is latest else ''}" data-added="{e(ev['added'])}" data-date="{e(ev['date'])}" data-label="{e(ev['dateLabel'])}" data-phase="{e(ev['phase'])}" data-status="{e(status_group(ev['status']))}" id="e{i+1}">
   <div class="ev-date"><i class="dd" style="{dot}"></i><b>{e(ev['dateLabel'].rsplit(' ', 1)[0] if ev['dateLabel'][-4:].isdigit() and ' ' in ev['dateLabel'] else ev['dateLabel'])}</b><span>{x.year}</span></div>
   <div class="ev-rail" aria-hidden="true"><div class="l1"></div><div class="d" style="{dot}"></div><div class="l2"></div></div>
   <div class="ev-card"><article>
@@ -839,6 +927,45 @@ def build_story(site, stories, s, axis):
     else:
         signup = f"""<section class="signup side" aria-labelledby="su-h"><h2 id="su-h">Follow this story</h2><p>Follow it and the Newspin home page will show you what changed since your last visit. Email alerts are coming soon.</p><div style="margin-top:14px">{follow_btn(slug, 'btn btn-light')}</div></section>"""
 
+    # timeline tools: key moments, order, filters
+    n_key = sum(1 for ev in evs if ev.get("key"))
+    show_key = n_key >= 3 and len(evs) >= 10
+    default_mode = "key" if show_key and len(evs) >= 20 and n_key >= 5 else "all"
+    desc = s.get("order") == "desc"
+    tools = ""
+    if show_key:
+        tools += (f'<div class="seg seg-sm" role="group" aria-label="How much to show"><button type="button" data-tl-mode="key" aria-pressed="{str(default_mode == "key").lower()}">Key moments</button>'
+                  f'<button type="button" data-tl-mode="all" aria-pressed="{str(default_mode == "all").lower()}">Everything</button></div>')
+    if len(evs) >= 4:
+        tools += (f'<button type="button" class="ord-btn" data-tl-order-toggle aria-label="Change order">'
+                  f'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4"/></svg>'
+                  f'<span>{"Newest first" if desc else "Oldest first"}</span></button>')
+    phases = {}
+    for ev in evs:
+        phases[ev["phase"]] = phases.get(ev["phase"], 0) + 1
+    groups = {}
+    for ev in evs:
+        g = status_group(ev["status"])
+        if g:
+            groups[g] = groups.get(g, 0) + 1
+    chips = ""
+    if len(phases) > 1:
+        chips += "".join(f'<button type="button" class="fchip" data-tl-filter="phase:{e(p)}" aria-pressed="false">{e(PHASES.get(p, PHASES["policy"])[0])}<span>{c}</span></button>' for p, c in phases.items())
+    phase_names = {PHASES.get(p, PHASES["policy"])[0] for p in phases} if len(phases) > 1 else set()
+    groups = {g: c for g, c in groups.items() if g not in phase_names}
+    if len(groups) > 1:
+        order_g = [g for _, g in STATUS_GROUPS]
+        chips += "".join(f'<button type="button" class="fchip st" data-tl-filter="status:{e(g)}" aria-pressed="false">{e(g)}<span>{groups[g]}</span></button>'
+                         for g in sorted(groups, key=order_g.index))
+    if chips and len(evs) >= 6:
+        chips = f'<div class="fchips" role="group" aria-label="Filter events"><button type="button" class="fchip" data-tl-filter="all" aria-pressed="true">All<span>{len(evs)}</span></button>{chips}</div>'
+    else:
+        chips = ""
+    tools_html = (f'<div class="tl-tools" id="tl-tools" data-default-mode="{default_mode}">{tools}<span class="tl-count" aria-live="polite"></span></div>{chips}'
+                  if tools or chips else "")
+    scrub_html = '<div class="scrub" id="scrub" hidden></div>' if len(evs) >= 8 else ""
+    chart_html = chart_panel(s)
+
     n_src = sum(len(ev["sources"]) for ev in evs)
     body = f"""
 <div class="wrap">
@@ -861,6 +988,7 @@ def build_story(site, stories, s, axis):
         <div class="keynums">{keyn}</div>
       </section>
       <div class="story-track {cat_class(s['category'])}">{track_html(s, axis)}</div>
+      {chart_html}
       {xps_html}
       <section class="newbar" id="newbar" aria-live="polite" hidden>
         <div><span class="k"></span><span class="h"></span></div>
@@ -871,7 +999,9 @@ def build_story(site, stories, s, axis):
           <div><h2 id="tl-h">Timeline</h2><span class="sub">Simple: key events · Detailed: sources, documents and numbers</span></div>
           <div class="seg" role="group" aria-label="Detail level"><button type="button" data-mode="simple" aria-pressed="true">Simple</button><button type="button" data-mode="detailed" aria-pressed="false">Detailed</button></div>
         </div>
-        <div class="tl-wrap">{'<p class="tl-order">Newest first</p>' if s.get("order") == "desc" else ""}<ol class="events">{''.join(reversed(items) if s.get("order") == "desc" else items)}</ol>
+        {tools_html}
+        {scrub_html}
+        <div class="tl-wrap"><ol class="events" data-order="{'desc' if desc else 'asc'}">{''.join(reversed(items) if desc else items)}</ol>
         {ups}</div>
       </section>
       <p class="note">This timeline draws on {n_src} source links. Labels show whether each event is confirmed, official data, reported by a single outlet or a forecast. Spotted an error? <a href="/about/#corrections">Tell us</a>.</p>

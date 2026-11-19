@@ -9,43 +9,43 @@
  "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
  "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
  "importance": 4,
- "status": "Falls after two up days",
+ "status": "Rises above 25,500 for first time since February",
  "tone": "live",
- "big": "25,227.95",
- "delta": "▼ 159.45 (0.63%)",
- "bigLabel": "Nifty 50 close on 18 Nov",
- "updated": "2026-11-18",
+ "big": "25,514.30",
+ "delta": "▲ 286.35 (1.14%)",
+ "bigLabel": "Nifty 50 close on 19 Nov",
+ "updated": "2026-11-19",
  "market": {
   "index": "Nifty 50",
   "second": "Sensex",
   "tz": "IST, closes 3:30 pm"
  },
  "glance": {
-  "what": "The Nifty 50 closed at 25,227.95 on 18 November, down 0.63%, ending a two-day rise. Over seven sessions since the Diwali Muhurat trading close on 8 November, it is up from 24,986.40.",
-  "why": "Reporters put the fall down to profit booking after a strong November rally, with metal and consumer durables stocks hit hardest. Earlier gains were credited to heavy foreign investor buying and falling oil prices.",
+  "what": "The Nifty 50 closed at 25,514.30 on 19 November, up 1.14% and above 25,500 for the first time since 26 February, according to Business Today. Over eight sessions since the Diwali Muhurat trading close on 8 November, it is up from 24,986.40.",
+  "why": "Reporters credited buying in auto, bank and consumer goods stocks, helped by falling metal prices, which lower costs for carmakers. IT stocks fell after US Federal Reserve minutes pointed to more US rate rises. A day earlier, profit booking had pulled the index down 0.63%.",
   "next": "Markets are shut on 24 November for Guru Nanak Jayanti. The RBI's next policy meeting runs 2 to 4 December."
  },
  "keyNumbers": [
   {
-   "label": "Nifty 50, 18 Nov",
-   "value": "25,227.95",
-   "note": "−159.45 (0.63%)",
+   "label": "Nifty 50, 19 Nov",
+   "value": "25,514.30",
+   "note": "+286.35 (1.14%)",
    "hot": true
   },
   {
-   "label": "Sensex, 18 Nov",
-   "value": "82,031.81",
-   "note": "−500.38 (0.61%)"
+   "label": "Sensex, 19 Nov",
+   "value": "83,021.75",
+   "note": "+989.94 (1.21%)"
   },
   {
    "label": "Today's open",
-   "value": "25,323.15",
-   "note": "gap down, −64.25"
+   "value": "25,186",
+   "note": "gap down, about −42 (Liquide)"
   },
   {
    "label": "Since 8 Nov",
-   "value": "+241.55",
-   "note": "seven sessions"
+   "value": "+527.90",
+   "note": "eight sessions"
   }
  ],
  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
@@ -393,6 +393,54 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026",
+   "phase": "market",
+   "title": "Autos and banks lift Nifty above 25,500 after a weak start",
+   "summary": "The Nifty opened lower and closed up 286.35 points (1.14%) at 25,514.30, according to Business Today and Kotak Neo. The Sensex rose 989.94 points (1.21%) to 83,021.75. Business Today says it was the Nifty's first close above 25,500 since 26 February. Marketcalls says the market started lower after minutes from the US Federal Reserve pointed to more US rate rises, then autos, banks and consumer goods stocks pulled it up. Business Today and Kotak Neo say falling copper and other metal prices should lower costs for carmakers and appliance makers. The Nifty Auto index rose 4.40% and Nifty IT fell 1.10%, per Kotak Neo and Marketcalls. Maruti Suzuki gained 7.30%, the best in the Nifty; Infosys (−1.52%) fell the most, per Marketcalls.",
+   "status": "Market data · Business Today, Kotak Neo",
+   "differs": "Only Liquide gives an opening level (25,186, about 42 points lower); the other reports say only that the market opened lower. Marketcalls says the Nifty slipped below 25,150 in early trade. Business Today gives Nifty Bank's close as 62,081.30 (with 63,063 as its intraday record); Marketcalls gives 63,063.00 as the close.",
+   "numbers": [
+    {
+     "k": "Sensex close",
+     "v": "83,021.75 (+989.94)"
+    },
+    {
+     "k": "Nifty Auto",
+     "v": "+4.40%"
+    },
+    {
+     "k": "Nifty IT",
+     "v": "−1.10%"
+    }
+   ],
+   "session": {
+    "prev": 25227.95,
+    "open": 25186.0,
+    "close": 25514.3
+   },
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-sensex-surges-990-points-nifty-reclaims-25500-for-first-time-since-february-26-568538-2026-11-19",
+     "primary": true
+    },
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/closing-bell-19-november-2026-sensex-nifty-end-higher-as-bulls-return-to-dalal-street/"
+    },
+    {
+     "name": "Marketcalls",
+     "url": "https://www.marketcalls.in/futures-and-options/post-market-report-19-november-2026.html"
+    },
+    {
+     "name": "Liquide",
+     "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-514-sensex-surges-990-points-as-auto-consumer-durables-and-banking-stocks-lead-rally/"
+    }
+   ],
+   "added": "2026-11-19"
   }
  ]
 }

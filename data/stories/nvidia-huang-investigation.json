@@ -15,7 +15,7 @@
  "big": "$115.8 bn",
  "delta": "▲ 103% year on year",
  "bigLabel": "Nvidia's revenue for August–October 2026, its first quarter reported without Huang as CEO",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
@@ -45,14 +45,8 @@
   }
  ],
  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
- "upcoming": [
-  {
-   "date": "2026-11-18",
-   "label": "18 Nov",
-   "text": "Date House chairs requested for Huang’s briefing"
-  }
- ],
- "next": "The House committees' briefing with Huang; the board's search for a permanent CEO; investigations by the board, FBI and Congress.",
+ "upcoming": [],
+ "next": "Huang's closed-door appearance before House committees, expected before Thanksgiving (26 Nov); the board's search for a permanent CEO; investigations by the board, FBI and Congress.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -648,9 +642,36 @@
    ],
    "differs": "Reports differ on the after-hours rise: CBS News says nearly 3% (to $159.60), Reuters says as much as 3%, and StockTitan gives 4.55% at 6:23 pm ET.",
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026 (US close)",
+   "phase": "market",
+   "title": "Shares fall about 3% the day after results",
+   "summary": "Nvidia shares closed down 2.89% on Wednesday, per StockTitan, giving up their after-hours gain from the night before. Yahoo Finance reports it was the fifth day of losses in a row, and that the strong results did not outweigh worries about Huang's departure.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Change, 18 Nov",
+     "v": "−2.89%"
+    }
+   ],
+   "differs": "The Motley Fool's quote shows −2.9% at $150.96; Yahoo Finance's page showed −2.68% before the final close.",
+   "sources": [
+    {
+     "name": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+     "primary": true
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+    }
+   ],
+   "added": "2026-11-19"
   }
  ],
- "heroTitle": "Nvidia's sales double in its first quarter without Huang",
- "heroDek": "Revenue reached $115.8 billion. Hours earlier Huang said he would be honored to return; the board chair said it does not intend to reinstate him.",
- "heroAsOf": "2026-11-18"
+ "heroTitle": "Nvidia shares slip after its sales double; board says Huang won't return",
+ "heroDek": "Revenue rose 103% in the first quarter without Jensen Huang as CEO, but shares fell 2.89% the next day, their fifth loss in a row. The board chair says Huang will not be reinstated; Huang is expected to appear before House committees before Thanksgiving.",
+ "heroAsOf": "2026-11-19"
 }

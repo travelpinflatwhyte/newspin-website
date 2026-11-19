@@ -10,42 +10,42 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Four days down",
+  "status": "Five days down",
   "tone": "live",
-  "big": "7,340.53",
-  "delta": "▼ 76.06 (1.03%)",
-  "bigLabel": "S&P 500 close on 17 Nov (US time)",
-  "updated": "2026-11-18",
+  "big": "7,323.63",
+  "delta": "▼ 16.90 (0.23%)",
+  "bigLabel": "S&P 500 close on 18 Nov (US time)",
+  "updated": "2026-11-19",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 fell 1.03% to 7,340.53 on 17 November, its fourth loss in a row, led by software and health shares. It had fallen 1.92% the day before as chip stocks sold off.",
+    "what": "The S&P 500 fell 0.23% to 7,323.63 on 18 November, its fifth loss in a row. The Dow fell 1.11% as health insurers slid, while the Nasdaq rose 0.42%.",
     "why": "Wall Street's swings have been driven by Nvidia's leadership crisis, hotter inflation data that raised bets on a Fed rate rise, and oil prices. Big US moves often set the tone for Indian markets the next morning.",
-    "next": "Nvidia beat forecasts after the 17 November close and its shares rose after hours. Anthropic is expected to start trading on 19 November."
+    "next": "Anthropic's shares, reportedly priced at $83, are expected to start trading on 19 November."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 17 Nov",
-      "value": "7,340.53",
-      "note": "−1.03%",
+      "label": "S&P 500, 18 Nov",
+      "value": "7,323.63",
+      "note": "−0.23%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "50,759.42",
-      "note": "−1.64%"
+      "value": "50,198.17",
+      "note": "−1.11%"
     },
     {
       "label": "Nasdaq",
-      "value": "24,328.38",
-      "note": "−0.74%"
+      "value": "24,429.89",
+      "note": "+0.42%"
     },
     {
-      "label": "16 Nov close",
-      "value": "7,416.59",
+      "label": "17 Nov close",
+      "value": "7,340.53",
       "note": "previous day"
     }
   ],
@@ -57,7 +57,7 @@
       "text": "Anthropic expected to start trading on Nasdaq"
     }
   ],
-  "next": "Anthropic's expected market debut on 19 November, and how shares react to Nvidia's results.",
+  "next": "Anthropic's first day of trading on 19 November, and whether the S&P 500's losing run continues.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -376,6 +376,45 @@
         }
       ],
       "added": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "phase": "market",
+      "title": "S&P 500 slips for a fifth day; Dow falls 1.1%, Nasdaq rises",
+      "summary": "The S&P 500 fell 0.23% to 7,323.63, its fifth loss in a row, per Yahoo Finance and StockTitan. The Dow fell 561 points while the Nasdaq rose 0.42%. Health insurers fell after a US government proposal to step up anti-fraud checks on Medicare Advantage plans. Minutes of the Fed's last meeting showed nearly all officials expect further rate rises may be needed, per the Motley Fool. Nvidia fell 2.9% the day after its results. Amazon, an Anthropic investor, rose before Anthropic's share sale. The opening level could not be confirmed from two reports, so this day has no gap figure.",
+      "status": "Market data · Yahoo Finance, Motley Fool",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "7,323.63 (−16.90, −0.23%)"
+        },
+        {
+          "k": "Dow",
+          "v": "50,198.17 (−561.25, −1.11%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "24,429.89 (+101.50, +0.42%)"
+        }
+      ],
+      "differs": "Health insurer falls differ: the Motley Fool reports UnitedHealth −10.2% and Humana −13%; Yahoo Finance reported about 6% each during the day.",
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+          "primary": true
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+        },
+        {
+          "name": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+        }
+      ],
+      "added": "2026-11-19"
     }
   ]
 }

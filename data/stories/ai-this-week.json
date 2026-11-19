@@ -15,11 +15,11 @@
  "big": "5",
  "delta": "AI firms sued",
  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "glance": {
   "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales in its first quarter after its founder was forced out, Anthropic's share sale drew strong reported demand, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
   "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
-  "next": "Anthropic expects to price its IPO on 18 Nov and list on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
+  "next": "Anthropic's shares, reportedly priced at $83, are expected to start trading on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
  },
  "keyNumbers": [
   {
@@ -29,9 +29,9 @@
    "hot": true
   },
   {
-   "label": "Anthropic IPO range",
-   "value": "$70–78",
-   "note": "per share"
+   "label": "Anthropic IPO price (reported)",
+   "value": "$83",
+   "note": "range was $70–78"
   },
   {
    "label": "Free Google Vids clips",
@@ -47,17 +47,12 @@
  "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
  "upcoming": [
   {
-   "date": "2026-11-18",
-   "label": "18 Nov",
-   "text": "Anthropic expected to price its IPO"
-  },
-  {
    "date": "2026-11-19",
    "label": "19 Nov",
    "text": "Anthropic expected to start trading on Nasdaq as ANT"
   }
  ],
- "next": "Anthropic IPO pricing 18 Nov; trading 19 Nov.",
+ "next": "Anthropic's first day of trading, 19 Nov.",
  "links": [
   "ai-model-tracker",
   "openai-2026",
@@ -479,6 +474,37 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026 (US time)",
+   "phase": "market",
+   "title": "Anthropic's IPO reportedly priced at $83, above the range",
+   "summary": "Anthropic priced its shares at $83, above the $70–78 range, according to Reuters, Bloomberg and CNBC, citing people familiar with the matter. That values it at about $1.5 trillion including all shares and options, per TechCrunch. Trading on Nasdaq as ANT is due to start on 19 November. Anthropic had not announced the price itself.",
+   "status": "Reported · Reuters, Bloomberg, CNBC",
+   "numbers": [
+    {
+     "k": "IPO price",
+     "v": "$83"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+     "primary": true
+    },
+    {
+     "name": "Fox Business (citing Reuters)",
+     "url": "https://www.foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+    }
+   ],
+   "link": "anthropic-2026",
+   "added": "2026-11-19"
   }
  ]
 }

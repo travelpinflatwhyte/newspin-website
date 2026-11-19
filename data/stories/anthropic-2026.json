@@ -10,15 +10,15 @@
  "dek": "From Claude 4 to the Mythos-class models, a pause under US export controls, and a Nasdaq listing set for next week.",
  "seoTitle": "Anthropic timeline 2025–2026: Claude models, IPO",
  "importance": 4,
- "status": "IPO pricing expected 18 Nov",
+ "status": "IPO priced (reported) · trading 19 Nov",
  "tone": "hot",
- "big": "$70–78",
- "delta": "IPO price range",
- "bigLabel": "Price range per share for Anthropic's IPO; listing on Nasdaq as 'ANT' expected on 19 Nov",
+ "big": "$83",
+ "delta": "Reported IPO price",
+ "bigLabel": "Reported price per share for Anthropic's IPO, above its $70–78 range; trading on Nasdaq as 'ANT' expected on 19 Nov",
  "glance": {
   "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
   "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-  "next": "Pricing is expected on 18 November (US time), reportedly at or above the top of the range, and trading on 19 November."
+  "next": "Shares were reportedly priced at $83 on 18 November (US time), above the range. Trading on Nasdaq is expected on 19 November."
  },
  "keyNumbers": [
   {
@@ -28,9 +28,9 @@
    "hot": true
   },
   {
-   "label": "IPO price range",
-   "value": "$70–78",
-   "note": "per share"
+   "label": "IPO price (reported)",
+   "value": "$83",
+   "note": "range was $70–78"
   },
   {
    "label": "Shares offered",
@@ -46,17 +46,12 @@
  "forYou": "Anthropic's most capable model, Claude Fable, is public. A version with fewer safety limits, Claude Mythos, is available only to approved organisations working in cybersecurity and life sciences.",
  "upcoming": [
   {
-   "date": "2026-11-18",
-   "label": "18 Nov",
-   "text": "Anthropic expected to price its IPO"
-  },
-  {
    "date": "2026-11-19",
    "label": "19 Nov",
    "text": "Anthropic expected to start trading on Nasdaq as ANT"
   }
  ],
- "next": "IPO pricing expected 18 Nov (US time); trading expected 19 Nov.",
+ "next": "First day of trading on Nasdaq, expected 19 Nov (US time); Anthropic's confirmation of the final share count and amount raised.",
  "links": [
   "ai-model-tracker",
   "openai-2026",
@@ -471,7 +466,47 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026 (US time)",
+   "phase": "market",
+   "key": true,
+   "title": "IPO reportedly priced at $83 a share, above the range",
+   "summary": "Anthropic priced its shares at $83 each, above its $70–78 range, according to Reuters, Bloomberg and CNBC, citing people familiar with the matter. At that price the company is valued at about $1.5 trillion including all shares and options, per TechCrunch and the Motley Fool. A source told Reuters the company also sold more shares than the 825 million first planned, but the new number and the final amount raised have not been disclosed. The shares are due to start trading on Nasdaq under the ticker ANT on Thursday 19 November. Anthropic had not announced the price itself at the time of these reports.",
+   "status": "Reported · Reuters, Bloomberg, CNBC",
+   "numbers": [
+    {
+     "k": "IPO price",
+     "v": "$83 (range was $70–78)"
+    },
+    {
+     "k": "Valuation at $83",
+     "v": "≈ $1.5 tn, fully diluted"
+    }
+   ],
+   "differs": "A Fox Business video caption mentions a possible $1.4 trillion valuation; TechCrunch, Fortune and the Motley Fool give about $1.5 trillion.",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+     "primary": true
+    },
+    {
+     "name": "Fox Business (citing Reuters)",
+     "url": "https://www.foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+    },
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/"
+    }
+   ],
+   "added": "2026-11-19"
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

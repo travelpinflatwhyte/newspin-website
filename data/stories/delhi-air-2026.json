@@ -11,25 +11,25 @@
  "importance": 4,
  "status": "Poor · Stage II",
  "tone": "hot",
- "big": "214",
+ "big": "289",
  "delta": "poor",
- "bigLabel": "Delhi's AQI at 7 am on 18 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
- "updated": "2026-11-18",
+ "bigLabel": "Delhi's AQI at 8:30 am on 19 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
+ "updated": "2026-11-19",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 246 at 7 am on 17 November and 214 at 7 am on 18 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 246 at 7 am on 17 November and 214 at 7 am on 18 November, before rising again to 289 at 8:30 am on 19 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "The air commission cites forecasts of 'poor' to 'very poor' air in the coming days, so curbs could return if the air worsens. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "Forecasters warned that weather on 19–20 November could stop pollution from clearing, so air may turn 'very poor' and curbs could return. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 18 Nov 7 am",
-   "value": "214",
+   "label": "AQI, 19 Nov 8:30 am",
+   "value": "289",
    "note": "poor",
    "hot": true
   },
   {
-   "label": "AQI, 17 Nov 7 am",
-   "value": "246",
+   "label": "AQI, 18 Nov 7 am",
+   "value": "214",
    "note": "poor"
   },
   {
@@ -61,7 +61,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "Forecasts point to 'poor' or 'very poor' air in the coming days. Stage I and II curbs stay.",
+ "next": "Forecasters warned weather over 19–20 November could trap pollution; air may turn 'very poor'. Stage I and II curbs stay.",
  "links": [
   "west-asia-oil"
  ],
@@ -533,6 +533,36 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026",
+   "phase": "air",
+   "title": "Thursday morning: AQI rises to 289, near the 'very poor' line",
+   "summary": "Delhi's average AQI was 289 at 8:30 am on Thursday, up from 212 earlier, per CPCB data reported by IANS. That is still 'poor' (201–300), but several stations were in the 'very poor' band (301–400), including JNU at 367, Sirifort at 363 and ITO at 356. Wednesday's daily average was 232. On Wednesday the air quality early warning system said weather over the next two days could stop pollution from clearing.",
+   "status": "Official data · CPCB",
+   "numbers": [
+    {
+     "k": "AQI, 8:30 am",
+     "v": "289"
+    },
+    {
+     "k": "Wednesday average",
+     "v": "232"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Assam Tribune (IANS, CPCB data)",
+     "url": "https://assamtribune.com/national/delhi-sees-poor-air-quality-with-aqi-at-289-1623002",
+     "primary": true
+    },
+    {
+     "name": "TenNews (IANS, CPCB data)",
+     "url": "https://tennews.in/delhis-air-quality-drops-to-poor-category-with-aqi-at-289/"
+    }
+   ],
+   "added": "2026-11-19"
   }
  ]
 }

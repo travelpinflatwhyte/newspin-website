@@ -314,6 +314,15 @@ def follow_btn(slug, cls="btn btn-follow", on="Following", off="Follow", short="
 
 # ---------- ranking (mirrors rank() in static/app.js) ----------
 QUIET_DAYS = 60
+NEW_DAYS = 3  # a story is tagged "New" for this many days after it was first added
+
+
+def is_new_story(s, today):
+    first = min(ev.get("added", ev["date"]) for ev in s["events"])
+    return 0 <= (today - d(first)).days < NEW_DAYS
+
+
+NEW_TAG = '<span class="new-tag">New</span>'
 
 
 def story_facts(s, today):
@@ -557,7 +566,7 @@ def build_home(site, stories, order, axis):
         target.append(f"""
 <article class="card {cat_class(s['category'])}{feat}{hot}" data-slug="{e(slug)}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}" data-latest="{e(f['latest'])}" data-next="{e(f['next'])}" data-imp="{f['imp']}" data-added="{e(' '.join(f['added']))}">
   <div class="card-band">
-    <div class="row"><span class="cat">{e(s['category'])}</span>{status_pill}</div>
+    <div class="row"><span class="cat">{e(s['category'])}{NEW_TAG if is_new_story(s, today) else ''}</span>{status_pill}</div>
     <div class="big-row"><span class="big{long_}">{e(s['big'])}</span><span class="delta">{e(s['delta'])}</span></div>
     <span class="big-label">{e(s['bigLabel'])}</span>
   </div>
@@ -581,7 +590,7 @@ def build_home(site, stories, order, axis):
     bubble_slugs = ([hero_slug] + grid_live)[:8]
     bubbles = "".join(
         f'<li><button type="button" class="bubble" data-sm-open="{e(x)}" aria-label="Catch up on {e(stories[x]["short"])}">'
-        f'<span class="ring">{bubble_face(stories[x])}</span>'
+        f'<span class="ring">{bubble_face(stories[x])}{'<span class="nb">New</span>' if is_new_story(stories[x], today) else ''}</span>'
         f'<span class="bl">{e(stories[x]["short"])}</span></button></li>' for x in bubble_slugs)
 
     # lead story
@@ -607,7 +616,7 @@ def build_home(site, stories, order, axis):
     hero_html = f"""
   <section class="lead {cat_class(h['category'])}" aria-labelledby="lead-h">
     <div class="lead-main">
-      <div class="lead-tags"><span class="live-tag">Top story · updated {e(short_date(d(h['updated']), today))}</span><span class="lead-cat">{e(h['category'])} · {e(regions)}</span></div>
+      <div class="lead-tags"><span class="live-tag">Top story · updated {e(short_date(d(h['updated']), today))}</span><span class="lead-cat">{e(h['category'])} · {e(regions)}</span>{NEW_TAG if is_new_story(h, today) else ''}</div>
       <h2 id="lead-h" style="view-transition-name:t-{e(hero_slug)}"><a href="/stories/{e(hero_slug)}/">{e(hero_title)}</a></h2>
       <p>{e(hero_dek)}</p>
       <div class="lead-actions">
@@ -697,7 +706,7 @@ def build_home(site, stories, order, axis):
             le = latest_event(s)
             fresh = (today - d(le["date"])).days <= 1
             rows.append(f'<li><a href="/stories/{e(slug)}/" data-ix="{e(slug)}"><span class="ix-dot{" fresh" if fresh else ""}" aria-hidden="true"></span>'
-                        f'<span class="ix-main"><span class="ix-name">{e(s["short"])}{"<span class=sr-only> (updated in the last day)</span>" if fresh else ""}</span>'
+                        f'<span class="ix-main"><span class="ix-name">{e(s["short"])}{NEW_TAG if is_new_story(s, today) else ""}{"<span class=sr-only> (updated in the last day)</span>" if fresh else ""}</span>'
                         f'<span class="ix-t">{e(le["title"])}</span></span><span class="ix-d">{e(short_date(d(le["date"]), today))}</span></a></li>')
         ix_html.append(f'<details class="ix-group" open><summary><span>{e(g)}</span> <span class="n">· {len(groups[g])}</span></summary><ul class="ix">{"".join(rows)}</ul></details>')
     quiet_links = ", ".join(f'<a href="/stories/{e(x)}/">{e(stories[x]["short"])}</a>' for x in quiet)
@@ -971,7 +980,7 @@ def build_story(site, stories, s, axis):
 <div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Timelines</a> / {e(s['category'])}</nav>
   <section class="story-hero" aria-labelledby="t">
-    <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span><span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
+    <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span>{NEW_TAG if is_new_story(s, axis.today) else ''}<span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
     <h1 id="t" style="view-transition-name:t-{e(slug)}">{e(s['title'])}</h1>
     <p class="dek">{e(s['dek'])}</p>
     <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light listen-btn" data-listen-story="{e(slug)}" hidden>{ICON_PLAY}Listen</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>

@@ -501,6 +501,28 @@
       "added": "2026-11-19"
     },
     {
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "phase": "ai",
+      "title": "Google releases Gemini 4 Neon",
+      "summary": "Google's new mid-priced model costs $3 per million input tokens in its API, less than OpenAI's GPT-6.2 Astra at $8, per PYMNTS. Google says it ranks third on the Artificial Analysis Intelligence Index; that is Google's own figure. It is in the Gemini app for paying AI Pro and Ultra subscribers.",
+      "status": "Confirmed · Google",
+      "sources": [
+        {
+          "name": "PYMNTS",
+          "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs",
+          "primary": true
+        },
+        {
+          "name": "Digital Trends",
+          "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less",
+          "primary": false
+        }
+      ],
+      "link": "google-gemini-2026",
+      "added": "2026-11-20"
+    },
+    {
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026 (US time)",
       "phase": "market",

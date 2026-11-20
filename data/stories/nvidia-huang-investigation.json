@@ -15,11 +15,11 @@
  "big": "$115.8 bn",
  "delta": "▲ 103% year on year",
  "bigLabel": "Nvidia's revenue for August–October 2026, its first quarter reported without Huang as CEO",
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang has agreed to appear voluntarily before House committees, and the board is searching for a permanent CEO."
+  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios. A new board committee will oversee national security and export controls, and the board is searching for a permanent CEO."
  },
  "keyNumbers": [
   {
@@ -45,8 +45,19 @@
   }
  ],
  "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
- "upcoming": [],
- "next": "Huang's closed-door appearance before House committees, expected before Thanksgiving (26 Nov); the board's search for a permanent CEO; investigations by the board, FBI and Congress.",
+ "upcoming": [
+  {
+   "date": "2026-12-01",
+   "label": "1 Dec",
+   "text": "Huang's closed-door interview with three House committees (per Axios)"
+  },
+  {
+   "date": "2026-12-02",
+   "label": "2 Dec",
+   "text": "Nvidia general counsel Tim Teter's interview"
+  }
+ ],
+ "next": "Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, Congress and the Justice and Commerce departments.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -576,6 +587,26 @@
    "added": "2026-11-17"
   },
   {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026 (US time)",
+   "phase": "law",
+   "title": "Justice and Commerce departments confirm a joint probe of Megaspeed",
+   "summary": "The US Justice Department and Commerce Department said in a joint statement that they are investigating Megaspeed, the Singapore cloud-computing company at the centre of the Huang reports, and would pursue it to the \"fullest extent of the law\" for \"any criminal conduct that may have occurred\", per ABC News. ABC reports Commerce's inquiry began in 2024 and that Nvidia put Megaspeed on its 'no sell' list in June 2025. Megaspeed has not been charged with any crime.",
+   "status": "Confirmed · DOJ and Commerce, via ABC News",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932",
+     "primary": true
+    },
+    {
+     "name": "ABC7 New York",
+     "url": "https://abc7ny.com/story/nvidia-forms-national-security-committee-feds-probe-company-center-scandal/20048239/"
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
    "date": "2026-11-17",
    "dateLabel": "17 Nov 2026 (US time)",
    "phase": "policy",
@@ -644,6 +675,35 @@
    "added": "2026-11-18"
   },
   {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "Board sets up a national security and export control committee; Huang to be questioned on 1 December",
+   "summary": "Nvidia's board created a standing National Security and Export Control Oversight Committee to oversee the company's national security policies, export control compliance and global trade risks. It is chaired by director Suzanne Nora Johnson, with directors Stephen C. Neal and John O. Dabiri, and will meet at least quarterly. Separately, Axios reports Huang will sit for a closed-door, transcribed interview with the House Foreign Affairs, Intelligence and China select committees on 1 December, and Nvidia general counsel Tim Teter on 2 December. This is not a public hearing.",
+   "status": "Confirmed · Nvidia (committee); Reported · Axios (dates)",
+   "differs": "Earlier reports said Huang's appearance was expected before Thanksgiving (26 November); Axios and ABC News give 1 December. Axios says its report may be updated.",
+   "sources": [
+    {
+     "name": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/nvidia-board-national-security-export-control-committee"
+    },
+    {
+     "name": "Axios",
+     "url": "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932"
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
    "date": "2026-11-18",
    "dateLabel": "18 Nov 2026 (US close)",
    "phase": "market",
@@ -672,6 +732,6 @@
   }
  ],
  "heroTitle": "Nvidia shares slip after its sales double; board says Huang won't return",
- "heroDek": "Revenue rose 103% in the first quarter without Jensen Huang as CEO, but shares fell 2.89% the next day, their fifth loss in a row. The board chair says Huang will not be reinstated; Huang is expected to appear before House committees before Thanksgiving.",
- "heroAsOf": "2026-11-19"
+ "heroDek": "Revenue rose 103% in the first quarter without Jensen Huang as CEO, but shares fell 2.89% the next day. The board chair says Huang will not be reinstated, and a new board committee will oversee national security. Huang is due before three House committees on 1 December.",
+ "heroAsOf": "2026-11-20"
 }

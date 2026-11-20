@@ -10,15 +10,15 @@
  "dek": "Google went from Gemini 3 to three Gemini 4 models in under a year, while pushing AI into Search, Android and free video tools.",
  "seoTitle": "Google Gemini timeline 2025–2026: Gemini 3 to 4",
  "importance": 4,
- "status": "Gemini 4 rolling out",
+ "status": "Gemini 4 Neon released",
  "tone": "live",
  "big": "Gemini 4",
- "delta": "Argon, Carbon, Hydrogen",
+ "delta": "Argon, Carbon, Hydrogen, Neon",
  "bigLabel": "Google's newest model family, announced from 30 Sep 2026",
  "glance": {
-  "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September), Carbon (28 October) and the faster, cheaper Hydrogen (12 November).",
+  "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September), Carbon (28 October), the faster, cheaper Hydrogen (12 November) and the mid-priced Neon (18 November).",
   "why": "Gemini sits inside Search, Android, Gmail and YouTube, so Google's models reach more people by default than any rival's.",
-  "next": "Wider Gemini 4 Carbon availability, and Hydrogen rolling out globally in Search and the Gemini app."
+  "next": "Wider rollout of Gemini 4 Neon in the API and Google products."
  },
  "keyNumbers": [
   {
@@ -33,14 +33,14 @@
    "note": ""
   },
   {
+   "label": "Mid-priced model",
+   "value": "4 Neon",
+   "note": "18 Nov 2026, $3 per m input tokens"
+  },
+  {
    "label": "Everyday model",
    "value": "4 Hydrogen",
    "note": "12 Nov 2026, replaces 3.8 Flash"
-  },
-  {
-   "label": "Free Vids clips",
-   "value": "3 a month",
-   "note": "15 sec each"
   }
  ],
  "forYou": "Many Gemini features arrive free on Android phones and in Google apps. The most capable models usually go first to paid Google AI Ultra subscribers and developers.",
@@ -298,7 +298,38 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026 (US time)",
+   "phase": "ai",
+   "key": true,
+   "title": "Gemini 4 Neon, a mid-priced model between Carbon and Hydrogen",
+   "summary": "Google releases Gemini 4 Neon. It sits between Gemini 4 Carbon, which Google keeps for the hardest long tasks, and the faster Gemini 4 Hydrogen, per Digital Trends. It replaces Argon in the Gemini app's model picker for Google AI Pro and Ultra subscribers, and is rolling out in the paid Gemini API at $3 per million input tokens and $15 per million output tokens, with a one-million-token context window. Google says Neon scores 61 on the Artificial Analysis Intelligence Index, third overall, and costs 32% less per task than Carbon at similar quality; these are Google's own figures.",
+   "status": "Confirmed · Google, via Digital Trends and PYMNTS",
+   "numbers": [
+    {
+     "k": "API price (in / out)",
+     "v": "$3 / $15 per m tokens"
+    },
+    {
+     "k": "Intelligence Index (Google's figure)",
+     "v": "61"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Digital Trends",
+     "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less",
+     "primary": true
+    },
+    {
+     "name": "PYMNTS",
+     "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-20"
 }

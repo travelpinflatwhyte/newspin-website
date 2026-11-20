@@ -12,10 +12,10 @@
  "importance": 4,
  "status": "Updated with each release",
  "tone": "live",
- "big": "41",
+ "big": "42",
  "delta": "releases tracked",
  "bigLabel": "Major model launches from the leading AI companies since January 2025",
- "updated": "2026-11-18",
+ "updated": "2026-11-20",
  "glance": {
   "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
   "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
@@ -35,7 +35,7 @@
   },
   {
    "label": "Google latest",
-   "value": "Gemini 4 Hydrogen",
+   "value": "Gemini 4 Neon",
    "note": "Nov 2026"
   },
   {
@@ -940,6 +940,33 @@
    ],
    "added": "2026-11-18",
    "link": "openai-2026"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "ai",
+   "title": "Google: Gemini 4 Neon",
+   "summary": "A mid-priced Gemini 4 model between Carbon and Hydrogen, in the Gemini app for AI Pro and Ultra subscribers and in the paid API at $3/$15 per million input/output tokens. Google says it is close to Carbon's quality at lower cost; these are Google's own tests.",
+   "status": "Released",
+   "numbers": [
+    {
+     "k": "API price (in / out)",
+     "v": "$3 / $15 per m tokens"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Digital Trends",
+     "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less",
+     "primary": true
+    },
+    {
+     "name": "PYMNTS",
+     "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs"
+    }
+   ],
+   "link": "google-gemini-2026",
+   "added": "2026-11-20"
   }
  ],
  "order": "desc"

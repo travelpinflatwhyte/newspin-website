@@ -11,25 +11,25 @@
  "importance": 4,
  "status": "Poor · Stage II",
  "tone": "hot",
- "big": "289",
+ "big": "269",
  "delta": "poor",
- "bigLabel": "Delhi's AQI at 8:30 am on 19 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
- "updated": "2026-11-19",
+ "bigLabel": "Delhi's AQI at 8 am on 20 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
+ "updated": "2026-11-20",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 246 at 7 am on 17 November and 214 at 7 am on 18 November, before rising again to 289 at 8:30 am on 19 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 214 at 7 am on 18 November, 289 at 8:30 am on 19 November and 269 at 8 am on 20 November, the season's coldest morning so far. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-  "next": "Forecasters warned that weather on 19–20 November could stop pollution from clearing, so air may turn 'very poor' and curbs could return. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+  "next": "Air has stayed 'poor', with some stations 'very poor', as nights get colder. Stage I and II curbs stay. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 19 Nov 8:30 am",
-   "value": "289",
+   "label": "AQI, 20 Nov 8 am",
+   "value": "269",
    "note": "poor",
    "hot": true
   },
   {
-   "label": "AQI, 18 Nov 7 am",
-   "value": "214",
+   "label": "AQI, 19 Nov 8:30 am",
+   "value": "289",
    "note": "poor"
   },
   {
@@ -61,7 +61,7 @@
    "text": "Entry curbs on non-BS-VI outside vehicles end"
   }
  ],
- "next": "Forecasters warned weather over 19–20 November could trap pollution; air may turn 'very poor'. Stage I and II curbs stay.",
+ "next": "Stage I and II curbs stay; colder, calmer nights can trap pollution and push air back to 'very poor'.",
  "links": [
   "west-asia-oil"
  ],
@@ -563,6 +563,41 @@
     }
    ],
    "added": "2026-11-19"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "air",
+   "title": "Friday morning: AQI eases to 269 on the season's coldest morning",
+   "summary": "Delhi's average AQI was 269 at 8 am on Friday, per CPCB real-time data reported by Business Standard, down from 289 on Thursday morning. That is 'poor' (201–300). Fourteen of 57 stations were 'very poor' (above 300), led by Sirifort at 348 and JNU at 336; none was 'severe'. Gurugram, at 291, was the most polluted nearby city. The minimum temperature at Safdarjung was 10.5°C, the coldest morning of the season so far, per IMD figures reported by The Week. Stage I and II curbs remain in force.",
+   "status": "Official data · CPCB, IMD",
+   "differs": "The Week gives Delhi's AQI as 267 without a time; Business Standard gives 269 at 8 am.",
+   "numbers": [
+    {
+     "k": "AQI, 8 am",
+     "v": "269"
+    },
+    {
+     "k": "Stations 'very poor'",
+     "v": "14"
+    },
+    {
+     "k": "Minimum temperature",
+     "v": "10.5°C"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (CPCB data)",
+     "url": "https://www.business-standard.com/india-news/delhi-s-aqi-improves-to-269-gurugram-s-air-remains-most-polluted-in-ncr-126112000144_1.html",
+     "primary": true
+    },
+    {
+     "name": "The Week (CPCB, IMD data)",
+     "url": "https://www.theweek.in/news/india/2026/11/20/delhi-weather-update-capital-records-seasons-coldest-morning-amid-fog-poor-aqi.html"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

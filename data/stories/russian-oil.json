@@ -16,7 +16,7 @@
  "big": "2.1 vs 1.8",
  "delta": "mbpd, Gulf vs Russia",
  "bigLabel": "India's crude imports so far in November: Persian Gulf vs Russia, per Kpler",
- "updated": "2026-11-13",
+ "updated": "2026-11-20",
  "glance": {
   "what": "Russian crude filled the gap when Hormuz was disrupted. In October the US waived its threatened tariffs on big buyers of Russian oil, and in November India's imports from the Gulf overtook Russia's for the first time since the Iran war began.",
   "why": "Cheap Russian oil cushions India's import bill; being punished for it would raise costs and strain relations with the US.",
@@ -190,6 +190,37 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16 Nov 2026",
+   "phase": "trade",
+   "title": "Russian oil set for a smaller share in November as discounts return",
+   "summary": "Kpler estimates that India is importing about 1.7 million barrels a day of Russian crude in November, down from about 2.07 million in October, ThePrint reports. Brazilian and Venezuelan supplies are rising. Russian Urals crude has moved from costing more than the global Brent benchmark in early October to selling at a discount in November, per Kpler data cited by ThePrint and Argus figures cited by The Moscow Times.",
+   "status": "Market data · Kpler",
+   "differs": "ThePrint puts Russian deliveries at about 1.7 million barrels a day and the discount at about $3–4 a barrel; The Moscow Times cites about 1.8 million barrels a day and a December-delivery discount of $2.25. They use different snapshots and price bases.",
+   "numbers": [
+    {
+     "k": "Russian crude, Nov (est.)",
+     "v": "≈ 1.7 mbpd"
+    },
+    {
+     "k": "Russian crude, Oct",
+     "v": "≈ 2.07 mbpd"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint",
+     "url": "https://theprint.in/economy/why-indias-go-to-russian-oil-imports-are-set-to-fall-brazilian-supplies-may-quadruple-in-november/3100142/",
+     "primary": true
+    },
+    {
+     "name": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/11/13/russian-oil-discounts-hit-3-year-high-as-middle-east-supplies-recover-a94256"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

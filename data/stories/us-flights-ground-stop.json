@@ -11,16 +11,16 @@
  "dek": "Why every departure in the United States stopped for about four hours on Friday, what officials say caused it, and what it means if you are flying this weekend.",
  "seoTitle": "US FAA nationwide ground stop: timeline in IST",
  "importance": 4,
- "status": "Near normal · cause under investigation",
- "tone": "hot",
+ "status": "Flights normal · cause under investigation",
+ "tone": "live",
  "big": "10,000+",
  "delta": "flights disrupted",
  "bigLabel": "Flights delayed or cancelled during Friday's nationwide ground stop, per CNBC. Counts differ between flight trackers and keep changing.",
- "updated": "2026-11-17",
+ "updated": "2026-11-20",
  "glance": {
   "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
   "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
-  "next": "Cancellations fell to a few hundred on Monday morning, US time, per FlightAware. Officials say there was no cyber attack, but the root cause is not yet known; the FAA has switched off the faulty routers and about 60 similar ones. Duffy wants Congress to approve $50 billion to replace old equipment, and Congress plans to review what went wrong."
+  "next": "Flights are back to normal. The root cause is still not known: the FAA has paused installing the router model involved, the FBI has been asked to help, and officials and the router's maker disagree over whether the equipment or its set-up was at fault. Duffy wants Congress to approve $50 billion to replace old equipment."
  },
  "keyNumbers": [
   {
@@ -486,6 +486,45 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18–19 Nov (US time)",
+   "phase": "travel",
+   "title": "FAA pauses router installs; cause still unknown and oversight disputed",
+   "summary": "The FAA has suspended installation of the router model linked to the failure, Engadget reports, and FAA Administrator Bryan Bedford said the agency still does not know what triggered it. Transportation Secretary Sean Duffy said the same upgrade had 'worked well' 68 times before, blamed the contractor L3Harris for being slow to isolate the problem, and asked the FBI to help examine the router in Arkansas, per AP and Engadget. Bedford said: 'I take full responsibility for it.' The router's maker, HPE, says the routers were 'working exactly as designed', per ABC News. Investigators are checking whether the router was set up wrongly or was faulty, AP reports. Bedford said the contractor's engineer was monitored by an FAA technician; the air traffic technicians' union PASS and two sources dispute that, per Scripps News, and an FAA spokeswoman later said the escort 'is not there while the technician is doing work'. L3Harris declined further comment.",
+   "status": "Stated · FAA, Transportation Department",
+   "differs": "Officials point to how the router was installed or monitored; HPE says the equipment worked as designed or as configured. Scripps News reports the FAA's account of oversight is disputed.",
+   "numbers": [
+    {
+     "k": "Earlier upgrades without trouble",
+     "v": "68"
+    }
+   ],
+   "sources": [
+    {
+     "name": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown",
+     "primary": true
+    },
+    {
+     "name": "Engadget",
+     "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Politics/mullin-faces-congressional-hearing-wake-historic-nationwide-ground/story?id=138226960"
+    },
+    {
+     "name": "KJCT (AP)",
+     "url": "https://www.kjct8.com/2026/11/19/duffy-ground-stop-could-have-been-shorter-if-contractor-spotted-issue-sooner/"
+    },
+    {
+     "name": "Scripps News",
+     "url": "https://www.scrippsnews.com/us-news/sources-dispute-faas-account-of-oversight-before-nationwide-ground-stop"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

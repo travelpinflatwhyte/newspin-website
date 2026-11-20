@@ -14,7 +14,7 @@
  "big": "42.1%",
  "delta": "of deficit target used",
  "bigLabel": "Share of the 2026-27 fiscal deficit target used by September, vs 36.5% a year earlier",
- "updated": "2026-11-13",
+ "updated": "2026-11-20",
  "glance": {
   "what": "The last Budget, on 1 February 2026, aimed for a fiscal deficit of 4.3% of GDP and brought in a new Income Tax Act from April. Since then a ₹10-a-litre fuel tax cut and higher spending have pushed the deficit up faster than last year, and work on Budget 2027-28 began in August.",
   "why": "The Budget sets income tax, fuel duties, government spending and borrowing for the year. This one has to balance a bigger deficit, oil-price shocks and the coming 8th Pay Commission bill.",
@@ -345,6 +345,36 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-16",
+   "dateLabel": "16–20 Nov 2026",
+   "phase": "policy",
+   "title": "Finance Minister begins pre-Budget meetings with industry and experts",
+   "summary": "Finance Minister Nirmala Sitharaman began pre-Budget consultations for 2027-28, meeting economists first and then groups including small businesses and startups (17 Nov), capital markets and financial firms (18 Nov), IT and infrastructure and energy experts (19 Nov), and labour and employment groups (20 Nov), per UNI and The Tribune. The ministry has not said what was suggested. The Tribune says the Budget is expected on 1 February 2027; the date has not been officially announced.",
+   "status": "Confirmed · Finance Ministry",
+   "numbers": [
+    {
+     "k": "Rounds held by 20 Nov",
+     "v": "8"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/economic-affairs/fm-sitharaman-holds-eighth-pre-budget-consultation-with-labour-employment-sector-stakeholders",
+     "primary": true
+    },
+    {
+     "name": "The Tribune (7th round)",
+     "url": "https://www.tribuneindia.com/news/department-of-economic-affairs/sitharaman-chairs-seventh-pre-budget-consultation-with-infrastructure-energy-and-sustainability-experts"
+    },
+    {
+     "name": "UNI",
+     "url": "https://www.uniindia.com/national/pre-budget-consultation-with-msmes-startup-representatives-ahead-of-budget-2027-28/248154"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

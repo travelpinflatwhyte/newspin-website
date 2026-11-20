@@ -11,20 +11,20 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "93.63",
- "delta": "▲ ≈ 3.4% off the low",
- "bigLabel": "Rupees per US dollar in early trade on 17 Nov, from a record low near 96.90",
- "updated": "2026-11-17",
+ "big": "92.67",
+ "delta": "▲ ≈ 4.4% off the low",
+ "bigLabel": "Rupees per US dollar at the close on 20 Nov (provisional, PTI), from a record low near 96.90",
+ "updated": "2026-11-20",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened again: it closed at 93.94 on 16 November and touched 93.63 in early trade on 17 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened for several days in a row. On 20 November it crossed 93 for the first time since April and closed at 92.67 (provisional), a seven-month high.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 17 Nov",
-   "value": "93.63",
-   "note": "early trade",
+   "label": "Rupee per $, 20 Nov",
+   "value": "92.67",
+   "note": "close, provisional",
    "hot": true
   },
   {
@@ -338,6 +338,49 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "market",
+   "title": "Rupee crosses 93 and closes at a seven-month high of 92.67",
+   "summary": "The rupee closed at 92.67 per dollar on Friday (provisional), 65 paise stronger than Thursday and its strongest level in seven months, PTI reports. During the day it crossed 93 for the first time since 20 April, per Business Today. Dealers credit foreign investors buying Indian shares, lower oil prices (Brent fell 1.82% to $90.31 during the day, per PTI) and a rally in Indian stocks. Business Today says foreign investors have put about $12 billion into Indian shares this month, and also points to exporters selling dollars and possible RBI action. On the two days before, PTI reported closes of 93.44 (provisional) on Wednesday and 93.32 on Thursday.",
+   "status": "Market data · PTI",
+   "differs": "NewsBytes gives 92.68 for Friday. PTI's own report gives the gain as both 65 and 67 paise. For Thursday, PTI gives a close of 93.32; Kotak Neo gives 93.29 in one place and 93.32 in another. For the 17 Nov close, Business Today gives 93.47.",
+   "numbers": [
+    {
+     "k": "Close, 20 Nov (provisional)",
+     "v": "92.67"
+    },
+    {
+     "k": "Close, 19 Nov",
+     "v": "93.32"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-settles-above-93-level-after-7-months-on-fii-flows-weak-crude-gains-65-paise-to-92-67-usd",
+     "primary": true
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/rupee-breaches-93-mark-hits-7-month-high-as-fpis-pump-12-billion-into-indian-stocks-568697-2026-11-20"
+    },
+    {
+     "name": "NewsBytes",
+     "url": "https://www.newsbytesapp.com/news/business/indian-rupee-hits-7-month-high-at-9268-per-dollar/tldr"
+    },
+    {
+     "name": "HDFC Sky (PTI), 18 Nov",
+     "url": "https://hdfcsky.com/news/rupee-rises-7-paise-to-close-at-93-44-against-us-dollar"
+    },
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/global-markets/rupee-strengthens-against-us-dollar-for-fifth-straight-session-on-record-fpi-buying/"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

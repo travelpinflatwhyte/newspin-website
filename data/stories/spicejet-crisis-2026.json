@@ -9,16 +9,16 @@
  "dek": "How one of India's oldest budget airlines came to cancel one in five flights, what it owes, and how it plans to raise up to ₹5,500 crore.",
  "seoTitle": "SpiceJet crisis 2026: cancellations, dues, fundraising",
  "importance": 3,
- "status": "Board approves ₹5,500 crore fundraise",
+ "status": "DGCA show-cause notice",
  "tone": "hot",
  "big": "20.29%",
  "delta": "flights cancelled",
  "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
- "updated": "2026-11-18",
+ "updated": "2026-11-20",
  "glance": {
   "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
-  "next": "On 18 November SpiceJet's board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
+  "next": "SpiceJet has seven days to reply to the DGCA's show-cause notice, reported on 20 November. On 18 November its board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
  "keyNumbers": [
   {
@@ -406,6 +406,60 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026",
+   "phase": "travel",
+   "title": "About three in four SpiceJet flights at the top three airports don't operate",
+   "summary": "Of 42 SpiceJet flights scheduled on Thursday at Delhi, Mumbai and Bengaluru, 31 were cancelled or did not operate, about 74%, according to Business Standard's analysis of airport data. Delhi airport posted that 'due to operational challenges being faced by SpiceJet airline, some flights may be impacted'. Business Standard says SpiceJet carried about 73,000 domestic passengers in September, down from about 592,000 in January. SpiceJet and the DGCA did not respond to the paper.",
+   "status": "Reported · Business Standard",
+   "numbers": [
+    {
+     "k": "Flights not operated, 19 Nov",
+     "v": "31 of 42"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/industry/aviation/74-spicejet-flights-cancelled-at-top-3-airports-amid-cash-crunch-126111901045_1.html",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "travel",
+   "key": true,
+   "title": "DGCA issues a show-cause notice; shares hit the lower limit",
+   "summary": "India's aviation regulator, the DGCA, has asked SpiceJet to explain why action should not be taken against it, PTI reports, citing a notice dated 17 November. A show-cause notice is a formal warning that gives a company a chance to respond before any penalty. According to the reports, the notice says SpiceJet 'has failed to submit a credible plan for return to service of the grounded aircraft' and that most of its fleet is grounded. It also cites cancellations, poor on-time performance, not flying its approved schedule, uncertainty over renewing mandatory insurance, and concerns raised by overseas regulators about unpaid service providers. SpiceJet has seven days to reply. Its shares fell 5%, the most allowed in a day, to ₹9.74 on the BSE, per Upstox. SpiceJet had not commented, and the BSE asked it for clarification.",
+   "status": "Reported · PTI",
+   "differs": "Reports based on PTI put SpiceJet's domestic market share at 0.6% in September against 1.2% in August; an earlier Business Standard report compares the September figure with 3.9% in January.",
+   "numbers": [
+    {
+     "k": "Days to reply",
+     "v": "7"
+    },
+    {
+     "k": "Share price, 20 Nov",
+     "v": "₹9.74 (−5%)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (PTI)",
+     "url": "https://www.business-standard.com/amp/industry/aviation/dgca-issues-show-cause-notice-to-spicejet-over-flight-cancellations-delays-126112000561_1.html",
+     "primary": true
+    },
+    {
+     "name": "Upstox",
+     "url": "https://upstox.com/news/market-news/stocks/spice-jet-shares-hit-5-lower-circuit-as-dgca-issues-show-cause-notice-on-flight-cancellations-violations/article-203781/"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

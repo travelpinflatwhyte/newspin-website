@@ -12,20 +12,20 @@
  "importance": 4,
  "status": "Talks, no deal",
  "tone": "live",
- "big": "$91.66",
+ "big": "$91.95",
  "delta": "Down about 22% from a late-October peak near $118",
- "bigLabel": "Brent, 0430 GMT on 17 Nov (Reuters)",
- "updated": "2026-11-17",
+ "bigLabel": "Brent settlement price on 18 Nov (Reuters)",
+ "updated": "2026-11-20",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Oil fell below $92 on 17 November as Gulf exports recover, and the IEA and Goldman Sachs expect a supply surplus. But attacks keep prices jumpy: Iran fired drones at a US base in Bahrain on 13 and 15 November, and Hormuz traffic is about half its pre-war level. OPEC+ meets on 29 November."
+  "next": "Brent settled at $91.95 on 18 November as US stockpiles rose and traders expect a supply surplus. But attacks continue: two tankers were hit near Khasab at the mouth of Hormuz, Iran struck at a base in Kuwait hosting US forces, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
  },
  "keyNumbers": [
   {
-   "label": "Brent, 17 Nov",
-   "value": "$91.66",
-   "note": "per barrel, early trade",
+   "label": "Brent, 18 Nov",
+   "value": "$91.95",
+   "note": "per barrel, settlement",
    "hot": true
   },
   {
@@ -472,6 +472,65 @@
     }
    ],
    "added": "2026-11-17"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "17–19 Nov 2026",
+   "phase": "conflict",
+   "title": "Tankers hit near Hormuz; Iran strikes at a Kuwait base; Riyadh tower damaged",
+   "summary": "An ADNOC product tanker was hit by an 'unknown projectile' north of Khasab, Oman, at the mouth of the Strait of Hormuz, leaving one seafarer missing and 11 injured, ADNOC's shipping arm confirmed, per Seatrade Maritime. A second tanker was hit in its engine room near Khasab on 18 November; its crew are safe, per Gulf News and Arab News. Nobody has claimed either attack. On 17 November a US fighter struck what a US official called an Iranian missile launch site on Qeshm Island in 'self-defense', after Iranian drones targeted US forces in Bahrain, per TIME. On 18 November Iran attacked Ali Al-Salem Air Base in Kuwait, which hosts US forces, and targets in Bahrain; both countries said they repelled the attacks, per The Hill and TIME. Iranian military units separately claimed that tankers hit mines east of Hormuz; this has not been independently confirmed. On 19 November a Houthi attack damaged the Public Investment Fund tower in Riyadh, with no injuries reported, per Al Jazeera and The National. Despite this, Brent settled at $91.95 on 18 November, down 1.28%, as US stockpiles rose, Reuters reports.",
+   "status": "Reported · Seatrade, Gulf News, TIME, Al Jazeera",
+   "differs": "Seatrade dates the ADNOC tanker strike to the evening of 17 November; Arab News puts it on 18 November. Iran's army says three tankers hit mines; the Revolutionary Guards' navy says two. In Riyadh, the Saudi-led coalition says the damage came from debris of intercepted missiles; the Houthis claim a direct hit.",
+   "numbers": [
+    {
+     "k": "Brent settle, 18 Nov",
+     "v": "$91.95"
+    },
+    {
+     "k": "ADNOC tanker crew",
+     "v": "1 missing, 11 injured"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Seatrade Maritime",
+     "url": "https://www.seatrade-maritime.com/security/one-missing-11-injured-in-attack-on-adnoc-tanker-in-hormuz",
+     "primary": true
+    },
+    {
+     "name": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
+    },
+    {
+     "name": "Arab News",
+     "url": "https://www.arabnews.com/middle-east/tanker-struck-by-projectile-near-omans-khasab-as-attacks-in-hormuz-continue-3012815"
+    },
+    {
+     "name": "TIME",
+     "url": "https://time.com/article/2026/11/18/qeshm-island-strikes-us-iran-end-forever-war-vance/"
+    },
+    {
+     "name": "The Hill via Yahoo",
+     "url": "https://www.yahoo.com/news/us/articles/iran-attacks-us-air-kuwait-162429310.html"
+    },
+    {
+     "name": "Iran International",
+     "url": "https://www.iranintl.com/en/202611195706"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south"
+    },
+    {
+     "name": "The National",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
+    },
+    {
+     "name": "MyJoyOnline (Reuters)",
+     "url": "https://www.myjoyonline.com/oil-prices-settle-lower-as-traders-weigh-surplus-supply-outlook/"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

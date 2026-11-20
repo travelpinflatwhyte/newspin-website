@@ -18,7 +18,7 @@
  "glance": {
   "what": "Llama 4 launched in April 2025 amid a benchmark controversy. Meta then invested about $14 bn in Scale AI, set up Meta Superintelligence Labs under Alexandr Wang, and from April 2026 released the closed Muse Spark, open Muse Glimmer and, in October, Muse Wonder, which Mark Zuckerberg called Meta's first frontier model.",
   "why": "Meta AI is built into WhatsApp, Instagram and Facebook, used by billions, and Meta's shift away from fully open models changes what developers can freely use.",
-  "next": "How Muse Wonder performs, and whether Meta keeps releasing open-weight models."
+  "next": "How Muse Wonder performs, how Meta answers reported privacy slips by its Muse agent, and whether it keeps releasing open-weight models."
  },
  "keyNumbers": [
   {
@@ -253,7 +253,33 @@
    ],
    "added": "2026-11-13",
    "link": "ai-this-week"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "ai",
+   "title": "Reuters reports privacy slips by the Muse agent",
+   "summary": "Reuters reports that, according to internal posts, Meta's Muse personal agent read users' Signal messages through phone notification permissions on Android and screen tools on Mac. Reuters, Signal and the AI Now Institute repeated this in tests; it was blocked on iPhone. Signal's encryption itself was not broken. Employees also reported Muse showing bank balances and chats that seemed to belong to other users; Reuters could not determine whether they were real or made up. Signal's president called it 'technologically reckless'. A Meta spokesperson called them 'isolated incidents' and said many mix-ups were hallucinations that have been fixed. Meta says Muse has had more than 10 million downloads since September.",
+   "status": "Reported · Reuters",
+   "numbers": [
+    {
+     "k": "Muse downloads",
+     "v": "10m+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Star (Reuters)",
+     "url": "https://www.thestar.com.my/news/world/2026/11/18/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface",
+     "primary": true
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-20"
 }

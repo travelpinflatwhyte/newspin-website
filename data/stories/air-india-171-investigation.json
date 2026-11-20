@@ -15,11 +15,11 @@
  "big": "260",
  "delta": "lives lost",
  "bigLabel": "241 of the 242 people on board and 19 people on the ground died when Air India flight 171 crashed in Ahmedabad on 12 June 2025",
- "updated": "2026-11-15",
+ "updated": "2026-11-20",
  "glance": {
   "what": "Air India flight 171, a Boeing 787-8 from Ahmedabad to London Gatwick, crashed about 32 seconds after take-off. A preliminary report found that the switches that send fuel to both engines moved to the off position about three seconds after lift-off, one second apart. It did not say why or how.",
   "why": "It is the deadliest crash of a Boeing 787 and the type's first fatal accident. The investigation, by India's Aircraft Accident Investigation Bureau (AAIB), decides what changes airlines, Boeing and regulators may have to make. Its purpose is safety, not deciding who is to blame or who pays compensation.",
-  "next": "The AAIB said its draft final report would be ready around October 2026 and the government told the Supreme Court it would be filed in a sealed cover. The draft goes to the US safety board for comments before the final report is published. Newspin has not been able to confirm whether the draft was filed in October."
+  "next": "On 18 November the government told the Supreme Court the investigation was at the 'fag end' and asked for two to three more weeks. It had said the draft final report would be filed in a sealed cover in October; reports of the hearing do not say whether that happened. The draft goes to the US safety board for comments before the final report is published."
  },
  "keyNumbers": [
   {
@@ -296,6 +296,37 @@
    "added": "2026-11-15",
    "key": true,
    "differs": "Kalinga TV reported the next hearing as 12 October; the Free Press Journal reported the court asked for the case to be listed in the last week of October."
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "travel",
+   "title": "Government asks the Supreme Court for two to three more weeks",
+   "summary": "The Solicitor General told the Supreme Court that the investigation is at the 'fag end' and asked for two to three more weeks, according to Newsgram, AeroCorner and the Free Press Journal. 'There is no reason why we should delay deliberately,' he said. The petitioners, including the Safety Matters Foundation, objected to repeated delays and want an independent inquiry monitored by the court. The government had earlier said the draft final report would be filed in a sealed cover in October; none of the reports say it has been filed.",
+   "status": "Stated · Government, in court",
+   "differs": "AeroCorner notes that outlets differ on what the extra weeks are for: CNBC-TV18 says to finalise the draft report, The Hindu says until it is published. Newsgram says the court will hear the case again after two weeks; the others give no date.",
+   "numbers": [
+    {
+     "k": "Extra time sought",
+     "v": "2–3 weeks"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Newsgram",
+     "url": "https://www.newsgram.com/accidents/2026/11/18/air-india-ai-171-crash-final-report-delay-petition-sc",
+     "primary": true
+    },
+    {
+     "name": "AeroCorner",
+     "url": "https://aerocorner.com/news/air-india-ai171-final-report-supreme-court/"
+    },
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/india/air-india-ai-171-crash-aaib-probe-report-in-final-stage-centre-seeks-more-time-from-supreme-court"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

@@ -9,43 +9,43 @@
  "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
  "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
  "importance": 4,
- "status": "Rises above 25,500 for first time since February",
+ "status": "Nifty closes above 25,800 after a weak open",
  "tone": "live",
- "big": "25,514.30",
- "delta": "▲ 286.35 (1.14%)",
- "bigLabel": "Nifty 50 close on 19 Nov",
- "updated": "2026-11-19",
+ "big": "25,800.60",
+ "delta": "▲ 286.30 (1.12%)",
+ "bigLabel": "Nifty 50 close on 20 Nov",
+ "updated": "2026-11-20",
  "market": {
   "index": "Nifty 50",
   "second": "Sensex",
   "tz": "IST, closes 3:30 pm"
  },
  "glance": {
-  "what": "The Nifty 50 closed at 25,514.30 on 19 November, up 1.14% and above 25,500 for the first time since 26 February, according to Business Today. Over eight sessions since the Diwali Muhurat trading close on 8 November, it is up from 24,986.40.",
-  "why": "Reporters credited buying in auto, bank and consumer goods stocks, helped by falling metal prices, which lower costs for carmakers. IT stocks fell after US Federal Reserve minutes pointed to more US rate rises. A day earlier, profit booking had pulled the index down 0.63%.",
+  "what": "The Nifty 50 closed at 25,800.60 on 20 November, up 1.12%, after opening about 146 points lower. HDFC Sky calls it a nine-month high. Over nine sessions since the Diwali Muhurat trading close on 8 November, it is up from 24,986.40.",
+  "why": "The day started lower after a sell-off in AI-linked technology shares in the US and Asia. Reporters credit the recovery to foreign investor buying, bank and IT stocks, lower oil prices and a stronger rupee. Nifty Bank closed at a record.",
   "next": "Markets are shut on 24 November for Guru Nanak Jayanti. The RBI's next policy meeting runs 2 to 4 December."
  },
  "keyNumbers": [
   {
-   "label": "Nifty 50, 19 Nov",
-   "value": "25,514.30",
-   "note": "+286.35 (1.14%)",
+   "label": "Nifty 50, 20 Nov",
+   "value": "25,800.60",
+   "note": "+286.30 (1.12%)",
    "hot": true
   },
   {
-   "label": "Sensex, 19 Nov",
-   "value": "83,021.75",
-   "note": "+989.94 (1.21%)"
+   "label": "Sensex, 20 Nov",
+   "value": "83,919.71",
+   "note": "+897.96 (1.08%)"
   },
   {
    "label": "Today's open",
-   "value": "25,186",
-   "note": "gap down, about −42 (Liquide)"
+   "value": "25,368",
+   "note": "gap down, about −146 (Upstox, Liquide)"
   },
   {
    "label": "Since 8 Nov",
-   "value": "+527.90",
-   "note": "eight sessions"
+   "value": "+814.20",
+   "note": "nine sessions"
   }
  ],
  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
@@ -441,6 +441,62 @@
     }
    ],
    "added": "2026-11-19"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "market",
+   "title": "Banks pull Nifty back from a weak open to close above 25,800",
+   "summary": "The Nifty opened about 146 points lower at 25,368, according to Upstox and Liquide, after a sell-off in AI-linked technology shares overnight in the US and Asia. It then recovered to close up 286.30 points (1.12%) at 25,800.60, according to Business Today, Kotak Neo, HDFC Sky and Liquide. The Sensex rose 897.96 points (1.08%) to 83,919.71. HDFC Sky calls it a nine-month high. Reporters credit buying by foreign investors, gains in bank and IT stocks, lower oil prices and a stronger rupee. HDFC Sky says global funds are moving money out of AI-linked stocks and into India. Nifty Bank rose 2.49% to a record close of 64,635.20, per Liquide and Marketcalls, and Nifty IT rose 1.30%, per Kotak Neo. More shares fell than rose on the BSE (1,582 up, 2,456 down), per HDFC Sky. Apollo Hospitals (+5.29%) and Axis Bank (+4.72%) gained the most in the Nifty; Titan (−1.70%) and Tata Steel (−1.60%) fell the most, per HDFC Sky.",
+   "status": "Market data · Business Today, Kotak Neo, HDFC Sky",
+   "differs": "Upstox and Liquide put the Nifty's open at 25,368; Multibagg gives 25,378.05. For the Sensex, Upstox gives an open of 82,558.25 and Multibagg 82,568.56. HDFC Sky and Kotak Neo name different fifth-worst Nifty stocks (Eternal and Jio Financial Services).",
+   "numbers": [
+    {
+     "k": "Sensex close",
+     "v": "83,919.71 (+897.96)"
+    },
+    {
+     "k": "Nifty Bank",
+     "v": "64,635.20 (+2.49%), record"
+    },
+    {
+     "k": "Nifty IT",
+     "v": "+1.30%"
+    }
+   ],
+   "session": {
+    "prev": 25514.3,
+    "open": 25368.0,
+    "close": 25800.6
+   },
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-markets-extend-gains-as-sensex-jumps-898-points-nifty-reclaims-25800-568767-2026-11-20",
+     "primary": true
+    },
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/closing-bell-20-november-2026-sensex-nifty-rally-on-banking-it-stocks-and-fii-buying/"
+    },
+    {
+     "name": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/market-close-report-today-november-20-2026-nifty-sensex-scale-nine-month-highs-as-investors-dump-global-ai-for-india"
+    },
+    {
+     "name": "Upstox (open)",
+     "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
+    },
+    {
+     "name": "Liquide",
+     "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-801-sensex-surges-898-points-as-banking-financial-services-and-it-stocks-lead-rally/"
+    },
+    {
+     "name": "Marketcalls",
+     "url": "https://www.marketcalls.in/futures-and-options/post-market-report-20-november-2026.html"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ]
 }

@@ -18,7 +18,7 @@
  "glance": {
   "what": "OpenAI moved from GPT-5 in August 2025 to the GPT-6 family in September 2026, releasing a new GPT-5.x version roughly every quarter in between. It filed confidentially for an IPO in June 2026, but Sam Altman later ruled out listing this year.",
   "why": "ChatGPT is the most widely used AI assistant, so OpenAI's choices on models, prices and safety set the pace for the whole industry.",
-  "next": "An IPO is expected in 2027. California's lawsuit over AI safety, filed 16 November, is at an early stage. GPT-6.2 Astra and Sol rolled out on 17 November."
+  "next": "An IPO is expected in 2027. Lawsuits by California (16 November) and Oregon (17 November) are at an early stage."
  },
  "keyNumbers": [
   {
@@ -437,7 +437,34 @@
     }
    ],
    "added": "2026-11-18"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "law",
+   "title": "Oregon sues over child safety",
+   "summary": "Oregon's attorney general sued OpenAI in state court, seeking more than $2 billion. The state alleges ChatGPT was designed to make users dependent on it, gave 'sycophantic' answers and failed to protect children; these are allegations and no court has ruled. OpenAI said it will 'continue to work with experts to build and strengthen additional safeguards.'",
+   "status": "Filed · not ruled on",
+   "differs": "The Lund Report says the state seeks 'more than $2 billion'; the Epoch Times says 'no less than $2 billion'.",
+   "numbers": [
+    {
+     "k": "Sought",
+     "v": "$2 bn+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Lund Report (Oregon Capital Chronicle)",
+     "url": "https://www.thelundreport.org/content/oregon-sues-open-ai-more-2b-child-endangerment-misleading-public",
+     "primary": true
+    },
+    {
+     "name": "The Epoch Times",
+     "url": "https://www.theepochtimes.com/us/oregon-sues-openai-in-2-billion-lawsuit-over-child-safety-6126933"
+    }
+   ],
+   "added": "2026-11-20"
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-20"
 }

@@ -523,6 +523,28 @@
       "added": "2026-11-20"
     },
     {
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "phase": "ai",
+      "title": "Reuters: Meta's Muse agent read Signal messages in tests",
+      "summary": "Reuters reports that Meta's Muse agent read Signal messages through phone permissions on Android and Mac, and showed some employees what looked like other users' data. Meta called them 'isolated incidents'.",
+      "status": "Reported · Reuters",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "The Star (Reuters)",
+          "url": "https://www.thestar.com.my/news/world/2026/11/18/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface",
+          "primary": true
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        }
+      ],
+      "link": "meta-ai-2026",
+      "added": "2026-11-20"
+    },
+    {
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026 (US time)",
       "phase": "market",

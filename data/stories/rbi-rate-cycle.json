@@ -14,11 +14,11 @@
  "big": "5.50%",
  "delta": "▲ 25 bps",
  "bigLabel": "Repo rate after the 7 Oct hike",
- "updated": "2026-11-13",
+ "updated": "2026-11-20",
  "glance": {
   "what": "On 7 Oct 2026 the RBI raised its key rate to 5.50%, its first increase since February 2023, after cutting it five times in 2025.",
   "why": "Inflation picked up sharply through mid-2026. Borrowers with repo-linked floating loans may see higher EMIs at their next reset.",
-  "next": "The next policy meeting is 2–4 Dec 2026. With October inflation at 6.09%, above the RBI's limit, another hike is being discussed by economists."
+  "next": "The next policy meeting is 2–4 Dec 2026. With October inflation at 6.09%, 56 of 61 economists in a Reuters poll expect a rise to 5.75%."
  },
  "keyNumbers": [
   {
@@ -421,6 +421,28 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "data",
+   "title": "Reuters poll: most economists expect a December hike to 5.75%",
+   "summary": "In a Reuters poll taken from 13 to 20 November, 56 of 61 economists expect the RBI to raise the repo rate by 0.25 percentage points to 5.75% at its 2–4 December meeting. Three expect no change and two expect a bigger rise. Most (34 of 46) expect one more rise, to 6%, in February. Economists cite higher energy costs from the Middle East war and a patchy monsoon, and expect inflation to stay above the RBI's 4% target this year and next. This is a forecast by economists, not an RBI decision.",
+   "status": "Reported · Reuters poll",
+   "numbers": [
+    {
+     "k": "Expect a hike to 5.75%",
+     "v": "56 of 61"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters, via WBOW",
+     "url": "https://1027wbow.com/2026/11/20/indias-rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-reuters-poll/",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-20"
   }
  ],
  "chart": {

@@ -10,54 +10,48 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Five days down",
+  "status": "Six days down",
   "tone": "live",
-  "big": "7,323.63",
-  "delta": "▼ 16.90 (0.23%)",
-  "bigLabel": "S&P 500 close on 18 Nov (US time)",
-  "updated": "2026-11-19",
+  "big": "≈ 7,177",
+  "delta": "▼ ≈ 2.0%",
+  "bigLabel": "S&P 500 close on 19 Nov (US time); reports differ slightly on the exact level",
+  "updated": "2026-11-20",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 fell 0.23% to 7,323.63 on 18 November, its fifth loss in a row. The Dow fell 1.11% as health insurers slid, while the Nasdaq rose 0.42%.",
-    "why": "Wall Street's swings have been driven by Nvidia's leadership crisis, hotter inflation data that raised bets on a Fed rate rise, and oil prices. Big US moves often set the tone for Indian markets the next morning.",
-    "next": "Anthropic's shares, reportedly priced at $83, are expected to start trading on 19 November."
+    "what": "The S&P 500 fell about 2% on 19 November, its sixth loss in a row and its longest losing run since April 2024. The Dow fell about 1,100 points and the Nasdaq fell 2.2%. Stocks had opened higher before turning down.",
+    "why": "Wall Street has been weighed down by signs the Fed may raise interest rates again, worries about high share prices, and Nvidia's leadership crisis. Big US moves often set the tone for Indian markets the next morning.",
+    "next": "Whether the losing run continues on Friday 20 November, and upcoming US inflation and jobs data."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 18 Nov",
-      "value": "7,323.63",
-      "note": "−0.23%",
+      "label": "S&P 500, 19 Nov",
+      "value": "≈ 7,177",
+      "note": "≈ −2.0%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "50,198.17",
-      "note": "−1.11%"
+      "value": "49,097",
+      "note": "−2.19%"
     },
     {
       "label": "Nasdaq",
-      "value": "24,429.89",
-      "note": "+0.42%"
+      "value": "23,886",
+      "note": "−2.23%"
     },
     {
-      "label": "17 Nov close",
-      "value": "7,340.53",
+      "label": "18 Nov close",
+      "value": "7,323.63",
       "note": "previous day"
     }
   ],
   "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
-  "upcoming": [
-    {
-      "date": "2026-11-19",
-      "label": "19 Nov",
-      "text": "Anthropic expected to start trading on Nasdaq"
-    }
-  ],
-  "next": "Anthropic's first day of trading on 19 November, and whether the S&P 500's losing run continues.",
+  "upcoming": [],
+  "next": "Friday's session (20 Nov, US time), and upcoming US inflation and jobs data that could move expectations for Fed rates.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -415,6 +409,47 @@
         }
       ],
       "added": "2026-11-19"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "phase": "market",
+      "key": true,
+      "title": "S&P 500 falls 2% for a sixth straight loss; Dow drops about 1,100 points",
+      "summary": "All three indexes opened higher and held gains through the morning, then turned lower, per 24/7 Wall St. The S&P 500 fell about 2% to about 7,177, its sixth loss in a row and its longest losing run since April 2024, per the Motley Fool. The Dow fell 2.19% and the Nasdaq 2.23%. Reporters linked the fall to talk of further Fed rate rises and worries about high share prices and inflation. Nvidia fell 3.3%. AMD fell 7.7% after a report alleged links to a blacklisted Chinese server maker, per the Motley Fool. Anthropic's shares started trading on the same day and closed 17.1% above their $83 IPO price. Exact opening levels were not given, so this day has no gap figure.",
+      "status": "Market data · Motley Fool, 24/7 Wall St",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "≈ 7,177 (≈ −2.0%)"
+        },
+        {
+          "k": "Dow",
+          "v": "49,097 (−2.19%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "23,886 (−2.23%)"
+        }
+      ],
+      "differs": "Closing figures differ slightly. The Motley Fool gives the S&P 500 at 7,177 (−2.00%), the Dow at 49,097 (−1,101 points, −2.19%) and the Nasdaq at 23,886 (−2.23%); 24/7 Wall St gives 7,177.55 (−1.99%), a 1,091-point Dow fall (−2.17%) and −2.00% for the Nasdaq. The two also differ on whether energy and consumer staples ended higher.",
+      "sources": [
+        {
+          "name": "Yahoo Finance (Motley Fool)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221002368.html",
+          "primary": true
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-google-s-stake/"
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/cards/the-dow-s-1-091-point-drop-came-alongside-declines-in-both-t-gspc-market-bell-01m7tszafyfeyqr7mh8p14494j"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-20"
     }
   ]
 }

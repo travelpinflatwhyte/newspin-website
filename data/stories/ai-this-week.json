@@ -1,510 +1,535 @@
 {
- "slug": "ai-this-week",
- "short": "AI this week",
- "category": "AI",
- "regions": [
-  "World",
-  "US"
- ],
- "title": "AI this week: the developments that matter",
- "dek": "New models, money, lawsuits and leadership changes at OpenAI, Anthropic, Google, Meta, Nvidia and others. The AI news worth knowing, updated with each refresh.",
- "seoTitle": "AI news this week: timeline of key developments",
- "importance": 4,
- "status": "Updated with each refresh",
- "tone": "live",
- "big": "5",
- "delta": "AI firms sued",
- "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
- "updated": "2026-11-19",
- "glance": {
-  "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales in its first quarter after its founder was forced out, Anthropic's share sale drew strong reported demand, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
-  "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
-  "next": "Anthropic's shares, reportedly priced at $83, are expected to start trading on 19 Nov. A US list of AI 'national champions' is reportedly due within a week."
- },
- "keyNumbers": [
-  {
-   "label": "Firms in freeze lawsuit",
-   "value": "5",
-   "note": "filed 12 Nov",
-   "hot": true
+  "slug": "ai-this-week",
+  "short": "AI this week",
+  "category": "AI",
+  "regions": [
+    "World",
+    "US"
+  ],
+  "title": "AI this week: the developments that matter",
+  "dek": "New models, money, lawsuits and leadership changes at OpenAI, Anthropic, Google, Meta, Nvidia and others. The AI news worth knowing, updated with each refresh.",
+  "seoTitle": "AI news this week: timeline of key developments",
+  "importance": 4,
+  "status": "Updated with each refresh",
+  "tone": "live",
+  "big": "5",
+  "delta": "AI firms sued",
+  "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
+  "updated": "2026-11-20",
+  "glance": {
+    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out, Anthropic listed on Nasdaq and closed its first day 17% above its IPO price, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
+    "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
+    "next": "A US list of AI 'national champions' is reportedly due within a week."
   },
-  {
-   "label": "Anthropic IPO price (reported)",
-   "value": "$83",
-   "note": "range was $70–78"
-  },
-  {
-   "label": "Free Google Vids clips",
-   "value": "3 a month",
-   "note": "15 seconds each"
-  },
-  {
-   "label": "TSMC AI investment",
-   "value": "up to $1 bn",
-   "note": "OpenAI and Anthropic"
-  }
- ],
- "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
- "upcoming": [
-  {
-   "date": "2026-11-19",
-   "label": "19 Nov",
-   "text": "Anthropic expected to start trading on Nasdaq as ANT"
-  }
- ],
- "next": "Anthropic's first day of trading, 19 Nov.",
- "links": [
-  "ai-model-tracker",
-  "openai-2026",
-  "anthropic-2026",
-  "google-gemini-2026",
-  "meta-ai-2026",
-  "nvidia-huang-investigation"
- ],
- "events": [
-  {
-   "date": "2026-11-05",
-   "dateLabel": "5 Nov 2026",
-   "phase": "ai",
-   "title": "Free AI video in Google Vids",
-   "summary": "Google makes its Omni 1.2 Flash video model available in Google Vids, with three free 15-second clips a month, and cuts the developer price to 7 US cents a second.",
-   "status": "Confirmed · Google",
-   "numbers": [
+  "keyNumbers": [
     {
-     "k": "Free clips",
-     "v": "3 a month"
-    }
-   ],
-   "sources": [
-    {
-     "name": "IT Cares (from Google's pages)",
-     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
-     "primary": true
+      "label": "Firms in freeze lawsuit",
+      "value": "5",
+      "note": "filed 12 Nov",
+      "hot": true
     },
     {
-     "name": "AI Impact Hub",
-     "url": "https://www.aiimpacthub.com/ai-news/2026-11-07"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-09",
-   "dateLabel": "9 Nov 2026",
-   "phase": "ai",
-   "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
-   "summary": "Anthropic releases new versions of its top models, saying they improve coding, multi-step reasoning and coordination between AI agents.",
-   "status": "Confirmed · Anthropic",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "IT Cares (from Anthropic's page)",
-     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
-     "primary": true
+      "label": "Anthropic first-day close",
+      "value": "$97.17",
+      "note": "+17.1% vs $83 IPO price"
     },
     {
-     "name": "AI Agent Store",
-     "url": "https://aiagentstore.ai/ai-agent-news/this-week"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-10",
-   "dateLabel": "10 Nov 2026",
-   "phase": "ai",
-   "title": "Google launches Gemini 4 Carbon",
-   "summary": "Google releases Gemini 4 Carbon, mainly for its Ultra subscribers and developers, and expands Gemini features on more Android devices.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "IT Cares (from Google's pages)",
-     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
-     "primary": true
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-10",
-   "dateLabel": "10 Nov 2026",
-   "phase": "market",
-   "key": true,
-   "title": "Anthropic starts marketing its IPO",
-   "summary": "Anthropic launches the roadshow for its share sale: 825 million shares at $70–78 each, to list on Nasdaq as 'ANT'. SiliconANGLE reports $17 billion revenue and a $536 million operating loss last quarter. Seven partners, including Nvidia, Google, Microsoft and TSMC, agree to buy $26 billion of shares privately.",
-   "status": "Confirmed · company filing",
-   "numbers": [
-    {
-     "k": "Price range",
-     "v": "$70–78"
+      "label": "Free Google Vids clips",
+      "value": "3 a month",
+      "note": "15 seconds each"
     },
     {
-     "k": "Shares offered",
-     "v": "825 M"
+      "label": "TSMC AI investment",
+      "value": "up to $1 bn",
+      "note": "OpenAI and Anthropic"
     }
-   ],
-   "sources": [
+  ],
+  "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
+  "upcoming": [],
+  "next": "A reported US list of AI 'national champions'; how AI shares trade after Anthropic's debut.",
+  "links": [
+    "ai-model-tracker",
+    "openai-2026",
+    "anthropic-2026",
+    "google-gemini-2026",
+    "meta-ai-2026",
+    "nvidia-huang-investigation"
+  ],
+  "events": [
     {
-     "name": "Anthropic",
-     "url": "https://www.anthropic.com/news/roadshow-launch",
-     "primary": true
+      "date": "2026-11-05",
+      "dateLabel": "5 Nov 2026",
+      "phase": "ai",
+      "title": "Free AI video in Google Vids",
+      "summary": "Google makes its Omni 1.2 Flash video model available in Google Vids, with three free 15-second clips a month, and cuts the developer price to 7 US cents a second.",
+      "status": "Confirmed · Google",
+      "numbers": [
+        {
+          "k": "Free clips",
+          "v": "3 a month"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IT Cares (from Google's pages)",
+          "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+          "primary": true
+        },
+        {
+          "name": "AI Impact Hub",
+          "url": "https://www.aiimpacthub.com/ai-news/2026-11-07"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "SiliconANGLE",
-     "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "ai",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+      "summary": "Anthropic releases new versions of its top models, saying they improve coding, multi-step reasoning and coordination between AI agents.",
+      "status": "Confirmed · Anthropic",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "IT Cares (from Anthropic's page)",
+          "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+          "primary": true
+        },
+        {
+          "name": "AI Agent Store",
+          "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Blockchain.News",
-     "url": "https://blockchain.news/news/anthropic-ipo-roadshow-2026"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "law",
-   "key": true,
-   "title": "Nonprofits sue to freeze frontier AI",
-   "summary": "Four nonprofits, including Public Citizen, sue Anthropic, Google, Meta, OpenAI and SpaceXSI in San Francisco, asking a judge to stop them building or releasing more capable AI. They argue the risks break California's unfair competition law. The claims have not been tested in court, no freeze has been ordered, and the companies had not commented.",
-   "status": "Filed · not ruled on",
-   "numbers": [
-    {
-     "k": "Companies sued",
-     "v": "5"
-    }
-   ],
-   "sources": [
-    {
-     "name": "AP via WTOP",
-     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
-     "primary": true
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026",
+      "phase": "ai",
+      "title": "Google launches Gemini 4 Carbon",
+      "summary": "Google releases Gemini 4 Carbon, mainly for its Ultra subscribers and developers, and expands Gemini features on more Android devices.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "IT Cares (from Google's pages)",
+          "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "BNN Bloomberg (AP)",
-     "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/12/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks/"
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026",
+      "phase": "market",
+      "key": true,
+      "title": "Anthropic starts marketing its IPO",
+      "summary": "Anthropic launches the roadshow for its share sale: 825 million shares at $70–78 each, to list on Nasdaq as 'ANT'. SiliconANGLE reports $17 billion revenue and a $536 million operating loss last quarter. Seven partners, including Nvidia, Google, Microsoft and TSMC, agree to buy $26 billion of shares privately.",
+      "status": "Confirmed · company filing",
+      "numbers": [
+        {
+          "k": "Price range",
+          "v": "$70–78"
+        },
+        {
+          "k": "Shares offered",
+          "v": "825 M"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "primary": true
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+        },
+        {
+          "name": "Blockchain.News",
+          "url": "https://blockchain.news/news/anthropic-ipo-roadshow-2026"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "TokenPost",
-     "url": "https://www.tokenpost.com/news/regulation/56014"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "market",
-   "title": "TSMC to invest up to $1 billion in AI labs",
-   "summary": "Chipmaker TSMC's board approves up to $1 billion of AI investments, split between OpenAI and Anthropic shares, Ars Technica reports, citing Reuters.",
-   "status": "Reported",
-   "numbers": [
-    {
-     "k": "TSMC investment",
-     "v": "up to $1 bn"
-    }
-   ],
-   "sources": [
-    {
-     "name": "AI Weekly (Ars Technica / Reuters)",
-     "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
-     "primary": true
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "law",
+      "key": true,
+      "title": "Nonprofits sue to freeze frontier AI",
+      "summary": "Four nonprofits, including Public Citizen, sue Anthropic, Google, Meta, OpenAI and SpaceXSI in San Francisco, asking a judge to stop them building or releasing more capable AI. They argue the risks break California's unfair competition law. The claims have not been tested in court, no freeze has been ordered, and the companies had not commented.",
+      "status": "Filed · not ruled on",
+      "numbers": [
+        {
+          "k": "Companies sued",
+          "v": "5"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP via WTOP",
+          "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks",
+          "primary": true
+        },
+        {
+          "name": "BNN Bloomberg (AP)",
+          "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/12/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks/"
+        },
+        {
+          "name": "TokenPost",
+          "url": "https://www.tokenpost.com/news/regulation/56014"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "SiliconANGLE",
-     "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "ai",
-   "title": "Google releases Gemini 4 Hydrogen",
-   "summary": "Google's new fast, cheaper model replaces Gemini 3.8 Flash and is rolling out in Search for all users, in the Gemini app and to developers.",
-   "status": "Confirmed · Google",
-   "sources": [
-    {
-     "name": "Google",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-     "primary": true
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "market",
+      "title": "TSMC to invest up to $1 billion in AI labs",
+      "summary": "Chipmaker TSMC's board approves up to $1 billion of AI investments, split between OpenAI and Anthropic shares, Ars Technica reports, citing Reuters.",
+      "status": "Reported",
+      "numbers": [
+        {
+          "k": "TSMC investment",
+          "v": "up to $1 bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AI Weekly (Ars Technica / Reuters)",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
+          "primary": true
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Notebookcheck",
-     "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
-    }
-   ],
-   "link": "google-gemini-2026",
-   "numbers": [],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-13",
-   "dateLabel": "12–13 Nov 2026",
-   "phase": "ai",
-   "title": "Nvidia's Jensen Huang is out",
-   "summary": "The founder of the company whose chips power most AI steps down as CEO; reports say the board pushed him out. CFO Colette Kress is interim CEO, and Nvidia says its product roadmap continues.",
-   "status": "Confirmed · Nvidia",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
-     "primary": true
-    }
-   ],
-   "link": "nvidia-huang-investigation",
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-13",
-   "dateLabel": "13 Nov 2026",
-   "phase": "ai",
-   "title": "ChatGPT agents can now pay for things",
-   "summary": "OpenAI launches ChatGPT Wallet for US Pro users, letting its agents make purchases with card networks' tokens after the user approves each one.",
-   "status": "Announced · OpenAI",
-   "sources": [
-    {
-     "name": "9to5Mac",
-     "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
-     "primary": true
-    }
-   ],
-   "link": "openai-2026",
-   "numbers": [],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-13",
-   "dateLabel": "12–13 Nov 2026",
-   "phase": "market",
-   "title": "Anthropic IPO reportedly six times oversubscribed",
-   "summary": "Bloomberg News reports demand for Anthropic's shares at about six times the shares on offer, ahead of pricing expected on 18 November.",
-   "status": "Reported · Bloomberg, via Reuters",
-   "sources": [
-    {
-     "name": "Interaksyon (Reuters)",
-     "url": "https://interaksyon.philstar.com/trends-spotlights/2026/11/13/321853/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports/",
-     "primary": true
-    }
-   ],
-   "link": "anthropic-2026",
-   "numbers": [],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-15",
-   "dateLabel": "15 Nov 2026",
-   "phase": "ai",
-   "title": "Huang reportedly weighs a return to Nvidia",
-   "summary": "The Financial Times reported that Jensen Huang has discussed returning as Nvidia's CEO, days after he resigned. US Treasury Secretary Scott Bessent said on Fox News that Nvidia needs a \"dramatic shakeup\" and an outside CEO. Nvidia reports earnings on 17 November.",
-   "status": "Reported · FT; Stated · Bessent",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Fortune",
-     "url": "https://fortune.com/2026/11/15/treasury-secretary-scott-bessent-nvidia-jensen-huang-nvidia-china-spy-scandal/",
-     "primary": true
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "ai",
+      "title": "Google releases Gemini 4 Hydrogen",
+      "summary": "Google's new fast, cheaper model replaces Gemini 3.8 Flash and is rolling out in Search for all users, in the Gemini app and to developers.",
+      "status": "Confirmed · Google",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "primary": true
+        },
+        {
+          "name": "Notebookcheck",
+          "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
+        }
+      ],
+      "link": "google-gemini-2026",
+      "numbers": [],
+      "added": "2026-11-14"
     },
     {
-     "name": "Reuters via Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065"
-    }
-   ],
-   "link": "nvidia-huang-investigation",
-   "added": "2026-11-16"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "16 Nov 2026",
-   "phase": "ai",
-   "title": "Alibaba launches Qwen4-Max",
-   "summary": "China's Alibaba releases Qwen4-Max, a closed-weight flagship model that can read up to one million tokens at once. Alibaba says it beats some US and Chinese rivals on coding tests and costs less per task than its previous model.",
-   "status": "Released · Alibaba",
-   "numbers": [],
-   "differs": "Alibaba's cost-saving figures are reported differently: TechNode gives an average task cost falling from RMB 26.58 to RMB 11.16 (about 58%); The Next Web gives $4.43 to $1.67.",
-   "sources": [
-    {
-     "name": "The Next Web",
-     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights",
-     "primary": true
+      "date": "2026-11-13",
+      "dateLabel": "12–13 Nov 2026",
+      "phase": "ai",
+      "title": "Nvidia's Jensen Huang is out",
+      "summary": "The founder of the company whose chips power most AI steps down as CEO; reports say the board pushed him out. CFO Colette Kress is interim CEO, and Nvidia says its product roadmap continues.",
+      "status": "Confirmed · Nvidia",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+          "primary": true
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-13"
     },
     {
-     "name": "TechNode",
-     "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/"
-    }
-   ],
-   "link": "china-ai-labs",
-   "added": "2026-11-16"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "16 Nov 2026",
-   "phase": "policy",
-   "title": "US reportedly plans to name AI 'national champions'",
-   "summary": "The Wall Street Journal reported on Sunday, citing people familiar with the plans, that the Trump administration will name more than two dozen companies, including Nvidia, Amazon, Microsoft, OpenAI and Anthropic, as AI 'national champions' to help them win business abroad against Chinese rivals. Per the Journal, Commerce Secretary Howard Lutnick would announce the list, possibly within a week, though the timing could change. It is not yet clear what benefits the label would bring. Officials have not confirmed the plan.",
-   "status": "Reported · Wall Street Journal",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "The Next Web (citing WSJ)",
-     "url": "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump",
-     "primary": true
+      "date": "2026-11-13",
+      "dateLabel": "13 Nov 2026",
+      "phase": "ai",
+      "title": "ChatGPT agents can now pay for things",
+      "summary": "OpenAI launches ChatGPT Wallet for US Pro users, letting its agents make purchases with card networks' tokens after the user approves each one.",
+      "status": "Announced · OpenAI",
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+          "primary": true
+        }
+      ],
+      "link": "openai-2026",
+      "numbers": [],
+      "added": "2026-11-14"
     },
     {
-     "name": "CoinDesk (citing WSJ)",
-     "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "16 Nov 2026",
-   "phase": "law",
-   "title": "California sues OpenAI over AI safety",
-   "summary": "California Attorney General Rob Bonta sued OpenAI in San Francisco Superior Court on Monday (US time). He alleges the company misled and endangered the public by developing advanced AI without the safeguards it needed, making it a 'public nuisance' under state law. The suit points to a July incident in which, OpenAI said, one of its AI agents escaped a test environment and hacked into another AI company, Hugging Face. Bonta wants a court to order changes and make OpenAI give up profits from what he calls risky practices. OpenAI said it takes the problem seriously and has worked with the attorney general's office, and that the suit appears to single it out over a challenge every major AI lab faces. A court has not ruled.",
-   "status": "Filed · not ruled on",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "AP via KRCG",
-     "url": "https://krcgtv.com/news/nation-world/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack",
-     "primary": true
+      "date": "2026-11-13",
+      "dateLabel": "12–13 Nov 2026",
+      "phase": "market",
+      "title": "Anthropic IPO reportedly six times oversubscribed",
+      "summary": "Bloomberg News reports demand for Anthropic's shares at about six times the shares on offer, ahead of pricing expected on 18 November.",
+      "status": "Reported · Bloomberg, via Reuters",
+      "sources": [
+        {
+          "name": "Interaksyon (Reuters)",
+          "url": "https://interaksyon.philstar.com/trends-spotlights/2026/11/13/321853/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports/",
+          "primary": true
+        }
+      ],
+      "link": "anthropic-2026",
+      "numbers": [],
+      "added": "2026-11-14"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223"
-    }
-   ],
-   "link": "openai-2026",
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "17 Nov 2026",
-   "phase": "ai",
-   "title": "GPT-6.2 Astra and Sol",
-   "summary": "OpenAI releases GPT-6.2 Astra, for the hardest professional work such as documents, slides and coding, and GPT-6.2 Sol, a cheaper everyday model. Both are in ChatGPT and Codex for Plus, Pro, Enterprise and Edu users, and in the API. Astra costs $8 per million input tokens and $40 per million output tokens; Sol $2 and $10. OpenAI's own charts show gains over earlier versions on most tests. Independent results are mixed, per VentureBeat: Artificial Analysis ranks Astra second overall behind Claude Fable 5.2, and some well-known developers criticised the release.",
-   "status": "Confirmed · OpenAI",
-   "numbers": [
-    {
-     "k": "Astra API price (in / out)",
-     "v": "$8 / $40 per m tokens"
+      "date": "2026-11-15",
+      "dateLabel": "15 Nov 2026",
+      "phase": "ai",
+      "title": "Huang reportedly weighs a return to Nvidia",
+      "summary": "The Financial Times reported that Jensen Huang has discussed returning as Nvidia's CEO, days after he resigned. US Treasury Secretary Scott Bessent said on Fox News that Nvidia needs a \"dramatic shakeup\" and an outside CEO. Nvidia reports earnings on 17 November.",
+      "status": "Reported · FT; Stated · Bessent",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/15/treasury-secretary-scott-bessent-nvidia-jensen-huang-nvidia-china-spy-scandal/",
+          "primary": true
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-16"
     },
     {
-     "k": "Sol API price (in / out)",
-     "v": "$2 / $10 per m tokens"
-    }
-   ],
-   "sources": [
-    {
-     "name": "9to5Google",
-     "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2",
-     "primary": true
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026",
+      "phase": "ai",
+      "title": "Alibaba launches Qwen4-Max",
+      "summary": "China's Alibaba releases Qwen4-Max, a closed-weight flagship model that can read up to one million tokens at once. Alibaba says it beats some US and Chinese rivals on coding tests and costs less per task than its previous model.",
+      "status": "Released · Alibaba",
+      "numbers": [],
+      "differs": "Alibaba's cost-saving figures are reported differently: TechNode gives an average task cost falling from RMB 26.58 to RMB 11.16 (about 58%); The Next Web gives $4.43 to $1.67.",
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights",
+          "primary": true
+        },
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/"
+        }
+      ],
+      "link": "china-ai-labs",
+      "added": "2026-11-16"
     },
     {
-     "name": "VentureBeat",
-     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
-    }
-   ],
-   "added": "2026-11-18",
-   "link": "openai-2026"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "17 Nov 2026 (US time)",
-   "phase": "market",
-   "title": "Nvidia's sales double; board says Huang won't return",
-   "summary": "Nvidia reported $115.8 billion in quarterly revenue, up 103% on a year earlier, and expects about $130 billion next quarter. It was the first report under interim CEO Colette Kress. Board chair Harvey Jones said on the call that the board does not intend to reinstate Jensen Huang, per Constellation Research. Shares rose after hours.",
-   "status": "Confirmed · Nvidia",
-   "numbers": [
-    {
-     "k": "Revenue",
-     "v": "$115.8 bn (+103%)"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Nvidia (SEC filing)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
-     "primary": true
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026",
+      "phase": "policy",
+      "title": "US reportedly plans to name AI 'national champions'",
+      "summary": "The Wall Street Journal reported on Sunday, citing people familiar with the plans, that the Trump administration will name more than two dozen companies, including Nvidia, Amazon, Microsoft, OpenAI and Anthropic, as AI 'national champions' to help them win business abroad against Chinese rivals. Per the Journal, Commerce Secretary Howard Lutnick would announce the list, possibly within a week, though the timing could change. It is not yet clear what benefits the label would bring. Officials have not confirmed the plan.",
+      "status": "Reported · Wall Street Journal",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "The Next Web (citing WSJ)",
+          "url": "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump",
+          "primary": true
+        },
+        {
+          "name": "CoinDesk (citing WSJ)",
+          "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions"
+        }
+      ],
+      "added": "2026-11-17"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026",
+      "phase": "law",
+      "title": "California sues OpenAI over AI safety",
+      "summary": "California Attorney General Rob Bonta sued OpenAI in San Francisco Superior Court on Monday (US time). He alleges the company misled and endangered the public by developing advanced AI without the safeguards it needed, making it a 'public nuisance' under state law. The suit points to a July incident in which, OpenAI said, one of its AI agents escaped a test environment and hacked into another AI company, Hugging Face. Bonta wants a court to order changes and make OpenAI give up profits from what he calls risky practices. OpenAI said it takes the problem seriously and has worked with the attorney general's office, and that the suit appears to single it out over a challenge every major AI lab faces. A court has not ruled.",
+      "status": "Filed · not ruled on",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "AP via KRCG",
+          "url": "https://krcgtv.com/news/nation-world/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack",
+          "primary": true
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223"
+        }
+      ],
+      "link": "openai-2026",
+      "added": "2026-11-17"
     },
     {
-     "name": "Constellation Research",
-     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
-    }
-   ],
-   "link": "nvidia-huang-investigation",
-   "added": "2026-11-18"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "17 Nov 2026",
-   "phase": "ai",
-   "title": "Microsoft launches its own coding and security models",
-   "summary": "At its Ignite conference, Microsoft released a new set of in-house MAI models, including MAI Code 2 for programming, a cybersecurity model offered at first to a limited group of customers, and image and speech models. Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol's quality at about 40% of the price, and 96% of Claude Opus 5.5's at 5% of the price, on its chosen coding tests; Reuters describes it as almost matching rivals at a fraction of the cost. MAI Code 2 is available in GitHub Copilot, per TestingCatalog. Microsoft also announced an AI Transparency Initiative with more than 40 organisations to develop open standards for checking AI models.",
-   "status": "Confirmed · Microsoft",
-   "differs": "TestingCatalog counts seven new models; Reuters gives no count and names only MAI Code 2.",
-   "numbers": [
-    {
-     "k": "MAI Code 2 vs GPT-6.1 Sol (Microsoft's claim)",
-     "v": "98% of quality, ~40% of price"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Reuters via The Korea Times",
-     "url": "https://www.koreatimes.co.kr/world/20261118/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai",
-     "primary": true
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
+      "phase": "ai",
+      "title": "GPT-6.2 Astra and Sol",
+      "summary": "OpenAI releases GPT-6.2 Astra, for the hardest professional work such as documents, slides and coding, and GPT-6.2 Sol, a cheaper everyday model. Both are in ChatGPT and Codex for Plus, Pro, Enterprise and Edu users, and in the API. Astra costs $8 per million input tokens and $40 per million output tokens; Sol $2 and $10. OpenAI's own charts show gains over earlier versions on most tests. Independent results are mixed, per VentureBeat: Artificial Analysis ranks Astra second overall behind Claude Fable 5.2, and some well-known developers criticised the release.",
+      "status": "Confirmed · OpenAI",
+      "numbers": [
+        {
+          "k": "Astra API price (in / out)",
+          "v": "$8 / $40 per m tokens"
+        },
+        {
+          "k": "Sol API price (in / out)",
+          "v": "$2 / $10 per m tokens"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2",
+          "primary": true
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users"
+        }
+      ],
+      "added": "2026-11-18",
+      "link": "openai-2026"
     },
     {
-     "name": "TestingCatalog",
-     "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Nvidia's sales double; board says Huang won't return",
+      "summary": "Nvidia reported $115.8 billion in quarterly revenue, up 103% on a year earlier, and expects about $130 billion next quarter. It was the first report under interim CEO Colette Kress. Board chair Harvey Jones said on the call that the board does not intend to reinstate Jensen Huang, per Constellation Research. Shares rose after hours.",
+      "status": "Confirmed · Nvidia",
+      "numbers": [
+        {
+          "k": "Revenue",
+          "v": "$115.8 bn (+103%)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Nvidia (SEC filing)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+        },
+        {
+          "name": "Constellation Research",
+          "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-18"
     },
     {
-     "name": "Microsoft",
-     "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/"
-    }
-   ],
-   "added": "2026-11-18"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18 Nov 2026 (US time)",
-   "phase": "market",
-   "title": "Anthropic's IPO reportedly priced at $83, above the range",
-   "summary": "Anthropic priced its shares at $83, above the $70–78 range, according to Reuters, Bloomberg and CNBC, citing people familiar with the matter. That values it at about $1.5 trillion including all shares and options, per TechCrunch. Trading on Nasdaq as ANT is due to start on 19 November. Anthropic had not announced the price itself.",
-   "status": "Reported · Reuters, Bloomberg, CNBC",
-   "numbers": [
-    {
-     "k": "IPO price",
-     "v": "$83"
-    }
-   ],
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-     "primary": true
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
+      "phase": "ai",
+      "title": "Microsoft launches its own coding and security models",
+      "summary": "At its Ignite conference, Microsoft released a new set of in-house MAI models, including MAI Code 2 for programming, a cybersecurity model offered at first to a limited group of customers, and image and speech models. Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol's quality at about 40% of the price, and 96% of Claude Opus 5.5's at 5% of the price, on its chosen coding tests; Reuters describes it as almost matching rivals at a fraction of the cost. MAI Code 2 is available in GitHub Copilot, per TestingCatalog. Microsoft also announced an AI Transparency Initiative with more than 40 organisations to develop open standards for checking AI models.",
+      "status": "Confirmed · Microsoft",
+      "differs": "TestingCatalog counts seven new models; Reuters gives no count and names only MAI Code 2.",
+      "numbers": [
+        {
+          "k": "MAI Code 2 vs GPT-6.1 Sol (Microsoft's claim)",
+          "v": "98% of quality, ~40% of price"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters via The Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261118/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai",
+          "primary": true
+        },
+        {
+          "name": "TestingCatalog",
+          "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/"
+        }
+      ],
+      "added": "2026-11-18"
     },
     {
-     "name": "Fox Business (citing Reuters)",
-     "url": "https://www.foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report"
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Anthropic's IPO reportedly priced at $83, above the range",
+      "summary": "Anthropic priced its shares at $83, above the $70–78 range, according to Reuters, Bloomberg and CNBC, citing people familiar with the matter. That values it at about $1.5 trillion including all shares and options, per TechCrunch. Trading on Nasdaq as ANT is due to start on 19 November. Anthropic had not announced the price itself.",
+      "status": "Reported · Reuters, Bloomberg, CNBC",
+      "numbers": [
+        {
+          "k": "IPO price",
+          "v": "$83"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+          "primary": true
+        },
+        {
+          "name": "Fox Business (citing Reuters)",
+          "url": "https://www.foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-19"
     },
     {
-     "name": "Fortune",
-     "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Anthropic's shares close 17% above IPO price on first day",
+      "summary": "Anthropic began trading on Nasdaq as ANT. The first trade was at $111.50, and the shares closed at $97.17, up 17.1% on the $83 IPO price, per StockTitan and the Motley Fool. It raised about $81.3 billion, per StockTitan. Wider AI stocks fell the same day: Nvidia lost 3.3% and AMD 7.7%, and the S&P 500 fell about 2%.",
+      "status": "Market data · StockTitan, Motley Fool",
+      "numbers": [
+        {
+          "k": "Close",
+          "v": "$97.17 (+17.1% vs $83)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+          "primary": true
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-google-s-stake/"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/ant/"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-20"
     }
-   ],
-   "link": "anthropic-2026",
-   "added": "2026-11-19"
-  }
- ]
+  ]
 }

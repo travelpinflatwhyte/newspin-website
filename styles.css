@@ -773,3 +773,8 @@ html{scroll-padding-top:84px}
 .ord-btn:hover{border-color:var(--pin)}
 .ord-btn:focus-visible{outline:2px solid var(--pin);outline-offset:2px}
 @media (max-width:640px){.tl-tools{gap:8px}.seg-sm button{padding:0 10px}.ord-btn{padding:0 11px}}
+/* "New" tag for stories added in the last few days (NEW_DAYS in build.py) */
+.new-tag{display:inline-flex;align-items:center;margin-left:8px;padding:2px 8px;border-radius:999px;background:var(--pin-ink);color:#fff;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;vertical-align:middle;white-space:nowrap}
+.meta .new-tag{margin-left:0}
+.bubble .ring .nb{position:absolute;left:50%;bottom:-7px;transform:translateX(-50%);padding:1px 6px;border-radius:999px;background:var(--pin-ink);color:#fff;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;box-shadow:0 0 0 2px var(--surface);z-index:1}
+[data-theme="dark"] .new-tag,[data-theme="dark"] .bubble .ring .nb{background:#6FC39C;color:#0B0D12}

@@ -1,0 +1,306 @@
+{
+ "slug": "ukraine-peace-talks-2026",
+ "short": "Ukraine talks",
+ "category": "World",
+ "regions": [
+  "World"
+ ],
+ "title": "Russia–Ukraine peace talks: from Abu Dhabi to the Crimean bridge strikes",
+ "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge and Putin hardened his line.",
+ "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
+ "importance": 4,
+ "status": "Talks stalled after bridge strikes",
+ "tone": "live",
+ "big": "1,000+",
+ "delta": "prisoners per side",
+ "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 20 Nov.",
+ "updated": "2026-11-20",
+ "glance": {
+  "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times.",
+  "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
+  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes. The US says another round is agreed, with Europe due to join; no date is set. The agreed prisoner swap has not yet been reported as carried out."
+ },
+ "keyNumbers": [
+  {
+   "label": "Prisoner swap agreed",
+   "value": "1,000+",
+   "note": "per side, per TASS; not yet done",
+   "hot": true
+  },
+  {
+   "label": "Gap between rounds",
+   "value": "9 months",
+   "note": "Feb to Nov 2026"
+  },
+  {
+   "label": "Prisoners swapped, 23 Oct",
+   "value": "270 each",
+   "note": "11th swap of 2026"
+  },
+  {
+   "label": "Crimean bridge strikes",
+   "value": "3",
+   "note": "in one week, Nov"
+  }
+ ],
+ "forYou": "The war affects global oil and grain prices, and US sanctions policy on Russian oil, which India buys in large amounts.",
+ "upcoming": [],
+ "next": "Whether the next round goes ahead with Europe at the table, and whether the agreed prisoner swap happens.",
+ "links": [
+  "russian-oil"
+ ],
+ "events": [
+  {
+   "date": "2026-01-24",
+   "dateLabel": "23–24 Jan 2026",
+   "phase": "world",
+   "title": "First US–Russia–Ukraine talks in Abu Dhabi end without a deal",
+   "summary": "The United Arab Emirates hosted the first three-way talks, brokered by the US. Russia's team was led by its military intelligence chief and Ukraine's by Rustem Umerov. There was no agreement: Russia demanded that Ukraine withdraw fully from the Donbas region in the east, and Kyiv refused. US officials said the talks 'surpassed expectations'. On the night they ended, Russia launched more than 370 drones and 21 missiles at Ukraine, per CNN.",
+   "status": "Confirmed · US, Russian and Ukrainian delegations",
+   "numbers": [
+    {
+     "k": "Drones and missiles that night",
+     "v": "370+ and 21"
+    }
+   ],
+   "sources": [
+    {
+     "name": "bne IntelliNews",
+     "url": "https://www.intellinews.com/first-direct-ukraine-russia-talks-in-uae-since-invasion-end-without-breakthrough-421951/",
+     "primary": true
+    },
+    {
+     "name": "CNN via KVIA",
+     "url": "https://kvia.com/news/us-world/cnn-world/2026/01/23/ukraine-reports-new-deadly-russian-air-strikes-hours-after-first-trilateral-talks-with-us-in-abu-dhabi/"
+    }
+   ],
+   "added": "2026-11-20",
+   "key": true
+  },
+  {
+   "date": "2026-02-05",
+   "dateLabel": "4–5 Feb 2026",
+   "phase": "world",
+   "title": "Second round: no ceasefire, but 314 prisoners of war swapped",
+   "summary": "A second round in Abu Dhabi produced no ceasefire; control of the Donetsk region remained the main dispute. US envoy Steve Witkoff said the sides agreed to exchange 314 prisoners of war, and Russia's RIA news agency reported 157 returned by each side. It was the first swap since October 2025. Talks then stalled and lapsed after the US and Israel launched a war on Iran, Al Jazeera and Reuters report.",
+   "status": "Confirmed · Witkoff, Russian Defence Ministry",
+   "numbers": [
+    {
+     "k": "Prisoners exchanged",
+     "v": "314 (157 each)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "BusinessDay (Reuters)",
+     "url": "https://www.businessday.co.za/world/europe/2026-02-05-ukraine-and-russia-agree-to-prisoner-swap-on-day-two-of-peace-talks/",
+     "primary": true
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://aljazeera.com/news/2026/2/4/russia-ukraine-war-second-round-of-peace-talks-set-to-begin-in-abu-dhabi"
+    },
+    {
+     "name": "AAP",
+     "url": "https://aapnews.aap.com.au/news/ukraine-and-russia-swap-prisoners-following-uae-talks"
+    }
+   ],
+   "added": "2026-11-20",
+   "differs": "Ukrainska Pravda calls the February meeting the 'first round' of three-way talks; Al Jazeera calls it the second, after January."
+  },
+  {
+   "date": "2026-10-23",
+   "dateLabel": "23 Oct 2026",
+   "phase": "world",
+   "title": "Kremlin says talks will resume in Abu Dhabi in November",
+   "summary": "After Witkoff met President Putin in St Petersburg, Kremlin spokesman Dmitry Peskov said talks were planned for the first half of November in Abu Dhabi. President Zelenskyy confirmed 'technical negotiations'. The same day the two sides exchanged 270 prisoners each; the Kyiv Independent says it was the 11th exchange of 2026.",
+   "status": "Stated · Kremlin",
+   "numbers": [
+    {
+     "k": "Prisoners exchanged",
+     "v": "270 each"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+     "primary": true
+    },
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-02",
+   "dateLabel": "2 Nov 2026",
+   "phase": "world",
+   "title": "Witkoff sets talks for 10–11 November",
+   "summary": "Witkoff said talks would be held in Abu Dhabi on 10 and 11 November, covering 'post-war security agreements, de-escalation, humanitarian measures, and ending the war', with him and Jared Kushner leading the US side, Reuters reports.",
+   "status": "Stated · Witkoff",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Khaleej Times (Reuters)",
+     "url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-11",
+   "dateLabel": "10–11 Nov 2026",
+   "phase": "world",
+   "title": "First three-way talks in nine months: a big prisoner swap agreed, no breakthrough",
+   "summary": "Kushner and Witkoff mediated, with Vladimir Medinsky leading Russia's team and Umerov Ukraine's. Umerov said the main result was agreement on a 'large-scale prisoner exchange'; Medinsky called it a 'fundamental agreement'. A Russian general quoted by the TASS news agency said it would involve more than 1,000 people on each side. Kushner said the gaps had 'narrowed', but the sides still disagreed on territory, including Russia's demand for all of Donbas.",
+   "status": "Confirmed · Russian and Ukrainian delegations",
+   "numbers": [
+    {
+     "k": "Swap agreed",
+     "v": "1,000+ per side (TASS)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+     "primary": true
+    },
+    {
+     "name": "RTÉ",
+     "url": "https://www.rte.ie/news/ukraine/2026/1111/1598783-ukraine-russia/"
+    },
+    {
+     "name": "Council on Foreign Relations",
+     "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
+    }
+   ],
+   "added": "2026-11-20",
+   "key": true,
+   "differs": "The Council on Foreign Relations names a different Ukrainian representative; RTÉ and the Kyiv Independent name Umerov as chief negotiator."
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "world",
+   "title": "US envoys meet Putin in Moscow, then Zelenskyy",
+   "summary": "Witkoff and Kushner met Putin in the Kremlin for about two hours; his aide Yuri Ushakov called the talks 'substantive, constructive, frank and useful', AP reports. Putin said European troops in Ukraine after a ceasefire would be 'absolutely unacceptable'. Russian state TV quoted Witkoff as saying 'the Europeans will join at the next meeting'. The envoys then met Zelenskyy in Dublin.",
+   "status": "Confirmed · Kremlin, US envoys",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "AP via AJC",
+     "url": "https://www.ajc.com/news/2026/11/us-envoys-meet-with-putin-in-the-kremlin-after-ukraine-talks-in-abu-dhabi/",
+     "primary": true
+    },
+    {
+     "name": "Council on Foreign Relations",
+     "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "16–17 Nov 2026",
+   "phase": "world",
+   "title": "Ukrainian strike brings down part of the Crimean bridge road",
+   "summary": "Ukraine hit the 19-km Kerch bridge, which links Russia to occupied Crimea, with drones and missiles. Zelenskyy called it an 'unprecedented operation in response to Russian attacks on our infrastructure'. Al Jazeera reports about 200 metres of roadway heavily damaged and partly underwater. Russia opened a terrorism case, and the Kremlin said the bridge would be restored. Russian strikes damaged two bridges over the Dnipro in Kyiv the same day.",
+   "status": "Confirmed · Ukrainian General Staff, Russian-installed Crimea authorities",
+   "numbers": [
+    {
+     "k": "Bridge length",
+     "v": "19 km"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ABC13 (AP)",
+     "url": "https://abc13.com/story/ukraine-launches-unprecedented-strike-crimean-bridge-zelenskyy-says/20048008/",
+     "primary": true
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/18/crimea-is-turning-into-an-island-how-ukraine-hit-putins-prized-bridge"
+    }
+   ],
+   "added": "2026-11-20",
+   "key": true,
+   "differs": "ABC dates the strike to the night of Monday 16 November; Al Jazeera and Euronews say Tuesday 17 November. The Ukrainian missile maker Fire Point claims nearly 900 feet of road was destroyed; Al Jazeera reports about 200 metres damaged."
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "18–19 Nov 2026",
+   "phase": "world",
+   "title": "Third strike in a week hits the bridge's railway; trains stop",
+   "summary": "Ukraine's Defence Ministry said Neptune missiles hit the railway section of the bridge. Russia's Transport Ministry reported no injuries and a temporary halt to trains. Ukraine also hit two oil refineries in Russia's Krasnodar region.",
+   "status": "Confirmed · Ukrainian Defence Ministry, Russian Transport Ministry",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/19/ukraine-strikes-key-bridge-linking-russia-and-crimea-for-third-time-this-week-halting-rail",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432"
+    }
+   ],
+   "added": "2026-11-20",
+   "differs": "ABC places the strike on Wednesday night (18 November); Euronews reports it on Thursday (19 November). It appears to be the same overnight attack."
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026",
+   "phase": "world",
+   "title": "Trump, Xi and Putin meet in Shenzhen; their joint declaration leaves out Ukraine",
+   "summary": "The three leaders met for the first time together, on the sidelines of the APEC summit in China. Their four-point declaration does not mention Ukraine, per UNITED24 and the Kyiv Independent. Kremlin aide Ushakov said Ukraine was the main topic of a separate Trump–Putin meeting. Trump said 'things are happening' to end the war.",
+   "status": "Confirmed · Kremlin; Stated · Trump",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+     "primary": true
+    },
+    {
+     "name": "UNITED24 Media",
+     "url": "https://united24media.com/world/trump-putin-and-xi-sign-joint-declaration-without-mentioning-ukraine-or-europe-24540"
+    },
+    {
+     "name": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307"
+    }
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026",
+   "phase": "world",
+   "title": "Putin: 'After the strikes on the Crimean bridge, there will be no negotiations'",
+   "summary": "At a press conference after APEC, Putin said Moscow would no longer discuss ceasefires covering energy sites and Black Sea shipping, and promised a response 'far more painful'. Zelenskyy said Russia rejects every proposal to de-escalate. The wider US-led talks have not been formally called off. In Berlin, European leaders and the US envoys agreed that national security advisers from Britain, France, Germany, Italy, Poland and the EU would represent Europe if the talks widen, The National reports; Kushner said 'President Trump wants to make a deal with Europe by his side.'",
+   "status": "Stated · Putin",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The National",
+     "url": "https://www.thenationalnews.com/news/europe/2026/11/19/berlin-hosts-zelenskyy-as-putin-cools-on-direct-talks/",
+     "primary": true
+    },
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
+    }
+   ],
+   "added": "2026-11-20",
+   "key": true,
+   "differs": "Translations of Putin's words differ: the Kyiv Independent quotes 'we will not negotiate'; Outlook India quotes 'there will be no agreements'."
+  }
+ ]
+}

@@ -57,7 +57,7 @@
    "text": "Nvidia general counsel Tim Teter's interview"
   }
  ],
- "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, California's attorney general, Congress and the Justice and Commerce departments.",
+ "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); a public Senate Banking Committee hearing with Huang, date not yet set; the board's search for a permanent CEO; investigations by the board, California's attorney general, Congress and the Justice and Commerce departments.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -789,9 +789,33 @@
    ],
    "link": "us-markets-daily",
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "Huang to testify in public before the Senate Banking Committee; no date set",
+   "summary": "Jensen Huang has agreed to appear before the Senate Banking Committee, a spokesperson for its chairman, Senator Tim Scott, told Politico on 17 November. Scott told CNBC on 18 November that Huang and Commerce Secretary Howard Lutnick had agreed to appear and that he hoped to hold the hearing \"before Christmas\". His letters had asked for Huang on 3 December and Lutnick on 10 December. On 20 November Scott's spokesperson confirmed the testimony will be public, CNBC reported, with no date set. Whether witnesses will testify under oath had not been decided, per Streamline. This is separate from Huang's closed-door interview with three House committees on 1 December.",
+   "status": "Stated · Senate Banking Committee chairman's office (via Politico and CNBC)",
+   "sources": [
+    {
+     "name": "Bloomberg Law (citing Politico)",
+     "url": "https://news.bloomberglaw.com/artificial-intelligence/jensen-huang-agrees-to-testify-in-senate-politico-says",
+     "primary": true
+    },
+    {
+     "name": "Benzinga via Longbridge (citing CNBC)",
+     "url": "https://longbridge.com/en/news/306352194"
+    },
+    {
+     "name": "Streamline (citing CNBC)",
+     "url": "https://streamlinefeed.co.ke/news/huang-and-lutnick-to-testify-on-nvidia-exports-scott-says"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ],
  "heroTitle": "Nvidia shares fall 14% after report of an SEC accounting inquiry",
- "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It follows a subpoena from California's attorney general and Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December.",
+ "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It follows a subpoena from California's attorney general and Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December and has agreed to a public Senate hearing, date not set.",
  "heroAsOf": "2026-11-21"
 }

@@ -362,6 +362,36 @@
    "differs": "Death tolls differ: Ukraine's prime minister said eight were killed; RFE/RL reports at least nine. Moscow-installed officials separately reported three killed in occupied eastern Ukraine.",
    "added": "2026-11-21",
    "key": true
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "Night of 20 Nov 2026",
+   "phase": "world",
+   "title": "Russian strike on Kryvyi Rih, Zelenskyy's hometown, kills two",
+   "summary": "A Russian strike hit the centre of Kryvyi Rih on Friday night. A 7-year-old boy and a 20-year-old woman were killed, the head of the city administration said. The regional military administration said 60 people were wounded, including six children. City officials said about 25 apartment buildings, a hospital and schools were damaged. Asked about Trump calling Putin his \"friend\", Zelenskyy told CNN that for Ukraine Putin is \"an enemy\". There is still no date for a new round of talks.",
+   "status": "Confirmed · Kryvyi Rih city and regional officials (via AP)",
+   "numbers": [
+    {
+     "k": "Killed",
+     "v": "2"
+    },
+    {
+     "k": "Wounded",
+     "v": "60"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AP via KSAT",
+     "url": "https://www.ksat.com/news/world/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores/",
+     "primary": true
+    },
+    {
+     "name": "AP via KIRO 7",
+     "url": "https://www.kiro7.com/news/world/ballistic-missile/U42YFUJMEA2NRBPRT75XRXJG7E/"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

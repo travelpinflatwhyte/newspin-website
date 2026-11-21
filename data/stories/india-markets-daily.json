@@ -53,7 +53,8 @@
   {
    "date": "2026-11-24",
    "label": "24 Nov",
-   "text": "Markets closed for Guru Nanak Jayanti"
+   "text": "Markets closed for Guru Nanak Jayanti",
+   "minor": true
   },
   {
    "date": "2026-12-02",

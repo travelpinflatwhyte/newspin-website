@@ -85,13 +85,18 @@
     var days = daysBetween(latest, today);
     var fresh = Math.max(0, 10 - days * 0.5);
     var up = 0, until = null;
-    if (next && next >= today) {
-      until = daysBetween(today, next);
-      up = until <= 7 ? 6 - until * 0.5 : (until <= 21 ? 2 : 0);
+    var upnext = card.getAttribute('data-upnext');
+    if (next && next >= today) until = daysBetween(today, next);
+    if (upnext && upnext >= today) {
+      var u2 = daysBetween(today, upnext);
+      up = u2 <= 7 ? 6 - u2 * 0.5 : (u2 <= 21 ? 2 : 0);
     }
+    var keyat = card.getAttribute('data-keyat');
+    var kg = keyat ? daysBetween(keyat, today) : -1;
+    var turn = (kg >= 0 && kg <= 1) ? 3 : 0;
     var recent = Math.min(4, added.filter(function (x) { var g = daysBetween(x, today); return g >= 0 && g <= 14; }).length);
     return {
-      score: fresh + up + imp * 2 + recent,
+      score: fresh + up + imp * 2 + recent + turn,
       quiet: days > QUIET_DAYS && !(until !== null && until <= 30),
       latest: latest, next: (next && next >= today) ? next : '', imp: imp
     };

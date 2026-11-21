@@ -43,9 +43,10 @@ Upload the contents of `dist/` to the host that runs travelpinapp.com, as a sepa
 Stories are ranked automatically; there is no manual order. Each story's score is:
 
 - **freshness:** up to 10 points, fading over 20 days since the last event was added
-- **coming up:** up to 6 points if a scheduled event is within a week (2 if within three weeks)
+- **coming up:** up to 6 points if a scheduled event is within a week (2 if within three weeks). Upcoming items marked `"minor": true` (market holidays and other non-events) still show in the Next strip but earn no points.
 - **importance × 2:** `"importance"` in the story file, 1 (niche) to 5 (huge)
 - **activity:** 1 point per event added in the last 14 days, up to 4
+- **turning point:** 3 points if an event marked `"key": true` was added today or yesterday (`KEY_BONUS` in build.py), so a story's big day lifts it to the top
 
 The home page, top to bottom:
 

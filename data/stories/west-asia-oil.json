@@ -12,19 +12,19 @@
  "importance": 4,
  "status": "Talks, no deal",
  "tone": "live",
- "big": "$91.95",
+ "big": "$92.57",
  "delta": "Down about 22% from a late-October peak near $118",
- "bigLabel": "Brent settlement price on 18 Nov (Reuters)",
+ "bigLabel": "Brent settlement price on 20 Nov (Bloomberg); down 3.4% on the week",
  "updated": "2026-11-21",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Oil was heading for a third weekly fall on 20 November, with Brent near $90–91, as Gulf exports recover and traders expect a supply surplus. Attacks continue: tankers have been hit near Hormuz, Iran has struck at bases in Kuwait and Bahrain, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
+  "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row, as Gulf exports recover and traders expect a supply surplus. Attacks continue: tankers have been hit near Hormuz, Iran has struck at bases in Kuwait and Bahrain, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
  },
  "keyNumbers": [
   {
-   "label": "Brent, 18 Nov",
-   "value": "$91.95",
+   "label": "Brent, 20 Nov",
+   "value": "$92.57",
    "note": "per barrel, settlement",
    "hot": true
   },
@@ -563,6 +563,41 @@
     {
      "name": "HDFC Sky (PTI)",
      "url": "https://hdfcsky.com/news/rupee-settles-above-93-level-after-7-months-on-fii-flows-weak-crude-gains-65-paise-to-92-67-usd"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026 (settlement)",
+   "phase": "market",
+   "title": "Brent settles at $92.57, ending a third weekly fall",
+   "summary": "Brent crude for January rose 0.6% on Friday to settle at $92.57 a barrel, but fell 3.4% over the week, its third weekly fall in a row, per Bloomberg via Rigzone. FinanceFeeds gives the same settlement and says Brent was $95.84 a week earlier. Brent is down about a fifth in November, per Bloomberg. Traders weighed the risk of new US strikes on Iran against plentiful supply as Gulf exports recover; the IEA expects a surplus of about 2 million barrels a day this quarter. US WTI crude for January rose 1.2% to $83.41. OPEC+ meets on 29 November.",
+   "status": "Market data · Bloomberg",
+   "differs": "FinanceFeeds links Friday's rise to reports of a tanker fire near Hormuz; Bloomberg does not mention one on Friday and points to the risk of renewed US strikes on Iran.",
+   "numbers": [
+    {
+     "k": "Brent, 20 Nov settlement",
+     "v": "$92.57 (+0.6%)"
+    },
+    {
+     "k": "Brent, week",
+     "v": "−3.4%"
+    },
+    {
+     "k": "WTI (Jan), 20 Nov",
+     "v": "$83.41 (+1.2%)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Rigzone (Bloomberg)",
+     "url": "https://www.rigzone.com/news/wire/oil_posts_third_weekly_loss_amid_surplus-20-nov-2026-185141-article/",
+     "primary": true
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/brent-crude-oil-price-92-57-saturday-week-ahead-opec-plus-29-november-bull-96-bear-89/"
     }
    ],
    "added": "2026-11-21"

@@ -11,26 +11,27 @@
  "importance": 4,
  "status": "Poor · Stage II",
  "tone": "hot",
- "big": "269",
+ "big": "278",
  "delta": "poor",
- "bigLabel": "Delhi's AQI at 8 am on 20 Nov (CPCB data); it was 403 ('severe') on 13 Nov",
- "updated": "2026-11-20",
+ "bigLabel": "Delhi's average AQI on the morning of 21 Nov (official data via PTI); it was 403 ('severe') on 13 Nov",
+ "updated": "2026-11-21",
  "glance": {
-  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 214 at 7 am on 18 November, 289 at 8:30 am on 19 November and 269 at 8 am on 20 November, the season's coldest morning so far. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
+  "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 214 at 7 am on 18 November, 289 at 8:30 am on 19 November, 269 at 8 am on 20 November, the season's coldest morning so far, and 278 on 21 November, with 25 of 57 stations 'very poor'. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
   "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
   "next": "Air has stayed 'poor', with some stations 'very poor', as nights get colder. Stage I and II curbs stay. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
  },
  "keyNumbers": [
   {
-   "label": "AQI, 20 Nov 8 am",
-   "value": "269",
-   "note": "poor",
+   "label": "AQI, 21 Nov morning",
+   "value": "278",
+   "note": "poor; 25 stations very poor",
    "hot": true
   },
   {
-   "label": "AQI, 19 Nov 8:30 am",
-   "value": "289",
-   "note": "poor"
+   "label": "AQI, 20 Nov 8 am",
+   "value": "269",
+   "note": "poor",
+   "hot": false
   },
   {
    "label": "AQI, 13 Nov 6 am",
@@ -598,6 +599,45 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-21",
+   "dateLabel": "21 Nov 2026",
+   "phase": "air",
+   "title": "Saturday morning: AQI 278, with 25 stations 'very poor'",
+   "summary": "Delhi's average AQI was 278 on Saturday morning, per official data reported by PTI, up from 269 on Friday morning. That is 'poor' (201–300). Twenty-five of 57 stations were 'very poor' (above 300), up from 14 on Friday; the worst was DTU at 369 at 9:05 am. The minimum temperature at Safdarjung was 12.2°C, slightly below normal and warmer than Friday's 10.5°C. Stage I and II curbs remain in force, per ETV Bharat. IMD expects winds to slow as it gets colder, which can trap pollution.",
+   "status": "Official data · CPCB, IMD (via PTI)",
+   "differs": "PTI does not give a time for the 278 average. ETV Bharat reported an average of 200 at 6 am, but every one of the 22 stations it listed was above 300.",
+   "numbers": [
+    {
+     "k": "AQI, Sat morning",
+     "v": "278"
+    },
+    {
+     "k": "Stations 'very poor'",
+     "v": "25 of 57"
+    },
+    {
+     "k": "Minimum temperature",
+     "v": "12.2°C"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint (PTI)",
+     "url": "https://theprint.in/india/delhi-air-quality-in-poor-category-minimum-temperature-at-12-2-degrees/3104866/",
+     "primary": true
+    },
+    {
+     "name": "The Patriot",
+     "url": "https://thepatriot.in/delhi-ncr/delhi-aqi-remains-poor-at-278-minimum-temperature-settles-at-12-2-degrees-92478"
+    },
+    {
+     "name": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/bharat/delhi-aqi-air-qulaity-updates-air-pollution-grap-restrictions-november-21-enn26112100604"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

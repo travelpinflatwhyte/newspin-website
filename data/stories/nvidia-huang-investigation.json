@@ -17,7 +17,7 @@
  "bigLabel": "Nvidia share price at the close on 20 November (US time), after Reuters reported an SEC accounting inquiry",
  "updated": "2026-11-21",
  "glance": {
-  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November. On 20 November Reuters reported that SEC staff are examining possible accounting issues at Nvidia, and its shares fell 14%.",
+  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November. On 19 November California's attorney general subpoenaed Nvidia over possible chip leaks to China and investor disclosures. On 20 November Reuters reported that SEC staff are examining possible accounting issues at Nvidia, and its shares fell 14%.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
   "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios. A new board committee will oversee national security and export controls, and the board is searching for a permanent CEO. No details of the reported SEC inquiry have been made public."
  },
@@ -57,7 +57,7 @@
    "text": "Nvidia general counsel Tim Teter's interview"
   }
  ],
- "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, Congress and the Justice and Commerce departments.",
+ "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, California's attorney general, Congress and the Justice and Commerce departments.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -731,6 +731,26 @@
    "added": "2026-11-19"
   },
   {
+   "date": "2026-11-19",
+   "dateLabel": "19 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "California's attorney general subpoenas Nvidia",
+   "summary": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia, his office said on Thursday, per AP and CBS News. A subpoena is a legal order to hand over documents or answer questions. The state wants to know whether Nvidia's advanced chips or confidential information may have reached China, and whether the company misled investors and the public, per AP; CBS adds whether it broke state law. \"Companies cannot mislead their investors,\" Bonta said. \"Nvidia is in a messy, transnational situation.\" Nvidia did not immediately respond, per AP. A subpoena is not a finding of wrongdoing.",
+   "status": "Confirmed · California Department of Justice",
+   "sources": [
+    {
+     "name": "ABC News (AP)",
+     "url": "https://abcnews.com/Technology/wireStory/california-attorney-general-subpoenas-nvidia-chips-former-ceos-138308129",
+     "primary": true
+    },
+    {
+     "name": "CBS News San Francisco",
+     "url": "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
    "date": "2026-11-20",
    "dateLabel": "20 Nov 2026 (US time)",
    "phase": "policy",
@@ -772,6 +792,6 @@
   }
  ],
  "heroTitle": "Nvidia shares fall 14% after report of an SEC accounting inquiry",
- "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It comes after Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December.",
+ "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It follows a subpoena from California's attorney general and Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December.",
  "heroAsOf": "2026-11-21"
 }

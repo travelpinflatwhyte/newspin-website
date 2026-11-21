@@ -323,6 +323,7 @@ button{font-family:inherit}
 .lead-big{font-family:"Inter Tight",var(--sans);font-size:clamp(44px,6vw,68px);font-weight:800;letter-spacing:-.04em;line-height:1}
 .lead-delta{font-size:15px;font-weight:700;color:#C9CCD2}
 .lead-delta.dt-good{color:#6FC39C} .lead-delta.dt-bad{color:#F08A8A}
+.lead-delta .dl-rest{color:#C9CCD2;font-weight:600}
 .lead-note{font-size:13px;color:#A3AAB8}
 .lead .track .tl-top{color:#F2F4F7} .lead .track .now{background:#F2F4F7} .lead .track .now-l{color:#F2F4F7} .lead .track .next-l{color:#9DB2FF}
 .lead .track .past{opacity:.5}

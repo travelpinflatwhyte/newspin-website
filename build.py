@@ -322,6 +322,14 @@ def delta_tone(s):
     return "dt-good" if dl.startswith("▲") else "dt-bad" if dl.startswith("▼") else "dt-neutral"
 
 
+def delta_html(text):
+    """Colour only the change itself (arrow and figure); words after it, such as "on 20 Nov", stay neutral."""
+    m = re.match(r"^\s*([▲▼]\s*[≈~]?\s*[-+−]?[$₹]?[\d.,]+\s*(?:%|bps|pts|points)?(?:\s*\([^)]*\))?)(.*)$", text)
+    if not m or not m.group(2).strip():
+        return e(text)
+    return f'{e(m.group(1))}<span class="dl-rest">{e(m.group(2))}</span>'
+
+
 # ---------- ranking (mirrors rank() in static/app.js) ----------
 QUIET_DAYS = 60
 KEY_BONUS = 3  # points for a key event added today or yesterday
@@ -644,7 +652,7 @@ def build_home(site, stories, order, axis):
       </div>
     </div>
     <div class="lead-side">
-      <div class="lead-stat"><span class="lbl2">{e(stat_label)}</span><div><span class="lead-big">{e(h['big'])}</span>{'<span class="lead-delta '+delta_tone(h)+'">'+e(h['delta'])+'</span>' if show_delta else ''}</div></div>
+      <div class="lead-stat"><span class="lbl2">{e(stat_label)}</span><div><span class="lead-big">{e(h['big'])}</span>{'<span class="lead-delta '+delta_tone(h)+'">'+delta_html(h['delta'])+'</span>' if show_delta else ''}</div></div>
       {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/", recent=True)}
       <span class="lead-note">Next: {e(h['next'])}</span>
     </div>

@@ -6,19 +6,19 @@
   "World"
  ],
  "title": "Russia–Ukraine peace talks: from Abu Dhabi to the Crimean bridge strikes",
- "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge and Putin hardened his line.",
+ "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
  "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
  "importance": 4,
- "status": "Talks stalled after bridge strikes",
+ "status": "Talks stalled; Russia hits Kyiv bridges",
  "tone": "live",
  "big": "1,000+",
  "delta": "prisoners per side",
- "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 20 Nov.",
- "updated": "2026-11-20",
+ "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 21 Nov.",
+ "updated": "2026-11-21",
  "glance": {
-  "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times.",
+  "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
   "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes. The US says another round is agreed, with Europe due to join; no date is set. The agreed prisoner swap has not yet been reported as carried out."
+  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes, and Russia hit Kyiv's bridges a day later. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this. No date is set. The agreed prisoner swap has not yet been reported as carried out."
  },
  "keyNumbers": [
   {
@@ -301,6 +301,67 @@
    "added": "2026-11-20",
    "key": true,
    "differs": "Translations of Putin's words differ: the Kyiv Independent quotes 'we will not negotiate'; Outlook India quotes 'there will be no agreements'."
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "19–20 Nov 2026",
+   "phase": "world",
+   "title": "Kushner says Russia accepts Europe at the table; Moscow rejects any NATO-style role for Kyiv",
+   "summary": "After the Berlin meeting of Ukraine's allies, US envoy Jared Kushner said: 'I think we've gotten the Russians comfortable with that concept where any security guarantee for Ukraine would be based on Article 5.' Article 5 is NATO's rule that an attack on one member is an attack on all. He also said Russia had agreed to talks that include Europe. Moscow has not confirmed this. Russian Deputy Foreign Minister Sergei Ryabkov said any 'quasi membership' of NATO for Kyiv was 'totally unacceptable', and that a visit by European representatives was 'under consideration'. Zelenskyy said the next meeting would be four-way: Ukraine, the US, Russia and Europe. No date has been set.",
+   "status": "Stated · Kushner; Stated · Russian Foreign Ministry",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it",
+     "primary": true
+    },
+    {
+     "name": "Kyiv Post",
+     "url": "https://www.kyivpost.com/post/90635"
+    },
+    {
+     "name": "Al Jazeera (Reuters)",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "world",
+   "title": "Russia strikes three Kyiv bridges after Putin promises a response",
+   "summary": "Overnight Russian ballistic missiles damaged the Podilskyi, Darnytskyi and Southern bridges over the Dnipro in Kyiv, Mayor Vitali Klitschko said. Traffic was restricted and people crossed the river on foot. Prime Minister Koretskyi said eight people were killed, six of them in Kyiv, and 28 wounded. Russia's Defence Ministry said it targeted bridges used to move weapons, plus defence, energy and transport sites. Power was cut across Kyiv and in 10 regions after nuclear plants reduced output, Ukraine's energy ministry said. Putin had said in China: 'We will respond to these attacks.'",
+   "status": "Confirmed · Kyiv city authorities, Ukrainian government, Russian Defence Ministry",
+   "numbers": [
+    {
+     "k": "Killed",
+     "v": "8"
+    },
+    {
+     "k": "Wounded",
+     "v": "28"
+    },
+    {
+     "k": "Kyiv bridges hit",
+     "v": "3"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera (Reuters)",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+     "primary": true
+    },
+    {
+     "name": "RFE/RL",
+     "url": "https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html"
+    }
+   ],
+   "differs": "Death tolls differ: Ukraine's prime minister said eight were killed; RFE/RL reports at least nine. Moscow-installed officials separately reported three killed in occupied eastern Ukraine.",
+   "added": "2026-11-21",
+   "key": true
   }
  ]
 }

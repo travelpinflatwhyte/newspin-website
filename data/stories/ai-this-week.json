@@ -15,9 +15,9 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "glance": {
-    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out, Anthropic listed on Nasdaq and closed its first day 17% above its IPO price, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
+    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out and then fell sharply on a reported SEC probe of its accounting, Anthropic listed on Nasdaq, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
     "next": "A US list of AI 'national champions' is reportedly due within a week."
   },
@@ -29,9 +29,9 @@
       "hot": true
     },
     {
-      "label": "Anthropic first-day close",
-      "value": "$97.17",
-      "note": "+17.1% vs $83 IPO price"
+      "label": "Anthropic close, 20 Nov",
+      "value": "≈ $89",
+      "note": "IPO price $83"
     },
     {
       "label": "Free Google Vids clips",
@@ -46,7 +46,7 @@
   ],
   "forYou": "Most of this week's launches need nothing from you. Free AI video tools and new models bring a wave of scam apps and fake 'premium' offers, so download only from official app stores and company sites.",
   "upcoming": [],
-  "next": "A reported US list of AI 'national champions'; how AI shares trade after Anthropic's debut.",
+  "next": "A reported US list of AI 'national champions'; how AI shares trade after the sell-off.",
   "links": [
     "ai-model-tracker",
     "openai-2026",
@@ -574,6 +574,42 @@
       ],
       "link": "anthropic-2026",
       "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "AI shares slide as Reuters reports SEC probe of Nvidia's accounting",
+      "summary": "Reuters reported, citing two people briefed on the matter, that staff at the US Securities and Exchange Commission (SEC) are examining possible accounting issues at Nvidia. Reuters could not say when the inquiry began or which practices are being reviewed. The SEC declined to comment. An investigation is not proof of wrongdoing. Nvidia's shares fell sharply, and the Motley Fool estimated about $491 billion of its market value was wiped out in a day. Anthropic's shares fell to within five cents of their $83 IPO price before closing at about $88 to $89 ($88.91 per Yahoo Finance and CappNotes, $88.30 per 24/7 Wall St).",
+      "status": "Reported · Reuters",
+      "numbers": [
+        {
+          "k": "Nvidia value lost (Motley Fool estimate)",
+          "v": "≈ $491 bn"
+        },
+        {
+          "k": "Anthropic close",
+          "v": "≈ $89 ($88.91 or $88.30)"
+        }
+      ],
+      "differs": "Reports give different sizes for Nvidia's fall: about 12% (24/7 Wall St), about 13% after the report (Reuters, citing LSEG data) and about 14% in the afternoon (Motley Fool).",
+      "sources": [
+        {
+          "name": "Reuters via Euronext",
+          "url": "https://live.euronext.com/en/financial-news/nvidias-accounting-focus-us-sec-investigation-sources-say",
+          "primary": true
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/"
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-came-within-5-cents-of-its-83-ipo-price-on-day-2-then-bounced-6-to-close-at-88-30-facebook-closed-its-day-2-10-below-its-ipo-price/"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-21"
     }
   ]
 }

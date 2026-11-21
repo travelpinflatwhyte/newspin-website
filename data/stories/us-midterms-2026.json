@@ -15,11 +15,11 @@
  "big": "255",
  "delta": "House seats, Democrats",
  "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 1:16 pm IST, against 169 for Republicans. Counts may change.",
- "updated": "2026-11-13",
+ "updated": "2026-11-21",
  "glance": {
   "what": "Americans voted on 3 November for all 435 House seats and 35 Senate seats. As of 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169, and 55 Senate seats for Democrats (including 2 who caucus with them) against 44 for Republicans.",
   "why": "Congress writes US spending and trade laws and confirms judges and officials, so the result shapes the last two years of President Trump's term, including tariff fights that matter to Indian exporters.",
-  "next": "Remaining races are still being counted. The new Congress is due to meet in early January 2027."
+  "next": "All Senate races have now been called by AP; some House races are still being counted, and states are certifying results. The new Congress is due to meet in early January 2027."
  },
  "keyNumbers": [
   {
@@ -52,7 +52,7 @@
    "text": "New Congress meets"
   }
  ],
- "next": "Final counts in the remaining races; the new Congress meets in January.",
+ "next": "Final counts in the remaining House races and state certification; the new Congress meets in January.",
  "links": [
   "india-us-trade-deal",
   "russian-oil"
@@ -153,6 +153,36 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026",
+   "phase": "world",
+   "title": "AP calls Alaska's Senate race for Peltola, the last Senate race to be decided",
+   "summary": "The Associated Press called Alaska's US Senate race for Democrat Mary Peltola over Republican incumbent Dan Sullivan on the evening of 17 November, Alaska time. In the latest count Peltola had 144,302 votes (50.12%) to Sullivan's 131,844, Alaska's News Source reports. Because she passed 50%, Alaska's ranked-choice second round was not needed. AP says it was the last Senate race of the midterms to be decided. Sullivan's campaign said it would not comment until all ballots were counted. The result has not yet been certified.",
+   "status": "Reported · AP race call",
+   "numbers": [
+    {
+     "k": "Peltola votes",
+     "v": "144,302 (50.12%)"
+    },
+    {
+     "k": "Sullivan votes",
+     "v": "131,844"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Alaska's News Source",
+     "url": "https://alaskasnewssource.com/2026/11/18/peltola-is-going-back-dc-after-ap-calls-last-senate-race-democratic-challenger/",
+     "primary": true
+    },
+    {
+     "name": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/17/democrat-mary-peltola-wins-us-senate-race-in-alaska-beating-incumbent-republican-dan-sullivan/"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

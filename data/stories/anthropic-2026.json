@@ -12,30 +12,30 @@
   "importance": 4,
   "status": "Listed on Nasdaq as ANT",
   "tone": "hot",
-  "big": "$97.17",
-  "delta": "▲ 17.1% vs $83 IPO price",
-  "bigLabel": "Anthropic's closing share price on its first day of trading, 19 Nov (US time)",
+  "big": "≈ $89",
+  "delta": "▲ ≈ 7% vs $83 IPO price",
+  "bigLabel": "Anthropic's closing share price on 20 Nov (US time), its second day of trading: $88.91 per Yahoo Finance and CappNotes, $88.30 per 24/7 Wall St",
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17, up 17.1% on the $83 IPO price. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17, then fell to about $88–89 on the second day, still above the $83 IPO price. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
+      "label": "Close, 20 Nov",
+      "value": "≈ $89",
+      "note": "$88.91 or $88.30; IPO price $83",
+      "hot": true
+    },
+    {
       "label": "First-day close",
       "value": "$97.17",
-      "note": "+17.1% vs $83",
-      "hot": true
+      "note": "19 Nov"
     },
     {
       "label": "Raised in IPO",
       "value": "≈ $81.3 bn",
       "note": "per StockTitan"
-    },
-    {
-      "label": "Shares sold",
-      "value": "980 M",
-      "note": "Class A"
     },
     {
       "label": "Latest model",
@@ -544,7 +544,58 @@
         }
       ],
       "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Shares fall back towards the IPO price on day two",
+      "summary": "On its second day of trading, Anthropic's share price fell as low as $83.05, five cents above the $83 IPO price, per 24/7 Wall St and Startup Fortune. It then recovered to close at about $88 to $89: $88.91 (−8.50%) per Yahoo Finance and CappNotes, $88.30 per 24/7 Wall St. That is roughly 9% below Thursday's close of $97.17 but still about 6% to 7% above the IPO price. The fall came as AI and chip stocks sold off for a second day: Nvidia's shares fell sharply after Reuters reported that the US Securities and Exchange Commission (SEC) is looking into its accounting. Startup Fortune also pointed to worries that AI companies' valuations have run ahead of their profits.",
+      "status": "Market data · Yahoo Finance, CappNotes, 24/7 Wall St",
+      "numbers": [
+        {
+          "k": "Low, 20 Nov",
+          "v": "$83.05"
+        },
+        {
+          "k": "Close, 20 Nov",
+          "v": "$88.91 (−8.50%) or $88.30 (reports differ)"
+        },
+        {
+          "k": "vs IPO price",
+          "v": "about +6% to +7%"
+        }
+      ],
+      "differs": "Closing price: Yahoo Finance and CappNotes give $88.91 (−8.50%); 24/7 Wall St gives $88.30. Figures captured during the session also vary: TradingKey reported a low of $83.10, and Ara reported the shares just above $89 at about 3:45 pm Eastern time.",
+      "sources": [
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-came-within-5-cents-of-its-83-ipo-price-on-day-2-then-bounced-6-to-close-at-88-30-facebook-closed-its-day-2-10-below-its-ipo-price/",
+          "primary": true
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+        },
+        {
+          "name": "CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+        },
+        {
+          "name": "Startup Fortune",
+          "url": "https://startupfortune.com/anthropic-ant-stock-takes-a-nose-dive-crashing-near-its-listing-price-as-ai-bubble-fears-grow/"
+        },
+        {
+          "name": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315899-anthropic-stock-falls-14-percent-nears-83-ipo-price-tradingkey"
+        },
+        {
+          "name": "Ara",
+          "url": "https://en.ara.cat/economy/anthropic-sinks-close-to-8-in-the-second-day-the-stock-market_1_5917248.html"
+        }
+      ],
+      "added": "2026-11-21"
     }
   ],
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
 }

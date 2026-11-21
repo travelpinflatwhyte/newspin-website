@@ -15,11 +15,11 @@
  "big": "$91.95",
  "delta": "Down about 22% from a late-October peak near $118",
  "bigLabel": "Brent settlement price on 18 Nov (Reuters)",
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "glance": {
   "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
   "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-  "next": "Brent settled at $91.95 on 18 November as US stockpiles rose and traders expect a supply surplus. But attacks continue: two tankers were hit near Khasab at the mouth of Hormuz, Iran struck at a base in Kuwait hosting US forces, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
+  "next": "Oil was heading for a third weekly fall on 20 November, with Brent near $90–91, as Gulf exports recover and traders expect a supply surplus. Attacks continue: tankers have been hit near Hormuz, Iran has struck at bases in Kuwait and Bahrain, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
  },
  "keyNumbers": [
   {
@@ -531,6 +531,41 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "market",
+   "title": "Oil heads for a third weekly fall as Gulf exports recover",
+   "summary": "Oil prices were on course for a third weekly fall in a row on Friday, Reuters reported via RTÉ, as crude shipments through the Strait of Hormuz have returned to roughly pre-war levels, raising expectations of a supply surplus. Brent fell below $91 a barrel by 11 am New York time, per Al-Monitor, and PTI reported it 1.82% lower at $90.31 during Indian trading hours. Earlier in the day, Brent had risen to $92.57 after a Houthi missile attack on Riyadh and an Iranian Revolutionary Guards claim that two tankers hit mines in Hormuz and were burning; that claim has not been independently confirmed. Saxo analysts also pointed to a sell-off in AI-linked shares weighing on demand expectations. UOB analysts say Iranian attacks on tankers are running at about one a day in November. OPEC+ meets on 29 November.",
+   "status": "Market data · Reuters, PTI; Stated · IRGC (mines claim)",
+   "differs": "Reuters via RTÉ, writing on Friday morning, put Brent's weekly fall at 3.5%; Al-Monitor, later in the day, said about 5%.",
+   "numbers": [
+    {
+     "k": "Brent, Fri (India hours)",
+     "v": "$90.31 (−1.82%)"
+    },
+    {
+     "k": "Weekly falls in a row",
+     "v": "3"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RTÉ (Reuters)",
+     "url": "https://www.rte.ie/news/business/2026/1120/1599964-world-oil-prices/",
+     "primary": true
+    },
+    {
+     "name": "Al-Monitor",
+     "url": "https://al-monitor.com/originals/2026/11/oil-heads-third-weekly-loss-iran-tests-us-blockade-crude-transfer"
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-settles-above-93-level-after-7-months-on-fii-flows-weak-crude-gains-65-paise-to-92-67-usd"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

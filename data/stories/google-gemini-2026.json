@@ -329,7 +329,33 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026 (US time)",
+   "phase": "ai",
+   "title": "Genie 4 world model opens to Ultra subscribers",
+   "summary": "Google DeepMind made Genie 4, its newest 'world model', available in Project Genie, a browser-based experiment. Instead of playing back a finished video, it builds a scene as the user moves through it. Users can type prompts to change the weather, add characters or steer events, and for the first time it generates sound. It is open to eligible Google AI Ultra subscribers, a plan that costs $199.99 a month in the US, per Decrypt; AI Pro subscribers can join a waitlist. The Next Web notes that details can drift in long sessions.",
+   "status": "Confirmed · Google, via The Next Web and Decrypt",
+   "numbers": [
+    {
+     "k": "Ultra plan (US)",
+     "v": "$199.99 a month"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model",
+     "primary": true
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time?amp=1"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

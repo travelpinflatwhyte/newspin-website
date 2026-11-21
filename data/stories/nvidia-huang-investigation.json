@@ -10,28 +10,28 @@
  "dek": "In two weeks, a report that Nvidia’s founder was targeted by Chinese intelligence led to a board inquiry, another allegation, a share slide and his resignation.",
  "seoTitle": "Jensen Huang resigns as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang out · results beat",
+ "status": "Huang out · SEC inquiry reported",
  "tone": "hot",
- "big": "$115.8 bn",
- "delta": "▲ 103% year on year",
- "bigLabel": "Nvidia's revenue for August–October 2026, its first quarter reported without Huang as CEO",
- "updated": "2026-11-20",
+ "big": "$125.53",
+ "delta": "▼ 14.01% on 20 Nov",
+ "bigLabel": "Nvidia share price at the close on 20 November (US time), after Reuters reported an SEC accounting inquiry",
+ "updated": "2026-11-21",
  "glance": {
-  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November.",
+  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November. On 20 November Reuters reported that SEC staff are examining possible accounting issues at Nvidia, and its shares fell 14%.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios. A new board committee will oversee national security and export controls, and the board is searching for a permanent CEO."
+  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios. A new board committee will oversee national security and export controls, and the board is searching for a permanent CEO. No details of the reported SEC inquiry have been made public."
  },
  "keyNumbers": [
   {
-   "label": "Q3 revenue",
-   "value": "$115.8 bn",
-   "note": "+103% on a year earlier",
+   "label": "Share price, 20 Nov",
+   "value": "$125.53",
+   "note": "−14.01%",
    "hot": true
   },
   {
-   "label": "Q4 outlook",
-   "value": "≈ $130 bn",
-   "note": "± 3%, per Nvidia"
+   "label": "Q3 revenue",
+   "value": "$115.8 bn",
+   "note": "+103% on a year earlier"
   },
   {
    "label": "Interim CEO",
@@ -57,7 +57,7 @@
    "text": "Nvidia general counsel Tim Teter's interview"
   }
  ],
- "next": "Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, Congress and the Justice and Commerce departments.",
+ "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); the board's search for a permanent CEO; investigations by the board, Congress and the Justice and Commerce departments.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -729,9 +729,49 @@
     }
    ],
    "added": "2026-11-19"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026 (US time)",
+   "phase": "policy",
+   "key": true,
+   "title": "Reuters: SEC staff examining possible accounting issues at Nvidia; shares fall 14%",
+   "summary": "Two people briefed on the matter told Reuters that enforcement staff at the SEC, the US markets regulator, are examining \"potential accounting issues\" at Nvidia. Reuters could not find out when the inquiry began or which issues it covers. The Wall Street Journal had reported an SEC probe on 17 November without saying what it focused on. The SEC declined to comment and Nvidia did not immediately respond, per Reuters. An inquiry is not a finding of wrongdoing, and many end without action. Nvidia shares closed down 14.01% at $125.53, per Yahoo Finance and CappNotes, the worst day since January 2025, per CappNotes. Reuters, citing LSEG data, says shares were already down more than 6% before its report.",
+   "status": "Reported · Reuters (SEC inquiry); Market data (shares)",
+   "numbers": [
+    {
+     "k": "Share price, 20 Nov close",
+     "v": "$125.53 (−14.01%)"
+    },
+    {
+     "k": "Below 6 Oct record close",
+     "v": "≈ 46% (24/7 Wall St)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
+     "primary": true
+    },
+    {
+     "name": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/11/20/nvidia-stock-plunges-12-after-reuters-reports-an-sec-probe-of-its-accounting-its-nvidias-worst-day-since-deepseek-and-it-has-lost-2-7-trillion-since-october/"
+    },
+    {
+     "name": "CappNotes",
+     "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ],
+   "link": "us-markets-daily",
+   "added": "2026-11-21"
   }
  ],
- "heroTitle": "Nvidia shares slip after its sales double; board says Huang won't return",
- "heroDek": "Revenue rose 103% in the first quarter without Jensen Huang as CEO, but shares fell 2.89% the next day. The board chair says Huang will not be reinstated, and a new board committee will oversee national security. Huang is due before three House committees on 1 December.",
- "heroAsOf": "2026-11-20"
+ "heroTitle": "Nvidia shares fall 14% after report of an SEC accounting inquiry",
+ "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It comes after Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December.",
+ "heroAsOf": "2026-11-21"
 }

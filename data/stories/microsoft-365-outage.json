@@ -20,7 +20,7 @@
  "glance": {
   "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot in 74 countries and territories for about a day. Microsoft's preliminary report blames a hidden bug in a months-old fix to its gateway servers, which surfaced after Teams traffic was moved onto them while some capacity was already offline. It says it was not a cyber attack.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "Microsoft says its final incident report, with a full list of fixes, is due by 20 November."
+  "next": "Microsoft said its final incident report, with a full list of fixes, would follow by 20 November. Such reports go to business customers; no public coverage of a final report had appeared by the morning of 21 November."
  },
  "keyNumbers": [
   {
@@ -45,14 +45,8 @@
   }
  ],
  "forYou": "Outlook and Teams should be working again. Emails sent during the outage may arrive late as queues clear. If something still fails, restart the app or sign out and back in.",
- "upcoming": [
-  {
-   "date": "2026-11-20",
-   "label": "20 Nov",
-   "text": "Microsoft's final incident report"
-  }
- ],
- "next": "Microsoft's final incident report, due 20 Nov.",
+ "upcoming": [],
+ "next": "Microsoft's final incident report, due by 20 Nov, has not yet been reported publicly.",
  "links": [
   "nvidia-huang-investigation",
   "us-flights-ground-stop"

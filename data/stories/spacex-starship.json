@@ -15,11 +15,11 @@
   "big": "15",
   "delta": "test flights",
   "bigLabel": "Starship test flights since April 2023: 10 counted as successes and 5 as failures, as of 14 November 2026",
-  "updated": "2026-11-16",
+  "updated": "2026-11-21",
   "glance": {
     "what": "Starship is SpaceX's giant two-stage rocket: a Super Heavy booster and the Starship spacecraft on top, both meant to be reused. On Flight 15 the spacecraft was caught by the arms of its launch tower in Texas after about 22.5 hours in space, the first time a rocket's upper stage has been recovered this way. The booster's catch was called off and it came down in the Gulf of Mexico.",
     "why": "Reusing both stages, like an aircraft, could make launches much cheaper. Starship is central to SpaceX's next-generation Starlink satellites and to NASA's plan to land astronauts on the Moon.",
-    "next": "SpaceX is expected to try catching both stages on the next flight, and to begin launching from Florida. NASA's Moon plans need a demonstration of refuelling in orbit, planned for 2027."
+    "next": "SpaceX is expected to try catching both stages on the next flight, and to begin launching from Florida. Mexico's environment agency is checking debris that washed up near the border after Flight 15; SpaceX says it found very little. NASA's Moon plans need a demonstration of refuelling in orbit, planned for 2027."
   },
   "keyNumbers": [
     {
@@ -101,7 +101,7 @@
   ],
   "forYou": "Starship is how SpaceX plans to launch its next-generation Starlink internet satellites, which are bigger and faster than today's. If both stages can be caught and flown again quickly, the cost of getting things into space could fall sharply, which affects everything from satellite internet to Moon missions.",
   "upcoming": [],
-  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida.",
+  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida. Mexico's environment agency is still identifying debris found on a beach near Starbase.",
   "links": [
     "xai-grok-2026",
     "us-flights-ground-stop"
@@ -431,6 +431,32 @@
       ],
       "added": "2026-11-16",
       "key": true
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "17–19 Nov 2026",
+      "phase": "tech",
+      "title": "Debris on a Mexican beach; SpaceX says it found very little",
+      "summary": "Mexico's federal environment agency, Profepa, said debris began washing up on Playa Bagdad in Tamaulipas, just across the border from Starbase, on the morning of 17 November, after the Flight 15 booster came down in the Gulf of Mexico. Profepa said it would take custody of the material and ask SpaceX to take responsibility for anything traced to its launches. The conservation group Conibio reported plastic, tape and adhesive fragments offshore. On 19 November SpaceX said its teams found very few fragments, that their origin was not confirmed, and that social media claims of widespread damage were false or misleading. It cited independent tests finding no chemical, biological or toxicological risk in Starship's materials and offered to help if Mexican authorities ask. Investigators have not yet said which pieces came from Flight 15.",
+      "status": "Stated · Profepa, SpaceX",
+      "differs": "Conibio, as reported by NeoTeo citing WIRED en Español, estimated 'thousands, possibly millions' of fragments; SpaceX says its teams found very few.",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Por Esto!",
+          "url": "https://www.poresto.com/internacional/2026/11/20/spacex-rechaza-danos-generalizados-residuos-starship-tamaulipas-profepa-mantiene-revision-playa-bagdad.html",
+          "primary": true
+        },
+        {
+          "name": "TeslaNorth",
+          "url": "https://teslanorth.com/2026/11/19/spacex-starship-flight-15-debris-mexico/"
+        },
+        {
+          "name": "NeoTeo (citing WIRED en Español)",
+          "url": "https://www.neoteo.com/en/conibio-reports-fragments-off-mexicos-tamaulipas-coast-after-starship-launches"
+        }
+      ],
+      "added": "2026-11-21"
     }
   ]
 }

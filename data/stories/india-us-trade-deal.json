@@ -15,11 +15,11 @@
  "big": "10%",
  "delta": "deal unsigned",
  "bigLabel": "US duty on most Indian goods since 24 Jul",
- "updated": "2026-11-13",
+ "updated": "2026-11-21",
  "glance": {
-  "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. As of 3 November there is still no signed agreement.",
+  "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
   "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
-  "next": "No signed deal yet. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida next month."
+  "next": "Signing waits on Washington's new tariff rules and pending Section 301 investigations, per the Commerce Secretary. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida next month."
  },
  "keyNumbers": [
   {
@@ -41,7 +41,7 @@
   {
    "label": "Signed deal",
    "value": "None",
-   "note": "as of 3 Nov"
+   "note": "as of 18 Nov"
   }
  ],
  "forYou": "If you work in or invest in export-heavy sectors, the final tariff rate matters more than the headlines. Nothing announced is binding until a deal is signed.",
@@ -52,7 +52,7 @@
    "text": "G20 summit in Florida, a possible target for phase one"
   }
  ],
- "next": "A possible push to close phase one around the G20 summit in December.",
+ "next": "Signing waits on the new US tariff structure; a possible push to close phase one around the G20 summit in December.",
  "links": [
   "russian-oil",
   "rupee-slide-2026"
@@ -218,6 +218,27 @@
     }
    ],
    "added": "2026-11-13"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "trade",
+   "title": "Commerce Secretary: deal 'more or less finalised' but can't be signed until new US tariff rules are in place",
+   "summary": "Commerce Secretary Rajesh Agrawal said \"every aspect of the deal has been more or less finalised\" and negotiations will conclude soon. But he said the two countries cannot sign it until Washington puts its new tariff structure in place: \"Till that tariff architecture is in place, the countries won't be able to sign the deal.\" The US is rebuilding its tariffs after its Supreme Court ruled in February that the emergency law used for the earlier tariffs did not allow them. Agrawal also pointed to pending US Section 301 investigations, saying countries will want to know their outcome before signing. He spoke at a FICCI event in New Delhi, per ANI.",
+   "status": "Stated · Commerce Secretary · not signed",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "The Tribune (ANI)",
+     "url": "https://tribuneindia.com/news/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary",
+     "primary": true
+    },
+    {
+     "name": "Republic World",
+     "url": "https://www.republicworld.com/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary-rajesh-agrawal-2026-11-18-141323"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

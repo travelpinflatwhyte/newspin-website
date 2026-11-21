@@ -10,48 +10,48 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Six days down",
+  "status": "Seven days down · correction",
   "tone": "live",
-  "big": "≈ 7,177",
-  "delta": "▼ ≈ 2.0%",
-  "bigLabel": "S&P 500 close on 19 Nov (US time); reports differ slightly on the exact level",
-  "updated": "2026-11-20",
+  "big": "6,910.39",
+  "delta": "▼ 3.70%",
+  "bigLabel": "S&P 500 close on Friday 20 Nov (US time), about 10.7% below its 6 October record",
+  "updated": "2026-11-21",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 fell about 2% on 19 November, its sixth loss in a row and its longest losing run since April 2024. The Dow fell about 1,100 points and the Nasdaq fell 2.2%. Stocks had opened higher before turning down.",
-    "why": "Wall Street has been weighed down by signs the Fed may raise interest rates again, worries about high share prices, and Nvidia's leadership crisis. Big US moves often set the tone for Indian markets the next morning.",
-    "next": "Whether the losing run continues on Friday 20 November, and upcoming US inflation and jobs data."
+    "what": "The S&P 500 fell 3.70% on Friday 20 November, its seventh loss in a row. It is now about 10.7% below its October record, which counts as a correction. The Dow fell 1.93% and the Nasdaq 5.28%, wiping out the Nasdaq's gains for 2026. The S&P 500 lost 8.6% over the week, per CappNotes.",
+    "why": "A sell-off in AI and chip shares, led by Nvidia, and expectations of a Fed rate rise in December have weighed on Wall Street. Big US moves often set the tone for Indian markets the next trading day.",
+    "next": "US markets reopen on Monday 23 November. The Fed's next meeting is in December."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 19 Nov",
-      "value": "≈ 7,177",
-      "note": "≈ −2.0%",
+      "label": "S&P 500, 20 Nov",
+      "value": "6,910.39",
+      "note": "−3.70%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "49,097",
-      "note": "−2.19%"
+      "value": "48,147.33",
+      "note": "−1.93%"
     },
     {
       "label": "Nasdaq",
-      "value": "23,886",
-      "note": "−2.23%"
+      "value": "22,617.73",
+      "note": "−5.28%"
     },
     {
-      "label": "18 Nov close",
-      "value": "7,323.63",
-      "note": "previous day"
+      "label": "S&P 500, week",
+      "value": "−8.6%",
+      "note": "per CappNotes"
     }
   ],
   "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
   "upcoming": [],
-  "next": "Friday's session (20 Nov, US time), and upcoming US inflation and jobs data that could move expectations for Fed rates.",
+  "next": "Monday's session (23 November, US time), and whether the Fed raises rates at its December meeting.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -450,6 +450,51 @@
       ],
       "link": "anthropic-2026",
       "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "phase": "market",
+      "key": true,
+      "title": "S&P 500 falls 3.7% for a seventh straight loss and enters a correction; Nasdaq turns negative for 2026",
+      "summary": "The S&P 500 fell 3.70% to 6,910.39, its seventh loss in a row, per Yahoo Finance and CappNotes. It closed about 10.7% below its record close of 7,818.93 on 6 October, which counts as a correction (a fall of 10% or more from a peak). The Dow fell 1.93% and also closed in a correction. The Nasdaq fell 5.28% and is now down for 2026. CappNotes puts the S&P 500's fall for the week at 8.6%, its worst week since April 2025. Reporters linked the fall to a sell-off in AI and chip shares and to expectations that the Fed will raise rates in December. Nvidia fell 14.01%; CappNotes cites a Reuters report that SEC enforcement staff are examining possible accounting issues at the company. AMD fell 13.25%. Anthropic fell 8.50% to $88.91 on its second day of trading, still above its $83 IPO price. Consumer staples was the only sector to rise, per CappNotes. Opening levels were not given, so this day has no gap figure; Yahoo Finance reports the S&P 500 was down about 0.5% soon after the open.",
+      "status": "Market data · Yahoo Finance, CappNotes",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "6,910.39 (−265.44, −3.70%)"
+        },
+        {
+          "k": "Dow",
+          "v": "48,147.33 (−949.73, −1.93%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "22,617.73 (−1,261.47, −5.28%)"
+        },
+        {
+          "k": "S&P 500, week",
+          "v": "−8.6% (CappNotes)"
+        }
+      ],
+      "differs": "Yahoo Finance and CappNotes agree on the closing figures above, which imply a 19 November S&P 500 close of 7,175.83, slightly below the ≈ 7,177 recorded here. Yahoo Finance's article text also says 3.6% in one place. 24/7 Wall St gives bigger falls: S&P 500 −3.97%, Dow −2.11%, Nasdaq −5.57%. The VIX 'fear gauge' is given as 35.89 at the close by CappNotes and 38.40 by Yahoo Finance. For Anthropic, 24/7 Wall St gives a close of $88.30 rather than $88.91.",
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+          "primary": true
+        },
+        {
+          "name": "CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/cards/the-nasdaq-s-5-57-drop-was-nearly-triple-the-dow-s-decline-gspc-market-bell-01m7xcbks3vbjsn2anrzaqypc4"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-21"
     }
   ]
 }

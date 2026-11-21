@@ -7,16 +7,16 @@
   "dek": "Real-money games are banned. A new authority now decides what counts as esports or a social game.",
   "seoTitle": "Online gaming ban and rules 2026: timeline",
   "importance": 2,
-  "status": "In force",
+  "status": "In force · court hearing 2 Dec",
   "tone": "quiet",
   "big": "Banned",
   "delta": "real-money games",
   "bigLabel": "Under rules in force since 1 May 2026",
-  "updated": "2026-11-12",
+  "updated": "2026-11-21",
   "glance": {
     "what": "Since 1 May 2026, online games with money stakes are banned, and the Online Gaming Authority of India classifies and registers games.",
     "why": "It reshaped one of India’s fastest-growing digital industries, from fantasy sports to esports and game studios.",
-    "next": "Which titles the authority clears as esports or social games."
+    "next": "The Supreme Court is due to hear the challenge to the ban on 2 December; the ban stays in force meanwhile. The authority is also deciding which titles count as esports or social games."
   },
   "keyNumbers": [
     {"label": "In force", "value": "1 May 2026", "note": "rules and regulator", "hot": true},
@@ -25,8 +25,8 @@
     {"label": "Esports licence", "value": "up to 10 yrs", "note": "registration"}
   ],
   "forYou": "Games with no money at stake can keep running without mandatory registration unless the authority asks. Platforms must store Indian users’ data in India and offer age checks and parental controls.",
-  "upcoming": [],
-  "next": "Which games are cleared as esports or social games.",
+  "upcoming": [{"date": "2026-12-02", "label": "2 Dec", "text": "Supreme Court hearing on the challenge to the real-money gaming ban"}],
+  "next": "Supreme Court hearing on 2 Dec; which games are cleared as esports or social games.",
   "links": [],
   "events": [
     {"date": "2025-08-21", "dateLabel": "21 Aug 2025", "phase": "law", "title": "Parliament passes the gaming law",
@@ -40,6 +40,10 @@
     {"date": "2026-05-01", "dateLabel": "1 May 2026", "phase": "law", "key": true, "title": "Rules take effect; real-money games banned",
      "summary": "The authority goes live. It classifies games as money games, social games or esports, with a 90-day determination process. Esports certificates can last up to 10 years.",
      "status": "Confirmed", "numbers": [{"k": "Determination", "v": "90 days"}, {"k": "Esports certificate", "v": "up to 10 yrs"}],
-     "sources": [{"name": "The Quint", "url": "https://www.thequint.com/amp/story/news/breaking-news/government-of-india-notifies-online-gaming-rules-2026-ban"}, {"name": "GKToday", "url": "https://www.gktoday.in/ogai-to-regulate-indias-online-gaming-sector-from-may/"}, {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/india-launches-online-gaming-authority-with-strict-compliance-mandates-from-may-2026/"}]}
+     "sources": [{"name": "The Quint", "url": "https://www.thequint.com/amp/story/news/breaking-news/government-of-india-notifies-online-gaming-rules-2026-ban"}, {"name": "GKToday", "url": "https://www.gktoday.in/ogai-to-regulate-indias-online-gaming-sector-from-may/"}, {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/india-launches-online-gaming-authority-with-strict-compliance-mandates-from-may-2026/"}]},
+    {"date": "2026-11-19", "dateLabel": "19 Nov 2026", "phase": "law", "title": "Supreme Court to hear the challenge to the ban on 2 December",
+     "summary": "The company behind the A23 Rummy app, the lead petitioner challenging the 2025 gaming law, asked the Supreme Court for an earlier hearing, and a bench led by Chief Justice Surya Kant listed the case for 2 December, gaming trade outlets report. The petitioners argue the law wrongly treats games of skill like games of chance, breaks the right to do business, and covers betting, which the Constitution leaves to states. The case was moved to the Supreme Court from three High Courts in September 2025 and has been deferred before. A hearing date is not a stay: the ban stays in force unless the court rules otherwise.",
+     "status": "Reported", "numbers": [],
+     "sources": [{"name": "Focus Gaming News", "url": "https://focusgn.com/asia-pacific/india-supreme-court-a23-gaming-ban-hearing", "primary": true}, {"name": "VIRLAN", "url": "https://www.virlan.co/betting/india-supreme-court-a23-ban-december-2-hearing-head-digital-works/"}, {"name": "Supreme Court Observer (case history)", "url": "https://www.scobserver.in/cases/challenge-to-the-promotion-and-regulation-of-online-gaming-act-2025/"}], "added": "2026-11-21"}
   ]
 }

@@ -9,16 +9,16 @@
  "dek": "A draft policy to replace the 2005 rules proposes yearly automatic tariff increases and cutting cross-subsidies.",
  "seoTitle": "National Electricity Policy 2026: timeline",
  "importance": 2,
- "status": "Draft",
+ "status": "Draft · with Cabinet",
  "tone": "quiet",
  "big": "2,000",
  "delta": "kWh by 2030",
  "bigLabel": "Per-person electricity use the draft policy targets",
- "updated": "2026-11-13",
+ "updated": "2026-11-21",
  "glance": {
-  "what": "The Power Ministry released a draft National Electricity Policy in January 2026 to replace the 2005 policy. Public comments closed on 19 February.",
+  "what": "The Power Ministry released a draft National Electricity Policy in January 2026 to replace the 2005 policy. Public comments closed on 19 February. In September the ministry sent it to the Cabinet so other ministries could review it.",
   "why": "It proposes index-linked tariff increases every April and limits on cross-subsidies, which could change household and industrial power bills.",
-  "next": "The final policy has to be notified. Nothing in the draft applies until then."
+  "next": "The final policy has to be approved and notified. Nothing in the draft applies until then."
  },
  "keyNumbers": [
   {
@@ -105,6 +105,27 @@
      "url": "https://keralakaumudi.com/en/news/news-amp.php?id=1686521"
     }
    ]
+  },
+  {
+   "date": "2026-09-24",
+   "dateLabel": "24 Sep 2026",
+   "phase": "policy",
+   "title": "Draft sent to the Cabinet for inter-ministry review",
+   "summary": "Power Secretary Pankaj Agarwal said the ministry had moved a Cabinet note so other ministries can review the draft policy, after stakeholder comments were compiled. \"I think it won't be taking very long,\" he said at a FICCI power conference. After this review, the government will issue the final policy. The policy it replaces dates from 2005.",
+   "status": "Stated · Power Ministry",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Business Standard (PTI)",
+     "url": "https://www.business-standard.com/industry/news/draft-national-electricity-policy-2026-sent-to-cabinet-power-ministry-126092400627_1.html",
+     "primary": true
+    },
+    {
+     "name": "PSU Watch",
+     "url": "https://psuwatch.com/newsupdates/draft-national-electricity-policy-2026-moved-to-cabinet-for-inter-ministerial-consultation-power-secretary"
+    }
+   ],
+   "added": "2026-11-21"
   },
   {
    "date": "2026-11-12",

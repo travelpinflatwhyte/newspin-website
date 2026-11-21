@@ -291,7 +291,33 @@
    ],
    "added": "2026-11-13",
    "link": "ai-this-week"
+  },
+  {
+   "date": "2026-11-13",
+   "dateLabel": "13 Nov 2026",
+   "phase": "tech",
+   "title": "About 60 jobs reportedly cut from the Grok Imagine video team",
+   "summary": "SpaceX's AI group cut about 60 roles from the team behind Grok Imagine, its image and video generator, leaving only a handful of staff, The Information reported, citing people familiar with the matter. Summaries of the report say the group is putting more effort into coding tools and its Grok Bot agent. Grok Imagine is still available to users. SpaceX has not commented publicly.",
+   "status": "Reported · The Information",
+   "numbers": [
+    {
+     "k": "Roles cut (reported)",
+     "v": "about 60"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AI Weekly (summarising The Information)",
+     "url": "https://aiweekly.co/alerts/spacex-super-intelligence-cuts-60-from-grok-imagine-video-team",
+     "primary": true
+    },
+    {
+     "name": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/spacex-ai-group-reportedly-lays-off-most-grok-imagine-team-b2a87244"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-21"
 }

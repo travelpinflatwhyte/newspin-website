@@ -320,7 +320,33 @@
    ],
    "link": "ai-model-tracker",
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "trade",
+   "title": "Nvidia stops shipping US-approved H200 chips to China",
+   "summary": "Nvidia's interim CEO Colette Kress said on the company's earnings call that it is \"no longer shipping licensed Hopper data centre products to China\", which include the H200 chips Washington had approved for some Chinese buyers, Reuters reported. Nvidia sold $2.4 billion of these chips to China in the quarter to 25 October, and its forecast includes none. She did not say why or whether the halt is permanent. Beijing has also limited imports of the H200 to cut reliance on US technology. For Chinese AI labs, it means less new supply of the US chips used to train and run large models.",
+   "status": "Stated · Nvidia, via Reuters",
+   "numbers": [
+    {
+     "k": "H200-class sales to China, Aug–Oct quarter",
+     "v": "$2.4 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Standard (Reuters)",
+     "url": "https://www.thestandard.com.hk/china/article/348898/Nvidia-stops-shipping-US-approved-AI-chips-to-China",
+     "primary": true
+    },
+    {
+     "name": "TimesLIVE (Reuters)",
+     "url": "https://www.timeslive.co.za/news/sci-tech/2026-11-18-nvidia-stops-shipping-us-approved-ai-chips-to-china/"
+    }
+   ],
+   "added": "2026-11-21"
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-21"
 }

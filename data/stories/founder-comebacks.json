@@ -1,0 +1,842 @@
+{
+ "slug": "founder-comebacks",
+ "short": "Founder comebacks",
+ "category": "Tech",
+ "regions": [
+  "US",
+  "World"
+ ],
+ "title": "Founders who left and came back: from Steve Jobs to Sam Altman",
+ "dek": "Jobs, Schultz, Dell, Page, Schwab, Dorsey and Altman all left the top job and later returned. How each one left, how each came back, and Nvidia's open case.",
+ "seoTitle": "Founders who came back as CEO: a timeline",
+ "importance": 3,
+ "status": "Nvidia: an open case",
+ "tone": "quiet",
+ "big": "7",
+ "delta": "founders back as CEO",
+ "bigLabel": "Founders on this timeline who returned to run the company they founded or built (Schultz did it twice)",
+ "updated": "2026-11-21",
+ "glance": {
+  "what": "Some founders leave the top job and later return. Steve Jobs was pushed out of Apple in 1985 and came back in 1997. Howard Schultz returned to Starbucks twice. Michael Dell, Larry Page, Charles Schwab and Jack Dorsey also came back. Sam Altman was removed by OpenAI's board, and four days later it agreed to bring him back.",
+  "why": "The way a founder leaves matters. Some stepped down by choice; others were removed by their boards, and accounts sometimes differ on which it was. Nvidia's Jensen Huang resigned on 12 November 2026 and has said he would return if asked; Nvidia's board chair says the board does not intend to reinstate him.",
+  "next": "Whether Nvidia's board changes its position on Huang, and who it picks as permanent CEO."
+ },
+ "keyNumbers": [
+  {
+   "label": "Longest gap",
+   "value": "12 years",
+   "note": "Jobs, Sep 1985 to Sep 1997",
+   "hot": true
+  },
+  {
+   "label": "Shortest gap",
+   "value": "4 days",
+   "note": "Altman, 17 to 21 Nov 2023"
+  },
+  {
+   "label": "Returned twice",
+   "value": "Schultz",
+   "note": "Starbucks, 2008 and 2022"
+  },
+  {
+   "label": "Open case",
+   "value": "Huang",
+   "note": "resigned 12 Nov 2026"
+  }
+ ],
+ "forYou": "Many of the products people use every day, from iPhones and Google search to Starbucks coffee and ChatGPT, were shaped by these leadership changes. This timeline records what happened; it does not judge whether a founder's return helped or hurt a company.",
+ "next": "Nvidia's search for a permanent CEO, and whether its board changes its position on Huang.",
+ "links": [
+  "nvidia-huang-investigation",
+  "apple-story",
+  "openai-2026"
+ ],
+ "events": [
+  {
+   "date": "1985-09-17",
+   "dateLabel": "17 Sep 1985",
+   "phase": "tech",
+   "title": "Steve Jobs leaves Apple after losing a boardroom fight",
+   "summary": "Chief executive John Sculley takes Jobs off the Macintosh division in April 1985, according to the Computer History Museum. In May, Sculley defeats Jobs's attempt to win back control in the boardroom. Jobs resigns in September and starts a new computer company, NeXT.",
+   "status": "Confirmed · Computer History Museum, Britannica",
+   "differs": "The Computer History Museum describes the September exit as a resignation. Britannica says Jobs was ousted by Sculley.",
+   "sources": [
+    {
+     "name": "Computer History Museum",
+     "url": "https://computerhistory.org/apple-timeline/"
+    },
+    {
+     "name": "Britannica",
+     "url": "https://www.britannica.com/money/Apple-Inc/Desktop-publishing-revolution"
+    }
+   ],
+   "link": "apple-story",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "1997-09-16",
+   "dateLabel": "16 Sep 1997",
+   "phase": "tech",
+   "key": true,
+   "title": "Jobs returns as Apple's interim CEO",
+   "summary": "Jobs had come back as an adviser after Apple bought NeXT in late 1996. Apple's board removed chief executive Gil Amelio on 9 July 1997, according to TechCrunch. On 16 September 1997 Apple named Jobs interim chief executive, a title shortened to \"iCEO\". He cut most of Apple's product line.",
+   "status": "Confirmed · TechCrunch, Cult of Mac",
+   "differs": "The Computer History Museum's timeline says Jobs replaced Amelio as CEO in June 1997. TechCrunch dates Amelio's removal to 9 July and Jobs's interim CEO title to 16 September.",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2008/09/16/today-in-history-steve-jobs-returns-to-apple/amp/"
+    },
+    {
+     "name": "Cult of Mac",
+     "url": "https://www.cultofmac.com/apple-history/steve-jobs-apple-ceo"
+    }
+   ],
+   "link": "apple-story",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2000-01-05",
+   "dateLabel": "5 Jan 2000",
+   "phase": "tech",
+   "title": "Jobs drops \"interim\" from his title",
+   "summary": "At the Macworld Expo in San Francisco, Jobs says he will become Apple's permanent chief executive. \"I'm going to be dropping the 'interim' title,\" he told the crowd, according to CNN.",
+   "status": "Stated · Steve Jobs",
+   "sources": [
+    {
+     "name": "CNN Money",
+     "url": "https://money.cnn.com/2000/01/05/deals/apple/"
+    },
+    {
+     "name": "The Register",
+     "url": "https://www.theregister.com/2000/01/05/apples_jobs_declared_ceo/"
+    }
+   ],
+   "link": "apple-story",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2000-06-01",
+   "dateLabel": "1 Jun 2000",
+   "phase": "tech",
+   "title": "Howard Schultz steps down as Starbucks CEO",
+   "summary": "Schultz did not found Starbucks. He founded the café chain Il Giornale in 1985, and Il Giornale bought Starbucks in 1987, according to Starbucks. He had run the company since then. Starbucks announced on 6 April 2000 that he would give up the chief executive job to focus on global strategy, as chairman and 'chief global strategist'. President Orin Smith took over as CEO on 1 June.",
+   "status": "Confirmed · Starbucks announcement (reported by CNN)",
+   "sources": [
+    {
+     "name": "CNN Money (6 Apr 2000)",
+     "url": "https://money.cnn.com/2000/04/06/companies/starbucks/"
+    },
+    {
+     "name": "Starbucks: Il Giornale history",
+     "url": "https://about.starbucks.com/history/il-giornale/"
+    },
+    {
+     "name": "Britannica Money: Starbucks",
+     "url": "https://www.britannica.com/money/Starbucks"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2001-08-06",
+   "dateLabel": "6 Aug 2001",
+   "phase": "tech",
+   "title": "Page hands Google's CEO job to Eric Schmidt",
+   "summary": "Eric Schmidt, a former chief executive of Novell who became Google's chairman in March 2001, takes over as CEO. Co-founder Larry Page, the founding CEO, becomes president of products. Co-founder Sergey Brin becomes president of technology.",
+   "status": "Confirmed · Google announcement",
+   "sources": [
+    {
+     "name": "Computerworld",
+     "url": "https://www.computerworld.com/article/1418415/eric-schmidt-named-ceo-at-google.html"
+    },
+    {
+     "name": "Google press release (Tech Insider archive)",
+     "url": "https://tech-insider.org/internet/research/2001/0606.html"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2003-05-09",
+   "dateLabel": "9 May 2003",
+   "phase": "tech",
+   "title": "Charles Schwab hands sole CEO job to David Pottruck",
+   "summary": "Founder Charles Schwab had shared the CEO job with David Pottruck since January 1998. The board made Pottruck sole CEO from 9 May 2003. Schwab stayed on as chairman. The company's shares had fallen about 82% from their 1999 level, according to an AP report.",
+   "status": "Confirmed · Charles Schwab Corp. announcement (SEC filing)",
+   "numbers": [
+    {
+     "k": "Share price fall since 1999",
+     "v": "about 82% (AP, May 2003)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Charles Schwab Corp. press release, SEC filing (31 Jan 2003)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000316709/000031670903000004/exh99_1.txt"
+    },
+    {
+     "name": "The Vindicator / AP (16 May 2003)",
+     "url": "https://vindyarchives.com/news/2003/may/16/san-francisco-pottruck-becomes-sole-ceo-at-schwab/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2004-03-04",
+   "dateLabel": "4 Mar 2004",
+   "phase": "tech",
+   "title": "Michael Dell says he will step down as CEO",
+   "summary": "Dell Inc. announces that its founder will hand the chief executive job to president Kevin Rollins in July. Michael Dell stays on as chairman. The company said the change matched the roles the two men already had: Dell on technology and customers, Rollins on strategy and operations.",
+   "status": "Confirmed · Dell announcement",
+   "differs": "CNN reports the change takes effect in July. The Register says Rollins was to take the CEO title at a shareholder meeting on 16 July 2004.",
+   "sources": [
+    {
+     "name": "CNN Money",
+     "url": "https://money.cnn.com/2004/03/04/technology/dell_ceo/index.htm"
+    },
+    {
+     "name": "The Register",
+     "url": "https://www.theregister.com/on-prem/2004/03/04/michael-dell-to-relinquish-ceo-title-command-of-brain/914623"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2004-07-20",
+   "dateLabel": "20 Jul 2004",
+   "phase": "tech",
+   "key": true,
+   "title": "Schwab returns as CEO as Pottruck leaves",
+   "summary": "The board removed Pottruck as CEO and reappointed Charles Schwab, effective immediately. Pottruck said: 'I accept the Board's decision that it's time for me to step aside.' The news came with second-quarter results showing profit down 10%, the Las Vegas Sun reported.",
+   "status": "Confirmed · Charles Schwab Corp. announcement (SEC filing)",
+   "numbers": [
+    {
+     "k": "Q2 2004 profit change",
+     "v": "down 10% (Las Vegas Sun)"
+    },
+    {
+     "k": "Share move on the news",
+     "v": "up nearly 4% (Las Vegas Sun)"
+    }
+   ],
+   "differs": "The company's release called it the board's decision for Pottruck to 'step aside'. UPI wrote that the board ousted him.",
+   "sources": [
+    {
+     "name": "Charles Schwab Corp. press release, SEC filing (20 Jul 2004)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000316709/000031670904000020/exhibit99.txt"
+    },
+    {
+     "name": "Las Vegas Sun (20 Jul 2004)",
+     "url": "https://lasvegassun.com/news/2004/jul/20/founder-replaces-ceo-pottruck/"
+    },
+    {
+     "name": "UPI (20 Jul 2004)",
+     "url": "https://www.upi.com/Business_News/2004/07/20/Schwab-ousts-Pottruck/67491090337775/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2007-01-31",
+   "dateLabel": "31 Jan 2007",
+   "phase": "tech",
+   "key": true,
+   "title": "Michael Dell returns as CEO after Rollins resigns",
+   "summary": "Kevin Rollins resigns as chief executive and leaves the board, effective immediately. Michael Dell takes over as CEO and stays chairman. The return came after HP overtook Dell as the world's biggest PC seller, according to Computerworld, citing Gartner, and while the US Securities and Exchange Commission (SEC) was investigating Dell's accounting. The board said there was \"no better person in the world to run Dell at this time\".",
+   "status": "Confirmed · Dell (SEC filing)",
+   "sources": [
+    {
+     "name": "Dell press release (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000826083/000095013407002027/d43276exv99w1.htm"
+    },
+    {
+     "name": "Computerworld",
+     "url": "https://www.computerworld.com/article/1476199/michael-dell-back-in-charge-as-rollins-exits-dell.html"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2007-06-18",
+   "dateLabel": "18 Jun 2007",
+   "phase": "tech",
+   "title": "Co-founder Jerry Yang takes over as Yahoo CEO",
+   "summary": "Jerry Yang co-founded Yahoo with David Filo in 1994 but had never been its chief executive. His title was 'Chief Yahoo'. On 18 June 2007 Terry Semel resigned as CEO and the board named Yang in his place, effective that day, according to Yahoo's filing. Shareholders were unhappy about a nearly 30% fall in Yahoo's share price over 18 months, Al Jazeera reported.",
+   "status": "Confirmed · Yahoo SEC filing",
+   "numbers": [
+    {
+     "k": "Share price fall in prior 18 months",
+     "v": "nearly 30% (Al Jazeera)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Yahoo SEC Form 8-K (18 Jun 2007)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001011006/000089161807000379/f31291e8vk.htm"
+    },
+    {
+     "name": "Al Jazeera (19 Jun 2007)",
+     "url": "https://www.aljazeera.com/news/2007/6/19/yahoo-gets-new-ceo"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2008-01-07",
+   "dateLabel": "7 Jan 2008",
+   "phase": "tech",
+   "key": true,
+   "title": "Schultz returns as Starbucks CEO",
+   "summary": "Starbucks' board made chairman Howard Schultz chief executive again, effective immediately. He replaced Jim Donald, who had been CEO since 2005. Starbucks' shares had fallen about 50% over the previous year and US store traffic was declining, the Associated Press reported. Schultz said he was returning 'for the long term'.",
+   "status": "Confirmed · Starbucks announcement (SEC filing)",
+   "numbers": [
+    {
+     "k": "Share price fall in prior year",
+     "v": "about 50% (AP)"
+    },
+    {
+     "k": "Share move next morning",
+     "v": "up about 10%, to $20.20 (AP)"
+    }
+   ],
+   "differs": "Starbucks' release said Donald was 'leaving the Company'. The AP report carried by The Daily Record said he was ousted, and Fortune later wrote that the company fired him.",
+   "sources": [
+    {
+     "name": "Starbucks press release, SEC Form 8-K (7 Jan 2008)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000089102008000009/v36971exv99w1.htm"
+    },
+    {
+     "name": "The Daily Record / AP (8 Jan 2008)",
+     "url": "https://thedailyrecord.com/2008/01/08/starbucks-replaces-ceo-jim-donald-with-chairman-howard-schultz-plans-to-close-us-stores/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2008-10-01",
+   "dateLabel": "1 Oct 2008",
+   "phase": "tech",
+   "title": "Schwab hands CEO role to Walt Bettinger",
+   "summary": "The board named president and chief operating officer Walt Bettinger as CEO from 1 October 2008. The decision was announced in July 2008. Schwab, then 70, stayed on as chairman, Reuters reported.",
+   "status": "Confirmed · Charles Schwab Corp. SEC filing",
+   "sources": [
+    {
+     "name": "Charles Schwab Corp. SEC Form 8-K (Jul 2008)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000316709/000118143108044402/rrd213819.htm"
+    },
+    {
+     "name": "Reuters via MarketScreener (22 Jul 2008)",
+     "url": "https://ca.marketscreener.com/quote/stock/THE-CHARLES-SCHWAB-CORPOR-10767/news/CHARLES-SCHWAB-founder-stepping-down-543740/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2008-10-16",
+   "dateLabel": "16 Oct 2008",
+   "phase": "tech",
+   "title": "Jack Dorsey replaced as Twitter CEO",
+   "summary": "Twitter co-founder Jack Dorsey left the chief executive job. Co-founder Evan Williams took over. At the time Williams said \"Jack remains Chairman\" and that Twitter needed \"a focused approach from a single leader\". Later accounts, based on Nick Bilton's book \"Hatching Twitter\", say the board fired Dorsey over concerns about his management.",
+   "status": "Reported · Vator, Fortune",
+   "differs": "The 2008 announcement described Dorsey as stepping down to make room for Williams. Later reporting (Fortune, CNBC, The Irish Times, citing Bilton's book) says the board fired him. The Irish Times dates the board meeting where he was told to 15 Oct 2008; the public report is dated 16 Oct 2008.",
+   "sources": [
+    {
+     "name": "Vator (16 Oct 2008)",
+     "url": "https://vator.tv/n/498"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2015/09/30/jack-dorsey-twitter-ceo-fired/"
+    },
+    {
+     "name": "The Irish Times",
+     "url": "https://www.irishtimes.com/business/a-long-climb-back-and-a-mountainous-task-ahead-1.2385765"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/?p=891022"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2008-11-17",
+   "dateLabel": "17 Nov 2008",
+   "phase": "tech",
+   "title": "Yang says he will step down as CEO",
+   "summary": "Yahoo said Yang had decided to step down as CEO once the board found a successor. He would go back to being 'Chief Yahoo' and stay on the board. Yahoo said Yang and the board agreed the timing. Al Jazeera reported that Yang was blamed for the collapse of a deal with Microsoft.",
+   "status": "Confirmed · Yahoo announcement (SEC filing)",
+   "differs": "Yahoo presented the move as Yang's decision, agreed with the board. Al Jazeera described pressure over the failed Microsoft deal, and CNN later wrote that he stepped down 'amid shareholder anger'. Al Jazeera dated the announcement Monday 18 November; Yahoo's release is dated 17 November 2008, which was a Monday.",
+   "sources": [
+    {
+     "name": "Yahoo press release, SEC filing (17 Nov 2008)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001011006/000089161808000489/f50626exv99w1.htm"
+    },
+    {
+     "name": "Al Jazeera (18 Nov 2008)",
+     "url": "https://www.aljazeera.com/news/2008/11/18/yahoos-yang-to-step-down"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2009-01-13",
+   "dateLabel": "13 Jan 2009",
+   "phase": "tech",
+   "title": "Carol Bartz replaces Yang as Yahoo CEO",
+   "summary": "Yahoo named former Autodesk chief Carol Bartz as CEO, effective immediately. Yang went back to his 'Chief Yahoo' role. In 2008 Yang had rejected a Microsoft takeover bid, and Yahoo's profit fell 64% in the third quarter of that year, The Register reported.",
+   "status": "Confirmed · Yahoo announcement (SEC filing)",
+   "numbers": [
+    {
+     "k": "Fall in Yahoo profit, Q3 2008",
+     "v": "64% (The Register)"
+    }
+   ],
+   "differs": "The Register put Microsoft's 2008 bid at about $47.5 billion; CNN gave $47 billion.",
+   "sources": [
+    {
+     "name": "Yahoo press release, SEC filing (13 Jan 2009)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001011006/000089161809000005/f51094exv99w1.htm"
+    },
+    {
+     "name": "The Register (13 Jan 2009)",
+     "url": "https://www.theregister.com/2009/01/13/new_yahoo_ceo/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2011-04-04",
+   "dateLabel": "4 Apr 2011",
+   "phase": "tech",
+   "key": true,
+   "title": "Page returns as Google's CEO",
+   "summary": "Google announced on 20 January 2011 that Page would replace Schmidt. The change took effect on 4 April. Schmidt became executive chairman, working on outside partners and government relations. Schmidt wrote on Twitter that \"day to day adult supervision is no longer needed\", NPR reported.",
+   "status": "Confirmed · Google announcement",
+   "numbers": [
+    {
+     "k": "Google staff, 2001",
+     "v": "About 200"
+    },
+    {
+     "k": "Google staff, 2011",
+     "v": "Over 24,000"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/larry-page-replaces-eric-schmidt-as-google-ceo-today"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2011/01/21/133105508/Google-Shakeup-Larry-Page-Back-As-CEO"
+    },
+    {
+     "name": "Computerworld",
+     "url": "https://www.computerworld.com/article/1532485/update-schmidt-to-step-aside-as-google-ceo-page-taking-over.html"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2011-08-24",
+   "dateLabel": "24 Aug 2011",
+   "phase": "tech",
+   "title": "Jobs resigns as CEO; Tim Cook takes over",
+   "summary": "Jobs resigns as Apple's chief executive and recommends chief operating officer Tim Cook to succeed him. The board names Cook CEO and elects Jobs chairman. Jobs died on 5 October 2011.",
+   "status": "Confirmed · Apple announcement",
+   "sources": [
+    {
+     "name": "Apple press release",
+     "url": "https://www.apple.com/uk/newsroom/2011/08/24Steve-Jobs-Resigns-as-CEO-of-Apple"
+    },
+    {
+     "name": "MacRumors",
+     "url": "https://www.macrumors.com/2018/08/24/this-day-in-2011-steve-jobs-resigns-as-ceo/"
+    },
+    {
+     "name": "Computer History Museum",
+     "url": "https://computerhistory.org/apple-timeline/"
+    }
+   ],
+   "link": "apple-story",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2012-01-17",
+   "dateLabel": "17 Jan 2012",
+   "phase": "tech",
+   "title": "Yang leaves Yahoo altogether",
+   "summary": "Yang resigned from Yahoo's board and all other positions at the company, effective 17 January 2012, according to Yahoo's filing. CNN reported he also left the boards of Yahoo Japan and Alibaba.",
+   "status": "Confirmed · Yahoo SEC filing",
+   "sources": [
+    {
+     "name": "Yahoo SEC Form 8-K (Jan 2012)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001011006/000119312512017205/d282628d8k.htm"
+    },
+    {
+     "name": "CNN Money (17 Jan 2012)",
+     "url": "https://money.cnn.com/2012/01/17/technology/yahoo_jerry_yang/index.htm?iid=EAL"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2015-07-01",
+   "dateLabel": "1 Jul 2015",
+   "phase": "tech",
+   "key": true,
+   "title": "Dorsey returns as Twitter's interim CEO",
+   "summary": "Dorsey took over as interim chief executive of Twitter after Dick Costolo stepped down. Twitter had announced the change on 11 June 2015 and said the board would look for a new chief executive. Dorsey stayed on as CEO of Square, the payments company he co-founded in 2009.",
+   "status": "Confirmed · Twitter",
+   "sources": [
+    {
+     "name": "eWeek",
+     "url": "https://www.eweek.com/it-management/twitter-ceo-costolo-to-step-down-july-1/"
+    },
+    {
+     "name": "Computerworld",
+     "url": "https://www.computerworld.com/article/1627622/twitter-ceo-dick-costolo-steps-down-2.html"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2015/07/01/costolo-twitter-last-day/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2015-08-10",
+   "dateLabel": "10 Aug 2015",
+   "phase": "tech",
+   "title": "Page becomes CEO of the new Alphabet",
+   "summary": "Page announces Alphabet, a new parent company with Google as its largest part. Page becomes Alphabet's chief executive and Brin its president. Sundar Pichai becomes CEO of Google.",
+   "status": "Confirmed · Google (Larry Page blog post)",
+   "sources": [
+    {
+     "name": "Google blog (Larry Page)",
+     "url": "https://blog.google/alphabet/google-alphabet/"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/google-is-reorganizing-under-a-new-umbrella-company-called-alphabet"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2015/08/10/google-alphabet"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2015-10-05",
+   "dateLabel": "5 Oct 2015",
+   "phase": "tech",
+   "title": "Twitter makes Dorsey its permanent CEO",
+   "summary": "Twitter named Dorsey permanent chief executive. He kept running Square at the same time. Board member Peter Currie said: \"We didn't get to a different answer until we saw Jack at work for three months.\" Twitter said in a filing there were no plans to pay Dorsey directly for the CEO role.",
+   "status": "Confirmed · Twitter",
+   "numbers": [
+    {
+     "k": "Time as interim CEO",
+     "v": "About 3 months"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2015/10/05/twitter-names-jack-dorsey-ceo-adam-bain-becomes-coo-dick-costolo-steps-down-from-board"
+    },
+    {
+     "name": "Time",
+     "url": "https://time.com/4061063/twitter-jack-dorsey-ceo/"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2017-04-03",
+   "dateLabel": "3 Apr 2017",
+   "phase": "tech",
+   "title": "Schultz hands CEO role to Kevin Johnson",
+   "summary": "Starbucks announced on 1 December 2016 that Schultz would step down as CEO. President and chief operating officer Kevin Johnson took over on 3 April 2017. Schultz became executive chairman, working on the company's Reserve Roasteries. 'Kevin and the team are in charge,' Schultz said, according to NPR.",
+   "status": "Confirmed · Starbucks announcement (reported by Fortune, NPR)",
+   "numbers": [
+    {
+     "k": "Annual net revenue, 2008",
+     "v": "$10.4 billion (Fortune)"
+    },
+    {
+     "k": "Annual net revenue, latest fiscal year before the announcement",
+     "v": "$21.3 billion (Fortune)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Fortune (1 Dec 2016)",
+     "url": "https://fortune.com/2016/12/01/starbucks-howard-schultz-steps-down/"
+    },
+    {
+     "name": "NPR (1 Dec 2016)",
+     "url": "https://www.npr.org/2016/12/01/504057019/starbucks-chairman-howard-schultz-steps-down-as-ceo"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2019-12-03",
+   "dateLabel": "3 Dec 2019",
+   "phase": "tech",
+   "title": "Page steps down as Alphabet CEO",
+   "summary": "Page steps down as Alphabet's chief executive and Brin as its president, effective immediately. Both stay on the board and remain shareholders. Sundar Pichai becomes CEO of both Google and Alphabet. \"We've never been ones to hold on to management roles when we think there's a better way to run the company,\" the founders wrote.",
+   "status": "Confirmed · Alphabet announcement",
+   "sources": [
+    {
+     "name": "Alphabet announcement",
+     "url": "https://abc.xyz/investor/news/2019/1203"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2019/12/03/784570156/google-founders-brin-page-step-down-pichai-takes-over-as-alphabet-ceo"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2021-11-29",
+   "dateLabel": "29 Nov 2021",
+   "phase": "tech",
+   "title": "Dorsey steps down as Twitter CEO for good",
+   "summary": "Dorsey stepped down as chief executive. Chief technology officer Parag Agrawal took over, effective immediately, according to Axios. Dorsey said: \"I've decided to leave Twitter because I believe the company is ready to move on from its founders.\" He said he would stay on the board until his term ended in 2022.",
+   "status": "Stated · Jack Dorsey",
+   "numbers": [
+    {
+     "k": "Share price (early afternoon, per PBS/AP)",
+     "v": "$46.65, down less than 1%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2021/11/29/1059756077/jack-dorsey-steps-down-as-twitter-ceo"
+    },
+    {
+     "name": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/economy/twitter-co-founder-jack-dorsey-steps-down-as-ceo"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2021/11/29/jack-dorsey-step-down-twitter-ceo"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2022-04-04",
+   "dateLabel": "4 Apr 2022",
+   "phase": "tech",
+   "key": true,
+   "title": "Schultz returns again, as interim CEO",
+   "summary": "Starbucks said on 16 March 2022 that CEO Kevin Johnson would retire and Schultz would return as interim chief executive. Schultz took over on 4 April. He was paid $1 for the role, according to CNBC and NPR. It was his third spell as CEO.",
+   "status": "Confirmed · Starbucks announcement (reported by CNBC, NPR)",
+   "numbers": [
+    {
+     "k": "Interim CEO pay",
+     "v": "$1"
+    }
+   ],
+   "differs": "CNBC dated Schultz's first spell as CEO from 1986; Starbucks' own 2008 release and other outlets give 1987.",
+   "sources": [
+    {
+     "name": "CNBC (16 Mar 2022)",
+     "url": "https://www.cnbc.com/amp/2022/03/16/starbucks-ceo-kevin-johnson-is-retiring-howard-schultz-returns-as-interim-chief.html"
+    },
+    {
+     "name": "NPR (16 Mar 2022)",
+     "url": "https://www.npr.org/2022/03/16/1086861186/starbucks-ceo-is-stepping-down-howard-schultz-returning-as-interim-boss"
+    },
+    {
+     "name": "Starbucks press release, SEC filing (20 Mar 2023)",
+     "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922423000022/a20230320-pressreleasexceo.htm"
+    }
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2023-03-20",
+   "dateLabel": "20 Mar 2023",
+   "phase": "tech",
+   "title": "Schultz hands over to Laxman Narasimhan",
+   "summary": "Laxman Narasimhan became Starbucks CEO on 20 March 2023, nearly two weeks earlier than the planned 1 April start, CNBC reported. This ended Schultz's third spell as chief executive. CNBC reported that in September 2022 Schultz said he would never return as CEO again.",
+   "status": "Confirmed · Starbucks announcement (SEC filing)",
+   "sources": [
+    {
+     "name": "Starbucks press release, SEC filing (20 Mar 2023)",
+     "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922423000022/a20230320-pressreleasexceo.htm"
+    },
+    {
+     "name": "CNBC (20 Mar 2023)",
+     "url": "https://www.cnbc.com/2023/03/20/starbucks-ceo-laxman-narasimhan-howard-schultz.html"
+    }
+   ],
+   "link": "openai-2026",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2023-11-17",
+   "dateLabel": "17 Nov 2023",
+   "phase": "tech",
+   "title": "OpenAI board removes Sam Altman as CEO",
+   "summary": "OpenAI's board removed co-founder Sam Altman as chief executive. The board said he \"was not consistently candid in his communications with the board\" and that it no longer had confidence in his ability to lead OpenAI. Chief technology officer Mira Murati became interim CEO. Greg Brockman stepped down as board chair and later said he had quit.",
+   "status": "Confirmed · OpenAI announcement",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "url": "https://openai.com/blog/openai-announces-leadership-transition"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2023/11/17/1213892587/chatgpt-open-ai-ceo-sam-altman-ousted"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2023/11/17/sam-altman-is-out-as-openais-ceo/"
+    }
+   ],
+   "link": "openai-2026",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2023-11-21",
+   "dateLabel": "21 Nov 2023",
+   "phase": "tech",
+   "key": true,
+   "title": "OpenAI agrees to bring Altman back as CEO",
+   "summary": "Late on 21 November (US time), OpenAI said it had \"reached an agreement in principle\" for Altman to return as chief executive with a new initial board. Bret Taylor would chair it, with Larry Summers and Adam D'Angelo. Days earlier, Microsoft had said Altman would join it, and most OpenAI staff had signed a letter calling for the board to resign. OpenAI confirmed Altman's return as CEO on 29 November and gave Microsoft a non-voting seat on the board.",
+   "status": "Confirmed · OpenAI announcement",
+   "numbers": [
+    {
+     "k": "Staff letter signatures (per Axios, end of 20 Nov)",
+     "v": "More than 700"
+    }
+   ],
+   "differs": "Reports differ on staff numbers: Axios said OpenAI had more than 750 employees; AP (via PBS) said 770. In Asian and European time zones the deal was announced on 22 November.",
+   "sources": [
+    {
+     "name": "PBS NewsHour / AP",
+     "url": "https://www.pbs.org/newshour/nation/sam-altman-reinstated-as-openai-ceo-with-new-board-replacing-the-one-which-fired-him"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2023/11/22/sam-altman-return-open-ai"
+    },
+    {
+     "name": "OpenAI (29 Nov 2023)",
+     "url": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/"
+    },
+    {
+     "name": "TechCrunch (29 Nov 2023)",
+     "url": "https://techcrunch.com/2023/11/29/sam-altmans-officially-back-at-openai-and-the-board-gains-a-microsoft-observer"
+    }
+   ],
+   "link": "openai-2026",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2024-03-08",
+   "dateLabel": "8 Mar 2024",
+   "phase": "tech",
+   "title": "Altman rejoins OpenAI's board after review",
+   "summary": "OpenAI said a review by law firm WilmerHale was complete and that Altman would rejoin the board. According to OpenAI's summary, the review found \"a breakdown in trust\" between the old board and Altman. It said the old board acted within its discretion but his conduct did not require removal. OpenAI also added three new board members.",
+   "status": "Confirmed · OpenAI announcement",
+   "numbers": [
+    {
+     "k": "Documents reviewed (per OpenAI)",
+     "v": "More than 30,000"
+    }
+   ],
+   "sources": [
+    {
+     "name": "OpenAI",
+     "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2024/03/08/sam-altman-returns-to-openai-board"
+    }
+   ],
+   "link": "openai-2026",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-12",
+   "dateLabel": "12 Nov 2026",
+   "phase": "tech",
+   "key": true,
+   "title": "Jensen Huang resigns as Nvidia CEO",
+   "summary": "Nvidia says its co-founder Jensen Huang has stepped down as chief executive after a board meeting, amid reports linking him to Chinese intelligence and a board investigation. Chief financial officer Colette Kress becomes interim CEO. The board is reported to be looking at outside candidates for the permanent job. The full story is in Newspin's Nvidia timeline.",
+   "status": "Confirmed · Nvidia announcement",
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+    },
+    {
+     "name": "CNN live updates",
+     "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-15",
+   "dateLabel": "15 Nov 2026",
+   "phase": "tech",
+   "title": "Reports say Huang is discussing a comeback",
+   "summary": "The Financial Times reported, citing people familiar with the matter, that Huang has discussed returning as Nvidia's chief executive with confidants, according to Reuters and The Next Web. Two Nvidia investors posted a letter to the board urging a search that includes \"the potential return of Jensen Huang\", The Next Web reports. The same day, US Treasury Secretary Scott Bessent said Nvidia should look outside the company for a new CEO, per Fortune.",
+   "status": "Reported · Financial Times; Stated · Bessent",
+   "sources": [
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/2026/11/15/treasury-secretary-scott-bessent-nvidia-jensen-huang-nvidia-china-spy-scandal/"
+    },
+    {
+     "name": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports"
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "17 Nov 2026 (US time)",
+   "phase": "tech",
+   "title": "Huang says he would be 'honored' to return; the board chair says no",
+   "summary": "In his first public statement since resigning, Huang said he had \"made serious mistakes\" in his personal life and would be \"honored\" to return as CEO if the board decides that is in the best interest of shareholders, employees, the company and America. On Nvidia's earnings call the same day, board chair Harvey Jones said \"the Nvidia board does not intend to reinstate Jensen as CEO\", per Constellation Research. CBS News, citing a person familiar with the board's thinking, also reports the board is against his return.",
+   "status": "Stated · Jensen Huang; Stated · Nvidia board chair",
+   "sources": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/"
+    },
+    {
+     "name": "TheWrap",
+     "url": "https://www.thewrap.com/industry-news/business/nvidia-jensen-huang-statement-chinese-spy/"
+    },
+    {
+     "name": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-21"
+  }
+ ]
+}

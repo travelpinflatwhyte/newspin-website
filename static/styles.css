@@ -321,7 +321,8 @@ button{font-family:inherit}
 .lead-stat .lbl2{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#A3AAB8;display:block;margin-bottom:6px}
 .lead-stat div{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}
 .lead-big{font-family:"Inter Tight",var(--sans);font-size:clamp(44px,6vw,68px);font-weight:800;letter-spacing:-.04em;line-height:1}
-.lead-delta{font-size:15px;font-weight:700;color:#6FC39C}
+.lead-delta{font-size:15px;font-weight:700;color:#C9CCD2}
+.lead-delta.dt-good{color:#6FC39C} .lead-delta.dt-bad{color:#F08A8A}
 .lead-note{font-size:13px;color:#A3AAB8}
 .lead .track .tl-top{color:#F2F4F7} .lead .track .now{background:#F2F4F7} .lead .track .now-l{color:#F2F4F7} .lead .track .next-l{color:#9DB2FF}
 .lead .track .past{opacity:.5}

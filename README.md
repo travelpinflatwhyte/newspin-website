@@ -84,6 +84,10 @@ Or ask Claude: "Update the RBI story with today's decision", attach this project
 
 These stories set `market` (`index`, `second`, `tz`) and give each trading-day event a `session`: `prev` (previous close), `open`, `close`, and optionally `low` and `high`. The build works out the gap (open minus previous close; under 0.1% is a flat open), the day's change, the tags and the "Latest session" panel. Each day's `prev` must equal the previous day's `close`. Take open and close figures from two reports, and note any disagreement in `differs`. Information only: no tips, targets or forecasts.
 
+### Headline change colour (optional)
+
+On the lead card, a `delta` starting with ▲ shows green, ▼ shows red, anything else neutral. Set `"deltaTone": "good" | "bad" | "neutral"` where the arrow would mislead (inflation rising is not good news; a rate rise is neither).
+
 ### Lead headline (optional)
 
 `heroTitle` and `heroDek` give the story a hand-written headline when it is the top story on the home page. Set `heroAsOf` to the date you wrote them. If a newer event arrives (its `added` date is later than `heroAsOf`), the build ignores them and shows the newest event's title and first sentence instead, so the lead never shows an out-of-date headline. Scheduled updates rewrite all three whenever the story moves.

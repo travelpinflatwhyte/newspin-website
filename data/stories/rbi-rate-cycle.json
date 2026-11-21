@@ -13,6 +13,7 @@
  "tone": "wait",
  "big": "5.50%",
  "delta": "▲ 25 bps",
+ "deltaTone": "neutral",
  "bigLabel": "Repo rate after the 7 Oct hike",
  "updated": "2026-11-20",
  "glance": {

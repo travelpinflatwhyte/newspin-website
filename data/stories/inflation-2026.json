@@ -13,6 +13,7 @@
  "tone": "hot",
  "big": "6.09%",
  "delta": "▲ above RBI's 6% limit",
+ "deltaTone": "bad",
  "bigLabel": "Retail inflation, October 2026",
  "updated": "2026-11-16",
  "glance": {

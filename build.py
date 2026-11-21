@@ -312,6 +312,16 @@ def follow_btn(slug, cls="btn btn-follow", on="Following", off="Follow", short="
     return f'<button type="button" class="{cls}" data-follow="{e(slug)}" data-on="{e(on)}" data-off="{e(off)}" aria-pressed="false"{aria}>{ICON_BELL}<span class="label">{e(off)}</span></button>'
 
 
+def delta_tone(s):
+    """Colour for a headline change: ▲ green, ▼ red, anything else neutral.
+    A story can override with "deltaTone": "good" | "bad" | "neutral" (e.g. inflation rising is not good news)."""
+    t = s.get("deltaTone")
+    if t in ("good", "bad", "neutral"):
+        return "dt-" + t
+    dl = s.get("delta", "").lstrip()
+    return "dt-good" if dl.startswith("▲") else "dt-bad" if dl.startswith("▼") else "dt-neutral"
+
+
 # ---------- ranking (mirrors rank() in static/app.js) ----------
 QUIET_DAYS = 60
 KEY_BONUS = 3  # points for a key event added today or yesterday
@@ -634,7 +644,7 @@ def build_home(site, stories, order, axis):
       </div>
     </div>
     <div class="lead-side">
-      <div class="lead-stat"><span class="lbl2">{e(stat_label)}</span><div><span class="lead-big">{e(h['big'])}</span>{'<span class="lead-delta">'+e(h['delta'])+'</span>' if show_delta else ''}</div></div>
+      <div class="lead-stat"><span class="lbl2">{e(stat_label)}</span><div><span class="lead-big">{e(h['big'])}</span>{'<span class="lead-delta '+delta_tone(h)+'">'+e(h['delta'])+'</span>' if show_delta else ''}</div></div>
       {track_html(h, axis, link_prefix=f"/stories/{hero_slug}/", recent=True)}
       <span class="lead-note">Next: {e(h['next'])}</span>
     </div>

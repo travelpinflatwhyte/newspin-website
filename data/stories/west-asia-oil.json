@@ -19,7 +19,7 @@
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row. Attacks continue: on 21 November two tankers were hit leaving Hormuz and Iran fired missiles and drones at US bases in Bahrain. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
+    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row. Attacks continue: on 21 November two tankers were hit leaving Hormuz and Iran fired missiles and drones at US bases in Bahrain; Bahrain says two people were hurt when an industrial plant was hit. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
@@ -666,6 +666,33 @@
         {
           "name": "The New Arab",
           "url": "https://www.newarab.com/news/ukmto-says-2-tankers-struck-hormuz-iran-says-ship-fire"
+        }
+      ],
+      "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "world",
+      "title": "Bahrain says two people were hurt in Saturday's Iranian attack on an industrial plant",
+      "summary": "Bahrain's Interior Ministry said two people were injured when Saturday's Iranian attack hit a civilian industrial plant and started a fire: a Bahraini citizen, who is stable, and a Pakistani resident, who is in a critical condition. Earlier official statements had said no one was hurt. Bahrain's Foreign Ministry said the site was 'a purely civilian industrial facility', rejected Iran's reasons for the attack and said it keeps the right to defend itself under the UN Charter. The Revolutionary Guards said they had targeted US Patriot air-defence radars at two bases in Bahrain; this has not been confirmed.",
+      "status": "Confirmed · Bahrain Interior Ministry; Allegation · IRGC (Patriot radars)",
+      "differs": "Iranian media cited by Gulf News named different US bases (Sheikh Isa and Juffair) from those in the IRGC statement reported by The National (Al Riffa and Awali).",
+      "numbers": [
+        {
+          "k": "People injured (Bahrain)",
+          "v": "2"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/22/two-injured-one-critically-in-iranian-attack-on-industrial-plant-in-bahrain/",
+          "primary": true
+        },
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662"
         }
       ],
       "added": "2026-11-22"

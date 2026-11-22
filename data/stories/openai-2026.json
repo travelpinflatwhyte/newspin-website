@@ -464,7 +464,33 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-18",
+   "dateLabel": "18 Nov 2026",
+   "phase": "ai",
+   "title": "OpenAI says its models helped improve AMD chip designs",
+   "summary": "OpenAI said its AI models rewrote parts of the circuit code for AMD graphics chip (GPU) designs and improved 'PPA' by up to 14% against already optimised designs. PPA stands for power, performance and area: how much energy a chip uses, how fast it runs and how much silicon it takes up. Some of the changes are in an AMD design that has already been sent for manufacturing, per OpenAI. OpenAI president Greg Brockman said the work gave 'roughly an additional year of progress' on AMD's chip in less than five months. The figures are OpenAI's; reports say AMD verified smaller, single-digit gains, but AMD's own statement was not found.",
+   "status": "Stated · OpenAI",
+   "numbers": [
+    {
+     "k": "Best improvement claimed (PPA)",
+     "v": "up to 14%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Analytics India Magazine",
+     "url": "https://analyticsindiamag.com/ai-news/openai-and-amd-achieve-a-year-of-chip-design-progress-in-under-five-months",
+     "primary": true
+    },
+    {
+     "name": "YourStory",
+     "url": "https://yourstory.com/ai-story/ai-chip-design-openai-amd-gpu-ip"
+    }
+   ],
+   "added": "2026-11-22"
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-22"
 }

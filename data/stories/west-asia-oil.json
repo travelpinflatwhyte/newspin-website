@@ -19,7 +19,7 @@
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row, as Gulf exports recover and traders expect a supply surplus. Attacks continue: tankers have been hit near Hormuz, Iran has struck at bases in Kuwait and Bahrain, and a Houthi attack damaged a tower in Riyadh. OPEC+ meets on 29 November."
+    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row. Attacks continue: on 21 November two tankers were hit leaving Hormuz and Iran fired missiles and drones at US bases in Bahrain. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
@@ -46,7 +46,7 @@
   ],
   "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
   "upcoming": [],
-  "next": "OPEC+ meets on 29 November; whether the Bahrain attacks escalate, and whether Hormuz reopens.",
+  "next": "Markets reopen after the Bahrain attacks; whether Iran's tankers try to break the blockade; OPEC+ meets on 29 November.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -627,6 +627,45 @@
         {
           "name": "Occasional Digest (Al Jazeera)",
           "url": "https://occasionaldigest.com/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled-us-israel-war-on-iran-news/"
+        }
+      ],
+      "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-21",
+      "dateLabel": "21 Nov 2026",
+      "phase": "world",
+      "title": "Two tankers hit leaving Hormuz; Iran fires missiles and drones at US bases in Bahrain",
+      "summary": "Early on Saturday two tankers leaving the Gulf were hit by unknown projectiles, one about 20 km north of Khasab in Oman and one about 31 km east of it, said UKMTO, the British agency that tracks shipping. One was hit in the stern and one in the engine room; no one was reported hurt. Iran's navy said a tanker caught fire after hitting a mine in a restricted zone east of the strait; it is not clear if this was one of the two. On Saturday night Iran launched drones and ballistic missiles at US bases in Bahrain, per Iranian media cited by Euronews. Bahrain said its air defences intercepted several attacks and a fire broke out at a civilian industrial site, with no injuries. The Revolutionary Guards (IRGC) said they hit two Patriot missile batteries and a radar; Bahrain and the US have not confirmed this. The US military denied a separate IRGC claim that Iran damaged a US F-16 jet on Friday. Iran's deputy foreign minister said more than 14 Iranian tankers are ready to sail through the US blockade to China, and warned of a 'fierce military response' if they are stopped.",
+      "status": "Confirmed · UKMTO (tankers), Bahrain (fire); Allegation · IRGC (Patriot strikes, F-16, denied by US)",
+      "differs": "Al Jazeera says about 25 shipping incidents have been reported in the past week, citing Iran's armed forces; this has not been independently confirmed.",
+      "numbers": [
+        {
+          "k": "Tankers hit (UKMTO)",
+          "v": "2"
+        },
+        {
+          "k": "Iranian tankers waiting to sail (Iran's claim)",
+          "v": "14+"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera (AFP, Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+          "primary": true
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        },
+        {
+          "name": "The New Arab",
+          "url": "https://www.newarab.com/news/ukmto-says-2-tankers-struck-hormuz-iran-says-ship-fire"
         }
       ],
       "added": "2026-11-22"

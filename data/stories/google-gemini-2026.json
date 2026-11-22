@@ -1,361 +1,378 @@
 {
- "slug": "google-gemini-2026",
- "short": "Google Gemini",
- "category": "AI",
- "regions": [
-  "World",
-  "US"
- ],
- "title": "Google's Gemini: from Gemini 3 to the Gemini 4 family",
- "dek": "Google went from Gemini 3 to three Gemini 4 models in under a year, while pushing AI into Search, Android and free video tools.",
- "seoTitle": "Google Gemini timeline 2025–2026: Gemini 3 to 4",
- "importance": 4,
- "status": "Gemini 4 Neon released",
- "tone": "live",
- "big": "Gemini 4",
- "delta": "Argon, Carbon, Hydrogen, Neon",
- "bigLabel": "Google's newest model family, announced from 30 Sep 2026",
- "glance": {
-  "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September), Carbon (28 October), the faster, cheaper Hydrogen (12 November) and the mid-priced Neon (18 November).",
-  "why": "Gemini sits inside Search, Android, Gmail and YouTube, so Google's models reach more people by default than any rival's.",
-  "next": "Wider rollout of Gemini 4 Neon in the API and Google products."
- },
- "keyNumbers": [
-  {
-   "label": "Newest frontier model",
-   "value": "Gemini 4 Carbon",
-   "note": "announced 28 Oct",
-   "hot": true
+  "slug": "google-gemini-2026",
+  "short": "Google Gemini",
+  "category": "AI",
+  "regions": [
+    "World",
+    "US"
+  ],
+  "title": "Google's Gemini: from Gemini 3 to the Gemini 4 family",
+  "dek": "Google went from Gemini 3 to three Gemini 4 models in under a year, while pushing AI into Search, Android and free video tools.",
+  "seoTitle": "Google Gemini timeline 2025–2026: Gemini 3 to 4",
+  "importance": 4,
+  "status": "Gemini 4 Neon released",
+  "tone": "live",
+  "big": "Gemini 4",
+  "delta": "Argon, Carbon, Hydrogen, Neon",
+  "bigLabel": "Google's newest model family, announced from 30 Sep 2026",
+  "glance": {
+    "what": "Google launched Gemini 3 in November 2025, then a fast series of cheaper 'Flash' models, and in late 2026 the Gemini 4 family: Argon (30 September), Carbon (28 October), the faster, cheaper Hydrogen (12 November) and the mid-priced Neon (18 November).",
+    "why": "Gemini sits inside Search, Android, Gmail and YouTube, so Google's models reach more people by default than any rival's.",
+    "next": "Wider rollout of Gemini 4 Neon in the API and Google products."
   },
-  {
-   "label": "Gemini 3 launch",
-   "value": "18 Nov 2025",
-   "note": ""
-  },
-  {
-   "label": "Mid-priced model",
-   "value": "4 Neon",
-   "note": "18 Nov 2026, $3 per m input tokens"
-  },
-  {
-   "label": "Everyday model",
-   "value": "4 Hydrogen",
-   "note": "12 Nov 2026, replaces 3.8 Flash"
-  }
- ],
- "forYou": "Many Gemini features arrive free on Android phones and in Google apps. The most capable models usually go first to paid Google AI Ultra subscribers and developers.",
- "upcoming": [],
- "next": "Wider Gemini 4 rollout.",
- "links": [
-  "ai-model-tracker",
-  "ai-this-week"
- ],
- "events": [
-  {
-   "date": "2025-11-18",
-   "dateLabel": "18 Nov 2025",
-   "phase": "ai",
-   "title": "Gemini 3 and the Antigravity coding tool",
-   "summary": "Google releases Gemini 3 Pro and Deep Think, with a 1-million-token context, alongside Antigravity, an AI coding app.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
+  "keyNumbers": [
     {
-     "name": "Wikipedia: Gemini 3",
-     "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
-     "primary": true
+      "label": "Newest frontier model",
+      "value": "Gemini 4 Carbon",
+      "note": "announced 28 Oct",
+      "hot": true
     },
     {
-     "name": "Wikipedia: Google Antigravity",
-     "url": "https://en.wikipedia.org/wiki/Google_Antigravity"
-    }
-   ],
-   "added": "2026-11-13",
-   "key": true
-  },
-  {
-   "date": "2025-12-17",
-   "dateLabel": "17 Dec 2025",
-   "phase": "ai",
-   "title": "Gemini 3 Flash becomes the default",
-   "summary": "A cheaper, near-Pro model becomes the default in the Gemini app and powers AI Mode in Search.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Wikipedia: Gemini 3",
-     "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
-     "primary": true
+      "label": "Gemini 3 launch",
+      "value": "18 Nov 2025",
+      "note": ""
     },
     {
-     "name": "TechCrunch",
-     "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-02-12",
-   "dateLabel": "12 Feb 2026",
-   "phase": "ai",
-   "title": "Gemini 3 Deep Think",
-   "summary": "An updated deep-reasoning version of Gemini 3.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Wikipedia: Google Gemini",
-     "url": "https://en.wikipedia.org/wiki/Google_Gemini",
-     "primary": true
+      "label": "Mid-priced model",
+      "value": "4 Neon",
+      "note": "18 Nov 2026, $3 per m input tokens"
     },
     {
-     "name": "BenchLM",
-     "url": "https://benchlm.ai/model-updates/providers/google"
+      "label": "Everyday model",
+      "value": "4 Hydrogen",
+      "note": "12 Nov 2026, replaces 3.8 Flash"
     }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-08-13",
-   "dateLabel": "13 Aug 2026",
-   "phase": "ai",
-   "title": "Gemini 3.7 Flash",
-   "summary": "A new everyday model for coding, agents and web development.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
+  ],
+  "forYou": "Many Gemini features arrive free on Android phones and in Google apps. The most capable models usually go first to paid Google AI Ultra subscribers and developers.",
+  "upcoming": [],
+  "next": "Wider Gemini 4 rollout.",
+  "links": [
+    "ai-model-tracker",
+    "ai-this-week"
+  ],
+  "events": [
     {
-     "name": "ScriptByAI",
-     "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/",
-     "primary": true
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-09-02",
-   "dateLabel": "2 Sep 2026",
-   "phase": "ai",
-   "title": "Gemini 3.8 Flash",
-   "summary": "The third Flash release in six weeks; Google calls it its best reasoning and coding model at that speed and price.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Hidekazu Konishi",
-     "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
-     "primary": true
+      "date": "2025-11-18",
+      "dateLabel": "18 Nov 2025",
+      "phase": "ai",
+      "title": "Gemini 3 and the Antigravity coding tool",
+      "summary": "Google releases Gemini 3 Pro and Deep Think, with a 1-million-token context, alongside Antigravity, an AI coding app.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Wikipedia: Gemini 3",
+          "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
+          "primary": true
+        },
+        {
+          "name": "Wikipedia: Google Antigravity",
+          "url": "https://en.wikipedia.org/wiki/Google_Antigravity"
+        }
+      ],
+      "added": "2026-11-13",
+      "key": true
     },
     {
-     "name": "ScriptByAI",
-     "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/"
+      "date": "2025-12-17",
+      "dateLabel": "17 Dec 2025",
+      "phase": "ai",
+      "title": "Gemini 3 Flash becomes the default",
+      "summary": "A cheaper, near-Pro model becomes the default in the Gemini app and powers AI Mode in Search.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Wikipedia: Gemini 3",
+          "url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
+          "primary": true
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Wikipedia: Google Gemini",
-     "url": "https://en.wikipedia.org/wiki/Google_Gemini"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-09-30",
-   "dateLabel": "30 Sep 2026",
-   "phase": "ai",
-   "title": "Gemini 4 Argon",
-   "summary": "Google's new frontier model for software engineering, business work and cyber defence goes first to trusted cyber defenders, then to developers and paid subscribers from 13 October.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Hidekazu Konishi",
-     "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
-     "primary": true
+      "date": "2026-02-12",
+      "dateLabel": "12 Feb 2026",
+      "phase": "ai",
+      "title": "Gemini 3 Deep Think",
+      "summary": "An updated deep-reasoning version of Gemini 3.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Wikipedia: Google Gemini",
+          "url": "https://en.wikipedia.org/wiki/Google_Gemini",
+          "primary": true
+        },
+        {
+          "name": "BenchLM",
+          "url": "https://benchlm.ai/model-updates/providers/google"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "ScriptByAI",
-     "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/"
+      "date": "2026-08-13",
+      "dateLabel": "13 Aug 2026",
+      "phase": "ai",
+      "title": "Gemini 3.7 Flash",
+      "summary": "A new everyday model for coding, agents and web development.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "ScriptByAI",
+          "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "BenchLM",
-     "url": "https://benchlm.ai/model-updates/providers/google"
-    }
-   ],
-   "added": "2026-11-13",
-   "key": true
-  },
-  {
-   "date": "2026-10-28",
-   "dateLabel": "28 Oct 2026",
-   "phase": "ai",
-   "title": "Gemini 4 Carbon announced",
-   "summary": "A second Gemini 4 model, focused on cybersecurity and long tasks. It reaches Ultra subscribers and developers on 10 November.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "BenchLM",
-     "url": "https://benchlm.ai/model-updates/providers/google",
-     "primary": true
+      "date": "2026-09-02",
+      "dateLabel": "2 Sep 2026",
+      "phase": "ai",
+      "title": "Gemini 3.8 Flash",
+      "summary": "The third Flash release in six weeks; Google calls it its best reasoning and coding model at that speed and price.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Hidekazu Konishi",
+          "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+          "primary": true
+        },
+        {
+          "name": "ScriptByAI",
+          "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/"
+        },
+        {
+          "name": "Wikipedia: Google Gemini",
+          "url": "https://en.wikipedia.org/wiki/Google_Gemini"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Hidekazu Konishi",
-     "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html"
+      "date": "2026-09-30",
+      "dateLabel": "30 Sep 2026",
+      "phase": "ai",
+      "title": "Gemini 4 Argon",
+      "summary": "Google's new frontier model for software engineering, business work and cyber defence goes first to trusted cyber defenders, then to developers and paid subscribers from 13 October.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Hidekazu Konishi",
+          "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+          "primary": true
+        },
+        {
+          "name": "ScriptByAI",
+          "url": "https://www.scriptbyai.com/google-ai-timeline-biggest-moments/"
+        },
+        {
+          "name": "BenchLM",
+          "url": "https://benchlm.ai/model-updates/providers/google"
+        }
+      ],
+      "added": "2026-11-13",
+      "key": true
     },
     {
-     "name": "IT Cares (from Google's and Anthropic's pages)",
-     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-05",
-   "dateLabel": "5 Nov 2026",
-   "phase": "ai",
-   "title": "Free AI video in Google Vids",
-   "summary": "Three free 15-second AI video clips a month in Google Vids, and a 'sketch to app' feature in Gemini.",
-   "status": "Confirmed · Google",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "IT Cares (from Google's and Anthropic's pages)",
-     "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
-     "primary": true
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "ai",
-   "title": "AlphaGenome 2 and a lawsuit",
-   "summary": "Google DeepMind releases AlphaGenome 2, a DNA model. Google is among five companies named in the AI freeze lawsuit.",
-   "status": "Released · Filed, not ruled on",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "AI Weekly (Ars Technica / Reuters)",
-     "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
-     "primary": true
+      "date": "2026-10-28",
+      "dateLabel": "28 Oct 2026",
+      "phase": "ai",
+      "title": "Gemini 4 Carbon announced",
+      "summary": "A second Gemini 4 model, focused on cybersecurity and long tasks. It reaches Ultra subscribers and developers on 10 November.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "BenchLM",
+          "url": "https://benchlm.ai/model-updates/providers/google",
+          "primary": true
+        },
+        {
+          "name": "Hidekazu Konishi",
+          "url": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html"
+        },
+        {
+          "name": "IT Cares (from Google's and Anthropic's pages)",
+          "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "AP via WTOP",
-     "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks"
-    }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "ai",
-   "key": true,
-   "title": "Gemini 4 Hydrogen, the new everyday model",
-   "summary": "Google releases Gemini 4 Hydrogen, a fast, cheaper model built for AI agents that replaces Gemini 3.8 Flash as its everyday model. It is rolling out globally in Google Search for all users, in the Gemini app (free users get it through automatic model selection) and to developers at $1.50 per million input tokens and $7.50 per million output tokens. Google says it finishes tasks 2.5 times faster than 3.8 Flash; these are Google's own figures.",
-   "status": "Confirmed · Google",
-   "numbers": [
-    {
-     "k": "API price (in / out)",
-     "v": "$1.50 / $7.50 per m tokens"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Google",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-     "primary": true
+      "date": "2026-11-05",
+      "dateLabel": "5 Nov 2026",
+      "phase": "ai",
+      "title": "Free AI video in Google Vids",
+      "summary": "Three free 15-second AI video clips a month in Google Vids, and a 'sketch to app' feature in Gemini.",
+      "status": "Confirmed · Google",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "IT Cares (from Google's and Anthropic's pages)",
+          "url": "https://itcares.ca/en/blog/ai-news-this-week-november-2026-for-regular-people.html",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Google (Search)",
-     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "ai",
+      "title": "AlphaGenome 2 and a lawsuit",
+      "summary": "Google DeepMind releases AlphaGenome 2, a DNA model. Google is among five companies named in the AI freeze lawsuit.",
+      "status": "Released · Filed, not ruled on",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "AI Weekly (Ars Technica / Reuters)",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-12",
+          "primary": true
+        },
+        {
+          "name": "AP via WTOP",
+          "url": "https://wtop.com/national/2026/11/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks"
+        }
+      ],
+      "added": "2026-11-13"
     },
     {
-     "name": "Notebookcheck",
-     "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
-    }
-   ],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "17 Nov 2026",
-   "phase": "policy",
-   "title": "Gemini to keep 'history off' chats for about two months",
-   "summary": "Google will keep temporary Gemini chats, and chats made with history turned off, for about two months instead of 72 hours, TechCrunch reports. Google says the longer period helps with safety and security. It is also splitting one setting into two: one for chat history and one for whether chats are used to train AI. People who had the old setting off will have both off. The change rolls out worldwide over the coming weeks. Temporary chats are not used for training, per Google's privacy page.",
-   "status": "Confirmed · Google, via TechCrunch",
-   "numbers": [
-    {
-     "k": "Retention, history off",
-     "v": "72 hours → about 2 months"
-    }
-   ],
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
-     "primary": true
-    }
-   ],
-   "added": "2026-11-18"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18 Nov 2026 (US time)",
-   "phase": "ai",
-   "key": true,
-   "title": "Gemini 4 Neon, a mid-priced model between Carbon and Hydrogen",
-   "summary": "Google releases Gemini 4 Neon. It sits between Gemini 4 Carbon, which Google keeps for the hardest long tasks, and the faster Gemini 4 Hydrogen, per Digital Trends. It replaces Argon in the Gemini app's model picker for Google AI Pro and Ultra subscribers, and is rolling out in the paid Gemini API at $3 per million input tokens and $15 per million output tokens, with a one-million-token context window. Google says Neon scores 61 on the Artificial Analysis Intelligence Index, third overall, and costs 32% less per task than Carbon at similar quality; these are Google's own figures.",
-   "status": "Confirmed · Google, via Digital Trends and PYMNTS",
-   "numbers": [
-    {
-     "k": "API price (in / out)",
-     "v": "$3 / $15 per m tokens"
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "ai",
+      "key": true,
+      "title": "Gemini 4 Hydrogen, the new everyday model",
+      "summary": "Google releases Gemini 4 Hydrogen, a fast, cheaper model built for AI agents that replaces Gemini 3.8 Flash as its everyday model. It is rolling out globally in Google Search for all users, in the Gemini app (free users get it through automatic model selection) and to developers at $1.50 per million input tokens and $7.50 per million output tokens. Google says it finishes tasks 2.5 times faster than 3.8 Flash; these are Google's own figures.",
+      "status": "Confirmed · Google",
+      "numbers": [
+        {
+          "k": "API price (in / out)",
+          "v": "$1.50 / $7.50 per m tokens"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "primary": true
+        },
+        {
+          "name": "Google (Search)",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+        },
+        {
+          "name": "Notebookcheck",
+          "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
+        }
+      ],
+      "added": "2026-11-14"
     },
     {
-     "k": "Intelligence Index (Google's figure)",
-     "v": "61"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Digital Trends",
-     "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less",
-     "primary": true
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
+      "phase": "policy",
+      "title": "Gemini to keep 'history off' chats for about two months",
+      "summary": "Google will keep temporary Gemini chats, and chats made with history turned off, for about two months instead of 72 hours, TechCrunch reports. Google says the longer period helps with safety and security. It is also splitting one setting into two: one for chat history and one for whether chats are used to train AI. People who had the old setting off will have both off. The change rolls out worldwide over the coming weeks. Temporary chats are not used for training, per Google's privacy page.",
+      "status": "Confirmed · Google, via TechCrunch",
+      "numbers": [
+        {
+          "k": "Retention, history off",
+          "v": "72 hours → about 2 months"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-18"
     },
     {
-     "name": "PYMNTS",
-     "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs"
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18 Nov 2026 (US time)",
-   "phase": "ai",
-   "title": "Genie 4 world model opens to Ultra subscribers",
-   "summary": "Google DeepMind made Genie 4, its newest 'world model', available in Project Genie, a browser-based experiment. Instead of playing back a finished video, it builds a scene as the user moves through it. Users can type prompts to change the weather, add characters or steer events, and for the first time it generates sound. It is open to eligible Google AI Ultra subscribers, a plan that costs $199.99 a month in the US, per Decrypt; AI Pro subscribers can join a waitlist. The Next Web notes that details can drift in long sessions.",
-   "status": "Confirmed · Google, via The Next Web and Decrypt",
-   "numbers": [
-    {
-     "k": "Ultra plan (US)",
-     "v": "$199.99 a month"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Next Web",
-     "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model",
-     "primary": true
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026 (US time)",
+      "phase": "ai",
+      "key": true,
+      "title": "Gemini 4 Neon, a mid-priced model between Carbon and Hydrogen",
+      "summary": "Google releases Gemini 4 Neon. It sits between Gemini 4 Carbon, which Google keeps for the hardest long tasks, and the faster Gemini 4 Hydrogen, per Digital Trends. It replaces Argon in the Gemini app's model picker for Google AI Pro and Ultra subscribers, and is rolling out in the paid Gemini API at $3 per million input tokens and $15 per million output tokens, with a one-million-token context window. Google says Neon scores 61 on the Artificial Analysis Intelligence Index, third overall, and costs 32% less per task than Carbon at similar quality; these are Google's own figures.",
+      "status": "Confirmed · Google, via Digital Trends and PYMNTS",
+      "numbers": [
+        {
+          "k": "API price (in / out)",
+          "v": "$3 / $15 per m tokens"
+        },
+        {
+          "k": "Intelligence Index (Google's figure)",
+          "v": "61"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Digital Trends",
+          "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less",
+          "primary": true
+        },
+        {
+          "name": "PYMNTS",
+          "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs"
+        }
+      ],
+      "added": "2026-11-20"
     },
     {
-     "name": "Decrypt",
-     "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time?amp=1"
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026 (US time)",
+      "phase": "ai",
+      "title": "Genie 4 world model opens to Ultra subscribers",
+      "summary": "Google DeepMind made Genie 4, its newest 'world model', available in Project Genie, a browser-based experiment. Instead of playing back a finished video, it builds a scene as the user moves through it. Users can type prompts to change the weather, add characters or steer events, and for the first time it generates sound. It is open to eligible Google AI Ultra subscribers, a plan that costs $199.99 a month in the US, per Decrypt; AI Pro subscribers can join a waitlist. The Next Web notes that details can drift in long sessions.",
+      "status": "Confirmed · Google, via The Next Web and Decrypt",
+      "numbers": [
+        {
+          "k": "Ultra plan (US)",
+          "v": "$199.99 a month"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model",
+          "primary": true
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time?amp=1"
+        }
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026 (US time)",
+      "phase": "ai",
+      "title": "Gemini for Mac can now use apps for you",
+      "summary": "Google added 'computer use' to the Gemini desktop app for Mac. The AI agent can carry out tasks by opening Mac apps and websites in a background window, while the user watches a live preview and can pause it, stop it or approve actions before they happen. It is available first in English in the US and needs a Google AI Plus, Pro or Ultra subscription, TechCrunch reports. Google did not say when it will reach other countries or devices.",
+      "status": "Confirmed · Google, via TechCrunch",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-22"
     }
-   ],
-   "added": "2026-11-21"
-  }
- ],
- "updated": "2026-11-21"
+  ],
+  "updated": "2026-11-22"
 }

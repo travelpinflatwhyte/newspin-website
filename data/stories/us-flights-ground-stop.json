@@ -1,530 +1,550 @@
 {
- "slug": "us-flights-ground-stop",
- "short": "US ground stop",
- "category": "Travel",
- "flag": "us",
- "regions": [
-  "US",
-  "World"
- ],
- "title": "All US flights halted: the FAA ground stop, hour by hour",
- "dek": "Why every departure in the United States stopped for about four hours on Friday, what officials say caused it, and what it means if you are flying this weekend.",
- "seoTitle": "US FAA nationwide ground stop: timeline in IST",
- "importance": 4,
- "status": "Flights normal · cause under investigation",
- "tone": "live",
- "big": "10,000+",
- "delta": "flights disrupted",
- "bigLabel": "Flights delayed or cancelled during Friday's nationwide ground stop, per CNBC. Counts differ between flight trackers and keep changing.",
- "updated": "2026-11-20",
- "glance": {
-  "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
-  "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
-  "next": "Flights are back to normal. The root cause is still not known: the FAA has paused installing the router model involved, the FBI has been asked to help, and officials and the router's maker disagree over whether the equipment or its set-up was at fault. Duffy wants Congress to approve $50 billion to replace old equipment."
- },
- "keyNumbers": [
-  {
-   "label": "Ground stop",
-   "value": "≈ 4 hrs 20 min",
-   "note": "2:24 am to 6:45 am IST, 14 Nov"
+  "slug": "us-flights-ground-stop",
+  "short": "US ground stop",
+  "category": "Travel",
+  "flag": "us",
+  "regions": [
+    "US",
+    "World"
+  ],
+  "title": "All US flights halted: the FAA ground stop, hour by hour",
+  "dek": "Why every departure in the United States stopped for about four hours on Friday, what officials say caused it, and what it means if you are flying this weekend.",
+  "seoTitle": "US FAA nationwide ground stop: timeline in IST",
+  "importance": 4,
+  "status": "Flights normal · cause under investigation",
+  "tone": "live",
+  "big": "10,000+",
+  "delta": "flights disrupted",
+  "bigLabel": "Flights delayed or cancelled during Friday's nationwide ground stop, per CNBC. Counts differ between flight trackers and keep changing.",
+  "updated": "2026-11-22",
+  "glance": {
+    "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
+    "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
+    "next": "Flights are back to normal. The root cause is still not known: the FAA has paused installing the router model involved, the FBI has been asked to help, and officials and the router's maker disagree over whether the equipment or its set-up was at fault. Duffy wants Congress to approve $50 billion to replace old equipment."
   },
-  {
-   "label": "Cancelled Friday",
-   "value": "9,000+",
-   "note": "FlightAware final count of 9,138, via Men's Journal"
-  },
-  {
-   "label": "Cancelled Saturday",
-   "value": "6,400+",
-   "note": "FlightAware via Reuters; latest count nearly 6,700"
-  },
-  {
-   "label": "Cause",
-   "value": "Overloaded routers",
-   "note": "on L3Harris-run FAA network, per Transportation Secretary"
-  },
-  {
-   "label": "Cancelled Sunday",
-   "value": "≈ 2,100",
-   "note": "FlightAware via Reuters; earlier counts said 1,600+ and 2,300+"
-  },
-  {
-   "label": "Funding asked",
-   "value": "$50 bn",
-   "note": "Duffy's request to Congress, up from $30 bn"
-  }
- ],
- "forYou": "Flying to, from or within the US this weekend? Check your flight status with the airline before leaving for the airport. Delta and United are letting affected passengers change flights without a fee. Under US Transportation Department rules, if your flight is cancelled and you do not accept another flight, you are entitled to a refund.",
- "upcoming": [],
- "next": "Whether US schedules are fully normal on Monday; Duffy's $50 billion funding request to Congress; the search for the root cause; reviews in Congress.",
- "links": [
-  "microsoft-365-outage",
-  "india-flying-winter-2026"
- ],
- "events": [
-  {
-   "date": "2023-01-11",
-   "dateLabel": "11 Jan 2023",
-   "phase": "travel",
-   "title": "The last nationwide ground stop",
-   "summary": "Background: the FAA last halted departures across the US when its NOTAM system failed. NOTAMs are the safety notices that warn pilots about hazards such as closed runways. Before that, the last nationwide stop was on 11 September 2001.",
-   "status": "Confirmed · FAA",
-   "numbers": [],
-   "sources": [
+  "keyNumbers": [
     {
-     "name": "Wikipedia: 2023 FAA system outage",
-     "url": "https://en.wikipedia.org/wiki/2023_FAA_system_outage",
-     "primary": true
+      "label": "Ground stop",
+      "value": "≈ 4 hrs 20 min",
+      "note": "2:24 am to 6:45 am IST, 14 Nov"
     },
     {
-     "name": "Fox News",
-     "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
+      "label": "Cancelled Friday",
+      "value": "9,000+",
+      "note": "FlightAware final count of 9,138, via Men's Journal"
+    },
+    {
+      "label": "Cancelled Saturday",
+      "value": "6,400+",
+      "note": "FlightAware via Reuters; latest count nearly 6,700"
+    },
+    {
+      "label": "Cause",
+      "value": "Overloaded routers",
+      "note": "on L3Harris-run FAA network, per Transportation Secretary"
+    },
+    {
+      "label": "Cancelled Sunday",
+      "value": "≈ 2,100",
+      "note": "FlightAware via Reuters; earlier counts said 1,600+ and 2,300+"
+    },
+    {
+      "label": "Funding asked",
+      "value": "$50 bn",
+      "note": "Duffy's request to Congress, up from $30 bn"
     }
-   ],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "2:24 am IST, 14 Nov",
-   "phase": "travel",
-   "key": true,
-   "title": "FAA stops all departures across the US",
-   "summary": "Just before 4 pm US Eastern time on Friday, the FAA orders a ground stop for all US airports after \"communication issues impacting multiple Air Route Traffic Control Centers\", which guide planes at high altitude between airports. Planes already in the air keep flying to their destinations. Some flights over the ocean and from Alaska and Hawaii are allowed to leave.",
-   "status": "Confirmed · FAA",
-   "numbers": [
+  ],
+  "forYou": "Flying to, from or within the US this weekend? Check your flight status with the airline before leaving for the airport. Delta and United are letting affected passengers change flights without a fee. Under US Transportation Department rules, if your flight is cancelled and you do not accept another flight, you are entitled to a refund.",
+  "upcoming": [],
+  "next": "Whether US schedules are fully normal on Monday; Duffy's $50 billion funding request to Congress; the search for the root cause; reviews in Congress.",
+  "links": [
+    "microsoft-365-outage",
+    "india-flying-winter-2026"
+  ],
+  "events": [
     {
-     "k": "Flights in the air",
-     "v": "≈ 3,100–4,000"
+      "date": "2023-01-11",
+      "dateLabel": "11 Jan 2023",
+      "phase": "travel",
+      "title": "The last nationwide ground stop",
+      "summary": "Background: the FAA last halted departures across the US when its NOTAM system failed. NOTAMs are the safety notices that warn pilots about hazards such as closed runways. Before that, the last nationwide stop was on 11 September 2001.",
+      "status": "Confirmed · FAA",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Wikipedia: 2023 FAA system outage",
+          "url": "https://en.wikipedia.org/wiki/2023_FAA_system_outage",
+          "primary": true
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
+        }
+      ],
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "2:24 am IST, 14 Nov",
+      "phase": "travel",
+      "key": true,
+      "title": "FAA stops all departures across the US",
+      "summary": "Just before 4 pm US Eastern time on Friday, the FAA orders a ground stop for all US airports after \"communication issues impacting multiple Air Route Traffic Control Centers\", which guide planes at high altitude between airports. Planes already in the air keep flying to their destinations. Some flights over the ocean and from Alaska and Hawaii are allowed to leave.",
+      "status": "Confirmed · FAA",
+      "numbers": [
+        {
+          "k": "Flights in the air",
+          "v": "≈ 3,100–4,000"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Flightradar24",
+          "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/",
+          "primary": true
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+        }
+      ],
+      "differs": "Counts of flights in the air when the stop began vary: Flightradar24 reported about 3,100 heading to US airports just after the order and 4,042 bound for the US at the moment it was issued; Fox News reported more than 3,500 airborne.",
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Early hours IST, 14 Nov",
+      "phase": "travel",
+      "title": "Officials: a telecommunications outage, not an attack",
+      "summary": "The FAA says the problem is not a cyber attack. Homeland Security Secretary Markwayne Mullin calls it \"a telecommunication outage\" and says all flights are accounted for. Airlines pause new departures and cancellations start to climb.",
+      "status": "Stated · FAA, Homeland Security",
+      "numbers": [
+        {
+          "k": "Cancelled (≈ 7 pm ET)",
+          "v": "4,000+"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+          "primary": true
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+        }
+      ],
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "6:45 am IST, 14 Nov",
+      "phase": "travel",
+      "key": true,
+      "title": "Ground stop lifted after about four hours",
+      "summary": "The FAA lifts the stop at 8:15 pm US Eastern time. It says it tested its systems first to make sure they were stable. Delta and United say they are resuming flights, but airlines warn that delays and cancellations will continue into the weekend.",
+      "status": "Confirmed · FAA",
+      "numbers": [
+        {
+          "k": "Flights disrupted",
+          "v": "10,000+"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+        },
+        {
+          "name": "Flightradar24",
+          "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        }
+      ],
+      "differs": "CNBC and NPR describe the stop as lasting about four hours; CBS News says about five.",
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "≈ 7 am IST, 14 Nov",
+      "phase": "travel",
+      "key": true,
+      "title": "Duffy blames old equipment: \"It got overloaded\"",
+      "summary": "At a late-night press conference, Transportation Secretary Sean Duffy says old switches and routers that carry air traffic data were overloaded and began giving inconsistent data. Mullin says new security patches added to the older system appear to have overwhelmed the routers, and that the outage is not linked to the Microsoft outage a day earlier. Duffy warns there will be more such outages unless the system is upgraded and calls for funding, saying \"This is an emergency.\"",
+      "status": "Stated · US Transportation Secretary",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop"
+        }
+      ],
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Saturday, 14 Nov (5:15 pm IST count)",
+      "phase": "travel",
+      "title": "More than 3,400 Saturday flights cancelled as airlines recover",
+      "summary": "FlightAware counts more than 3,400 flights within, into or out of the US cancelled by Saturday morning (6:45 am US Eastern, 5:15 pm IST), as planes and crews are out of place after Friday's stop. Delta has cancelled 629 flights, about 20% of its schedule, and JetBlue 335, about 40%. Delta is letting passengers change Friday and Saturday flights without extra cost; United is waiving change fees for travel between 12 and 20 November. Officials say the system should be working normally in time for Thanksgiving travel later this month.",
+      "status": "Reported",
+      "numbers": [
+        {
+          "k": "Cancelled Saturday",
+          "v": "3,400+"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Men's Journal",
+          "url": "https://www.mensjournal.com/news/faa-ground-stop-saturday-flight-cancellations",
+          "primary": true
+        },
+        {
+          "name": "AP (via Now Georgia)",
+          "url": "https://nowgeorgia.com/thousands-of-flights-canceled-as-airlines-work-to-dig-out-from-nationwide-ground-stop/"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+        }
+      ],
+      "differs": "Counts vary by outlet and time: Men's Journal cites FlightAware at more than 3,400 Saturday cancellations as of 6:45 am ET; an AP report the same morning cites FlightAware at more than 2,500 (and more than 2,000 in its opening line). For Friday, Men's Journal cites FlightAware at 9,138 cancellations; earlier counts were about 6,000 (Axios, 9 pm ET) and about 7,000 (NPR).",
+      "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Saturday, 14 Nov (US daytime; evening IST)",
+      "phase": "travel",
+      "key": true,
+      "title": "Duffy blames contractor L3Harris; FAA finds \"zero evidence of anything nefarious\"",
+      "summary": "At a Saturday briefing, Duffy says the outage began while the contractor L3Harris, which runs the FAA's telecoms network, was switching lines from copper to fibre at a remote FAA site, and a router \"started flooding other routers\". He says officials are checking \"whether we had incompetence\" by the contractor or a faulty router, and that \"We're going to hold people accountable.\" FAA Administrator Bryan Bedford says officials found \"zero evidence of anything nefarious and zero evidence of anything AI related\", and that the review will show whether the router was installed or set up wrongly, or was faulty. The FAA has switched off the problem function on about 60 routers of the same type. L3Harris says it is supporting the FAA's investigation. CBS News, citing senior government sources, says the problem was isolated to old Cisco routers.",
+      "status": "Stated · US Transportation Secretary, FAA",
+      "numbers": [
+        {
+          "k": "Similar routers changed",
+          "v": "≈ 60"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+        }
+      ],
+      "added": "2026-11-15"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Saturday, 14 Nov (1:18 am IST 15 Nov count)",
+      "phase": "travel",
+      "key": true,
+      "title": "Saturday cancellations pass 5,000; full recovery expected by Sunday night",
+      "summary": "FlightAware counts more than 5,000 US flights cancelled on Saturday by 2:48 pm US Eastern time (1:18 am IST Sunday), including 892 at American, 734 at Delta and 733 at United. Bedford says \"the worst is behind us\" and that airlines expect to have their full schedules running by the close of business on Sunday. About 130 Sunday flights had been cancelled by Saturday afternoon. Bedford says passengers will either be put on another flight or get a full refund; airline waivers generally do not cover hotels and meals.",
+      "status": "Reported · FlightAware data; recovery estimate stated by FAA",
+      "numbers": [
+        {
+          "k": "Cancelled Saturday",
+          "v": "5,000+"
+        },
+        {
+          "k": "Sunday, so far",
+          "v": "≈ 130"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
+          "primary": true
+        },
+        {
+          "name": "The Points Guy",
+          "url": "https://thepointsguy.com/news/faa-groundstop-flights-grounded-nationwide"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+        }
+      ],
+      "differs": "The Points Guy's headline puts Saturday cancellations above 5,300; Yahoo News cites FlightAware at more than 5,000 at 2:48 pm ET; an earlier CBS News count was more than 3,800.",
+      "added": "2026-11-15"
+    },
+    {
+      "date": "2026-11-14",
+      "dateLabel": "Saturday, 14 Nov",
+      "phase": "travel",
+      "title": "Controllers' union: contact with some planes was disrupted; Congress to review",
+      "summary": "Nick Daniels, president of the National Air Traffic Controllers Association, tells Yahoo News that communications with some planes were disrupted and controllers moved flights to working radio frequencies. On Duffy's criticism of L3Harris he says: \"I don't think blame changes anything. Action changes things.\" The leaders of the House transport committee say they will \"thoroughly review\" what led to the stop, and Senate Commerce Committee Democrat Maria Cantwell says her committee will review it. New York Governor Kathy Hochul calls on Duffy to resign. Bedford says finishing the upgrade of the air traffic control system needs about $10.1 billion more, and Duffy plans to send Congress a new funding request on Monday.",
+      "status": "Stated · union, lawmakers, FAA",
+      "numbers": [
+        {
+          "k": "More needed, per FAA",
+          "v": "$10.1 bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+        }
+      ],
+      "added": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "dateLabel": "Sunday, 15 Nov",
+      "phase": "travel",
+      "title": "Saturday ends with about 6,400 cancellations; more than 900 Sunday flights already cancelled",
+      "summary": "Reuters, citing the flight tracker FlightAware, reports that Saturday ended with more than 6,400 US flights cancelled and more than 8,000 delayed, according to Latin Times. ABC7 puts Saturday's cancellations at nearly 6,500. By late Saturday US time, about 910 flights scheduled for Sunday had already been cancelled, both outlets report. The FAA reports no active ground stops. FAA chief Bryan Bedford has said he expects \"full schedule integrity by the close of business on Sunday\".",
+      "status": "Reported · FlightAware data",
+      "differs": "Saturday's cancellation total differs: more than 6,400 (Reuters via Latin Times) and nearly 6,500 (ABC7). Counts keep changing.",
+      "numbers": [
+        {
+          "k": "Cancelled Saturday",
+          "v": "6,400+"
+        },
+        {
+          "k": "Sunday flights cancelled (early count)",
+          "v": "≈ 910"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Latin Times",
+          "url": "https://www.latintimes.com/faa-flight-recovery-after-mass-cancellations-601362",
+          "primary": true
+        },
+        {
+          "name": "ABC7",
+          "url": "https://abc7.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20041434/"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+        }
+      ],
+      "added": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "dateLabel": "Sunday, 15 Nov",
+      "phase": "travel",
+      "title": "Third day of disruption; Duffy expects \"fully normal\" flights by Monday",
+      "summary": "Cancellations continued on Sunday US time, though fewer than on Saturday. Reuters, citing the flight tracker FlightAware, reported more than 2,300 US flights cancelled and about 7,700 delayed, with JetBlue (28% of its flights) and American Airlines (17%) worst hit. Transportation Secretary Sean Duffy told ABC's \"This Week\" that flights should be back to normal on Sunday \"but probably fully normal\" on Monday. He said there was no evidence of a cyber attack, \"but we don't actually have the root cause.\" The FAA said it had switched off the routers where the fault started, and about 60 similar ones. Duffy is now asking Congress for $50 billion to replace air traffic control equipment, up from $30 billion; President Trump wrote that \"Congress must approve.\" Two Democratic lawmakers said about $11 billion of the $12.5 billion Congress approved last year is still unspent.",
+      "status": "Reported · FlightAware data; Stated · Duffy, FAA",
+      "differs": "Sunday's counts differ between versions of the Reuters report published at different times: more than 1,600 cancelled and about 3,600 delayed (Business Recorder) versus more than 2,300 cancelled and about 7,700 delayed (AAP, TRT World). Counts keep changing.",
+      "numbers": [
+        {
+          "k": "Cancelled Sunday",
+          "v": "2,300+"
+        },
+        {
+          "k": "Delayed Sunday",
+          "v": "≈ 7,700"
+        },
+        {
+          "k": "Funding asked",
+          "v": "$50 bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters via AAP",
+          "url": "https://aapnews.aap.com.au/news/us-flight-disruptions-to-linger-for-another-day",
+          "primary": true
+        },
+        {
+          "name": "Reuters via TRT World",
+          "url": "https://www.trtworld.com/article/d14c18980fe3"
+        },
+        {
+          "name": "Reuters via Business Recorder",
+          "url": "https://www.brecorder.com/news/40449089/us-air-travel-disruptions-continue-into-third-day"
+        }
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "date": "2026-11-16",
+      "dateLabel": "Monday, 16 Nov",
+      "phase": "travel",
+      "title": "Sunday ends with about 2,100 cancellations; Monday looks close to normal",
+      "summary": "Reuters, citing the flight tracker FlightAware, reports that about 2,100 US flights were cancelled and 9,400 delayed on Sunday, the third day of disruption, with more than 11,500 flights affected that day. JetBlue cancelled about 28% of its flights and American about 20%; United, Southwest and Delta 3% to 5%. As of 8:28 pm US Eastern time on Sunday (6:58 am IST Monday), just 88 Monday flights had been cancelled. Duffy said there was no evidence of a cyber attack but the cause is still unclear. Two Democratic lawmakers asked to be told again why more money is needed, saying most of last year's $12.5 billion is unspent.",
+      "status": "Reported · FlightAware data; Stated · Duffy",
+      "differs": "Final counts differ from earlier versions of the Reuters report: Sunday about 2,100 cancelled and 9,400 delayed (latest) versus more than 2,300 and about 7,700 (earlier); Saturday now nearly 6,700 cancelled versus more than 6,400 earlier.",
+      "numbers": [
+        {
+          "k": "Cancelled Sunday",
+          "v": "≈ 2,100"
+        },
+        {
+          "k": "Delayed Sunday",
+          "v": "≈ 9,400"
+        },
+        {
+          "k": "Monday cancellations (early count)",
+          "v": "88"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters via RTÉ",
+          "url": "https://www.rte.ie/news/us/2026/1116/1599324-us-flight-world/",
+          "primary": true
+        },
+        {
+          "name": "Reuters via The Tribune",
+          "url": "https://www.tribuneindia.com/news/usa-news/us-flight-disruptions-continue-for-third-day-over-11500-flights-affected/"
+        },
+        {
+          "name": "Reuters via Media Selangor",
+          "url": "https://mediaselangor.com/en/2026/11/407141"
+        }
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "date": "2026-11-16",
+      "dateLabel": "Monday, 16 Nov (US time)",
+      "phase": "travel",
+      "title": "Monday morning: a few hundred cancellations, American hit hardest",
+      "summary": "Early on Monday, US time, a few hundred flights had been cancelled, far fewer than over the weekend, per the flight tracker FlightAware. As of 7 am Eastern time (5:30 pm IST), 284 flights within, into or out of the US had been cancelled and 954 delayed, with American Airlines cancelling the most (157), per Fox Business. A later Monday-morning count reported by the Daily Wire gave 547 cancellations. The FAA has traced the abnormal network traffic to sites in Amarillo, Texas, and El Dorado, Arkansas; investigators have not determined whether faulty equipment, the installation or something else caused it. Staff from the FAA and Transportation Department were due to brief House committees on Monday about the $30 billion funding request, per a statement from two Democratic lawmakers reported by CBS News.",
+      "status": "Reported · FlightAware data; cause under investigation",
+      "differs": "Monday counts depend on the time taken: about 250 cancelled by 6:30 am Eastern (CBS News), 284 by 7 am (Fox Business) and 547 later in the morning (Daily Wire). All cite FlightAware.",
+      "numbers": [
+        {
+          "k": "Cancelled Monday (7 am ET)",
+          "v": "284"
+        },
+        {
+          "k": "Delayed Monday (7 am ET)",
+          "v": "954"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/fox-news-air-space/monday-air-travel-faces-key-test-faa-ground-stop-possible-cause-emerges",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+        },
+        {
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/flight-cancellations-plunge-after-faa-meltdown-but-one-big-airline-is-still-taking-a-beating"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-18",
+      "dateLabel": "18–19 Nov (US time)",
+      "phase": "travel",
+      "title": "FAA pauses router installs; cause still unknown and oversight disputed",
+      "summary": "The FAA has suspended installation of the router model linked to the failure, Engadget reports, and FAA Administrator Bryan Bedford said the agency still does not know what triggered it. Transportation Secretary Sean Duffy said the same upgrade had 'worked well' 68 times before, blamed the contractor L3Harris for being slow to isolate the problem, and asked the FBI to help examine the router in Arkansas, per AP and Engadget. Bedford said: 'I take full responsibility for it.' The router's maker, HPE, says the routers were 'working exactly as designed', per ABC News. Investigators are checking whether the router was set up wrongly or was faulty, AP reports. Bedford said the contractor's engineer was monitored by an FAA technician; the air traffic technicians' union PASS and two sources dispute that, per Scripps News, and an FAA spokeswoman later said the escort 'is not there while the technician is doing work'. L3Harris declined further comment.",
+      "status": "Stated · FAA, Transportation Department",
+      "differs": "Officials point to how the router was installed or monitored; HPE says the equipment worked as designed or as configured. Scripps News reports the FAA's account of oversight is disputed.",
+      "numbers": [
+        {
+          "k": "Earlier upgrades without trouble",
+          "v": "68"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PBS NewsHour (AP)",
+          "url": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown",
+          "primary": true
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/mullin-faces-congressional-hearing-wake-historic-nationwide-ground/story?id=138226960"
+        },
+        {
+          "name": "KJCT (AP)",
+          "url": "https://www.kjct8.com/2026/11/19/duffy-ground-stop-could-have-been-shorter-if-contractor-spotted-issue-sooner/"
+        },
+        {
+          "name": "Scripps News",
+          "url": "https://www.scrippsnews.com/us-news/sources-dispute-faas-account-of-oversight-before-nationwide-ground-stop"
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "19–20 Nov (US time)",
+      "phase": "policy",
+      "title": "White House cyber director removed after a string of outages",
+      "summary": "Sean Cairncross, the White House National Cyber Director, has been removed from his post, after the FAA ground stop and other technology outages drew criticism, Fox News and The National Desk report. President Trump did not dispute that he was fired, saying: 'Because I didn't think that person was good enough.' Trump called the outages 'all separate events', and Secretary of State Marco Rubio said officials found 'zero evidence' linking them to each other or to hackers, per Fox News. Kirsten Davies, the Pentagon's chief information officer, is to take over. Cairncross said it was 'an honor to serve'. Trump also urged Congress to provide $50 billion for air traffic control upgrades.",
+      "status": "Confirmed · President Trump",
+      "differs": "Fox News says Davies will serve in an acting capacity; The National Desk says her appointment will still need Senate confirmation.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/trumps-national-cyber-director-sean-cairncross-fired"
+        },
+        {
+          "name": "The National Desk (via ABC News 4)",
+          "url": "https://abcnews4.com/news/nation-world/white-house-cyber-director-out-after-string-of-outages-congress"
+        }
+      ],
+      "added": "2026-11-22"
     }
-   ],
-   "sources": [
-    {
-     "name": "Flightradar24",
-     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/",
-     "primary": true
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
-    }
-   ],
-   "differs": "Counts of flights in the air when the stop began vary: Flightradar24 reported about 3,100 heading to US airports just after the order and 4,042 bound for the US at the moment it was issued; Fox News reported more than 3,500 airborne.",
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "Early hours IST, 14 Nov",
-   "phase": "travel",
-   "title": "Officials: a telecommunications outage, not an attack",
-   "summary": "The FAA says the problem is not a cyber attack. Homeland Security Secretary Markwayne Mullin calls it \"a telecommunication outage\" and says all flights are accounted for. Airlines pause new departures and cancellations start to climb.",
-   "status": "Stated · FAA, Homeland Security",
-   "numbers": [
-    {
-     "k": "Cancelled (≈ 7 pm ET)",
-     "v": "4,000+"
-    }
-   ],
-   "sources": [
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
-     "primary": true
-    },
-    {
-     "name": "Fox News",
-     "url": "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
-    }
-   ],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "6:45 am IST, 14 Nov",
-   "phase": "travel",
-   "key": true,
-   "title": "Ground stop lifted after about four hours",
-   "summary": "The FAA lifts the stop at 8:15 pm US Eastern time. It says it tested its systems first to make sure they were stable. Delta and United say they are resuming flights, but airlines warn that delays and cancellations will continue into the weekend.",
-   "status": "Confirmed · FAA",
-   "numbers": [
-    {
-     "k": "Flights disrupted",
-     "v": "10,000+"
-    }
-   ],
-   "sources": [
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-     "primary": true
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
-    },
-    {
-     "name": "Flightradar24",
-     "url": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
-    },
-    {
-     "name": "CNN",
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
-    }
-   ],
-   "differs": "CNBC and NPR describe the stop as lasting about four hours; CBS News says about five.",
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "≈ 7 am IST, 14 Nov",
-   "phase": "travel",
-   "key": true,
-   "title": "Duffy blames old equipment: \"It got overloaded\"",
-   "summary": "At a late-night press conference, Transportation Secretary Sean Duffy says old switches and routers that carry air traffic data were overloaded and began giving inconsistent data. Mullin says new security patches added to the older system appear to have overwhelmed the routers, and that the outage is not linked to the Microsoft outage a day earlier. Duffy warns there will be more such outages unless the system is upgraded and calls for funding, saying \"This is an emergency.\"",
-   "status": "Stated · US Transportation Secretary",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
-     "primary": true
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
-    },
-    {
-     "name": "CNN",
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
-    },
-    {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop"
-    }
-   ],
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "Saturday, 14 Nov (5:15 pm IST count)",
-   "phase": "travel",
-   "title": "More than 3,400 Saturday flights cancelled as airlines recover",
-   "summary": "FlightAware counts more than 3,400 flights within, into or out of the US cancelled by Saturday morning (6:45 am US Eastern, 5:15 pm IST), as planes and crews are out of place after Friday's stop. Delta has cancelled 629 flights, about 20% of its schedule, and JetBlue 335, about 40%. Delta is letting passengers change Friday and Saturday flights without extra cost; United is waiving change fees for travel between 12 and 20 November. Officials say the system should be working normally in time for Thanksgiving travel later this month.",
-   "status": "Reported",
-   "numbers": [
-    {
-     "k": "Cancelled Saturday",
-     "v": "3,400+"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Men's Journal",
-     "url": "https://www.mensjournal.com/news/faa-ground-stop-saturday-flight-cancellations",
-     "primary": true
-    },
-    {
-     "name": "AP (via Now Georgia)",
-     "url": "https://nowgeorgia.com/thousands-of-flights-canceled-as-airlines-work-to-dig-out-from-nationwide-ground-stop/"
-    },
-    {
-     "name": "CNN",
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
-    }
-   ],
-   "differs": "Counts vary by outlet and time: Men's Journal cites FlightAware at more than 3,400 Saturday cancellations as of 6:45 am ET; an AP report the same morning cites FlightAware at more than 2,500 (and more than 2,000 in its opening line). For Friday, Men's Journal cites FlightAware at 9,138 cancellations; earlier counts were about 6,000 (Axios, 9 pm ET) and about 7,000 (NPR).",
-   "added": "2026-11-14"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "Saturday, 14 Nov (US daytime; evening IST)",
-   "phase": "travel",
-   "key": true,
-   "title": "Duffy blames contractor L3Harris; FAA finds \"zero evidence of anything nefarious\"",
-   "summary": "At a Saturday briefing, Duffy says the outage began while the contractor L3Harris, which runs the FAA's telecoms network, was switching lines from copper to fibre at a remote FAA site, and a router \"started flooding other routers\". He says officials are checking \"whether we had incompetence\" by the contractor or a faulty router, and that \"We're going to hold people accountable.\" FAA Administrator Bryan Bedford says officials found \"zero evidence of anything nefarious and zero evidence of anything AI related\", and that the review will show whether the router was installed or set up wrongly, or was faulty. The FAA has switched off the problem function on about 60 routers of the same type. L3Harris says it is supporting the FAA's investigation. CBS News, citing senior government sources, says the problem was isolated to old Cisco routers.",
-   "status": "Stated · US Transportation Secretary, FAA",
-   "numbers": [
-    {
-     "k": "Similar routers changed",
-     "v": "≈ 60"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Yahoo News",
-     "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
-     "primary": true
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
-    }
-   ],
-   "added": "2026-11-15"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "Saturday, 14 Nov (1:18 am IST 15 Nov count)",
-   "phase": "travel",
-   "key": true,
-   "title": "Saturday cancellations pass 5,000; full recovery expected by Sunday night",
-   "summary": "FlightAware counts more than 5,000 US flights cancelled on Saturday by 2:48 pm US Eastern time (1:18 am IST Sunday), including 892 at American, 734 at Delta and 733 at United. Bedford says \"the worst is behind us\" and that airlines expect to have their full schedules running by the close of business on Sunday. About 130 Sunday flights had been cancelled by Saturday afternoon. Bedford says passengers will either be put on another flight or get a full refund; airline waivers generally do not cover hotels and meals.",
-   "status": "Reported · FlightAware data; recovery estimate stated by FAA",
-   "numbers": [
-    {
-     "k": "Cancelled Saturday",
-     "v": "5,000+"
-    },
-    {
-     "k": "Sunday, so far",
-     "v": "≈ 130"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Yahoo News",
-     "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
-     "primary": true
-    },
-    {
-     "name": "The Points Guy",
-     "url": "https://thepointsguy.com/news/faa-groundstop-flights-grounded-nationwide"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
-    }
-   ],
-   "differs": "The Points Guy's headline puts Saturday cancellations above 5,300; Yahoo News cites FlightAware at more than 5,000 at 2:48 pm ET; an earlier CBS News count was more than 3,800.",
-   "added": "2026-11-15"
-  },
-  {
-   "date": "2026-11-14",
-   "dateLabel": "Saturday, 14 Nov",
-   "phase": "travel",
-   "title": "Controllers' union: contact with some planes was disrupted; Congress to review",
-   "summary": "Nick Daniels, president of the National Air Traffic Controllers Association, tells Yahoo News that communications with some planes were disrupted and controllers moved flights to working radio frequencies. On Duffy's criticism of L3Harris he says: \"I don't think blame changes anything. Action changes things.\" The leaders of the House transport committee say they will \"thoroughly review\" what led to the stop, and Senate Commerce Committee Democrat Maria Cantwell says her committee will review it. New York Governor Kathy Hochul calls on Duffy to resign. Bedford says finishing the upgrade of the air traffic control system needs about $10.1 billion more, and Duffy plans to send Congress a new funding request on Monday.",
-   "status": "Stated · union, lawmakers, FAA",
-   "numbers": [
-    {
-     "k": "More needed, per FAA",
-     "v": "$10.1 bn"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Yahoo News",
-     "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
-     "primary": true
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
-    }
-   ],
-   "added": "2026-11-15"
-  },
-  {
-   "date": "2026-11-15",
-   "dateLabel": "Sunday, 15 Nov",
-   "phase": "travel",
-   "title": "Saturday ends with about 6,400 cancellations; more than 900 Sunday flights already cancelled",
-   "summary": "Reuters, citing the flight tracker FlightAware, reports that Saturday ended with more than 6,400 US flights cancelled and more than 8,000 delayed, according to Latin Times. ABC7 puts Saturday's cancellations at nearly 6,500. By late Saturday US time, about 910 flights scheduled for Sunday had already been cancelled, both outlets report. The FAA reports no active ground stops. FAA chief Bryan Bedford has said he expects \"full schedule integrity by the close of business on Sunday\".",
-   "status": "Reported · FlightAware data",
-   "differs": "Saturday's cancellation total differs: more than 6,400 (Reuters via Latin Times) and nearly 6,500 (ABC7). Counts keep changing.",
-   "numbers": [
-    {
-     "k": "Cancelled Saturday",
-     "v": "6,400+"
-    },
-    {
-     "k": "Sunday flights cancelled (early count)",
-     "v": "≈ 910"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Latin Times",
-     "url": "https://www.latintimes.com/faa-flight-recovery-after-mass-cancellations-601362",
-     "primary": true
-    },
-    {
-     "name": "ABC7",
-     "url": "https://abc7.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20041434/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
-    }
-   ],
-   "added": "2026-11-15"
-  },
-  {
-   "date": "2026-11-15",
-   "dateLabel": "Sunday, 15 Nov",
-   "phase": "travel",
-   "title": "Third day of disruption; Duffy expects \"fully normal\" flights by Monday",
-   "summary": "Cancellations continued on Sunday US time, though fewer than on Saturday. Reuters, citing the flight tracker FlightAware, reported more than 2,300 US flights cancelled and about 7,700 delayed, with JetBlue (28% of its flights) and American Airlines (17%) worst hit. Transportation Secretary Sean Duffy told ABC's \"This Week\" that flights should be back to normal on Sunday \"but probably fully normal\" on Monday. He said there was no evidence of a cyber attack, \"but we don't actually have the root cause.\" The FAA said it had switched off the routers where the fault started, and about 60 similar ones. Duffy is now asking Congress for $50 billion to replace air traffic control equipment, up from $30 billion; President Trump wrote that \"Congress must approve.\" Two Democratic lawmakers said about $11 billion of the $12.5 billion Congress approved last year is still unspent.",
-   "status": "Reported · FlightAware data; Stated · Duffy, FAA",
-   "differs": "Sunday's counts differ between versions of the Reuters report published at different times: more than 1,600 cancelled and about 3,600 delayed (Business Recorder) versus more than 2,300 cancelled and about 7,700 delayed (AAP, TRT World). Counts keep changing.",
-   "numbers": [
-    {
-     "k": "Cancelled Sunday",
-     "v": "2,300+"
-    },
-    {
-     "k": "Delayed Sunday",
-     "v": "≈ 7,700"
-    },
-    {
-     "k": "Funding asked",
-     "v": "$50 bn"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Reuters via AAP",
-     "url": "https://aapnews.aap.com.au/news/us-flight-disruptions-to-linger-for-another-day",
-     "primary": true
-    },
-    {
-     "name": "Reuters via TRT World",
-     "url": "https://www.trtworld.com/article/d14c18980fe3"
-    },
-    {
-     "name": "Reuters via Business Recorder",
-     "url": "https://www.brecorder.com/news/40449089/us-air-travel-disruptions-continue-into-third-day"
-    }
-   ],
-   "added": "2026-11-16"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "Monday, 16 Nov",
-   "phase": "travel",
-   "title": "Sunday ends with about 2,100 cancellations; Monday looks close to normal",
-   "summary": "Reuters, citing the flight tracker FlightAware, reports that about 2,100 US flights were cancelled and 9,400 delayed on Sunday, the third day of disruption, with more than 11,500 flights affected that day. JetBlue cancelled about 28% of its flights and American about 20%; United, Southwest and Delta 3% to 5%. As of 8:28 pm US Eastern time on Sunday (6:58 am IST Monday), just 88 Monday flights had been cancelled. Duffy said there was no evidence of a cyber attack but the cause is still unclear. Two Democratic lawmakers asked to be told again why more money is needed, saying most of last year's $12.5 billion is unspent.",
-   "status": "Reported · FlightAware data; Stated · Duffy",
-   "differs": "Final counts differ from earlier versions of the Reuters report: Sunday about 2,100 cancelled and 9,400 delayed (latest) versus more than 2,300 and about 7,700 (earlier); Saturday now nearly 6,700 cancelled versus more than 6,400 earlier.",
-   "numbers": [
-    {
-     "k": "Cancelled Sunday",
-     "v": "≈ 2,100"
-    },
-    {
-     "k": "Delayed Sunday",
-     "v": "≈ 9,400"
-    },
-    {
-     "k": "Monday cancellations (early count)",
-     "v": "88"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Reuters via RTÉ",
-     "url": "https://www.rte.ie/news/us/2026/1116/1599324-us-flight-world/",
-     "primary": true
-    },
-    {
-     "name": "Reuters via The Tribune",
-     "url": "https://www.tribuneindia.com/news/usa-news/us-flight-disruptions-continue-for-third-day-over-11500-flights-affected/"
-    },
-    {
-     "name": "Reuters via Media Selangor",
-     "url": "https://mediaselangor.com/en/2026/11/407141"
-    }
-   ],
-   "added": "2026-11-16"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "Monday, 16 Nov (US time)",
-   "phase": "travel",
-   "title": "Monday morning: a few hundred cancellations, American hit hardest",
-   "summary": "Early on Monday, US time, a few hundred flights had been cancelled, far fewer than over the weekend, per the flight tracker FlightAware. As of 7 am Eastern time (5:30 pm IST), 284 flights within, into or out of the US had been cancelled and 954 delayed, with American Airlines cancelling the most (157), per Fox Business. A later Monday-morning count reported by the Daily Wire gave 547 cancellations. The FAA has traced the abnormal network traffic to sites in Amarillo, Texas, and El Dorado, Arkansas; investigators have not determined whether faulty equipment, the installation or something else caused it. Staff from the FAA and Transportation Department were due to brief House committees on Monday about the $30 billion funding request, per a statement from two Democratic lawmakers reported by CBS News.",
-   "status": "Reported · FlightAware data; cause under investigation",
-   "differs": "Monday counts depend on the time taken: about 250 cancelled by 6:30 am Eastern (CBS News), 284 by 7 am (Fox Business) and 547 later in the morning (Daily Wire). All cite FlightAware.",
-   "numbers": [
-    {
-     "k": "Cancelled Monday (7 am ET)",
-     "v": "284"
-    },
-    {
-     "k": "Delayed Monday (7 am ET)",
-     "v": "954"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Fox Business",
-     "url": "https://www.foxbusiness.com/fox-news-air-space/monday-air-travel-faces-key-test-faa-ground-stop-possible-cause-emerges",
-     "primary": true
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
-    },
-    {
-     "name": "Daily Wire",
-     "url": "https://www.dailywire.com/news/flight-cancellations-plunge-after-faa-meltdown-but-one-big-airline-is-still-taking-a-beating"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18–19 Nov (US time)",
-   "phase": "travel",
-   "title": "FAA pauses router installs; cause still unknown and oversight disputed",
-   "summary": "The FAA has suspended installation of the router model linked to the failure, Engadget reports, and FAA Administrator Bryan Bedford said the agency still does not know what triggered it. Transportation Secretary Sean Duffy said the same upgrade had 'worked well' 68 times before, blamed the contractor L3Harris for being slow to isolate the problem, and asked the FBI to help examine the router in Arkansas, per AP and Engadget. Bedford said: 'I take full responsibility for it.' The router's maker, HPE, says the routers were 'working exactly as designed', per ABC News. Investigators are checking whether the router was set up wrongly or was faulty, AP reports. Bedford said the contractor's engineer was monitored by an FAA technician; the air traffic technicians' union PASS and two sources dispute that, per Scripps News, and an FAA spokeswoman later said the escort 'is not there while the technician is doing work'. L3Harris declined further comment.",
-   "status": "Stated · FAA, Transportation Department",
-   "differs": "Officials point to how the router was installed or monitored; HPE says the equipment worked as designed or as configured. Scripps News reports the FAA's account of oversight is disputed.",
-   "numbers": [
-    {
-     "k": "Earlier upgrades without trouble",
-     "v": "68"
-    }
-   ],
-   "sources": [
-    {
-     "name": "PBS NewsHour (AP)",
-     "url": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown",
-     "primary": true
-    },
-    {
-     "name": "Engadget",
-     "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/Politics/mullin-faces-congressional-hearing-wake-historic-nationwide-ground/story?id=138226960"
-    },
-    {
-     "name": "KJCT (AP)",
-     "url": "https://www.kjct8.com/2026/11/19/duffy-ground-stop-could-have-been-shorter-if-contractor-spotted-issue-sooner/"
-    },
-    {
-     "name": "Scripps News",
-     "url": "https://www.scrippsnews.com/us-news/sources-dispute-faas-account-of-oversight-before-nationwide-ground-stop"
-    }
-   ],
-   "added": "2026-11-20"
-  }
- ]
+  ]
 }

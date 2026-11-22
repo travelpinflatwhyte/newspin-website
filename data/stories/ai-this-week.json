@@ -15,7 +15,7 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "glance": {
     "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out and then fell sharply on a reported SEC probe of its accounting, Anthropic listed on Nasdaq, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
@@ -610,6 +610,36 @@
       ],
       "link": "nvidia-huang-investigation",
       "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026 (US time)",
+      "phase": "tech",
+      "title": "Anthropic mathematician claims a Riemann Hypothesis proof made with Claude; not yet verified",
+      "summary": "An Anthropic mathematician announced on Friday that he believes he and Claude, Anthropic's AI model, have produced a proof of the Riemann Hypothesis, a 167-year-old unsolved problem about how prime numbers are spread out, and of a wider version called the Generalized Riemann Hypothesis, per IBM Think and Interesting Engineering. The argument was released mainly as computer-checkable code in the Lean proof language, with a four-page explanation. He credited Claude with 'rapid progress during the final stages'. The claim has not been peer reviewed, and independent mathematicians have yet to verify it. Fields Medal winner James Maynard told IBM Think: 'If this fully checks out, it is clearly a historic milestone in mathematics', adding that checking the Lean verification 'will take some time'. The problem is one of the Clay Institute's seven $1 million Millennium Prize Problems; Clay requires peer-reviewed publication and two years of scrutiny, so it remains officially unsolved.",
+      "status": "Stated · not yet verified",
+      "numbers": [
+        {
+          "k": "Age of the problem",
+          "v": "167 years (posed 1859)"
+        },
+        {
+          "k": "Clay prize",
+          "v": "$1 million, after peer review and 2 years"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IBM Think",
+          "url": "https://www.ibm.com/think/news/anthropic-claude-riemann-hypothesis-math-proof"
+        },
+        {
+          "name": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/anthropic-167-year-old-riemann-hypothesis-claude"
+        }
+      ],
+      "added": "2026-11-22",
+      "link": "anthropic-2026"
     }
   ]
 }

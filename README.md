@@ -108,7 +108,8 @@ Add `"chart": {"title": "Repo rate, %", "unit": "%", "step": true, "note": "..."
 
 ## Search and sharing
 - Every page: title, description, canonical, Open Graph and Twitter tags, `max-image-preview:large`.
-- Story pages: NewsArticle + BreadcrumbList structured data; datePublished = first event added, dateModified = `updated`. Keep `updated` current on every edit.
+- Story pages: NewsArticle + BreadcrumbList structured data; datePublished = first event added, dateModified = `updated`. Keep `updated` current on every edit. Times come from git: if the story file's first (or latest) commit falls on that date, its real commit time in IST is used, otherwise 09:00 IST. The deploy workflow checks out full history (`fetch-depth: 0`) for this.
+- IndexNow: `build.py` writes the key file (`/<INDEXNOW_KEY>.txt`). After each push is published, the workflow waits 90 seconds and runs `indexnow.py` with the story files changed in that push, which sends those story URLs plus the home page to api.indexnow.org (Bing and other IndexNow engines). It never fails the deploy.
 - Keep `seoTitle` under about 50 characters (" | Newspin" is added) and `dek` under 160.
 - `feed.xml` (RSS, latest 40 entries), `sitemap.xml`, `robots.txt`, and `CNAME` (newspinapp.com) are generated. Upload the whole zip so CNAME is never lost.
 

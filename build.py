@@ -19,6 +19,29 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 DIST = ROOT / "dist"
 STATIC = ROOT / "static"
+IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
+INDEXNOW_KEY = "349e4f552b1754194d477536f9d257ce"  # served at /<key>.txt; used by indexnow.py after each deploy
+
+
+def git_times(path):
+    """(first, last) commit times of a file in IST, from git history; (None, None) if unavailable."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "log", "--follow", "--format=%cI", "--", str(path)], cwd=ROOT,
+                             capture_output=True, text=True, timeout=20).stdout.split()
+    except Exception:
+        return None, None
+    if not out:
+        return None, None
+    conv = lambda s: dt.datetime.fromisoformat(s).astimezone(IST)
+    return conv(out[-1]), conv(out[0])
+
+
+def stamp(day, when=None):
+    """Full IST timestamp for a YYYY-MM-DD date: the real commit time if it falls on that day, else 09:00 IST."""
+    if when is not None and when.date().isoformat() == day:
+        return when.replace(microsecond=0).isoformat()
+    return f"{day}T09:00:00+05:30"
 
 e = lambda s: html.escape(str(s), quote=True)
 
@@ -236,7 +259,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     robots = '<meta name="robots" content="noindex">' if noindex else '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">'
     dom = site["domain"].rstrip("/")
-    times = (f'<meta property="article:published_time" content="{published}T09:00:00+05:30">\n<meta property="article:modified_time" content="{modified}T09:00:00+05:30">') if published else ""
+    times = (f'<meta property="article:published_time" content="{published}">\n<meta property="article:modified_time" content="{modified}">') if published else ""
     cur = lambda k: ' aria-current="page"' if nav == k else ""
     return f"""<!doctype html>
 <html lang="en-IN">
@@ -1050,14 +1073,16 @@ def build_story(site, stories, s, axis):
 """
     body += f'<script>window.NP_STORIES={json.dumps([sm_data(s)], ensure_ascii=False)};</script>'
     dom = site["domain"].rstrip("/")
-    published = min(ev["added"] for ev in s["events"])
+    first, last = git_times(DATA / "stories" / f"{slug}.json")
+    published = stamp(min(ev["added"] for ev in s["events"]), first)
+    modified = max(stamp(s["updated"], last), published)
     url = f"{dom}/stories/{slug}/"
     org = {"@type": "Organization", "@id": f"{dom}/#org", "name": "Newspin", "url": dom + "/",
            "logo": {"@type": "ImageObject", "url": f"{dom}/logo-512.png", "width": 512, "height": 512}}
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "NewsArticle", "headline": s["title"][:110], "description": s["dek"], "url": url,
          "mainEntityOfPage": url, "inLanguage": "en-IN",
-         "datePublished": f"{published}T09:00:00+05:30", "dateModified": f"{s['updated']}T09:00:00+05:30",
+         "datePublished": published, "dateModified": modified,
          "image": [f"{dom}/og/{slug}.png"], "articleSection": s["category"],
          "author": {"@id": f"{dom}/#org"}, "publisher": {"@id": f"{dom}/#org"}},
         org,
@@ -1067,7 +1092,7 @@ def build_story(site, stories, s, axis):
             {"@type": "ListItem", "position": 3, "name": s["short"], "item": url}]}]}
     return page(site, title=f"{s['seoTitle']} | Newspin", desc=s["dek"], path=f"/stories/{slug}/", body=body,
                 story_slug=slug, og_image=f"/og/{slug}.png", jsonld=ld, nav="story",
-                og_alt=f"{s['short']} timeline: {s['big']}", published=published, modified=s["updated"])
+                og_alt=f"{s['short']} timeline: {s['big']}", published=published, modified=modified)
 
 
 # ---------- simple pages ----------
@@ -1266,6 +1291,7 @@ def main():
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n")
     (DIST / "CNAME").write_text("newspinapp.com\n")
+    (DIST / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY)
     (DIST / "feed.xml").write_text(build_feed(site, stories, order))
     build_og(site, stories, order, axis)
     print(f"Built {len(order)} stories into {DIST}")

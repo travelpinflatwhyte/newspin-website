@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so pages carry real update times from git
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -34,3 +36,12 @@ jobs:
           publish_dir: ./dist
           cname: newspinapp.com
           commit_message: "Publish ${{ github.sha }}"
+      - name: Notify IndexNow (Bing and others) of changed pages
+        if: github.event_name == 'push'
+        continue-on-error: true
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          sleep 90   # give GitHub Pages time to serve the new build and key file
+          CHANGED=$(git diff --name-only "$BEFORE" "$GITHUB_SHA" -- data/stories 2>/dev/null || true)
+          python3 indexnow.py $CHANGED

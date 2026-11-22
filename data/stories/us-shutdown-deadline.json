@@ -1,0 +1,270 @@
+{
+ "slug": "us-shutdown-deadline",
+ "short": "US shutdown deadline",
+ "category": "Policy",
+ "flag": "us",
+ "regions": [
+  "US",
+  "World"
+ ],
+ "title": "US shutdown watch: the 11 December funding deadline",
+ "dek": "Three US shutdowns in a year, a stopgap that runs out on 11 December, and a fight over money for the Iran war.",
+ "seoTitle": "US government shutdown deadline: 11 Dec timeline",
+ "importance": 3,
+ "status": "Funded to 11 Dec",
+ "tone": "live",
+ "big": "11 Dec",
+ "delta": "funding runs out",
+ "deltaTone": "neutral",
+ "bigLabel": "Current US government funding ends at 11:59 pm US Eastern time on 11 December (10:29 am IST on 12 December) unless Congress passes a new law.",
+ "updated": "2026-11-22",
+ "glance": {
+  "what": "Most of the US government is funded by a stopgap law that runs out on 11 December. In the past year the US has had a 43-day full shutdown and a record 76-day shutdown of Homeland Security.",
+  "why": "In a shutdown, unfunded agencies stop non-essential work and many federal workers go unpaid, including air traffic controllers and airport screeners, which has meant flight cuts and long security queues before.",
+  "next": "Congress must pass another stopgap or full-year spending bills by 11 December. Some Democrats want limits on Iran war funding; the new Congress meets in January."
+ },
+ "keyNumbers": [
+  {
+   "label": "Deadline",
+   "value": "11 Dec",
+   "note": "11:59 pm ET",
+   "hot": true
+  },
+  {
+   "label": "2025 shutdown",
+   "value": "43 days",
+   "note": "1 Oct – 12 Nov"
+  },
+  {
+   "label": "DHS shutdown, 2026",
+   "value": "76 days",
+   "note": "14 Feb – 30 Apr"
+  },
+  {
+   "label": "Senate votes needed",
+   "value": "60",
+   "note": "of 100"
+  }
+ ],
+ "forYou": "Flying to or within the US? During the last shutdowns air traffic controllers and TSA screeners worked unpaid, and in November 2025 the FAA cut flights at 40 major airports. If there is a shutdown, check your flight before you leave and allow extra time at security.",
+ "upcoming": [
+  {
+   "date": "2026-12-11",
+   "label": "11 Dec",
+   "text": "US government funding runs out"
+  },
+  {
+   "date": "2027-01-03",
+   "label": "Early Jan 2027",
+   "text": "New Congress meets"
+  }
+ ],
+ "next": "Whether Congress passes another stopgap, and for how long, before funding runs out on 11 December; whether Democrats insist on Iran war limits.",
+ "links": [
+  "us-midterms-2026",
+  "west-asia-oil",
+  "us-flights-ground-stop"
+ ],
+ "events": [
+  {
+   "date": "2025-11-12",
+   "dateLabel": "1 Oct – 12 Nov 2025",
+   "phase": "policy",
+   "key": true,
+   "title": "The longest full shutdown ends after 43 days",
+   "summary": "US government funding ran out on 1 October 2025 after Congress failed to agree a budget, mainly over whether to extend health insurance subsidies under the Affordable Care Act. Hundreds of thousands of federal workers were sent home without pay; the Government Shutdown Tracker puts the number at about 670,000 or more. About 13,000 air traffic controllers kept working unpaid, and on 7 November the FAA ordered flight cuts at 40 major airports. The Senate passed a deal 60–40 on 10 November and the House 222–209 on 12 November; President Trump signed it the same day. It funded most agencies only until 30 January 2026 and guaranteed back pay.",
+   "status": "Official data · Congress",
+   "numbers": [
+    {
+     "k": "Length",
+     "v": "43 days"
+    },
+    {
+     "k": "Senate vote",
+     "v": "60–40"
+    },
+    {
+     "k": "House vote",
+     "v": "222–209"
+    }
+   ],
+   "differs": "The tracker notes the Congressional Research Service counts it as 42 full days; most reports say 43 days.",
+   "sources": [
+    {
+     "name": "Government Shutdown Tracker: 2025 shutdown",
+     "url": "https://governmentshutdowntracker.com/history/2025-government-shutdown/"
+    },
+    {
+     "name": "NADO",
+     "url": "https://www.nado.org/longest-government-shutdown-ends/"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-02-03",
+   "dateLabel": "31 Jan – 3 Feb 2026",
+   "phase": "policy",
+   "key": true,
+   "title": "A four-day partial shutdown ends; Homeland Security split off",
+   "summary": "Funding for about half of the government lapsed at midnight on 30 January 2026, after Senate Democrats withdrew support for funding the Department of Homeland Security (DHS) over immigration enforcement. The Senate passed a $1.2 trillion package 71–29 that funded five spending bills to 30 September but gave DHS only a two-week extension. The House approved it 217–214 on 3 February, the shutdown's fourth day, and President Trump signed it that afternoon. The law guarantees back pay for furloughed workers.",
+   "status": "Official data · Congress",
+   "numbers": [
+    {
+     "k": "Length",
+     "v": "4 days"
+    },
+    {
+     "k": "House vote",
+     "v": "217–214"
+    },
+    {
+     "k": "Senate vote",
+     "v": "71–29"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HSToday",
+     "url": "https://www.hstoday.us/subject-matter-areas/federal-government/house-votes-to-end-partial-us-government-shutdown-on-day-4/"
+    },
+    {
+     "name": "Federal News Network",
+     "url": "https://federalnewsnetwork.com/government-shutdown/2026/02/house-passes-spending-deal-to-end-partial-shutdown-securing-back-pay-for-furloughed-feds/"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-02-14",
+   "dateLabel": "14 Feb 2026",
+   "phase": "policy",
+   "title": "Homeland Security shutdown begins",
+   "summary": "DHS funding ran out at 12:01 am US Eastern time on 14 February after Democrats blocked a second two-week extension, amid disputes over immigration enforcement. The rest of the government stayed open. Airport security screeners at the Transportation Security Administration (TSA), the Coast Guard and other DHS staff had to keep working without pay.",
+   "status": "Official data",
+   "sources": [
+    {
+     "name": "Wikipedia: 2026 US shutdowns",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns"
+    },
+    {
+     "name": "HSToday: DHS shutdown blog",
+     "url": "https://www.hstoday.us/featured/dhs-partial-shutdown-continues/"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-03-27",
+   "dateLabel": "27 Mar 2026",
+   "phase": "policy",
+   "title": "Trump orders TSA workers paid as screeners quit",
+   "summary": "With airport screeners missing paychecks, President Trump signed an order on 27 March to pay TSA workers from funds in last year's One Big Beautiful Bill Act, per HSToday and Wikipedia. The same day the Senate approved a deal funding DHS except Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP), but House Speaker Mike Johnson refused a House vote on it. TSA's acting head told Congress of 'nearly $1 billion in delayed paychecks', per HSToday.",
+   "status": "Official data",
+   "differs": "Counts of TSA officers who quit differ: HSToday says more than 480 over the shutdown; Wikipedia cites DHS figures of 366 by 17 March and more than 1,110 by 27 April.",
+   "sources": [
+    {
+     "name": "HSToday: DHS shutdown blog",
+     "url": "https://www.hstoday.us/featured/dhs-partial-shutdown-continues/"
+    },
+    {
+     "name": "Wikipedia: 2026 US shutdowns",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-04-30",
+   "dateLabel": "30 Apr 2026",
+   "phase": "policy",
+   "key": true,
+   "title": "Record 76-day Homeland Security shutdown ends, without ICE and CBP",
+   "summary": "The House passed the Senate's DHS bill by voice vote on 30 April and President Trump signed it, ending a 76-day lapse that HSToday calls the longest agency shutdown in US history. The law funds 20 of DHS's 22 agencies, including TSA, FEMA, the Coast Guard and the Secret Service, to 30 September. ICE and CBP were left out, to be funded through a separate budget bill that Republicans can pass without Democratic votes.",
+   "status": "Official data · Congress",
+   "numbers": [
+    {
+     "k": "Length",
+     "v": "76 days"
+    },
+    {
+     "k": "DHS agencies funded",
+     "v": "20 of 22"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HSToday: DHS shutdown blog",
+     "url": "https://www.hstoday.us/featured/dhs-partial-shutdown-continues/"
+    },
+    {
+     "name": "Wikipedia: 2026 US shutdowns",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns"
+    },
+    {
+     "name": "Aviation Week",
+     "url": "https://aviationweek.com/air-transport/safety-ops-regulation/dhs-shutdown-tsa-pay-crisis-largely-ends-house-reverses-course"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-09-02",
+   "dateLabel": "1–2 Sep 2026",
+   "phase": "law",
+   "key": true,
+   "title": "Stopgap law keeps the government open to 11 December",
+   "summary": "With the new budget year starting on 1 October, the House passed a stopgap funding law, known as a continuing resolution, 370–48 on 1 September, and President Trump signed it on 2 September. It keeps spending at last year's levels until 11 December. Harvard's federal relations office says the Senate had passed it 90–6 in August.",
+   "status": "Official data · Congress",
+   "numbers": [
+    {
+     "k": "House vote",
+     "v": "370–48"
+    },
+    {
+     "k": "Funded until",
+     "v": "11 Dec 2026"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AACOM",
+     "url": "https://www.aacom.org/news-reports/news/2026/09/08/president-trump-signs-continuing-resolution-to-fund-government-through-december-11"
+    },
+    {
+     "name": "Harvard Office for Federal Relations",
+     "url": "https://ofr.harvard.edu/news/2026/09/congress-extends-government-funding-through-december-11"
+    },
+    {
+     "name": "Government Shutdown Tracker",
+     "url": "https://governmentshutdowntracker.com/"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "12–20 Nov 2026",
+   "phase": "policy",
+   "key": true,
+   "title": "Iran war splits Democrats ahead of the 11 December deadline",
+   "summary": "Some Democrats say they will not back another funding law unless it limits money for the war with Iran. Senator Chris Van Hollen, with Senators Duckworth, Sanders and Bennet, said any deal 'must include language that restricts the Trump Administration from using appropriated funds to continue his war against Iran', per CBS News. Others warn against a shutdown: Rep. Rosa DeLauro, the top Democrat on the House Appropriations Committee, favours a short extension to February and said Americans 'may not believe that shutting the government down ends the war'. Democratic leaders Hakeem Jeffries and Chuck Schumer have not set out their approach. The administration is considering a stopgap running through March, Roll Call reported, per the Government Shutdown Tracker. A funding law needs 60 votes in the Senate. A White House official said the economic pressure on Iran means the President has no 'need to conduct major combat operations'.",
+   "status": "Stated · lawmakers",
+   "sources": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+    },
+    {
+     "name": "Government Shutdown Tracker",
+     "url": "https://governmentshutdowntracker.com/"
+    },
+    {
+     "name": "iHeart",
+     "url": "https://www.iheart.com/content/2026-11-20-clock-ticking-to-government-shutdown/"
+    }
+   ],
+   "added": "2026-11-22"
+  }
+ ]
+}

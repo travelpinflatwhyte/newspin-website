@@ -15,7 +15,7 @@
  "big": "$125.53",
  "delta": "▼ 14.01% on 20 Nov",
  "bigLabel": "Nvidia share price at the close on 20 November (US time), after Reuters reported an SEC accounting inquiry",
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
  "glance": {
   "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November. On 19 November California's attorney general subpoenaed Nvidia over possible chip leaks to China and investor disclosures. On 20 November Reuters reported that SEC staff are examining possible accounting issues at Nvidia, and its shares fell 14%.",
   "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
@@ -813,9 +813,39 @@
     }
    ],
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-21",
+   "dateLabel": "21 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "New York Times also reports the SEC inquiry; questions over how Nvidia reports sales by region",
+   "summary": "The New York Times reported on Saturday that the SEC is investigating Nvidia's accounting, citing people briefed on the confidential inquiry, per AFP. AFP says the inquiry is at an early stage and could end without charges, and that it is unclear whether it concerns a change in how Nvidia reports sales by region or the Huang affair. Last year Nvidia stopped reporting regional sales by customers' billing address and began using where customers are headquartered, which removed Singapore from the breakdown; Nvidia said this better reflects its revenue, per Reuters. The Financial Times had reported that Singapore made up almost half of global revenue before the change, Reuters says. Nvidia did not respond and the SEC declined to comment. Nvidia shares fell more than 20% over the week, per AFP. Separately, President Trump said: \"I would love to see Jensen be given a second chance\"; the board chair has ruled out Huang's return.",
+   "status": "Reported · New York Times, Reuters (via AFP and Korea Times); Stated · Trump",
+   "numbers": [
+    {
+     "k": "Weekly share fall",
+     "v": "20%+ (AFP)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AFP via Manila Times",
+     "url": "https://www.manilatimes.net/2026/11/22/world/americas-emea/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/2475581",
+     "primary": true
+    },
+    {
+     "name": "Reuters via Korea Times",
+     "url": "https://www.koreatimes.co.kr/world/20261121/nvidias-accounting-is-focus-of-us-sec-investigation-sources-say"
+    },
+    {
+     "name": "AFP via Malay Mail",
+     "url": "https://www.malaymail.com/amp/news/world/2026/11/22/nvidia-under-sec-scrutiny-as-fallout-from-jensen-huangs-resignation-widens/244254"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ],
- "heroTitle": "Nvidia shares fall 14% after report of an SEC accounting inquiry",
- "heroDek": "Reuters reports that SEC enforcement staff are examining possible accounting issues at Nvidia; the SEC declined to comment. It follows a subpoena from California's attorney general and Jensen Huang's resignation as CEO. Huang is due before three House committees on 1 December and has agreed to a public Senate hearing, date not set.",
- "heroAsOf": "2026-11-21"
+ "heroTitle": "NYT joins Reuters in reporting an SEC inquiry into Nvidia's accounting",
+ "heroDek": "The inquiry is at an early stage, per AFP; it is unclear whether it concerns how Nvidia reports sales by region or the Huang affair. Shares fell more than 20% last week. Huang is due before three House committees on 1 December.",
+ "heroAsOf": "2026-11-23"
 }

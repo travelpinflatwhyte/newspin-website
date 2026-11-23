@@ -45,7 +45,7 @@
   ],
   "forYou": "Anthropic's most capable model, Claude Fable, is public. A version with fewer safety limits, Claude Mythos, is available only to approved organisations working in cybersecurity and life sciences.",
   "upcoming": [],
-  "next": "How the shares trade in the coming weeks; Anthropic's first filings as a listed company; whether mathematicians confirm the claimed Riemann proof.",
+  "next": "How the shares trade in the coming weeks; Anthropic's first filings as a listed company; a human-readable write-up and review of the Riemann proof.",
   "links": [
     "ai-model-tracker",
     "openai-2026",
@@ -624,7 +624,33 @@
         }
       ],
       "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-21",
+      "dateLabel": "21 Nov 2026",
+      "phase": "tech",
+      "title": "Lean and Mathlib communities certify the computer-checked Riemann proof; human review still to come",
+      "summary": "The communities behind Lean, a computer system that checks mathematical proofs, and its main maths library Mathlib issued a joint statement saying the formal proof correctly states and proves the Riemann Hypothesis, per Unite.ai and Kingy AI. Dozens of people rebuilt the proof, and independent checking programs accepted it; one MIT mathematician reported that all 175,187 modules compiled with no errors. The statement covers only the computer-checked proof. There is no human-readable paper yet, and mathematicians still have to understand why the proof works; Terence Tao said digesting it 'will take some time'. The Clay Mathematics Institute still lists the problem as unsolved: its $1 million prize requires publication, two years and broad acceptance.",
+      "status": "Reported · Lean and Mathlib community statement (via tech sites); not peer reviewed",
+      "numbers": [
+        {
+          "k": "Modules compiled",
+          "v": "175,187"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Unite.ai",
+          "url": "https://www.unite.ai/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof/",
+          "primary": true
+        },
+        {
+          "name": "Kingy AI",
+          "url": "https://kingy.ai/blog/levent-alpoge-claude-riemann-hypothesis-proof/"
+        }
+      ],
+      "added": "2026-11-23"
     }
   ],
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
 }

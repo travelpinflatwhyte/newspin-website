@@ -13,12 +13,12 @@
  "tone": "live",
  "big": "1,000+",
  "delta": "prisoners per side",
- "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 21 Nov.",
- "updated": "2026-11-21",
+ "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 23 Nov.",
+ "updated": "2026-11-23",
  "glance": {
   "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
   "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes, and Russia hit Kyiv's bridges a day later. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this. No date is set. The agreed prisoner swap has not yet been reported as carried out."
+  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes. Russian strikes continued: on 22 November an apartment block and a supermarket were hit near Kyiv, and Zelenskyy asked the US to release Patriot missiles. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this. No date is set, and the agreed prisoner swap has not been reported as carried out."
  },
  "keyNumbers": [
   {
@@ -392,6 +392,49 @@
     }
    ],
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026",
+   "phase": "world",
+   "title": "Russian strikes on Kyiv region hit an apartment block and a supermarket; Zelenskyy asks the US for Patriot missiles",
+   "summary": "A Russian strike early on Sunday destroyed part of a five-storey apartment block in Dymer, north of Kyiv. At least three people were killed and four wounded, per AP and the Kyiv regional governor via Ukrinform, and about a dozen were still believed trapped. On Sunday evening a drone hit a supermarket in the Vyshneve area of Kyiv region, killing at least two people and injuring eight, the governor said, per the Kyiv Independent. He declared 23 November a day of mourning in the region. Zelenskyy said Russia launched about 2,700 attack drones, nearly 1,460 guided bombs and 165 missiles over the past week, and urged the US to approve delivery of Patriot air-defence missiles that partners have already paid for, per Al Jazeera. No new talks or prisoner exchange were reported.",
+   "status": "Confirmed · Ukrainian officials (casualties); Stated · Zelenskyy (weekly totals)",
+   "differs": "The number still trapped in Dymer differs: 11 per the State Emergency Service (AP), up to 15 per Ukrinform, and 14 unaccounted for in an earlier Zelenskyy statement. AP's earlier toll for the supermarket was 1 killed and 3 hurt.",
+   "numbers": [
+    {
+     "k": "Killed, Dymer",
+     "v": "3+"
+    },
+    {
+     "k": "Killed, supermarket",
+     "v": "2+"
+    },
+    {
+     "k": "Russian drones in a week",
+     "v": "≈ 2,700 (Zelenskyy)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AP via Grand Junction Sentinel",
+     "url": "https://www.gjsentinel.com/russian-attack-near-ukraines-capital-strikes-apartment-building-killing-3-and-burying-others/article_3a85f386-8409-58fe-ad33-3675779513c2.html",
+     "primary": true
+    },
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4187437-body-of-third-victim-recovered-from-rubble-of-building-in-dymer-kyiv-region.html"
+    },
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/routine-shopping-trip-turned-tragedy-russia-attacks-kyiv-oblast-supermarket-during-working-hours-killing-2-injuring-at-least-8/"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ]
 }

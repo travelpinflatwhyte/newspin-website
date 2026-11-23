@@ -11,25 +11,25 @@
   "importance": 4,
   "status": "Poor · Stage II",
   "tone": "hot",
-  "big": "237",
+  "big": "239",
   "delta": "poor",
-  "bigLabel": "Delhi's average AQI at 9 am on 22 Nov (CPCB); it was 403 ('severe') on 13 Nov",
-  "updated": "2026-11-22",
+  "bigLabel": "Delhi's daily average AQI for 22 Nov (CPCB); it was 403 ('severe') on 13 Nov",
+  "updated": "2026-11-23",
   "glance": {
     "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 214 at 7 am on 18 November, 289 at 8:30 am on 19 November, 269 at 8 am on 20 November, the season's coldest morning so far, 278 on 21 November, with 25 of 57 stations 'very poor', and 237 at 9 am on 22 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
     "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-    "next": "Air has stayed 'poor', with a few stations 'very poor'; forecasts expect little change until at least 24 November. The 5–20 November construction ban has been lifted; Stage I and II curbs stay. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+    "next": "Sunday's daily average was 239 ('poor'). Forecasts expect 'poor' air until Wednesday, then 'poor' to 'very poor' as winds weaken. Stage I and II curbs stay. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
   },
   "keyNumbers": [
     {
-      "label": "AQI, 21 Nov morning",
-      "value": "278",
-      "note": "poor; 25 stations very poor",
+      "label": "AQI, 22 Nov daily",
+      "value": "239",
+      "note": "poor; 8 stations very poor",
       "hot": true
     },
     {
-      "label": "AQI, 20 Nov 8 am",
-      "value": "269",
+      "label": "AQI, 21 Nov daily",
+      "value": "265",
       "note": "poor",
       "hot": false
     },
@@ -62,7 +62,7 @@
       "text": "Entry curbs on non-BS-VI outside vehicles end"
     }
   ],
-  "next": "Stage I and II curbs stay; colder, calmer nights can trap pollution and push air back to 'very poor'.",
+  "next": "Stage I and II curbs stay; forecasts expect air to slip towards 'very poor' from about 26 November as winds weaken.",
   "links": [
     "west-asia-oil"
   ],
@@ -677,6 +677,40 @@
         }
       ],
       "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026, daily average",
+      "phase": "air",
+      "title": "Sunday's daily AQI 239, 'poor'; forecast warns of 'very poor' air later in the week",
+      "summary": "Delhi's average AQI for Sunday was 239, in the 'poor' band (201–300), down from 265 on Saturday, per CPCB figures reported by The Pioneer and Daily Jagran. Of 56 stations, 8 were 'very poor', 36 'poor' and 12 'moderate'; the worst were Uttam Nagar (332) and IGNOU Maidan Garhi (330). Daily Jagran reports that vehicles caused 38.6% of PM2.5 pollution on Sunday, the largest share. The air-quality early warning system expects 'poor' air from Monday to Wednesday, then 'poor' to 'very poor' for the six days after, as weaker winds disperse pollution less. No change to GRAP curbs was reported; Stage I and II stay.",
+      "status": "Official data · CPCB (as reported); forecast · Air Quality Early Warning System",
+      "numbers": [
+        {
+          "k": "Daily AQI, 22 Nov",
+          "v": "239"
+        },
+        {
+          "k": "Daily AQI, 21 Nov",
+          "v": "265"
+        },
+        {
+          "k": "Stations 'very poor'",
+          "v": "8 of 56"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Pioneer",
+          "url": "https://dailypioneer.com/delhi/delhis-aqi-improves-to-239-remains-in-poor-category",
+          "primary": true
+        },
+        {
+          "name": "Daily Jagran",
+          "url": "https://www.thedailyjagran.com/india/news/delhi-air-quality-improves-to-239-as-winds-bring-relief-forecast-warns-of-sharp-dip-in-aqi-from-november-24-10337261"
+        }
+      ],
+      "added": "2026-11-23"
     }
   ]
 }

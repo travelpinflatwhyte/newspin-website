@@ -1,0 +1,163 @@
+{
+  "slug": "cop31-climate-talks",
+  "short": "COP31 climate talks",
+  "category": "World",
+  "regions": [
+    "World",
+    "India"
+  ],
+  "title": "COP31: how the Antalya climate talks ended without a deal",
+  "dek": "Nearly 200 countries met in Türkiye for two weeks and two days of overtime, then failed to agree a main deal after a split over fossil fuels.",
+  "seoTitle": "COP31 Antalya climate summit: timeline",
+  "importance": 3,
+  "status": "Ended without agreement",
+  "tone": "live",
+  "big": "44 h",
+  "delta": "past the scheduled close",
+  "deltaTone": "neutral",
+  "bigLabel": "How long COP31 ran past its official end before closing without a main agreement on 22 Nov, per ABC Australia",
+  "updated": "2026-11-23",
+  "glance": {
+    "what": "The UN's yearly climate summit, COP31, opened in Antalya, Türkiye, on 9 November. Drafts of the main deal first called for moving away from fossil fuels, then dropped any mention of them. On 22 November, after running two days over time, the summit ended without adopting the main decision, because the EU and several other countries rejected a text with no fossil-fuel reference.",
+    "why": "Burning coal, oil and gas is the main cause of global warming. The summit was also meant to agree money to help poorer countries cope with floods, heat and droughts. ABC Australia says it is the first UN climate summit since Copenhagen in 2009 to end without a deal all countries backed. Earlier commitments, such as the 2023 pledge to move away from fossil fuels, still stand.",
+    "next": "The open questions pass to COP32 in Addis Ababa, Ethiopia, per UN News. No date was given in the reports read."
+  },
+  "keyNumbers": [
+    {
+      "label": "Countries attending",
+      "value": "≈ 200",
+      "note": "UN News",
+      "hot": true
+    },
+    {
+      "label": "Overtime",
+      "value": "44 hours",
+      "note": "longest UN climate summit, per ABC"
+    },
+    {
+      "label": "Adaptation target dropped",
+      "value": "$120 bn",
+      "note": "per AFP and Forbes"
+    },
+    {
+      "label": "Last summit with no deal",
+      "value": "2009",
+      "note": "Copenhagen, per ABC"
+    }
+  ],
+  "forYou": "Nothing changes overnight for households. India's own climate targets and solar push carry on; the failed summit mainly delays global agreement on cutting fossil fuels and on money for poorer countries to adapt.",
+  "upcoming": [],
+  "next": "COP32 in Addis Ababa takes up the unresolved questions; no date reported yet.",
+  "links": [
+    "west-asia-oil"
+  ],
+  "events": [
+    {
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "world",
+      "title": "COP31 opens in Antalya",
+      "summary": "The UN climate summit opened in Antalya, Türkiye, due to run until 20 November. Türkiye's environment minister Murat Kurum is COP31 President, and Australia's climate minister Chris Bowen leads the negotiations. UN News said nearly 200 countries were attending. UN climate chief Simon Stiell said at the opening: \"Progress is nowhere near far enough or fair enough.\"",
+      "status": "Confirmed · UNFCCC, UN News",
+      "numbers": [
+        {
+          "k": "Countries",
+          "v": "≈ 200"
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNFCCC",
+          "url": "https://unfccc.int/cop31",
+          "primary": true
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168763"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-21",
+      "dateLabel": "20–21 Nov 2026",
+      "phase": "policy",
+      "title": "Talks run into overtime as fossil fuels vanish from the draft deal",
+      "summary": "The summit ran past its scheduled close on Friday 20 November. An early draft of the main decision, released in the second week, repeated the 2023 COP28 pledge to transition away from fossil fuels, per Forbes and Al Jazeera. A shorter later draft removed every mention of coal, oil and gas, and dropped a $120 billion target for adaptation finance, money to help poorer countries cope with climate impacts, per AFP and Forbes. AFP reports Saudi Arabia resisted strong fossil-fuel language; Al Jazeera says Saudi Arabia and other big oil and gas producers objected. Panama's environment minister said: \"We are being held hostage by the petroleum mafia,\" per Forbes. Late on Saturday Kurum told delegates: \"We believe that we have put forward a text which all the parties can agree upon.\"",
+      "status": "Reported",
+      "differs": "AFP does not say which draft dropped the $120 billion target; Forbes ties it to the shorter later draft.",
+      "numbers": [
+        {
+          "k": "Adaptation finance target dropped",
+          "v": "$120 bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+          "primary": true
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/davidrvetter/2026/11/21/cop31-overtime-the-fight-to-put-the-f-word-back-in-the-deal/"
+        },
+        {
+          "name": "AFP via Kuwait Times",
+          "url": "https://kuwaittimes.com/article/54123/world/fossil-fuels-still-missing-from-latest-cop31-draft-deal/"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "policy",
+      "key": true,
+      "title": "COP31 ends with no main agreement",
+      "summary": "The final text referred to the 2023 agreement on moving away from fossil fuels without naming them, and kept support for carbon capture, per AFP and ABC Australia. The EU said it could not accept a text with no reference to fossil fuels, Panama rejected it and the Marshall Islands withheld support, per UN News, so the main decision was not adopted. \"I understand that there is no agreement on this text. For that reason, these decisions have not been adopted,\" Kurum said. ABC Australia says the summit ended 44 hours after its official close, the longest UN climate summit on record, and that Russia and Saudi Arabia backed leaving fossil fuels out. Bowen called the outcome \"very disappointing\". UN Secretary-General António Guterres said: \"There may be no consensus in the negotiating room. There is no ambiguity in the science.\"",
+      "status": "Confirmed · UN",
+      "numbers": [
+        {
+          "k": "Time past scheduled close",
+          "v": "44 hours (ABC)"
+        }
+      ],
+      "differs": "UN News says the summit ran two days over time; ABC Australia gives 44 hours.",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168855",
+          "primary": true
+        },
+        {
+          "name": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/cop31-talks-break-down-in-longest-ever-un-climate-debate/107414772"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "policy",
+      "title": "India says it engaged constructively and regrets the lack of consensus",
+      "summary": "Environment Minister Bhupender Yadav said India \"engaged constructively\" until the end and regretted that no consensus was reached, per PTI. \"Energy transitions must be nationally determined, just and equitable, backed by finance, technology,\" he said, adding that past emissions by rich countries \"have consumed a disproportionate share of the global carbon budget\". India sided with developing countries pressing for more climate finance.",
+      "status": "Stated · Bhupender Yadav (via PTI)",
+      "differs": "Both reports carry PTI copy, and India TV words the quotes slightly differently.",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "ETV Bharat (PTI)",
+          "url": "https://www.etvbharat.com/en/bharat/cop31-india-engaged-constructively-tirelessly-till-end-says-bhupender-yadav-enn26112205383",
+          "primary": true
+        },
+        {
+          "name": "India TV (PTI)",
+          "url": "https://www.indiatvnews.com/news/world/cop31-ends-without-final-agreement-bhupender-yadav-says-india-played-constructive-role-2026-11-22-1060116"
+        }
+      ],
+      "added": "2026-11-23"
+    }
+  ]
+}

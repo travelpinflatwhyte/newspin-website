@@ -15,7 +15,7 @@
  "big": "255",
  "delta": "House seats, Democrats",
  "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 1:16 pm IST, against 169 for Republicans. Counts may change.",
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
  "glance": {
   "what": "Americans voted on 3 November for all 435 House seats and 35 Senate seats. As of 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169, and 55 Senate seats for Democrats (including 2 who caucus with them) against 44 for Republicans.",
   "why": "Congress writes US spending and trade laws and confirms judges and officials, so the result shapes the last two years of President Trump's term, including tariff fights that matter to Indian exporters.",
@@ -47,12 +47,17 @@
  "forYou": "For India, the result matters most through trade: tariffs, the unsigned India–US deal and sanctions on Russian oil all pass through Washington. Commerce ministry sources say the result will not affect the interim trade deal.",
  "upcoming": [
   {
+   "date": "2026-12-01",
+   "label": "1 Dec",
+   "text": "Senate Democrats vote on their leader (secret ballot)"
+  },
+  {
    "date": "2027-01-03",
    "label": "Early Jan 2027",
    "text": "New Congress meets"
   }
  ],
- "next": "Final counts in the remaining House races and state certification; the new Congress meets in January.",
+ "next": "Senate Democrats choose their leader on 1 December; final counts in the remaining House races and state certification; the new Congress meets in January.",
  "links": [
   "india-us-trade-deal",
   "russian-oil"
@@ -183,6 +188,33 @@
     }
    ],
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "Van Hollen claims growing support in his challenge to Schumer; Trump weighs in",
+   "summary": "Senator Chris Van Hollen, who launched a challenge to Chuck Schumer for leader of the Senate Democrats on 12 November, told NBC's Meet the Press that more than 15 senators back him, per Newsweek and HNGN. Newsweek's count of public statements has at least 16 senators backing Schumer and 6 backing Van Hollen. The vote is a secret ballot on 1 December; 28 of 55 eligible senators-elect are needed to win. On Truth Social, President Trump wrote: \"It is going to be very hard for me to work with Chuck Schumer should he become Senate Majority Leader.\"",
+   "status": "Stated · Van Hollen, Trump",
+   "differs": "HNGN gives two different public counts, 15 to 5 and 16 to 6, for Schumer and Van Hollen.",
+   "numbers": [
+    {
+     "k": "Votes needed",
+     "v": "28 of 55"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Newsweek",
+     "url": "https://www.newsweek.com/trump-targets-schumer-as-van-hollen-challenges-him-for-senate-leadership-12753718",
+     "primary": true
+    },
+    {
+     "name": "HNGN",
+     "url": "https://www.hngn.com/articles/273920/20261122/van-hollen-claims-15-plus-votes-trump-attacks-schumer.htm"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ]
 }

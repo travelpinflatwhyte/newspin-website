@@ -11,16 +11,16 @@
  "dek": "What broke, when (in India time), what Microsoft has said, and what still works.",
  "seoTitle": "Outlook down: Microsoft 365 outage timeline (IST)",
  "importance": 3,
- "status": "Restored · preliminary report out",
- "tone": "live",
+ "status": "Restored · final report out",
+ "tone": "quiet",
  "big": "23 h 50 m",
  "delta": "outage, per Microsoft",
  "bigLabel": "Length of the outage in Microsoft's preliminary report: 4:20 pm UTC 12 Nov (9:50 pm IST) to 4:10 pm UTC 13 Nov (9:40 pm IST)",
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "glance": {
   "what": "From late on 12 November (India time), Microsoft's Exchange Online servers failed, taking down Outlook and parts of Teams, SharePoint and Copilot in 74 countries and territories for about a day. Microsoft's preliminary report blames a hidden bug in a months-old fix to its gateway servers, which surfaced after Teams traffic was moved onto them while some capacity was already offline. It says it was not a cyber attack.",
   "why": "Microsoft 365 runs email and meetings for millions of companies, schools and government offices, including in India. Courts lost live feeds and Australian agencies were hit.",
-  "next": "Microsoft said its final incident report, with a full list of fixes, would follow by 20 November. Such reports go to business customers; no public coverage of a final report had appeared by the morning of 21 November."
+  "next": "Microsoft's final report, published on 20 November, says a months-old gateway bug, capacity offline for maintenance, Teams traffic moved onto the email gateway and peak demand combined. It plans separate gateway capacity for different services by early 2027."
  },
  "keyNumbers": [
   {
@@ -46,7 +46,7 @@
  ],
  "forYou": "Outlook and Teams should be working again. Emails sent during the outage may arrive late as queues clear. If something still fails, restart the app or sign out and back in.",
  "upcoming": [],
- "next": "Microsoft's final incident report, due by 20 Nov, has not yet been reported publicly.",
+ "next": "Microsoft plans to split gateway capacity between services by early 2027.",
  "links": [
   "nvidia-huang-investigation",
   "us-flights-ground-stop"
@@ -315,6 +315,37 @@
     }
    ],
    "added": "2026-11-16"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026",
+   "phase": "tech",
+   "title": "Microsoft's final report: four problems at once caused the outage",
+   "summary": "Microsoft published its final post-incident report to business customers on 20 November, replacing the preliminary one, per summaries by 365fanatic and AppleScoop. It says four things combined: a defect in a gateway update that had been rolling out since July, about 14% of gateway capacity being offline for routine maintenance, Teams traffic moving onto the gateway shared with Exchange Online email, and peak North American demand. At the worst point more than 80% of servers stopped responding, and the failure reached every region within about two hours. Load tests missed the bug because they ran on older machines with fewer processor cores. Microsoft found no malicious activity, said AI tools did not make the faulty change, and plans to give different services separate gateway capacity by early 2027.",
+   "status": "Confirmed · Microsoft (via third-party summaries of its report)",
+   "differs": "AppleScoop says a routing problem in Microsoft's US East region about 15 hours earlier moved the Teams traffic; 365fanatic describes it only as a Teams failover.",
+   "numbers": [
+    {
+     "k": "Gateway capacity offline for maintenance",
+     "v": "≈ 14%"
+    },
+    {
+     "k": "Servers unresponsive at worst",
+     "v": "80%+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "365fanatic",
+     "url": "https://www.365fanatic.com/m365-outage-12-november-2026/",
+     "primary": true
+    },
+    {
+     "name": "AppleScoop",
+     "url": "https://applescoop.org/story/every-major-outage-november-2026-timeline-faa-microsoft-chase-united"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ]
 }

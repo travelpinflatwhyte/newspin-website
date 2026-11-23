@@ -15,11 +15,11 @@
   "big": "$92.57",
   "delta": "Down about 22% from a late-October peak near $118",
   "bigLabel": "Brent settlement price on 20 Nov (Bloomberg); down 3.4% on the week",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row. Attacks continue: on 21 November two tankers were hit leaving Hormuz and Iran fired missiles and drones at US bases in Bahrain; Bahrain says two people were hurt when an industrial plant was hit. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
+    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row; markets reopen on Monday. Attacks continued over the weekend: Iran says two supertankers hit mines east of Hormuz on 22 November, and UKMTO reported a tanker 'incident with military forces' in the Gulf of Oman. President Trump said he could resume strikes after the new year if talks fail. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
@@ -46,7 +46,7 @@
   ],
   "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
   "upcoming": [],
-  "next": "Markets reopen after the Bahrain attacks; whether Iran's tankers try to break the blockade; OPEC+ meets on 29 November.",
+  "next": "Oil prices as markets reopen; whether Iran's tankers try to break the blockade; Qatar-mediated talks; OPEC+ meets on 29 November.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -696,6 +696,63 @@
         }
       ],
       "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "world",
+      "title": "Iran says two supertankers hit mines east of Hormuz; UKMTO reports a tanker 'incident with military forces'",
+      "summary": "Iran's navy said on Sunday that two oil tankers caught fire after hitting naval mines east of the Strait of Hormuz, saying the ships had switched off their tracking systems and entered a 'forbidden' area, per Xinhua. The Revolutionary Guards (IRGC) navy separately said two supertankers exploded on 'unauthorized' routes north of Oman's Al Ghanam Island. The ships were not named and no one else has confirmed the incident. On Sunday evening UKMTO, the British agency that tracks shipping, said a tanker 'was involved in an incident with military forces in the Gulf of Oman', near Chabahar, and that investigations were under way, per Euronews. It gave no ship name or casualties. Euronews says the area is near the US blockade line, but it is not known whether this involved one of the Iranian tankers said to be ready to test the blockade. The IRGC also said it shot down a US MQ-1 drone east of the strait; the US has not commented.",
+      "status": "Stated · Iran's navy and IRGC (mine hits, drone; not independently confirmed); Reported · UKMTO (Gulf of Oman incident)",
+      "differs": "Middle East Eye says it is unclear whether the UKMTO incident is linked to the two tankers Iran described.",
+      "numbers": [
+        {
+          "k": "Tankers Iran says hit mines",
+          "v": "2 (Iranian claim)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261123/9e8ce320ddab45d5a7c3da4314634bcc/c.html",
+          "primary": true
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-supertankers-hit-mines-near-hormuz-iranian-navy-says"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "21–22 Nov 2026 (US time)",
+      "phase": "world",
+      "title": "Trump says he could resume strikes on Iran after the new year if talks fail",
+      "summary": "In a Fox News interview, President Trump said he was inclined to resume strikes on Iran after the new year if talks fail, per Arab Times and Iran International. Asked about Iranian tankers testing the US blockade, he said: \"I hope they do, they'll all be at the bottom of the sea like the rest of the navy,\" per Arab Times. Iran International quotes him as saying: \"I'm going to make a deal that is going to be permanent.\" Indirect talks continue, with Qatar passing messages, Arab Times reports. Iran's parliament speaker said a state of 'neither war nor peace' cannot continue, and a deputy foreign minister said Iran is still talking to the US but is ready for any scenario, per Iran International. No decision to strike has been announced.",
+      "status": "Stated · Trump (Fox News interview)",
+      "differs": "Arab Times dates the interview to Sunday 22 November; Iran International dates it to Saturday 21 November and only paraphrases the remarks on strikes and sinking ships.",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Arab Times",
+          "url": "https://www.arabtimesonline.com/news/trump-threatens-new-iran-strikes-after-new-year-if-talks-fail/",
+          "primary": true
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611226299"
+        },
+        {
+          "name": "Iran International live blog",
+          "url": "https://www.iranintl.com/en/liveblog/202611214578"
+        }
+      ],
+      "added": "2026-11-23"
     }
   ]
 }

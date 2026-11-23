@@ -15,7 +15,7 @@
  "delta": "▲ ≈ 4.4% off the low",
  "deltaTone": "neutral",
  "bigLabel": "Rupees per US dollar at the close on 20 Nov (provisional, PTI), from a record low near 96.90",
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "glance": {
   "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened for several days in a row. On 20 November it crossed 93 for the first time since April and closed at 92.67 (provisional), a seven-month high.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
@@ -382,6 +382,45 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026 (week to 13 Nov)",
+   "phase": "data",
+   "title": "Forex reserves fall $14.2 billion to a three-month low; rupee on track for its best month in eight years",
+   "summary": "India's foreign exchange reserves fell by $14.20 billion to $705.34 billion in the week to 13 November, the lowest in about three months, RBI data released on Friday show, per The Tribune and Moody's via TradingView. Foreign currency assets fell $7.90 billion and gold holdings $6.18 billion. Forex reserves are the dollars, other currencies and gold the RBI holds, partly to steady the rupee. Separately, Business Standard reports the rupee is up 2.46% in November so far, on course for its best monthly gain in more than eight years, helped by nearly $13 billion of foreign investment.",
+   "status": "Official data · RBI; Market data · Business Standard",
+   "differs": "Business Standard gives Friday's close as 92.68; PTI gives 92.67 (provisional).",
+   "numbers": [
+    {
+     "k": "Forex reserves, 13 Nov",
+     "v": "$705.34 bn"
+    },
+    {
+     "k": "Weekly change",
+     "v": "−$14.20 bn"
+    },
+    {
+     "k": "Rupee gain in Nov so far",
+     "v": "2.46%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/business/forex-reserves-fall-usd-14-2-billion-to-3-month-low-of-usd-705-34-billion/",
+     "primary": true
+    },
+    {
+     "name": "Moody's via TradingView",
+     "url": "https://www.tradingview.com/news/moodys:96f6915d0746b:0-india-s-forex-reserves-fall-14-21-bn-to-705-34-bn/"
+    },
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/amp/markets/news/rupee-set-for-best-monthly-gain-in-8-years-on-strong-foreign-fund-inflows-126112001061_1.html"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ]
 }

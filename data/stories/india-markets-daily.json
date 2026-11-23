@@ -9,43 +9,43 @@
  "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
  "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
  "importance": 4,
- "status": "Nifty closes above 25,800 after a weak open",
+ "status": "Nifty falls 1.75% as banks and metals slide",
  "tone": "live",
- "big": "25,800.60",
- "delta": "▲ 286.30 (1.12%)",
- "bigLabel": "Nifty 50 close on 20 Nov",
- "updated": "2026-11-20",
+ "big": "25,349.65",
+ "delta": "▼ 450.95 (1.75%)",
+ "bigLabel": "Nifty 50 close on 23 Nov",
+ "updated": "2026-11-23",
  "market": {
   "index": "Nifty 50",
   "second": "Sensex",
   "tz": "IST, closes 3:30 pm"
  },
  "glance": {
-  "what": "The Nifty 50 closed at 25,800.60 on 20 November, up 1.12%, after opening about 146 points lower. HDFC Sky calls it a nine-month high. Over nine sessions since the Diwali Muhurat trading close on 8 November, it is up from 24,986.40.",
-  "why": "The day started lower after a sell-off in AI-linked technology shares in the US and Asia. Reporters credit the recovery to foreign investor buying, bank and IT stocks, lower oil prices and a stronger rupee. Nifty Bank closed at a record.",
-  "next": "Markets are shut on 24 November for Guru Nanak Jayanti. The RBI's next policy meeting runs 2 to 4 December."
+  "what": "The Nifty 50 closed at 25,349.65 on 23 November, down 1.75%, after opening higher. The Sensex fell 1,483.72 points to 82,435.99.",
+  "why": "Reporters blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and points to swings before the monthly derivatives expiry. IT shares rose.",
+  "next": "Markets are shut on 24 November for Guru Nanak Jayanti, per Kotak Neo; trading resumes on 25 November. The RBI's next policy meeting runs 2 to 4 December."
  },
  "keyNumbers": [
   {
-   "label": "Nifty 50, 20 Nov",
-   "value": "25,800.60",
-   "note": "+286.30 (1.12%)",
+   "label": "Nifty 50, 23 Nov",
+   "value": "25,349.65",
+   "note": "−450.95 (1.75%)",
    "hot": true
   },
   {
-   "label": "Sensex, 20 Nov",
-   "value": "83,919.71",
-   "note": "+897.96 (1.08%)"
+   "label": "Sensex, 23 Nov",
+   "value": "82,435.99",
+   "note": "−1,483.72 (1.77%)"
   },
   {
-   "label": "Today's open",
-   "value": "25,368",
-   "note": "gap down, about −146 (Upstox, Liquide)"
+   "label": "Nifty Bank, 23 Nov",
+   "value": "62,585.35",
+   "note": "−3.17%"
   },
   {
-   "label": "Since 8 Nov",
-   "value": "+814.20",
-   "note": "nine sessions"
+   "label": "India VIX",
+   "value": "18.02",
+   "note": "+4.04% (Univest)"
   }
  ],
  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
@@ -498,6 +498,50 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "market",
+   "title": "Banks and metals drag Nifty down 1.75% after a higher open",
+   "summary": "The Nifty opened higher and traded near 25,872 in the first minutes, according to Business Standard. It then fell through the day to close down 450.95 points (1.75%) at 25,349.65, according to Kotak Neo and Univest. The Sensex fell 1,483.72 points (1.77%) to 82,435.99. Both reports blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and also points to price swings ahead of the monthly expiry of derivative contracts. Nifty Bank fell 3.17% to 62,585.35 and Nifty Metal fell 3.68%, while Nifty IT rose 1.69%, per Univest and Kotak Neo. Univest says a Tata Steel deal with APL Apollo Tubes weighed on metal shares. Tata Steel (−8.43%) fell the most in the Nifty and TCS (+3.53%) gained the most, per Univest. The India VIX, a gauge of expected price swings, rose 4.04% to 18.02.",
+   "status": "Market data · Kotak Neo, Univest",
+   "differs": "No closing report gives an official opening level. The 25,872 figure is Business Standard's reading a few minutes after the open; Univest puts the day's high at 25,992.60. Kotak Neo lists HCL Technologies and Titan among the top five Nifty gainers, while Univest's top three include Tech Mahindra.",
+   "numbers": [
+    {
+     "k": "Sensex close",
+     "v": "82,435.99 (−1,483.72)"
+    },
+    {
+     "k": "Nifty Bank",
+     "v": "62,585.35 (−3.17%)"
+    },
+    {
+     "k": "Nifty IT",
+     "v": "+1.69%"
+    }
+   ],
+   "session": {
+    "prev": 25800.6,
+    "open": 25872.0,
+    "close": 25349.65
+   },
+   "sources": [
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-close-lower-as-banking-stocks-weigh-on-markets/",
+     "primary": true
+    },
+    {
+     "name": "Univest",
+     "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+    },
+    {
+     "name": "Business Standard (live blog, open)",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ]
 }

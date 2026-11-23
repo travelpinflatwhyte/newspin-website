@@ -11,21 +11,21 @@
  "importance": 4,
  "status": "Recovering",
  "tone": "live",
- "big": "92.67",
+ "big": "92.62",
  "delta": "▲ ≈ 4.4% off the low",
  "deltaTone": "neutral",
- "bigLabel": "Rupees per US dollar at the close on 20 Nov (provisional, PTI), from a record low near 96.90",
+ "bigLabel": "Rupees per US dollar at the close on 20 Nov (PTI), from a record low near 96.90. It weakened past 93 again on 23 Nov in intraday trade.",
  "updated": "2026-11-23",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened for several days in a row. On 20 November it crossed 93 for the first time since April and closed at 92.67 (provisional), a seven-month high.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened for several days in a row. On 20 November it crossed 93 for the first time since April and closed at 92.62, a seven-month high. On 23 November it weakened past 93 again during the day as Indian shares fell.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
    "label": "Rupee per $, 20 Nov",
-   "value": "92.67",
-   "note": "close, provisional",
+   "value": "92.62",
+   "note": "close (PTI)",
    "hot": true
   },
   {
@@ -418,6 +418,45 @@
     {
      "name": "Business Standard",
      "url": "https://www.business-standard.com/amp/markets/news/rupee-set-for-best-monthly-gain-in-8-years-on-strong-foreign-fund-inflows-126112001061_1.html"
+    }
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "market",
+   "title": "Rupee slips back past 93 as Indian shares fall",
+   "summary": "The rupee settled at 92.62 per dollar on Friday, PTI reports. On Monday it opened at 93.47, briefly strengthened to 92.43, then fell back to 92.85 in early trade. Forex traders told PTI that cheaper oil helped at first, but a firm US dollar and selling in Indian shares weighed on it. By 12:30 pm it had fallen to 93.08, the day's low, per Business Standard, as the Sensex dropped about 1.1% by midday. These are intraday levels; the closing rate may differ.",
+   "status": "Market data · PTI, Business Standard",
+   "differs": "PTI's final figure for Friday's close is 92.62; its provisional figure on Friday was 92.67.",
+   "numbers": [
+    {
+     "k": "Day's low, 12:30 pm",
+     "v": "93.08"
+    },
+    {
+     "k": "Early trade",
+     "v": "92.85"
+    },
+    {
+     "k": "Friday close",
+     "v": "92.62"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ETV Bharat (PTI)",
+     "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-23-2026-enn26112300948",
+     "primary": true
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-declines-23-paise-to-92-85-against-us-dollar-in-early-trade-november-23-2026"
+    },
+    {
+     "name": "Business Standard (live blog)",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
     }
    ],
    "added": "2026-11-23"

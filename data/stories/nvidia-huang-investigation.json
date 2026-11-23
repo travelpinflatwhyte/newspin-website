@@ -815,6 +815,26 @@
    "added": "2026-11-21"
   },
   {
+   "date": "2026-11-20",
+   "dateLabel": "20 Nov 2026 (US time)",
+   "phase": "law",
+   "title": "California's attorney general says his inquiry covers civil and criminal state law",
+   "summary": "A day after his office subpoenaed Nvidia, California Attorney General Rob Bonta said the inquiry looks at whether Nvidia or former CEO Jensen Huang gave the public false information about chip sales to China. He said state laws that ban misleading investors and the public include \"both civil and criminal clauses\", per Zhitong via Longbridge. Bonta said the inquiry is at a preliminary stage and no conclusions have been reached. An inquiry is not a finding of wrongdoing. Neither report includes a response from Nvidia.",
+   "status": "Stated · California Attorney General",
+   "sources": [
+    {
+     "name": "investingLive",
+     "url": "https://investinglive.com/stocks/california-widens-nvidia-probe-to-criminal-law-a-bigger-deal-than-huang-return-talk",
+     "primary": true
+    },
+    {
+     "name": "Zhitong via Longbridge",
+     "url": "https://longbridge.com/en/news/306373741"
+    }
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "date": "2026-11-21",
    "dateLabel": "21 Nov 2026 (US time)",
    "phase": "policy",

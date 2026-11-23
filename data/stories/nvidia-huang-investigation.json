@@ -6,27 +6,32 @@
   "US",
   "World"
  ],
- "title": "Jensen Huang resigns: how the Nvidia espionage reports unfolded",
- "dek": "In two weeks, a report that Nvidia’s founder was targeted by Chinese intelligence led to a board inquiry, another allegation, a share slide and his resignation.",
- "seoTitle": "Jensen Huang resigns as Nvidia CEO: timeline",
+ "title": "Jensen Huang resigns, then returns: how the Nvidia espionage reports unfolded",
+ "dek": "A report that Nvidia's founder was targeted by Chinese intelligence led to a board inquiry, his resignation, a share slide, regulator inquiries and, 11 days later, his reinstatement.",
+ "seoTitle": "Jensen Huang reinstated as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang out · SEC inquiry reported",
+ "status": "Huang reinstated · inquiries continue",
  "tone": "hot",
- "big": "$125.53",
- "delta": "▼ 14.01% on 20 Nov",
- "bigLabel": "Nvidia share price at the close on 20 November (US time), after Reuters reported an SEC accounting inquiry",
+ "big": "25%+",
+ "delta": "▲ pre-market, 23 Nov",
+ "bigLabel": "Rise in Nvidia shares before the US market opened on 23 November, after Huang's reinstatement (Reuters)",
  "updated": "2026-11-23",
  "glance": {
-  "what": "Jensen Huang resigned as Nvidia CEO on 12 November, two weeks after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing. Huang admitted infidelity, the board hired outside investigators, and a second alleged relationship, with a senior Nvidia executive, was reported on 11 November. On 19 November California's attorney general subpoenaed Nvidia over possible chip leaks to China and investor disclosures. On 20 November Reuters reported that SEC staff are examining possible accounting issues at Nvidia, and its shares fell 14%.",
-  "why": "Nvidia makes the chips behind most of the world’s AI and is one of the most valuable companies on earth. Its founder leaving under investigation raises questions about US–China chip security, who runs the company next, and what it means for investors.",
-  "next": "Huang said on 17 November he would return as CEO if the board asked; its chair said the same day that it does not intend to reinstate him. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios. A new board committee will oversee national security and export controls, and the board is searching for a permanent CEO. No details of the reported SEC inquiry have been made public."
+  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia and Reuters and the Times have reported an SEC inquiry into its accounting.",
+  "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
+  "next": "The board's own investigation will continue, it says. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios, and has agreed to a public Senate Banking Committee hearing, date not set. No details of the reported SEC inquiry have been made public."
  },
  "keyNumbers": [
   {
+   "label": "Pre-market, 23 Nov",
+   "value": "25%+",
+   "note": "rise after reinstatement (Reuters)",
+   "hot": true
+  },
+  {
    "label": "Share price, 20 Nov",
    "value": "$125.53",
-   "note": "−14.01%",
-   "hot": true
+   "note": "−14.01%"
   },
   {
    "label": "Q3 revenue",
@@ -34,9 +39,9 @@
    "note": "+103% on a year earlier"
   },
   {
-   "label": "Interim CEO",
-   "value": "Colette Kress",
-   "note": "was CFO"
+   "label": "CEO",
+   "value": "Jensen Huang",
+   "note": "reinstated 23 Nov; Kress stays CFO"
   },
   {
    "label": "First board chair",
@@ -44,7 +49,7 @@
    "note": "from 12 Nov"
   }
  ],
- "forYou": "If you hold Nvidia shares or tech funds, expect volatility around the 17 November earnings and the CEO search. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the second relationship is reported, not confirmed.",
+ "forYou": "If you hold Nvidia shares or tech funds, expect sharp swings while the investigations continue. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the board has not published findings. This is information, not investment advice.",
  "upcoming": [
   {
    "date": "2026-12-01",
@@ -57,7 +62,7 @@
    "text": "Nvidia general counsel Tim Teter's interview"
   }
  ],
- "next": "Any response from Nvidia or the SEC to the reported accounting inquiry; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); a public Senate Banking Committee hearing with Huang, date not yet set; the board's search for a permanent CEO; investigations by the board, California's attorney general, Congress and the Justice and Commerce departments.",
+ "next": "Market reaction once US trading opens on 23 November; the board committee's investigation; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); a public Senate Banking Committee hearing, date not set; inquiries by the SEC (reported), California's attorney general, Congress and the Justice and Commerce departments.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -863,9 +868,74 @@
     }
    ],
    "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026 (US time)",
+   "phase": "policy",
+   "title": "ABC: the woman at the centre of the reports was in touch with a Chinese spy agency official",
+   "summary": "ABC News, citing sources familiar with US intelligence, reported that the woman whose relationship with Jensen Huang started the affair kept in contact with an official at China's Ministry of State Security from spring 2025 until this autumn. ABC credits The New York Times with reporting this first. It says it is not clear whether US intelligence shows she passed on inside information. She left Megaspeed, the Singapore-based company, in 2025, a company spokesperson told ABC. China has denied that she spied for it, per Reuters. The White House and State Department did not immediately respond to ABC.",
+   "status": "Reported · ABC News, New York Times (unnamed sources)",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/woman-center-nvidia-scandal-touch-chinas-top-spy/story?id=138369034",
+     "primary": true
+    },
+    {
+     "name": "Reuters via Business Standard",
+     "url": "https://www.business-standard.com/amp/companies/news/nvidia-reinstates-jensen-huang-as-ceo-board-director-with-immediate-effect-126112301137_1.html"
+    }
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026 (US time)",
+   "phase": "leadership",
+   "key": true,
+   "title": "Nvidia's board reinstates Jensen Huang as CEO",
+   "summary": "Nvidia said its board voted unanimously to reinstate Jensen Huang as president, chief executive and board member, effective immediately. The board said it held talks with Huang and was \"satisfied\" with his \"candor and ability to lead\". It said it had received input from \"senior levels of the United States government\" and is confident his return \"poses no national security risk\". It did not name the officials. The board committee's investigation into reports that Huang was the target of a foreign intelligence effort will continue to its conclusion, and Huang said he would cooperate. Colette Kress, the interim CEO, stays chief financial officer, and Harvey Jones stays board chair. Reuters notes the board had ruled out his return days earlier, on 17 November. Nvidia shares rose more than 25% in trading before the US market opened, per Reuters.",
+   "status": "Confirmed · Nvidia",
+   "differs": "Reuters puts the pre-market rise at more than 25%; Tom's Hardware says more than 30%.",
+   "numbers": [
+    {
+     "k": "Pre-market share rise",
+     "v": "25%+ (Reuters)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+     "primary": true
+    },
+    {
+     "name": "Nvidia 8-K filing (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "name": "Reuters via Business Standard",
+     "url": "https://www.business-standard.com/amp/companies/news/nvidia-reinstates-jensen-huang-as-ceo-board-director-with-immediate-effect-126112301137_1.html"
+    },
+    {
+     "name": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/nvidia-reinstates-jensen-huang-ceo"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/"
+    },
+    {
+     "name": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/nvidia-reinstates-jensen-huang-as-ceo-following-unanimous-vote-by-company-board-11-day-exit-from-company-saw-stock-prices-fall-by-24-percent-after-affair-scandal"
+    }
+   ],
+   "added": "2026-11-23"
   }
  ],
- "heroTitle": "NYT joins Reuters in reporting an SEC inquiry into Nvidia's accounting",
- "heroDek": "The inquiry is at an early stage, per AFP; it is unclear whether it concerns how Nvidia reports sales by region or the Huang affair. Shares fell more than 20% last week. Huang is due before three House committees on 1 December.",
- "heroAsOf": "2026-11-23"
+ "heroTitle": "Nvidia's board reinstates Jensen Huang as CEO, 11 days after he resigned",
+ "heroDek": "The board says senior US officials assured it his return poses no national security risk. Its own investigation, an SEC inquiry and California's inquiry continue. Shares rose more than 25% before the market opened, per Reuters.",
+ "heroAsOf": "2026-11-23",
+ "deltaTone": "neutral"
 }

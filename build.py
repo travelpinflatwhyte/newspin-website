@@ -19,6 +19,9 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 DIST = ROOT / "dist"
 STATIC = ROOT / "static"
+# short content hashes so browsers fetch fresh CSS/JS as soon as either changes
+import hashlib
+ASSET_V = {n: hashlib.sha1((STATIC / n).read_bytes()).hexdigest()[:8] for n in ("styles.css", "app.js")}
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 INDEXNOW_KEY = "349e4f552b1754194d477536f9d257ce"  # served at /<key>.txt; used by indexnow.py after each deploy
 
@@ -293,7 +296,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v={ASSET_V['styles.css']}">
 <meta name="color-scheme" content="light">
 <script>(function(){{try{{var t=localStorage.getItem('np_theme')||'light';document.documentElement.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='dark'?'#0B0D12':'#F7F7F4');}}catch(e){{}}}})();</script>
 {ld}
@@ -319,7 +322,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
   <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark mode"><svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button>
 </div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
-<script src="/app.js" defer></script>
+<script src="/app.js?v={ASSET_V['app.js']}" defer></script>
 <!-- Cloudflare Web Analytics: anonymous, cookie-free page counts --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "04ce30d7635e40bfbbe09b27ebc122ab"}}'></script>
 </body>
 </html>

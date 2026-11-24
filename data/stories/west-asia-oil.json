@@ -19,7 +19,7 @@
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent fell to about $86.7 on 23 November, its lowest since late August, as Gulf exports held up despite weekend attacks. Iran says it will confront the US blockade but that Hormuz could be safe quickly if the US meets its terms. President Trump has said he could resume strikes after the new year if talks fail. OPEC+ meets on 29 November."
+    "next": "Brent fell to about $86.7 on 23 November, its lowest since late August, as Gulf exports held up despite weekend attacks. Iran's Revolutionary Guards say three more tankers hit mines in Hormuz on Monday, which no one else has confirmed, and the US added new sanctions on Iran's oil money networks. Iran says it will confront the US blockade but that Hormuz could be safe quickly if the US meets its terms. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
@@ -46,7 +46,7 @@
   ],
   "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
   "upcoming": [],
-  "next": "Whether Iran's tankers try to break the blockade; Qatar-mediated talks; OPEC+ meets on 29 November to set 2027 output.",
+  "next": "Whether Iran's tankers try to break the blockade, after Iran's claims of tankers hitting mines; Qatar-mediated talks; OPEC+ meets on 29 November to set 2027 output.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -815,6 +815,53 @@
         {
           "name": "Yahoo News",
           "url": "https://www.yahoo.com/news/us/articles/iran-threatens-break-us-naval-112030993.html"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "world",
+      "title": "Iran's Revolutionary Guards say three more tankers hit mines in Hormuz despite a US escort",
+      "summary": "The navy of Iran's Revolutionary Guards (IRGC) said on Monday that three tankers struck mines in the Strait of Hormuz over the previous few hours, per Iranian state media cited by Iran International. It said one was hit near the southern coast and two east of the strait, and that a US military escort failed to prevent this. \"The Strait of Hormuz is not a place to test unauthorized routes or ignore maritime warnings,\" the IRGC said. The ships were not named and no casualties were reported. The claim has not been independently confirmed, and US Central Command had not responded at the time of reporting, per The Sunday Guardian. This is a separate claim from Iran's report on Sunday of two tankers hitting mines.",
+      "status": "Stated · IRGC (not independently confirmed)",
+      "differs": "Iran International describes the US escort as an air escort; The Sunday Guardian says only that the US military was escorting the ships.",
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611232940",
+          "primary": true
+        },
+        {
+          "name": "The Sunday Guardian",
+          "url": "https://sundayguardianlive.com/world/iran-claims-3-oil-tankers-exploded-after-striking-naval-mines-in-strait-of-hormuz-accuses-us-military-of-failing-to-protect-them-shipping-companies-face-fresh-warning-326831/"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "world",
+      "title": "US sanctions 22 companies and 8 people it links to Iran's oil money networks",
+      "summary": "The US Treasury announced new sanctions on Monday against 22 entities and eight individuals it says help move money for Iran's oil trade and tanker fleet, per gCaptain and Iran International. Most of the companies named are in Dubai, with others in Hong Kong and Turkey, Iran International reports. Sanctions bar them from dealing with US banks and businesses. Treasury Secretary Scott Bessent said \"Iran's shadow banking system is the last financial lifeline of a bankrupt regime,\" per Iran International. A separate Treasury analysis found $14.7 billion in transactions that may be linked to these networks, it reports.",
+      "status": "Confirmed · US Treasury",
+      "numbers": [
+        {
+          "k": "Sanctioned",
+          "v": "22 entities, 8 individuals"
+        }
+      ],
+      "sources": [
+        {
+          "name": "gCaptain",
+          "url": "https://gcaptain.com/u-s-targets-financial-networks-behind-irans-tanker-fleet-and-oil-trade/",
+          "primary": true
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611232940"
         }
       ],
       "added": "2026-11-24"

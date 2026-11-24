@@ -362,6 +362,12 @@
     }
     sm.querySelector('.sm-zone.prev').addEventListener('click', function () { step(-1); });
     sm.querySelector('.sm-zone.next').addEventListener('click', function () { step(1); });
+    // the text area scrolls when an update is long; a tap on it (not a scroll) still moves back or forward
+    sm.querySelector('.sm-body').addEventListener('click', function (e) {
+      if (e.target.closest('a,button')) return;
+      var r = sm.querySelector('.sm-card').getBoundingClientRect();
+      step(e.clientX - r.left < r.width * 0.42 ? -1 : 1);
+    });
     sm.addEventListener('click', function (e) { if (e.target === sm) closeSm(); });
     document.addEventListener('keydown', function (e) {
       if (!sm || sm.hidden) return;
@@ -397,7 +403,7 @@
     var ev = smSlides[smIdx], s = smStory;
     Array.prototype.forEach.call(sm.querySelectorAll('.sm-bars i'), function (b, i) { b.className = i < smIdx ? 'done' : i === smIdx ? 'cur' : ''; });
     sm.querySelector('.sm-pos').textContent = 'Update ' + (smIdx + 1) + ' of ' + smSlides.length + (seenAtLoad[s.slug] && smSlides.length && smSlides[0].added > seenAtLoad[s.slug] ? ' · new since your visit' : ' · latest');
-    var body = sm.querySelector('.sm-body'); body.innerHTML = '';
+    var body = sm.querySelector('.sm-body'); body.innerHTML = ''; body.scrollTop = 0;
     body.appendChild(el('span', 'sm-pill', ev.label + ' · ' + (ev.forecast ? 'Expected' : ev.status)));
     body.appendChild(el('h2', null, ev.title));
     body.appendChild(el('p', null, ev.summary));

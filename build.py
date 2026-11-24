@@ -302,10 +302,6 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <a class="sr-only" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/">{LOGO_SVG}<span>Newspin</span></a>
-  <nav class="nav" aria-label="Main">
-    <a href="/"{cur('home')}>Timelines</a>
-    <a href="/about/"{cur('about')}>How it works</a>
-  </nav>
   <button type="button" class="search-btn" id="search-btn" aria-haspopup="dialog" aria-label="Search stories"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span>Search</span><kbd>/</kbd></button>
 </div></header>
 <dialog class="search-dlg" id="search-dlg" aria-label="Search stories">

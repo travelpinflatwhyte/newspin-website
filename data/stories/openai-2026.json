@@ -490,7 +490,60 @@
     }
    ],
    "added": "2026-11-22"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026",
+   "phase": "policy",
+   "title": "Chief scientist proposes shared limits across AI labs, publishing internal 'perplexity' scores",
+   "summary": "OpenAI's chief scientist Jakub Pachocki published the company's internal \"perplexity\" scores for the first time. The score measures how well a model predicts the next piece of text; lower means more capable. He proposed that AI labs agree on common limits, based on this and other measures, that they would not cross until tools to understand and monitor AI behaviour reach a set level. No other lab has signed up and nothing is binding. Critics say other labs cannot reproduce or compare the scores.",
+   "status": "Stated · OpenAI",
+   "numbers": [
+    {
+     "k": "GPT-4 score",
+     "v": "≈ 0.91 (GPT-3.5 ≈ 0.99)"
+    }
+   ],
+   "differs": "Startup Fortune and Traictory say no specific limit was proposed; a secondary digest described a 0.68–0.70 range as the proposed limit.",
+   "sources": [
+    {
+     "name": "Traictory",
+     "url": "https://traictory.com/news/2026-11-23-openai-perplexity-safety-metric",
+     "primary": true
+    },
+    {
+     "name": "Startup Fortune",
+     "url": "https://startupfortune.com/openai-publishes-a-progress-chart-and-asks-every-ai-lab-to-agree-on-shared-limits/"
+    }
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "tech",
+   "title": "GPT-6.2 Sol becomes the main model in ChatGPT for paying users",
+   "summary": "A version of GPT-6.2 Sol tuned for everyday conversation is rolling out in ChatGPT's Chat tab for Plus, Pro, Business and Enterprise users. Free and Go users are not included yet, and no date was given for them. In OpenAI's own tests it follows its safety policies in difficult conversations 91–94% of the time, up from 77–80% for GPT-6.",
+   "status": "Confirmed · OpenAI (via MacRumors, iClarified)",
+   "numbers": [
+    {
+     "k": "Safety-policy compliance",
+     "v": "91–94% (GPT-6: 77–80%), OpenAI tests"
+    }
+   ],
+   "sources": [
+    {
+     "name": "MacRumors",
+     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+     "primary": true
+    },
+    {
+     "name": "iClarified",
+     "url": "https://www.iclarified.com/103764/openai-brings-gpt-62-to-chatgpts-main-chat-tab"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-24"
 }

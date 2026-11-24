@@ -18,7 +18,7 @@
  "glance": {
   "what": "xAI released Grok 3 in February 2025 and Grok 4 in July 2025, then a run of Grok 4.x models through 2026. SpaceX acquired xAI in February 2026, and the company now uses SpaceX branding.",
   "why": "Grok is built into X and Tesla products, and xAI's huge Colossus computers make it one of the few labs able to train the largest models.",
-  "next": "Grok 5: xAI said in January it was in training. Targets of late 2025, early 2026 and mid-2026 all passed; SpaceX has since pointed to before the end of 2026."
+  "next": "Grok 5: xAI said in January it was in training; SpaceX has pointed to before the end of 2026. Virginia and Oregon's lawsuits over Grok deepfakes are at an early stage."
  },
  "keyNumbers": [
   {
@@ -317,7 +317,28 @@
     }
    ],
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "22–23 Nov 2026",
+   "phase": "law",
+   "title": "Virginia and Oregon sue SpaceX over sexual deepfakes made with Grok",
+   "summary": "The attorneys general of Virginia and Oregon sued SpaceX, which owns xAI and X, under consumer-protection laws. They allege Grok's \"spicy mode\" was used to make sexualised images of real people, including children, and that the companies misled users about safety. They seek penalties, repayments and court orders. SpaceX did not comment. X's safety team has said it blocks such requests and that users who made them broke its rules. The court has not ruled.",
+   "status": "Filed · not ruled on (allegations by the Virginia and Oregon attorneys general)",
+   "differs": "CyberScoop dates Oregon's complaint to 22 November; The Daily Record says both suits were filed on Monday 23 November.",
+   "sources": [
+    {
+     "name": "CyberScoop",
+     "url": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/",
+     "primary": true
+    },
+    {
+     "name": "The Daily Record",
+     "url": "https://thedailyrecord.com/2026/11/23/virginia-oregon-sue-spacex-grok-ai-child-abuse/"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-24"
 }

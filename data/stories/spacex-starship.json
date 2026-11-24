@@ -15,7 +15,7 @@
   "big": "15",
   "delta": "test flights",
   "bigLabel": "Starship test flights since April 2023: 10 counted as successes and 5 as failures, as of 14 November 2026",
-  "updated": "2026-11-21",
+  "updated": "2026-11-24",
   "glance": {
     "what": "Starship is SpaceX's giant two-stage rocket: a Super Heavy booster and the Starship spacecraft on top, both meant to be reused. On Flight 15 the spacecraft was caught by the arms of its launch tower in Texas after about 22.5 hours in space, the first time a rocket's upper stage has been recovered this way. The booster's catch was called off and it came down in the Gulf of Mexico.",
     "why": "Reusing both stages, like an aircraft, could make launches much cheaper. Starship is central to SpaceX's next-generation Starlink satellites and to NASA's plan to land astronauts on the Moon.",
@@ -101,7 +101,7 @@
   ],
   "forYou": "Starship is how SpaceX plans to launch its next-generation Starlink internet satellites, which are bigger and faster than today's. If both stages can be caught and flown again quickly, the cost of getting things into space could fall sharply, which affects everything from satellite internet to Moon missions.",
   "upcoming": [],
-  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida. Mexico's environment agency is still identifying debris found on a beach near Starbase.",
+  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida; no date announced. Mexico wants SpaceX to clean up suspected debris near Matamoros; SpaceX says little was found.",
   "links": [
     "xai-grok-2026",
     "us-flights-ground-stop"
@@ -457,6 +457,36 @@
         }
       ],
       "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "21–23 Nov 2026",
+      "phase": "world",
+      "title": "Mexico says SpaceX must take responsibility for suspected debris near Matamoros",
+      "summary": "Mexican authorities said SpaceX must take responsibility for suspected rocket debris washing up on beaches near Matamoros, across the border from Starbase, per Texas Public Radio and the Texas Tribune. An environmental group, Conibio Global, says it has found at least 1,500 fragments that look like plastic, rubber and adhesive, and believes they came from the Flight 15 booster; it says this still needs confirming. A dead sea turtle is being examined. Mexico's environment agency, Profepa, told people not to touch fragments. SpaceX said on 19 November that its partners found \"very little debris\" and called claims of widespread damage \"outright fabrications or intentionally misleading\". No date has been announced for Flight 16.",
+      "status": "Stated · Mexican authorities; Allegation · Conibio Global; SpaceX disputes",
+      "numbers": [
+        {
+          "k": "Fragments reported",
+          "v": "1,500+ (Conibio Global)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Texas Public Radio",
+          "url": "https://www.tpr.org/border-immigration/2026-11-21/mexico-says-spacex-must-take-responsibility-as-suspected-rocket-debris-washes-ashore-near-texas",
+          "primary": true
+        },
+        {
+          "name": "Texas Tribune via KSAT",
+          "url": "https://www.ksat.com/news/texas/2026/11/23/mexico-demands-spacex-clean-up-suspected-rocket-debris-washing-ashore-near-texas/"
+        },
+        {
+          "name": "PorEsto",
+          "url": "https://www.poresto.com/internacional/2026/11/20/spacex-rechaza-danos-generalizados-residuos-starship-tamaulipas-profepa-mantiene-revision-playa-bagdad.html"
+        }
+      ],
+      "added": "2026-11-24"
     }
   ]
 }

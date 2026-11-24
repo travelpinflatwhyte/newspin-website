@@ -14,11 +14,11 @@
  "big": "20.29%",
  "delta": "flights cancelled",
  "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
- "updated": "2026-11-20",
+ "updated": "2026-11-24",
  "glance": {
   "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
-  "next": "SpiceJet has seven days to reply to the DGCA's show-cause notice, reported on 20 November. On 18 November its board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
+  "next": "SpiceJet's reply to the DGCA's show-cause notice is due around 24 November; none had been reported by 23 November. On 18 November its board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
  "keyNumbers": [
   {
@@ -460,6 +460,40 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "21–22 Nov 2026",
+   "phase": "policy",
+   "title": "SpiceJet reported to be flying 10–15 flights a day, while tickets stay on sale for cancelled routes",
+   "summary": "SpiceJet is flying about 10–15 flights a day, against about 66 a day in its winter schedule, the Free Press Journal reports. At least eight Delhi–Mumbai flights each way were cancelled from 19 to 21 November, and a Mumbai–Dubai flight that had not flown for about a week was still on sale, it says. Passengers quoted by the paper say refunds have not arrived 20 days after cancellation; DGCA rules require card refunds within seven days. More than 7,000 complaints are on the government's AirSewa portal, PTI reports, per Millennium Post. SpiceJet has not commented on the ticket sales. No public reply to the DGCA's show-cause notice had been reported by 23 November.",
+   "status": "Reported · Free Press Journal, Millennium Post (PTI); passenger claims are allegations",
+   "numbers": [
+    {
+     "k": "Flights a day",
+     "v": "≈ 10–15 of ≈ 66 scheduled (reported)"
+    },
+    {
+     "k": "AirSewa complaints",
+     "v": "7,000+ (PTI)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/india/spicejet-continues-selling-tickets-on-routes-it-cannot-operate-amid-cash-crunch-passengers-stranded",
+     "primary": true
+    },
+    {
+     "name": "Millennium Post",
+     "url": "https://www.millenniumpost.in/big-stories/spicejet-takes-off-with-tickets-not-flights-passengers-allege-refunds-remain-stuck-684130"
+    },
+    {
+     "name": "TravelersToday",
+     "url": "https://www.travelerstoday.com/articles/61380/20261123/spicejet-passengers-face-mass-cancellations-indias-regulator-demands-answers-what-refund-rules.htm"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ]
 }

@@ -14,18 +14,24 @@
   "big": "239",
   "delta": "poor",
   "bigLabel": "Delhi's daily average AQI for 22 Nov (CPCB); it was 403 ('severe') on 13 Nov",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "glance": {
     "what": "Delhi's air turned 'severe' on 13 November, with AQI at 403, then eased into the 'poor' band: 214 at 7 am on 18 November, 289 at 8:30 am on 19 November, 269 at 8 am on 20 November, the season's coldest morning so far, 278 on 21 November, with 25 of 57 stations 'very poor', and 237 at 9 am on 22 November. Curbs moved from Stage I on 21 October to Stage III on 6 November; the air commission lifted Stage III on 17 November, leaving Stage I and II in force. Diwali brought the worst festival-day air since 2021.",
     "why": "Air in the 'very poor' and 'severe' bands harms everyone's lungs, especially children, older people and anyone with asthma or heart disease. Each GRAP stage adds limits on construction, vehicles and burning.",
-    "next": "Sunday's daily average was 239 ('poor'). Forecasts expect 'poor' air until Wednesday, then 'poor' to 'very poor' as winds weaken. Stage I and II curbs stay. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
+    "next": "Monday morning's AQI was 236 ('poor'). Forecasts expect 'poor' air until Wednesday, then 'poor' to 'very poor' as winds weaken. Stage I and II curbs stay. The air commission wants Delhi and nearby states to cut pollution by 15–20% in 2027. Out-of-state vehicles that are not BS-VI are barred from Delhi until 31 January 2027."
   },
   "keyNumbers": [
+    {
+      "label": "AQI, 23 Nov 8 am",
+      "value": "236",
+      "note": "poor; hourly reading",
+      "hot": true
+    },
     {
       "label": "AQI, 22 Nov daily",
       "value": "239",
       "note": "poor; 8 stations very poor",
-      "hot": true
+      "hot": false
     },
     {
       "label": "AQI, 21 Nov daily",
@@ -711,6 +717,45 @@
         }
       ],
       "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "data",
+      "title": "Monday morning AQI 236, 'poor'; air commission sets a 15–20% pollution-cut target for 2027",
+      "summary": "Delhi's AQI was 236 ('poor') at 8 am on Monday, per CPCB data reported by IANS. Some stations were 'very poor', including Sirifort (333), Talkatora (317) and ITO (301). Stage II curbs stay in force. The Commission for Air Quality Management told Delhi and nearby states to write 2027 action plans that cut overall pollution by at least 15%, aiming for 20%. For the first time the plans must include district-level plans and name the officers responsible. Forecasts expect 'poor' air until Wednesday, then 'poor' to 'very poor'.",
+      "status": "Official data · CPCB (8 am reading); target Reported · IANS",
+      "numbers": [
+        {
+          "k": "AQI, 8 am 23 Nov",
+          "v": "236 (poor)"
+        },
+        {
+          "k": "2027 cut target",
+          "v": "15–20%"
+        }
+      ],
+      "differs": "Other outlets give other hourly readings: Outlook 246–248 around 6 am, Bombay Samachar 249 at 7 am. The CAQM directive's date of issue was not given.",
+      "sources": [
+        {
+          "name": "IBTimes India (IANS)",
+          "url": "https://www.ibtimes.co.in/delhi-aqi-236-remains-poor-category-caqm-sets-15-20-pollution-reduction-target-2027-908615",
+          "primary": true
+        },
+        {
+          "name": "Assam Tribune",
+          "url": "https://assamtribune.com/national/delhis-air-quality-remains-poor-with-aqi-at-236-1623158"
+        },
+        {
+          "name": "India.com",
+          "url": "https://www.india.com/news/india/delhi-aqi-november-23-no-respite-from-toxic-air-as-several-areas-slip-into-very-poor-category-check-area-wise-pollution-levels-grap-restrictions-details-8547251/"
+        },
+        {
+          "name": "Outlook",
+          "url": "https://www.outlookindia.com/national/delhi-aqi-stays-poor-at-248-forecast-warns-of-poor-air-till-wednesday"
+        }
+      ],
+      "added": "2026-11-24"
     }
   ]
 }

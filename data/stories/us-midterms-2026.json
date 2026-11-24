@@ -15,7 +15,7 @@
  "big": "255",
  "delta": "House seats, Democrats",
  "bigLabel": "Democratic House seats won in AP's count as of 13 Nov, 1:16 pm IST, against 169 for Republicans. Counts may change.",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "glance": {
   "what": "Americans voted on 3 November for all 435 House seats and 35 Senate seats. As of 13 November, AP's count shows Democrats with 255 House seats won and Republicans with 169, and 55 Senate seats for Democrats (including 2 who caucus with them) against 44 for Republicans.",
   "why": "Congress writes US spending and trade laws and confirms judges and officials, so the result shapes the last two years of President Trump's term, including tariff fights that matter to Indian exporters.",
@@ -215,6 +215,32 @@
     }
    ],
    "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026",
+   "phase": "world",
+   "title": "AP calls North Carolina's 5th district for Democrat Chuck Hubbard after a recount",
+   "summary": "AP called North Carolina's 5th House district for Democrat Chuck Hubbard after a recount, per ABC News. The seat had been held by Republican Virginia Foxx since 2005. Foxx conceded on Sunday, writing that voters \"made their voices heard\", per WRAL. Before the recount Hubbard led by 331 votes out of more than 286,000, in the unofficial state count. Some other House races are still being counted.",
+   "status": "Confirmed · AP call; Foxx conceded",
+   "numbers": [
+    {
+     "k": "Pre-recount margin",
+     "v": "331 votes of 286,000+"
+    }
+   ],
+   "sources": [
+    {
+     "name": "AP via ABC News",
+     "url": "https://abcnews.com/Politics/democrat-chuck-hubbard-wins-recount-north-carolina-us/story?id=138362634",
+     "primary": true
+    },
+    {
+     "name": "WRAL",
+     "url": "https://www.wral.com/news/nccapitol/virginia-foxx-concedes-november-2026/"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ]
 }

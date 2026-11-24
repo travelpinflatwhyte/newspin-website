@@ -14,7 +14,7 @@
   "big": "6 hrs",
   "delta": "Mumbai shut 19 Nov",
   "bigLabel": "Both runways at Mumbai airport close from 11 am to 5 pm on Thursday 19 November for annual maintenance, says the airport operator",
-  "updated": "2026-11-14",
+  "updated": "2026-11-24",
   "glance": {
     "what": "Winter is the hardest season for flying in north India. Smog and fog cut visibility, and airports switch to slower low-visibility procedures. Delhi's airport used them for the first time this season on Diwali night, and close to half of its departures were delayed the next day.",
     "why": "Delays at Delhi spread across the country because so many flights pass through it. Mumbai, India's second-busiest airport, will also stop all flights for six hours on 19 November for runway repairs after the monsoon.",
@@ -169,6 +169,37 @@
         }
       ],
       "added": "2026-11-14"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "phase": "data",
+      "title": "Airlines schedule 3.5% fewer domestic flights for November–December",
+      "summary": "Indian airlines plan 195,774 domestic flights in November and December 2026, 7,154 fewer than a year earlier, or about 117 fewer a day, per Cirium schedule data first reported by the Indian Express. It is the first such fall since 2022. Air India's schedule is down 15.9% and SpiceJet's 25.3%; IndiGo's is down 1.7% and Akasa's up 46.9%. Seats fall only 0.5%, because some airlines are using bigger planes. These are published schedules, so the number of flights actually flown may be lower. Fewer flights in the holiday season can mean fuller planes and higher fares.",
+      "status": "Reported · Indian Express (Cirium data)",
+      "numbers": [
+        {
+          "k": "Domestic flights, Nov–Dec",
+          "v": "195,774 (−7,154, −3.5%)"
+        },
+        {
+          "k": "Seats",
+          "v": "−0.5%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Siasat (Indian Express report)",
+          "url": "https://www.siasat.com/festive-flyers-face-fewer-options-as-airlines-cut-7154-domestic-flights-3580983/",
+          "primary": true
+        },
+        {
+          "name": "Oneindia",
+          "url": "https://www.oneindia.com/business/indian-airlines-cut-domestic-flights-by-3-5-during-peak-travel-season-air-india-spicejet-lead-red-8264023.html"
+        }
+      ],
+      "link": "spicejet-crisis-2026",
+      "added": "2026-11-24"
     }
   ]
 }

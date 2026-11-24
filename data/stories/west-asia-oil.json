@@ -12,19 +12,19 @@
   "importance": 4,
   "status": "Talks, no deal",
   "tone": "live",
-  "big": "$92.57",
-  "delta": "Down about 22% from a late-October peak near $118",
-  "bigLabel": "Brent settlement price on 20 Nov (Bloomberg); down 3.4% on the week",
-  "updated": "2026-11-23",
+  "big": "≈ $86.7",
+  "delta": "Lowest since late August",
+  "bigLabel": "Brent settlement on 23 Nov: $86.78 per Investing.com, $86.58 provisional per houseofsaud.com; it was $92.57 on 20 Nov",
+  "updated": "2026-11-24",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent settled at $92.57 on 20 November, its third weekly fall in a row; markets reopen on Monday. Attacks continued over the weekend: Iran says two supertankers hit mines east of Hormuz on 22 November, and UKMTO reported a tanker 'incident with military forces' in the Gulf of Oman. President Trump said he could resume strikes after the new year if talks fail. Iran says more than 14 of its tankers are ready to sail through the US blockade. OPEC+ meets on 29 November."
+    "next": "Brent fell to about $86.7 on 23 November, its lowest since late August, as Gulf exports held up despite weekend attacks. Iran says it will confront the US blockade but that Hormuz could be safe quickly if the US meets its terms. President Trump has said he could resume strikes after the new year if talks fail. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
-      "label": "Brent, 20 Nov",
-      "value": "$92.57",
+      "label": "Brent, 23 Nov",
+      "value": "≈ $86.7",
       "note": "per barrel, settlement",
       "hot": true
     },
@@ -46,7 +46,7 @@
   ],
   "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
   "upcoming": [],
-  "next": "Oil prices as markets reopen; whether Iran's tankers try to break the blockade; Qatar-mediated talks; OPEC+ meets on 29 November.",
+  "next": "Whether Iran's tankers try to break the blockade; Qatar-mediated talks; OPEC+ meets on 29 November to set 2027 output.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -753,6 +753,72 @@
         }
       ],
       "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "market",
+      "title": "Brent falls to its lowest since late August as Gulf exports hold up",
+      "summary": "Brent crude settled near $86.6–86.8 a barrel on Monday, its lowest since late August, down from $92.57 on Friday. US crude (WTI) closed around $79–80. Analysts said signs that Gulf crude exports are holding up outweighed weekend attacks on shipping and on Bahrain, per Investing.com and Tradingpedia. Libya's Sharara pipeline also reopened. The International Energy Agency expects supply to exceed demand by about 2 million barrels a day in October–December. Analysts at IG said a new US strike on Iran looks less likely for now. Lower oil prices help India, which imports most of its crude.",
+      "status": "Market data · Investing.com, Tradingpedia",
+      "numbers": [
+        {
+          "k": "Brent, 23 Nov",
+          "v": "≈ $86.6–86.8"
+        },
+        {
+          "k": "Brent, 20 Nov",
+          "v": "$92.57"
+        }
+      ],
+      "differs": "Brent settlement: $86.78 per Investing.com; $86.58 (provisional) per houseofsaud.com, also citing Investing.com. Investing.com gives the fall as 2.9%, which does not match Friday's $92.57 settlement (that would be a fall of about 6.3%). WTI: $79.17 per Investing.com, $80.20 per FinanceFeeds.",
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://in.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5719957",
+          "primary": true
+        },
+        {
+          "name": "Tradingpedia",
+          "url": "https://www.tradingpedia.com/2026/11/23/oil-retreats-as-mideast-supply-gains-offset-tensions/"
+        },
+        {
+          "name": "Marinelink",
+          "url": "https://www.marinelink.com/news/oil-prices-fall-middle-east-flows-544538"
+        },
+        {
+          "name": "houseofsaud.com",
+          "url": "https://houseofsaud.com/brent-third-weekly-loss-nov23/"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "world",
+      "title": "Iran vows to confront the US blockade; says Hormuz could be safe again if its terms are met",
+      "summary": "Iran's foreign ministry spokesman Esmaeil Baghaei said Iran would \"definitely not tolerate\" the US naval blockade and would \"use all our tools\" to confront it, per ABC News. He said security in the Strait of Hormuz could be restored quickly if the US lifts sanctions, ends the blockade and carries out the terms of the June memorandum of understanding. Oil shipped through Hormuz averaged about 9.5 million barrels a day in the 10 days to 19 November, down from 12.2 million in October, per Kpler data cited by Reuters. Iran began rationing electricity on 22 November because of fuel shortages, ABC reports.",
+      "status": "Stated · Iran foreign ministry",
+      "numbers": [
+        {
+          "k": "Hormuz oil flow",
+          "v": "≈ 9.5 mbpd (10 days to 19 Nov) vs 12.2 mbpd in Oct (Kpler)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News live updates",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648",
+          "primary": true
+        },
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/iran-threatens-break-us-naval-112030993.html"
+        }
+      ],
+      "added": "2026-11-24"
     }
-  ]
+  ],
+  "deltaTone": "neutral"
 }

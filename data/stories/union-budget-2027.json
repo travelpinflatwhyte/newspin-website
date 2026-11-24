@@ -14,7 +14,7 @@
  "big": "42.1%",
  "delta": "of deficit target used",
  "bigLabel": "Share of the 2026-27 fiscal deficit target used by September, vs 36.5% a year earlier",
- "updated": "2026-11-20",
+ "updated": "2026-11-24",
  "glance": {
   "what": "The last Budget, on 1 February 2026, aimed for a fiscal deficit of 4.3% of GDP and brought in a new Income Tax Act from April. Since then a ₹10-a-litre fuel tax cut and higher spending have pushed the deficit up faster than last year, and work on Budget 2027-28 began in August.",
   "why": "The Budget sets income tax, fuel duties, government spending and borrowing for the year. This one has to balance a bigger deficit, oil-price shocks and the coming 8th Pay Commission bill.",
@@ -375,6 +375,40 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "17–23 Nov 2026",
+   "phase": "policy",
+   "title": "Finance Minister holds 10 rounds of pre-Budget talks",
+   "summary": "Finance Minister Nirmala Sitharaman has now held 10 pre-Budget meetings. Since 17 November she met groups from manufacturing; small businesses and startups; capital markets, banking and insurance; IT; infrastructure, energy and sustainability; jobs and labour; housing, cities and culture; and, on 23 November, health and social sectors. The ministry has not said what was suggested. The Budget is expected on 1 February 2027.",
+   "status": "Confirmed · Finance Ministry (via AIR, Tribune, IANS)",
+   "numbers": [
+    {
+     "k": "Pre-Budget meetings",
+     "v": "10, as of 23 Nov"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Tribune (10th meeting)",
+     "url": "https://www.tribuneindia.com/news/economic-consultation/fm-holds-10th-pre-budget-meeting-with-health-social-sector-stakeholders-ahead-of-budget",
+     "primary": true
+    },
+    {
+     "name": "AIR (6th meeting)",
+     "url": "https://newsonair.gov.in/fm-nirmala-sitharaman-chairs-sixth-pre-budget-consultation-with-it-sector-stakeholders-in-new-delhi/"
+    },
+    {
+     "name": "Tribune (8th meeting)",
+     "url": "https://www.tribuneindia.com/news/economic-affairs/fm-sitharaman-holds-eighth-pre-budget-consultation-with-labour-employment-sector-stakeholders"
+    },
+    {
+     "name": "Webindia/IANS (9th meeting)",
+     "url": "https://news.webindia123.com/news/Articles/Business/20261120/4522446.html"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ]
 }

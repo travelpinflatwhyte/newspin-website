@@ -15,7 +15,7 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "glance": {
     "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out and then fell sharply on a reported SEC probe of its accounting, Anthropic listed on Nasdaq, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Lean's maths community has certified a computer-checked Riemann Hypothesis proof made with Claude, and President Trump threatened to tax US firms that build AI data centres abroad.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
@@ -688,6 +688,35 @@
         }
       ],
       "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "market",
+      "title": "Nvidia brings back Jensen Huang; AI shares lead Wall Street's biggest rally since April 2025",
+      "summary": "Nvidia's board reinstated Jensen Huang as CEO, saying senior US officials told it his return poses no national security risk. Nvidia shares rose about 31% and the Nasdaq 6.51%. Anthropic shares slipped. The same weekend, OpenAI's chief scientist proposed shared limits across AI labs, OpenAI made GPT-6.2 Sol the main ChatGPT model for paying users, and Virginia and Oregon sued SpaceX over sexual deepfakes made with Grok.",
+      "status": "Confirmed · Nvidia; Market data",
+      "sources": [
+        {
+          "name": "Nvidia 8-K filing (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "primary": true
+        },
+        {
+          "name": "Investopedia via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/good-monday-stock-rally-where-222630862.html"
+        },
+        {
+          "name": "CyberScoop",
+          "url": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/"
+        },
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-24"
     }
   ]
 }

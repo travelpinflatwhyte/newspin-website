@@ -9,16 +9,16 @@
  "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
  "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
  "importance": 4,
- "status": "Talks stalled; Russia hits Kyiv bridges",
+ "status": "Talks stalled; Ukraine hits ship in Libya",
  "tone": "live",
  "big": "1,000+",
  "delta": "prisoners per side",
  "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 23 Nov.",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "glance": {
   "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
   "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "Putin said on 19 November there would be no talks on energy or Black Sea ceasefires after the bridge strikes. Russian strikes continued: on 22 November an apartment block and a supermarket were hit near Kyiv, and Zelenskyy asked the US to release Patriot missiles. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this. No date is set, and the agreed prisoner swap has not been reported as carried out."
+  "next": "No date is set for the next round, and the agreed prisoner swap has not been reported as carried out. Ukraine says it hit a Russian warship in Libya on 22 November; Zelenskyy says Russia is preparing new strikes and has asked the US for Patriot missiles. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this."
  },
  "keyNumbers": [
   {
@@ -47,7 +47,8 @@
  "upcoming": [],
  "next": "Whether the next round goes ahead with Europe at the table, and whether the agreed prisoner swap happens.",
  "links": [
-  "russian-oil"
+  "russian-oil",
+  "russia-nato-eastern-flank"
  ],
  "events": [
   {
@@ -435,6 +436,49 @@
     }
    ],
    "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026",
+   "phase": "world",
+   "key": true,
+   "title": "Ukraine says its sea drones hit a Russian warship in a Libyan port, 2,400 km from the front",
+   "summary": "President Zelenskyy said on 23 November that Ukrainian sea drones hit the Russian corvette Merkury at a naval base in Benghazi, eastern Libya, on Sunday 22 November. He said seven drones were used, a helicopter on board was destroyed, and a cargo ship, the Angara, was also hit; he said Russia used it to move weapons. Ukraine's security service (SBU) said the drones were launched from a \"mother ship\". At least 10 people were wounded, including Libyans and Russians, per AP. Libya's eastern government asked the UN for an investigation. The Kremlin said it had \"taken note\". The site is about 2,400 km from the front line. Separately, a Russian oil refinery in Rostov stopped work after a Ukrainian drone attack, its regional governor said.",
+   "status": "Stated · Zelenskyy, SBU",
+   "differs": "Zelenskyy and ABC News say the Merkury sank. Two Libyan officials told AP it was badly damaged, not sunk, and that at least four drones were intercepted and two hit it.",
+   "sources": [
+    {
+     "name": "AP via PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya",
+     "primary": true
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738"
+    }
+   ],
+   "link": "russia-nato-eastern-flank",
+   "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "world",
+   "title": "Zelenskyy warns Russia is preparing new strikes; five hurt in an attack on central Kyiv",
+   "summary": "In his nightly address, Zelenskyy said Ukrainian intelligence shows Russia preparing new strikes, and asked the US and other partners to take note because their decisions affect air-defence supplies, per Reuters. A Russian attack on central Kyiv on Monday injured five people. French President Macron said \"we must reopen the question of Ukraine's membership to NATO\". No date has been set for the next round of talks, and the agreed prisoner exchange has not been reported as carried out.",
+   "status": "Stated · Zelenskyy",
+   "sources": [
+    {
+     "name": "Reuters via Yahoo",
+     "url": "https://www.yahoo.com/news/articles/zelenskiy-says-intelligence-shows-russia-210333074.html",
+     "primary": true
+    },
+    {
+     "name": "AP via PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya"
+    }
+   ],
+   "added": "2026-11-24"
   }
  ]
 }

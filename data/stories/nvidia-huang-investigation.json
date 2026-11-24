@@ -10,22 +10,22 @@
  "dek": "A report that Nvidia's founder was targeted by Chinese intelligence led to a board inquiry, his resignation, a share slide, regulator inquiries and, 11 days later, his reinstatement.",
  "seoTitle": "Jensen Huang reinstated as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang reinstated · inquiries continue",
+ "status": "Huang back · Congress still wants answers",
  "tone": "hot",
- "big": "25%+",
- "delta": "▲ pre-market, 23 Nov",
- "bigLabel": "Rise in Nvidia shares before the US market opened on 23 November, after Huang's reinstatement (Reuters)",
- "updated": "2026-11-23",
+ "big": "≈ 31%",
+ "delta": "▲ 23 Nov close",
+ "bigLabel": "Rise in Nvidia shares on 23 November, the day Huang was reinstated: its biggest one-day gain since 2003 (Investopedia)",
+ "updated": "2026-11-24",
  "glance": {
   "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia and Reuters and the Times have reported an SEC inquiry into its accounting.",
   "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
-  "next": "The board's own investigation will continue, it says. Huang is due to be questioned behind closed doors by three House committees on 1 December, per Axios, and has agreed to a public Senate Banking Committee hearing, date not set. No details of the reported SEC inquiry have been made public."
+  "next": "Huang is due to be questioned behind closed doors by House committees on 1 December, and Nvidia's general counsel on 2 December. Senate Banking Committee chair Tim Scott wants public testimony; a hearing is reported for 3 December. The board's own investigation continues."
  },
  "keyNumbers": [
   {
-   "label": "Pre-market, 23 Nov",
-   "value": "25%+",
-   "note": "rise after reinstatement (Reuters)",
+   "label": "Shares, 23 Nov",
+   "value": "≈ +31%",
+   "note": "close $165.05–165.36",
    "hot": true
   },
   {
@@ -60,9 +60,14 @@
    "date": "2026-12-02",
    "label": "2 Dec",
    "text": "Nvidia general counsel Tim Teter's interview"
+  },
+  {
+   "date": "2026-12-03",
+   "label": "3 Dec",
+   "text": "Senate Banking Committee public hearing with Huang (reported)"
   }
  ],
- "next": "Market reaction once US trading opens on 23 November; the board committee's investigation; Huang's closed-door interview with three House committees on 1 December and general counsel Tim Teter's on 2 December (per Axios); a public Senate Banking Committee hearing, date not set; inquiries by the SEC (reported), California's attorney general, Congress and the Justice and Commerce departments.",
+ "next": "Huang's closed-door interview with House committees on 1 December; general counsel Tim Teter's on 2 December; a Senate Banking Committee hearing reported for 3 December; the board committee's investigation; inquiries by the SEC (reported), California's attorney general and Congress.",
  "links": [
   "india-us-trade-deal",
   "apple-story"
@@ -932,10 +937,62 @@
     }
    ],
    "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026 (US time)",
+   "phase": "market",
+   "title": "Nvidia shares close about 31% higher; Trump says \"I convinced them\", while lawmakers in both parties question the decision",
+   "summary": "Nvidia shares rose about 31% on Monday, their biggest one-day gain since 2003, adding about $950 billion in market value, per Investopedia. They are still about 31% below their 6 October high. President Trump told CNBC \"I convinced them\" and called the board's decision \"an absolutely GREAT decision\" on Truth Social. Democratic leaders Chuck Schumer and Hakeem Jeffries said Democrats would investigate; Jeffries called the decision \"indefensible\". Several Republican senators also questioned it: Senator John Curtis asked \"what changed\" while the board's own investigation is still running. A House Intelligence Committee spokesperson said the reinstatement \"changes nothing\" for Huang's appearance before House committees on 1 December. Senate Banking Committee chair Tim Scott has asked for public testimony, with a hearing reported for 3 December. Nvidia's filing also says a new board committee on national security and export controls is hiring outside lawyers, and the company is searching for a new chief compliance officer.",
+   "status": "Market data; Stated · Trump, named lawmakers",
+   "numbers": [
+    {
+     "k": "Share rise, 23 Nov",
+     "v": "≈ 31%"
+    },
+    {
+     "k": "Close",
+     "v": "$165.05 (FinanceFeeds) or $165.36 (TASS/Forbes)"
+    },
+    {
+     "k": "Value added",
+     "v": "≈ $950 bn (Investopedia)"
+    }
+   ],
+   "differs": "Closing price: $165.05 per FinanceFeeds, $165.36 per TASS citing Forbes. Reports differ on which House committees will question Huang on 1 December: one Yahoo report lists Intelligence, Foreign Affairs and the China Select Committee; another names only Foreign Affairs.",
+   "sources": [
+    {
+     "name": "Investopedia via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/good-monday-stock-rally-where-222630862.html",
+     "primary": true
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/stock-market-today-nasdaq-jumps-6-5-percent-as-huang-returns/"
+    },
+    {
+     "name": "Yahoo Finance (Nvidia live blog)",
+     "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html"
+    },
+    {
+     "name": "Yahoo News (politics)",
+     "url": "https://www.yahoo.com/news/politics/articles/republicans-condemn-jensen-huangs-reinstatement-231201867.html"
+    },
+    {
+     "name": "Yahoo News (testimony)",
+     "url": "https://www.yahoo.com/news/politics/articles/nvidias-jensen-huang-still-testifying-202937123.html"
+    },
+    {
+     "name": "Nvidia 8-K filing (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    }
+   ],
+   "link": "us-markets-daily",
+   "added": "2026-11-24"
   }
  ],
- "heroTitle": "Nvidia's board reinstates Jensen Huang as CEO, 11 days after he resigned",
- "heroDek": "The board says senior US officials assured it his return poses no national security risk. Its own investigation, an SEC inquiry and California's inquiry continue. Shares rose more than 25% before the market opened, per Reuters.",
- "heroAsOf": "2026-11-23",
+ "heroTitle": "Nvidia shares jump 31% as Huang returns, but Congress still wants answers",
+ "heroDek": "President Trump says he convinced the board. Democrats promise investigations, several Republicans question the decision, and Huang still faces House questioning on 1 December.",
+ "heroAsOf": "2026-11-24",
  "deltaTone": "neutral"
 }

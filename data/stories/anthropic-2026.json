@@ -18,7 +18,7 @@
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17, then fell to about $88–89 on the second day, still above the $83 IPO price. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17, fell to about $88–89 on the second day and slipped again on 23 November, still above the $83 IPO price. A readable write-up of the Riemann proof is in draft; its key step has not yet been written out. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
@@ -26,6 +26,11 @@
       "value": "≈ $89",
       "note": "$88.91 or $88.30; IPO price $83",
       "hot": true
+    },
+    {
+      "label": "23 Nov",
+      "value": "−1.43%",
+      "note": "per CNBC; above IPO price"
     },
     {
       "label": "First-day close",
@@ -650,7 +655,63 @@
         }
       ],
       "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "21–22 Nov 2026",
+      "phase": "tech",
+      "title": "A readable draft of the Claude-assisted Riemann proof appears; it is unfinished and the key step is not yet written out",
+      "summary": "A University of Waterloo mathematician posted a working draft of about 160 pages explaining the computer-checked proof in ordinary maths language. The draft says it was written by Claude, OpenAI's Codex and Google's Gemini at his request. It says it is unfinished: it does not yet prove the \"main inequality\", which it calls \"the arithmetic heart\" of the proof, and quotes it from the Lean code instead. The Decoder reports that mathematicians are still checking whether the Lean statement matches the Riemann Hypothesis exactly. A separate, human-written draft proof of a related conjecture, posted on Stanford professor Ravi Vakil's blog on 20 November, drew reports of problems within hours. Neither proof has been accepted.",
+      "status": "Reported · The Decoder; draft paper",
+      "numbers": [
+        {
+          "k": "Draft length",
+          "v": "≈ 160 pages"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Draft paper (PDF), University of Waterloo",
+          "url": "https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/zeta-paper.pdf",
+          "primary": true
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Shares slip on day three while the rest of tech rallies",
+      "summary": "Anthropic shares fell on Monday while Nvidia and most tech shares jumped. CNBC, cited by FinanceFeeds, put the fall at 1.43%; ABC News said it was more than 1%. The shares stayed above the $83 IPO price. Yahoo Finance pointed to profit-taking after the listing, doubts about the valuation, and up to 315 million shares held by insiders that can be sold almost straight away.",
+      "status": "Market data · CNBC via FinanceFeeds, ABC News",
+      "numbers": [
+        {
+          "k": "Change, 23 Nov",
+          "v": "−1.43% (CNBC)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "FinanceFeeds",
+          "url": "https://financefeeds.com/stock-market-today-nasdaq-jumps-6-5-percent-as-huang-returns/",
+          "primary": true
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/amp/Business/stock-market-rebounds-sharply-after-selloff/story?id=138373790"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-as-mondays-tech-rally-takes-off-194812614.html"
+        }
+      ],
+      "added": "2026-11-24"
     }
   ],
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }

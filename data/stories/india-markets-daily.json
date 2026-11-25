@@ -9,11 +9,11 @@
  "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
  "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
  "importance": 4,
- "status": "Nifty falls 1.75% as banks and metals slide",
+ "status": "Nifty rebounds 1.85% after the holiday",
  "tone": "live",
- "big": "25,349.65",
- "delta": "▼ 450.95 (1.75%)",
- "bigLabel": "Nifty 50 close on 23 Nov",
+ "big": "25,819.25",
+ "delta": "▲ 469.60 (1.85%)",
+ "bigLabel": "Nifty 50 close on 25 Nov",
  "updated": "2026-11-25",
  "market": {
   "index": "Nifty 50",
@@ -21,31 +21,31 @@
   "tz": "IST, closes 3:30 pm"
  },
  "glance": {
-  "what": "The Nifty 50 closed at 25,349.65 on 23 November, down 1.75%, after opening higher. The Sensex fell 1,483.72 points to 82,435.99.",
-  "why": "Reporters blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and points to swings before the monthly derivatives expiry. IT shares rose.",
-  "next": "Trading resumes on 25 November after the Guru Nanak Jayanti holiday on 24 November, per Angel One. The RBI's next policy meeting runs 2 to 4 December."
+  "what": "The Nifty 50 closed at 25,819.25 on 25 November, up 469.60 points (1.85%), after a higher open. The Sensex rose 1,502.29 points to 83,938.28. It recovers most of the 1.75% fall on 23 November.",
+  "why": "Reporters credit continued buying by foreign investors, lower crude oil prices and a stronger rupee. Consumer goods, pharma, bank and financial shares rose; metal shares fell again, partly on Tata Steel's proposed deal with APL Apollo Tubes.",
+  "next": "The RBI's next policy meeting runs 2 to 4 December."
  },
  "keyNumbers": [
   {
-   "label": "Nifty 50, 23 Nov",
-   "value": "25,349.65",
-   "note": "−450.95 (1.75%)",
+   "label": "Nifty 50, 25 Nov",
+   "value": "25,819.25",
+   "note": "+469.60 (1.85%)",
    "hot": true
   },
   {
-   "label": "Sensex, 23 Nov",
-   "value": "82,435.99",
-   "note": "−1,483.72 (1.77%)"
+   "label": "Sensex, 25 Nov",
+   "value": "83,938.28",
+   "note": "+1,502.29 (1.82%)"
   },
   {
-   "label": "Nifty Bank, 23 Nov",
-   "value": "62,585.35",
-   "note": "−3.17%"
+   "label": "Nifty Bank, 25 Nov",
+   "value": "63,703.25",
+   "note": "+1.79% (Liquide)"
   },
   {
-   "label": "India VIX",
-   "value": "18.02",
-   "note": "+4.04% (Univest)"
+   "label": "Nifty FMCG, 25 Nov",
+   "value": "+3.79%",
+   "note": "best sector"
   }
  ],
  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
@@ -536,6 +536,58 @@
     }
    ],
    "added": "2026-11-23"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "market",
+   "title": "Nifty climbs 1.85% to 25,819 as consumer and bank shares recover",
+   "summary": "Trading resumed after Tuesday's Guru Nanak Jayanti holiday. The Nifty opened about 309 points higher at 25,658, according to Liquide, and closed up 469.60 points (1.85%) at 25,819.25, according to Kotak Neo, Liquide and DSIJ. That recovers most of Monday's fall. The Sensex rose 1,502.29 points (1.82%) to 83,938.28. The reports credit continued buying by foreign investors, lower crude oil prices and a stronger rupee. Consumer goods (FMCG) shares led: the Nifty FMCG index rose 3.79% and pharma 2.38%. Nifty Bank rose 1.79% to 63,703.25, per Liquide. Metal shares fell again (Nifty Metal −2.04%), which DSIJ links to Tata Steel's proposed deal with APL Apollo Tubes. Hindustan Unilever (+6.08%) gained the most in the Nifty and Tata Steel (−2.27%) fell the most, per Liquide and DSIJ. Smaller companies lagged: the Nifty Smallcap 100 fell 0.44%, per Kotak Neo.",
+   "status": "Market data · Kotak Neo, Liquide, DSIJ",
+   "differs": "InCred Money gives a Nifty close of 25,791.25 (+1.74%) and a Sensex close of 83,982.08 (+1.88%), describing the Nifty figure as from the closing auction; Kotak Neo, Liquide and DSIJ all give 25,819.25 and 83,938.28. Only Liquide gives an opening level. DSIJ puts the fall in Nifty Metal at 2.06% and the Smallcap 100 fall at 0.52%.",
+   "numbers": [
+    {
+     "k": "Sensex close",
+     "v": "83,938.28 (+1,502.29)"
+    },
+    {
+     "k": "Nifty Bank",
+     "v": "63,703.25 (+1.79%)"
+    },
+    {
+     "k": "Nifty FMCG",
+     "v": "+3.79%"
+    },
+    {
+     "k": "Nifty Metal",
+     "v": "−2.04%"
+    }
+   ],
+   "session": {
+    "prev": 25349.65,
+    "open": 25658.0,
+    "close": 25819.25
+   },
+   "sources": [
+    {
+     "name": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/",
+     "primary": true
+    },
+    {
+     "name": "Liquide",
+     "url": "https://blog.liquide.life/share-market-today-nifty-surges-470-points-to-25-819-sensex-jumps-1-502-points-as-fmcg-pharma-and-financial-services-lead-market-rally/"
+    },
+    {
+     "name": "DSIJ",
+     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
+    },
+    {
+     "name": "InCred Money",
+     "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-25-november-2026/"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ]
 }

@@ -9,23 +9,23 @@
  "dek": "From near 89 to the dollar in January to a record low near 96.90, then a rebound in November. What moved the rupee this year.",
  "seoTitle": "Rupee vs dollar 2026: record lows and the rebound",
  "importance": 4,
- "status": "Recovering",
+ "status": "Eight-month high",
  "tone": "live",
- "big": "92.92",
- "delta": "▲ ≈ 4.1% off the low",
- "deltaTone": "neutral",
- "bigLabel": "Rupees per US dollar at the close on 23 Nov (PTI, provisional), from a record low near 96.90. It had closed at 92.62, a seven-month high, on 20 Nov.",
+ "big": "92.29",
+ "delta": "▲ ≈ 4.7% off the low",
+ "deltaTone": "good",
+ "bigLabel": "Rupees per US dollar, best level during trade on 25 Nov (PTI), an eight-month high. Record low near 96.90.",
  "updated": "2026-11-25",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It recovered to 93.70 on 9 November, eased to 94.19 by 13 November, then strengthened for several days in a row. On 20 November it closed at 92.62, a seven-month high. On 23 November it slipped 30 paise to 92.92 as Indian shares fell.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It has strengthened for most of November. On 25 November it touched 92.29 during trade, per PTI, an eight-month high that erases its losses since April. It had closed at 92.85 on 23 November.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 23 Nov",
-   "value": "92.92",
-   "note": "close (PTI, provisional)",
+   "label": "Rupee per $, 25 Nov",
+   "value": "92.29",
+   "note": "best level in trade (PTI)",
    "hot": true
   },
   {
@@ -465,6 +465,49 @@
     {
      "name": "Business Standard (live blog)",
      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "market",
+   "title": "Rupee touches an eight-month high near 92.2, erasing its losses for the financial year",
+   "summary": "The rupee opened at 92.65 per dollar on Wednesday and rose to 92.29 during the day, up 56 paise from Monday's close, PTI reported in the afternoon. PTI says that wipes out all the rupee's losses since the financial year began in April, and calls it an eight-month high. DSIJ puts the day's best level at 92.18 and InCred Money reports 92.21, its strongest since 12 March. Currency markets were shut on Tuesday for Guru Nanak Jayanti. Analysts quoted by PTI credit large inflows from foreign investors into Indian shares and Brent crude slipping below $90 a barrel. Foreign investors bought a net ₹5,672.99 crore of Indian shares on Monday, per exchange data cited by PTI. A stronger rupee makes imports such as fuel and foreign travel slightly cheaper.",
+   "status": "Market data · PTI, DSIJ, InCred Money",
+   "differs": "Reports give different best levels for the day: 92.29 (PTI, early afternoon), 92.21 (InCred Money) and 92.18 (DSIJ). AIR News reports a close of 92.23; no PTI closing figure had been published when this was written. PTI's final figure for Monday's close is 92.85, not the provisional 92.92 shown earlier.",
+   "numbers": [
+    {
+     "k": "Open, 25 Nov",
+     "v": "92.65"
+    },
+    {
+     "k": "Best level (PTI)",
+     "v": "92.29"
+    },
+    {
+     "k": "Monday's close (PTI final)",
+     "v": "92.85"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint (PTI)",
+     "url": "https://theprint.in/economy/rupee-recoups-all-its-fy27-losses-climbs-56-paise-to-hit-eight-month-high-of-92-29-usd-intraday/3108400/",
+     "primary": true
+    },
+    {
+     "name": "DSIJ",
+     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
+    },
+    {
+     "name": "InCred Money",
+     "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-25-november-2026/"
+    },
+    {
+     "name": "AIR News",
+     "url": "https://www.airnews.in/articles/864b917dff-rupee-surges-0-7-to-eight-month-high-of-92-23-on-record-14-28-billion-inflows?feed=stocks"
     }
    ],
    "added": "2026-11-25"

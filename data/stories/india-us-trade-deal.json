@@ -10,8 +10,8 @@
  "dek": "A tariff cut was announced with fanfare. Nine months later, courts, new duties and a sanctions law have kept it in limbo.",
  "seoTitle": "India–US trade deal 2026: tariffs timeline",
  "importance": 4,
- "status": "Talks continue",
- "tone": "wait",
+ "status": "US proposes up to 25%",
+ "tone": "hot",
  "big": "10%",
  "delta": "deal unsigned",
  "bigLabel": "US duty on most Indian goods since 24 Jul",
@@ -19,14 +19,19 @@
  "glance": {
   "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
   "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
-  "next": "Signing waits on Washington's new tariff rules and pending Section 301 investigations, per the Commerce Secretary. The Wall Street Journal reports the US may announce tariffs from one of those probes as early as this week, possibly with higher duties for India. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
+  "next": "The US has proposed a tariff of up to 25% on Indian goods, cut to 17% with a trade deal; comments are due by 5 January and hearings start on 25 January. The Commerce Secretary said signing waits on the new US tariff rules. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
  },
  "keyNumbers": [
   {
    "label": "Section 301 duty",
    "value": "10%",
-   "note": "since 24 Jul",
+   "note": "since 24 Jul (current)",
    "hot": true
+  },
+  {
+   "label": "Proposed duty",
+   "value": "up to 25%",
+   "note": "17% with a deal (USTR, 25 Nov)"
   },
   {
    "label": "Announced rate",
@@ -55,10 +60,16 @@
    "date": "2026-12-14",
    "label": "Dec",
    "text": "G20 summit in Florida, a possible target for phase one"
+  },
+  {
+   "date": "2027-01-05",
+   "label": "5 Jan",
+   "text": "Comments due on the proposed US tariff"
   }
  ],
- "next": "US findings on its excess-capacity probe, reported as possible this week; farmers' protests on 26 November; a possible push to close phase one around the G20 summit in December.",
+ "next": "Comments on the proposed 25% US tariff by 5 January; farmers' protests on 26 November; a possible push to close phase one around the G20 summit in December.",
  "links": [
+  "us-tariffs-2026",
   "russian-oil",
   "rupee-slide-2026"
  ],
@@ -295,6 +306,42 @@
     {
      "name": "Nocut News",
      "url": "https://en.nocutnews.co.kr/news/6612117"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "trade",
+   "key": true,
+   "link": "us-tariffs-2026",
+   "title": "US proposes a tariff of up to 25% on Indian goods, or 17% with a trade deal",
+   "summary": "The US Trade Representative proposed a Section 301 tariff of up to 25% on Indian goods, after finding that India's excess factory capacity is an unfair practice. USTR says the rate could be cut to 17% if India reaches a reciprocal trade agreement. It counts the 10% duty India already faces since July rather than adding to it, and some goods would be exempt. India is one of 14 economies covered; Vietnam faces up to 35% and the EU, Japan and South Korea 15%. Nothing takes effect yet: comments are due by 5 January and hearings start on 25 January.",
+   "status": "Proposed · USTR",
+   "numbers": [
+    {
+     "k": "Proposed rate",
+     "v": "up to 25%"
+    },
+    {
+     "k": "With a deal",
+     "v": "17%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "USTR",
+     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+     "primary": true
+    },
+    {
+     "name": "Becker's Hospital Review",
+     "url": "https://www.beckershospitalreview.com/legal-regulatory-issues/trump-admin-proposes-new-tariffs-citing-pharma-and-medical-device-sectors-6-notes/"
+    },
+    {
+     "name": "Bombay Samachar (AFP)",
+     "url": "https://english.bombaysamachar.com/international/us-proposes-tariffs-india-china-section-301-excess-capacity/"
     }
    ],
    "added": "2026-11-25"

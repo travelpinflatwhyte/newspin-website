@@ -11,17 +11,17 @@
  "dek": "Three US shutdowns in a year, a stopgap that runs out on 11 December, and a fight over money for the Iran war.",
  "seoTitle": "US government shutdown deadline: 11 Dec timeline",
  "importance": 3,
- "status": "Funded to 11 Dec",
+ "status": "Funded to 11 Dec; no deal yet",
  "tone": "live",
  "big": "11 Dec",
  "delta": "funding runs out",
  "deltaTone": "neutral",
  "bigLabel": "Current US government funding ends at 11:59 pm US Eastern time on 11 December (10:29 am IST on 12 December) unless Congress passes a new law.",
- "updated": "2026-11-22",
+ "updated": "2026-11-25",
  "glance": {
   "what": "Most of the US government is funded by a stopgap law that runs out on 11 December. In the past year the US has had a 43-day full shutdown and a record 76-day shutdown of Homeland Security.",
   "why": "In a shutdown, unfunded agencies stop non-essential work and many federal workers go unpaid, including air traffic controllers and airport screeners, which has meant flight cuts and long security queues before.",
-  "next": "Congress must pass another stopgap or full-year spending bills by 11 December. Some Democrats want limits on Iran war funding; the new Congress meets in January."
+  "next": "Congress must pass another stopgap or full-year spending bills by 11 December, and has left for Thanksgiving with no deal. The White House has sent its requests for the next stopgap, which Punchbowl reports could run to 31 March. Some Democrats want limits on Iran war funding; the new Congress meets in January."
  },
  "keyNumbers": [
   {
@@ -265,6 +265,48 @@
     }
    ],
    "added": "2026-11-22"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "20–23 Nov 2026",
+   "phase": "policy",
+   "title": "Congress leaves for Thanksgiving with no deal; White House sends its list for the next stopgap",
+   "summary": "Congress left for the Thanksgiving break without a funding deal. Of the 12 yearly spending bills, the House has passed three and the Senate none, per The Center Square, and appropriators in both parties expect another short-term stopgap. On 23 November the White House sent Congress its list of 'anomalies', exceptions to a stopgap's freeze on spending, per SpacePolicyOnline. It asks for $5 billion for the Golden Dome missile-defence programme and $2 billion for NASA's Artemis Moon programme, among other items, per SpacePolicyOnline and Breaking Defense. Punchbowl reports the new stopgap would notionally run to 31 March, but the White House list gives no end date, SpacePolicyOnline says. A funding law needs 60 Senate votes, so at least seven Democrats must back it.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Spending bills passed",
+     "v": "House 3 of 12; Senate 0"
+    },
+    {
+     "k": "Golden Dome request",
+     "v": "$5 bn"
+    },
+    {
+     "k": "Artemis request",
+     "v": "$2 bn"
+    }
+   ],
+   "sources": [
+    {
+     "name": "SpacePolicyOnline",
+     "url": "https://spacepolicyonline.com/news/white-house-requests-billions-for-nasa-golden-dome-in-next-cr/",
+     "primary": true
+    },
+    {
+     "name": "Breaking Defense",
+     "url": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+    },
+    {
+     "name": "The Center Square via Just the News",
+     "url": "https://justthenews.com/nation/states/center-square/us-senate-inches-forward-govt-funding-shutdown-deadline-looms"
+    },
+    {
+     "name": "The Harlem Times",
+     "url": "https://theharlemtimes.com/politics/congress-leaves-for-thanksgiving-with-a-dec-11-shutdown-deadline-ahead-and-no-deal-in-hand"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ]
 }

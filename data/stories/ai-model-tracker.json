@@ -12,10 +12,10 @@
  "importance": 4,
  "status": "Updated with each release",
  "tone": "live",
- "big": "42",
+ "big": "43",
  "delta": "releases tracked",
  "bigLabel": "Major model launches from the leading AI companies since January 2025",
- "updated": "2026-11-20",
+ "updated": "2026-11-25",
  "glance": {
   "what": "Since January 2025, the leading labs have released a major model roughly every two weeks. OpenAI moved from GPT-4.5 to GPT-6, Anthropic from Claude 4 to Fable 5.2, Google from Gemini 3 to Gemini 4, Meta from Llama to Muse, and Chinese labs closed much of the gap with open models.",
   "why": "Each release changes which AI tools are best and cheapest for writing, coding, search and work. Launches often land within days of each other as companies compete.",
@@ -967,6 +967,33 @@
    ],
    "link": "google-gemini-2026",
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "ai",
+   "title": "Zhipu: GLM-5.4",
+   "summary": "Zhipu's new flagship runs its layers twice (a \"loop\" design). Zhipu says it matches 2–3 trillion-parameter models from a 750-billion-parameter base, with image input; no benchmark scores yet. In its coding plan and chat app; API and open weights later.",
+   "status": "Released",
+   "numbers": [
+    {
+     "k": "Base model",
+     "v": "750 bn parameters"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+     "primary": true
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/3a5d7399-e85d-4822-b462-c0bf116ec1e6"
+    }
+   ],
+   "link": "china-ai-labs",
+   "added": "2026-11-25"
   }
  ],
  "order": "desc"

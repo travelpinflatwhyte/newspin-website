@@ -543,7 +543,37 @@
     }
    ],
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026 (US time)",
+   "phase": "law",
+   "title": "Former engineer accused of bugging an OpenAI meeting room is freed on bail",
+   "summary": "A federal magistrate judge released a former OpenAI engineer on a $1 million bond before a trial set for January, The Wall Street Journal reported, per Fox Business. He was arrested by the FBI in October and has pleaded not guilty to a charge of illegally recording conversations. Prosecutors allege he hid a recording device in an executive conference room in September. New filings say investigators found hundreds of audio files on his computer, including dozens of recordings of OpenAI meetings that may involve trade secrets and legal advice. His lawyer says he was a curious \"tinkerer\" and that the government's spying claims have collapsed. He has not been charged with espionage. OpenAI said in October it had no sign that its model weights were accessed.",
+   "status": "Allegation · US prosecutors; Filed · not ruled on",
+   "numbers": [
+    {
+     "k": "Bond",
+     "v": "$1 million"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Fox Business",
+     "url": "https://www.foxbusiness.com/fox-news-tech/saudi-national-accused-bugging-openai-executive-conference-room-freed-1m-bond-report",
+     "primary": true
+    },
+    {
+     "name": "Gizmodo",
+     "url": "https://gizmodo.com/the-accused-openai-bug-allegedly-captured-trade-secrets-2000844472"
+    },
+    {
+     "name": "CBS News (October arrest)",
+     "url": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }

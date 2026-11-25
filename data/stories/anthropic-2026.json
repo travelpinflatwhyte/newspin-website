@@ -7,30 +7,25 @@
     "US"
   ],
   "title": "Anthropic: every Claude model and the road to an IPO",
-  "dek": "From Claude 4 to the Mythos-class models, a pause under US export controls, and a Nasdaq listing set for next week.",
+  "dek": "From Claude 4 to the Mythos-class models, a pause under US export controls, and a Nasdaq listing on 19 November 2026.",
   "seoTitle": "Anthropic timeline 2025–2026: Claude models, IPO",
   "importance": 4,
   "status": "Listed on Nasdaq as ANT",
   "tone": "hot",
-  "big": "≈ $89",
-  "delta": "▲ ≈ 7% vs $83 IPO price",
-  "bigLabel": "Anthropic's closing share price on 20 Nov (US time), its second day of trading: $88.91 per Yahoo Finance and CappNotes, $88.30 per 24/7 Wall St",
+  "big": "≈ $82",
+  "delta": "▼ ≈ 1% below $83 IPO price",
+  "bigLabel": "Anthropic's closing share price on 24 Nov (US time), its fourth day of trading: $81.91 per BigGo Finance, $81.90 per Newscord; first close below the IPO price",
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17, fell to about $88–89 on the second day and slipped again on 23 November, still above the $83 IPO price. A readable write-up of the Riemann proof is in draft; its key step has not yet been written out. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17 and on 24 November fell below the $83 IPO price for the first time, to about $81.90. Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
-      "label": "Close, 20 Nov",
-      "value": "≈ $89",
-      "note": "$88.91 or $88.30; IPO price $83",
+      "label": "Close, 24 Nov",
+      "value": "≈ $81.90",
+      "note": "−6.5%; IPO price $83",
       "hot": true
-    },
-    {
-      "label": "23 Nov",
-      "value": "−1.43%",
-      "note": "per CNBC; above IPO price"
     },
     {
       "label": "First-day close",
@@ -50,7 +45,7 @@
   ],
   "forYou": "Anthropic's most capable model, Claude Fable, is public. A version with fewer safety limits, Claude Mythos, is available only to approved organisations working in cybersecurity and life sciences.",
   "upcoming": [],
-  "next": "How the shares trade in the coming weeks; Anthropic's first filings as a listed company; a human-readable write-up and review of the Riemann proof.",
+  "next": "How the shares trade in the coming weeks; Anthropic's first filings as a listed company; human review of the Riemann and VP ≠ VNP proofs.",
   "links": [
     "ai-model-tracker",
     "openai-2026",
@@ -711,7 +706,81 @@
         }
       ],
       "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "tech",
+      "title": "Anthropic posts a Claude-written proof of a 1979 maths conjecture; no human has checked it yet",
+      "summary": "Anthropic published a 70-page paper, \"VP ≠ VNP over every field\", credited to Claude, with a computer-checkable version in the Lean language, in its public formal-math repository. It claims to settle Valiant's 1979 conjecture: that some maths formulas (such as the \"permanent\" of a grid of numbers) cannot be worked out with small arithmetic circuits, unlike the related \"determinant\". Anthropic says an internal research model found the result. The computer check passed, but the repository warns that no machine checks whether the formal statement says what is claimed, and Anthropic says no human mathematician has verified it. The paper says it does not solve the better-known P vs NP problem. Complexity researcher Lance Fortnow called it \"likely correct\" after a first look, not a full check.",
+      "status": "Stated · Anthropic; not yet verified",
+      "numbers": [
+        {
+          "k": "Paper length",
+          "v": "70 pages"
+        },
+        {
+          "k": "Lean code",
+          "v": "72,932 lines (DataCamp)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+          "primary": true
+        },
+        {
+          "name": "DataCamp",
+          "url": "https://www.datacamp.com/blog/claude-claims-proof-of-valiants-conjecture-vp-vs-vnp"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Shares close below the $83 IPO price for the first time",
+      "summary": "Anthropic shares fell about 6.5% on Tuesday, its fourth day of trading, to close at about $81.90, below the $83 IPO price. They touched $75.61 during the day. AI and chip shares fell broadly as Nvidia gave back part of Monday's rally. A filing showed CEO Dario Amodei and President Daniela Amodei each sold 3,378,378 shares, worth about $280 million, at the IPO price; this was a planned sale to the underwriters as part of the offering, not a sale on the market. Analysts at Canaccord Genuity, Wedbush and Oppenheimer started covering the shares with buy-type ratings.",
+      "status": "Market data; Confirmed · SEC Form 4 filings (via TheStreet)",
+      "numbers": [
+        {
+          "k": "Close, 24 Nov",
+          "v": "≈ $81.90"
+        },
+        {
+          "k": "Change",
+          "v": "≈ −6.5%"
+        },
+        {
+          "k": "Day's low",
+          "v": "$75.61"
+        }
+      ],
+      "differs": "Closing price: $81.91 per BigGo Finance, $81.90 per Newscord's round-up.",
+      "sources": [
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/efa4550f-327b-4612-b151-77555e7d62dd",
+          "primary": true
+        },
+        {
+          "name": "Newscord (round-up of 10 outlets)",
+          "url": "https://newscord.org/article/anthropic-shares-fall-below-83-ipo-price-after-nasdaq-slumps--Story_20261124_Anthropicsharesfallbd7164c02"
+        },
+        {
+          "name": "TheStreet via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-falls-below-ipo-203714977.html"
+        },
+        {
+          "name": "Political.org",
+          "url": "https://political.org/2026/11/24/anthropic-shares-fall-below-83-ipo-price-after-record-nasdaq-debut/"
+        }
+      ],
+      "link": "us-markets-daily",
+      "added": "2026-11-25"
     }
   ],
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 }

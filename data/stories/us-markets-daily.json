@@ -10,48 +10,54 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Biggest rally since April 2025",
+  "status": "Nasdaq falls as Nvidia rally fades",
   "tone": "live",
-  "big": "7,237.17",
-  "delta": "▲ 4.73%",
-  "bigLabel": "S&P 500 close on Monday 23 Nov (US time), its best day since April 2025",
-  "updated": "2026-11-24",
+  "big": "7,201.09",
+  "delta": "▼ 0.50%",
+  "bigLabel": "S&P 500 close on Tuesday 24 Nov (US time)",
+  "updated": "2026-11-25",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 rose 4.73% on Monday 23 November, ending a seven-day losing run, after Nvidia reinstated Jensen Huang as CEO. The Dow rose 3.01% and the Nasdaq 6.51%. Nvidia shares rose about 31%. The previous week the S&P 500 fell 8.6%, per CappNotes, and entered a correction (a fall of 10% or more from a peak).",
-    "why": "A sell-off in AI and chip shares, led by Nvidia, and expectations of a Fed rate rise in December drove the fall; Huang's return set off Monday's rebound. Big US moves often set the tone for Indian markets the next trading day.",
-    "next": "Indian markets are closed on 24 November for Guru Nanak Jayanti. The Fed's next meeting is in December."
+    "what": "The S&P 500 fell 0.50% to 7,201.09 on Tuesday 24 November and the Nasdaq fell 1.48%, as chip and AI shares gave back part of Monday's rally. The Dow rose 0.85% to 50,018.70, helped by retailers and stronger consumer confidence. On Monday the S&P 500 had jumped 4.73% after Nvidia reinstated Jensen Huang as CEO.",
+    "why": "Doubts about AI spending, reports of new US tariffs and expectations of a Fed rate rise in December are weighing on tech shares. Big US moves often set the tone for Indian markets the next trading day.",
+    "next": "The PCE inflation report is due on 25 November (US time), the last major data release before the Fed's December meeting, per Reuters."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 23 Nov",
-      "value": "7,237.17",
-      "note": "+4.73%",
+      "label": "S&P 500, 24 Nov",
+      "value": "7,201.09",
+      "note": "−0.50%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "49,595.31",
-      "note": "+3.01%"
+      "value": "50,018.70",
+      "note": "+0.85%"
     },
     {
       "label": "Nasdaq",
-      "value": "24,089.56",
-      "note": "+6.51%"
+      "value": "23,733.54",
+      "note": "−1.48%"
     },
     {
-      "label": "Nvidia, 23 Nov",
-      "value": "≈ +31%",
-      "note": "best day since 2003"
+      "label": "Nvidia, 24 Nov",
+      "value": "$155.38",
+      "note": "−5.86% (Reuters)"
     }
   ],
   "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
-  "upcoming": [],
-  "next": "Tuesday's session (24 November, US time), and whether the Fed raises rates at its December meeting.",
+  "upcoming": [
+    {
+      "date": "2026-11-25",
+      "label": "25 Nov",
+      "text": "US PCE inflation report"
+    }
+  ],
+  "next": "Wednesday's session (25 November, US time), the PCE inflation report, and whether the Fed raises rates at its December meeting.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -544,6 +550,62 @@
       ],
       "link": "nvidia-huang-investigation",
       "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "market",
+      "title": "Nasdaq falls 1.5% as the Nvidia rally fades; Dow rises 0.9% and closes above 50,000",
+      "summary": "The S&P 500 fell 0.50% to 7,201.09 and the Nasdaq 1.48% to 23,733.54, per AP (via La Nación) and BigGo Finance. The Dow rose 0.85% to 50,018.70. Chip and AI shares gave back part of Monday's rally. Nvidia fell 5.86% to $155.38, per Reuters data via MarketScreener, and the Philadelphia chip index fell 7.88%, per BigGo Finance. One analyst told Reuters that \"one headline doesn't really resolve investor questions about the AI trade.\" Reports that the US may soon raise tariffs on China and other trading partners also weighed on shares, per TipRanks and Reuters. Retailers rose after strong results: Dollar Tree gained about 11%. A Conference Board survey showed consumer confidence rose to 103.3 in November, above the 92.5 economists expected, which helped the Dow. Anthropic shares fell below their $83 IPO price; TipRanks puts the day's fall at 8%. Traders expect the Fed to raise rates by 0.25 percentage points in December, per the CME FedWatch tool. Exact opening levels were not given, so this day has no gap figure; at 10:05 am the S&P 500 was down 0.5% after falling as much as 1.4%, per AP.",
+      "status": "Market data · AP, BigGo Finance, Reuters",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "7,201.09 (−36.08, −0.50%)"
+        },
+        {
+          "k": "Dow",
+          "v": "50,018.70 (+423.39, +0.85%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "23,733.54 (−356.02, −1.48%)"
+        },
+        {
+          "k": "Nvidia",
+          "v": "$155.38 (−5.86%)"
+        }
+      ],
+      "differs": "Reuters' preliminary figures were slightly different: S&P 500 7,202.45 (−0.48%), Dow 50,028.79 (+433.48), Nasdaq 23,740.52 (−1.45%). Investrade gives the Dow's rise as 426.60 points and TipRanks as 398 points; the figures above match the closing levels. TipRanks puts Nvidia's fall at 8% rather than 5.86%.",
+      "sources": [
+        {
+          "name": "AP via La Nación",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11242026-nid24112026/",
+          "primary": true
+        },
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/121dd3a8-78d4-4f3f-9621-75fe3eb1e301"
+        },
+        {
+          "name": "Reuters via MarketScreener",
+          "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://tipranks.com/news/u-s-stocks-post-mixed-results-as-nvidia-rally-fades?amp="
+        },
+        {
+          "name": "Investrade",
+          "url": "https://investrade.com/market-review-november-24-2026/"
+        },
+        {
+          "name": "AP via BNN Bloomberg (10:05 am)",
+          "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-25"
     }
   ]
 }

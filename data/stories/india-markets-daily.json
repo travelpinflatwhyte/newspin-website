@@ -14,7 +14,7 @@
  "big": "25,349.65",
  "delta": "▼ 450.95 (1.75%)",
  "bigLabel": "Nifty 50 close on 23 Nov",
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "market": {
   "index": "Nifty 50",
   "second": "Sensex",
@@ -23,7 +23,7 @@
  "glance": {
   "what": "The Nifty 50 closed at 25,349.65 on 23 November, down 1.75%, after opening higher. The Sensex fell 1,483.72 points to 82,435.99.",
   "why": "Reporters blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and points to swings before the monthly derivatives expiry. IT shares rose.",
-  "next": "Markets are shut on 24 November for Guru Nanak Jayanti, per Kotak Neo; trading resumes on 25 November. The RBI's next policy meeting runs 2 to 4 December."
+  "next": "Trading resumes on 25 November after the Guru Nanak Jayanti holiday on 24 November, per Angel One. The RBI's next policy meeting runs 2 to 4 December."
  },
  "keyNumbers": [
   {
@@ -50,12 +50,6 @@
  ],
  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
  "upcoming": [
-  {
-   "date": "2026-11-24",
-   "label": "24 Nov",
-   "text": "Markets closed for Guru Nanak Jayanti",
-   "minor": true
-  },
   {
    "date": "2026-12-02",
    "label": "2–4 Dec",

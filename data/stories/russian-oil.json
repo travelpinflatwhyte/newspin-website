@@ -16,11 +16,11 @@
  "big": "2.1 vs 1.8",
  "delta": "mbpd, Gulf vs Russia",
  "bigLabel": "India's crude imports so far in November: Persian Gulf vs Russia, per Kpler",
- "updated": "2026-11-20",
+ "updated": "2026-11-25",
  "glance": {
   "what": "Russian crude filled the gap when Hormuz was disrupted. In October the US waived its threatened tariffs on big buyers of Russian oil, and in November India's imports from the Gulf overtook Russia's for the first time since the Iran war began.",
   "why": "Cheap Russian oil cushions India's import bill; being punished for it would raise costs and strain relations with the US.",
-  "next": "The waiver is temporary. Whether Russian crude stays competitive as Gulf supplies recover."
+  "next": "The US waiver is temporary. India is on course for record Russian oil imports in 2026, Reuters reports, but refiners expect to buy less in 2027 if Gulf supplies return to normal."
  },
  "keyNumbers": [
   {
@@ -40,14 +40,14 @@
    "note": "16 Oct order"
   },
   {
-   "label": "Russian crude, Sep",
-   "value": "1.9 mbpd",
-   "note": "over 35% of imports"
+   "label": "Russian crude, 2026",
+   "value": "1.99 mbpd",
+   "note": "to early Nov, Kpler"
   }
  ],
  "forYou": "This story decides how much India pays for oil and how exposed exporters are to US penalties.",
  "upcoming": [],
- "next": "Whether the US restores the tariff threat, and how much Russian crude India keeps buying.",
+ "next": "Whether the US restores the tariff threat, and how fast India's Russian purchases fall as Gulf supplies recover.",
  "links": [
   "india-us-trade-deal",
   "west-asia-oil"
@@ -221,6 +221,36 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026",
+   "phase": "trade",
+   "title": "India on course for record Russian oil imports in 2026, but refiners expect less next year",
+   "summary": "India imported an average of 1.99 million barrels a day of Russian crude this year up to early November, about 250,000 more than a year earlier, according to Kpler data cited by Reuters. Trade sources told Reuters that Russian oil made up about 38% of India's imports from January to October. Refiners expect a full-year average of about 1.9 million barrels a day. India and China together are buying more than 80% of Russia's crude exports, two industry sources said. Indian refiners told Reuters their purchases are likely to fall back to pre-Iran-war levels in 2027 if Gulf supplies return to normal, with price deciding how much they buy.",
+   "status": "Market data · Kpler, trade sources (via Reuters)",
+   "numbers": [
+    {
+     "k": "Russian crude to India, 2026 to early Nov",
+     "v": "1.99 mbpd (Kpler)"
+    },
+    {
+     "k": "Share of India's imports, Jan–Oct",
+     "v": "≈ 38%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (Reuters)",
+     "url": "https://business-standard.com/economy/news/china-india-set-for-record-russian-oil-imports-in-2026-amid-iran-war-126112400502_1.html",
+     "primary": true
+    },
+    {
+     "name": "UNITED24 Media",
+     "url": "https://united24media.com/world/russia-sends-record-oil-volumes-to-china-and-india-but-demand-may-have-peaked-24681"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ]
 }

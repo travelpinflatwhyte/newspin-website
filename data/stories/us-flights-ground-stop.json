@@ -16,11 +16,11 @@
   "big": "10,000+",
   "delta": "flights disrupted",
   "bigLabel": "Flights delayed or cancelled during Friday's nationwide ground stop, per CNBC. Counts differ between flight trackers and keep changing.",
-  "updated": "2026-11-22",
+  "updated": "2026-11-25",
   "glance": {
     "what": "On Friday afternoon US time (early Saturday in India), the Federal Aviation Administration (FAA), which runs US air traffic control, stopped every flight from taking off at US airports after a communications failure hit several of its air traffic control centres. The stop was lifted about four hours later.",
     "why": "It was only the second nationwide ground stop since the 11 September 2001 attacks, and thousands of flights were cancelled. Planes and crews ended up in the wrong places, so delays and cancellations are expected through the weekend.",
-    "next": "Flights are back to normal. The root cause is still not known: the FAA has paused installing the router model involved, the FBI has been asked to help, and officials and the router's maker disagree over whether the equipment or its set-up was at fault. Duffy wants Congress to approve $50 billion to replace old equipment."
+    "next": "Flights are back to normal. The root cause is still not known: the FAA has paused installing the router model involved, and officials and the router's maker disagree over whether the equipment or its set-up was at fault. FAA chief Bryan Bedford faces a House panel on 1 December, and Transportation Secretary Sean Duffy a Senate subcommittee on 2 December, where his $50 billion funding request will be questioned."
   },
   "keyNumbers": [
     {
@@ -55,8 +55,19 @@
     }
   ],
   "forYou": "Flying to, from or within the US this weekend? Check your flight status with the airline before leaving for the airport. Delta and United are letting affected passengers change flights without a fee. Under US Transportation Department rules, if your flight is cancelled and you do not accept another flight, you are entitled to a refund.",
-  "upcoming": [],
-  "next": "Whether US schedules are fully normal on Monday; Duffy's $50 billion funding request to Congress; the search for the root cause; reviews in Congress.",
+  "upcoming": [
+    {
+      "date": "2026-12-01",
+      "label": "1 Dec",
+      "text": "FAA Administrator Bryan Bedford before a House panel"
+    },
+    {
+      "date": "2026-12-02",
+      "label": "2 Dec",
+      "text": "Senate Commerce aviation subcommittee questions Duffy on the $50 billion request"
+    }
+  ],
+  "next": "Congressional hearings: Bedford on 1 December, Duffy on 2 December; the search for the root cause; Duffy's $50 billion funding request.",
   "links": [
     "microsoft-365-outage",
     "india-flying-winter-2026"
@@ -545,6 +556,37 @@
         }
       ],
       "added": "2026-11-22"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "policy",
+      "title": "Duffy and FAA chief to face Congress over the ground stop",
+      "summary": "Transportation Secretary Sean Duffy will testify next week before a Senate subcommittee about the 13 November ground stop (14 November in India), Reuters reports. FAA Administrator Bryan Bedford goes before a House panel on 1 December. On 2 December a Senate Commerce aviation subcommittee will question Duffy about his request for $50 billion to modernise air traffic control and airports. Reuters says the outage led to more than 18,000 cancelled flights and disrupted travel for 1.5 million people. Some Republicans think Congress may approve as little as $10 billion. Senator Jerry Moran said the $50 billion figure \"appeared to come out of the blue\". The hearings come in Thanksgiving week, which the FAA expects to be its busiest in years.",
+      "status": "Reported · Reuters",
+      "numbers": [
+        {
+          "k": "Cancelled flights, all days",
+          "v": "18,000+ (Reuters)"
+        },
+        {
+          "k": "Funding asked",
+          "v": "$50 bn"
+        }
+      ],
+      "differs": "Reuters describes the stop as nearly five hours; FAA times in this timeline give about 4 hours 20 minutes.",
+      "sources": [
+        {
+          "name": "Reuters (via Yahoo News)",
+          "url": "https://www.yahoo.com/news/us/articles/us-transportation-secretary-testify-congress-163106735.html",
+          "primary": true
+        },
+        {
+          "name": "Reuters (via 104.9 The Wolf)",
+          "url": "https://www.1049thewolf.com/2026/11/24/us-transportation-secretary-to-testify-before-congress-on-air-traffic-outage/"
+        }
+      ],
+      "added": "2026-11-25"
     }
   ]
 }

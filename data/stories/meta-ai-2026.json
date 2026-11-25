@@ -279,7 +279,28 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-22",
+   "dateLabel": "22 Nov 2026",
+   "phase": "policy",
+   "title": "Meta's AI chief says 'superintelligence is arriving'",
+   "summary": "Alexandr Wang, Meta's chief AI officer, wrote on X that \"superintelligence is arriving\", pointing to the Claude-assisted Riemann proof. He said he doubts people could control AI that keeps improving itself, called for urgent work on safety, alignment and security, and said \"how humanity acts over the next year will have great consequence\". He urged the industry to change course. The tone differs from Mark Zuckerberg, who has rejected calls for a coordinated slowdown, Al Jazeera notes. Meta has not announced any change in policy.",
+   "status": "Stated · Alexandr Wang",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/metas-ai-chief-says-superintelligence-is-arriving-and-control-is-at-risk"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-25"
 }

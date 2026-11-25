@@ -338,7 +338,28 @@
     }
    ],
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "tech",
+   "title": "NYT: Musk told staff to 'sell compute because we can't compete'",
+   "summary": "The New York Times reports that in August Elon Musk renamed a SpaceX AI group chat of hundreds of engineers \"Sell compute because we can't compete\", and warned that anyone \"wasting GPUs\" while the company was \"failing to compete\" would be asked to leave. Musk told staff that renting out its Colossus computers to rivals had become more lucrative than using them for SpaceX's own AI products, per the Times. It reports that Anthropic is now SpaceX's biggest customer, Google is also a client, and the AI unit accounts for more than half of SpaceX's revenue. SpaceX did not comment, per Forbes.",
+   "status": "Reported · The New York Times",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Forbes via Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/musk-warned-spacex-employees-company-212743091.html",
+     "primary": true
+    },
+    {
+     "name": "OfficeChai",
+     "url": "https://officechai.com/ai/elon-musk-renamed-a-spacexai-group-chat-to-sell-compute-because-we-cant-compete-as-his-company-fell-behind-the-ai-model-frontier/"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }

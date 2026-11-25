@@ -10,13 +10,13 @@
  "dek": "Cheap, open models from DeepSeek, Alibaba, Moonshot and Zhipu closed much of the gap with US labs, and sparked accusations of copying.",
  "seoTitle": "Chinese AI models 2025–2026: DeepSeek V4, Qwen, Kimi",
  "importance": 3,
- "status": "Qwen4-Max released",
+ "status": "GLM-5.4 released",
  "tone": "live",
  "big": "6",
  "delta": "releases in ~2 months",
  "bigLabel": "Near-frontier releases from five Chinese firms between June and August 2026, per State Street Global Advisors",
  "glance": {
-  "what": "DeepSeek's R1 shook the industry in January 2025. In 2026 Chinese labs released a wave of large open-weight models, including DeepSeek V4, Moonshot's Kimi K3, Alibaba's Qwen3.8-Max and Zhipu's GLM-5.2, often far cheaper than US rivals.",
+  "what": "DeepSeek's R1 shook the industry in January 2025. In 2026 Chinese labs released a wave of large open-weight models, including DeepSeek V4, Moonshot's Kimi K3, Alibaba's Qwen3.8-Max and Zhipu's GLM-5.2, often far cheaper than US rivals. In November Alibaba released Qwen4-Max and Zhipu GLM-5.4.",
   "why": "Open, cheap models let anyone build AI products without paying US companies, and they sit at the centre of the US–China technology contest.",
   "next": "Alibaba plans open versions of smaller Qwen4 models, and DeepSeek has confirmed a V4.1 Pro; neither has a date."
  },
@@ -346,7 +346,61 @@
     }
    ],
    "added": "2026-11-21"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "ai",
+   "title": "Zhipu releases GLM-5.4, built by running its layers twice",
+   "summary": "Zhipu (Z.ai) released GLM-5.4, its new flagship. Instead of adding layers, it runs 28 layers of its GLM-5 base model twice, a \"loop\" design meant to improve reasoning without more parameters. Zhipu says it matches models of 2 to 3 trillion parameters, from a 750-billion-parameter base; it has not yet published benchmark scores. It adds image understanding and, per TechNode, a one-million-token context window. It is available in Zhipu's coding plan and chat app. The API and open weights will follow safety checks, with no date.",
+   "status": "Released · Zhipu",
+   "numbers": [
+    {
+     "k": "Base model",
+     "v": "750 bn parameters"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+     "primary": true
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/3a5d7399-e85d-4822-b462-c0bf116ec1e6"
+    }
+   ],
+   "link": "ai-model-tracker",
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026 (US time)",
+   "phase": "trade",
+   "title": "US blacklists an Alibaba unit and Megaspeed over chip diversion",
+   "summary": "The US Commerce Department put seven companies on its Entity List, including Megaspeed of Singapore and Apex Enterprise Solutions, Alibaba's Singapore unit. US firms now need a licence, normally refused, to sell them chips and other technology. Commerce says they pose a \"significant risk\" of passing advanced computing items to unauthorised users. Alibaba called the listing \"erroneous\", said the unit \"has never diverted\" restricted chips and plans legal action. Beijing called US claims of a Chinese intelligence operation \"groundless speculation\".",
+   "status": "Confirmed · US Commerce Department, via reports",
+   "numbers": [
+    {
+     "k": "Companies added",
+     "v": "7"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ShiftDelete.Net",
+     "url": "https://shiftdelete.net/en/us-entity-list-megaspeed-alibaba-apex-nvidia",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/us-blacklists-megaspeed-nvidia-scandal"
+    }
+   ],
+   "link": "nvidia-huang-investigation",
+   "added": "2026-11-25"
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-25"
 }

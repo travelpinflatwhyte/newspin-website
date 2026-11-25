@@ -15,11 +15,11 @@
  "big": "10%",
  "delta": "deal unsigned",
  "bigLabel": "US duty on most Indian goods since 24 Jul",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "glance": {
   "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
   "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
-  "next": "Signing waits on Washington's new tariff rules and pending Section 301 investigations, per the Commerce Secretary. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida next month."
+  "next": "Signing waits on Washington's new tariff rules and pending Section 301 investigations, per the Commerce Secretary. The Wall Street Journal reports the US may announce tariffs from one of those probes as early as this week, possibly with higher duties for India. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
  },
  "keyNumbers": [
   {
@@ -57,7 +57,7 @@
    "text": "G20 summit in Florida, a possible target for phase one"
   }
  ],
- "next": "Signing waits on the new US tariff structure; a possible push to close phase one around the G20 summit in December.",
+ "next": "US findings on its excess-capacity probe, reported as possible this week; farmers' protests on 26 November; a possible push to close phase one around the G20 summit in December.",
  "links": [
   "russian-oil",
   "rupee-slide-2026"
@@ -264,6 +264,40 @@
     }
    ],
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026",
+   "phase": "trade",
+   "title": "Report: US may raise tariffs on India and others as soon as this week",
+   "summary": "The US may announce new tariffs on China, India and other countries as early as this week, the Wall Street Journal reported, according to PTI and IBTimes. They would follow a probe the US Trade Representative opened in March into 16 economies. It looks at whether government subsidies helped firms make far more than they can sell, flooding world markets with cheap goods. IBTimes, citing the Journal, says India and Vietnam could face higher duties, while Japan, South Korea and the EU could stay at 15% or less under their trade deals. No rates have been set, and the timing could change. It is one of the pending 'Section 301' probes that India's Commerce Secretary said must be settled before the deal can be signed. No Indian government response was reported. For exporters, a higher US duty would make Indian goods dearer in their biggest market.",
+   "status": "Reported · Wall Street Journal (via PTI, IBTimes); not announced",
+   "numbers": [
+    {
+     "k": "Economies in the probe",
+     "v": "16"
+    },
+    {
+     "k": "New rates",
+     "v": "Not set"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard (PTI)",
+     "url": "https://www.business-standard.com/world-news/us-planning-to-hike-tariffs-against-india-15-other-countries-report-126112401230_1.html",
+     "primary": true
+    },
+    {
+     "name": "IBTimes",
+     "url": "https://www.ibtimes.com/trump-tariffs-china-foreign-industrial-subsidies-3810130"
+    },
+    {
+     "name": "Nocut News",
+     "url": "https://en.nocutnews.co.kr/news/6612117"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ]
 }

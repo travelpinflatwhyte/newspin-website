@@ -1,0 +1,286 @@
+{
+ "slug": "ebola-outbreak-2026",
+ "short": "Ebola",
+ "category": "World",
+ "regions": [
+  "World"
+ ],
+ "title": "Ebola in Congo: the 2026 outbreak",
+ "dek": "An Ebola strain with no approved vaccine has spread across eastern Congo and into four other countries, and fighting is slowing the response.",
+ "seoTitle": "Ebola outbreak in Congo 2026: timeline",
+ "importance": 4,
+ "status": "Fighting disrupts the response",
+ "tone": "live",
+ "big": "11,645",
+ "delta": "confirmed cases, 17 Nov",
+ "deltaTone": "bad",
+ "bigLabel": "Confirmed Ebola cases as of 17 November, per the US CDC, with 5,683 deaths. Counts may change.",
+ "updated": "2026-11-25",
+ "glance": {
+  "what": "An outbreak of the Bundibugyo strain of Ebola, declared in May, has infected 11,645 confirmed people and killed 5,683 as of 17 November, per the US CDC. Almost all cases are in the Democratic Republic of the Congo, across 8 of its 26 provinces. Uganda, Kenya, Nigeria and France have also had cases. WHO has declared it a global health emergency.",
+  "why": "Ebola spreads through contact with an infected person's body fluids and often kills. This strain has no approved vaccine or treatment. Fighting by armed groups in eastern Congo is hampering health workers, and travellers have carried the virus to other countries, which has led to airport screening and travel rules.",
+  "next": "WHO and ECDC publish regular updates on case numbers. The US rule that air passengers sign they have not been in Congo runs to 18 December unless changed."
+ },
+ "keyNumbers": [
+  {
+   "label": "Confirmed cases, 17 Nov",
+   "value": "11,645",
+   "note": "US CDC",
+   "hot": true
+  },
+  {
+   "label": "Deaths",
+   "value": "5,683",
+   "note": "US CDC"
+  },
+  {
+   "label": "Congo provinces affected",
+   "value": "8 of 26"
+  },
+  {
+   "label": "Children's share of deaths",
+   "value": "35%",
+   "note": "UNICEF"
+  }
+ ],
+ "forYou": "The risk to people in India is low. India screens arrivals from Congo, Uganda and South Sudan and advises against non-essential travel there. Anyone flying to the US must sign that they have not been in Congo in the past 21 days.",
+ "upcoming": [
+  {
+   "date": "2026-12-18",
+   "label": "18 Dec",
+   "text": "US rule on air passengers who have been in Congo is due to end unless extended"
+  }
+ ],
+ "next": "Whether fighting in Ituri eases, the next case counts, and whether the US extends its travel rule beyond 18 December.",
+ "links": [],
+ "events": [
+  {
+   "date": "2026-05-17",
+   "dateLabel": "17 May 2026",
+   "phase": "world",
+   "key": true,
+   "title": "WHO declares the Ebola outbreak in Congo and Uganda a global health emergency",
+   "summary": "The World Health Organization declared an outbreak of Ebola in the Democratic Republic of the Congo (DRC) and Uganda a public health emergency of international concern, its highest alarm. The outbreak is caused by the Bundibugyo strain, for which there is no approved vaccine or treatment. WHO said it was not a pandemic emergency and advised countries not to close borders. As of 16 May there were 8 laboratory-confirmed cases, 246 suspected cases and 80 suspected deaths in Congo's Ituri province, and 2 confirmed cases in Uganda among travellers from Congo, one of whom died.",
+   "status": "Confirmed · WHO",
+   "numbers": [
+    {
+     "k": "Confirmed cases, 16 May",
+     "v": "8 in DRC, 2 in Uganda"
+    },
+    {
+     "k": "Suspected deaths, DRC",
+     "v": "80"
+    }
+   ],
+   "differs": "AP put the early toll at more than 300 suspected cases and 88 deaths; WHO's figures as of 16 May were 246 suspected cases and 80 suspected deaths.",
+   "sources": [
+    {
+     "name": "WHO",
+     "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+     "primary": true
+    },
+    {
+     "name": "PBS NewsHour (AP)",
+     "url": "https://pbs.org/newshour/world/who-declares-ebola-outbreak-in-congo-and-uganda-a-global-health-emergency"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-05-23",
+   "dateLabel": "21–23 May 2026",
+   "phase": "policy",
+   "title": "India screens arrivals and advises against non-essential travel to Congo, Uganda and South Sudan",
+   "summary": "India's health services directorate issued an advisory, displayed at Delhi airport, for passengers arriving from the DRC, Uganda and South Sudan. They must report any symptoms before immigration, and anyone who falls ill within 21 days of arriving should seek care. On 23 May the Union health ministry advised Indians to avoid non-essential travel to the three countries.",
+   "status": "Confirmed · Union health ministry",
+   "sources": [
+    {
+     "name": "ThePrint",
+     "url": "https://theprint.in/india/india-issues-ebola-advisory-for-passengers-arriving-from-high-risk-african-nations/2937292/",
+     "primary": true
+    },
+    {
+     "name": "Scroll",
+     "url": "https://scroll.in/latest/1093058/scroll_in"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-08-27",
+   "dateLabel": "27 Aug 2026",
+   "phase": "policy",
+   "title": "Congo starts vaccinating health workers with a vaccine made for a different Ebola strain",
+   "summary": "Congo began vaccinating health workers in Kisangani with Ervebo, a vaccine approved only for the Zaire strain of Ebola, not Bundibugyo. It is being given under compassionate use, meaning it is untested against this strain. WHO approved 70,000 doses: about 50,000 for front-line workers and about 20,000 for a trial. The government count at the time was 5,713 confirmed cases and 2,744 deaths.",
+   "status": "Confirmed · DRC health ministry",
+   "numbers": [
+    {
+     "k": "Doses approved",
+     "v": "70,000"
+    },
+    {
+     "k": "Confirmed cases",
+     "v": "5,713"
+    },
+    {
+     "k": "Deaths",
+     "v": "2,744"
+    }
+   ],
+   "sources": [
+    {
+     "name": "PBS NewsHour (AP)",
+     "url": "https://pbs.org/newshour/health/congo-begins-ebola-vaccinations-to-fight-countrys-worst-outbreak-in-history-health-minister-says",
+     "primary": true
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/health/2026/08/28/congo-begins-ebola-vaccinations-against-worlds-fastest-growing-outbreak"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-10-06",
+   "dateLabel": "6 Oct 2026",
+   "phase": "world",
+   "title": "Kenya confirms its first case after a patient from Congo dies in Nairobi",
+   "summary": "Kenya's health ministry confirmed the country's first Ebola case. The patient, a Kenyan man who had lived in Congo, travelled by road to Uganda and flew to Nairobi on 3 October, where he died. Officials identified 28 contacts. Congo had passed 8,300 confirmed cases and 4,000 deaths, per Al Jazeera.",
+   "status": "Confirmed · Kenya health ministry",
+   "numbers": [
+    {
+     "k": "Contacts traced",
+     "v": "28"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+     "primary": true
+    },
+    {
+     "name": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/africa/kenya-reports-1st-ebola-case-as-patient-dies-after-arriving-from-dr-congo/4079447"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-10-20",
+   "dateLabel": "20 Oct 2026",
+   "phase": "world",
+   "key": true,
+   "title": "Nigeria confirms a case in Abuja, the first in West Africa",
+   "summary": "Nigeria's health ministry confirmed an Ebola case in Abuja in a woman who had arrived from Uganda. It was the outbreak's first spread to West Africa. Officials were tracing 44 contacts. AP put the outbreak at more than 9,000 infections and more than 4,300 deaths.",
+   "status": "Confirmed · Nigeria health ministry",
+   "numbers": [
+    {
+     "k": "Contacts traced",
+     "v": "44"
+    }
+   ],
+   "sources": [
+    {
+     "name": "OPB (AP/NPR)",
+     "url": "https://www.opb.org/article/2026/10/20/nigeria-confirms-first-ebola-case-in-woman-traveling-from-uganda/",
+     "primary": true
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-03",
+   "dateLabel": "3 Nov 2026",
+   "phase": "policy",
+   "title": "US makes every air passenger sign that they have not been in Congo",
+   "summary": "A US CDC order took effect at 11:59 pm Eastern time. Every passenger flying to the US, from any country, must sign a statement that they have not been in the DRC in the previous 21 days. Airlines must refuse boarding to anyone who does not sign. The order runs to 18 December unless it is changed.",
+   "status": "Confirmed · US CDC",
+   "sources": [
+    {
+     "name": "BusinessDay (Reuters)",
+     "url": "https://www.businessday.co.za/world/americas/2026-10-23-us-tightens-ebola-screening-for-all-air-travellers/",
+     "primary": true
+    },
+    {
+     "name": "Newsweek",
+     "url": "https://newsweek.com/new-ebola-travel-rule-kicks-in-for-all-passengers-heading-to-us-12661056"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-17",
+   "dateLabel": "15–17 Nov 2026",
+   "phase": "data",
+   "title": "Outbreak passes 11,600 confirmed cases and 5,600 deaths across eight Congo provinces",
+   "summary": "As of 17 November the US CDC counted 11,645 confirmed cases and 5,683 deaths, of which 11,613 cases and 5,678 deaths were in Congo. Europe's disease agency ECDC, citing Congo's health institute, said the outbreak covers 68 of 178 health zones in 8 provinces. UNICEF says children are 28% of cases and 35% of deaths. Cases have also been confirmed in Uganda (where the outbreak was declared over), Kenya, Nigeria and France. Suspected cases in Congo are temporarily left out of the count while data are standardised, so totals may change. AP reported that Africa CDC has raised concerns about more than $700 million in Ebola aid it cannot account for.",
+   "status": "Official data · CDC, ECDC",
+   "numbers": [
+    {
+     "k": "Confirmed cases",
+     "v": "11,645"
+    },
+    {
+     "k": "Deaths",
+     "v": "5,683"
+    },
+    {
+     "k": "Congo provinces affected",
+     "v": "8 of 26"
+    }
+   ],
+   "differs": "UN News gives 11,762 cases and 5,775 deaths as of 20 November. ECDC gave 11,376 cases and 5,568 deaths as of 15 November.",
+   "sources": [
+    {
+     "name": "Contagion Live (CDC data)",
+     "url": "https://www.contagionlive.com/view/ebola-outbreak-climbs-11-645-cases-deaths-near-5700",
+     "primary": true
+    },
+    {
+     "name": "ECDC",
+     "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16"
+    },
+    {
+     "name": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/world/ebola-outbreak-remains-out-of-control-in-congo-6-months-into-response"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "22–23 Nov 2026",
+   "phase": "world",
+   "title": "WHO says fighting in Ituri trapped health workers; its chief says \"the best medicine is peace\"",
+   "summary": "WHO chief Tedros Adhanom Ghebreyesus said fighting near a hospital in Ituri forced health workers to shelter in a maternity ward for more than 24 hours, putting the response at \"grave risk\". \"The best medicine is peace,\" he said. WHO has verified more than 87 attacks on health care in Congo this year. The UN's Ebola coordinator said fighters of the ADF armed group had recently killed more people than Ebola had.",
+   "status": "Stated · WHO, UN",
+   "numbers": [
+    {
+     "k": "Attacks on health care in DRC, 2026",
+     "v": "87+ (WHO)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "CNBC Africa (Reuters)",
+     "url": "https://www.cnbcafrica.com/2026/who-chief-says-fighting-near-congo-ebola-outbreak-area-disrupts-response-efforts",
+     "primary": true
+    },
+    {
+     "name": "UN News",
+     "url": "https://news.un.org/en/story/2026/11/1168858"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region"
+    }
+   ],
+   "added": "2026-11-25"
+  }
+ ]
+}

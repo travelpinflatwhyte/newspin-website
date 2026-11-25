@@ -10,28 +10,33 @@
  "dek": "A report that Nvidia's founder was targeted by Chinese intelligence led to a board inquiry, his resignation, a share slide, regulator inquiries and, 11 days later, his reinstatement.",
  "seoTitle": "Jensen Huang reinstated as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang back · Congress still wants answers",
+ "status": "Huang back · Megaspeed blacklisted",
  "tone": "hot",
- "big": "≈ 31%",
- "delta": "▲ 23 Nov close",
- "bigLabel": "Rise in Nvidia shares on 23 November, the day Huang was reinstated: its biggest one-day gain since 2003 (Investopedia)",
- "updated": "2026-11-24",
+ "big": "≈ −6%",
+ "delta": "▼ 24 Nov close",
+ "bigLabel": "Fall in Nvidia shares on 24 November (−5.86%, BigGo Finance), a day after their 31% jump on Huang's return",
+ "updated": "2026-11-25",
  "glance": {
-  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia and Reuters and the Times have reported an SEC inquiry into its accounting.",
+  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist.",
   "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
   "next": "Huang is due to be questioned behind closed doors by House committees on 1 December, and Nvidia's general counsel on 2 December. Senate Banking Committee chair Tim Scott wants public testimony; a hearing is reported for 3 December. The board's own investigation continues."
  },
  "keyNumbers": [
   {
-   "label": "Shares, 23 Nov",
-   "value": "≈ +31%",
-   "note": "close $165.05–165.36",
+   "label": "Shares, 24 Nov",
+   "value": "−5.86%",
+   "note": "after +31% on 23 Nov",
    "hot": true
   },
   {
-   "label": "Share price, 20 Nov",
-   "value": "$125.53",
-   "note": "−14.01%"
+   "label": "Shares, 23 Nov",
+   "value": "≈ +31%",
+   "note": "close $165.05–165.36"
+  },
+  {
+   "label": "Firms blacklisted",
+   "value": "7",
+   "note": "Megaspeed and six others, 23 Nov"
   },
   {
    "label": "Q3 revenue",
@@ -42,11 +47,6 @@
    "label": "CEO",
    "value": "Jensen Huang",
    "note": "reinstated 23 Nov; Kress stays CFO"
-  },
-  {
-   "label": "First board chair",
-   "value": "Harvey C. Jones",
-   "note": "from 12 Nov"
   }
  ],
  "forYou": "If you hold Nvidia shares or tech funds, expect sharp swings while the investigations continue. No outlet has reported that Huang broke any law or that Nvidia secrets were lost; the espionage claims are allegations that China denies, and the board has not published findings. This is information, not investment advice.",
@@ -989,10 +989,81 @@
    ],
    "link": "us-markets-daily",
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026 (US time)",
+   "phase": "trade",
+   "title": "US puts Megaspeed and six other companies on its trade blacklist",
+   "summary": "The US Commerce Department added Megaspeed, the Singapore-based company at the centre of the reports about Huang, to its Entity List with six other companies in Malaysia, Singapore and Thailand. They include Apex Enterprise Solutions, a Singapore unit of Alibaba. US firms now need a licence to sell them American goods, software or technology, including chips, and applications are normally refused. Commerce says the companies pose a \"significant risk\" of passing advanced computing items to unauthorised users. Megaspeed denies wrongdoing. Alibaba called the listing of its unit \"erroneous\" and said it will seek legal remedies. Nvidia says it stopped selling to Megaspeed in June 2025. US prosecutors are running a criminal investigation into Megaspeed.",
+   "status": "Confirmed · US Commerce Department (Federal Register filing), via reports",
+   "numbers": [
+    {
+     "k": "Companies added",
+     "v": "7"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/us-blacklists-megaspeed-nvidia-scandal",
+     "primary": true
+    },
+    {
+     "name": "ShiftDelete.Net",
+     "url": "https://shiftdelete.net/en/us-entity-list-megaspeed-alibaba-apex-nvidia"
+    },
+    {
+     "name": "Fox Business",
+     "url": "https://www.foxbusiness.com/politics/trump-admin-adds-megaspeed-commerce-department-trade-blacklist-after-nvidia-scandal"
+    }
+   ],
+   "link": "china-ai-labs",
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026 (US time)",
+   "phase": "market",
+   "title": "Nvidia shares fall about 6%, giving back part of Monday's jump",
+   "summary": "Nvidia shares closed down 5.86% on Tuesday, a day after rising about 31% on Huang's return. Chip shares fell widely: the Philadelphia Semiconductor Index lost 7.88%. Reports pointed to profit-taking and to the investigations that are still open, including the criminal inquiry into Megaspeed and the board's own review of Huang, which it did not finish before reinstating him. Morningstar's Lindsey Stewart said the return \"is going to add to those corporate governance questions that investors have\". Senator Elizabeth Warren said Nvidia's board and executives still owe Congress answers on export controls.",
+   "status": "Market data; Stated · named analysts and lawmakers",
+   "numbers": [
+    {
+     "k": "Share change, 24 Nov",
+     "v": "−5.86%"
+    },
+    {
+     "k": "Chip index (SOX), 24 Nov",
+     "v": "−7.88%"
+    }
+   ],
+   "differs": "Intraday falls were reported at up to about 8% (Unusual Whales, 11:07 am ET); the closing fall was 5.86% per BigGo Finance and \"nearly 6%\" per Investing.com.",
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/efa4550f-327b-4612-b151-77555e7d62dd",
+     "primary": true
+    },
+    {
+     "name": "Political.org (Investing.com coverage)",
+     "url": "https://political.org/2026/11/24/nvidia-shares-slide-after-record-rally-as-questions-linger-over-jensen-huangs-return/"
+    },
+    {
+     "name": "Unusual Whales",
+     "url": "https://unusualwhales.com/news/nvidia-stock-falls-after-huang-comeback-rally-2026-11-24"
+    },
+    {
+     "name": "New York Post via AOL",
+     "url": "https://www.aol.com/articles/nvidia-shares-tumble-jensen-huang-153854000.html"
+    }
+   ],
+   "link": "us-markets-daily",
+   "added": "2026-11-25"
   }
  ],
- "heroTitle": "Nvidia shares jump 31% as Huang returns, but Congress still wants answers",
- "heroDek": "President Trump says he convinced the board. Democrats promise investigations, several Republicans question the decision, and Huang still faces House questioning on 1 December.",
- "heroAsOf": "2026-11-24",
+ "heroTitle": "US blacklists Megaspeed as Nvidia shares give back part of the Huang rally",
+ "heroDek": "The Singapore firm at the centre of the reports and six other companies now need a US licence to buy American chips. Nvidia fell about 6% a day after its 31% jump, and Huang faces House questioning on 1 December.",
+ "heroAsOf": "2026-11-25",
  "deltaTone": "neutral"
 }

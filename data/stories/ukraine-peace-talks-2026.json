@@ -9,16 +9,16 @@
  "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
  "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
  "importance": 4,
- "status": "Talks stalled; Ukraine hits ship in Libya",
+ "status": "No date for next round; Putin vows retaliation",
  "tone": "live",
  "big": "1,000+",
  "delta": "prisoners per side",
  "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 23 Nov.",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "glance": {
   "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
   "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "No date is set for the next round, and the agreed prisoner swap has not been reported as carried out. Ukraine says it hit a Russian warship in Libya on 22 November; Zelenskyy says Russia is preparing new strikes and has asked the US for Patriot missiles. US envoy Kushner says Russia accepts four-way talks with Europe; Moscow has not confirmed this."
+  "next": "No date is set for the next round, and the agreed prisoner swap has not been reported as carried out. US envoy Kushner says Russia accepts talks that include Europe, but on 24 November the Kremlin said it does not yet see what Europe would add. Putin says Russia will retaliate for Ukraine's strikes on its oil refineries. Zelenskyy says he will seek more aid from the new US Congress if talks fail."
  },
  "keyNumbers": [
   {
@@ -45,7 +45,7 @@
  ],
  "forYou": "The war affects global oil and grain prices, and US sanctions policy on Russian oil, which India buys in large amounts.",
  "upcoming": [],
- "next": "Whether the next round goes ahead with Europe at the table, and whether the agreed prisoner swap happens.",
+ "next": "Whether a next round is set and Europe takes part; whether the agreed prisoner swap happens; Russia's promised response to refinery strikes.",
  "links": [
   "russian-oil",
   "russia-nato-eastern-flank"
@@ -479,6 +479,69 @@
     }
    ],
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026",
+   "phase": "world",
+   "title": "Kremlin says it does not yet see what Europe would add to the talks; no date for the next round",
+   "summary": "Kremlin spokesman Dmitry Peskov said Europeans are insisting on a four-party format for the talks, but \"we do not yet fully understand what added value European participation can bring\", per UNITED24 citing Russian state media. TASS quotes him as saying \"the date has not yet been set\" for the next round. US envoy Jared Kushner had said Russia accepted talks that include Europe. Separately, Zelenskyy told Bloomberg he will ask the new US Congress, which meets in January, for more military aid and tougher sanctions on Russia if no peace deal is reached, per a report on the interview by Antiwar.com.",
+   "status": "Stated · Kremlin (Peskov); Stated · Zelenskyy (Bloomberg interview)",
+   "sources": [
+    {
+     "name": "TASS",
+     "url": "https://tass.com/politics/2223897",
+     "primary": true
+    },
+    {
+     "name": "UNITED24 Media",
+     "url": "https://united24media.com/war-in-ukraine/kremlin-says-it-does-not-understand-europes-role-in-ukraine-peace-talks-24673"
+    },
+    {
+     "name": "Headline USA (Antiwar.com)",
+     "url": "https://headlineusa.com/zelensky-says-he-will-seek-more-military-aid-from-new-us-congress-if-peace-talks-fail/"
+    }
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "23–24 Nov 2026",
+   "phase": "world",
+   "title": "Putin vows retaliation for Ukraine's strikes on Russian refineries; Russian strike on Zaporizhzhia kills two",
+   "summary": "At a Kremlin meeting with oil executives on 24 November, President Putin said \"the Kyiv regime continues to attack our refining facilities, despite the U.S. president's appeal\", and that \"retaliatory measures on our part are inevitable\", per Reuters and The Moscow Times. The night before, a Russian strike on the city of Zaporizhzhia partly destroyed a five-storey apartment block, killing two people, said Mykhailo Semikin, head of the regional military administration. Children were among the injured.",
+   "status": "Stated · Putin; Confirmed · Ukrainian regional officials (casualties)",
+   "differs": "Injury totals rose through the day: 22 in early reports (Kyiv Independent), more than 40 later (Meduza, citing the regional head), and 48 in a Washington Times headline.",
+   "numbers": [
+    {
+     "k": "Killed in Zaporizhzhia",
+     "v": "2"
+    },
+    {
+     "k": "Injured",
+     "v": "22 to 48 (reports differ)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Moscow Times (Reuters)",
+     "url": "https://www.themoscowtimes.com/2026/11/24/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-a94367",
+     "primary": true
+    },
+    {
+     "name": "Investing.com (Reuters)",
+     "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-5048918"
+    },
+    {
+     "name": "Meduza",
+     "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens"
+    },
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/2-killed-22-injured-in-russian-attack-on-residential-building-in-zaporizhzhia/"
+    }
+   ],
+   "added": "2026-11-25"
   }
  ]
 }

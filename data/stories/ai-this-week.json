@@ -15,9 +15,9 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "glance": {
-    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba and Microsoft released new models, Nvidia reported doubled sales after its founder was forced out and then fell sharply on a reported SEC probe of its accounting, Anthropic listed on Nasdaq, nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Lean's maths community has certified a computer-checked Riemann Hypothesis proof made with Claude, and President Trump threatened to tax US firms that build AI data centres abroad.",
+    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba, Zhipu and Microsoft released new models. Nvidia forced out its founder, reported doubled sales, then brought Jensen Huang back, and the US blacklisted Megaspeed, the firm at the centre of the reports. Anthropic listed on Nasdaq and on 24 November closed below its IPO price. Nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Anthropic has posted Claude-made proofs of the Riemann Hypothesis and of a 1979 complexity conjecture; neither has been checked by human mathematicians.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
     "next": "A US list of AI 'national champions' is reportedly due within a week."
   },
@@ -29,9 +29,9 @@
       "hot": true
     },
     {
-      "label": "Anthropic close, 20 Nov",
-      "value": "≈ $89",
-      "note": "IPO price $83"
+      "label": "Anthropic close, 24 Nov",
+      "value": "≈ $81.90",
+      "note": "below $83 IPO price"
     },
     {
       "label": "Free Google Vids clips",
@@ -717,6 +717,82 @@
       ],
       "link": "nvidia-huang-investigation",
       "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "22–23 Nov 2026",
+      "phase": "tech",
+      "title": "Anthropic posts a second Claude-made proof, of a 1979 conjecture; Meta's AI chief says 'superintelligence is arriving'",
+      "summary": "Anthropic published a 70-page paper credited to Claude that claims to prove Valiant's 1979 \"VP ≠ VNP\" conjecture about how hard some formulas are to compute. A computer check passed, but no human mathematician has verified it, and it does not solve P vs NP. A day earlier Meta's chief AI officer, Alexandr Wang, wrote that \"superintelligence is arriving\" and called for urgent safety work. China's Zhipu released GLM-5.4, a flagship model that runs its layers twice. The New York Times reported that Elon Musk told SpaceX staff in August to \"sell compute because we can't compete\"; Anthropic and Google rent its AI computers.",
+      "status": "Stated · Anthropic, Alexandr Wang; Reported · The New York Times",
+      "sources": [
+        {
+          "name": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+          "primary": true
+        },
+        {
+          "name": "DataCamp",
+          "url": "https://www.datacamp.com/blog/claude-claims-proof-of-valiants-conjecture-vp-vs-vnp"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive"
+        },
+        {
+          "name": "TestingCatalog",
+          "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/"
+        },
+        {
+          "name": "Forbes via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/musk-warned-spacex-employees-company-212743091.html"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "AI shares fall back; Anthropic closes below its IPO price and the US blacklists Megaspeed",
+      "summary": "Anthropic shares fell about 6.5% to about $81.90, the first close below the $83 IPO price. Nvidia fell 5.86% after Monday's 31% jump, and the Philadelphia chip index lost 7.88%. The Nasdaq Composite fell 1.48%. The day before, the US Commerce Department put Megaspeed, the Singapore firm at the centre of the Nvidia reports, and six other companies, including an Alibaba unit, on its trade blacklist; Alibaba called the listing of its unit \"erroneous\".",
+      "status": "Market data; Confirmed · US Commerce Department, via reports",
+      "numbers": [
+        {
+          "k": "Anthropic close",
+          "v": "≈ $81.90"
+        },
+        {
+          "k": "Nvidia",
+          "v": "−5.86%"
+        },
+        {
+          "k": "Nasdaq Composite",
+          "v": "−1.48%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/efa4550f-327b-4612-b151-77555e7d62dd",
+          "primary": true
+        },
+        {
+          "name": "AmeriLedger",
+          "url": "https://ameriledger.com/article/nasdaq-slumps-about-1-5-as-nvidia-comeback-reverses-course-and-anthropic"
+        },
+        {
+          "name": "ShiftDelete.Net",
+          "url": "https://shiftdelete.net/en/us-entity-list-megaspeed-alibaba-apex-nvidia"
+        },
+        {
+          "name": "TheStreet via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-stock-falls-below-ipo-203714977.html"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-25"
     }
   ]
 }

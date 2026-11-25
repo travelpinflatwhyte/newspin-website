@@ -10,21 +10,21 @@
   "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
   "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
   "importance": 4,
-  "status": "Talks, no deal",
+  "status": "Talks stalled; tanker attacks",
   "tone": "live",
-  "big": "≈ $86.7",
-  "delta": "Lowest since late August",
-  "bigLabel": "Brent settlement on 23 Nov: $86.78 per Investing.com, $86.58 provisional per houseofsaud.com; it was $92.57 on 20 Nov",
-  "updated": "2026-11-24",
+  "big": "$91.40",
+  "delta": "▲ 2.3% on 24 Nov",
+  "bigLabel": "Brent settlement (January contract) on 24 Nov, per Bloomberg and Seeking Alpha. It was $89.37 on 23 Nov, a three-month low, and $92.57 on 20 Nov.",
+  "updated": "2026-11-25",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent fell to about $86.7 on 23 November, its lowest since late August, as Gulf exports held up despite weekend attacks. Iran's Revolutionary Guards say three more tankers hit mines in Hormuz on Monday, which no one else has confirmed, and the US added new sanctions on Iran's oil money networks. Iran says it will confront the US blockade but that Hormuz could be safe quickly if the US meets its terms. OPEC+ meets on 29 November."
+    "next": "Brent rose 2.3% to $91.40 on 24 November after falling to a three-month low of $89.37 the day before. Three tankers were hit leaving Hormuz on 22 November, per UKMTO, and Iran's army chief says the strait must be \"closed further\" until Iran's conditions are met. Qatar's prime minister met US Vice-President Vance and Secretary of State Rubio to try to revive talks. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
-      "label": "Brent, 23 Nov",
-      "value": "≈ $86.7",
+      "label": "Brent, 24 Nov",
+      "value": "$91.40",
       "note": "per barrel, settlement",
       "hot": true
     },
@@ -45,8 +45,14 @@
     }
   ],
   "forYou": "Higher oil prices feed into petrol, diesel, cooking gas and airfares, and weaken the rupee.",
-  "upcoming": [],
-  "next": "Whether Iran's tankers try to break the blockade, after Iran's claims of tankers hitting mines; Qatar-mediated talks; OPEC+ meets on 29 November to set 2027 output.",
+  "upcoming": [
+    {
+      "date": "2026-11-29",
+      "label": "29 Nov",
+      "text": "OPEC+ ministers meet to set output for 2027"
+    }
+  ],
+  "next": "Whether Qatar can restart US–Iran talks; more tanker attacks in Hormuz; OPEC+ meets on 29 November to set 2027 output.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -758,25 +764,33 @@
       "date": "2026-11-23",
       "dateLabel": "23 Nov 2026",
       "phase": "market",
-      "title": "Brent falls to its lowest since late August as Gulf exports hold up",
-      "summary": "Brent crude settled near $86.6–86.8 a barrel on Monday, its lowest since late August, down from $92.57 on Friday. US crude (WTI) closed around $79–80. Analysts said signs that Gulf crude exports are holding up outweighed weekend attacks on shipping and on Bahrain, per Investing.com and Tradingpedia. Libya's Sharara pipeline also reopened. The International Energy Agency expects supply to exceed demand by about 2 million barrels a day in October–December. Analysts at IG said a new US strike on Iran looks less likely for now. Lower oil prices help India, which imports most of its crude.",
-      "status": "Market data · Investing.com, Tradingpedia",
+      "title": "Brent falls to a three-month low as Gulf exports hold up",
+      "summary": "Brent crude for January delivery settled at $89.37 a barrel on Monday, down about 3.5% from $92.57 on Friday and its lowest in about three months, per FinanceFeeds and Kotak Neo. Analysts said signs that Gulf crude exports are holding up outweighed weekend attacks on shipping and on Bahrain, per Investing.com and Tradingpedia. Libya's Sharara pipeline also reopened. The International Energy Agency expects supply to exceed demand by about 2 million barrels a day in October–December. Analysts at IG said a new US strike on Iran looks less likely for now. Lower oil prices help India, which imports most of its crude.",
+      "status": "Market data · FinanceFeeds, Kotak Neo",
       "numbers": [
         {
-          "k": "Brent, 23 Nov",
-          "v": "≈ $86.6–86.8"
+          "k": "Brent, 23 Nov (Jan contract)",
+          "v": "$89.37"
         },
         {
           "k": "Brent, 20 Nov",
           "v": "$92.57"
         }
       ],
-      "differs": "Brent settlement: $86.78 per Investing.com; $86.58 (provisional) per houseofsaud.com, also citing Investing.com. Investing.com gives the fall as 2.9%, which does not match Friday's $92.57 settlement (that would be a fall of about 6.3%). WTI: $79.17 per Investing.com, $80.20 per FinanceFeeds.",
+      "differs": "This page first gave Monday's settlement as about $86.6–86.8, per Investing.com and houseofsaud.com. FinanceFeeds and Kotak Neo give $89.37 for the January contract, which fits Bloomberg's report of a 2.3% rise to $91.40 on 24 November. The lower figures are close to the February contract (about $86.5 on 24 Nov, per FinanceFeeds) and may refer to it.",
       "sources": [
         {
-          "name": "Investing.com",
-          "url": "https://in.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5719957",
+          "name": "FinanceFeeds",
+          "url": "https://financefeeds.com/brent-crude-oil-price-89-08-tuesday-24-percent-monthly-slide-opec-plus-29-november-bull-92-bear-86/",
           "primary": true
+        },
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/commodities/oil-price-today-24-november-2026-brent-falls-below-90-us-iran-talks-supply-risks/"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://in.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5719957"
         },
         {
           "name": "Tradingpedia",
@@ -791,7 +805,7 @@
           "url": "https://houseofsaud.com/brent-third-weekly-loss-nov23/"
         }
       ],
-      "added": "2026-11-24"
+      "added": "2026-11-25"
     },
     {
       "date": "2026-11-23",
@@ -865,7 +879,76 @@
         }
       ],
       "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "22–23 Nov 2026",
+      "phase": "world",
+      "title": "Three tankers hit near Hormuz; Iran's army chief says the strait must be 'closed further'",
+      "summary": "Three Liberian-flagged supertankers owned by South Korea's Sinokor were hit within about 20 minutes on the evening of 22 November (UTC) as they left the eastern end of the Strait of Hormuz, per a revised UKMTO report cited by Maritime Executive. All crew were accounted for and the ships carried on. It is not clear whether these are the ships Iran says hit mines. On 23 November Iran's army commander, Maj Gen Amir Hatami, said Hormuz \"must be closed further day by day\" until Iran's seven conditions are met, per Euronews. Parliament speaker Mohammad Bagher Ghalibaf said there would be \"no negotiation\" before then. The same day Qatar's prime minister met US Vice-President JD Vance and Secretary of State Marco Rubio in Washington to try to restart US–Iran talks, per AP.",
+      "status": "Reported · UKMTO (tankers); Stated · Iranian officials; Confirmed · US State Department (Qatar meetings)",
+      "differs": "Marine Insight says it is unclear whether the ships in UKMTO's reports are the same ones Iran says hit mines; Iran has not named its ships.",
+      "numbers": [
+        {
+          "k": "Tankers hit (UKMTO, 22 Nov)",
+          "v": "3"
+        },
+        {
+          "k": "Iran's conditions",
+          "v": "7"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Maritime Executive",
+          "url": "https://maritime-executive.com/article/three-tankers-hit-within-minutes-in-strait-of-hormuz",
+          "primary": true
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+        },
+        {
+          "name": "AP via WDIV",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/24/vance-and-rubio-meet-with-qatari-pm-as-uncertainty-mounts-over-trumps-intentions-with-iran/"
+        },
+        {
+          "name": "Marine Insight",
+          "url": "https://www.marineinsight.com/iran-claims-tankers-hit-mines-strait-of-hormuz/"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "market",
+      "title": "Brent rebounds 2.3% to $91.40 on new tanker attacks",
+      "summary": "Brent crude for January rose 2.3% to settle at $91.40 a barrel on Tuesday, after early losses, per Bloomberg (via Rigzone) and Seeking Alpha. US crude (WTI) rose 2.4% to $82.05. Reports of more attacks on ships near Hormuz, and Iran's vow to tighten control of the strait, outweighed signs of a supply surplus. The IEA says Gulf crude exports are back to 74% of pre-war levels, per Bloomberg. Trading was thin before the US Thanksgiving holiday, which can exaggerate moves.",
+      "status": "Market data · Bloomberg, Seeking Alpha",
+      "numbers": [
+        {
+          "k": "Brent, 24 Nov",
+          "v": "$91.40 (+2.3%)"
+        },
+        {
+          "k": "WTI, 24 Nov",
+          "v": "$82.05 (+2.4%)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Rigzone (Bloomberg)",
+          "url": "https://www.rigzone.com/news/oil_climbs_despite_growing_oversupply_fears-24-nov-2026-185160-article",
+          "primary": true
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4676386-oil-rebounds-as-hormuz-attacks-renew-supply-fears"
+        }
+      ],
+      "added": "2026-11-25"
     }
   ],
-  "deltaTone": "neutral"
+  "deltaTone": "bad"
 }

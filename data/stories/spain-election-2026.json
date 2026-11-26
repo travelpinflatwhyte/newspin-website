@@ -1,0 +1,112 @@
+{
+  "slug": "spain-election-2026",
+  "short": "Spain election",
+  "category": "World",
+  "regions": ["World"],
+  "title": "Spain's snap election: from housing protests to the 29 November vote",
+  "dek": "Pedro Sánchez called an early election after parliament rejected his housing plans. Polls put the conservative PP ahead, with the far-right Vox third.",
+  "seoTitle": "Spain snap election 2026: timeline",
+  "importance": 3,
+  "status": "Votes cast on 29 Nov",
+  "tone": "live",
+  "big": "29 Nov",
+  "delta": "election day",
+  "deltaTone": "neutral",
+  "bigLabel": "Spain elects all 350 members of its lower house, the Congress of Deputies, on Sunday 29 November. A party or group of parties needs 176 seats for a majority.",
+  "updated": "2026-11-26",
+  "glance": {
+    "what": "Spain votes on 29 November in a general election called early by Socialist (PSOE) prime minister Pedro Sánchez. He dissolved parliament on 5 October after it rejected two of his government's bills to protect renters from eviction, amid large protests over housing costs. Most polls put the conservative People's Party (PP), led by Alberto Núñez Feijóo, first and the far-right Vox, led by Santiago Abascal, third.",
+    "why": "Spain is the European Union's fourth-largest economy. Some polls project that the PP and Vox together could win a majority, which could bring Vox into national government talks for the first time. Housing costs, corruption cases around the Socialists, and migration are the main campaign issues.",
+    "next": "Votes are counted on the night of 29 November. If no party wins 176 seats, parties must negotiate before parliament votes on a prime minister. About 163,000 overseas ballots are kept apart until Spain's Supreme Court rules on whether they count."
+  },
+  "keyNumbers": [
+    {"label": "Seats in Congress", "value": "350", "note": "176 for a majority", "hot": true},
+    {"label": "PP + Vox, 40dB projection", "value": "187 seats", "note": "El País / Cadena SER poll"},
+    {"label": "Overseas votes on hold", "value": "~163,000", "note": "Supreme Court suspension"},
+    {"label": "Eligible to vote from abroad", "value": "2.77 million", "note": "The Olive Press"}
+  ],
+  "forYou": "Nothing changes for travellers or Spanish residents on election day itself. Policies on housing and migration, the main campaign issues, would change only after a new government is formed and passes new laws.",
+  "upcoming": [
+    {"date": "2026-11-29", "label": "29 Nov", "text": "Spain votes in its general election; counting that night"}
+  ],
+  "next": "Who wins the most seats on 29 November, whether the PP and Vox together pass 176, and what the Supreme Court decides on the suspended overseas ballots.",
+  "links": [],
+  "events": [
+    {
+      "date": "2026-10-05",
+      "dateLabel": "4–5 Oct 2026",
+      "phase": "policy",
+      "key": true,
+      "title": "Sánchez dissolves parliament and calls an election for 29 November",
+      "summary": "Prime minister Pedro Sánchez said he would hold an extraordinary cabinet meeting to dissolve parliament and call a general election, set for 29 November. The move came after parliament rejected two government bills meant to protect tenants from eviction. Tens of thousands of people had protested across Spain over housing costs. Sánchez's minority government was also under pressure over corruption cases involving the Socialist Party and its handling of a migration crisis in Spain's North African city of Ceuta.",
+      "status": "Confirmed · Spanish government",
+      "differs": "The BBC says the election was called eight months early; RBC-Ukraine, citing El País, says parliament was dissolved nine months before its term ended.",
+      "sources": [
+        {"name": "RBC-Ukraine (citing El País, Politico, Reuters)", "url": "https://newsukraine.rbc.ua/news/spain-heads-to-snap-election-amid-political-1791212815.html", "primary": true},
+        {"name": "Just the News", "url": "https://justthenews.com/world/europe/spain-calls-snap-election-sanchez-governments-agenda-stalls"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/12/far-right-surges-as-crises-threaten-sanchez-could-vox-lead-spain"}
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-10-12",
+      "dateLabel": "12 Oct 2026",
+      "phase": "law",
+      "title": "Supreme Court keeps about 163,000 overseas voters' rights suspended",
+      "summary": "Spain's Supreme Court refused to lift a suspension of voting rights for about 163,000 people who became Spanish citizens under the \"grandchildren's law\", which lets descendants of people who fled Spain apply for nationality. The court questioned a government instruction that widened who qualifies. Consulates are keeping these voters' ballots in separate boxes, and they will not be counted unless the court later allows it.",
+      "status": "Reported",
+      "numbers": [
+        {"k": "Voters affected", "v": "about 163,000"}
+      ],
+      "sources": [
+        {"name": "Russpain", "url": "https://russpain.com/news/supreme-court-keeps-163-020-grandchildren-s-votes-suspended-107153/", "primary": true},
+        {"name": "Demócrata", "url": "https://www.democrata.es/en/politics/what-happens-with-the-vote-on-the-grandchildren-s-law-in-the-elections-of-29n-and-why-are-there-separate-ballot-boxes/"}
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-13",
+      "dateLabel": "13 Nov 2026",
+      "phase": "world",
+      "title": "The official campaign opens, with housing, corruption and migration at the centre",
+      "summary": "The two-week campaign began at midnight on 13 November. Sánchez opened in Seville, the PP's Alberto Núñez Feijóo near Barcelona, Vox's Santiago Abascal in Huesca and Ada Colau of the left-wing Frente Amplio in Madrid. Vox proposes giving Spaniards priority for housing; the PP has said it would repeal the new renter protections that parliament later passed. Feijóo has not ruled out a coalition with Vox under strict conditions, according to the BBC.",
+      "status": "Reported",
+      "sources": [
+        {"name": "Anadolu Agency", "url": "https://www.aa.com.tr/en/europe/spain-kicks-off-election-campaign-ahead-of-nov-29-vote/4124041", "primary": true},
+        {"name": "BBC (via Yahoo News)", "url": "https://www.yahoo.com/news/world/articles/watch-spains-election-race-181350087.html"}
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "data",
+      "title": "Final polls put the PP narrowly ahead and the right-wing bloc above a majority",
+      "summary": "The last tracking poll by 40dB for El País and Cadena SER put the PP on 31.8%, the Socialists on 30.9% and Vox on 17.3%. It projected that the PP and Vox together would win 187 seats, above the 176 needed for a majority. The government-run CIS pollster instead put the Socialists first on 34.4%; other pollsters have not shown the Socialists that high. Polls are estimates, and results may differ.",
+      "status": "Reported",
+      "numbers": [
+        {"k": "PP / PSOE / Vox (40dB)", "v": "31.8% / 30.9% / 17.3%"},
+        {"k": "PP + Vox projected seats (40dB)", "v": "187"}
+      ],
+      "differs": "The Local gives the 40dB seat projection as PP 130, PSOE 124 and Vox 57; The Olive Press gives PP 133, PSOE 125 and Vox 54. Both put PP and Vox together on 187.",
+      "sources": [
+        {"name": "The Local Spain", "url": "https://www.thelocal.es/20261124/latest-who-do-polls-say-will-win-the-spanish-election", "primary": true},
+        {"name": "The Olive Press", "url": "https://www.theolivepress.es/spain-news/2026/11/25/spains-pp-raises-vote-rigging-fears-before-election/"}
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "23–25 Nov 2026",
+      "phase": "world",
+      "title": "PP leaders question overseas voting; Sánchez calls the system clean",
+      "summary": "In a TV interview on 23 November, Feijóo said \"there has been electoral fraud\" linked to the grandchildren's law, accusing the government of setting a \"trap\" by widening who could become a citizen. On 25 November he said he was concerned about the fairness of overseas voting, and Madrid regional leader Isabel Díaz Ayuso said PP figures were worried about fraud. Sánchez said he was not sure the PP and Vox would accept the result if they fell short, and called the voting system \"absolutely guaranteed, clean and internationally recognised\".",
+      "status": "Allegation · PP leader Feijóo",
+      "sources": [
+        {"name": "The Olive Press", "url": "https://www.theolivepress.es/spain-news/2026/11/25/spains-pp-raises-vote-rigging-fears-before-election/", "primary": true},
+        {"name": "Demócrata (agencies)", "url": "https://www.democrata.es/en/politics/feijoo-accuses-sanchez-of-plotting-a-trap-with-the-grandkids-law-and-denounces-electoral-fraud/"}
+      ],
+      "added": "2026-11-26"
+    }
+  ]
+}

@@ -10,54 +10,61 @@
   "dek": "How the S&P 500, Dow and Nasdaq opened and closed each trading day, the gap at the open, and the reasons reporters gave. Dates are US dates; the close comes at 2:30 am IST.",
   "seoTitle": "S&P 500, Dow and Nasdaq today: open, close and gap, day by day",
   "importance": 4,
-  "status": "Nasdaq falls as Nvidia rally fades",
+  "status": "Stocks recover most of a steep early fall",
   "tone": "live",
-  "big": "7,201.09",
-  "delta": "▼ 0.50%",
-  "bigLabel": "S&P 500 close on Tuesday 24 Nov (US time)",
-  "updated": "2026-11-25",
+  "big": "7,182.78",
+  "delta": "▼ 0.25%",
+  "bigLabel": "S&P 500 close on Wednesday 25 Nov (US time)",
+  "updated": "2026-11-26",
   "market": {
     "index": "S&P 500",
     "second": "Dow and Nasdaq",
     "tz": "US time; closes 2:30 am IST"
   },
   "glance": {
-    "what": "The S&P 500 fell 0.50% to 7,201.09 on Tuesday 24 November and the Nasdaq fell 1.48%, as chip and AI shares gave back part of Monday's rally. The Dow rose 0.85% to 50,018.70, helped by retailers and stronger consumer confidence. On Monday the S&P 500 had jumped 4.73% after Nvidia reinstated Jensen Huang as CEO.",
-    "why": "Doubts about AI spending, reports of new US tariffs and expectations of a Fed rate rise in December are weighing on tech shares. Big US moves often set the tone for Indian markets the next trading day.",
-    "next": "The PCE inflation report is due on 25 November (US time), the last major data release before the Fed's December meeting, per Reuters."
+    "what": "The S&P 500 fell 0.25% to 7,182.78 on Wednesday 25 November, after being down as much as 3.2% during the day, as chip and AI shares fell again. The Nasdaq fell 0.62% and the Dow rose 0.33% to 50,182.95. Inflation data came in hot: the PCE price index rose 3.8% in October from a year earlier. On Monday the S&P 500 had jumped 4.73% after Nvidia reinstated Jensen Huang as CEO.",
+    "why": "Doubts about AI spending, new US tariff proposals and expectations of a Fed rate rise in December are weighing on tech shares. Big US moves often set the tone for Indian markets the next trading day.",
+    "next": "US markets are closed on Thursday 26 November for Thanksgiving and have a half-day session on Friday, per Yahoo Finance."
   },
   "keyNumbers": [
     {
-      "label": "S&P 500, 24 Nov",
-      "value": "7,201.09",
-      "note": "−0.50%",
+      "label": "S&P 500, 25 Nov",
+      "value": "7,182.78",
+      "note": "−0.25%",
       "hot": true
     },
     {
       "label": "Dow",
-      "value": "50,018.70",
-      "note": "+0.85%"
+      "value": "50,182.95",
+      "note": "+0.33%"
     },
     {
       "label": "Nasdaq",
-      "value": "23,733.54",
-      "note": "−1.48%"
+      "value": "23,585.80",
+      "note": "−0.62%"
     },
     {
-      "label": "Nvidia, 24 Nov",
-      "value": "$155.38",
-      "note": "−5.86% (Reuters)"
+      "label": "PCE inflation, Oct",
+      "value": "3.8%",
+      "note": "core 3.3% (Yahoo Finance)"
     }
   ],
   "forYou": "Indian IT companies earn much of their money in the US, and foreign investors move money between the two markets, so a sharp Wall Street fall often shows up in Indian shares the next morning. This is information, not investment advice.",
   "upcoming": [
     {
-      "date": "2026-11-25",
-      "label": "25 Nov",
-      "text": "US PCE inflation report"
+      "date": "2026-11-26",
+      "label": "26 Nov",
+      "text": "US markets closed for Thanksgiving",
+      "minor": true
+    },
+    {
+      "date": "2026-11-27",
+      "label": "27 Nov",
+      "text": "Half-day trading session",
+      "minor": true
     }
   ],
-  "next": "Wednesday's session (25 November, US time), the PCE inflation report, and whether the Fed raises rates at its December meeting.",
+  "next": "US markets are closed on Thursday 26 November for Thanksgiving and reopen on Friday 27 November for a half-day session. Then the Fed's December meeting, where traders expect a rate rise.",
   "links": [
     "india-markets-daily",
     "nvidia-huang-investigation",
@@ -606,6 +613,62 @@
       ],
       "link": "nvidia-huang-investigation",
       "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "market",
+      "title": "S&P 500 ends 0.3% lower after a fall of as much as 3.2%; Dow edges up before Thanksgiving",
+      "summary": "The S&P 500 fell 0.25% to 7,182.78, per AP and Yahoo Finance, after being down as much as 3.2% earlier in the day, per AP. The Nasdaq fell 0.62% to 23,585.80 and the Dow rose 0.33% to 50,182.95. Stocks opened sharply lower as chip and AI shares sold off again: early on the Dow was down about 700 points, the S&P 500 2.1% and the Nasdaq 3.2%, per Yahoo Finance. They recovered most of the losses in the afternoon. Nvidia fell 3.91% to $149.30, per Yahoo Finance and The Motley Fool, after falling as much as 8% during the day. The PCE price index, an inflation measure the Fed watches closely, rose 3.8% in October from a year earlier, the highest since 2023, per Yahoo Finance. Core PCE, which leaves out food and energy, rose 3.3%, slightly above the 3.2% expected. Traders put the chance of a 0.25-point Fed rate rise in December at about 98%, per Yahoo Finance. The new US tariff proposals on 14 economies also weighed. The 10-year Treasury yield fell to 4.82% as investors moved into bonds. Exact opening levels were not given, so this day has no gap figure. US markets are closed on Thursday 26 November for Thanksgiving and reopen on Friday for a half-day session, per Yahoo Finance.",
+      "status": "Market data · AP, Yahoo Finance",
+      "numbers": [
+        {
+          "k": "S&P 500",
+          "v": "7,182.78 (−18.31, −0.25%)"
+        },
+        {
+          "k": "Dow",
+          "v": "50,182.95 (+164.25, +0.33%)"
+        },
+        {
+          "k": "Nasdaq",
+          "v": "23,585.80 (−147.73, −0.62%)"
+        },
+        {
+          "k": "Nvidia",
+          "v": "$149.30 (−3.91%)"
+        },
+        {
+          "k": "PCE inflation, Oct",
+          "v": "3.8% (core 3.3%)"
+        }
+      ],
+      "differs": "AP rounds the S&P 500's fall to 0.3%; Yahoo Finance gives 0.25%. Yahoo Finance's summary bullets say the Dow rose 0.5% and the S&P 500 fell 0.2%, which do not match the closing levels it lists. Fox Business, writing during the session, reported Nvidia down 8.6%; the closing fall was 3.91%.",
+      "sources": [
+        {
+          "name": "AP via ABC News",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529",
+          "primary": true
+        },
+        {
+          "name": "Yahoo Finance live blog",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        },
+        {
+          "name": "AP via WRAL",
+          "url": "https://www.wral.com/news/ap/94fdb-how-major-us-stock-indexes-fared-wednesday-11-25-2026/"
+        },
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+        },
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+        }
+      ],
+      "link": "nvidia-huang-investigation",
+      "added": "2026-11-26"
     }
   ]
 }

@@ -10,21 +10,21 @@
   "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
   "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
   "importance": 4,
-  "status": "Talks stalled; tanker attacks",
+  "status": "Houthi refinery claim lifts oil",
   "tone": "live",
-  "big": "$91.40",
-  "delta": "▲ 2.3% on 24 Nov",
-  "bigLabel": "Brent settlement (January contract) on 24 Nov, per Bloomberg and Seeking Alpha. It was $89.37 on 23 Nov, a three-month low, and $92.57 on 20 Nov.",
-  "updated": "2026-11-25",
+  "big": "$94.61",
+  "delta": "▲ 3.5% on 25 Nov",
+  "bigLabel": "Brent settlement (January contract) on 25 Nov, per Reuters and the WSJ. It was $91.40 on 24 Nov and $89.37 on 23 Nov, a three-month low.",
+  "updated": "2026-11-26",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent rose 2.3% to $91.40 on 24 November after falling to a three-month low of $89.37 the day before. Three tankers were hit leaving Hormuz on 22 November, per UKMTO, and Iran's army chief says the strait must be \"closed further\" until Iran's conditions are met. Qatar's prime minister met US Vice-President Vance and Secretary of State Rubio to try to revive talks. OPEC+ meets on 29 November."
+    "next": "Brent rose 3.5% to $94.61 on 25 November, a second daily gain, after Yemen's Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery; the Saudi-led coalition says it downed four drones there. Tankers keep being hit near Hormuz, and Iran's army chief says the strait must be \"closed further\" until Iran's conditions are met. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
-      "label": "Brent, 24 Nov",
-      "value": "$91.40",
+      "label": "Brent, 25 Nov",
+      "value": "$94.61",
       "note": "per barrel, settlement",
       "hot": true
     },
@@ -52,7 +52,7 @@
       "text": "OPEC+ ministers meet to set output for 2027"
     }
   ],
-  "next": "Whether Qatar can restart US–Iran talks; more tanker attacks in Hormuz; OPEC+ meets on 29 November to set 2027 output.",
+  "next": "Whether Qatar can restart US–Iran talks; more attacks on Saudi sites and tankers in Hormuz; OPEC+ meets on 29 November to set 2027 output.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -948,6 +948,75 @@
         }
       ],
       "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "24–25 Nov 2026",
+      "phase": "world",
+      "title": "Houthis claim a strike on Saudi Arabia's largest refinery; Saudi-led coalition says it downed four drones",
+      "summary": "Yemen's Houthis said on 25 November they made a \"direct\" strike on Saudi Arabia's Ras Tanura refinery, causing fires, and attacked Riyadh's financial district, per The National and Anadolu Agency. The Saudi-led coalition said its air defences destroyed four drones over Ras Tanura. It did not say the refinery was hit, and the claim could not be independently verified. Ras Tanura is also a major Saudi crude export terminal. A day earlier, on 24 November, a drone strike on a tower in Riyadh's financial district wounded 11 people, Saudi civil defence said. The tower houses the Public Investment Fund, Saudi Arabia's state wealth fund, and was hit for the second time in a week.",
+      "status": "Allegation · Houthis (refinery strike); Stated · Saudi-led coalition (drones downed); Confirmed · Saudi civil defence (Riyadh injuries)",
+      "numbers": [
+        {
+          "k": "Drones downed over Ras Tanura",
+          "v": "4 (coalition)"
+        },
+        {
+          "k": "Injured in Riyadh, 24 Nov",
+          "v": "11"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/25/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery/",
+          "primary": true
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/middle-east/yemen-s-houthis-claim-attacks-on-saudi-oil-refinery-riyadh-financial-center/4136810"
+        }
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "market",
+      "title": "Brent jumps 3.5% to $94.61 after the Houthi refinery claim",
+      "summary": "Brent crude for January rose $3.21, or 3.5%, to settle at $94.61 a barrel on Wednesday, its second daily gain in a row, per Reuters (via The Circuitry) and the Wall Street Journal (via The Library). US crude (WTI) rose 2% to $83.68. Traders cited the Houthi claim of an attack on Ras Tanura, traders closing bets on lower prices before the US Thanksgiving holiday, and a smaller-than-expected rise in US crude stocks. Expectations of a supply surplus limited the gains. OPEC+ meets on 29 November to set output for 2027.",
+      "status": "Market data · Reuters, WSJ",
+      "differs": "Finexus gives a Brent settlement of $94.26 (+4.7%) and WTI of $83.78; Reuters and the WSJ give $94.61 and $83.68.",
+      "numbers": [
+        {
+          "k": "Brent, 25 Nov",
+          "v": "$94.61 (+3.5%)"
+        },
+        {
+          "k": "WTI, 25 Nov",
+          "v": "$83.68 (+2.0%)"
+        },
+        {
+          "k": "US crude stocks, week to 20 Nov",
+          "v": "+1.1m barrels (EIA)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Circuitry (Reuters)",
+          "url": "https://thecircuitry.to/article/brent-settles-wednesday-at-9461-and-wti-at-8368",
+          "primary": true
+        },
+        {
+          "name": "The Library (WSJ)",
+          "url": "https://thelibraryestate.com/futures-options-market-report-oil-settles-higher-for-a-second-day-as-hormuz-risk-tempers-surplus-talk-nov-25-2026/"
+        },
+        {
+          "name": "Finexus",
+          "url": "https://api.finexus.net/api/news/earnings/129669/html"
+        }
+      ],
+      "added": "2026-11-26"
     }
   ],
   "deltaTone": "bad"

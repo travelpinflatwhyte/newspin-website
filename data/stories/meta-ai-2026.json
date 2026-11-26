@@ -18,7 +18,7 @@
  "glance": {
   "what": "Llama 4 launched in April 2025 amid a benchmark controversy. Meta then invested about $14 bn in Scale AI, set up Meta Superintelligence Labs under Alexandr Wang, and from April 2026 released the closed Muse Spark, open Muse Glimmer and, in October, Muse Wonder, which Mark Zuckerberg called Meta's first frontier model.",
   "why": "Meta AI is built into WhatsApp, Instagram and Facebook, used by billions, and Meta's shift away from fully open models changes what developers can freely use.",
-  "next": "How Muse Wonder performs, how Meta answers reported privacy slips by its Muse agent, and whether it keeps releasing open-weight models."
+  "next": "How Muse Wonder performs, how Meta answers reported privacy slips by its Muse agent, how the Muse agent does after its UK launch, and whether Meta keeps releasing open-weight models."
  },
  "keyNumbers": [
   {
@@ -300,7 +300,33 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "ai",
+   "title": "Muse personal agent launches in the UK",
+   "summary": "Meta launched its Muse personal agent in the UK for users aged 18 and over, on iPhone, Android, the web and WhatsApp. It can shop, book travel and manage email and calendars. Meta named partners including Marks & Spencer, Sainsbury's, Currys, Ocado Retail, ASOS, Trainline, easyJet, Spotify and OpenTable. Users must approve purchases and outgoing emails. Meta says conversations in Muse's cloud computer are not shared with its advertising systems, and users can choose whether their chats train Meta's AI. Meta has not said how retailers will pay for the service.",
+   "status": "Confirmed · Meta (via dpa, Startup Fortune)",
+   "numbers": [],
+   "differs": "Launch date: Meta's announcement was dated 23 November (dpa, Startup Fortune); Particle says the rollout began on 24 November.",
+   "sources": [
+    {
+     "name": "The Star (dpa)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/meta039s-muse-ai-agent-now-rolling-out-in-uk-wants-to-run-your-life",
+     "primary": true
+    },
+    {
+     "name": "Startup Fortune",
+     "url": "https://startupfortune.com/meta-launches-its-muse-ai-agent-in-the-uk-just-as-christmas-shopping-peaks/"
+    },
+    {
+     "name": "Particle",
+     "url": "https://particle.news/story/meta-launches-muse-agent-in-the-uk"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

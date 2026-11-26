@@ -16,7 +16,7 @@
  "big": "2.1 vs 1.8",
  "delta": "mbpd, Gulf vs Russia",
  "bigLabel": "India's crude imports so far in November: Persian Gulf vs Russia, per Kpler",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "glance": {
   "what": "Russian crude filled the gap when Hormuz was disrupted. In October the US waived its threatened tariffs on big buyers of Russian oil, and in November India's imports from the Gulf overtook Russia's for the first time since the Iran war began.",
   "why": "Cheap Russian oil cushions India's import bill; being punished for it would raise costs and strain relations with the US.",
@@ -251,6 +251,45 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "trade",
+   "title": "Russian oil loses its price edge in India as Gulf supplies return, Bloomberg reports",
+   "summary": "Russian crude has lost much of its price advantage in India as Middle East exports recover, Bloomberg reported, according to AzerNews and UA.News. Kpler analysts expect India's Russian purchases to fall to about 1.6 to 1.7 million barrels a day by the end of November, about 40% below a record of 2.8 million in July, per UA.News citing Bloomberg. Imports from the Middle East reached about 2.1 million barrels a day in early November. Brazilian supplies are set to rise to about 400,000 barrels a day in November from about 100,000 in October. Russian Urals crude for late-December and January delivery is offered at a discount of $2 to $3 a barrel to Brent, up from $1 to $2 a few weeks earlier, per Reuters figures cited by AzerNews. Higher shipping costs and competition from other suppliers have eroded Russia's edge, per Bloomberg.",
+   "status": "Reported · Bloomberg; Market data · Kpler",
+   "numbers": [
+    {
+     "k": "Russian crude, end-Nov (Kpler est.)",
+     "v": "1.6–1.7 mbpd"
+    },
+    {
+     "k": "July record",
+     "v": "2.8 mbpd"
+    },
+    {
+     "k": "Brazil, Nov",
+     "v": "≈ 400,000 bpd"
+    }
+   ],
+   "differs": "UA.News, citing Bloomberg, gives a July record of 2.8 million barrels a day but also says India imported \"more than 2.6 million\" a day in June and July. ThePrint and United24 put November Russian imports at about 1.7 million barrels a day.",
+   "sources": [
+    {
+     "name": "UA.News (Bloomberg)",
+     "url": "https://ua.news/en/world/indiia-skorotila-zakupivli-rosiiskoyi-nafti-na-korist-blizkoskhidnoyi-bloomberg",
+     "primary": true
+    },
+    {
+     "name": "AzerNews (Bloomberg)",
+     "url": "https://www.azernews.az/region/268104.html"
+    },
+    {
+     "name": "UNITED24 Media",
+     "url": "https://united24media.com/world/indias-russian-oil-imports-drop-nearly-400000-barrels-a-day-in-one-month-24708"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ]
 }

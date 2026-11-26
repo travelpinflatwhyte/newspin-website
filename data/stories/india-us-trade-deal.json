@@ -10,16 +10,16 @@
  "dek": "A tariff cut was announced with fanfare. Nine months later, courts, new duties and a sanctions law have kept it in limbo.",
  "seoTitle": "India–US trade deal 2026: tariffs timeline",
  "importance": 4,
- "status": "US proposes up to 25%",
+ "status": "US proposes up to 25%; India objects",
  "tone": "hot",
  "big": "10%",
  "delta": "deal unsigned",
  "bigLabel": "US duty on most Indian goods since 24 Jul",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "glance": {
   "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
   "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
-  "next": "The US has proposed a tariff of up to 25% on Indian goods, cut to 17% with a trade deal; comments are due by 5 January and hearings start on 25 January. The Commerce Secretary said signing waits on the new US tariff rules. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
+  "next": "The US has proposed a tariff of up to 25% on Indian goods, cut to 17% with a trade deal; comments are due by 5 January and hearings start on 25 January. India says it has no structural excess capacity and wants the issue settled in the trade talks. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
  },
  "keyNumbers": [
   {
@@ -345,6 +345,27 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "trade",
+   "title": "India says it has no 'structural excess capacity' and wants tariff concerns settled in the trade talks",
+   "summary": "India's Commerce Ministry responded to the proposed US tariff of up to 25%. It said the US notice \"is currently under examination\" and that \"India does not have structural excess capacity in any sector\". It said India \"engaged constructively\" throughout the US investigation. The ministry said trade concerns \"should be addressed within the framework of these negotiations\", meaning the bilateral trade deal announced in February. It said the government remains committed to working closely with the US to conclude the deal early. No date for signing was given. The think tank GTRI said the new tariffs \"recreate the reciprocal-tariff regime under a new name\", per the Free Press Journal.",
+   "status": "Stated · Commerce Ministry",
+   "sources": [
+    {
+     "name": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/india/india-rejects-us-excess-manufacturing-capacity-claim-vows-to-fast-track-trade-deal-amid-proposed-25-tariffs",
+     "primary": true
+    },
+    {
+     "name": "Daily Jagran (ANI)",
+     "url": "https://www.thedailyjagran.com/india/news/india-responds-to-trumps-proposed-25-per-cent-additional-tariff-on-indian-goods-calls-for-bilateral-talks-10337644"
+    }
+   ],
+   "link": "us-tariffs-2026",
+   "added": "2026-11-26"
   }
  ]
 }

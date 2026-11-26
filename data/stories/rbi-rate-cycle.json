@@ -15,11 +15,11 @@
  "delta": "▲ 25 bps",
  "deltaTone": "neutral",
  "bigLabel": "Repo rate after the 7 Oct hike",
- "updated": "2026-11-20",
+ "updated": "2026-11-26",
  "glance": {
   "what": "On 7 Oct 2026 the RBI raised its key rate to 5.50%, its first increase since February 2023, after cutting it five times in 2025.",
   "why": "Inflation picked up sharply through mid-2026. Borrowers with repo-linked floating loans may see higher EMIs at their next reset.",
-  "next": "The next policy meeting is 2–4 Dec 2026. With October inflation at 6.09%, 56 of 61 economists in a Reuters poll expect a rise to 5.75%."
+  "next": "The next policy meeting is 2–4 Dec 2026. With October inflation at 6.09%, 56 of 61 economists in a Reuters poll and all 14 in a Moneycontrol poll expect a rise to 5.75%."
  },
  "keyNumbers": [
   {
@@ -444,6 +444,36 @@
     }
    ],
    "added": "2026-11-20"
+  },
+  {
+   "date": "2026-11-23",
+   "dateLabel": "23 Nov 2026",
+   "phase": "data",
+   "title": "Moneycontrol poll: all 14 economists expect a December hike to 5.75%",
+   "summary": "All 14 economists polled by Moneycontrol expect the RBI to raise the repo rate by 0.25 percentage points to 5.75% at its 2–4 December meeting. Their forecasts for where the rate will peak range from 5.75% to 6.25%. Some expect inflation to stay above 6% for the next two quarters. This is a forecast by economists, not an RBI decision.",
+   "status": "Reported · Moneycontrol poll",
+   "numbers": [
+    {
+     "k": "Expect a hike to 5.75%",
+     "v": "14 of 14"
+    },
+    {
+     "k": "Expected peak rate",
+     "v": "5.75–6.25%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NewsBytes (Moneycontrol poll)",
+     "url": "https://www.newsbytesapp.com/news/business/rbi-to-raise-repo-rate-by-25bps-in-december-survey/story",
+     "primary": true
+    },
+    {
+     "name": "News Minimalist (Moneycontrol poll)",
+     "url": "https://www.newsminimalist.com/articles/rbi-mpc-poll-economists-see-25-bps-december-rate-hike-as-inflation-tops-6percent-8654a694"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ],
  "chart": {

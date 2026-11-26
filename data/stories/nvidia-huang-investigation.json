@@ -10,28 +10,28 @@
  "dek": "A report that Nvidia's founder was targeted by Chinese intelligence led to a board inquiry, his resignation, a share slide, regulator inquiries and, 11 days later, his reinstatement.",
  "seoTitle": "Jensen Huang reinstated as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang back · Megaspeed blacklisted",
+ "status": "Huang back · no DOJ probe, Reuters says",
  "tone": "hot",
- "big": "≈ −6%",
- "delta": "▼ 24 Nov close",
- "bigLabel": "Fall in Nvidia shares on 24 November (−5.86%, BigGo Finance), a day after their 31% jump on Huang's return",
- "updated": "2026-11-25",
+ "big": "$149.30",
+ "delta": "▼ 3.91% on 25 Nov",
+ "bigLabel": "Nvidia share price at the close on 25 November (Yahoo Finance, Motley Fool), after falls on 24 and 25 November that followed the 31% jump on Huang's return",
+ "updated": "2026-11-26",
  "glance": {
-  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist.",
+  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist. Reuters reported on 25 November that the Justice Department never opened a formal investigation into Huang himself.",
   "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
   "next": "Huang is due to be questioned behind closed doors by House committees on 1 December, and Nvidia's general counsel on 2 December. Senate Banking Committee chair Tim Scott wants public testimony; a hearing is reported for 3 December. The board's own investigation continues."
  },
  "keyNumbers": [
   {
-   "label": "Shares, 24 Nov",
-   "value": "−5.86%",
-   "note": "after +31% on 23 Nov",
+   "label": "Shares, 25 Nov",
+   "value": "$149.30",
+   "note": "−3.91%",
    "hot": true
   },
   {
-   "label": "Shares, 23 Nov",
-   "value": "≈ +31%",
-   "note": "close $165.05–165.36"
+   "label": "Shares, 24 Nov",
+   "value": "−5.86%",
+   "note": "after +31% on 23 Nov"
   },
   {
    "label": "Firms blacklisted",
@@ -1060,10 +1060,68 @@
    ],
    "link": "us-markets-daily",
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026 (US time)",
+   "phase": "probe",
+   "title": "Reuters: Justice Department never opened a probe of Huang; Vance says he was told Huang is not under investigation",
+   "summary": "The Justice Department did not open a formal investigation into Jensen Huang before President Trump pushed for his return, three people familiar with the matter told Reuters. Attorney General Todd Blanche concluded there was no evidence Huang broke the law, based on the department's investigations into two Nvidia customers, Super Micro Computer and Megaspeed, which are suspected of smuggling chips to China, two people said. Two people said that view could change as those probes continue. There was no counterintelligence investigation of Huang himself, two others said. The Wall Street Journal first reported that Blanche relied on those cases. Vice President JD Vance told reporters he had been told Huang \"was under no investigation\" and said: \"I don't think he needs a pardon at all,\" per CBS News. Vance said the accusations rest on anonymous reporting and that \"ultimately, it was the board's decision\" to bring Huang back. Lawmakers in both parties have said it is too soon to set aside the national security questions, Reuters reports.",
+   "status": "Reported · Reuters (anonymous sources); Stated · Vice President Vance",
+   "numbers": [
+    {
+     "k": "Formal DOJ probe of Huang",
+     "v": "None opened (Reuters)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ThePrint (Reuters)",
+     "url": "https://theprint.in/world/us-justice-department-did-not-open-probe-into-jensen-huang-before-reinstatement-sources-say/3109253/",
+     "primary": true
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/vance-says-jensen-huang-doesnt-need-pardon/"
+    }
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026 (US time)",
+   "phase": "market",
+   "title": "Nvidia shares fall another 3.9%, to $149.30",
+   "summary": "Nvidia shares closed down 3.91% at $149.30 on Wednesday, after falling as much as 8% during the day, per Yahoo Finance and The Motley Fool. It was their second daily fall since Monday's 31% jump on Huang's return. Reporters linked the fall to a wider sell-off in chip shares, hot US inflation data that makes a Fed rate rise more likely, new US tariff proposals and doubts about AI spending. The Motley Fool says investors are weighing Huang's return against the investigations that are still open.",
+   "status": "Market data · Yahoo Finance, The Motley Fool",
+   "numbers": [
+    {
+     "k": "Close, 25 Nov",
+     "v": "$149.30 (−3.91%)"
+    }
+   ],
+   "differs": "Fox Business, writing during the session, reported a fall of 8.6%; the closing fall was 3.91%.",
+   "sources": [
+    {
+     "name": "Yahoo Finance live blog",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+     "primary": true
+    },
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+    },
+    {
+     "name": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+    }
+   ],
+   "link": "us-markets-daily",
+   "added": "2026-11-26"
   }
  ],
- "heroTitle": "US blacklists Megaspeed as Nvidia shares give back part of the Huang rally",
- "heroDek": "The Singapore firm at the centre of the reports and six other companies now need a US licence to buy American chips. Nvidia fell about 6% a day after its 31% jump, and Huang faces House questioning on 1 December.",
- "heroAsOf": "2026-11-25",
+ "heroTitle": "Justice Department never opened a probe of Huang, Reuters reports, as Nvidia shares slip again",
+ "heroDek": "The attorney general found no evidence Huang broke the law, based on cases against two Nvidia customers, sources told Reuters. Vance says Huang does not need a pardon. Shares fell 3.9% on Wednesday.",
+ "heroAsOf": "2026-11-26",
  "deltaTone": "neutral"
 }

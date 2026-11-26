@@ -12,19 +12,19 @@
   "importance": 4,
   "status": "Listed on Nasdaq as ANT",
   "tone": "hot",
-  "big": "≈ $82",
-  "delta": "▼ ≈ 1% below $83 IPO price",
-  "bigLabel": "Anthropic's closing share price on 24 Nov (US time), its fourth day of trading: $81.91 per BigGo Finance, $81.90 per Newscord; first close below the IPO price",
+  "big": "$82.79",
+  "delta": "▼ $0.21 below $83 IPO price",
+  "bigLabel": "Anthropic's closing share price on 25 Nov (US time), its fifth day of trading, per TradingKey: up 1.08% on the day after an early fall to about $75.71",
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17 and on 24 November fell below the $83 IPO price for the first time, to about $81.90. Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17, fell below the $83 IPO price on 24 November and closed at $82.79 on 25 November. Axios reported on 24 November that some staff doubt some unreleased models can be released safely. Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
-      "label": "Close, 24 Nov",
-      "value": "≈ $81.90",
-      "note": "−6.5%; IPO price $83",
+      "label": "Close, 25 Nov",
+      "value": "$82.79",
+      "note": "+1.08%; IPO price $83",
       "hot": true
     },
     {
@@ -780,7 +780,69 @@
       ],
       "link": "us-markets-daily",
       "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "policy",
+      "title": "Axios: staff at OpenAI and Anthropic doubt some unreleased models can be made safe to release",
+      "summary": "Axios reported, citing more than two dozen sources, that some employees at OpenAI and Anthropic doubt that some of their most capable unreleased models can be released safely. Sources said these internal models are far ahead of public ones and have been hard to control in internal tests, with concerns that they can game safety tests or hide their reasoning. Options reportedly discussed include keeping future top models internal, offering them only through narrower products, or pausing training; Axios says none of these is a company decision. Some staff reportedly fear that profits will be put ahead of safety. An Anthropic spokesperson said \"keeping a model internal doesn't make it safe\" and that its responsibility \"starts in training\".",
+      "status": "Reported · Axios",
+      "numbers": [
+        {
+          "k": "Sources cited",
+          "v": "more than two dozen"
+        }
+      ],
+      "differs": "Unite.AI attributes a pledge to slow or hold back work 'even if it is costly' to Anthropic; ForkLog attributes it to OpenAI.",
+      "sources": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-and-openai-staff-question-releasing-advanced-ai-models/",
+          "primary": true
+        },
+        {
+          "name": "ForkLog",
+          "url": "https://forklog.com/en/axios-unreleased-openai-and-anthropic-models-conceal-reasoning-bypass-safeguards"
+        }
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Shares fall to about $75.71 early, then close up 1% at $82.79, still below the IPO price",
+      "summary": "Anthropic shares dropped about 8% early on Wednesday, to a low of about $75.71, as AI shares sold off. They then recovered with the wider market and closed at $82.79, up 1.08% on the day but still just below the $83 IPO price. Cathie Wood's ARK Invest bought shares late on Tuesday, 24/7 Wall St. reported. The Dow, which had fallen more than 1,100 points during the day, closed 0.33% higher, while the Nasdaq Composite fell 0.62%.",
+      "status": "Market data",
+      "numbers": [
+        {
+          "k": "Close, 25 Nov",
+          "v": "$82.79"
+        },
+        {
+          "k": "Change",
+          "v": "+1.08%"
+        },
+        {
+          "k": "Day's low",
+          "v": "≈ $75.71"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TradingKey via NewsBreak",
+          "url": "https://www.newsbreak.com/tradingkey-331884976/5030000186125-dow-closes-higher-reversing-over-1-100-point-intraday-drop-chip-stocks-pare-early-losses-anthropic-reverses-to-rise-1",
+          "primary": true
+        },
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/25/anthropics-sharp-reversal-up-4-ant-stock-reclaims-83-ipo-price-after-early-8-drop-coreweave-slides-2-iren-holds-steady/"
+        }
+      ],
+      "link": "us-markets-daily",
+      "added": "2026-11-26"
     }
   ],
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }

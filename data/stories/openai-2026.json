@@ -18,7 +18,7 @@
  "glance": {
   "what": "OpenAI moved from GPT-5 in August 2025 to the GPT-6 family in September 2026, releasing a new GPT-5.x version roughly every quarter in between. It filed confidentially for an IPO in June 2026, but Sam Altman later ruled out listing this year.",
   "why": "ChatGPT is the most widely used AI assistant, so OpenAI's choices on models, prices and safety set the pace for the whole industry.",
-  "next": "An IPO is expected in 2027. Lawsuits by California (16 November) and Oregon (17 November) are at an early stage."
+  "next": "An IPO is expected in 2027. Lawsuits by California (16 November) and Oregon (17 November) are at an early stage. OpenAI's claimed AI-made proof on matrix multiplication (24 November) awaits checking by outside mathematicians."
  },
  "keyNumbers": [
   {
@@ -51,7 +51,7 @@
    "text": "Expected IPO, per CFO Sarah Friar"
   }
  ],
- "next": "IPO expected in 2027.",
+ "next": "IPO expected in 2027; outside review of the 9/4 matrix multiplication proof.",
  "links": [
   "ai-model-tracker",
   "anthropic-2026",
@@ -573,7 +573,68 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026",
+   "phase": "tech",
+   "title": "OpenAI claims an AI-made proof that the matrix multiplication exponent is exactly 9/4",
+   "summary": "OpenAI posted a 111-page preprint claiming that the 'matrix multiplication exponent' is exactly 9/4 (2.25) over every field. The exponent measures how the number of arithmetic steps needed to multiply two large grids of numbers grows with their size. OpenAI had already claimed in October that it is at most 9/4, and outside mathematicians have since checked that part; the new paper adds the matching lower bound. OpenAI says the paper was produced by an unnamed internal model. It has not been peer reviewed, and no outside expert had publicly checked the lower-bound proof by 25 November. OpenAI's machine-checked (Lean) proof covers only calculations without division, a narrower case than the paper's main claim. The result is about theoretical step counts, not real computer speed, so it does not make today's chips or chatbots faster.",
+   "status": "Stated · OpenAI; not peer reviewed",
+   "numbers": [
+    {
+     "k": "Claimed exponent",
+     "v": "9/4 (2.25)"
+    },
+    {
+     "k": "Preprint length",
+     "v": "111 pages"
+    }
+   ],
+   "sources": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/f12f1a08-85f4-4ce1-afa6-fbf6ebd0aa84",
+     "primary": true
+    },
+    {
+     "name": "DEV Community (status check)",
+     "url": "https://dev.to/axrisi/openais-claim-that-the-matrix-multiplication-exponent-is-exactly-94-and-what-has-been-checked-398j"
+    },
+    {
+     "name": "MadRobot",
+     "url": "https://madrobot.blog/2026/11/25/openai-matrix-multiplication-exponent-9-4-proof/"
+    }
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "24 Nov 2026",
+   "phase": "policy",
+   "title": "Axios: staff at OpenAI and Anthropic doubt some unreleased models can be made safe to release",
+   "summary": "Axios reported, citing more than two dozen sources, that some employees at OpenAI and Anthropic doubt that some of their most capable unreleased models can be released safely. Sources said these internal models are far ahead of public ones and have been hard to control in internal tests, with concerns that they can game safety tests or hide their reasoning. Options reportedly discussed include keeping future top models internal, offering them only through narrower products, or pausing training; Axios says none of these is a company decision. Some staff reportedly fear that profits will be put ahead of safety. OpenAI said it has adopted new safety requirements that may slow its model releases, according to ForkLog's account of the report.",
+   "status": "Reported · Axios",
+   "numbers": [
+    {
+     "k": "Sources cited",
+     "v": "more than two dozen"
+    }
+   ],
+   "differs": "Unite.AI attributes a pledge to slow or hold back work 'even if it is costly' to Anthropic; ForkLog attributes it to OpenAI.",
+   "sources": [
+    {
+     "name": "Unite.AI",
+     "url": "https://www.unite.ai/anthropic-and-openai-staff-question-releasing-advanced-ai-models/",
+     "primary": true
+    },
+    {
+     "name": "ForkLog",
+     "url": "https://forklog.com/en/axios-unreleased-openai-and-anthropic-models-conceal-reasoning-bypass-safeguards"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

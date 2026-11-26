@@ -15,9 +15,9 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "glance": {
-    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba, Zhipu and Microsoft released new models. Nvidia forced out its founder, reported doubled sales, then brought Jensen Huang back, and the US blacklisted Megaspeed, the firm at the centre of the reports. Anthropic listed on Nasdaq and on 24 November closed below its IPO price. Nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Anthropic has posted Claude-made proofs of the Riemann Hypothesis and of a 1979 complexity conjecture; neither has been checked by human mathematicians.",
+    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba, Zhipu and Microsoft released new models. Nvidia forced out its founder, reported doubled sales, then brought Jensen Huang back, and the US blacklisted Megaspeed, the firm at the centre of the reports. Anthropic listed on Nasdaq and has traded just below its IPO price since 24 November. Nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Anthropic and OpenAI have both posted AI-made maths proofs, including OpenAI's 24 November claim on matrix multiplication; none has been checked by outside mathematicians. Axios reported that some staff at both firms doubt some unreleased models can be released safely.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
     "next": "A US list of AI 'national champions' is reportedly due within a week."
   },
@@ -29,9 +29,9 @@
       "hot": true
     },
     {
-      "label": "Anthropic close, 24 Nov",
-      "value": "≈ $81.90",
-      "note": "below $83 IPO price"
+      "label": "Anthropic close, 25 Nov",
+      "value": "$82.79",
+      "note": "just below $83 IPO price"
     },
     {
       "label": "Free Google Vids clips",
@@ -793,6 +793,72 @@
       ],
       "link": "nvidia-huang-investigation",
       "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "tech",
+      "title": "OpenAI claims an AI-made proof on matrix multiplication; Axios reports safety doubts inside OpenAI and Anthropic",
+      "summary": "OpenAI posted a preprint, which it says an unnamed internal model produced, claiming the 'matrix multiplication exponent' is exactly 9/4. That number describes how the work of multiplying large grids of numbers grows with their size. The paper has not been peer reviewed and its key new part had not been checked by outside experts by 25 November; it would not make real computers faster. The same day, Axios reported, citing more than two dozen sources, that some staff at OpenAI and Anthropic doubt some unreleased models can be released safely. Anthropic said keeping a model internal \"doesn't make it safe\".",
+      "status": "Stated · OpenAI; Reported · Axios",
+      "numbers": [
+        {
+          "k": "Claimed exponent",
+          "v": "9/4 (2.25)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/f12f1a08-85f4-4ce1-afa6-fbf6ebd0aa84",
+          "primary": true
+        },
+        {
+          "name": "DEV Community (status check)",
+          "url": "https://dev.to/axrisi/openais-claim-that-the-matrix-multiplication-exponent-is-exactly-94-and-what-has-been-checked-398j"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-and-openai-staff-question-releasing-advanced-ai-models/"
+        }
+      ],
+      "link": "openai-2026",
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026 (US time)",
+      "phase": "market",
+      "title": "Anthropic swings from an 8% fall to a 1% gain; Meta's Muse agent reaches the UK",
+      "summary": "Anthropic shares fell to about $75.71 early on Wednesday as AI shares sold off, then closed at $82.79, up 1.08% but still below the $83 IPO price. The Dow recovered from a drop of more than 1,100 points to close 0.33% higher; the Nasdaq Composite fell 0.62%. Separately, Meta launched its Muse personal agent in the UK for adults, with retailers including Marks & Spencer, Sainsbury's and easyJet as partners.",
+      "status": "Market data; Confirmed · Meta (via dpa)",
+      "numbers": [
+        {
+          "k": "Anthropic close",
+          "v": "$82.79"
+        },
+        {
+          "k": "Nasdaq Composite",
+          "v": "−0.62%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TradingKey via NewsBreak",
+          "url": "https://www.newsbreak.com/tradingkey-331884976/5030000186125-dow-closes-higher-reversing-over-1-100-point-intraday-drop-chip-stocks-pare-early-losses-anthropic-reverses-to-rise-1",
+          "primary": true
+        },
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/25/anthropics-sharp-reversal-up-4-ant-stock-reclaims-83-ipo-price-after-early-8-drop-coreweave-slides-2-iren-holds-steady/"
+        },
+        {
+          "name": "The Star (dpa)",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/meta039s-muse-ai-agent-now-rolling-out-in-uk-wants-to-run-your-life"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-26"
     }
   ]
 }

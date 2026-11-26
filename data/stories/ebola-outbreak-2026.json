@@ -9,28 +9,28 @@
  "dek": "An Ebola strain with no approved vaccine has spread across eastern Congo and into four other countries, and fighting is slowing the response.",
  "seoTitle": "Ebola outbreak in Congo 2026: timeline",
  "importance": 4,
- "status": "Fighting disrupts the response",
+ "status": "Health workers evacuated as fighting hits response",
  "tone": "live",
- "big": "11,645",
- "delta": "confirmed cases, 17 Nov",
+ "big": "11,986",
+ "delta": "confirmed cases, 23 Nov",
  "deltaTone": "bad",
- "bigLabel": "Confirmed Ebola cases as of 17 November, per the US CDC, with 5,683 deaths. Counts may change.",
- "updated": "2026-11-25",
+ "bigLabel": "Confirmed Ebola cases as of 23 November, per the US CDC, with 5,871 deaths. Counts may change.",
+ "updated": "2026-11-26",
  "glance": {
-  "what": "An outbreak of the Bundibugyo strain of Ebola, declared in May, has infected 11,645 confirmed people and killed 5,683 as of 17 November, per the US CDC. Almost all cases are in the Democratic Republic of the Congo, across 8 of its 26 provinces. Uganda, Kenya, Nigeria and France have also had cases. WHO has declared it a global health emergency.",
+  "what": "An outbreak of the Bundibugyo strain of Ebola, declared in May, has infected 11,986 confirmed people and killed 5,871 as of 23 November, per the US CDC. Almost all cases are in the Democratic Republic of the Congo, across 8 of its 26 provinces. Uganda, Kenya, Nigeria and France have also had cases. WHO has declared it a global health emergency.",
   "why": "Ebola spreads through contact with an infected person's body fluids and often kills. This strain has no approved vaccine or treatment. Fighting by armed groups in eastern Congo is hampering health workers, and travellers have carried the virus to other countries, which has led to airport screening and travel rules.",
   "next": "WHO and ECDC publish regular updates on case numbers. The US rule that air passengers sign they have not been in Congo runs to 18 December unless changed."
  },
  "keyNumbers": [
   {
-   "label": "Confirmed cases, 17 Nov",
-   "value": "11,645",
+   "label": "Confirmed cases, 23 Nov",
+   "value": "11,986",
    "note": "US CDC",
    "hot": true
   },
   {
    "label": "Deaths",
-   "value": "5,683",
+   "value": "5,871",
    "note": "US CDC"
   },
   {
@@ -281,6 +281,41 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "23–24 Nov 2026",
+   "phase": "world",
+   "title": "Trapped health workers evacuated from an Ituri hospital; confirmed cases near 12,000",
+   "summary": "About a dozen people, including two WHO staff and Congolese health officials, were evacuated to Bunia on 24 November after three days sheltering in a hospital in Akwe during fighting, per AP. \"They were caught really in the crossfire,\" said WHO's Ebola incident manager, Dr Catherine Smallwood. WHO also moved its team in Mongbwalu, where the outbreak was first detected, to Bunia for now. AP says the fighting has stopped teams reaching some communities and tracking people exposed to the virus. The armed group CRP said it was pausing its advance on Bunia. As of 23 November the US CDC counted 11,986 confirmed cases and 5,871 deaths, almost all in Congo. Counts may change.",
+   "status": "Confirmed · WHO (evacuation); Official data · CDC",
+   "differs": "WHO figures quoted by Arab News give 11,762 cases and 5,775 deaths; the CDC's newer count, as of 23 November, is 11,986 cases and 5,871 deaths.",
+   "numbers": [
+    {
+     "k": "Confirmed cases, 23 Nov",
+     "v": "11,986 (CDC)"
+    },
+    {
+     "k": "Deaths",
+     "v": "5,871 (CDC)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "KSAT (AP)",
+     "url": "https://ksat.com/news/world/2026/11/25/fighting-in-eastern-congo-forces-ebola-workers-to-evacuate-threatening-outbreak-response",
+     "primary": true
+    },
+    {
+     "name": "Arab News (AFP)",
+     "url": "https://arabnews.com/world/who-chief-says-staff-evacuated-from-dr-congo-hospital-3013939"
+    },
+    {
+     "name": "US CDC",
+     "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ]
 }

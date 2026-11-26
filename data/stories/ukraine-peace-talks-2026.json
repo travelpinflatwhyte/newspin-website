@@ -9,22 +9,22 @@
  "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
  "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
  "importance": 4,
- "status": "No date for next round; Putin vows retaliation",
+ "status": "Swap could start by early December; Russia hits energy sites",
  "tone": "live",
  "big": "1,000+",
  "delta": "prisoners per side",
- "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. No exchange had been reported by 23 Nov.",
- "updated": "2026-11-25",
+ "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. Kyiv says the first prisoners could return in late November or early December; the final number is not set.",
+ "updated": "2026-11-26",
  "glance": {
   "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
   "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "No date is set for the next round, and the agreed prisoner swap has not been reported as carried out. US envoy Kushner says Russia accepts talks that include Europe, but on 24 November the Kremlin said it does not yet see what Europe would add. Putin says Russia will retaliate for Ukraine's strikes on its oil refineries. Zelenskyy says he will seek more aid from the new US Congress if talks fail."
+  "next": "No date is set for the next round. Kyiv says the first prisoners in the agreed swap could return in late November or early December, in stages. US envoy Kushner says Russia accepts talks that include Europe, but the Kremlin says it does not yet see what Europe would add. Putin has vowed retaliation for Ukraine's refinery strikes, and Russian drones hit Ukrainian power and gas sites on 25 November."
  },
  "keyNumbers": [
   {
    "label": "Prisoner swap agreed",
    "value": "1,000+",
-   "note": "per side, per TASS; not yet done",
+   "note": "per side, per TASS; first stage due late Nov–early Dec (Kyiv)",
    "hot": true
   },
   {
@@ -45,7 +45,7 @@
  ],
  "forYou": "The war affects global oil and grain prices, and US sanctions policy on Russian oil, which India buys in large amounts.",
  "upcoming": [],
- "next": "Whether a next round is set and Europe takes part; whether the agreed prisoner swap happens; Russia's promised response to refinery strikes.",
+ "next": "Whether the first stage of the prisoner swap happens by early December; whether a next round is set and Europe takes part; more Russian strikes on energy.",
  "links": [
   "russian-oil",
   "russia-nato-eastern-flank"
@@ -542,6 +542,49 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "24–25 Nov 2026",
+   "phase": "world",
+   "title": "Russian strikes hit power and gas sites in several regions; Kyiv says the first prisoners could come home by early December",
+   "summary": "Overnight into 25 November Russia launched 112 attack drones, of which 88 were shot down or jammed, Prime Minister Serhii Koretskyi said, per LB.ua. Strikes damaged a DTEK thermal power plant, halting generation, and set a Naftogaz gas production site in Poltava region on fire, per Reuters. Power was cut in parts of Odesa and Zaporizhzhia, and outside power to the occupied Zaporizhzhia nuclear plant was lost for the 17th time this year, a deputy energy minister said. One person was killed in Kyiv region and six were injured in Zaporizhzhia. Separately, Kyrylo Budanov, head of Zelenskyy's office, said the first prisoners in the swap agreed in Abu Dhabi could return in late November or early December, in several stages, per Xinhua citing Interfax-Ukraine. Ukraine's prisoner-of-war office said it is ready for the exchange; the final number has not been set.",
+   "status": "Stated · Ukrainian government (strikes, casualties); Stated · Budanov (swap timing)",
+   "differs": "Xinhua calls Budanov head of the presidential office; 112.ua calls him head of intelligence. Reuters says power was cut in five regions; LB.ua lists damage in four.",
+   "numbers": [
+    {
+     "k": "Russian drones launched",
+     "v": "112 (88 downed)"
+    },
+    {
+     "k": "Killed, Kyiv region",
+     "v": "1"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Business Standard (Reuters)",
+     "url": "https://www.tbsnews.net/world/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-five-regions-1613896",
+     "primary": true
+    },
+    {
+     "name": "LB.ua",
+     "url": "https://en.lb.ua/news/2026/11/25/51436_russia_targets_energy.html"
+    },
+    {
+     "name": "Xinhua (Interfax-Ukraine)",
+     "url": "https://english.news.cn/20261126/89ac7c5504dd4af29a5d54d4ed8f7738/c.html"
+    },
+    {
+     "name": "112.ua",
+     "url": "https://112.ua/en/obmin-vijskovopolonenimi-miz-ukrainou-ta-rosieu-persij-etap-moze-vidbutisa-naprikinci-listopada-200541"
+    },
+    {
+     "name": "UA.NEWS",
+     "url": "https://ua.news/en/war-vs-rf/ukrayina-gotova-do-masshtabnogo-obminu-viiskovopolonenimi-koordshtab"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ]
 }

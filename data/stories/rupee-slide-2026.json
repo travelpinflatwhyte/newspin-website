@@ -11,21 +11,21 @@
  "importance": 4,
  "status": "Eight-month high",
  "tone": "live",
- "big": "92.29",
- "delta": "▲ ≈ 4.7% off the low",
+ "big": "92.16",
+ "delta": "▲ ≈ 4.9% off the low",
  "deltaTone": "good",
- "bigLabel": "Rupees per US dollar, best level during trade on 25 Nov (PTI), an eight-month high. Record low near 96.90.",
- "updated": "2026-11-25",
+ "bigLabel": "Rupees per US dollar at the close on 25 Nov (PTI, provisional), an eight-month high. Record low near 96.90.",
+ "updated": "2026-11-26",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It has strengthened for most of November. On 25 November it touched 92.29 during trade, per PTI, an eight-month high that erases its losses since April. It had closed at 92.85 on 23 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It has strengthened for most of November. On 25 November it closed at 92.16 (provisional), per PTI, up 69 paise on the day: an eight-month high that erases its losses since April. It had closed at 92.85 on 23 November.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
    "label": "Rupee per $, 25 Nov",
-   "value": "92.29",
-   "note": "best level in trade (PTI)",
+   "value": "92.16",
+   "note": "close, provisional (PTI)",
    "hot": true
   },
   {
@@ -473,18 +473,18 @@
    "date": "2026-11-25",
    "dateLabel": "25 Nov 2026",
    "phase": "market",
-   "title": "Rupee touches an eight-month high near 92.2, erasing its losses for the financial year",
-   "summary": "The rupee opened at 92.65 per dollar on Wednesday and rose to 92.29 during the day, up 56 paise from Monday's close, PTI reported in the afternoon. PTI says that wipes out all the rupee's losses since the financial year began in April, and calls it an eight-month high. DSIJ puts the day's best level at 92.18 and InCred Money reports 92.21, its strongest since 12 March. Currency markets were shut on Tuesday for Guru Nanak Jayanti. Analysts quoted by PTI credit large inflows from foreign investors into Indian shares and Brent crude slipping below $90 a barrel. Foreign investors bought a net ₹5,672.99 crore of Indian shares on Monday, per exchange data cited by PTI. A stronger rupee makes imports such as fuel and foreign travel slightly cheaper.",
-   "status": "Market data · PTI, DSIJ, InCred Money",
-   "differs": "Reports give different best levels for the day: 92.29 (PTI, early afternoon), 92.21 (InCred Money) and 92.18 (DSIJ). AIR News reports a close of 92.23; no PTI closing figure had been published when this was written. PTI's final figure for Monday's close is 92.85, not the provisional 92.92 shown earlier.",
+   "title": "Rupee rises 69 paise to close at 92.16, an eight-month high that erases its losses for the financial year",
+   "summary": "The rupee opened at 92.65 per dollar on Wednesday and closed at 92.16 (provisional), up 69 paise from Monday's close of 92.85, PTI reports. PTI calls it the rupee's highest level this year and an eight-month high; it wipes out all the rupee's losses since the financial year began in April. The rupee has gained in five straight sessions since 94.19 on 13 November. Currency markets were shut on Tuesday for Guru Nanak Jayanti. Analysts quoted by PTI credit strong buying in Indian shares, foreign investor inflows, cheaper crude and RBI steps to improve dollar supply; a firm US dollar limited the gains. Foreign investors bought a net ₹5,672.99 crore of Indian shares on Monday, per exchange data cited by PTI. Brent crude was at $91.55 a barrel. A stronger rupee makes imports such as fuel and foreign travel slightly cheaper.",
+   "status": "Market data · PTI, AIR News",
+   "differs": "PTI's afternoon report gave a best level of 92.29; DSIJ put the best level at 92.18 and InCred Money at 92.21. AIR News first reported a close of 92.23, then 92.16. The 92.16 close is provisional. PTI's final figure for Monday's close is 92.85, not the provisional 92.92 shown earlier.",
    "numbers": [
     {
      "k": "Open, 25 Nov",
      "v": "92.65"
     },
     {
-     "k": "Best level (PTI)",
-     "v": "92.29"
+     "k": "Close, 25 Nov",
+     "v": "92.16 (provisional), +69 paise"
     },
     {
      "k": "Monday's close (PTI final)",
@@ -493,9 +493,21 @@
    ],
    "sources": [
     {
-     "name": "ThePrint (PTI)",
-     "url": "https://theprint.in/economy/rupee-recoups-all-its-fy27-losses-climbs-56-paise-to-hit-eight-month-high-of-92-29-usd-intraday/3108400/",
+     "name": "The Pioneer (PTI)",
+     "url": "https://dailypioneer.com/business/rupee-rises-69-paise-eight-month-high-9216-us-dollar",
      "primary": true
+    },
+    {
+     "name": "AIR News",
+     "url": "https://www.airnews.in/articles/f4d0d73d8b-rupee-jumps-69-paise-to-92-16-against-dollar-erasing-all-fy26-losses"
+    },
+    {
+     "name": "Metrovaartha",
+     "url": "https://english.metrovaartha.com/economy/market/rupee-soars-69-paise-to-settle-at-its-8-month-high-of-9216-against-us-dollar"
+    },
+    {
+     "name": "ThePrint (PTI)",
+     "url": "https://theprint.in/economy/rupee-recoups-all-its-fy27-losses-climbs-56-paise-to-hit-eight-month-high-of-92-29-usd-intraday/3108400/"
     },
     {
      "name": "DSIJ",
@@ -504,13 +516,9 @@
     {
      "name": "InCred Money",
      "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-25-november-2026/"
-    },
-    {
-     "name": "AIR News",
-     "url": "https://www.airnews.in/articles/864b917dff-rupee-surges-0-7-to-eight-month-high-of-92-23-on-record-14-28-billion-inflows?feed=stocks"
     }
    ],
-   "added": "2026-11-25"
+   "added": "2026-11-26"
   }
  ]
 }

@@ -52,11 +52,6 @@
  "forYou": "If you work in or invest in export-heavy sectors, the final tariff rate matters more than the headlines. Nothing announced is binding until a deal is signed.",
  "upcoming": [
   {
-   "date": "2026-11-26",
-   "label": "26 Nov",
-   "text": "Farmers' protests against the deal in Delhi and about 100 other places (SKM)"
-  },
-  {
    "date": "2026-12-14",
    "label": "Dec",
    "text": "G20 summit in Florida, a possible target for phase one"
@@ -67,7 +62,7 @@
    "text": "Comments due on the proposed US tariff"
   }
  ],
- "next": "Comments on the proposed 25% US tariff by 5 January; farmers' protests on 26 November; a possible push to close phase one around the G20 summit in December.",
+ "next": "Comments on the proposed 25% US tariff by 5 January; a possible push to close phase one around the G20 summit in December.",
  "links": [
   "us-tariffs-2026",
   "russian-oil",
@@ -365,6 +360,26 @@
     }
    ],
    "link": "us-tariffs-2026",
+   "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "26 Nov 2026",
+   "phase": "trade",
+   "title": "Delhi Police refuse permission for farmers' march; protests against the trade deal planned nationwide",
+   "summary": "The farmers' coalition Samyukt Kisan Morcha (SKM) called protests in Delhi and about 100 other places on 26 November. One of its demands is that the government \"reject the India-US free trade agreement and other free trade agreements\", per National Herald. Other demands include a legal guarantee of minimum support prices (MSP) and a loan waiver. Delhi Police said \"no application for permission has been received and no permission has been granted\" for a march to Jantar Mantar, per India TV (IANS). Police said prohibitory orders are in force in the New Delhi district and that violations will invite legal action. Reports of turnout or detentions were not available at the time of writing.",
+   "status": "Stated · Delhi Police, SKM",
+   "sources": [
+    {
+     "name": "India TV (IANS)",
+     "url": "https://www.indiatvnews.com/delhi/delhi-police-deny-permission-for-skm-s-proposed-march-to-jantar-mantar-today-warn-of-legal-action-2026-11-26-1060402",
+     "primary": true
+    },
+    {
+     "name": "National Herald",
+     "url": "https://www.nationalheraldindia.com/politics/samyukt-kisan-morcha-nationwide-farmers-protests-november-26-modi-government"
+    }
+   ],
    "added": "2026-11-26"
   }
  ]

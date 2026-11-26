@@ -14,9 +14,9 @@
  "big": "20.29%",
  "delta": "flights cancelled",
  "bigLabel": "Share of SpiceJet's scheduled domestic flights cancelled in September 2026, per DGCA data reported by Mint. The industry average was 1.15%.",
- "updated": "2026-11-24",
+ "updated": "2026-11-26",
  "glance": {
-  "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is down to 12 aircraft, three of them reportedly grounded, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
+  "what": "SpiceJet has been cancelling about one in five of its flights since August, according to official data. No SpiceJet flight left Mumbai for more than 12 hours from the evening of 17 November, stranding hundreds of passengers. It is reported to be flying only six aircraft and just over 20 flights a day, and media reports say it is behind on payments to suppliers, aircraft lessors and staff. It has not published financial results since the December 2025 quarter.",
   "why": "Passengers face last-minute cancellations, long delays and slow refunds. The aviation minister said in September that the regulator was reviewing SpiceJet's operations and finances.",
   "next": "SpiceJet's reply to the DGCA's show-cause notice is due around 24 November; none had been reported by 23 November. On 18 November its board approved raising up to ₹5,500 crore; shareholders and regulators still have to approve it, and no investors have been named. The BSE will suspend trading in its shares from 10 December unless it files overdue results by 7 December."
  },
@@ -39,8 +39,8 @@
   },
   {
    "label": "Aircraft",
-   "value": "12",
-   "note": "3 reportedly grounded"
+   "value": "6",
+   "note": "flying, reported (Nov)"
   }
  ],
  "forYou": "Booked on SpiceJet? Check your flight status on the day and keep proof of any cancellation or long delay. If SpiceJet cancels your flight, ask for a refund or a seat on another flight; DGCA rules set deadlines for airlines to pay refunds.",
@@ -494,6 +494,45 @@
     }
    ],
    "added": "2026-11-24"
+  },
+  {
+   "date": "2026-11-24",
+   "dateLabel": "23–26 Nov 2026",
+   "phase": "policy",
+   "title": "SpiceJet reported to be down to six aircraft and just over 20 flights a day",
+   "summary": "SpiceJet is flying six aircraft, two Q400 turboprops and four Boeing 737s, and just over 20 flights a day, BusinessLine reports, citing sources. Its main routes are Delhi–Mumbai, Delhi–Srinagar, Delhi–Dharamshala and Patna–Darbhanga, per Live New Age. Promoter Ajay Singh met civil aviation ministry officials, BusinessLine says. The airline is reported to be paying airports and fuel suppliers in cash upfront. The government's AirSewa portal listed 8,671 complaints against SpiceJet as of 22 November, up from 7,674 on 19 November. The pilots' union ALPA India has raised safety concerns linked to delayed salaries. SpiceJet has not publicly commented on the fleet figure.",
+   "status": "Reported · BusinessLine, NewsBytes, Live New Age",
+   "differs": "The Free Press Journal reported 10–15 flights a day on 21–22 November; BusinessLine and NewsBytes report just over 20.",
+   "numbers": [
+    {
+     "k": "Aircraft flying",
+     "v": "6 (reported)"
+    },
+    {
+     "k": "Flights a day",
+     "v": "just over 20 (reported)"
+    },
+    {
+     "k": "AirSewa complaints",
+     "v": "8,671 (to 22 Nov)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine (via TradingView)",
+     "url": "https://www.tradingview.com/news/moodys:8dc8737c761fa:0-spicejet-operations-shrink-to-six-aircraft-just-over-20-daily-flights/",
+     "primary": true
+    },
+    {
+     "name": "NewsBytes",
+     "url": "https://newsbytesapp.com/news/business/spicejet-down-to-6-planes-amid-dgca-demands-for-answers/tldr"
+    },
+    {
+     "name": "Live New Age",
+     "url": "https://livenewage.com/spicejet-struggles-amid-financial-crunch-daily-services-limited-to-just-over-20-3g6k"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ]
 }

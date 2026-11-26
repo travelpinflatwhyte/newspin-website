@@ -18,11 +18,11 @@
  "delta": "proposed for India",
  "deltaTone": "neutral",
  "bigLabel": "Highest proposed US tariff on Indian goods under the 25 Nov plan (now 10%)",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "glance": {
   "what": "In February the US Supreme Court ruled that Trump's emergency tariffs were illegal. The US replaced them with a temporary 10% tariff, then in July with 10% or 12.5% tariffs on 60 economies. On 25 November it proposed further tariffs on 14 economies, up to 25% for India and 35% for Vietnam.",
   "why": "Tariffs are taxes paid by US importers on foreign goods. Higher rates make exports such as Indian textiles, gems and engineering goods dearer in the US, and can raise prices for US shoppers.",
-  "next": "Comments on the new proposal are due by 5 January 2027 and hearings begin on 25 January. No start date has been set. An appeal over the temporary 10% tariff is still pending."
+  "next": "Comments on the new proposal are due by 5 January 2027 and hearings begin on 25 January. No start date has been set; USTR Jamieson Greer said none of the new tariffs is likely to take effect for at least a couple of months. An appeal over the temporary 10% tariff is still pending."
  },
  "keyNumbers": [
   {
@@ -301,6 +301,40 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "trade",
+   "title": "Greer says the proposed tariffs are unlikely to start for at least a couple of months",
+   "summary": "US Trade Representative Jamieson Greer told CNBC's Squawk Box: \"I don't think any of these would actually take effect earlier than a couple months from now.\" He said that for most of the 14 economies the new rates would \"top up a few percentage points\" once existing duties are counted. Stocktwits reports Greer said China is an exception: the roughly 25% first-term duties on about two-thirds of Chinese imports would stay, with the proposed 20% added on top, while about $30 billion of Chinese goods would be exempt. Greer also said the US is \"sticking to the deals\" it has, naming China, Thailand, India and the EU. India's commerce ministry said India \"does not have structural excess capacity in any sector.\"",
+   "status": "Stated · USTR Jamieson Greer (to CNBC)",
+   "numbers": [
+    {
+     "k": "Earliest start",
+     "v": "not before ≈ 2 months (Greer)"
+    },
+    {
+     "k": "China exemption",
+     "v": "≈ $30 bn of goods (Stocktwits)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NationPress (IANS)",
+     "url": "https://www.nationpress.com/international/us-tariffs-on-india-months-away-says-greer",
+     "primary": true
+    },
+    {
+     "name": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/us-targets-china-eu-india-with-new-tariff-proposal-greer-says-china-s-20-rate-to-be-added-to-older-duties/cNbH1VHR9mS"
+    },
+    {
+     "name": "Morung Express (IANS)",
+     "url": "https://www.morungexpress.com/dont-think-proposed-tariffs-would-take-effect-earlier-than-couple-months-from-now-us-trade-representative"
+    }
+   ],
+   "added": "2026-11-26"
   }
  ]
 }

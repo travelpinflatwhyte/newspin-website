@@ -69,6 +69,7 @@ CAT_INK = {"Economy": "#1D4ED8", "Markets": "#0F5B4E", "World": "#5B3A9A", "Trad
 ICON_PLAY = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>'
 ICON_BELL = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>'
 ICON_SHARE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>'
+ICON_SHARE_SM = ICON_SHARE.replace('width="18" height="18"', 'width="15" height="15"')
 ICON_CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>'
 ICON_CHECK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>'
 ICON_WARN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>'
@@ -80,6 +81,71 @@ def src_link(src):
     cls = ' class="primary"' if src.get("primary") else ""
     tag = " · primary" if src.get("primary") else ""
     return f'<a href="{e(src["url"])}" rel="noopener" target="_blank"{cls}>{e(src["name"])}{tag}</a>'
+
+
+def first_sentence(text, limit=220):
+    """The first sentence of a summary, for share text (falls back to a word-boundary cut)."""
+    m = re.search(r"^(.{40,}?[.!?])(?=\s+[A-Z\"“(])", text)
+    out = m.group(1) if m else text
+    if len(out) > limit:
+        out = out[:limit].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    return out
+
+
+ICON_WA = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>'
+
+
+def share_row(site, s, ev):
+    """Share buttons for one update: native share (or copy link) and WhatsApp."""
+    from urllib.parse import quote
+    url = f'{site["domain"].rstrip("/")}/stories/{s["slug"]}/#{ev["aid"]}'
+    text = f'{ev["title"]} ({ev["dateLabel"]})\n{first_sentence(ev["summary"])}'
+    wa = "https://wa.me/?text=" + quote(f"{text}\n{url}")
+    return (f'<div class="ev-share"><button type="button" class="ev-sh" data-share="{e(url)}" data-share-text="{e(text)}" aria-label="Share this update">{ICON_SHARE_SM}<span>Share</span></button>'
+            f'<a class="ev-sh" href="{e(wa)}" target="_blank" rel="noopener" aria-label="Send this update on WhatsApp">{ICON_WA}<span>WhatsApp</span></a></div>')
+
+
+# ---------- glossary: tap a term for a plain-English definition ----------
+def load_glossary():
+    p = DATA / "glossary.json"
+    if not p.exists():
+        return [], {}
+    g = json.loads(p.read_text())
+    pats, defs = [], {}
+    for i, t in enumerate(g.get("terms", [])):
+        key = f"g{i}"
+        defs[key] = {"t": t["term"], "d": t["def"]}
+        for form in [t["term"]] + t.get("also", []):
+            pats.append((form, key, t.get("case", False)))
+    pats.sort(key=lambda x: -len(x[0]))  # longest first, so "India VIX" wins over "VIX"
+    return pats, defs
+
+
+GLOSS_PATS, GLOSS_DEFS = [], {}
+
+
+def gloss(text, used=None, limit=2):
+    """Escape text and mark the first use of up to `limit` glossary terms not already in `used`."""
+    out = e(text)
+    if not GLOSS_PATS:
+        return out
+    used = used if used is not None else set()
+    hits, taken = [], []
+    for form, key, case in GLOSS_PATS:
+        if key in used or any(k == key for _, _, k in hits):
+            continue
+        m = re.search(r"(?<![\w-])" + re.escape(e(form)) + r"(?![\w-])", out, 0 if case else re.I)
+        if not m or any(a < m.end() and m.start() < b for a, b in taken):
+            continue
+        hits.append((m.start(), m.end(), key))
+        taken.append((m.start(), m.end()))
+        if len(hits) >= limit:
+            break
+    for a, z, key in sorted(hits, reverse=True):
+        used.add(key)
+        out = (out[:a] + f'<button type="button" class="gl" data-gl="{key}" aria-expanded="false" title="{e(GLOSS_DEFS[key]["d"])}">'
+               + out[a:z] + "</button>" + out[z:])
+    return out
 
 
 def cat_class(cat):
@@ -102,8 +168,13 @@ def load():
     for p in sorted((DATA / "stories").glob("*.json")):
         s = json.loads(p.read_text())
         s["events"].sort(key=lambda ev: ev["date"])
+        per_day = {}
         for ev in s["events"]:
             ev.setdefault("added", ev["date"])
+            # stable anchor for sharing one update: date plus its place among that day's events
+            # (positional #eN ids shift when an older event is inserted; these don't)
+            per_day[ev["date"]] = per_day.get(ev["date"], 0) + 1
+            ev["aid"] = f'u-{ev["date"]}' + (f'-{per_day[ev["date"]]}' if per_day[ev["date"]] > 1 else "")
         stories[s["slug"]] = s
     order = [x for x in site["order"] if x in stories] + [x for x in stories if x not in site["order"]]
     return site, stories, order
@@ -293,6 +364,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#F7F7F4">
 <link rel="alternate" type="application/rss+xml" title="Newspin: latest updates" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Newspin: the week in review" href="/week/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -317,7 +389,7 @@ def page(site, *, title, desc, path, body, story_slug=None, og_image="/og/home.p
 </main>
 <footer class="site-footer"><div class="wrap">
   <span>© {dt.date.today().year} Newspin · {e(site['tagline'])}</span>
-  <nav aria-label="Footer"><a href="/about/">How it works</a><a href="/about/#corrections">Corrections</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms &amp; disclaimer</a></nav>
+  <nav aria-label="Footer"><a href="/week/">This week</a><a href="/about/">How it works</a><a href="/about/#corrections">Corrections</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms &amp; disclaimer</a></nav>
   <p class="foot-note">Newspin summarises reporting from the sources linked on each timeline. It is general information, not financial, legal or medical advice.</p>
   <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark mode"><svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button>
 </div></footer>
@@ -770,7 +842,7 @@ def build_home(site, stories, order, axis):
       <div class="cards moving">{''.join(cards)}</div>
     </section>
     <section class="updates" aria-labelledby="lu-h">
-      <div class="sec-head"><h2 id="lu-h">Latest updates</h2><span class="note">All stories</span></div>
+      <div class="sec-head"><h2 id="lu-h">Latest updates</h2><a class="note lu-week" href="/week/">The week in review →</a></div>
       <ul class="lu">{''.join(lu)}</ul>
     </section>
   </div>
@@ -905,6 +977,10 @@ def build_story(site, stories, s, axis):
     slug = s["slug"]
     evs = s["events"]
     latest = latest_event(s)
+    # glossary: each term is marked once among the events, starting from the newest (always on screen)
+    ev_used, glossed = set(), {}
+    for i in range(len(evs) - 1, -1, -1):
+        glossed[i] = gloss(evs[i]["summary"], ev_used)
     items = []
     for i, ev in enumerate(evs):
         ph = PHASES.get(ev["phase"], PHASES["policy"])
@@ -923,10 +999,10 @@ def build_story(site, stories, s, axis):
         n = len(ev["sources"])
         x = d(ev["date"])
         items.append(f"""
-<li class="ev{' key' if ev.get('key') else ''}{' latest-ev' if ev is latest else ''}" data-added="{e(ev['added'])}" data-date="{e(ev['date'])}" data-label="{e(ev['dateLabel'])}" data-phase="{e(ev['phase'])}" data-status="{e(status_group(ev['status']))}" id="e{i+1}">
+<li class="ev{' key' if ev.get('key') else ''}{' latest-ev' if ev is latest else ''}" data-added="{e(ev['added'])}" data-date="{e(ev['date'])}" data-label="{e(ev['dateLabel'])}" data-phase="{e(ev['phase'])}" data-status="{e(status_group(ev['status']))}" data-aid="{e(ev['aid'])}" id="e{i+1}">
   <div class="ev-date"><i class="dd" style="{dot}"></i><b>{e(ev['dateLabel'].rsplit(' ', 1)[0] if ev['dateLabel'][-4:].isdigit() and ' ' in ev['dateLabel'] else ev['dateLabel'])}</b><span>{x.year}</span></div>
   <div class="ev-rail" aria-hidden="true"><div class="l1"></div><div class="d" style="{dot}"></div><div class="l2"></div></div>
-  <div class="ev-card"><article>
+  <div class="ev-card"><article><span class="ev-anchor" id="{e(ev['aid'])}" aria-hidden="true"></span>
     <div class="ev-tags">
       <span class="ev-when">{e(ev['dateLabel'])}</span>
       <span class="pill" style="background:{ph[2]};color:{ph[1]}">{e(ph[0])}</span>
@@ -935,11 +1011,12 @@ def build_story(site, stories, s, axis):
     </div>
     <h3>{e(ev['title'])}</h3>
     {('<div class="sess"><div class="sess-tags">' + session_tags(ev['session']) + '</div>' + session_row(ev['session']) + '</div>') if ev.get('session') else ''}
-    <p>{e(ev['summary'])}</p>
+    <p>{glossed[i]}</p>
     <details>
       <summary><span style="display:inline-flex;align-items:center;gap:6px">{ICON_CHEV}<span class="long-l">Sources, documents and numbers</span><span class="short-l">Sources &amp; numbers</span></span><span class="cnt">{n} source{'s' if n != 1 else ''}</span></summary>
       <div class="depth">{nums_html}{differs}<div><span class="lbl">Reported by</span><div class="srcs">{srcs}</div></div>{link}</div>
     </details>
+    {share_row(site, s, ev)}
   </article></div>
 </li>""")
     ups = ""
@@ -1023,6 +1100,7 @@ def build_story(site, stories, s, axis):
     chart_html = chart_panel(s)
 
     n_src = sum(len(ev["sources"]) for ev in evs)
+    g_used = set()
     body = f"""
 <div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Timelines</a> / {e(s['category'])}</nav>
@@ -1037,9 +1115,9 @@ def build_story(site, stories, s, axis):
       <section class="panel glance" aria-labelledby="g-h">
         <div class="glance-head"><h2 class="eyebrow" id="g-h">In 30 seconds</h2><span>For everyone</span></div>
         <div class="glance-cols">
-          <div><h3>What happened</h3><p>{e(s['glance']['what'])}</p></div>
-          <div><h3>Why it matters</h3><p>{e(s['glance']['why'])}</p></div>
-          <div><h3>What’s next</h3><p>{e(s['glance']['next'])}</p></div>
+          <div><h3>What happened</h3><p>{gloss(s['glance']['what'], g_used)}</p></div>
+          <div><h3>Why it matters</h3><p>{gloss(s['glance']['why'], g_used)}</p></div>
+          <div><h3>What’s next</h3><p>{gloss(s['glance']['next'], g_used)}</p></div>
         </div>
         <div class="keynums">{keyn}</div>
       </section>
@@ -1070,6 +1148,9 @@ def build_story(site, stories, s, axis):
   </div>
 </div>
 """
+    used_keys = sorted(set(re.findall(r'data-gl="(g\d+)"', body)))
+    if used_keys:
+        body += f'<script>window.NP_GLOSS={json.dumps({k: GLOSS_DEFS[k] for k in used_keys}, ensure_ascii=False)};</script>'
     body += f'<script>window.NP_STORIES={json.dumps([sm_data(s)], ensure_ascii=False)};</script>'
     dom = site["domain"].rstrip("/")
     first, last = git_times(DATA / "stories" / f"{slug}.json")
@@ -1254,9 +1335,120 @@ def build_og(site, stories, order, axis):
         card(out / f"{slug}.png", s["category"] + " · " + s["status"], s["big"], s["title"], s)
 
 
+# ---------- the week in review ----------
+def week_items(stories, order, start, end):
+    """Events added between start and end (inclusive), grouped by story, most active story first.
+    Market wraps keep only their newest day; roll-ups (which repeat company news) are left out."""
+    groups = []
+    for slug in order:
+        if slug in ROLLUPS:
+            continue
+        s = stories[slug]
+        first_added = min(d(ev["added"]) for ev in s["events"])
+        is_new = start <= first_added <= end
+        if is_new:
+            # a timeline launched this week: its whole history was "added" now, so show only its newest moments
+            evs = sorted((ev for ev in s["events"] if d(ev["date"]) <= end and ev["phase"] != "forecast"), key=lambda ev: ev["date"])[-2:]
+        else:
+            # news from this week (allowing a few days' lag for late additions), not background filled in later
+            evs = [ev for ev in s["events"] if start <= d(ev["added"]) <= end and ev["phase"] != "forecast"
+                   and start - dt.timedelta(days=3) <= d(ev["date"]) <= end]
+        if not evs:
+            continue
+        evs.sort(key=lambda ev: (ev["date"], ev["added"]))
+        s = dict(s, _new=is_new)
+        extra = 0
+        if s.get("market") and len(evs) > 1:
+            extra, evs = len(evs) - 1, evs[-1:]
+        keys = sum(1 for ev in evs if ev.get("key"))
+        groups.append((s, evs, extra, keys))
+    groups.sort(key=lambda g: (g[3] > 0, len(g[1]) + g[2] * 0.2, g[0].get("importance", 3)), reverse=True)
+    return groups
+
+
+def week_range_label(start, end):
+    if start.month == end.month:
+        return f"{start.day}–{end.day} {end.strftime('%b %Y')}"
+    return f"{start.day} {start.strftime('%b')} – {end.day} {end.strftime('%b %Y')}"
+
+
+def build_week(site, stories, order, today):
+    start = today - dt.timedelta(days=6)
+    groups = week_items(stories, order, start, today)
+    n_ev = sum(len(g[1]) + g[2] for g in groups)
+    blocks = []
+    for s, evs, extra, keys in groups:
+        rows = []
+        shown = evs[-4:]  # newest four; the rest are one tap away on the timeline
+        hidden_n = len(evs) - len(shown)
+        for ev in reversed(shown):
+            rows.append(f'<li{" class=key" if ev.get("key") else ""}><a href="/stories/{e(s["slug"])}/#{e(ev["aid"])}">'
+                        f'<span class="wk-when">{e(short_date(d(ev["date"]), today))}</span>'
+                        f'<span class="wk-body"><span class="wk-t">{e(ev["title"])}</span><span class="wk-st">{ICON_CHECK}{e(ev["status"])}</span></span></a></li>')
+        more = f'<li class="wk-more">Plus {extra} earlier daily {"wrap" if extra == 1 else "wraps"} this week</li>' if extra else ""
+        if hidden_n:
+            more += (f'<li class="wk-more"><a href="/stories/{e(s["slug"])}/">{hidden_n} more '
+                     f'{"update" if hidden_n == 1 else "updates"} this week on the timeline →</a></li>')
+        blocks.append(f"""<section class="wk-story {cat_class(s['category'])}">
+  <div class="wk-hd"><a href="/stories/{e(s['slug'])}/"><span class="wk-cat">{e(s['category'])}{' · New timeline' if s.get('_new') else ''}</span><h2>{e(s['title'])}</h2></a>
+  <div class="wk-now"><span class="wk-big">{e(s['big'])}</span>{('<span class="wk-delta ' + delta_tone(s) + '">' + delta_html(s['delta']) + '</span>') if s.get('delta') else ''}{('<span class="wk-lbl">' + e(s['bigLabel']) + '</span>') if 0 < len(s.get('bigLabel', '')) <= 70 else ''}</div></div>
+  <ol class="wk-evs">{''.join(rows)}{more}</ol>
+</section>""")
+    ahead = []
+    for slug in order:
+        s = stories[slug]
+        for u in s.get("upcoming", []):
+            ud = d(u["date"])
+            if today < ud <= today + dt.timedelta(days=7) and not u.get("minor"):
+                ahead.append((ud, s, u))
+    ahead.sort(key=lambda x: x[0])
+    ahead_html = "".join(f'<li><span class="when">{e(u["label"])}</span><span class="what">{e(u["text"])} · <a href="/stories/{e(s["slug"])}/">{e(s["short"])}</a></span></li>' for _, s, u in ahead)
+    ahead_sec = f'<section class="cal wk-ahead" aria-labelledby="wa-h"><h2 class="eyebrow" id="wa-h">Coming up in the next 7 days</h2><ol>{ahead_html}</ol></section>' if ahead else ""
+    rng = week_range_label(start, today)
+    empty = '<p class="note">No new updates in the last seven days.</p>' if not groups else ""
+    body = f"""<div class="wrap-narrow week">
+  <header class="wk-top">
+    <p class="eyebrow">The week in review · {e(rng)}</p>
+    <h1>This week on Newspin</h1>
+    <p class="dek">{n_ev} updates across {len(groups)} stories in the last seven days, biggest moves first. Tap any line to open it on its timeline.</p>
+    <div class="hero-actions"><button type="button" class="btn btn-light" data-share="{e(site['domain'].rstrip('/'))}/week/" data-share-text="This week on Newspin, {e(rng)}">{ICON_SHARE}Share</button><a class="btn btn-light" href="/week/feed.xml">Weekly RSS</a></div>
+  </header>
+  {empty}{''.join(blocks)}
+  {ahead_sec}
+</div>"""
+    return page(site, title=f"The week in review, {rng} | Newspin", desc=f"Every big story that moved on Newspin in the last seven days ({rng}), with links to the full sourced timelines.",
+                path="/week/", body=body, nav="week")
+
+
+def build_week_feed(site, stories, order, today, weeks=6):
+    """RSS with one item per finished week (Monday to Sunday, IST): what moved, story by story."""
+    from email.utils import format_datetime
+    dom = site["domain"].rstrip("/")
+    last_sun = today - dt.timedelta(days=(today.weekday() + 1) % 7 or 7) if today.weekday() != 6 else today - dt.timedelta(days=7)
+    items = []
+    for w in range(weeks):
+        end = last_sun - dt.timedelta(days=7 * w)
+        start = end - dt.timedelta(days=6)
+        groups = week_items(stories, order, start, end)
+        if not groups:
+            continue
+        iso = end.isocalendar()
+        rng = week_range_label(start, end)
+        lines = "".join(f'<p><b>{e(s["short"])}</b>: ' + "; ".join(e(ev["title"]) for ev in reversed(evs[-4:])) + (f" (and {len(evs) - 4} more)" if len(evs) > 4 else "") + (f" (plus {extra} earlier daily wraps)" if extra else "") + "</p>" for s, evs, extra, _ in groups)
+        pub = format_datetime(dt.datetime.combine(end + dt.timedelta(days=1), dt.time(6, 0), IST))
+        guid = f"{dom}/week/#{iso[0]}-W{iso[1]:02d}"
+        items.append(f"<item><title>The week in review, {e(rng)}</title><link>{dom}/week/</link><guid isPermaLink=\"false\">{guid}</guid>"
+                     f"<pubDate>{pub}</pubDate><description>{e(lines)}</description></item>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
+            f"<title>Newspin: the week in review</title><link>{dom}/week/</link><description>Every Monday: the stories that moved on Newspin last week.</description>"
+            f'<language>en-in</language><atom:link href="{dom}/week/feed.xml" rel="self" type="application/rss+xml"/>' + "".join(items) + "</channel></rss>\n")
+
+
 # ---------- main ----------
 def main():
     site, stories, order = load()
+    global GLOSS_PATS, GLOSS_DEFS
+    GLOSS_PATS, GLOSS_DEFS = load_glossary()
     ist_today = dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).date()  # the site's home time zone
     today = dt.date.fromisoformat(os.environ.get("NEWSPIN_TODAY") or ist_today.isoformat())
     axis = Axis(stories, today)
@@ -1282,10 +1474,13 @@ def main():
     for name, fn in [("about", build_about), ("privacy", build_privacy), ("terms", build_terms)]:
         (DIST / name).mkdir()
         (DIST / name / "index.html").write_text(fn(site))
+    (DIST / "week").mkdir()
+    (DIST / "week" / "index.html").write_text(build_week(site, stories, order, today))
+    (DIST / "week" / "feed.xml").write_text(build_week_feed(site, stories, order, today))
     (DIST / "404.html").write_text(build_404(site))
     dom = site["domain"].rstrip("/")
     newest = max(stories[x]["updated"] for x in order)
-    urls = [("/", newest)] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"]), ("/terms/", site["today"])]
+    urls = [("/", newest), ("/week/", newest)] + [(f"/stories/{s}/", stories[s]["updated"]) for s in order] + [("/about/", site["today"]), ("/privacy/", site["today"]), ("/terms/", site["today"])]
     sm = "".join(f"<url><loc>{dom}{u}</loc><lastmod>{m}</lastmod></url>" for u, m in urls)
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n")
@@ -1312,7 +1507,7 @@ def build_feed(site, stories, order, limit=40):
         return format_datetime(dt.datetime.fromisoformat(d + "T09:00:00+05:30"))
     out = []
     for added, i, s, ev in items[:limit]:
-        link = f"{dom}/stories/{s['slug']}/#e{i + 1}"
+        link = f"{dom}/stories/{s['slug']}/#{ev['aid']}"
         out.append(f"<item><title>{e(s['short'])}: {e(ev['title'])}</title><link>{link}</link>"
                    f"<guid isPermaLink=\"true\">{link}</guid><pubDate>{rfc(added)}</pubDate>"
                    f"<category>{e(s['category'])}</category><description>{e(ev['dateLabel'] + ' · ' + ev['summary'])}</description></item>")

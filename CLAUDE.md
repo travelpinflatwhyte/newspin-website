@@ -6,6 +6,8 @@ Newspin (newspinapp.com) turns big ongoing news stories into sourced timelines. 
 - `data/site.json`: site settings, `order` (every story slug must be listed), categories.
 - `data/stories/<slug>.json`: one file per story (fields documented in README.md).
 - `build.py`: static site generator, no dependencies (Pillow optional for share images).
+- `check.py`: data checks run before every deploy (see README).
+- `data/glossary.json`: tap-to-explain definitions; add a term when a story starts using new jargon (see README).
 - `static/`: `app.js`, `styles.css`, icons.
 
 ## Editorial rules (non-negotiable)
@@ -26,7 +28,7 @@ Newspin (newspinapp.com) turns big ongoing news stories into sourced timelines. 
 4. Market wraps: on trading days, the 5:38 pm run adds the day's event to `india-markets-daily` and the 5:38 am run adds the previous US session to `us-markets-daily`, each with a `session` (see README). Skip weekends and exchange holidays. Never give tips, targets or forecasts.
 4b. `ai-model-tracker` uses `"order": "desc"` (newest first on the page); keep events sorted by date in the file as usual. Add each major model launch there and to the company's own timeline.
 5. New stories: only the early-morning run (5:38 am IST) looks for them. Scan the past day's top India and world headlines (major wires and Indian papers) for stories we do not already cover. Add at most one new story per day, and only if it has wide impact (on many countries, markets or millions of people) or is unusually interesting to a general reader, and can be sourced well. Routine or local news, single-day incidents with no follow-up, celebrity items and anything thinly sourced do not qualify; when in doubt, skip. In the run's report, list the two or three candidates considered and why each was added or skipped. Other runs do not add new stories. Add a new story's slug to `site.json` `order`. If the story is about one foreign country and its flag file exists in `data/flags/`, set `flag` (see README). Do not add company logos.
-6. Run `python3 build.py`. It must finish with "Built N stories". Check that every JSON file still parses.
+6. Run `python3 check.py` and fix every ERROR (the deploy stops on errors); read the warnings and fix those that apply to today's changes. Then run `python3 build.py`. It must finish with "Built N stories".
 7. Commit with a plain summary of what changed (one line per story) and push to `main`. If nothing material changed, do not commit.
 8. Finish with a short report: stories updated, new stories, anything uncertain or left out and why.
 

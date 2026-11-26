@@ -7,6 +7,8 @@ A static website: India's biggest ongoing stories as sourced timelines. No serve
 ```
 data/site.json            site settings, home-page order, "how stories connect" chain
 data/stories/*.json       one file per story (events, numbers, sources, glance)
+data/glossary.json        plain-English definitions shown when a reader taps a term
+check.py                  checks the data before every deploy (errors stop the deploy)
 static/styles.css         all styles
 static/app.js             follow, catch-me-up, Simple/Detailed, listen, share (stored in the reader's browser only)
 build.py                  turns data/ into the finished site in dist/
@@ -16,8 +18,11 @@ dist/                     the finished site: upload this folder
 ## Build
 
 ```
+python3 check.py    # errors stop the deploy; warnings are listed for a person to look at
 python3 build.py
 ```
+
+`check.py` also runs in the deploy workflow before the build. **Errors** (deploy stops): an event with no source or a source that isn't a web link, missing fields, dates that aren't real dates, an event date or `added` date in the future, a market session whose `prev` doesn't equal the day before's `close`, links to stories that don't exist, a story missing from `site.json` `order`, a broken glossary. **Warnings** (deploy goes ahead): a status outside the usual labels, an allegation that doesn't say whose, upcoming items whose date has passed, a new event with a single source, a recent event whose source address carries an earlier year (often an old article that a search surfaced as new), an out-of-date `heroTitle`, `updated` older than the newest event, and long `seoTitle`/`dek`.
 
 Needs Python 3.9+. Pillow (`pip install pillow`) is optional; it makes the share images in `dist/og/`.
 
@@ -112,6 +117,15 @@ Add `"chart": {"title": "Repo rate, %", "unit": "%", "step": true, "note": "..."
 - IndexNow: `build.py` writes the key file (`/<INDEXNOW_KEY>.txt`). After each push is published, the workflow waits 90 seconds and runs `indexnow.py` with the story files changed in that push, which sends those story URLs plus the home page to api.indexnow.org (Bing and other IndexNow engines). It never fails the deploy.
 - Keep `seoTitle` under about 50 characters (" | Newspin" is added) and `dek` under 160.
 - `feed.xml` (RSS, latest 40 entries), `sitemap.xml`, `robots.txt`, and `CNAME` (newspinapp.com) are generated. Upload the whole zip so CNAME is never lost.
+
+## Sharing one update
+Every event has a permanent link, `/stories/<slug>/#u-<date>` (with `-2`, `-3` for a second or third event on the same date). Older `#e<N>` links still work but shift when an earlier event is inserted, so the RSS feed, the share buttons and the week page use `#u-` links. Opening a link reveals the event even if it is folded under Key moments, and highlights it. Each event card has **Share** (the phone's share sheet, or copy link on desktop) and **WhatsApp** (opens WhatsApp with the headline, the first sentence of the summary and the link). The share text is built from the event's `title`, `dateLabel` and `summary`, so write the summary's first sentence so it stands on its own.
+
+## The week in review
+`/week/` lists everything added in the last seven days (IST), story by story, with turning points first, the newest four updates per story, and what's coming up in the next seven days. Market wraps show only their latest day. A timeline launched that week shows its two newest moments and a "New timeline" tag, not its whole history. Roll-up stories (`ai-this-week`, `ai-model-tracker`) are left out because they repeat company news. `/week/feed.xml` has one item per finished Monday-to-Sunday week. The page rebuilds every night with the scheduled deploy, so nothing needs editing by hand.
+
+## Glossary
+`data/glossary.json` holds short definitions (`term`, optional `also` for other spellings, `case: true` for acronyms, `def`). On story pages the build underlines the first use of each term in the 30-second panel and its first use among the events (counting from the newest), at most two terms per paragraph; tapping shows the definition. Keep definitions to one or two plain sentences, with no figures that go out of date. Don't add words that are part of many other names (for example plain "Nifty", which would also catch "Nifty IT").
 
 ## Listen
 - Uses the device's built-in text-to-speech (Web Speech API). No audio files, no service, no cost; nothing is sent anywhere.

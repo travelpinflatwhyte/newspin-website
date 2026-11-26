@@ -26,6 +26,8 @@ jobs:
           python-version: "3.12"
       - name: Install Pillow (share images)
         run: pip install pillow
+      - name: Check data (stops the deploy on errors; warnings are listed only)
+        run: python3 check.py
       - name: Build
         run: python3 build.py
       - name: Publish to gh-pages

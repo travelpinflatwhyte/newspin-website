@@ -67,7 +67,8 @@
     btn.addEventListener('click', function () {
       var url = btn.getAttribute('data-share') || location.href;
       var title = document.title;
-      if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
+      var text = btn.getAttribute('data-share-text');
+      if (navigator.share) { navigator.share(text ? { title: title, text: text, url: url } : { title: title, url: url }).catch(function () {}); return; }
       if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () { say('Link copied'); copied(btn); }, function () { say(url); }); }
       else { say(url); }
     });
@@ -641,8 +642,9 @@
         document.querySelectorAll('.tl-wrap .upcoming').forEach(function (u) { if (o === 'desc') wrap.insertBefore(u, ol); else wrap.appendChild(u); });
         apply();
       }
+      function evOf(id) { var el = document.getElementById(id); return el && el.closest ? el.closest('li.ev') || el : el; }
       function reveal(id) {
-        var li = document.getElementById(id);
+        var li = evOf(id);
         if (!li || !li.classList.contains('ev') || !li.hidden) return;
         if (st.onlyNew && onlyBtn) onlyBtn.click();
         st.filter = 'all'; st.opened.push(li); apply();
@@ -651,7 +653,7 @@
       document.querySelectorAll('[data-tl-filter]').forEach(function (b) { b.addEventListener('click', function () { st.filter = b.getAttribute('data-tl-filter'); apply(); }); });
       document.querySelectorAll('[data-tl-order-toggle]').forEach(function (b) { b.addEventListener('click', function () { setOrder(ol.getAttribute('data-order') === 'desc' ? 'asc' : 'desc'); }); });
       document.addEventListener('click', function (ev) {
-        var a = ev.target.closest && ev.target.closest('a[href^="#e"]');
+        var a = ev.target.closest && ev.target.closest('a[href^="#e"], a[href^="#u-"]');
         if (a) reveal(a.getAttribute('href').slice(1));
       }, true);
       var onlyBtn = document.querySelector('#newbar button');
@@ -731,9 +733,14 @@
         window.addEventListener('resize', setH);
       }
       apply();
-      if (/^#e\d+$/.test(location.hash)) {
-        var target = document.getElementById(location.hash.slice(1));
-        if (target && target.hidden) { reveal(target.id); setTimeout(function () { jump(target); }, 50); }
+      if (/^#(e\d+|u-[\d-]+)$/.test(location.hash)) {
+        var target = evOf(location.hash.slice(1));
+        if (target) {
+          var wasHidden = target.hidden;
+          reveal(location.hash.slice(1));
+          target.classList.add('ev-target');
+          if (wasHidden || /^#u-/.test(location.hash)) setTimeout(function () { jump(target); }, 50);
+        }
       }
       return st;
     })();
@@ -833,4 +840,44 @@
     function check() { var s = window.scrollY > 4; if (s !== on) { on = s; h.classList.toggle('scrolled', s); } }
     window.addEventListener('scroll', check, { passive: true }); check();
   })();
+})();
+
+// ---- glossary: tap an underlined term for a short definition ----
+(function () {
+  var defs = window.NP_GLOSS;
+  if (!defs) return;
+  var tip = document.createElement('div');
+  tip.className = 'gl-tip'; tip.id = 'gl-tip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true;
+  document.body.appendChild(tip);
+  var cur = null;
+  function close() {
+    if (!cur) return;
+    cur.setAttribute('aria-expanded', 'false'); cur.removeAttribute('aria-describedby');
+    tip.hidden = true; cur = null;
+  }
+  function open(btn) {
+    var g = defs[btn.getAttribute('data-gl')];
+    if (!g) return;
+    if (cur === btn) { close(); return; }
+    close(); cur = btn;
+    tip.innerHTML = '';
+    var b = document.createElement('b'); b.textContent = g.t;
+    var p = document.createElement('span'); p.textContent = g.d;
+    tip.appendChild(b); tip.appendChild(p);
+    tip.hidden = false;
+    btn.setAttribute('aria-expanded', 'true'); btn.setAttribute('aria-describedby', 'gl-tip');
+    var r = btn.getBoundingClientRect(), w = Math.min(300, window.innerWidth - 32);
+    tip.style.width = w + 'px';
+    var left = Math.max(16, Math.min(r.left + r.width / 2 - w / 2, window.innerWidth - w - 16));
+    var top = r.bottom + 8 + window.pageYOffset;
+    if (r.bottom + tip.offsetHeight + 16 > window.innerHeight && r.top > tip.offsetHeight + 16) top = r.top - tip.offsetHeight - 8 + window.pageYOffset;
+    tip.style.left = left + 'px'; tip.style.top = top + 'px';
+  }
+  document.querySelectorAll('button.gl').forEach(function (btn) {
+    btn.removeAttribute('title'); // the styled tip replaces the browser's tooltip
+    btn.addEventListener('click', function (ev) { ev.stopPropagation(); open(btn); });
+  });
+  document.addEventListener('click', function (ev) { if (cur && !tip.contains(ev.target)) close(); });
+  document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && cur) { var b = cur; close(); b.focus(); } });
+  window.addEventListener('resize', close);
 })();

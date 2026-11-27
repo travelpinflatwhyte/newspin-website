@@ -15,11 +15,11 @@
   "delta": "Russian missiles in Poland, 20 Nov",
   "deltaTone": "neutral",
   "bigLabel": "Kh-101 cruise missiles that came down in south-east Poland during a Russian attack on Ukraine on 20 November, per Polish prosecutors. No one was hurt.",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "glance": {
     "what": "A run of incidents linked to Russia has hit NATO and EU countries. Russian missiles came down in Poland in July and again on 20 November. Estonia blames Russian military intelligence for an arson attempt and is closing its road border with Russia. Denmark expelled Russia's defence attaché over an alleged murder plot. Ukraine says it hit a Russian warship in a Libyan port.",
     "why": "NATO's 32 members have promised to treat an attack on one as an attack on all. Each incident tests how the alliance responds without being drawn into the war. Border closures, air-raid alerts and expulsions also affect travel and trade in the region.",
-    "next": "Estonia closes its three road crossings with Russia from 1 December. Poland plans a no-fly zone along its eastern border, hopefully by late December or early January, and wants NATO to do the same along the eastern flank. NATO has sent an early-warning radar plane (AWACS) to Poland. A Russian drone briefly entered Polish airspace on 23 November. Russia says Estonia is \"on the verge of triggering open war\"; Estonia denies Russia's claims."
+    "next": "Estonia closes its three road crossings with Russia from 1 December. Poland plans a no-fly zone along its eastern border, hopefully by late December or early January, and wants NATO to do the same along the eastern flank. NATO has sent an early-warning radar plane (AWACS) to Poland. A Russian drone briefly entered Polish airspace on 23 November. Russia says Estonia is \"on the verge of triggering open war\"; Estonia denies Russia's claims. Britain has written to about 100,000 former service members to update their details in case they are needed."
   },
   "keyNumbers": [
     {
@@ -262,6 +262,30 @@
         }
       ],
       "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "world",
+      "title": "Britain writes to about 100,000 former service members to update their details in case of a call-up",
+      "summary": "Britain's defence ministry has written to about 100,000 former military personnel in its Strategic Reserve, people who can be recalled in a crisis, asking them to update their contact details, jobs and skills. Defence Secretary Wes Streeting called it a \"sensible, necessary precaution\" given the \"threat environment in Europe\", and said it \"should be routine, but it hasn't happened for some time\". The letters are not call-up orders. They also invite volunteers for training, including NATO's Steadfast Defender exercise in spring 2027, per Kyiv Post, citing The Telegraph. A bill before Parliament would raise the maximum recall age from 55 to 65, per Defence24.",
+      "status": "Stated · UK Defence Secretary",
+      "sources": [
+        {
+          "name": "Yahoo News UK (Hereford Times)",
+          "url": "https://uk.news.yahoo.com/100-000-veterans-contacted-details-095224264.html",
+          "primary": true
+        },
+        {
+          "name": "Defence24",
+          "url": "https://defence24.com/armed-forces/britain-prepares-100000-former-soldiers-for-war-nato-exercise-planned-for-2027"
+        },
+        {
+          "name": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91291"
+        }
+      ],
+      "added": "2026-11-27"
     }
   ]
 }

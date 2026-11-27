@@ -1,633 +1,653 @@
 {
- "slug": "ukraine-peace-talks-2026",
- "short": "Ukraine talks",
- "category": "World",
- "regions": [
-  "World"
- ],
- "title": "Russia–Ukraine peace talks: from Abu Dhabi to the Crimean bridge strikes",
- "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
- "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
- "importance": 4,
- "status": "Both sides prepare a large swap; Russian missiles hit Kyiv",
- "tone": "live",
- "big": "1,000+",
- "delta": "prisoners per side",
- "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. Kyiv says the first prisoners could return in late November or early December; the final number is not set.",
- "updated": "2026-11-27",
- "glance": {
-  "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
-  "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-  "next": "No date is set for the next round. The Kremlin says lists for a \"truly large-scale\" prisoner exchange are being drawn up with mediators, and Zelenskyy says Ukraine is preparing it; Kyiv expects the first stage in late November or early December. The Kremlin says the peace process \"isn't going along smoothly\" and blames Europe. Russian missiles and drones hit Kyiv, Kharkiv and Kryvyi Rih on 25–26 November."
- },
- "keyNumbers": [
-  {
-   "label": "Prisoner swap agreed",
-   "value": "1,000+",
-   "note": "per side, per TASS; first stage due late Nov–early Dec (Kyiv)",
-   "hot": true
+  "slug": "ukraine-peace-talks-2026",
+  "short": "Ukraine talks",
+  "category": "World",
+  "regions": [
+    "World"
+  ],
+  "title": "Russia–Ukraine peace talks: from Abu Dhabi to the Crimean bridge strikes",
+  "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
+  "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
+  "importance": 4,
+  "status": "Both sides prepare a large swap; Russian missiles hit Kyiv",
+  "tone": "live",
+  "big": "1,000+",
+  "delta": "prisoners per side",
+  "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. Kyiv says the first prisoners could return in late November or early December; the final number is not set.",
+  "updated": "2026-11-27",
+  "glance": {
+    "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
+    "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
+    "next": "No date is set for the next round. The Kremlin says lists for a \"truly large-scale\" prisoner exchange are being drawn up with mediators, and Zelenskyy says Ukraine is preparing it; Kyiv expects the first stage in late November or early December. The Kremlin says the peace process \"isn't going along smoothly\" and blames Europe. Russian missiles and drones hit Kyiv, Kharkiv and Kryvyi Rih on 25–26 November. Trump says he asked Putin to pull back military aggression across Europe; the Kremlin has not said whether Putin will attend the G20 summit in Florida on 14–15 December."
   },
-  {
-   "label": "Gap between rounds",
-   "value": "9 months",
-   "note": "Feb to Nov 2026"
-  },
-  {
-   "label": "Prisoners swapped, 23 Oct",
-   "value": "270 each",
-   "note": "11th swap of 2026"
-  },
-  {
-   "label": "Crimean bridge strikes",
-   "value": "3",
-   "note": "in one week, Nov"
-  }
- ],
- "forYou": "The war affects global oil and grain prices, and US sanctions policy on Russian oil, which India buys in large amounts.",
- "upcoming": [],
- "next": "Whether the first stage of the prisoner swap happens by early December; whether a next round is set and Europe takes part; more Russian strikes on energy.",
- "links": [
-  "russian-oil",
-  "russia-nato-eastern-flank"
- ],
- "events": [
-  {
-   "date": "2026-01-24",
-   "dateLabel": "23–24 Jan 2026",
-   "phase": "world",
-   "title": "First US–Russia–Ukraine talks in Abu Dhabi end without a deal",
-   "summary": "The United Arab Emirates hosted the first three-way talks, brokered by the US. Russia's team was led by its military intelligence chief and Ukraine's by Rustem Umerov. There was no agreement: Russia demanded that Ukraine withdraw fully from the Donbas region in the east, and Kyiv refused. US officials said the talks 'surpassed expectations'. On the night they ended, Russia launched more than 370 drones and 21 missiles at Ukraine, per CNN.",
-   "status": "Confirmed · US, Russian and Ukrainian delegations",
-   "numbers": [
+  "keyNumbers": [
     {
-     "k": "Drones and missiles that night",
-     "v": "370+ and 21"
+      "label": "Prisoner swap agreed",
+      "value": "1,000+",
+      "note": "per side, per TASS; first stage due late Nov–early Dec (Kyiv)",
+      "hot": true
+    },
+    {
+      "label": "Gap between rounds",
+      "value": "9 months",
+      "note": "Feb to Nov 2026"
+    },
+    {
+      "label": "Prisoners swapped, 23 Oct",
+      "value": "270 each",
+      "note": "11th swap of 2026"
+    },
+    {
+      "label": "Crimean bridge strikes",
+      "value": "3",
+      "note": "in one week, Nov"
     }
-   ],
-   "sources": [
+  ],
+  "forYou": "The war affects global oil and grain prices, and US sanctions policy on Russian oil, which India buys in large amounts.",
+  "upcoming": [],
+  "next": "Whether the first stage of the prisoner swap happens by early December; whether a next round is set and Europe takes part; more Russian strikes on energy.",
+  "links": [
+    "russian-oil",
+    "russia-nato-eastern-flank"
+  ],
+  "events": [
     {
-     "name": "bne IntelliNews",
-     "url": "https://www.intellinews.com/first-direct-ukraine-russia-talks-in-uae-since-invasion-end-without-breakthrough-421951/",
-     "primary": true
+      "date": "2026-01-24",
+      "dateLabel": "23–24 Jan 2026",
+      "phase": "world",
+      "title": "First US–Russia–Ukraine talks in Abu Dhabi end without a deal",
+      "summary": "The United Arab Emirates hosted the first three-way talks, brokered by the US. Russia's team was led by its military intelligence chief and Ukraine's by Rustem Umerov. There was no agreement: Russia demanded that Ukraine withdraw fully from the Donbas region in the east, and Kyiv refused. US officials said the talks 'surpassed expectations'. On the night they ended, Russia launched more than 370 drones and 21 missiles at Ukraine, per CNN.",
+      "status": "Confirmed · US, Russian and Ukrainian delegations",
+      "numbers": [
+        {
+          "k": "Drones and missiles that night",
+          "v": "370+ and 21"
+        }
+      ],
+      "sources": [
+        {
+          "name": "bne IntelliNews",
+          "url": "https://www.intellinews.com/first-direct-ukraine-russia-talks-in-uae-since-invasion-end-without-breakthrough-421951/",
+          "primary": true
+        },
+        {
+          "name": "CNN via KVIA",
+          "url": "https://kvia.com/news/us-world/cnn-world/2026/01/23/ukraine-reports-new-deadly-russian-air-strikes-hours-after-first-trilateral-talks-with-us-in-abu-dhabi/"
+        }
+      ],
+      "added": "2026-11-20",
+      "key": true
     },
     {
-     "name": "CNN via KVIA",
-     "url": "https://kvia.com/news/us-world/cnn-world/2026/01/23/ukraine-reports-new-deadly-russian-air-strikes-hours-after-first-trilateral-talks-with-us-in-abu-dhabi/"
+      "date": "2026-02-05",
+      "dateLabel": "4–5 Feb 2026",
+      "phase": "world",
+      "title": "Second round: no ceasefire, but 314 prisoners of war swapped",
+      "summary": "A second round in Abu Dhabi produced no ceasefire; control of the Donetsk region remained the main dispute. US envoy Steve Witkoff said the sides agreed to exchange 314 prisoners of war, and Russia's RIA news agency reported 157 returned by each side. It was the first swap since October 2025. Talks then stalled and lapsed after the US and Israel launched a war on Iran, Al Jazeera and Reuters report.",
+      "status": "Confirmed · Witkoff, Russian Defence Ministry",
+      "numbers": [
+        {
+          "k": "Prisoners exchanged",
+          "v": "314 (157 each)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BusinessDay (Reuters)",
+          "url": "https://www.businessday.co.za/world/europe/2026-02-05-ukraine-and-russia-agree-to-prisoner-swap-on-day-two-of-peace-talks/",
+          "primary": true
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/2/4/russia-ukraine-war-second-round-of-peace-talks-set-to-begin-in-abu-dhabi"
+        },
+        {
+          "name": "AAP",
+          "url": "https://aapnews.aap.com.au/news/ukraine-and-russia-swap-prisoners-following-uae-talks"
+        }
+      ],
+      "added": "2026-11-20",
+      "differs": "Ukrainska Pravda calls the February meeting the 'first round' of three-way talks; Al Jazeera calls it the second, after January."
+    },
+    {
+      "date": "2026-10-23",
+      "dateLabel": "23 Oct 2026",
+      "phase": "world",
+      "title": "Kremlin says talks will resume in Abu Dhabi in November",
+      "summary": "After Witkoff met President Putin in St Petersburg, Kremlin spokesman Dmitry Peskov said talks were planned for the first half of November in Abu Dhabi. President Zelenskyy confirmed 'technical negotiations'. The same day the two sides exchanged 270 prisoners each; the Kyiv Independent says it was the 11th exchange of 2026.",
+      "status": "Stated · Kremlin",
+      "numbers": [
+        {
+          "k": "Prisoners exchanged",
+          "v": "270 each"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+          "primary": true
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-02",
+      "dateLabel": "2 Nov 2026",
+      "phase": "world",
+      "title": "Witkoff sets talks for 10–11 November",
+      "summary": "Witkoff said talks would be held in Abu Dhabi on 10 and 11 November, covering 'post-war security agreements, de-escalation, humanitarian measures, and ending the war', with him and Jared Kushner leading the US side, Reuters reports.",
+      "status": "Stated · Witkoff",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Khaleej Times (Reuters)",
+          "url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-11",
+      "dateLabel": "10–11 Nov 2026",
+      "phase": "world",
+      "title": "First three-way talks in nine months: a big prisoner swap agreed, no breakthrough",
+      "summary": "Kushner and Witkoff mediated, with Vladimir Medinsky leading Russia's team and Umerov Ukraine's. Umerov said the main result was agreement on a 'large-scale prisoner exchange'; Medinsky called it a 'fundamental agreement'. A Russian general quoted by the TASS news agency said it would involve more than 1,000 people on each side. Kushner said the gaps had 'narrowed', but the sides still disagreed on territory, including Russia's demand for all of Donbas.",
+      "status": "Confirmed · Russian and Ukrainian delegations",
+      "numbers": [
+        {
+          "k": "Swap agreed",
+          "v": "1,000+ per side (TASS)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+          "primary": true
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/ukraine/2026/1111/1598783-ukraine-russia/"
+        },
+        {
+          "name": "Council on Foreign Relations",
+          "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
+        }
+      ],
+      "added": "2026-11-20",
+      "key": true,
+      "differs": "The Council on Foreign Relations names a different Ukrainian representative; RTÉ and the Kyiv Independent name Umerov as chief negotiator."
+    },
+    {
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "world",
+      "title": "US envoys meet Putin in Moscow, then Zelenskyy",
+      "summary": "Witkoff and Kushner met Putin in the Kremlin for about two hours; his aide Yuri Ushakov called the talks 'substantive, constructive, frank and useful', AP reports. Putin said European troops in Ukraine after a ceasefire would be 'absolutely unacceptable'. Russian state TV quoted Witkoff as saying 'the Europeans will join at the next meeting'. The envoys then met Zelenskyy in Dublin.",
+      "status": "Confirmed · Kremlin, US envoys",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "AP via AJC",
+          "url": "https://www.ajc.com/news/2026/11/us-envoys-meet-with-putin-in-the-kremlin-after-ukraine-talks-in-abu-dhabi/",
+          "primary": true
+        },
+        {
+          "name": "Council on Foreign Relations",
+          "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-17",
+      "dateLabel": "16–17 Nov 2026",
+      "phase": "world",
+      "title": "Ukrainian strike brings down part of the Crimean bridge road",
+      "summary": "Ukraine hit the 19-km Kerch bridge, which links Russia to occupied Crimea, with drones and missiles. Zelenskyy called it an 'unprecedented operation in response to Russian attacks on our infrastructure'. Al Jazeera reports about 200 metres of roadway heavily damaged and partly underwater. Russia opened a terrorism case, and the Kremlin said the bridge would be restored. Russian strikes damaged two bridges over the Dnipro in Kyiv the same day.",
+      "status": "Confirmed · Ukrainian General Staff, Russian-installed Crimea authorities",
+      "numbers": [
+        {
+          "k": "Bridge length",
+          "v": "19 km"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC13 (AP)",
+          "url": "https://abc13.com/story/ukraine-launches-unprecedented-strike-crimean-bridge-zelenskyy-says/20048008/",
+          "primary": true
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/18/crimea-is-turning-into-an-island-how-ukraine-hit-putins-prized-bridge"
+        }
+      ],
+      "added": "2026-11-20",
+      "key": true,
+      "differs": "ABC dates the strike to the night of Monday 16 November; Al Jazeera and Euronews say Tuesday 17 November. The Ukrainian missile maker Fire Point claims nearly 900 feet of road was destroyed; Al Jazeera reports about 200 metres damaged."
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "18–19 Nov 2026",
+      "phase": "world",
+      "title": "Third strike in a week hits the bridge's railway; trains stop",
+      "summary": "Ukraine's Defence Ministry said Neptune missiles hit the railway section of the bridge. Russia's Transport Ministry reported no injuries and a temporary halt to trains. Ukraine also hit two oil refineries in Russia's Krasnodar region.",
+      "status": "Confirmed · Ukrainian Defence Ministry, Russian Transport Ministry",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/ukraine-strikes-key-bridge-linking-russia-and-crimea-for-third-time-this-week-halting-rail",
+          "primary": true
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432"
+        }
+      ],
+      "added": "2026-11-20",
+      "differs": "ABC places the strike on Wednesday night (18 November); Euronews reports it on Thursday (19 November). It appears to be the same overnight attack."
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "phase": "world",
+      "title": "Trump, Xi and Putin meet in Shenzhen; their joint declaration leaves out Ukraine",
+      "summary": "The three leaders met for the first time together, on the sidelines of the APEC summit in China. Their four-point declaration does not mention Ukraine, per UNITED24 and the Kyiv Independent. Kremlin aide Ushakov said Ukraine was the main topic of a separate Trump–Putin meeting. Trump said 'things are happening' to end the war.",
+      "status": "Confirmed · Kremlin; Stated · Trump",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+          "primary": true
+        },
+        {
+          "name": "UNITED24 Media",
+          "url": "https://united24media.com/world/trump-putin-and-xi-sign-joint-declaration-without-mentioning-ukraine-or-europe-24540"
+        },
+        {
+          "name": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307"
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "phase": "world",
+      "title": "Putin: 'After the strikes on the Crimean bridge, there will be no negotiations'",
+      "summary": "At a press conference after APEC, Putin said Moscow would no longer discuss ceasefires covering energy sites and Black Sea shipping, and promised a response 'far more painful'. Zelenskyy said Russia rejects every proposal to de-escalate. The wider US-led talks have not been formally called off. In Berlin, European leaders and the US envoys agreed that national security advisers from Britain, France, Germany, Italy, Poland and the EU would represent Europe if the talks widen, The National reports; Kushner said 'President Trump wants to make a deal with Europe by his side.'",
+      "status": "Stated · Putin",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/europe/2026/11/19/berlin-hosts-zelenskyy-as-putin-cools-on-direct-talks/",
+          "primary": true
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
+        }
+      ],
+      "added": "2026-11-20",
+      "key": true,
+      "differs": "Translations of Putin's words differ: the Kyiv Independent quotes 'we will not negotiate'; Outlook India quotes 'there will be no agreements'."
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "19–20 Nov 2026",
+      "phase": "world",
+      "title": "Kushner says Russia accepts Europe at the table; Moscow rejects any NATO-style role for Kyiv",
+      "summary": "After the Berlin meeting of Ukraine's allies, US envoy Jared Kushner said: 'I think we've gotten the Russians comfortable with that concept where any security guarantee for Ukraine would be based on Article 5.' Article 5 is NATO's rule that an attack on one member is an attack on all. He also said Russia had agreed to talks that include Europe. Moscow has not confirmed this. Russian Deputy Foreign Minister Sergei Ryabkov said any 'quasi membership' of NATO for Kyiv was 'totally unacceptable', and that a visit by European representatives was 'under consideration'. Zelenskyy said the next meeting would be four-way: Ukraine, the US, Russia and Europe. No date has been set.",
+      "status": "Stated · Kushner; Stated · Russian Foreign Ministry",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it",
+          "primary": true
+        },
+        {
+          "name": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/90635"
+        },
+        {
+          "name": "Al Jazeera (Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+        }
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "phase": "world",
+      "title": "Russia strikes three Kyiv bridges after Putin promises a response",
+      "summary": "Overnight Russian ballistic missiles damaged the Podilskyi, Darnytskyi and Southern bridges over the Dnipro in Kyiv, Mayor Vitali Klitschko said. Traffic was restricted and people crossed the river on foot. Prime Minister Koretskyi said eight people were killed, six of them in Kyiv, and 28 wounded. Russia's Defence Ministry said it targeted bridges used to move weapons, plus defence, energy and transport sites. Power was cut across Kyiv and in 10 regions after nuclear plants reduced output, Ukraine's energy ministry said. Putin had said in China: 'We will respond to these attacks.'",
+      "status": "Confirmed · Kyiv city authorities, Ukrainian government, Russian Defence Ministry",
+      "numbers": [
+        {
+          "k": "Killed",
+          "v": "8"
+        },
+        {
+          "k": "Wounded",
+          "v": "28"
+        },
+        {
+          "k": "Kyiv bridges hit",
+          "v": "3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera (Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+          "primary": true
+        },
+        {
+          "name": "RFE/RL",
+          "url": "https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html"
+        }
+      ],
+      "differs": "Death tolls differ: Ukraine's prime minister said eight were killed; RFE/RL reports at least nine. Moscow-installed officials separately reported three killed in occupied eastern Ukraine.",
+      "added": "2026-11-21",
+      "key": true
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "Night of 20 Nov 2026",
+      "phase": "world",
+      "title": "Russian strike on Kryvyi Rih, Zelenskyy's hometown, kills two",
+      "summary": "A Russian strike hit the centre of Kryvyi Rih on Friday night. A 7-year-old boy and a 20-year-old woman were killed, the head of the city administration said. The regional military administration said 60 people were wounded, including six children. City officials said about 25 apartment buildings, a hospital and schools were damaged. Asked about Trump calling Putin his \"friend\", Zelenskyy told CNN that for Ukraine Putin is \"an enemy\". There is still no date for a new round of talks.",
+      "status": "Confirmed · Kryvyi Rih city and regional officials (via AP)",
+      "numbers": [
+        {
+          "k": "Killed",
+          "v": "2"
+        },
+        {
+          "k": "Wounded",
+          "v": "60"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP via KSAT",
+          "url": "https://www.ksat.com/news/world/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores/",
+          "primary": true
+        },
+        {
+          "name": "AP via KIRO 7",
+          "url": "https://www.kiro7.com/news/world/ballistic-missile/U42YFUJMEA2NRBPRT75XRXJG7E/"
+        }
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "world",
+      "title": "Russian strikes on Kyiv region hit an apartment block and a supermarket; Zelenskyy asks the US for Patriot missiles",
+      "summary": "A Russian strike early on Sunday destroyed part of a five-storey apartment block in Dymer, north of Kyiv. At least three people were killed and four wounded, per AP and the Kyiv regional governor via Ukrinform, and about a dozen were still believed trapped. On Sunday evening a drone hit a supermarket in the Vyshneve area of Kyiv region, killing at least two people and injuring eight, the governor said, per the Kyiv Independent. He declared 23 November a day of mourning in the region. Zelenskyy said Russia launched about 2,700 attack drones, nearly 1,460 guided bombs and 165 missiles over the past week, and urged the US to approve delivery of Patriot air-defence missiles that partners have already paid for, per Al Jazeera. No new talks or prisoner exchange were reported.",
+      "status": "Confirmed · Ukrainian officials (casualties); Stated · Zelenskyy (weekly totals)",
+      "differs": "The number still trapped in Dymer differs: 11 per the State Emergency Service (AP), up to 15 per Ukrinform, and 14 unaccounted for in an earlier Zelenskyy statement. AP's earlier toll for the supermarket was 1 killed and 3 hurt.",
+      "numbers": [
+        {
+          "k": "Killed, Dymer",
+          "v": "3+"
+        },
+        {
+          "k": "Killed, supermarket",
+          "v": "2+"
+        },
+        {
+          "k": "Russian drones in a week",
+          "v": "≈ 2,700 (Zelenskyy)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP via Grand Junction Sentinel",
+          "url": "https://www.gjsentinel.com/russian-attack-near-ukraines-capital-strikes-apartment-building-killing-3-and-burying-others/article_3a85f386-8409-58fe-ad33-3675779513c2.html",
+          "primary": true
+        },
+        {
+          "name": "Ukrinform",
+          "url": "https://www.ukrinform.net/rubric-ato/4187437-body-of-third-victim-recovered-from-rubble-of-building-in-dymer-kyiv-region.html"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/routine-shopping-trip-turned-tragedy-russia-attacks-kyiv-oblast-supermarket-during-working-hours-killing-2-injuring-at-least-8/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "phase": "world",
+      "key": true,
+      "title": "Ukraine says its sea drones hit a Russian warship in a Libyan port, 2,400 km from the front",
+      "summary": "President Zelenskyy said on 23 November that Ukrainian sea drones hit the Russian corvette Merkury at a naval base in Benghazi, eastern Libya, on Sunday 22 November. He said seven drones were used, a helicopter on board was destroyed, and a cargo ship, the Angara, was also hit; he said Russia used it to move weapons. Ukraine's security service (SBU) said the drones were launched from a \"mother ship\". At least 10 people were wounded, including Libyans and Russians, per AP. Libya's eastern government asked the UN for an investigation. The Kremlin said it had \"taken note\". The site is about 2,400 km from the front line. Separately, a Russian oil refinery in Rostov stopped work after a Ukrainian drone attack, its regional governor said.",
+      "status": "Stated · Zelenskyy, SBU",
+      "differs": "Zelenskyy and ABC News say the Merkury sank. Two Libyan officials told AP it was badly damaged, not sunk, and that at least four drones were intercepted and two hit it.",
+      "sources": [
+        {
+          "name": "AP via PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya",
+          "primary": true
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738"
+        }
+      ],
+      "link": "russia-nato-eastern-flank",
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "world",
+      "title": "Zelenskyy warns Russia is preparing new strikes; five hurt in an attack on central Kyiv",
+      "summary": "In his nightly address, Zelenskyy said Ukrainian intelligence shows Russia preparing new strikes, and asked the US and other partners to take note because their decisions affect air-defence supplies, per Reuters. A Russian attack on central Kyiv on Monday injured five people. French President Macron said \"we must reopen the question of Ukraine's membership to NATO\". No date has been set for the next round of talks, and the agreed prisoner exchange has not been reported as carried out.",
+      "status": "Stated · Zelenskyy",
+      "sources": [
+        {
+          "name": "Reuters via Yahoo",
+          "url": "https://www.yahoo.com/news/articles/zelenskiy-says-intelligence-shows-russia-210333074.html",
+          "primary": true
+        },
+        {
+          "name": "AP via PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "world",
+      "title": "Kremlin says it does not yet see what Europe would add to the talks; no date for the next round",
+      "summary": "Kremlin spokesman Dmitry Peskov said Europeans are insisting on a four-party format for the talks, but \"we do not yet fully understand what added value European participation can bring\", per UNITED24 citing Russian state media. TASS quotes him as saying \"the date has not yet been set\" for the next round. US envoy Jared Kushner had said Russia accepted talks that include Europe. Separately, Zelenskyy told Bloomberg he will ask the new US Congress, which meets in January, for more military aid and tougher sanctions on Russia if no peace deal is reached, per a report on the interview by Antiwar.com.",
+      "status": "Stated · Kremlin (Peskov); Stated · Zelenskyy (Bloomberg interview)",
+      "sources": [
+        {
+          "name": "TASS",
+          "url": "https://tass.com/politics/2223897",
+          "primary": true
+        },
+        {
+          "name": "UNITED24 Media",
+          "url": "https://united24media.com/war-in-ukraine/kremlin-says-it-does-not-understand-europes-role-in-ukraine-peace-talks-24673"
+        },
+        {
+          "name": "Headline USA (Antiwar.com)",
+          "url": "https://headlineusa.com/zelensky-says-he-will-seek-more-military-aid-from-new-us-congress-if-peace-talks-fail/"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "23–24 Nov 2026",
+      "phase": "world",
+      "title": "Putin vows retaliation for Ukraine's strikes on Russian refineries; Russian strike on Zaporizhzhia kills two",
+      "summary": "At a Kremlin meeting with oil executives on 24 November, President Putin said \"the Kyiv regime continues to attack our refining facilities, despite the U.S. president's appeal\", and that \"retaliatory measures on our part are inevitable\", per Reuters and The Moscow Times. The night before, a Russian strike on the city of Zaporizhzhia partly destroyed a five-storey apartment block, killing two people, said Mykhailo Semikin, head of the regional military administration. Children were among the injured.",
+      "status": "Stated · Putin; Confirmed · Ukrainian regional officials (casualties)",
+      "differs": "Injury totals rose through the day: 22 in early reports (Kyiv Independent), more than 40 later (Meduza, citing the regional head), and 48 in a Washington Times headline.",
+      "numbers": [
+        {
+          "k": "Killed in Zaporizhzhia",
+          "v": "2"
+        },
+        {
+          "k": "Injured",
+          "v": "22 to 48 (reports differ)"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Moscow Times (Reuters)",
+          "url": "https://www.themoscowtimes.com/2026/11/24/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-a94367",
+          "primary": true
+        },
+        {
+          "name": "Investing.com (Reuters)",
+          "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-5048918"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/2-killed-22-injured-in-russian-attack-on-residential-building-in-zaporizhzhia/"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "24–25 Nov 2026",
+      "phase": "world",
+      "title": "Russian strikes hit power and gas sites in several regions; Kyiv says the first prisoners could come home by early December",
+      "summary": "Overnight into 25 November Russia launched 112 attack drones, of which 88 were shot down or jammed, Prime Minister Serhii Koretskyi said, per LB.ua. Strikes damaged a DTEK thermal power plant, halting generation, and set a Naftogaz gas production site in Poltava region on fire, per Reuters. Power was cut in parts of Odesa and Zaporizhzhia, and outside power to the occupied Zaporizhzhia nuclear plant was lost for the 17th time this year, a deputy energy minister said. One person was killed in Kyiv region and six were injured in Zaporizhzhia. Separately, Kyrylo Budanov, head of Zelenskyy's office, said the first prisoners in the swap agreed in Abu Dhabi could return in late November or early December, in several stages, per Xinhua citing Interfax-Ukraine. Ukraine's prisoner-of-war office said it is ready for the exchange; the final number has not been set.",
+      "status": "Stated · Ukrainian government (strikes, casualties); Stated · Budanov (swap timing)",
+      "differs": "Xinhua calls Budanov head of the presidential office; 112.ua calls him head of intelligence. Reuters says power was cut in five regions; LB.ua lists damage in four.",
+      "numbers": [
+        {
+          "k": "Russian drones launched",
+          "v": "112 (88 downed)"
+        },
+        {
+          "k": "Killed, Kyiv region",
+          "v": "1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Business Standard (Reuters)",
+          "url": "https://www.tbsnews.net/world/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-five-regions-1613896",
+          "primary": true
+        },
+        {
+          "name": "LB.ua",
+          "url": "https://en.lb.ua/news/2026/11/25/51436_russia_targets_energy.html"
+        },
+        {
+          "name": "Xinhua (Interfax-Ukraine)",
+          "url": "https://english.news.cn/20261126/89ac7c5504dd4af29a5d54d4ed8f7738/c.html"
+        },
+        {
+          "name": "112.ua",
+          "url": "https://112.ua/en/obmin-vijskovopolonenimi-miz-ukrainou-ta-rosieu-persij-etap-moze-vidbutisa-naprikinci-listopada-200541"
+        },
+        {
+          "name": "UA.NEWS",
+          "url": "https://ua.news/en/war-vs-rf/ukrayina-gotova-do-masshtabnogo-obminu-viiskovopolonenimi-koordshtab"
+        }
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "25–26 Nov 2026",
+      "phase": "world",
+      "title": "Russian missiles hit a Kyiv shopping centre; Kremlin and Zelenskyy say a large prisoner swap is being prepared",
+      "summary": "Overnight into 26 November Russia launched ballistic missiles and 113 attack drones, Ukraine's air force said; 87 drones were shot down or jammed. Missiles hit a shopping centre and an industrial building in Kyiv, injuring seven people, Mayor Vitali Klitschko said, per Euromaidan Press. In Kharkiv a drone set fire to a flat in a high-rise, and two people were killed, per Kyiv Post. Strikes also caused power problems in Kryvyi Rih. On 26 November Kremlin spokesman Dmitry Peskov said Russian and Ukrainian security services were drawing up lists with mediators under the Abu Dhabi agreements, and he hoped a \"truly large-scale exchange\" would take place soon, per TASS. He also said \"the peace process isn't going along smoothly\", blaming European support for Kyiv. In his evening address Zelenskyy said Ukraine was preparing the next exchange and hoped it would be \"substantial\". No date or final number has been given.",
+      "status": "Stated · Ukrainian air force and officials (strikes); Stated · Kremlin, Zelenskyy (swap)",
+      "differs": "Euromaidan Press counts four deaths in Kharkiv region over 25–26 November; Kyiv Post reports two killed in Kharkiv city in the overnight attack.",
+      "numbers": [
+        {
+          "k": "Russian drones launched",
+          "v": "113 (87 downed)"
+        },
+        {
+          "k": "Injured in Kyiv",
+          "v": "7"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/91254",
+          "primary": true
+        },
+        {
+          "name": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/11/26/russia-hit-a-kyiv-shopping-center-with-ballistic-missiles-and-kryvyi-rih-with-jet-drones-strikes-also-killed-four-in-kharkiv-oblast-and-two-in-sloviansk/"
+        },
+        {
+          "name": "TASS",
+          "url": "https://tass.com/politics/2225277"
+        },
+        {
+          "name": "UNI (TASS)",
+          "url": "https://www.uniindia.com/world/russia-ukraine-prisoner-swap-europe-war-funding/258461"
+        },
+        {
+          "name": "UA.NEWS",
+          "url": "https://ua.news/en/ukraine/zelenskii-anonsuvav-novii-masshtabnii-obmin-viiskovopolonenimi"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "world",
+      "title": "Trump says he asked Putin to \"pull back all Military aggression\" in Europe",
+      "summary": "On 26 November President Trump wrote on Truth Social that he would like to see President Putin \"pull back all Military aggression against territories throughout Europe\", and said he raised this when they met in China the week before. He did not say which territories or conduct he meant; Reuters noted the wording suggests places beyond the battlefield in Ukraine. The Kremlin said the same day that no decision had been made on whether Putin will attend the G20 summit in Florida on 14–15 December.",
+      "status": "Stated · Trump",
+      "sources": [
+        {
+          "name": "Daily Maverick (Reuters)",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-27-trump-says-he-asked-putin-to-pull-back-military-aggression-throughout-europe/",
+          "primary": true
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/2026/1127/1600845-trump-putin-ukraine/"
+        }
+      ],
+      "added": "2026-11-27"
     }
-   ],
-   "added": "2026-11-20",
-   "key": true
-  },
-  {
-   "date": "2026-02-05",
-   "dateLabel": "4–5 Feb 2026",
-   "phase": "world",
-   "title": "Second round: no ceasefire, but 314 prisoners of war swapped",
-   "summary": "A second round in Abu Dhabi produced no ceasefire; control of the Donetsk region remained the main dispute. US envoy Steve Witkoff said the sides agreed to exchange 314 prisoners of war, and Russia's RIA news agency reported 157 returned by each side. It was the first swap since October 2025. Talks then stalled and lapsed after the US and Israel launched a war on Iran, Al Jazeera and Reuters report.",
-   "status": "Confirmed · Witkoff, Russian Defence Ministry",
-   "numbers": [
-    {
-     "k": "Prisoners exchanged",
-     "v": "314 (157 each)"
-    }
-   ],
-   "sources": [
-    {
-     "name": "BusinessDay (Reuters)",
-     "url": "https://www.businessday.co.za/world/europe/2026-02-05-ukraine-and-russia-agree-to-prisoner-swap-on-day-two-of-peace-talks/",
-     "primary": true
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://aljazeera.com/news/2026/2/4/russia-ukraine-war-second-round-of-peace-talks-set-to-begin-in-abu-dhabi"
-    },
-    {
-     "name": "AAP",
-     "url": "https://aapnews.aap.com.au/news/ukraine-and-russia-swap-prisoners-following-uae-talks"
-    }
-   ],
-   "added": "2026-11-20",
-   "differs": "Ukrainska Pravda calls the February meeting the 'first round' of three-way talks; Al Jazeera calls it the second, after January."
-  },
-  {
-   "date": "2026-10-23",
-   "dateLabel": "23 Oct 2026",
-   "phase": "world",
-   "title": "Kremlin says talks will resume in Abu Dhabi in November",
-   "summary": "After Witkoff met President Putin in St Petersburg, Kremlin spokesman Dmitry Peskov said talks were planned for the first half of November in Abu Dhabi. President Zelenskyy confirmed 'technical negotiations'. The same day the two sides exchanged 270 prisoners each; the Kyiv Independent says it was the 11th exchange of 2026.",
-   "status": "Stated · Kremlin",
-   "numbers": [
-    {
-     "k": "Prisoners exchanged",
-     "v": "270 each"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
-     "primary": true
-    },
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-02",
-   "dateLabel": "2 Nov 2026",
-   "phase": "world",
-   "title": "Witkoff sets talks for 10–11 November",
-   "summary": "Witkoff said talks would be held in Abu Dhabi on 10 and 11 November, covering 'post-war security agreements, de-escalation, humanitarian measures, and ending the war', with him and Jared Kushner leading the US side, Reuters reports.",
-   "status": "Stated · Witkoff",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Khaleej Times (Reuters)",
-     "url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff",
-     "primary": true
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-11",
-   "dateLabel": "10–11 Nov 2026",
-   "phase": "world",
-   "title": "First three-way talks in nine months: a big prisoner swap agreed, no breakthrough",
-   "summary": "Kushner and Witkoff mediated, with Vladimir Medinsky leading Russia's team and Umerov Ukraine's. Umerov said the main result was agreement on a 'large-scale prisoner exchange'; Medinsky called it a 'fundamental agreement'. A Russian general quoted by the TASS news agency said it would involve more than 1,000 people on each side. Kushner said the gaps had 'narrowed', but the sides still disagreed on territory, including Russia's demand for all of Donbas.",
-   "status": "Confirmed · Russian and Ukrainian delegations",
-   "numbers": [
-    {
-     "k": "Swap agreed",
-     "v": "1,000+ per side (TASS)"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-     "primary": true
-    },
-    {
-     "name": "RTÉ",
-     "url": "https://www.rte.ie/news/ukraine/2026/1111/1598783-ukraine-russia/"
-    },
-    {
-     "name": "Council on Foreign Relations",
-     "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
-    }
-   ],
-   "added": "2026-11-20",
-   "key": true,
-   "differs": "The Council on Foreign Relations names a different Ukrainian representative; RTÉ and the Kyiv Independent name Umerov as chief negotiator."
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "world",
-   "title": "US envoys meet Putin in Moscow, then Zelenskyy",
-   "summary": "Witkoff and Kushner met Putin in the Kremlin for about two hours; his aide Yuri Ushakov called the talks 'substantive, constructive, frank and useful', AP reports. Putin said European troops in Ukraine after a ceasefire would be 'absolutely unacceptable'. Russian state TV quoted Witkoff as saying 'the Europeans will join at the next meeting'. The envoys then met Zelenskyy in Dublin.",
-   "status": "Confirmed · Kremlin, US envoys",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "AP via AJC",
-     "url": "https://www.ajc.com/news/2026/11/us-envoys-meet-with-putin-in-the-kremlin-after-ukraine-talks-in-abu-dhabi/",
-     "primary": true
-    },
-    {
-     "name": "Council on Foreign Relations",
-     "url": "https://www.cfr.org/articles/what-the-abu-dhabi-talks-did-and-didnt-achieve"
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "16–17 Nov 2026",
-   "phase": "world",
-   "title": "Ukrainian strike brings down part of the Crimean bridge road",
-   "summary": "Ukraine hit the 19-km Kerch bridge, which links Russia to occupied Crimea, with drones and missiles. Zelenskyy called it an 'unprecedented operation in response to Russian attacks on our infrastructure'. Al Jazeera reports about 200 metres of roadway heavily damaged and partly underwater. Russia opened a terrorism case, and the Kremlin said the bridge would be restored. Russian strikes damaged two bridges over the Dnipro in Kyiv the same day.",
-   "status": "Confirmed · Ukrainian General Staff, Russian-installed Crimea authorities",
-   "numbers": [
-    {
-     "k": "Bridge length",
-     "v": "19 km"
-    }
-   ],
-   "sources": [
-    {
-     "name": "ABC13 (AP)",
-     "url": "https://abc13.com/story/ukraine-launches-unprecedented-strike-crimean-bridge-zelenskyy-says/20048008/",
-     "primary": true
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/18/crimea-is-turning-into-an-island-how-ukraine-hit-putins-prized-bridge"
-    }
-   ],
-   "added": "2026-11-20",
-   "key": true,
-   "differs": "ABC dates the strike to the night of Monday 16 November; Al Jazeera and Euronews say Tuesday 17 November. The Ukrainian missile maker Fire Point claims nearly 900 feet of road was destroyed; Al Jazeera reports about 200 metres damaged."
-  },
-  {
-   "date": "2026-11-19",
-   "dateLabel": "18–19 Nov 2026",
-   "phase": "world",
-   "title": "Third strike in a week hits the bridge's railway; trains stop",
-   "summary": "Ukraine's Defence Ministry said Neptune missiles hit the railway section of the bridge. Russia's Transport Ministry reported no injuries and a temporary halt to trains. Ukraine also hit two oil refineries in Russia's Krasnodar region.",
-   "status": "Confirmed · Ukrainian Defence Ministry, Russian Transport Ministry",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/19/ukraine-strikes-key-bridge-linking-russia-and-crimea-for-third-time-this-week-halting-rail",
-     "primary": true
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432"
-    }
-   ],
-   "added": "2026-11-20",
-   "differs": "ABC places the strike on Wednesday night (18 November); Euronews reports it on Thursday (19 November). It appears to be the same overnight attack."
-  },
-  {
-   "date": "2026-11-19",
-   "dateLabel": "19 Nov 2026",
-   "phase": "world",
-   "title": "Trump, Xi and Putin meet in Shenzhen; their joint declaration leaves out Ukraine",
-   "summary": "The three leaders met for the first time together, on the sidelines of the APEC summit in China. Their four-point declaration does not mention Ukraine, per UNITED24 and the Kyiv Independent. Kremlin aide Ushakov said Ukraine was the main topic of a separate Trump–Putin meeting. Trump said 'things are happening' to end the war.",
-   "status": "Confirmed · Kremlin; Stated · Trump",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
-     "primary": true
-    },
-    {
-     "name": "UNITED24 Media",
-     "url": "https://united24media.com/world/trump-putin-and-xi-sign-joint-declaration-without-mentioning-ukraine-or-europe-24540"
-    },
-    {
-     "name": "The Moscow Times",
-     "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307"
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-19",
-   "dateLabel": "19 Nov 2026",
-   "phase": "world",
-   "title": "Putin: 'After the strikes on the Crimean bridge, there will be no negotiations'",
-   "summary": "At a press conference after APEC, Putin said Moscow would no longer discuss ceasefires covering energy sites and Black Sea shipping, and promised a response 'far more painful'. Zelenskyy said Russia rejects every proposal to de-escalate. The wider US-led talks have not been formally called off. In Berlin, European leaders and the US envoys agreed that national security advisers from Britain, France, Germany, Italy, Poland and the EU would represent Europe if the talks widen, The National reports; Kushner said 'President Trump wants to make a deal with Europe by his side.'",
-   "status": "Stated · Putin",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "The National",
-     "url": "https://www.thenationalnews.com/news/europe/2026/11/19/berlin-hosts-zelenskyy-as-putin-cools-on-direct-talks/",
-     "primary": true
-    },
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
-    }
-   ],
-   "added": "2026-11-20",
-   "key": true,
-   "differs": "Translations of Putin's words differ: the Kyiv Independent quotes 'we will not negotiate'; Outlook India quotes 'there will be no agreements'."
-  },
-  {
-   "date": "2026-11-20",
-   "dateLabel": "19–20 Nov 2026",
-   "phase": "world",
-   "title": "Kushner says Russia accepts Europe at the table; Moscow rejects any NATO-style role for Kyiv",
-   "summary": "After the Berlin meeting of Ukraine's allies, US envoy Jared Kushner said: 'I think we've gotten the Russians comfortable with that concept where any security guarantee for Ukraine would be based on Article 5.' Article 5 is NATO's rule that an attack on one member is an attack on all. He also said Russia had agreed to talks that include Europe. Moscow has not confirmed this. Russian Deputy Foreign Minister Sergei Ryabkov said any 'quasi membership' of NATO for Kyiv was 'totally unacceptable', and that a visit by European representatives was 'under consideration'. Zelenskyy said the next meeting would be four-way: Ukraine, the US, Russia and Europe. No date has been set.",
-   "status": "Stated · Kushner; Stated · Russian Foreign Ministry",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it",
-     "primary": true
-    },
-    {
-     "name": "Kyiv Post",
-     "url": "https://www.kyivpost.com/post/90635"
-    },
-    {
-     "name": "Al Jazeera (Reuters)",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
-    }
-   ],
-   "added": "2026-11-21"
-  },
-  {
-   "date": "2026-11-20",
-   "dateLabel": "20 Nov 2026",
-   "phase": "world",
-   "title": "Russia strikes three Kyiv bridges after Putin promises a response",
-   "summary": "Overnight Russian ballistic missiles damaged the Podilskyi, Darnytskyi and Southern bridges over the Dnipro in Kyiv, Mayor Vitali Klitschko said. Traffic was restricted and people crossed the river on foot. Prime Minister Koretskyi said eight people were killed, six of them in Kyiv, and 28 wounded. Russia's Defence Ministry said it targeted bridges used to move weapons, plus defence, energy and transport sites. Power was cut across Kyiv and in 10 regions after nuclear plants reduced output, Ukraine's energy ministry said. Putin had said in China: 'We will respond to these attacks.'",
-   "status": "Confirmed · Kyiv city authorities, Ukrainian government, Russian Defence Ministry",
-   "numbers": [
-    {
-     "k": "Killed",
-     "v": "8"
-    },
-    {
-     "k": "Wounded",
-     "v": "28"
-    },
-    {
-     "k": "Kyiv bridges hit",
-     "v": "3"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera (Reuters)",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
-     "primary": true
-    },
-    {
-     "name": "RFE/RL",
-     "url": "https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html"
-    }
-   ],
-   "differs": "Death tolls differ: Ukraine's prime minister said eight were killed; RFE/RL reports at least nine. Moscow-installed officials separately reported three killed in occupied eastern Ukraine.",
-   "added": "2026-11-21",
-   "key": true
-  },
-  {
-   "date": "2026-11-20",
-   "dateLabel": "Night of 20 Nov 2026",
-   "phase": "world",
-   "title": "Russian strike on Kryvyi Rih, Zelenskyy's hometown, kills two",
-   "summary": "A Russian strike hit the centre of Kryvyi Rih on Friday night. A 7-year-old boy and a 20-year-old woman were killed, the head of the city administration said. The regional military administration said 60 people were wounded, including six children. City officials said about 25 apartment buildings, a hospital and schools were damaged. Asked about Trump calling Putin his \"friend\", Zelenskyy told CNN that for Ukraine Putin is \"an enemy\". There is still no date for a new round of talks.",
-   "status": "Confirmed · Kryvyi Rih city and regional officials (via AP)",
-   "numbers": [
-    {
-     "k": "Killed",
-     "v": "2"
-    },
-    {
-     "k": "Wounded",
-     "v": "60"
-    }
-   ],
-   "sources": [
-    {
-     "name": "AP via KSAT",
-     "url": "https://www.ksat.com/news/world/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores/",
-     "primary": true
-    },
-    {
-     "name": "AP via KIRO 7",
-     "url": "https://www.kiro7.com/news/world/ballistic-missile/U42YFUJMEA2NRBPRT75XRXJG7E/"
-    }
-   ],
-   "added": "2026-11-21"
-  },
-  {
-   "date": "2026-11-22",
-   "dateLabel": "22 Nov 2026",
-   "phase": "world",
-   "title": "Russian strikes on Kyiv region hit an apartment block and a supermarket; Zelenskyy asks the US for Patriot missiles",
-   "summary": "A Russian strike early on Sunday destroyed part of a five-storey apartment block in Dymer, north of Kyiv. At least three people were killed and four wounded, per AP and the Kyiv regional governor via Ukrinform, and about a dozen were still believed trapped. On Sunday evening a drone hit a supermarket in the Vyshneve area of Kyiv region, killing at least two people and injuring eight, the governor said, per the Kyiv Independent. He declared 23 November a day of mourning in the region. Zelenskyy said Russia launched about 2,700 attack drones, nearly 1,460 guided bombs and 165 missiles over the past week, and urged the US to approve delivery of Patriot air-defence missiles that partners have already paid for, per Al Jazeera. No new talks or prisoner exchange were reported.",
-   "status": "Confirmed · Ukrainian officials (casualties); Stated · Zelenskyy (weekly totals)",
-   "differs": "The number still trapped in Dymer differs: 11 per the State Emergency Service (AP), up to 15 per Ukrinform, and 14 unaccounted for in an earlier Zelenskyy statement. AP's earlier toll for the supermarket was 1 killed and 3 hurt.",
-   "numbers": [
-    {
-     "k": "Killed, Dymer",
-     "v": "3+"
-    },
-    {
-     "k": "Killed, supermarket",
-     "v": "2+"
-    },
-    {
-     "k": "Russian drones in a week",
-     "v": "≈ 2,700 (Zelenskyy)"
-    }
-   ],
-   "sources": [
-    {
-     "name": "AP via Grand Junction Sentinel",
-     "url": "https://www.gjsentinel.com/russian-attack-near-ukraines-capital-strikes-apartment-building-killing-3-and-burying-others/article_3a85f386-8409-58fe-ad33-3675779513c2.html",
-     "primary": true
-    },
-    {
-     "name": "Ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4187437-body-of-third-victim-recovered-from-rubble-of-building-in-dymer-kyiv-region.html"
-    },
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/routine-shopping-trip-turned-tragedy-russia-attacks-kyiv-oblast-supermarket-during-working-hours-killing-2-injuring-at-least-8/"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
-    }
-   ],
-   "added": "2026-11-23"
-  },
-  {
-   "date": "2026-11-22",
-   "dateLabel": "22 Nov 2026",
-   "phase": "world",
-   "key": true,
-   "title": "Ukraine says its sea drones hit a Russian warship in a Libyan port, 2,400 km from the front",
-   "summary": "President Zelenskyy said on 23 November that Ukrainian sea drones hit the Russian corvette Merkury at a naval base in Benghazi, eastern Libya, on Sunday 22 November. He said seven drones were used, a helicopter on board was destroyed, and a cargo ship, the Angara, was also hit; he said Russia used it to move weapons. Ukraine's security service (SBU) said the drones were launched from a \"mother ship\". At least 10 people were wounded, including Libyans and Russians, per AP. Libya's eastern government asked the UN for an investigation. The Kremlin said it had \"taken note\". The site is about 2,400 km from the front line. Separately, a Russian oil refinery in Rostov stopped work after a Ukrainian drone attack, its regional governor said.",
-   "status": "Stated · Zelenskyy, SBU",
-   "differs": "Zelenskyy and ABC News say the Merkury sank. Two Libyan officials told AP it was badly damaged, not sunk, and that at least four drones were intercepted and two hit it.",
-   "sources": [
-    {
-     "name": "AP via PBS NewsHour",
-     "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya",
-     "primary": true
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738"
-    }
-   ],
-   "link": "russia-nato-eastern-flank",
-   "added": "2026-11-24"
-  },
-  {
-   "date": "2026-11-23",
-   "dateLabel": "23 Nov 2026",
-   "phase": "world",
-   "title": "Zelenskyy warns Russia is preparing new strikes; five hurt in an attack on central Kyiv",
-   "summary": "In his nightly address, Zelenskyy said Ukrainian intelligence shows Russia preparing new strikes, and asked the US and other partners to take note because their decisions affect air-defence supplies, per Reuters. A Russian attack on central Kyiv on Monday injured five people. French President Macron said \"we must reopen the question of Ukraine's membership to NATO\". No date has been set for the next round of talks, and the agreed prisoner exchange has not been reported as carried out.",
-   "status": "Stated · Zelenskyy",
-   "sources": [
-    {
-     "name": "Reuters via Yahoo",
-     "url": "https://www.yahoo.com/news/articles/zelenskiy-says-intelligence-shows-russia-210333074.html",
-     "primary": true
-    },
-    {
-     "name": "AP via PBS NewsHour",
-     "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya"
-    }
-   ],
-   "added": "2026-11-24"
-  },
-  {
-   "date": "2026-11-24",
-   "dateLabel": "24 Nov 2026",
-   "phase": "world",
-   "title": "Kremlin says it does not yet see what Europe would add to the talks; no date for the next round",
-   "summary": "Kremlin spokesman Dmitry Peskov said Europeans are insisting on a four-party format for the talks, but \"we do not yet fully understand what added value European participation can bring\", per UNITED24 citing Russian state media. TASS quotes him as saying \"the date has not yet been set\" for the next round. US envoy Jared Kushner had said Russia accepted talks that include Europe. Separately, Zelenskyy told Bloomberg he will ask the new US Congress, which meets in January, for more military aid and tougher sanctions on Russia if no peace deal is reached, per a report on the interview by Antiwar.com.",
-   "status": "Stated · Kremlin (Peskov); Stated · Zelenskyy (Bloomberg interview)",
-   "sources": [
-    {
-     "name": "TASS",
-     "url": "https://tass.com/politics/2223897",
-     "primary": true
-    },
-    {
-     "name": "UNITED24 Media",
-     "url": "https://united24media.com/war-in-ukraine/kremlin-says-it-does-not-understand-europes-role-in-ukraine-peace-talks-24673"
-    },
-    {
-     "name": "Headline USA (Antiwar.com)",
-     "url": "https://headlineusa.com/zelensky-says-he-will-seek-more-military-aid-from-new-us-congress-if-peace-talks-fail/"
-    }
-   ],
-   "added": "2026-11-25"
-  },
-  {
-   "date": "2026-11-24",
-   "dateLabel": "23–24 Nov 2026",
-   "phase": "world",
-   "title": "Putin vows retaliation for Ukraine's strikes on Russian refineries; Russian strike on Zaporizhzhia kills two",
-   "summary": "At a Kremlin meeting with oil executives on 24 November, President Putin said \"the Kyiv regime continues to attack our refining facilities, despite the U.S. president's appeal\", and that \"retaliatory measures on our part are inevitable\", per Reuters and The Moscow Times. The night before, a Russian strike on the city of Zaporizhzhia partly destroyed a five-storey apartment block, killing two people, said Mykhailo Semikin, head of the regional military administration. Children were among the injured.",
-   "status": "Stated · Putin; Confirmed · Ukrainian regional officials (casualties)",
-   "differs": "Injury totals rose through the day: 22 in early reports (Kyiv Independent), more than 40 later (Meduza, citing the regional head), and 48 in a Washington Times headline.",
-   "numbers": [
-    {
-     "k": "Killed in Zaporizhzhia",
-     "v": "2"
-    },
-    {
-     "k": "Injured",
-     "v": "22 to 48 (reports differ)"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Moscow Times (Reuters)",
-     "url": "https://www.themoscowtimes.com/2026/11/24/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-a94367",
-     "primary": true
-    },
-    {
-     "name": "Investing.com (Reuters)",
-     "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-5048918"
-    },
-    {
-     "name": "Meduza",
-     "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens"
-    },
-    {
-     "name": "Kyiv Independent",
-     "url": "https://kyivindependent.com/2-killed-22-injured-in-russian-attack-on-residential-building-in-zaporizhzhia/"
-    }
-   ],
-   "added": "2026-11-25"
-  },
-  {
-   "date": "2026-11-25",
-   "dateLabel": "24–25 Nov 2026",
-   "phase": "world",
-   "title": "Russian strikes hit power and gas sites in several regions; Kyiv says the first prisoners could come home by early December",
-   "summary": "Overnight into 25 November Russia launched 112 attack drones, of which 88 were shot down or jammed, Prime Minister Serhii Koretskyi said, per LB.ua. Strikes damaged a DTEK thermal power plant, halting generation, and set a Naftogaz gas production site in Poltava region on fire, per Reuters. Power was cut in parts of Odesa and Zaporizhzhia, and outside power to the occupied Zaporizhzhia nuclear plant was lost for the 17th time this year, a deputy energy minister said. One person was killed in Kyiv region and six were injured in Zaporizhzhia. Separately, Kyrylo Budanov, head of Zelenskyy's office, said the first prisoners in the swap agreed in Abu Dhabi could return in late November or early December, in several stages, per Xinhua citing Interfax-Ukraine. Ukraine's prisoner-of-war office said it is ready for the exchange; the final number has not been set.",
-   "status": "Stated · Ukrainian government (strikes, casualties); Stated · Budanov (swap timing)",
-   "differs": "Xinhua calls Budanov head of the presidential office; 112.ua calls him head of intelligence. Reuters says power was cut in five regions; LB.ua lists damage in four.",
-   "numbers": [
-    {
-     "k": "Russian drones launched",
-     "v": "112 (88 downed)"
-    },
-    {
-     "k": "Killed, Kyiv region",
-     "v": "1"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Business Standard (Reuters)",
-     "url": "https://www.tbsnews.net/world/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-five-regions-1613896",
-     "primary": true
-    },
-    {
-     "name": "LB.ua",
-     "url": "https://en.lb.ua/news/2026/11/25/51436_russia_targets_energy.html"
-    },
-    {
-     "name": "Xinhua (Interfax-Ukraine)",
-     "url": "https://english.news.cn/20261126/89ac7c5504dd4af29a5d54d4ed8f7738/c.html"
-    },
-    {
-     "name": "112.ua",
-     "url": "https://112.ua/en/obmin-vijskovopolonenimi-miz-ukrainou-ta-rosieu-persij-etap-moze-vidbutisa-naprikinci-listopada-200541"
-    },
-    {
-     "name": "UA.NEWS",
-     "url": "https://ua.news/en/war-vs-rf/ukrayina-gotova-do-masshtabnogo-obminu-viiskovopolonenimi-koordshtab"
-    }
-   ],
-   "added": "2026-11-26"
-  },
-  {
-   "date": "2026-11-26",
-   "dateLabel": "25–26 Nov 2026",
-   "phase": "world",
-   "title": "Russian missiles hit a Kyiv shopping centre; Kremlin and Zelenskyy say a large prisoner swap is being prepared",
-   "summary": "Overnight into 26 November Russia launched ballistic missiles and 113 attack drones, Ukraine's air force said; 87 drones were shot down or jammed. Missiles hit a shopping centre and an industrial building in Kyiv, injuring seven people, Mayor Vitali Klitschko said, per Euromaidan Press. In Kharkiv a drone set fire to a flat in a high-rise, and two people were killed, per Kyiv Post. Strikes also caused power problems in Kryvyi Rih. On 26 November Kremlin spokesman Dmitry Peskov said Russian and Ukrainian security services were drawing up lists with mediators under the Abu Dhabi agreements, and he hoped a \"truly large-scale exchange\" would take place soon, per TASS. He also said \"the peace process isn't going along smoothly\", blaming European support for Kyiv. In his evening address Zelenskyy said Ukraine was preparing the next exchange and hoped it would be \"substantial\". No date or final number has been given.",
-   "status": "Stated · Ukrainian air force and officials (strikes); Stated · Kremlin, Zelenskyy (swap)",
-   "differs": "Euromaidan Press counts four deaths in Kharkiv region over 25–26 November; Kyiv Post reports two killed in Kharkiv city in the overnight attack.",
-   "numbers": [
-    {
-     "k": "Russian drones launched",
-     "v": "113 (87 downed)"
-    },
-    {
-     "k": "Injured in Kyiv",
-     "v": "7"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Kyiv Post",
-     "url": "https://www.kyivpost.com/post/91254",
-     "primary": true
-    },
-    {
-     "name": "Euromaidan Press",
-     "url": "https://euromaidanpress.com/2026/11/26/russia-hit-a-kyiv-shopping-center-with-ballistic-missiles-and-kryvyi-rih-with-jet-drones-strikes-also-killed-four-in-kharkiv-oblast-and-two-in-sloviansk/"
-    },
-    {
-     "name": "TASS",
-     "url": "https://tass.com/politics/2225277"
-    },
-    {
-     "name": "UNI (TASS)",
-     "url": "https://www.uniindia.com/world/russia-ukraine-prisoner-swap-europe-war-funding/258461"
-    },
-    {
-     "name": "UA.NEWS",
-     "url": "https://ua.news/en/ukraine/zelenskii-anonsuvav-novii-masshtabnii-obmin-viiskovopolonenimi"
-    }
-   ],
-   "added": "2026-11-27"
-  }
- ]
+  ]
 }

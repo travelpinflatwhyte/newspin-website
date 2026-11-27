@@ -19,7 +19,7 @@
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent rose for a third day, to about $96, on 26 November. Saudi Arabia says a projectile hit its Jazan refinery, killing a worker and halting some operations; the Saudi-led coalition blames the Houthis, who also claim a strike on Ras Tanura. Iran's Revolutionary Guards say two tankers hit mines near Hormuz, which has not been confirmed. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November."
+    "next": "Brent rose for a third day, to about $96, on 26 November. Saudi Arabia says a projectile hit its Jazan refinery, killing a worker and halting some operations; the Saudi-led coalition blames the Houthis, who also claim a strike on Ras Tanura. Iran's Revolutionary Guards say two tankers hit mines near Hormuz, which has not been confirmed. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November. A drone attack on an air-defence site in Kuwait killed two Italian technicians on 26 November; Kuwait blames Iran, which denies it."
   },
   "keyNumbers": [
     {
@@ -1083,6 +1083,26 @@
         {
           "name": "The Library (Reuters)",
           "url": "https://thelibraryestate.com/futures-options-market-report-brent-settles-higher-on-gulf-supply-claims-as-u-s-markets-sit-closed-for-thanksgiving-nov-26-2026/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "world",
+      "title": "Drone attack on a Kuwaiti air-defence site kills two Italian technicians; Kuwait blames Iran, which denies it",
+      "summary": "Two Italian technicians working for the defence company Rheinmetall died after a drone attack on an air-defence surveillance site in Kuwait on 26 November, Italy's foreign ministry said. Italian authorities said they had been servicing the antennas of an anti-aircraft defence system. A Kuwaiti and a Pakistani national were also hurt by falling debris. Kuwait's defence ministry called the attack \"heinous Iranian aggression\" against a \"vital site\", and Italian Foreign Minister Antonio Tajani said the site was targeted by Iranian drones. An Iranian military spokesperson denied that Iran was responsible, per ABC News.",
+      "status": "Confirmed · Italy's foreign ministry (deaths); Allegation · Kuwait, Italy (Iran's role)",
+      "sources": [
+        {
+          "name": "ABC News (Australia)",
+          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+          "primary": true
+        },
+        {
+          "name": "AeroTime",
+          "url": "https://www.aerotime.aero/articles/italian-rheinmetall-technicians-killed-in-kuwaiti-drone-explosion"
         }
       ],
       "added": "2026-11-27"

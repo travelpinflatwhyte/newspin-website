@@ -95,9 +95,13 @@
     var keyat = card.getAttribute('data-keyat');
     var kg = keyat ? daysBetween(keyat, today) : -1;
     var turn = (kg >= 0 && kg <= 1) ? 3 : 0;
-    var recent = Math.min(4, added.filter(function (x) { var g = daysBetween(x, today); return g >= 0 && g <= 14; }).length);
+    // activity counts events by their news day (data-news), so back-story added with a new timeline is not "recent"
+    var news = (card.getAttribute('data-news') || card.getAttribute('data-added') || '').split(' ').filter(Boolean);
+    var recent = Math.min(4, news.filter(function (x) { var g = daysBetween(x, today); return g >= 0 && g <= 14; }).length);
+    // audience lift (AUDIENCE in build.py): US +2, India +1, the larger one only
+    var aud = +card.getAttribute('data-aud') || 0;
     return {
-      score: fresh + up + imp * 2 + recent + turn,
+      score: fresh + up + imp * 2 + recent + turn + aud,
       quiet: days > QUIET_DAYS && !(until !== null && until <= 30),
       latest: latest, next: (next && next >= today) ? next : '', imp: imp
     };

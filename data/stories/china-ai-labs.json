@@ -6,6 +6,10 @@
  "regions": [
   "World"
  ],
+ "companies": [
+  "DeepSeek",
+  "Alibaba"
+ ],
  "title": "China's AI labs: DeepSeek, Qwen, Kimi and the open-model race",
  "dek": "Cheap, open models from DeepSeek, Alibaba, Moonshot and Zhipu closed much of the gap with US labs, and sparked accusations of copying.",
  "seoTitle": "Chinese AI models 2025–2026: DeepSeek V4, Qwen, Kimi",

@@ -141,6 +141,7 @@ button{font-family:inherit}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
 .story-hero h1{margin:0;font-family:var(--serif);font-size:clamp(32px,5vw,48px);line-height:1.08;font-weight:600;letter-spacing:-.015em}
 .dek{margin:0;font-size:18px;line-height:1.55;color:var(--ink-2)}
+.disclosure{margin:10px 0 0;font-size:14px;line-height:1.5;color:var(--ink-2);border-left:3px solid var(--pin);padding:2px 0 2px 10px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
 .story-cols{display:flex;flex-wrap:wrap;gap:32px;margin-top:28px;align-items:flex-start}
 .story-main{flex:999 1 600px;min-width:0;display:flex;flex-direction:column;gap:24px}

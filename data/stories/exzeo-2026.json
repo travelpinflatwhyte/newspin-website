@@ -1,0 +1,436 @@
+{
+  "slug": "exzeo-2026",
+  "short": "Exzeo",
+  "category": "Tech",
+  "regions": [
+    "US",
+    "India"
+  ],
+  "people": [
+    "Paresh Patel"
+  ],
+  "companies": [
+    "Exzeo",
+    "HCI Group"
+  ],
+  "title": "Exzeo: from HCI's tech arm to a listed insurance-software company",
+  "dek": "Home-insurance software maker whose platform is built in India. It listed in New York in 2025; growth has since stalled and the shares trade below the IPO price.",
+  "seoTitle": "Exzeo (XZO): IPO, results and timeline",
+  "disclosure": "Newspin's founder previously worked at Exzeo. This timeline follows the same sourcing rules as every other story.",
+  "importance": 2,
+  "status": "Q3 flat; shares below IPO price",
+  "tone": "live",
+  "big": "$55.2m",
+  "delta": "flat vs a year ago",
+  "deltaTone": "neutral",
+  "bigLabel": "Exzeo revenue, July–September 2026",
+  "updated": "2026-11-27",
+  "glance": {
+    "what": "Exzeo makes software that home insurers use to quote, sell and manage policies and handle claims. It began as the in-house technology arm of Florida insurer HCI Group, listed on the New York Stock Exchange in November 2025 at $21 a share, and HCI still owns most of it. Its third-quarter revenue was flat at $55.2 million.",
+    "why": "Exzeo is testing whether software built for one insurer can be sold to many. It still depends on HCI for substantially all of its revenue. Its platform is developed by its Indian subsidiary, which has an office in Noida.",
+    "next": "Exzeo expects managed premium of about $1.34 billion at the end of 2026, lower than its earlier $1.55 billion target. Fourth-quarter results are due in early 2027; no date has been announced."
+  },
+  "keyNumbers": [
+    {
+      "label": "Q3 2026 revenue",
+      "value": "$55.2m",
+      "note": "flat vs a year ago",
+      "hot": true
+    },
+    {
+      "label": "Q3 net income",
+      "value": "$22.3m",
+      "note": "Jul–Sep 2026"
+    },
+    {
+      "label": "Managed premium",
+      "value": "$1.4bn",
+      "note": "year-end view cut to ~$1.34bn"
+    },
+    {
+      "label": "IPO price",
+      "value": "$21",
+      "note": "Nov 2025; $14.95 on 27 Nov"
+    }
+  ],
+  "forYou": "If you hold Exzeo shares or work in insurance technology, the numbers to watch are managed premium and how much revenue comes from insurers outside HCI. This is information, not investment advice.",
+  "upcoming": [],
+  "next": "Fourth-quarter results in early 2027 (date not announced); whether more insurers outside HCI join the platform.",
+  "links": [
+    "us-markets-daily",
+    "ai-this-week"
+  ],
+  "events": [
+    {
+      "date": "2025-03-03",
+      "dateLabel": "3 Mar 2025",
+      "phase": "policy",
+      "title": "HCI Group splits into insurance and technology units and renames its tech arm Exzeo",
+      "summary": "Florida insurer HCI Group said it was reorganising into two operating units: its insurance companies, and its technology business. It renamed TypTap Insurance Group as Exzeo Group. Exzeo began in 2012 as HCI's in-house technology and innovation division, building the software HCI's insurers use to quote, sell and manage home insurance policies. HCI chairman and CEO Paresh Patel said: \"Our technology has a proven track record of delivering solid underwriting results.\"",
+      "status": "Confirmed · HCI Group",
+      "sources": [
+        {
+          "name": "Reinsurance News",
+          "url": "https://www.reinsurancene.ws/hci-group-reveals-new-structure-to-enhance-efficiency-and-strategic-focus/",
+          "primary": true
+        },
+        {
+          "name": "Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/hci-group-rebrands-typtap-as-exzeo-group-in-structural-overhaul-527107.aspx"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-05-12",
+      "dateLabel": "12 May 2025",
+      "phase": "policy",
+      "title": "HCI says it is weighing a spin-off of Exzeo to its shareholders",
+      "summary": "With its first-quarter results, HCI said it was evaluating a tax-free spin-off of Exzeo to HCI shareholders by the end of 2025. Patel said Exzeo is \"ready to be a standalone company\" and that a spin-off was preferred over a share sale because Exzeo did not need outside money. Coverager reported Exzeo's platform then handled about $1.2 billion of insurance premium.",
+      "status": "Stated · HCI Group",
+      "sources": [
+        {
+          "name": "Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/hci-eyes-exzeo-spinoff-535356.aspx",
+          "primary": true
+        },
+        {
+          "name": "Coverager",
+          "url": "https://coverager.com/hci-group-eyes-exzeo-spin-off/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-08-11",
+      "dateLabel": "Aug 2025",
+      "phase": "market",
+      "title": "HCI switches to a stock market listing for Exzeo",
+      "summary": "With its second-quarter results in August, HCI said it would list Exzeo through an initial public offering (IPO) instead of a spin-off, and that it had confidentially submitted draft listing papers to the US Securities and Exchange Commission. Exzeo president Kevin Mitchell said: \"We believe the best path is to pursue an initial public offering of Exzeo shares.\"",
+      "status": "Stated · HCI Group, Exzeo",
+      "differs": "No source gives the exact date of the confidential filing; Insurance Insider says it was filed the week before HCI's announcement.",
+      "sources": [
+        {
+          "name": "StockStory (via Finviz)",
+          "url": "https://finviz.com/news/135534/hci-q2-deep-dive-technology-and-underwriting-discipline-drive-profitable-growth-exzeo-ipo-in-focus",
+          "primary": true
+        },
+        {
+          "name": "Insurance Insider US",
+          "url": "https://www.insuranceinsiderus.com/article/2f606zqp10l6jztcwudj4/all-topics/earnings/hci-group-files-confidential-s1-to-spin-off-subsidiary-exzeo-in-ipo"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-09-25",
+      "dateLabel": "25 Sep 2025",
+      "phase": "market",
+      "title": "Exzeo files its listing papers publicly",
+      "summary": "HCI announced the public filing of Exzeo's registration statement for an IPO. The number of shares and the price range were not yet set. Insurance Journal reported Exzeo's 2024 revenue at $134 million, with a profit of over $53 million. Exzeo's listing papers say its software is developed and maintained by its Indian subsidiary, Exzeo Software Private Limited, which also leases an office in Noida.",
+      "status": "Filed · Exzeo",
+      "numbers": [
+        {
+          "k": "2024 revenue",
+          "v": "$134 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "HCI Group (via Nasdaq)",
+          "url": "https://www.nasdaq.com/press-release/hci-group-announces-public-filing-registration-statement-proposed-initial-public",
+          "primary": true
+        },
+        {
+          "name": "Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/southeast/2025/09/26/840662.htm"
+        },
+        {
+          "name": "Exzeo prospectus (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1873951/000119312525267098/d28749d424b4.htm"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-11-04",
+      "dateLabel": "4 Nov 2025",
+      "phase": "market",
+      "title": "Exzeo prices its IPO at $21 a share, raising $168 million",
+      "summary": "Exzeo sold 8 million new shares at $21, the middle of its $20–22 range, raising $168 million, and listed on the New York Stock Exchange under the ticker XZO. HCI kept about 81.5% of the company, per Reuters. On its first day of trading, 5 November, the stock opened at $21 and closed at $21.01, a debut Reuters described as \"muted\".",
+      "status": "Confirmed · Exzeo",
+      "numbers": [
+        {
+          "k": "IPO price",
+          "v": "$21"
+        },
+        {
+          "k": "Raised",
+          "v": "$168 million"
+        },
+        {
+          "k": "HCI stake after IPO",
+          "v": "about 81.5%"
+        }
+      ],
+      "differs": "Reuters and IPOScoop put Exzeo's value at the IPO price at about $1.91 billion; Renaissance Capital gives about $2.0 billion on a fully diluted basis.",
+      "key": true,
+      "sources": [
+        {
+          "name": "Business Wire (Exzeo)",
+          "url": "https://www.businesswire.com/news/home/20251104056903/en/Exzeo-Group-Inc.-Announces-Pricing-of-Initial-Public-Offering",
+          "primary": true
+        },
+        {
+          "name": "Insurance Journal (Reuters)",
+          "url": "https://www.insurancejournal.com/news/southeast/2025/11/05/846543.htm"
+        },
+        {
+          "name": "IPOScoop",
+          "url": "https://www.iposcoop.com/the-ipo-buzz-exzeo-group-xzo-prices-ipo-at-21-mid-point/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-12-10",
+      "dateLabel": "10 Dec 2025",
+      "phase": "data",
+      "title": "First results as a listed company: revenue nearly doubles",
+      "summary": "Exzeo reported revenue of $55.2 million for July–September 2025, up 90% from $29.1 million a year earlier, and net income of $21.2 million. Premium managed on its platform rose 142% to $1.2 billion. The company says it depends on HCI for substantially all of its revenue.",
+      "status": "Official data · Exzeo",
+      "numbers": [
+        {
+          "k": "Revenue",
+          "v": "$55.2 million (+90%)"
+        },
+        {
+          "k": "Net income",
+          "v": "$21.2 million"
+        },
+        {
+          "k": "Managed premium",
+          "v": "$1.2 billion"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Wire (Exzeo)",
+          "url": "https://www.businesswire.com/news/home/20251210943814/en/Exzeo-Announces-Third-Quarter-2025-Financial-Results",
+          "primary": true
+        },
+        {
+          "name": "Coverager",
+          "url": "https://coverager.com/exzeo-posts-q3-results/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-02-25",
+      "dateLabel": "25 Feb 2026",
+      "phase": "data",
+      "title": "Full-year 2025: revenue up 62% to $217 million; flood insurance deal with Tokio Marine",
+      "summary": "Exzeo reported 2025 revenue of $217.0 million, up 62% from $133.9 million, and net income from continuing operations of $82.7 million. Managed premium reached $1.39 billion. On the results call, chief financial officer Suela Bulku said the company expected 2026 pre-tax income of $115 million to $125 million. The same day Exzeo announced a partnership with Tokio Marine Highland to offer a home flood insurance product in 42 US states.",
+      "status": "Official data · Exzeo",
+      "numbers": [
+        {
+          "k": "2025 revenue",
+          "v": "$217.0 million (+62%)"
+        },
+        {
+          "k": "2025 net income",
+          "v": "$82.7 million"
+        },
+        {
+          "k": "2026 pre-tax income outlook",
+          "v": "$115–125 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Wire (Exzeo results)",
+          "url": "https://www.businesswire.com/news/home/20260225595707/en",
+          "primary": true
+        },
+        {
+          "name": "Chartmill",
+          "url": "https://www.chartmill.com/news/XZO/Chartmill-42972-Exzeo-Group-Inc-NYSEXZO-Reports-Strong-Q4-Beat-and-Showcases-Scalability-in-First-Full-Year-Public"
+        },
+        {
+          "name": "Business Wire (Tokio Marine Highland)",
+          "url": "https://www.businesswire.com/news/home/20260225984831/en/Exzeo-Announces-Strategic-Partnership-with-Tokio-Marine-Highland-To-Offer-Primary-Residential-Flood-Insurance-Program/"
+        },
+        {
+          "name": "Reinsurance News",
+          "url": "https://www.reinsurancene.ws/exzeo-group-announces-flood-insurance-partnership-with-tokio-marine-highland"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-05-06",
+      "dateLabel": "6 May 2026",
+      "phase": "data",
+      "title": "Q1 2026: revenue up 6%; Exzeo launches an AI tool for Florida inspection forms",
+      "summary": "Exzeo reported January–March revenue of $55.5 million, up from $52.4 million, and net income of $20.4 million. Managed premium was $1.43 billion and it said a seventh insurer had joined its platform. It kept its full-year outlook. It also launched WindForm Pro, an AI tool that reads Florida wind-mitigation inspection forms and turns them into the format the state insurance regulator requires.",
+      "status": "Official data · Exzeo",
+      "numbers": [
+        {
+          "k": "Revenue",
+          "v": "$55.5 million"
+        },
+        {
+          "k": "Managed premium",
+          "v": "$1.43 billion"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Exzeo investor relations",
+          "url": "https://investors.exzeo.com/news/news-details/2026/Exzeo-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+          "primary": true
+        },
+        {
+          "name": "Motley Fool (call transcript)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/exzeo-xzo-q1-2026-earnings-transcript/"
+        },
+        {
+          "name": "Business Wire (WindForm Pro)",
+          "url": "https://www.businesswire.com/news/home/20260506843116/en/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-08-06",
+      "dateLabel": "6 Aug 2026",
+      "phase": "tech",
+      "title": "Exzeo launches Exzeo Ventures to build AI businesses; Q2 revenue $57.8 million",
+      "summary": "Exzeo launched Exzeo Ventures, an internal unit to build \"AI-native\" products and businesses, starting with AI for catastrophe claims, underwriting and insurance distribution. No funding amount was announced; Patel said it is funded as an internal platform. Second-quarter revenue was $57.8 million and net income $23.3 million. On the results call executives said an eighth insurer, GEICO, had signed up, bringing car insurance to the platform, per MarketBeat; neither company has issued a release on it.",
+      "status": "Confirmed · Exzeo",
+      "numbers": [
+        {
+          "k": "Revenue",
+          "v": "$57.8 million"
+        },
+        {
+          "k": "Net income",
+          "v": "$23.3 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Wire (Exzeo Ventures)",
+          "url": "https://www.businesswire.com/news/home/20260806417772/en/Exzeo-Group-Launches-Exzeo-Ventures-to-Build-the-Next-Generation-of-AI-Native-Businesses",
+          "primary": true
+        },
+        {
+          "name": "StockTitan (Q2 results)",
+          "url": "https://www.stocktitan.net/news/XZO/exzeo-announces-second-quarter-2026-financial-w8n7lr18iyxi.html"
+        },
+        {
+          "name": "Nasdaq (MarketBeat call highlights)",
+          "url": "https://www.nasdaq.com/articles/exzeo-group-q2-earnings-call-highlights"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-08-14",
+      "dateLabel": "14 Aug 2026",
+      "phase": "market",
+      "title": "Exzeo approves a $25 million share buyback",
+      "summary": "Exzeo authorised buying back up to $25 million of its own shares over a year. It had completed its first buyback, of about $12 million, on 8 July. A buyback reduces the number of shares in circulation.",
+      "status": "Confirmed · Exzeo",
+      "numbers": [
+        {
+          "k": "Buyback",
+          "v": "up to $25 million"
+        }
+      ],
+      "sources": [
+        {
+          "name": "StockTitan",
+          "url": "https://www.stocktitan.net/news/XZO/exzeo-authorizes-25-million-stock-repurchase-722g7mu0plyr.html",
+          "primary": true
+        },
+        {
+          "name": "StockTitan (first buyback)",
+          "url": "https://www.stocktitan.net/news/XZO/exzeo-announces-new-stock-repurchase-x7sk8yxztsyt.html"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-04",
+      "dateLabel": "4 Nov 2026",
+      "phase": "data",
+      "title": "Q3 2026: revenue flat; Exzeo lowers its year-end managed premium expectation",
+      "summary": "Exzeo reported July–September revenue of $55.2 million, unchanged from a year earlier, and net income of $22.3 million. Annual recurring revenue (ARR) was $205.8 million, lower than in each of the previous two quarters. On the call, Bulku said managed premium should be about $1.34 billion at the end of the year; the company had earlier targeted $1.55 billion. Patel said: \"AI will reshape the insurance industry, not just in expense ratios but in how coverage is bought and sold.\"",
+      "status": "Official data · Exzeo",
+      "numbers": [
+        {
+          "k": "Revenue",
+          "v": "$55.2 million (flat)"
+        },
+        {
+          "k": "Net income",
+          "v": "$22.3 million"
+        },
+        {
+          "k": "ARR",
+          "v": "$205.8 million"
+        },
+        {
+          "k": "Year-end managed premium",
+          "v": "about $1.34 billion (was $1.55 billion)"
+        }
+      ],
+      "key": true,
+      "sources": [
+        {
+          "name": "StockTitan (Exzeo release)",
+          "url": "https://www.stocktitan.net/news/XZO/exzeo-announces-third-quarter-2026-financial-8t1rhlyaj7sy.html",
+          "primary": true
+        },
+        {
+          "name": "Earnings Whispers (via Finviz)",
+          "url": "https://finviz.com/news/416446/exzeo-edges-past-estimates-but-a-managed-premium-cut-and-sliding-arr-overshadow-the-penny-beat"
+        },
+        {
+          "name": "Earnings Whispers (transcript)",
+          "url": "https://www.earningswhispers.com/transcript/XZO/Q32026"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-05",
+      "dateLabel": "5 Nov 2026",
+      "phase": "market",
+      "title": "Exzeo shares fall about 10% after the results",
+      "summary": "Exzeo's shares fell about 10% the day after its third-quarter results. On 27 November they traded at $14.95 in the morning, US time, against the $21 IPO price, per AAII.",
+      "status": "Market data",
+      "numbers": [
+        {
+          "k": "Share price, 27 Nov",
+          "v": "$14.95"
+        }
+      ],
+      "differs": "AAII gives a fall of 10.09%; Finviz shows 10.86%.",
+      "sources": [
+        {
+          "name": "AAII",
+          "url": "https://www.aaii.com/investingideas/article/563664-why-exzeo-group-inc8217s-xzo-stock-is-down-1009",
+          "primary": true
+        },
+        {
+          "name": "Finviz",
+          "url": "https://finviz.com/news/416446/exzeo-edges-past-estimates-but-a-managed-premium-cut-and-sliding-arr-overshadow-the-penny-beat"
+        }
+      ],
+      "added": "2026-11-27"
+    }
+  ]
+}

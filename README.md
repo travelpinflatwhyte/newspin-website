@@ -53,6 +53,7 @@ Stories are ranked automatically; there is no manual order. Each story's score i
 - **activity:** 1 point per event that became news in the last 14 days, up to 4
 - **turning point:** 3 points if an event marked `"key": true` became news today or yesterday (`KEY_BONUS` in build.py), so a story's big day lifts it to the top
 - **audience:** most readers are in the US and India, so stories tagged `US` get 2 points and stories tagged `India` get 1 (the larger one only, not both; `AUDIENCE` in build.py)
+- **big names:** 1 point for each person or company in the story's `people` / `companies` lists that is on `bigNames` in `data/site.json`, at most 2 (`NAME_CAP` in build.py). Edit `bigNames` to change who counts.
 
 "Became news" means the day the event was added, but never later than two days after the event's own date (`news_day()` in build.py). So the back-story added with a brand-new timeline keeps its old dates and does not count as fresh activity or a fresh turning point; the new timeline still gets full freshness points.
 
@@ -81,6 +82,8 @@ Each story is a JSON file. To add an event, add an object to `events`:
 Optional: `"key": true` highlights it, `"differs": "…"` adds a Sources differ note, `"link": "<slug>"` links another story, `"added": "YYYY-MM-DD"` sets when it was added (used for "new since your last visit"; defaults to the event date).
 
 Phases: cut, hold, hike, data, forecast, policy, market, world, trade, law, tech.
+
+Optional story fields: `"people"` and `"companies"` (public figures and companies the story is mainly about; never private individuals) feed the big-names ranking point. `"disclosure"` adds a short conflict-of-interest note under the story's dek, e.g. when someone at Newspin once worked at the company covered.
 
 Each story also has `"regions"` (any of India, World, US), and a `category` (Economy, Markets, Trade, World, Policy, Tech, AI, Travel). Stories that started less than four months ago get a zoomed-in timeline track automatically.
 

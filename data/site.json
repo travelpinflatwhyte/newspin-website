@@ -38,6 +38,7 @@
       "label": "US trade deal"
     }
   ],
+  "bigNames": ["Donald Trump", "Narendra Modi", "Elon Musk", "Vladimir Putin", "Nvidia", "OpenAI", "Apple", "Google", "Reliance", "Tata"],
   "order": [
     "founder-comebacks",
     "cop31-climate-talks",
@@ -64,6 +65,7 @@
     "xai-grok-2026",
     "spacex-starship",
     "starlink-2026",
+    "exzeo-2026",
     "china-ai-labs",
     "india-ai-rules",
     "microsoft-365-outage",

@@ -53,6 +53,9 @@
     {"term": "AGR", "case": true, "def": "Adjusted gross revenue: the part of a telecom company's income that India uses to calculate the fees it owes the government."},
     {"term": "low Earth orbit", "def": "The band of space closest to Earth where satellites circle the planet quickly. Being close means less delay for internet signals."},
     {"term": "Starshield", "def": "The military version of SpaceX's Starlink, sold to governments. The US government buys it for Ukraine's armed forces."},
-    {"term": "gateway", "also": ["gateways"], "def": "A ground station with large antennas that links satellites to the regular internet."}
+    {"term": "gateway", "also": ["gateways"], "def": "A ground station with large antennas that links satellites to the regular internet."},
+    {"term": "ARR", "case": true, "def": "Annual recurring revenue: the yearly value of a company's ongoing subscription or service contracts."},
+    {"term": "managed premium", "def": "The total insurance premium written on a software company's platform by the insurers that use it."},
+    {"term": "buyback", "def": "When a company buys its own shares from the market, reducing the number of shares in circulation."}
   ]
 }

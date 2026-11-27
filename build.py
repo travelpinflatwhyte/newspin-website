@@ -164,6 +164,7 @@ def nice_date(s):
 # ---------- data ----------
 def load():
     site = json.loads((DATA / "site.json").read_text())
+    BIG_NAMES.update(site.get("bigNames", []))
     stories = {}
     for p in sorted((DATA / "stories").glob("*.json")):
         s = json.loads(p.read_text())
@@ -432,7 +433,10 @@ NEW_DAYS = 3
 # A story tagged with both gets the larger bonus, not both. Keep in step with AUDIENCE in static/app.js.
 AUDIENCE = {"US": 2, "India": 1}
 # Daily market wraps stay in the ranking but never take the lead card.
-NO_LEAD = {"india-markets-daily", "us-markets-daily"}  # a story is tagged "New" for this many days after it was first added
+NO_LEAD = {"india-markets-daily", "us-markets-daily"}
+# Stories tagged with people or companies on site.json "bigNames" get +1 each, at most NAME_CAP.
+NAME_CAP = 2
+BIG_NAMES = set()  # a story is tagged "New" for this many days after it was first added
 
 
 def is_new_story(s, today):
@@ -461,7 +465,19 @@ def story_facts(s, today):
     keys = sorted(news_day(ev) for ev in s["events"] if ev.get("key"))
     return {"latest": added[-1], "next": nxt[0] if nxt else "", "upnext": upn[0] if upn else "",
             "keyat": keys[-1] if keys else "", "added": added, "news": news, "imp": s.get("importance", 3),
-            "aud": audience_bonus(s)}
+            "aud": audience_bonus(s) + name_bonus(s, BIG_NAMES)}
+
+
+def disclosure_html(s):
+    """Optional conflict-of-interest note shown under a story's dek (e.g. the founder once worked at the company)."""
+    note = s.get("disclosure")
+    return f'\n    <p class="disclosure"><strong>Disclosure:</strong> {e(note)}</p>' if note else ""
+
+
+def name_bonus(s, big_names):
+    """+1 per name in the story's `people`/`companies` that is on site.json `bigNames`, capped at NAME_CAP."""
+    names = set(s.get("people", [])) | set(s.get("companies", []))
+    return min(NAME_CAP, len(names & big_names))
 
 
 def audience_bonus(s):
@@ -1128,7 +1144,7 @@ def build_story(site, stories, s, axis):
   <section class="story-hero" aria-labelledby="t">
     <div class="meta"><span class="pill pill-cat {cat_class(s['category'])}">{e(s['category'])}</span>{NEW_TAG if is_new_story(s, axis.today) else ''}<span>{len(evs)} events since {e(evs[0]['dateLabel'])}</span><span aria-hidden="true">·</span><span>Last updated {e(nice_date(s['updated']))}</span></div>
     <h1 id="t" style="view-transition-name:t-{e(slug)}">{e(s['title'])}</h1>
-    <p class="dek">{e(s['dek'])}</p>
+    <p class="dek">{e(s['dek'])}</p>{disclosure_html(s)}
     <div class="hero-actions">{follow_btn(slug, 'btn btn-follow', on='Following this story', off='Follow story')}<button type="button" class="btn btn-light" data-sm-open="{e(slug)}">Catch me up</button><button type="button" class="btn btn-light listen-btn" data-listen-story="{e(slug)}" hidden>{ICON_PLAY}Listen</button><button type="button" class="btn btn-light" data-share>{ICON_SHARE}Share</button></div>
   </section>
   <div class="story-cols">

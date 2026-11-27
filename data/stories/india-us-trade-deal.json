@@ -1,386 +1,407 @@
 {
- "slug": "india-us-trade-deal",
- "short": "US trade deal",
- "category": "Trade",
- "regions": [
-  "India",
-  "US"
- ],
- "title": "India–US trade deal: announced in February, still not signed",
- "dek": "A tariff cut was announced with fanfare. Nine months later, courts, new duties and a sanctions law have kept it in limbo.",
- "seoTitle": "India–US trade deal 2026: tariffs timeline",
- "importance": 4,
- "status": "US proposes up to 25%; India objects",
- "tone": "hot",
- "big": "10%",
- "delta": "deal unsigned",
- "bigLabel": "US duty on most Indian goods since 24 Jul",
- "updated": "2026-11-26",
- "glance": {
-  "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
-  "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
-  "next": "The US has proposed a tariff of up to 25% on Indian goods, cut to 17% with a trade deal; comments are due by 5 January and hearings start on 25 January. India says it has no structural excess capacity and wants the issue settled in the trade talks. Farmers' groups plan protests on 26 November. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
- },
- "keyNumbers": [
-  {
-   "label": "Section 301 duty",
-   "value": "10%",
-   "note": "since 24 Jul (current)",
-   "hot": true
+  "slug": "india-us-trade-deal",
+  "short": "US trade deal",
+  "category": "Trade",
+  "regions": [
+    "India",
+    "US"
+  ],
+  "title": "India–US trade deal: announced in February, still not signed",
+  "dek": "A tariff cut was announced with fanfare. Nine months later, courts, new duties and a sanctions law have kept it in limbo.",
+  "seoTitle": "India–US trade deal 2026: tariffs timeline",
+  "importance": 4,
+  "status": "Goyal: deal 'close to culmination'",
+  "tone": "hot",
+  "big": "10%",
+  "delta": "deal unsigned",
+  "bigLabel": "US duty on most Indian goods since 24 Jul",
+  "updated": "2026-11-27",
+  "glance": {
+    "what": "The US and India announced a deal in February to cut US tariffs on Indian goods to 18% from 50%. On 18 November India's Commerce Secretary said the deal is \"more or less finalised\" but cannot be signed until the US sets its new tariff structure.",
+    "why": "US tariffs decide how competitive Indian exports like textiles, gems, engineering goods and pharma are in India’s biggest export market.",
+    "next": "The US has proposed a tariff of up to 25% on Indian goods, cut to 17% with a trade deal; comments are due by 5 January and hearings start on 25 January. On 27 November Commerce Minister Piyush Goyal said the deal is \"close to culmination\" but gave no signing date. A former senior US diplomat says both sides may aim to close phase one around the G20 summit in Florida in December."
   },
-  {
-   "label": "Proposed duty",
-   "value": "up to 25%",
-   "note": "17% with a deal (USTR, 25 Nov)"
-  },
-  {
-   "label": "Announced rate",
-   "value": "18%",
-   "note": "never applied"
-  },
-  {
-   "label": "Peak 2025 tariff",
-   "value": "50%",
-   "note": "before the deal"
-  },
-  {
-   "label": "Signed deal",
-   "value": "None",
-   "note": "as of 18 Nov"
-  }
- ],
- "forYou": "If you work in or invest in export-heavy sectors, the final tariff rate matters more than the headlines. Nothing announced is binding until a deal is signed.",
- "upcoming": [
-  {
-   "date": "2026-12-14",
-   "label": "Dec",
-   "text": "G20 summit in Florida, a possible target for phase one"
-  },
-  {
-   "date": "2027-01-05",
-   "label": "5 Jan",
-   "text": "Comments due on the proposed US tariff"
-  }
- ],
- "next": "Comments on the proposed 25% US tariff by 5 January; a possible push to close phase one around the G20 summit in December.",
- "links": [
-  "us-tariffs-2026",
-  "russian-oil",
-  "rupee-slide-2026"
- ],
- "events": [
-  {
-   "date": "2026-02-02",
-   "dateLabel": "2 Feb 2026",
-   "phase": "trade",
-   "title": "Trump announces a deal: tariffs to 18% from 50%",
-   "summary": "In return, India is to stop buying Russian oil and lower trade barriers for US goods.",
-   "status": "Announced",
-   "numbers": [
+  "keyNumbers": [
     {
-     "k": "US tariff",
-     "v": "50% → 18% (announced)"
-    }
-   ],
-   "link": "russian-oil",
-   "sources": [
-    {
-     "name": "investingLive",
-     "url": "https://investinglive.com/news/us-cuts-tariffs-on-india-to-18-as-new-delhi-agrees-to-end-russian-oil-purchases-20260202"
+      "label": "Section 301 duty",
+      "value": "10%",
+      "note": "since 24 Jul (current)",
+      "hot": true
     },
     {
-     "name": "India Briefing",
-     "url": "https://www.india-briefing.com/news/india-us-trade-deal-tariff-cut-export-investment-outlook-2026-2-42367.html/"
-    }
-   ]
-  },
-  {
-   "date": "2026-02-06",
-   "dateLabel": "6 Feb 2026",
-   "phase": "trade",
-   "title": "Joint statement sets out a framework for an interim deal",
-   "summary": "Both governments publish a framework for an interim agreement, with talks on a wider trade pact to follow.",
-   "status": "Confirmed",
-   "numbers": [],
-   "sources": [
-    {
-     "name": "US Government Publishing Office",
-     "url": "https://www.govinfo.gov/content/pkg/DCPD-202600084/html/DCPD-202600084.htm",
-     "primary": true
+      "label": "Proposed duty",
+      "value": "up to 25%",
+      "note": "17% with a deal (USTR, 25 Nov)"
     },
     {
-     "name": "White House fact sheet",
-     "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-the-united-states-and-india-announce-historic-trade-deal",
-     "primary": true
-    }
-   ]
-  },
-  {
-   "date": "2026-02-20",
-   "dateLabel": "20 Feb 2026",
-   "phase": "trade",
-   "title": "US Supreme Court strikes down the legal basis for the tariffs",
-   "summary": "In a 6–3 ruling, the court says the emergency-powers law (IEEPA) does not authorise tariffs. The US turns to other trade laws.",
-   "status": "Confirmed",
-   "numbers": [
-    {
-     "k": "Ruling",
-     "v": "6–3"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Multibagg (citing ATB Legal)",
-     "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-24",
-   "dateLabel": "24 Jul 2026",
-   "phase": "trade",
-   "title": "A new 10% duty on most Indian goods",
-   "summary": "A Section 301 duty of 10% starts applying to most Indian imports into the US, becoming the main sticking point in talks.",
-   "status": "Confirmed",
-   "numbers": [
-    {
-     "k": "Section 301 duty",
-     "v": "10%"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Multibagg (citing ATB Legal)",
-     "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
+      "label": "Announced rate",
+      "value": "18%",
+      "note": "never applied"
     },
     {
-     "name": "NewsBytes",
-     "url": "https://www.newsbytesapp.com/news/business/s-jaishankar-says-india-and-us-near-trade-deal/tldr"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "dateLabel": "18 Sep 2026",
-   "phase": "trade",
-   "title": "US sanctions law threatens tariffs of up to 100%",
-   "summary": "A new US law authorises tariffs of up to 100% on the five largest buyers of Russian oil and gas, naming India and China as at direct risk.",
-   "status": "Confirmed",
-   "numbers": [
-    {
-     "k": "Maximum tariff",
-     "v": "100%"
-    }
-   ],
-   "link": "russian-oil",
-   "sources": [
-    {
-     "name": "Peacock Tariff Consulting",
-     "url": "https://www.peacocktariffconsulting.com/india-deal-push/"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-03",
-   "dateLabel": "3 Nov 2026",
-   "phase": "trade",
-   "key": true,
-   "title": "Still no signed deal",
-   "summary": "The 18% rate announced in February was never applied. After the US midterms, Indian trade analysts argue an early interim deal has become more likely.",
-   "status": "Status check",
-   "numbers": [
-    {
-     "k": "Signed agreements",
-     "v": "None"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Multibagg (citing ATB Legal)",
-     "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
+      "label": "Peak 2025 tariff",
+      "value": "50%",
+      "note": "before the deal"
     },
     {
-     "name": "Peacock Tariff Consulting",
-     "url": "https://www.peacocktariffconsulting.com/india-deal-push/"
+      "label": "Signed deal",
+      "value": "None",
+      "note": "as of 18 Nov"
     }
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "trade",
-   "title": "Goyal: India will have one of the 'best' deals",
-   "summary": "Commerce Minister Piyush Goyal says India has negotiated a very good set of outcomes, while changes in US tariffs have led to further talks. Sources say the US midterm results will not affect the interim deal. A former US diplomat says both sides may aim to close phase one by the G20 summit next month.",
-   "status": "Stated · not signed",
-   "numbers": [],
-   "sources": [
+  ],
+  "forYou": "If you work in or invest in export-heavy sectors, the final tariff rate matters more than the headlines. Nothing announced is binding until a deal is signed.",
+  "upcoming": [
     {
-     "name": "ThePrint (PTI)",
-     "url": "https://theprint.in/economy/india-to-have-one-of-the-best-trade-deals-with-the-us-piyush-goyal/3097291/",
-     "primary": true
+      "date": "2026-12-14",
+      "label": "Dec",
+      "text": "G20 summit in Florida, a possible target for phase one"
     },
     {
-     "name": "Deccan Herald",
-     "url": "https://www.deccanherald.com/business/india-to-have-one-of-the-best-trade-deals-with-the-us-piyush-goyal-4216165"
-    },
-    {
-     "name": "Connected to India (PTI)",
-     "url": "https://www.connectedtoindia.com/former-us-diplomat-sees-push-to-finalise-india-trade-deal-by-g20-summit/"
+      "date": "2027-01-05",
+      "label": "5 Jan",
+      "text": "Comments due on the proposed US tariff"
     }
-   ],
-   "added": "2026-11-13"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18 Nov 2026",
-   "phase": "trade",
-   "title": "Commerce Secretary: deal 'more or less finalised' but can't be signed until new US tariff rules are in place",
-   "summary": "Commerce Secretary Rajesh Agrawal said \"every aspect of the deal has been more or less finalised\" and negotiations will conclude soon. But he said the two countries cannot sign it until Washington puts its new tariff structure in place: \"Till that tariff architecture is in place, the countries won't be able to sign the deal.\" The US is rebuilding its tariffs after its Supreme Court ruled in February that the emergency law used for the earlier tariffs did not allow them. Agrawal also pointed to pending US Section 301 investigations, saying countries will want to know their outcome before signing. He spoke at a FICCI event in New Delhi, per ANI.",
-   "status": "Stated · Commerce Secretary · not signed",
-   "numbers": [],
-   "sources": [
+  ],
+  "next": "Comments on the proposed 25% US tariff by 5 January; a possible push to close phase one around the G20 summit in December.",
+  "links": [
+    "us-tariffs-2026",
+    "russian-oil",
+    "rupee-slide-2026"
+  ],
+  "events": [
     {
-     "name": "The Tribune (ANI)",
-     "url": "https://tribuneindia.com/news/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary",
-     "primary": true
+      "date": "2026-02-02",
+      "dateLabel": "2 Feb 2026",
+      "phase": "trade",
+      "title": "Trump announces a deal: tariffs to 18% from 50%",
+      "summary": "In return, India is to stop buying Russian oil and lower trade barriers for US goods.",
+      "status": "Announced",
+      "numbers": [
+        {
+          "k": "US tariff",
+          "v": "50% → 18% (announced)"
+        }
+      ],
+      "link": "russian-oil",
+      "sources": [
+        {
+          "name": "investingLive",
+          "url": "https://investinglive.com/news/us-cuts-tariffs-on-india-to-18-as-new-delhi-agrees-to-end-russian-oil-purchases-20260202"
+        },
+        {
+          "name": "India Briefing",
+          "url": "https://www.india-briefing.com/news/india-us-trade-deal-tariff-cut-export-investment-outlook-2026-2-42367.html/"
+        }
+      ]
     },
     {
-     "name": "Republic World",
-     "url": "https://www.republicworld.com/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary-rajesh-agrawal-2026-11-18-141323"
+      "date": "2026-02-06",
+      "dateLabel": "6 Feb 2026",
+      "phase": "trade",
+      "title": "Joint statement sets out a framework for an interim deal",
+      "summary": "Both governments publish a framework for an interim agreement, with talks on a wider trade pact to follow.",
+      "status": "Confirmed",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "US Government Publishing Office",
+          "url": "https://www.govinfo.gov/content/pkg/DCPD-202600084/html/DCPD-202600084.htm",
+          "primary": true
+        },
+        {
+          "name": "White House fact sheet",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-the-united-states-and-india-announce-historic-trade-deal",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "dateLabel": "20 Feb 2026",
+      "phase": "trade",
+      "title": "US Supreme Court strikes down the legal basis for the tariffs",
+      "summary": "In a 6–3 ruling, the court says the emergency-powers law (IEEPA) does not authorise tariffs. The US turns to other trade laws.",
+      "status": "Confirmed",
+      "numbers": [
+        {
+          "k": "Ruling",
+          "v": "6–3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Multibagg (citing ATB Legal)",
+          "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "dateLabel": "24 Jul 2026",
+      "phase": "trade",
+      "title": "A new 10% duty on most Indian goods",
+      "summary": "A Section 301 duty of 10% starts applying to most Indian imports into the US, becoming the main sticking point in talks.",
+      "status": "Confirmed",
+      "numbers": [
+        {
+          "k": "Section 301 duty",
+          "v": "10%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Multibagg (citing ATB Legal)",
+          "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
+        },
+        {
+          "name": "NewsBytes",
+          "url": "https://www.newsbytesapp.com/news/business/s-jaishankar-says-india-and-us-near-trade-deal/tldr"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 Sep 2026",
+      "phase": "trade",
+      "title": "US sanctions law threatens tariffs of up to 100%",
+      "summary": "A new US law authorises tariffs of up to 100% on the five largest buyers of Russian oil and gas, naming India and China as at direct risk.",
+      "status": "Confirmed",
+      "numbers": [
+        {
+          "k": "Maximum tariff",
+          "v": "100%"
+        }
+      ],
+      "link": "russian-oil",
+      "sources": [
+        {
+          "name": "Peacock Tariff Consulting",
+          "url": "https://www.peacocktariffconsulting.com/india-deal-push/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "dateLabel": "3 Nov 2026",
+      "phase": "trade",
+      "key": true,
+      "title": "Still no signed deal",
+      "summary": "The 18% rate announced in February was never applied. After the US midterms, Indian trade analysts argue an early interim deal has become more likely.",
+      "status": "Status check",
+      "numbers": [
+        {
+          "k": "Signed agreements",
+          "v": "None"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Multibagg (citing ATB Legal)",
+          "url": "https://www.multibagg.ai/market-pulse/articles/india-us-trade-deal-midterms-status-cmw1o724c000cew2r2miogpli"
+        },
+        {
+          "name": "Peacock Tariff Consulting",
+          "url": "https://www.peacocktariffconsulting.com/india-deal-push/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "trade",
+      "title": "Goyal: India will have one of the 'best' deals",
+      "summary": "Commerce Minister Piyush Goyal says India has negotiated a very good set of outcomes, while changes in US tariffs have led to further talks. Sources say the US midterm results will not affect the interim deal. A former US diplomat says both sides may aim to close phase one by the G20 summit next month.",
+      "status": "Stated · not signed",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "ThePrint (PTI)",
+          "url": "https://theprint.in/economy/india-to-have-one-of-the-best-trade-deals-with-the-us-piyush-goyal/3097291/",
+          "primary": true
+        },
+        {
+          "name": "Deccan Herald",
+          "url": "https://www.deccanherald.com/business/india-to-have-one-of-the-best-trade-deals-with-the-us-piyush-goyal-4216165"
+        },
+        {
+          "name": "Connected to India (PTI)",
+          "url": "https://www.connectedtoindia.com/former-us-diplomat-sees-push-to-finalise-india-trade-deal-by-g20-summit/"
+        }
+      ],
+      "added": "2026-11-13"
+    },
+    {
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "phase": "trade",
+      "title": "Commerce Secretary: deal 'more or less finalised' but can't be signed until new US tariff rules are in place",
+      "summary": "Commerce Secretary Rajesh Agrawal said \"every aspect of the deal has been more or less finalised\" and negotiations will conclude soon. But he said the two countries cannot sign it until Washington puts its new tariff structure in place: \"Till that tariff architecture is in place, the countries won't be able to sign the deal.\" The US is rebuilding its tariffs after its Supreme Court ruled in February that the emergency law used for the earlier tariffs did not allow them. Agrawal also pointed to pending US Section 301 investigations, saying countries will want to know their outcome before signing. He spoke at a FICCI event in New Delhi, per ANI.",
+      "status": "Stated · Commerce Secretary · not signed",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "The Tribune (ANI)",
+          "url": "https://tribuneindia.com/news/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary",
+          "primary": true
+        },
+        {
+          "name": "Republic World",
+          "url": "https://www.republicworld.com/business/india-us-trade-deal-signing-awaits-new-us-tariff-framework-says-commerce-secretary-rajesh-agrawal-2026-11-18-141323"
+        }
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "trade",
+      "title": "Farmers' groups plan protests on 26 November against the US trade deal",
+      "summary": "The Samyukta Kisan Morcha, a coalition of farmers' unions, says farmers will march in Delhi, from Mandir Marg to Jantar Mantar, and protest at about 100 other places on 26 November. They want India to drop the proposed trade deal with the US and other free trade agreements. Farm leaders say cheaper US farm imports would hurt Indian farmers. The government has not announced a signing date.",
+      "status": "Stated · Samyukta Kisan Morcha",
+      "sources": [
+        {
+          "name": "ETV Bharat",
+          "url": "https://www.etvbharat.com/en/bharat/farmers-to-hold-nationwide-agitation-over-proposed-indo-us-trade-deal-and-other-issues-enn26112303673",
+          "primary": true
+        },
+        {
+          "name": "National Herald",
+          "url": "https://www.nationalheraldindia.com/politics/samyukt-kisan-morcha-nationwide-farmers-protests-november-26-modi-government"
+        }
+      ],
+      "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-24",
+      "dateLabel": "24 Nov 2026",
+      "phase": "trade",
+      "title": "Report: US may raise tariffs on India and others as soon as this week",
+      "summary": "The US may announce new tariffs on China, India and other countries as early as this week, the Wall Street Journal reported, according to PTI and IBTimes. They would follow a probe the US Trade Representative opened in March into 16 economies. It looks at whether government subsidies helped firms make far more than they can sell, flooding world markets with cheap goods. IBTimes, citing the Journal, says India and Vietnam could face higher duties, while Japan, South Korea and the EU could stay at 15% or less under their trade deals. No rates have been set, and the timing could change. It is one of the pending 'Section 301' probes that India's Commerce Secretary said must be settled before the deal can be signed. No Indian government response was reported. For exporters, a higher US duty would make Indian goods dearer in their biggest market.",
+      "status": "Reported · Wall Street Journal (via PTI, IBTimes); not announced",
+      "numbers": [
+        {
+          "k": "Economies in the probe",
+          "v": "16"
+        },
+        {
+          "k": "New rates",
+          "v": "Not set"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Standard (PTI)",
+          "url": "https://www.business-standard.com/world-news/us-planning-to-hike-tariffs-against-india-15-other-countries-report-126112401230_1.html",
+          "primary": true
+        },
+        {
+          "name": "IBTimes",
+          "url": "https://www.ibtimes.com/trump-tariffs-china-foreign-industrial-subsidies-3810130"
+        },
+        {
+          "name": "Nocut News",
+          "url": "https://en.nocutnews.co.kr/news/6612117"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "trade",
+      "key": true,
+      "link": "us-tariffs-2026",
+      "title": "US proposes a tariff of up to 25% on Indian goods, or 17% with a trade deal",
+      "summary": "The US Trade Representative proposed a Section 301 tariff of up to 25% on Indian goods, after finding that India's excess factory capacity is an unfair practice. USTR says the rate could be cut to 17% if India reaches a reciprocal trade agreement. It counts the 10% duty India already faces since July rather than adding to it, and some goods would be exempt. India is one of 14 economies covered; Vietnam faces up to 35% and the EU, Japan and South Korea 15%. Nothing takes effect yet: comments are due by 5 January and hearings start on 25 January.",
+      "status": "Proposed · USTR",
+      "numbers": [
+        {
+          "k": "Proposed rate",
+          "v": "up to 25%"
+        },
+        {
+          "k": "With a deal",
+          "v": "17%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "USTR",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "primary": true
+        },
+        {
+          "name": "Becker's Hospital Review",
+          "url": "https://www.beckershospitalreview.com/legal-regulatory-issues/trump-admin-proposes-new-tariffs-citing-pharma-and-medical-device-sectors-6-notes/"
+        },
+        {
+          "name": "Bombay Samachar (AFP)",
+          "url": "https://english.bombaysamachar.com/international/us-proposes-tariffs-india-china-section-301-excess-capacity/"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "trade",
+      "title": "India says it has no 'structural excess capacity' and wants tariff concerns settled in the trade talks",
+      "summary": "India's Commerce Ministry responded to the proposed US tariff of up to 25%. It said the US notice \"is currently under examination\" and that \"India does not have structural excess capacity in any sector\". It said India \"engaged constructively\" throughout the US investigation. The ministry said trade concerns \"should be addressed within the framework of these negotiations\", meaning the bilateral trade deal announced in February. It said the government remains committed to working closely with the US to conclude the deal early. No date for signing was given. The think tank GTRI said the new tariffs \"recreate the reciprocal-tariff regime under a new name\", per the Free Press Journal.",
+      "status": "Stated · Commerce Ministry",
+      "sources": [
+        {
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/india/india-rejects-us-excess-manufacturing-capacity-claim-vows-to-fast-track-trade-deal-amid-proposed-25-tariffs",
+          "primary": true
+        },
+        {
+          "name": "Daily Jagran (ANI)",
+          "url": "https://www.thedailyjagran.com/india/news/india-responds-to-trumps-proposed-25-per-cent-additional-tariff-on-indian-goods-calls-for-bilateral-talks-10337644"
+        }
+      ],
+      "link": "us-tariffs-2026",
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "trade",
+      "title": "Delhi Police refuse permission for farmers' march; protests against the trade deal planned nationwide",
+      "summary": "The farmers' coalition Samyukt Kisan Morcha (SKM) called protests in Delhi and about 100 other places on 26 November. One of its demands is that the government \"reject the India-US free trade agreement and other free trade agreements\", per National Herald. Other demands include a legal guarantee of minimum support prices (MSP) and a loan waiver. Delhi Police said \"no application for permission has been received and no permission has been granted\" for a march to Jantar Mantar, per India TV (IANS). Police said prohibitory orders are in force in the New Delhi district and that violations will invite legal action. Reports of turnout or detentions were not available at the time of writing.",
+      "status": "Stated · Delhi Police, SKM",
+      "sources": [
+        {
+          "name": "India TV (IANS)",
+          "url": "https://www.indiatvnews.com/delhi/delhi-police-deny-permission-for-skm-s-proposed-march-to-jantar-mantar-today-warn-of-legal-action-2026-11-26-1060402",
+          "primary": true
+        },
+        {
+          "name": "National Herald",
+          "url": "https://www.nationalheraldindia.com/politics/samyukt-kisan-morcha-nationwide-farmers-protests-november-26-modi-government"
+        }
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026",
+      "phase": "trade",
+      "title": "Goyal says the US trade deal is 'close to culmination'",
+      "summary": "Commerce and Industry Minister Piyush Goyal said on 27 November that \"the US trade deal is close to culmination\", speaking online to an industry conference, per Reuters. He said \"the process and pathway, which was always something which held back finalising the deal, is now taking some shape.\" He gave no date for signing. The remarks come two days after the US proposed a tariff of up to 25% on Indian goods, which would be capped at 17% if a deal is reached.",
+      "status": "Stated · Piyush Goyal",
+      "differs": "Reuters describes the event as an industry conference; EquityPandit names it as the India Debt Capital Market Summit 2026.",
+      "sources": [
+        {
+          "name": "Reuters (via Yahoo Finance)",
+          "url": "https://finance.yahoo.com/economy/policy/articles/india-us-trade-deal-nearing-052632979.html",
+          "primary": true
+        },
+        {
+          "name": "EquityPandit",
+          "url": "https://www.equitypandit.com/goyal-says-us-trade-deal-close-as-ustr-offers-17-tariff-cap/"
+        }
+      ],
+      "added": "2026-11-27"
     }
-   ],
-   "added": "2026-11-21"
-  },
-  {
-   "date": "2026-11-23",
-   "dateLabel": "23 Nov 2026",
-   "phase": "trade",
-   "title": "Farmers' groups plan protests on 26 November against the US trade deal",
-   "summary": "The Samyukta Kisan Morcha, a coalition of farmers' unions, says farmers will march in Delhi, from Mandir Marg to Jantar Mantar, and protest at about 100 other places on 26 November. They want India to drop the proposed trade deal with the US and other free trade agreements. Farm leaders say cheaper US farm imports would hurt Indian farmers. The government has not announced a signing date.",
-   "status": "Stated · Samyukta Kisan Morcha",
-   "sources": [
-    {
-     "name": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/bharat/farmers-to-hold-nationwide-agitation-over-proposed-indo-us-trade-deal-and-other-issues-enn26112303673",
-     "primary": true
-    },
-    {
-     "name": "National Herald",
-     "url": "https://www.nationalheraldindia.com/politics/samyukt-kisan-morcha-nationwide-farmers-protests-november-26-modi-government"
-    }
-   ],
-   "added": "2026-11-24"
-  },
-  {
-   "date": "2026-11-24",
-   "dateLabel": "24 Nov 2026",
-   "phase": "trade",
-   "title": "Report: US may raise tariffs on India and others as soon as this week",
-   "summary": "The US may announce new tariffs on China, India and other countries as early as this week, the Wall Street Journal reported, according to PTI and IBTimes. They would follow a probe the US Trade Representative opened in March into 16 economies. It looks at whether government subsidies helped firms make far more than they can sell, flooding world markets with cheap goods. IBTimes, citing the Journal, says India and Vietnam could face higher duties, while Japan, South Korea and the EU could stay at 15% or less under their trade deals. No rates have been set, and the timing could change. It is one of the pending 'Section 301' probes that India's Commerce Secretary said must be settled before the deal can be signed. No Indian government response was reported. For exporters, a higher US duty would make Indian goods dearer in their biggest market.",
-   "status": "Reported · Wall Street Journal (via PTI, IBTimes); not announced",
-   "numbers": [
-    {
-     "k": "Economies in the probe",
-     "v": "16"
-    },
-    {
-     "k": "New rates",
-     "v": "Not set"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Business Standard (PTI)",
-     "url": "https://www.business-standard.com/world-news/us-planning-to-hike-tariffs-against-india-15-other-countries-report-126112401230_1.html",
-     "primary": true
-    },
-    {
-     "name": "IBTimes",
-     "url": "https://www.ibtimes.com/trump-tariffs-china-foreign-industrial-subsidies-3810130"
-    },
-    {
-     "name": "Nocut News",
-     "url": "https://en.nocutnews.co.kr/news/6612117"
-    }
-   ],
-   "added": "2026-11-25"
-  },
-  {
-   "date": "2026-11-25",
-   "dateLabel": "25 Nov 2026",
-   "phase": "trade",
-   "key": true,
-   "link": "us-tariffs-2026",
-   "title": "US proposes a tariff of up to 25% on Indian goods, or 17% with a trade deal",
-   "summary": "The US Trade Representative proposed a Section 301 tariff of up to 25% on Indian goods, after finding that India's excess factory capacity is an unfair practice. USTR says the rate could be cut to 17% if India reaches a reciprocal trade agreement. It counts the 10% duty India already faces since July rather than adding to it, and some goods would be exempt. India is one of 14 economies covered; Vietnam faces up to 35% and the EU, Japan and South Korea 15%. Nothing takes effect yet: comments are due by 5 January and hearings start on 25 January.",
-   "status": "Proposed · USTR",
-   "numbers": [
-    {
-     "k": "Proposed rate",
-     "v": "up to 25%"
-    },
-    {
-     "k": "With a deal",
-     "v": "17%"
-    }
-   ],
-   "sources": [
-    {
-     "name": "USTR",
-     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
-     "primary": true
-    },
-    {
-     "name": "Becker's Hospital Review",
-     "url": "https://www.beckershospitalreview.com/legal-regulatory-issues/trump-admin-proposes-new-tariffs-citing-pharma-and-medical-device-sectors-6-notes/"
-    },
-    {
-     "name": "Bombay Samachar (AFP)",
-     "url": "https://english.bombaysamachar.com/international/us-proposes-tariffs-india-china-section-301-excess-capacity/"
-    }
-   ],
-   "added": "2026-11-25"
-  },
-  {
-   "date": "2026-11-25",
-   "dateLabel": "25 Nov 2026",
-   "phase": "trade",
-   "title": "India says it has no 'structural excess capacity' and wants tariff concerns settled in the trade talks",
-   "summary": "India's Commerce Ministry responded to the proposed US tariff of up to 25%. It said the US notice \"is currently under examination\" and that \"India does not have structural excess capacity in any sector\". It said India \"engaged constructively\" throughout the US investigation. The ministry said trade concerns \"should be addressed within the framework of these negotiations\", meaning the bilateral trade deal announced in February. It said the government remains committed to working closely with the US to conclude the deal early. No date for signing was given. The think tank GTRI said the new tariffs \"recreate the reciprocal-tariff regime under a new name\", per the Free Press Journal.",
-   "status": "Stated · Commerce Ministry",
-   "sources": [
-    {
-     "name": "Free Press Journal",
-     "url": "https://www.freepressjournal.in/india/india-rejects-us-excess-manufacturing-capacity-claim-vows-to-fast-track-trade-deal-amid-proposed-25-tariffs",
-     "primary": true
-    },
-    {
-     "name": "Daily Jagran (ANI)",
-     "url": "https://www.thedailyjagran.com/india/news/india-responds-to-trumps-proposed-25-per-cent-additional-tariff-on-indian-goods-calls-for-bilateral-talks-10337644"
-    }
-   ],
-   "link": "us-tariffs-2026",
-   "added": "2026-11-26"
-  },
-  {
-   "date": "2026-11-26",
-   "dateLabel": "26 Nov 2026",
-   "phase": "trade",
-   "title": "Delhi Police refuse permission for farmers' march; protests against the trade deal planned nationwide",
-   "summary": "The farmers' coalition Samyukt Kisan Morcha (SKM) called protests in Delhi and about 100 other places on 26 November. One of its demands is that the government \"reject the India-US free trade agreement and other free trade agreements\", per National Herald. Other demands include a legal guarantee of minimum support prices (MSP) and a loan waiver. Delhi Police said \"no application for permission has been received and no permission has been granted\" for a march to Jantar Mantar, per India TV (IANS). Police said prohibitory orders are in force in the New Delhi district and that violations will invite legal action. Reports of turnout or detentions were not available at the time of writing.",
-   "status": "Stated · Delhi Police, SKM",
-   "sources": [
-    {
-     "name": "India TV (IANS)",
-     "url": "https://www.indiatvnews.com/delhi/delhi-police-deny-permission-for-skm-s-proposed-march-to-jantar-mantar-today-warn-of-legal-action-2026-11-26-1060402",
-     "primary": true
-    },
-    {
-     "name": "National Herald",
-     "url": "https://www.nationalheraldindia.com/politics/samyukt-kisan-morcha-nationwide-farmers-protests-november-26-modi-government"
-    }
-   ],
-   "added": "2026-11-26"
-  }
- ]
+  ]
 }

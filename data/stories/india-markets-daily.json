@@ -1,653 +1,705 @@
 {
- "slug": "india-markets-daily",
- "short": "India markets",
- "category": "Markets",
- "regions": [
-  "India"
- ],
- "title": "India markets: the daily wrap",
- "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
- "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
- "importance": 4,
- "status": "Nifty edges up 0.25% on IT rally",
- "tone": "live",
- "big": "25,884.50",
- "delta": "▲ 65.25 (0.25%)",
- "bigLabel": "Nifty 50 close on 26 Nov",
- "updated": "2026-11-26",
- "market": {
-  "index": "Nifty 50",
-  "second": "Sensex",
-  "tz": "IST, closes 3:30 pm"
- },
- "glance": {
-  "what": "The Nifty 50 closed at 25,884.50 on 26 November, up 65.25 points (0.25%), after a higher open and a late pullback. The Sensex rose 390.31 points to 84,328.59.",
-  "why": "Technology shares led, with the Nifty IT index up 3.66%; realty and metal shares also rose. Reporters say rising crude oil prices kept investors cautious and trimmed the gains. Bank and consumer shares slipped.",
-  "next": "The RBI's next policy meeting runs 2 to 4 December."
- },
- "keyNumbers": [
-  {
-   "label": "Nifty 50, 26 Nov",
-   "value": "25,884.50",
-   "note": "+65.25 (0.25%)",
-   "hot": true
+  "slug": "india-markets-daily",
+  "short": "India markets",
+  "category": "Markets",
+  "regions": [
+    "India"
+  ],
+  "title": "India markets: the daily wrap",
+  "dek": "How the Nifty 50 and Sensex opened and closed each trading day, the overnight gap, and the reasons reporters gave.",
+  "seoTitle": "Sensex and Nifty today: open, close and gap, day by day",
+  "importance": 4,
+  "status": "Nifty falls 1.07% as IT shares slide",
+  "tone": "live",
+  "big": "25,607.20",
+  "delta": "▼ 277.30 (1.07%)",
+  "bigLabel": "Nifty 50 close on 27 Nov",
+  "updated": "2026-11-27",
+  "market": {
+    "index": "Nifty 50",
+    "second": "Sensex",
+    "tz": "IST, closes 3:30 pm"
   },
-  {
-   "label": "Sensex, 26 Nov",
-   "value": "84,328.59",
-   "note": "+390.31 (0.46%)"
+  "glance": {
+    "what": "The Nifty 50 closed at 25,607.20 on 27 November, down 277.30 points (1.07%), after a lower open. The Sensex fell 989.33 points to 83,339.26.",
+    "why": "Technology shares led the fall, with the Nifty IT index down 1.88%. Reporters point to profit-taking after two days of gains, higher oil prices after attacks in the Middle East, and uncertainty over proposed US tariffs. Metal shares and smaller companies rose.",
+    "next": "The RBI's next policy meeting runs 2 to 4 December."
   },
-  {
-   "label": "Nifty IT, 26 Nov",
-   "value": "+3.66%",
-   "note": "best sector"
-  },
-  {
-   "label": "India VIX, 26 Nov",
-   "value": "16.84",
-   "note": "−4.70%"
-  }
- ],
- "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
- "upcoming": [
-  {
-   "date": "2026-12-02",
-   "label": "2–4 Dec",
-   "text": "RBI monetary policy meeting"
-  }
- ],
- "next": "Watch foreign investor flows, oil prices and the dollar.",
- "links": [
-  "us-markets-daily",
-  "rupee-slide-2026",
-  "inflation-2026"
- ],
- "events": [
-  {
-   "date": "2026-11-09",
-   "dateLabel": "9 Nov 2026",
-   "phase": "market",
-   "title": "Gap up at the open, then gives back most of it",
-   "summary": "The Nifty 50 opened 90 points higher on positive global cues and buying in banks and financial stocks, IANS reports, but drifted down through the day to close 58.25 points up. HDFC Sky says both indices still posted their highest close since 27 February, though more shares fell than rose.",
-   "status": "Market data · IANS, HDFC Sky",
-   "numbers": [
+  "keyNumbers": [
     {
-     "k": "Sensex open",
-     "v": "81,327.29"
+      "label": "Nifty 50, 27 Nov",
+      "value": "25,607.20",
+      "note": "−277.30 (1.07%)",
+      "hot": true
     },
     {
-     "k": "Sensex close",
-     "v": "81,106.65 (+107.25)"
+      "label": "Sensex, 27 Nov",
+      "value": "83,339.26",
+      "note": "−989.33 (1.17%)"
+    },
+    {
+      "label": "Nifty IT, 27 Nov",
+      "value": "−1.88%",
+      "note": "worst sector"
+    },
+    {
+      "label": "Nifty Metal, 27 Nov",
+      "value": "+1.40%",
+      "note": "best sector"
     }
-   ],
-   "session": {
-    "prev": 24986.4,
-    "open": 25076.4,
-    "close": 25044.65,
-    "low": 24838.75,
-    "high": 25084.05
-   },
-   "sources": [
+  ],
+  "forYou": "If you own an index fund or ETF that tracks the Nifty 50 or Sensex, its value moves roughly in step with these numbers. A gap at the open usually reflects news that broke while Indian markets were shut, such as overnight moves on Wall Street. This is information, not investment advice.",
+  "upcoming": [
     {
-     "name": "IANS via The Hans India",
-     "url": "https://www.thehansindia.com/business/sensex-nifty-open-higher-amid-positive-global-cues-1140430",
-     "primary": true
-    },
-    {
-     "name": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/market-close-report-today-november-9-2026-nifty-sensex-post-modest-gains-as-diwali-party-pauses-for-breath"
-    },
-    {
-     "name": "DSIJ",
-     "url": "https://insights.dsij.in/appmindshare/closing-bell-nifty-50-closes-above-25000-as-sensex-gains-107-points-psu-banks-rally-373-60370"
+      "date": "2026-12-02",
+      "label": "2–4 Dec",
+      "text": "RBI monetary policy meeting"
     }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-10",
-   "dateLabel": "10 Nov 2026",
-   "phase": "market",
-   "title": "Markets shut for Diwali Balipratipada",
-   "summary": "The NSE and BSE were closed on Tuesday for Diwali Balipratipada, a listed trading holiday. Trading resumed on Wednesday.",
-   "status": "Confirmed · exchange holiday list",
-   "sources": [
+  ],
+  "next": "Watch foreign investor flows, oil prices and the dollar.",
+  "links": [
+    "us-markets-daily",
+    "rupee-slide-2026",
+    "inflation-2026"
+  ],
+  "events": [
     {
-     "name": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11",
-     "primary": true
+      "date": "2026-11-09",
+      "dateLabel": "9 Nov 2026",
+      "phase": "market",
+      "title": "Gap up at the open, then gives back most of it",
+      "summary": "The Nifty 50 opened 90 points higher on positive global cues and buying in banks and financial stocks, IANS reports, but drifted down through the day to close 58.25 points up. HDFC Sky says both indices still posted their highest close since 27 February, though more shares fell than rose.",
+      "status": "Market data · IANS, HDFC Sky",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "81,327.29"
+        },
+        {
+          "k": "Sensex close",
+          "v": "81,106.65 (+107.25)"
+        }
+      ],
+      "session": {
+        "prev": 24986.4,
+        "open": 25076.4,
+        "close": 25044.65,
+        "low": 24838.75,
+        "high": 25084.05
+      },
+      "sources": [
+        {
+          "name": "IANS via The Hans India",
+          "url": "https://www.thehansindia.com/business/sensex-nifty-open-higher-amid-positive-global-cues-1140430",
+          "primary": true
+        },
+        {
+          "name": "HDFC Sky",
+          "url": "https://hdfcsky.com/news/market-close-report-today-november-9-2026-nifty-sensex-post-modest-gains-as-diwali-party-pauses-for-breath"
+        },
+        {
+          "name": "DSIJ",
+          "url": "https://insights.dsij.in/appmindshare/closing-bell-nifty-50-closes-above-25000-as-sensex-gains-107-points-psu-banks-rally-373-60370"
+        }
+      ],
+      "added": "2026-11-17"
     },
     {
-     "name": "Bajaj Broking (NSE holiday list)",
-     "url": "https://www.bajajbroking.in/nse-holidays"
+      "date": "2026-11-10",
+      "dateLabel": "10 Nov 2026",
+      "phase": "market",
+      "title": "Markets shut for Diwali Balipratipada",
+      "summary": "The NSE and BSE were closed on Tuesday for Diwali Balipratipada, a listed trading holiday. Trading resumed on Wednesday.",
+      "status": "Confirmed · exchange holiday list",
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11",
+          "primary": true
+        },
+        {
+          "name": "Bajaj Broking (NSE holiday list)",
+          "url": "https://www.bajajbroking.in/nse-holidays"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-11",
+      "dateLabel": "11 Nov 2026",
+      "phase": "market",
+      "title": "Big gap up after the holiday; Nifty ends 0.84% higher",
+      "summary": "Returning from the holiday, the Nifty opened 293.15 points higher, a bigger jump than early overseas trading had pointed to, HDFC Sky reports. It eased from the open but closed up 210.40 points. DSIJ credits foreign investor buying, lower crude oil prices and buying in public sector bank and auto shares; Mahindra & Mahindra rose 5.30% while ICICI Bank fell 1.10%.",
+      "status": "Market data · HDFC Sky, DSIJ",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "82,248.68"
+        },
+        {
+          "k": "Sensex close",
+          "v": "81,879.40 (+772.75)"
+        }
+      ],
+      "session": {
+        "prev": 25044.65,
+        "open": 25337.8,
+        "close": 25255.05,
+        "high": 25424.35
+      },
+      "sources": [
+        {
+          "name": "HDFC Sky (open)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-11-2026-open-report-sensex-zooms-1300-pts-nifty-races-past-25350-as-oil-remains-soft",
+          "primary": true
+        },
+        {
+          "name": "DSIJ (close)",
+          "url": "https://insights.dsij.in/appmindshare/closing-bell-nifty-surges-210-points-above-25250-psu-banks-and-auto-stocks-lead-rally-60382"
+        },
+        {
+          "name": "NewsBytes",
+          "url": "https://www.newsbytesapp.com/news/business/markets-reopen-after-diwali-sensex-up-77275-points-nifty-2525505/tldr"
+        },
+        {
+          "name": "The Week (day's high)",
+          "url": "https://www.theweek.in/news/biz-tech/2026/11/11/nifty-sensex-open-at-eight-month-high-whats-fuelling-the-post-diwali-bull-run-on-dalal-street.html"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "market",
+      "title": "Opens lower after Nvidia's slide, recovers to a small gain",
+      "summary": "Indian shares opened in the red as Nvidia fell in US after-hours trading on reports its board could oust CEO Jensen Huang, India TV reports. Banks and financial stocks led a recovery, helped by foreign buying and softer oil, and the Nifty closed 44.30 points up. Shriram Finance (+3.6%) and Bajaj Finance (+3.4%) gained; Nestle India (−2.1%) fell. The rupee weakened 34 paise to 94.03 per dollar, HDFC Sky reports.",
+      "status": "Market data · India TV, HDFC Sky",
+      "differs": "Deccan Chronicle gave the Sensex open as 81,827.20; India TV and Upstox give 81,762.27. Upstox's closing report headline gives the Nifty close as 25,229; HDFC Sky gives 25,299.35, which matches the reported 44.30-point gain.",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "81,762.27"
+        },
+        {
+          "k": "Sensex close",
+          "v": "81,911.01 (+31.61)"
+        }
+      ],
+      "session": {
+        "prev": 25255.05,
+        "open": 25213.5,
+        "close": 25299.35,
+        "low": 25142.95,
+        "high": 25384.8
+      },
+      "sources": [
+        {
+          "name": "India TV (open)",
+          "url": "https://www.indiatvnews.com/business/markets/12-november-2026-stock-market-updates-sensex-drops-117-points-nifty-holds-25-200-amid-mixed-global-cues-bajaj-finance-qip-itc-2026-11-12-1059228",
+          "primary": true
+        },
+        {
+          "name": "HDFC Sky (close)",
+          "url": "https://hdfcsky.com/news/market-close-report-today-november-12-2026-nifty-sensex-pause-the-party"
+        },
+        {
+          "name": "Upstox (open, high, low)",
+          "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-trade-higher-after-negative-open-on-nov-12-m-and-m-bharti-airtel-it-stocks-among-top-losers/article-203332/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-13",
+      "dateLabel": "13 Nov 2026",
+      "phase": "market",
+      "title": "Gap down as inflation crosses 6%; Nifty falls 155 points",
+      "summary": "The Nifty opened 89.50 points lower and kept falling after October retail inflation came in at 6.09%, above the RBI's 6% upper limit, HDFC Sky reports. Upstox also cites weak global markets, higher US bond yields and rising oil. The Nifty closed at 25,144.30, ending a three-day winning run; Shriram Finance was the biggest loser.",
+      "status": "Market data · HDFC Sky, Upstox",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "81,833.78"
+        },
+        {
+          "k": "Sensex close",
+          "v": "81,592.45 (−318.56)"
+        }
+      ],
+      "session": {
+        "prev": 25299.35,
+        "open": 25209.85,
+        "close": 25144.3
+      },
+      "sources": [
+        {
+          "name": "HDFC Sky (open)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag",
+          "primary": true
+        },
+        {
+          "name": "Upstox (close)",
+          "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-13-indices-snap-winning-streak-sensex-falls-319-pts-nifty-50-ends-at-25-144-shriram-fin-top-loser/article-203442/"
+        },
+        {
+          "name": "Reporters Today (open)",
+          "url": "https://reporterstoday.com/sensex-nifty-open-lower-amid-inflation-concerns-rate-hike-fears/"
+        },
+        {
+          "name": "NewKerala (close)",
+          "url": "https://www.newkerala.com/news/a/sensex-nifty-snap-3-day-rally-as-banking-realty-840.htm"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-16",
+      "dateLabel": "16 Nov 2026",
+      "phase": "market",
+      "title": "Opens higher despite Wall Street's fall; Nifty Bank hits a record",
+      "summary": "The Nifty opened 61.85 points higher even though US shares had fallen, and closed up 146.80 points. HDFC Sky credits record foreign investor buying, easing crude oil and buying in FMCG and bank stocks, as money moved away from AI-linked trades elsewhere in Asia. The Nifty Bank index closed at a record 61,576, CNBC-TV18 reports; Max Healthcare was the top Nifty gainer, per Upstox.",
+      "status": "Market data · Upstox, HDFC Sky",
+      "differs": "HDFC Sky gives the Sensex close as 82,102.85 (+510.40); Upstox, Kotak Neo and Zee Business give 82,104.79 (+512.34).",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "81,810.98"
+        },
+        {
+          "k": "Sensex close",
+          "v": "82,104.79 (+512.34)"
+        }
+      ],
+      "session": {
+        "prev": 25144.3,
+        "open": 25206.15,
+        "close": 25291.1,
+        "low": 25172.1,
+        "high": 25337.6
+      },
+      "sources": [
+        {
+          "name": "Upstox (close)",
+          "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-16-sensex-rises-512-pts-nifty-50-ends-at-25-291-led-by-fmcg-stocks-max-healthcare-top-gainer/article-203523/",
+          "primary": true
+        },
+        {
+          "name": "HDFC Sky (close)",
+          "url": "https://hdfcsky.com/news/market-close-report-today-november-16-2026-nifty-sensex-shine-as-global-ai-jitters-redirect-trade-towards-india"
+        },
+        {
+          "name": "Zee Business (open)",
+          "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
+        },
+        {
+          "name": "CNBC-TV18 via TradingView",
+          "url": "https://www.tradingview.com/news/cnbctv:661c936a9094b:0/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
+      "phase": "market",
+      "title": "Flat open, then a steady climb as banks and realty lead",
+      "summary": "The Nifty opened 13.80 points lower, close to flat, then rose through the day to close up 96.30 points, Liquide reports. Kotak Neo credits lower crude prices and foreign buying. Realty (+1.94%) and financial stocks led; Bank Nifty rose 1.13%. Adani Enterprises (+3.24%) and Eicher Motors (+3.01%) were top gainers; HCL Technologies fell 2.09%.",
+      "status": "Market data · Liquide, Punjab Kesari",
+      "numbers": [
+        {
+          "k": "Sensex open",
+          "v": "82,150.62"
+        },
+        {
+          "k": "Sensex close",
+          "v": "82,532.19 (+427.40)"
+        }
+      ],
+      "session": {
+        "prev": 25291.1,
+        "open": 25277.3,
+        "close": 25387.4,
+        "high": 25501
+      },
+      "sources": [
+        {
+          "name": "Liquide",
+          "url": "https://blog.liquide.life/share-market-today-nifty-gains-96-points-to-25-387-bank-nifty-surges-697-points-as-realty-and-financial-stocks-lead-gains/",
+          "primary": true
+        },
+        {
+          "name": "Punjab Kesari (open)",
+          "url": "https://english.punjabkesari.com/india/stock-market-today-november-17-2026-sensex-surges-430-points-nifty-gains-122-points"
+        },
+        {
+          "name": "All India Radio (close)",
+          "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+        },
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-end-higher-as-crude-prices-fall-and-fii-buying-rises/"
+        }
+      ],
+      "added": "2026-11-17"
+    },
+    {
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "phase": "market",
+      "title": "Profit booking ends a two-day rise; metals and Titan drag",
+      "summary": "The Nifty opened 64.25 points lower and closed down 159.45 points (0.63%) at 25,227.95, according to DSIJ and Angel One. The Sensex fell 500.38 points (0.61%) to 82,031.81. HDFC Sky and Kotak Neo say investors booked profits after a strong November rally. HDFC Sky says a stronger US dollar and expectations of more US rate rises hurt metal prices. Thirteen of 16 sector indices fell, HDFC Sky reports: consumer durables lost about 3% and metals about 2.5%. Titan fell 5.3%, the worst in the Nifty; SBI (+2.4%) and Cipla (+2%) were the top gainers.",
+      "status": "Market data · DSIJ, HDFC Sky",
+      "differs": "Kotak Neo gives the Nifty close as 25,277.95, which does not match its own fall of 0.63% (about 160 points); DSIJ, Angel One and HDFC Sky give 25,227.95.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "82,031.81 (−500.38)"
+        },
+        {
+          "k": "Nifty Metal",
+          "v": "−2.46% (Kotak Neo)"
+        }
+      ],
+      "session": {
+        "prev": 25387.4,
+        "open": 25323.15,
+        "close": 25227.95,
+        "low": 25141.8,
+        "high": 25390.8
+      },
+      "sources": [
+        {
+          "name": "DSIJ",
+          "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-snap-2-day-rally-sensex-drops-500-points-nifty-metal-sinks-246",
+          "primary": true
+        },
+        {
+          "name": "HDFC Sky",
+          "url": "https://hdfcsky.com/news/market-close-report-today-november-18-2026-nifty-sensex-decline-after-recent-rally-as-profit-booking-sets-in"
+        },
+        {
+          "name": "Angel One",
+          "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-18-2026-sbi-and-cipla-gain-while-titan-company-drops-over-5"
+        },
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/market-wrap-18-november-2026-profit-booking-and-a-drag-in-metal-stocks-pull-benchmarks-down/"
+        }
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "phase": "market",
+      "title": "Autos and banks lift Nifty above 25,500 after a weak start",
+      "summary": "The Nifty opened lower and closed up 286.35 points (1.14%) at 25,514.30, according to Business Today and Kotak Neo. The Sensex rose 989.94 points (1.21%) to 83,021.75. Business Today says it was the Nifty's first close above 25,500 since 26 February. Marketcalls says the market started lower after minutes from the US Federal Reserve pointed to more US rate rises, then autos, banks and consumer goods stocks pulled it up. Business Today and Kotak Neo say falling copper and other metal prices should lower costs for carmakers and appliance makers. The Nifty Auto index rose 4.40% and Nifty IT fell 1.10%, per Kotak Neo and Marketcalls. Maruti Suzuki gained 7.30%, the best in the Nifty; Infosys (−1.52%) fell the most, per Marketcalls.",
+      "status": "Market data · Business Today, Kotak Neo",
+      "differs": "Only Liquide gives an opening level (25,186, about 42 points lower); the other reports say only that the market opened lower. Marketcalls says the Nifty slipped below 25,150 in early trade. Business Today gives Nifty Bank's close as 62,081.30 (with 63,063 as its intraday record); Marketcalls gives 63,063.00 as the close.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "83,021.75 (+989.94)"
+        },
+        {
+          "k": "Nifty Auto",
+          "v": "+4.40%"
+        },
+        {
+          "k": "Nifty IT",
+          "v": "−1.10%"
+        }
+      ],
+      "session": {
+        "prev": 25227.95,
+        "open": 25186.0,
+        "close": 25514.3
+      },
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-sensex-surges-990-points-nifty-reclaims-25500-for-first-time-since-february-26-568538-2026-11-19",
+          "primary": true
+        },
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/closing-bell-19-november-2026-sensex-nifty-end-higher-as-bulls-return-to-dalal-street/"
+        },
+        {
+          "name": "Marketcalls",
+          "url": "https://www.marketcalls.in/futures-and-options/post-market-report-19-november-2026.html"
+        },
+        {
+          "name": "Liquide",
+          "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-514-sensex-surges-990-points-as-auto-consumer-durables-and-banking-stocks-lead-rally/"
+        }
+      ],
+      "added": "2026-11-19"
+    },
+    {
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "phase": "market",
+      "title": "Banks pull Nifty back from a weak open to close above 25,800",
+      "summary": "The Nifty opened about 146 points lower at 25,368, according to Upstox and Liquide, after a sell-off in AI-linked technology shares overnight in the US and Asia. It then recovered to close up 286.30 points (1.12%) at 25,800.60, according to Business Today, Kotak Neo, HDFC Sky and Liquide. The Sensex rose 897.96 points (1.08%) to 83,919.71. HDFC Sky calls it a nine-month high. Reporters credit buying by foreign investors, gains in bank and IT stocks, lower oil prices and a stronger rupee. HDFC Sky says global funds are moving money out of AI-linked stocks and into India. Nifty Bank rose 2.49% to a record close of 64,635.20, per Liquide and Marketcalls, and Nifty IT rose 1.30%, per Kotak Neo. More shares fell than rose on the BSE (1,582 up, 2,456 down), per HDFC Sky. Apollo Hospitals (+5.29%) and Axis Bank (+4.72%) gained the most in the Nifty; Titan (−1.70%) and Tata Steel (−1.60%) fell the most, per HDFC Sky.",
+      "status": "Market data · Business Today, Kotak Neo, HDFC Sky",
+      "differs": "Upstox and Liquide put the Nifty's open at 25,368; Multibagg gives 25,378.05. For the Sensex, Upstox gives an open of 82,558.25 and Multibagg 82,568.56. HDFC Sky and Kotak Neo name different fifth-worst Nifty stocks (Eternal and Jio Financial Services).",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "83,919.71 (+897.96)"
+        },
+        {
+          "k": "Nifty Bank",
+          "v": "64,635.20 (+2.49%), record"
+        },
+        {
+          "k": "Nifty IT",
+          "v": "+1.30%"
+        }
+      ],
+      "session": {
+        "prev": 25514.3,
+        "open": 25368.0,
+        "close": 25800.6
+      },
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-markets-extend-gains-as-sensex-jumps-898-points-nifty-reclaims-25800-568767-2026-11-20",
+          "primary": true
+        },
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/closing-bell-20-november-2026-sensex-nifty-rally-on-banking-it-stocks-and-fii-buying/"
+        },
+        {
+          "name": "HDFC Sky",
+          "url": "https://hdfcsky.com/news/market-close-report-today-november-20-2026-nifty-sensex-scale-nine-month-highs-as-investors-dump-global-ai-for-india"
+        },
+        {
+          "name": "Upstox (open)",
+          "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
+        },
+        {
+          "name": "Liquide",
+          "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-801-sensex-surges-898-points-as-banking-financial-services-and-it-stocks-lead-rally/"
+        },
+        {
+          "name": "Marketcalls",
+          "url": "https://www.marketcalls.in/futures-and-options/post-market-report-20-november-2026.html"
+        }
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "market",
+      "title": "Banks and metals drag Nifty down 1.75% after a higher open",
+      "summary": "The Nifty opened higher and traded near 25,872 in the first minutes, according to Business Standard. It then fell through the day to close down 450.95 points (1.75%) at 25,349.65, according to Kotak Neo and Univest. The Sensex fell 1,483.72 points (1.77%) to 82,435.99. Both reports blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and also points to price swings ahead of the monthly expiry of derivative contracts. Nifty Bank fell 3.17% to 62,585.35 and Nifty Metal fell 3.68%, while Nifty IT rose 1.69%, per Univest and Kotak Neo. Univest says a Tata Steel deal with APL Apollo Tubes weighed on metal shares. Tata Steel (−8.43%) fell the most in the Nifty and TCS (+3.53%) gained the most, per Univest. The India VIX, a gauge of expected price swings, rose 4.04% to 18.02.",
+      "status": "Market data · Kotak Neo, Univest",
+      "differs": "No closing report gives an official opening level. The 25,872 figure is Business Standard's reading a few minutes after the open; Univest puts the day's high at 25,992.60. Kotak Neo lists HCL Technologies and Titan among the top five Nifty gainers, while Univest's top three include Tech Mahindra.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "82,435.99 (−1,483.72)"
+        },
+        {
+          "k": "Nifty Bank",
+          "v": "62,585.35 (−3.17%)"
+        },
+        {
+          "k": "Nifty IT",
+          "v": "+1.69%"
+        }
+      ],
+      "session": {
+        "prev": 25800.6,
+        "open": 25872.0,
+        "close": 25349.65
+      },
+      "sources": [
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-close-lower-as-banking-stocks-weigh-on-markets/",
+          "primary": true
+        },
+        {
+          "name": "Univest",
+          "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+        },
+        {
+          "name": "Business Standard (live blog, open)",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+        }
+      ],
+      "added": "2026-11-23"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "market",
+      "title": "Nifty climbs 1.85% to 25,819 as consumer and bank shares recover",
+      "summary": "Trading resumed after Tuesday's Guru Nanak Jayanti holiday. The Nifty opened about 309 points higher at 25,658, according to Liquide, and closed up 469.60 points (1.85%) at 25,819.25, according to Kotak Neo, Liquide and DSIJ. That recovers most of Monday's fall. The Sensex rose 1,502.29 points (1.82%) to 83,938.28. The reports credit continued buying by foreign investors, lower crude oil prices and a stronger rupee. Consumer goods (FMCG) shares led: the Nifty FMCG index rose 3.79% and pharma 2.38%. Nifty Bank rose 1.79% to 63,703.25, per Liquide. Metal shares fell again (Nifty Metal −2.04%), which DSIJ links to Tata Steel's proposed deal with APL Apollo Tubes. Hindustan Unilever (+6.08%) gained the most in the Nifty and Tata Steel (−2.27%) fell the most, per Liquide and DSIJ. Smaller companies lagged: the Nifty Smallcap 100 fell 0.44%, per Kotak Neo.",
+      "status": "Market data · Kotak Neo, Liquide, DSIJ",
+      "differs": "InCred Money gives a Nifty close of 25,791.25 (+1.74%) and a Sensex close of 83,982.08 (+1.88%), describing the Nifty figure as from the closing auction; Kotak Neo, Liquide and DSIJ all give 25,819.25 and 83,938.28. Only Liquide gives an opening level. DSIJ puts the fall in Nifty Metal at 2.06% and the Smallcap 100 fall at 0.52%.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "83,938.28 (+1,502.29)"
+        },
+        {
+          "k": "Nifty Bank",
+          "v": "63,703.25 (+1.79%)"
+        },
+        {
+          "k": "Nifty FMCG",
+          "v": "+3.79%"
+        },
+        {
+          "k": "Nifty Metal",
+          "v": "−2.04%"
+        }
+      ],
+      "session": {
+        "prev": 25349.65,
+        "open": 25658.0,
+        "close": 25819.25
+      },
+      "sources": [
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/",
+          "primary": true
+        },
+        {
+          "name": "Liquide",
+          "url": "https://blog.liquide.life/share-market-today-nifty-surges-470-points-to-25-819-sensex-jumps-1-502-points-as-fmcg-pharma-and-financial-services-lead-market-rally/"
+        },
+        {
+          "name": "DSIJ",
+          "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
+        },
+        {
+          "name": "InCred Money",
+          "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-25-november-2026/"
+        }
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "market",
+      "title": "Nifty ends 0.25% higher at 25,884 as IT shares rally; gains trimmed late",
+      "summary": "The Nifty opened 53.95 points higher at 25,873.20, according to India TV (PTI) and Univest. It gave up some early gains and closed up 65.25 points (0.25%) at 25,884.50, according to Kotak Neo, InCred Money and Industry Wired. The Sensex rose 390.31 points (0.46%) to 84,328.59. Technology shares led: the Nifty IT index rose 3.66%, and realty (+2.77%) and metal (+1.19%) shares also gained. Kotak Neo says rising crude oil prices kept investors cautious and points to a late-session pullback. Nifty Bank slipped 0.26%. HCL Technologies (+5.59%) gained the most in the Nifty and Shriram Finance (−2.82%) fell the most, per InCred Money and Industry Wired. The India VIX, a gauge of expected price swings, fell 4.70% to 16.84.",
+      "status": "Market data · Kotak Neo, InCred Money, Industry Wired",
+      "differs": "HDFC Sky gives a Nifty opening level of 25,826.65, a largely flat start; India TV (PTI) and Univest give 25,873.20. Reports differ on the weakest sector: Kotak Neo names FMCG (−0.94%), while InCred Money and Industry Wired name consumer durables (−1.36%) and put FMCG at −0.76% and −0.97%. Kotak Neo names Asian Paints as the top Nifty loser. The Nifty Smallcap 100 rose 0.74% per Kotak Neo and 0.69% per the other two.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "84,328.59 (+390.31)"
+        },
+        {
+          "k": "Nifty IT",
+          "v": "+3.66%"
+        },
+        {
+          "k": "Nifty Bank",
+          "v": "−0.26%"
+        },
+        {
+          "k": "India VIX",
+          "v": "16.84 (−4.70%)"
+        }
+      ],
+      "session": {
+        "prev": 25819.25,
+        "open": 25873.2,
+        "close": 25884.5
+      },
+      "sources": [
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-manage-to-close-higher-despite-paring-early-gains/",
+          "primary": true
+        },
+        {
+          "name": "InCred Money",
+          "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-26-november-2026/"
+        },
+        {
+          "name": "Industry Wired",
+          "url": "https://industrywired.com/stocks/closing-bell-indian-stock-market-ends-higher-hcl-tech-bse-lead-nifty-gainers-12843466"
+        },
+        {
+          "name": "India TV (PTI)",
+          "url": "https://www.indiatvnews.com/business/markets/26-november-2026-stock-market-updates-sensex-gains-363-points-nifty-near-25-900-it-stocks-rally-2026-11-26-1060406"
+        },
+        {
+          "name": "Univest",
+          "url": "https://univest.in/blogs/nifty-today-hovers-near-25900-sensex-slips-from-days-high-reasons"
+        },
+        {
+          "name": "HDFC Sky",
+          "url": "https://hdfcsky.com/news/india-vix-falls-1-75percent-amid-it-rally-foreign-inflows-november-26-2026"
+        }
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026",
+      "phase": "market",
+      "title": "Nifty falls 1.07% to 25,607 as IT and bank shares slide; metals gain",
+      "summary": "The Nifty opened 45 points lower at 25,839.25, according to The Week, and fell through the day. It closed down 277.30 points (1.07%) at 25,607.20, according to Kotak Neo and Trade Brains. The Sensex fell 989.33 points (1.17%) to 83,339.26. Technology shares led the fall: Kotak Neo puts the Nifty IT index down 1.88%. The reports point to profit-taking in IT and bank shares after two days of gains, oil prices near $96–97 a barrel after attacks on shipping and energy sites in the Middle East, and uncertainty over proposed US tariffs. Metal shares rose, with the Nifty Metal index up 1.40%, per Kotak Neo. Smaller companies held up: the Nifty Smallcap 100 rose 0.56% and the Midcap 100 0.10%. Kotak Neo names Bharat Electronics as the top Nifty gainer and Shriram Finance as the biggest loser.",
+      "status": "Market data · Kotak Neo, Trade Brains",
+      "differs": "Only The Week gives an opening level. Trade Brains' headline gives an earlier reading (Nifty 25,703.20, −0.70%), while its later update gives the close used here; Industry Wired, writing before final figures, put the Sensex down 777.10 points at 83,551.49. Trade Brains puts the Nifty IT fall at 1.44%.",
+      "numbers": [
+        {
+          "k": "Sensex close",
+          "v": "83,339.26 (−989.33)"
+        },
+        {
+          "k": "Nifty IT",
+          "v": "−1.88%"
+        },
+        {
+          "k": "Nifty Metal",
+          "v": "+1.40%"
+        },
+        {
+          "k": "Nifty Smallcap 100",
+          "v": "+0.56%"
+        }
+      ],
+      "session": {
+        "prev": 25884.5,
+        "open": 25839.25,
+        "close": 25607.2
+      },
+      "sources": [
+        {
+          "name": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-fall-amid-domestic-and-global-headwinds/",
+          "primary": true
+        },
+        {
+          "name": "Trade Brains",
+          "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-27-november-gift-nifty-signals-cautious-opening-nse-tata-motors-and-other-stocks-in-focus-12844613"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+        },
+        {
+          "name": "Industry Wired",
+          "url": "https://industrywired.com/stocks/closing-bell-sensex-nifty-end-in-the-red-what-moved-the-indian-stock-market-today-12845904"
+        }
+      ],
+      "added": "2026-11-27"
     }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-11",
-   "dateLabel": "11 Nov 2026",
-   "phase": "market",
-   "title": "Big gap up after the holiday; Nifty ends 0.84% higher",
-   "summary": "Returning from the holiday, the Nifty opened 293.15 points higher, a bigger jump than early overseas trading had pointed to, HDFC Sky reports. It eased from the open but closed up 210.40 points. DSIJ credits foreign investor buying, lower crude oil prices and buying in public sector bank and auto shares; Mahindra & Mahindra rose 5.30% while ICICI Bank fell 1.10%.",
-   "status": "Market data · HDFC Sky, DSIJ",
-   "numbers": [
-    {
-     "k": "Sensex open",
-     "v": "82,248.68"
-    },
-    {
-     "k": "Sensex close",
-     "v": "81,879.40 (+772.75)"
-    }
-   ],
-   "session": {
-    "prev": 25044.65,
-    "open": 25337.8,
-    "close": 25255.05,
-    "high": 25424.35
-   },
-   "sources": [
-    {
-     "name": "HDFC Sky (open)",
-     "url": "https://hdfcsky.com/news/bse-nse-sensex-november-11-2026-open-report-sensex-zooms-1300-pts-nifty-races-past-25350-as-oil-remains-soft",
-     "primary": true
-    },
-    {
-     "name": "DSIJ (close)",
-     "url": "https://insights.dsij.in/appmindshare/closing-bell-nifty-surges-210-points-above-25250-psu-banks-and-auto-stocks-lead-rally-60382"
-    },
-    {
-     "name": "NewsBytes",
-     "url": "https://www.newsbytesapp.com/news/business/markets-reopen-after-diwali-sensex-up-77275-points-nifty-2525505/tldr"
-    },
-    {
-     "name": "The Week (day's high)",
-     "url": "https://www.theweek.in/news/biz-tech/2026/11/11/nifty-sensex-open-at-eight-month-high-whats-fuelling-the-post-diwali-bull-run-on-dalal-street.html"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-12",
-   "dateLabel": "12 Nov 2026",
-   "phase": "market",
-   "title": "Opens lower after Nvidia's slide, recovers to a small gain",
-   "summary": "Indian shares opened in the red as Nvidia fell in US after-hours trading on reports its board could oust CEO Jensen Huang, India TV reports. Banks and financial stocks led a recovery, helped by foreign buying and softer oil, and the Nifty closed 44.30 points up. Shriram Finance (+3.6%) and Bajaj Finance (+3.4%) gained; Nestle India (−2.1%) fell. The rupee weakened 34 paise to 94.03 per dollar, HDFC Sky reports.",
-   "status": "Market data · India TV, HDFC Sky",
-   "differs": "Deccan Chronicle gave the Sensex open as 81,827.20; India TV and Upstox give 81,762.27. Upstox's closing report headline gives the Nifty close as 25,229; HDFC Sky gives 25,299.35, which matches the reported 44.30-point gain.",
-   "numbers": [
-    {
-     "k": "Sensex open",
-     "v": "81,762.27"
-    },
-    {
-     "k": "Sensex close",
-     "v": "81,911.01 (+31.61)"
-    }
-   ],
-   "session": {
-    "prev": 25255.05,
-    "open": 25213.5,
-    "close": 25299.35,
-    "low": 25142.95,
-    "high": 25384.8
-   },
-   "sources": [
-    {
-     "name": "India TV (open)",
-     "url": "https://www.indiatvnews.com/business/markets/12-november-2026-stock-market-updates-sensex-drops-117-points-nifty-holds-25-200-amid-mixed-global-cues-bajaj-finance-qip-itc-2026-11-12-1059228",
-     "primary": true
-    },
-    {
-     "name": "HDFC Sky (close)",
-     "url": "https://hdfcsky.com/news/market-close-report-today-november-12-2026-nifty-sensex-pause-the-party"
-    },
-    {
-     "name": "Upstox (open, high, low)",
-     "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-trade-higher-after-negative-open-on-nov-12-m-and-m-bharti-airtel-it-stocks-among-top-losers/article-203332/"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-13",
-   "dateLabel": "13 Nov 2026",
-   "phase": "market",
-   "title": "Gap down as inflation crosses 6%; Nifty falls 155 points",
-   "summary": "The Nifty opened 89.50 points lower and kept falling after October retail inflation came in at 6.09%, above the RBI's 6% upper limit, HDFC Sky reports. Upstox also cites weak global markets, higher US bond yields and rising oil. The Nifty closed at 25,144.30, ending a three-day winning run; Shriram Finance was the biggest loser.",
-   "status": "Market data · HDFC Sky, Upstox",
-   "numbers": [
-    {
-     "k": "Sensex open",
-     "v": "81,833.78"
-    },
-    {
-     "k": "Sensex close",
-     "v": "81,592.45 (−318.56)"
-    }
-   ],
-   "session": {
-    "prev": 25299.35,
-    "open": 25209.85,
-    "close": 25144.3
-   },
-   "sources": [
-    {
-     "name": "HDFC Sky (open)",
-     "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag",
-     "primary": true
-    },
-    {
-     "name": "Upstox (close)",
-     "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-13-indices-snap-winning-streak-sensex-falls-319-pts-nifty-50-ends-at-25-144-shriram-fin-top-loser/article-203442/"
-    },
-    {
-     "name": "Reporters Today (open)",
-     "url": "https://reporterstoday.com/sensex-nifty-open-lower-amid-inflation-concerns-rate-hike-fears/"
-    },
-    {
-     "name": "NewKerala (close)",
-     "url": "https://www.newkerala.com/news/a/sensex-nifty-snap-3-day-rally-as-banking-realty-840.htm"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-16",
-   "dateLabel": "16 Nov 2026",
-   "phase": "market",
-   "title": "Opens higher despite Wall Street's fall; Nifty Bank hits a record",
-   "summary": "The Nifty opened 61.85 points higher even though US shares had fallen, and closed up 146.80 points. HDFC Sky credits record foreign investor buying, easing crude oil and buying in FMCG and bank stocks, as money moved away from AI-linked trades elsewhere in Asia. The Nifty Bank index closed at a record 61,576, CNBC-TV18 reports; Max Healthcare was the top Nifty gainer, per Upstox.",
-   "status": "Market data · Upstox, HDFC Sky",
-   "differs": "HDFC Sky gives the Sensex close as 82,102.85 (+510.40); Upstox, Kotak Neo and Zee Business give 82,104.79 (+512.34).",
-   "numbers": [
-    {
-     "k": "Sensex open",
-     "v": "81,810.98"
-    },
-    {
-     "k": "Sensex close",
-     "v": "82,104.79 (+512.34)"
-    }
-   ],
-   "session": {
-    "prev": 25144.3,
-    "open": 25206.15,
-    "close": 25291.1,
-    "low": 25172.1,
-    "high": 25337.6
-   },
-   "sources": [
-    {
-     "name": "Upstox (close)",
-     "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-16-sensex-rises-512-pts-nifty-50-ends-at-25-291-led-by-fmcg-stocks-max-healthcare-top-gainer/article-203523/",
-     "primary": true
-    },
-    {
-     "name": "HDFC Sky (close)",
-     "url": "https://hdfcsky.com/news/market-close-report-today-november-16-2026-nifty-sensex-shine-as-global-ai-jitters-redirect-trade-towards-india"
-    },
-    {
-     "name": "Zee Business (open)",
-     "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
-    },
-    {
-     "name": "CNBC-TV18 via TradingView",
-     "url": "https://www.tradingview.com/news/cnbctv:661c936a9094b:0/"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-17",
-   "dateLabel": "17 Nov 2026",
-   "phase": "market",
-   "title": "Flat open, then a steady climb as banks and realty lead",
-   "summary": "The Nifty opened 13.80 points lower, close to flat, then rose through the day to close up 96.30 points, Liquide reports. Kotak Neo credits lower crude prices and foreign buying. Realty (+1.94%) and financial stocks led; Bank Nifty rose 1.13%. Adani Enterprises (+3.24%) and Eicher Motors (+3.01%) were top gainers; HCL Technologies fell 2.09%.",
-   "status": "Market data · Liquide, Punjab Kesari",
-   "numbers": [
-    {
-     "k": "Sensex open",
-     "v": "82,150.62"
-    },
-    {
-     "k": "Sensex close",
-     "v": "82,532.19 (+427.40)"
-    }
-   ],
-   "session": {
-    "prev": 25291.1,
-    "open": 25277.3,
-    "close": 25387.4,
-    "high": 25501
-   },
-   "sources": [
-    {
-     "name": "Liquide",
-     "url": "https://blog.liquide.life/share-market-today-nifty-gains-96-points-to-25-387-bank-nifty-surges-697-points-as-realty-and-financial-stocks-lead-gains/",
-     "primary": true
-    },
-    {
-     "name": "Punjab Kesari (open)",
-     "url": "https://english.punjabkesari.com/india/stock-market-today-november-17-2026-sensex-surges-430-points-nifty-gains-122-points"
-    },
-    {
-     "name": "All India Radio (close)",
-     "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
-    },
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-end-higher-as-crude-prices-fall-and-fii-buying-rises/"
-    }
-   ],
-   "added": "2026-11-17"
-  },
-  {
-   "date": "2026-11-18",
-   "dateLabel": "18 Nov 2026",
-   "phase": "market",
-   "title": "Profit booking ends a two-day rise; metals and Titan drag",
-   "summary": "The Nifty opened 64.25 points lower and closed down 159.45 points (0.63%) at 25,227.95, according to DSIJ and Angel One. The Sensex fell 500.38 points (0.61%) to 82,031.81. HDFC Sky and Kotak Neo say investors booked profits after a strong November rally. HDFC Sky says a stronger US dollar and expectations of more US rate rises hurt metal prices. Thirteen of 16 sector indices fell, HDFC Sky reports: consumer durables lost about 3% and metals about 2.5%. Titan fell 5.3%, the worst in the Nifty; SBI (+2.4%) and Cipla (+2%) were the top gainers.",
-   "status": "Market data · DSIJ, HDFC Sky",
-   "differs": "Kotak Neo gives the Nifty close as 25,277.95, which does not match its own fall of 0.63% (about 160 points); DSIJ, Angel One and HDFC Sky give 25,227.95.",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "82,031.81 (−500.38)"
-    },
-    {
-     "k": "Nifty Metal",
-     "v": "−2.46% (Kotak Neo)"
-    }
-   ],
-   "session": {
-    "prev": 25387.4,
-    "open": 25323.15,
-    "close": 25227.95,
-    "low": 25141.8,
-    "high": 25390.8
-   },
-   "sources": [
-    {
-     "name": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-snap-2-day-rally-sensex-drops-500-points-nifty-metal-sinks-246",
-     "primary": true
-    },
-    {
-     "name": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/market-close-report-today-november-18-2026-nifty-sensex-decline-after-recent-rally-as-profit-booking-sets-in"
-    },
-    {
-     "name": "Angel One",
-     "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-18-2026-sbi-and-cipla-gain-while-titan-company-drops-over-5"
-    },
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/market-wrap-18-november-2026-profit-booking-and-a-drag-in-metal-stocks-pull-benchmarks-down/"
-    }
-   ],
-   "added": "2026-11-18"
-  },
-  {
-   "date": "2026-11-19",
-   "dateLabel": "19 Nov 2026",
-   "phase": "market",
-   "title": "Autos and banks lift Nifty above 25,500 after a weak start",
-   "summary": "The Nifty opened lower and closed up 286.35 points (1.14%) at 25,514.30, according to Business Today and Kotak Neo. The Sensex rose 989.94 points (1.21%) to 83,021.75. Business Today says it was the Nifty's first close above 25,500 since 26 February. Marketcalls says the market started lower after minutes from the US Federal Reserve pointed to more US rate rises, then autos, banks and consumer goods stocks pulled it up. Business Today and Kotak Neo say falling copper and other metal prices should lower costs for carmakers and appliance makers. The Nifty Auto index rose 4.40% and Nifty IT fell 1.10%, per Kotak Neo and Marketcalls. Maruti Suzuki gained 7.30%, the best in the Nifty; Infosys (−1.52%) fell the most, per Marketcalls.",
-   "status": "Market data · Business Today, Kotak Neo",
-   "differs": "Only Liquide gives an opening level (25,186, about 42 points lower); the other reports say only that the market opened lower. Marketcalls says the Nifty slipped below 25,150 in early trade. Business Today gives Nifty Bank's close as 62,081.30 (with 63,063 as its intraday record); Marketcalls gives 63,063.00 as the close.",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "83,021.75 (+989.94)"
-    },
-    {
-     "k": "Nifty Auto",
-     "v": "+4.40%"
-    },
-    {
-     "k": "Nifty IT",
-     "v": "−1.10%"
-    }
-   ],
-   "session": {
-    "prev": 25227.95,
-    "open": 25186.0,
-    "close": 25514.3
-   },
-   "sources": [
-    {
-     "name": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-sensex-surges-990-points-nifty-reclaims-25500-for-first-time-since-february-26-568538-2026-11-19",
-     "primary": true
-    },
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/closing-bell-19-november-2026-sensex-nifty-end-higher-as-bulls-return-to-dalal-street/"
-    },
-    {
-     "name": "Marketcalls",
-     "url": "https://www.marketcalls.in/futures-and-options/post-market-report-19-november-2026.html"
-    },
-    {
-     "name": "Liquide",
-     "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-514-sensex-surges-990-points-as-auto-consumer-durables-and-banking-stocks-lead-rally/"
-    }
-   ],
-   "added": "2026-11-19"
-  },
-  {
-   "date": "2026-11-20",
-   "dateLabel": "20 Nov 2026",
-   "phase": "market",
-   "title": "Banks pull Nifty back from a weak open to close above 25,800",
-   "summary": "The Nifty opened about 146 points lower at 25,368, according to Upstox and Liquide, after a sell-off in AI-linked technology shares overnight in the US and Asia. It then recovered to close up 286.30 points (1.12%) at 25,800.60, according to Business Today, Kotak Neo, HDFC Sky and Liquide. The Sensex rose 897.96 points (1.08%) to 83,919.71. HDFC Sky calls it a nine-month high. Reporters credit buying by foreign investors, gains in bank and IT stocks, lower oil prices and a stronger rupee. HDFC Sky says global funds are moving money out of AI-linked stocks and into India. Nifty Bank rose 2.49% to a record close of 64,635.20, per Liquide and Marketcalls, and Nifty IT rose 1.30%, per Kotak Neo. More shares fell than rose on the BSE (1,582 up, 2,456 down), per HDFC Sky. Apollo Hospitals (+5.29%) and Axis Bank (+4.72%) gained the most in the Nifty; Titan (−1.70%) and Tata Steel (−1.60%) fell the most, per HDFC Sky.",
-   "status": "Market data · Business Today, Kotak Neo, HDFC Sky",
-   "differs": "Upstox and Liquide put the Nifty's open at 25,368; Multibagg gives 25,378.05. For the Sensex, Upstox gives an open of 82,558.25 and Multibagg 82,568.56. HDFC Sky and Kotak Neo name different fifth-worst Nifty stocks (Eternal and Jio Financial Services).",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "83,919.71 (+897.96)"
-    },
-    {
-     "k": "Nifty Bank",
-     "v": "64,635.20 (+2.49%), record"
-    },
-    {
-     "k": "Nifty IT",
-     "v": "+1.30%"
-    }
-   ],
-   "session": {
-    "prev": 25514.3,
-    "open": 25368.0,
-    "close": 25800.6
-   },
-   "sources": [
-    {
-     "name": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-markets-extend-gains-as-sensex-jumps-898-points-nifty-reclaims-25800-568767-2026-11-20",
-     "primary": true
-    },
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/closing-bell-20-november-2026-sensex-nifty-rally-on-banking-it-stocks-and-fii-buying/"
-    },
-    {
-     "name": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/market-close-report-today-november-20-2026-nifty-sensex-scale-nine-month-highs-as-investors-dump-global-ai-for-india"
-    },
-    {
-     "name": "Upstox (open)",
-     "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
-    },
-    {
-     "name": "Liquide",
-     "url": "https://blog.liquide.life/share-market-today-nifty-jumps-286-points-to-25-801-sensex-surges-898-points-as-banking-financial-services-and-it-stocks-lead-rally/"
-    },
-    {
-     "name": "Marketcalls",
-     "url": "https://www.marketcalls.in/futures-and-options/post-market-report-20-november-2026.html"
-    }
-   ],
-   "added": "2026-11-20"
-  },
-  {
-   "date": "2026-11-23",
-   "dateLabel": "23 Nov 2026",
-   "phase": "market",
-   "title": "Banks and metals drag Nifty down 1.75% after a higher open",
-   "summary": "The Nifty opened higher and traded near 25,872 in the first minutes, according to Business Standard. It then fell through the day to close down 450.95 points (1.75%) at 25,349.65, according to Kotak Neo and Univest. The Sensex fell 1,483.72 points (1.77%) to 82,435.99. Both reports blame selling in bank and metal stocks and profit-taking. Univest calls it profit-taking after a four-week rally and also points to price swings ahead of the monthly expiry of derivative contracts. Nifty Bank fell 3.17% to 62,585.35 and Nifty Metal fell 3.68%, while Nifty IT rose 1.69%, per Univest and Kotak Neo. Univest says a Tata Steel deal with APL Apollo Tubes weighed on metal shares. Tata Steel (−8.43%) fell the most in the Nifty and TCS (+3.53%) gained the most, per Univest. The India VIX, a gauge of expected price swings, rose 4.04% to 18.02.",
-   "status": "Market data · Kotak Neo, Univest",
-   "differs": "No closing report gives an official opening level. The 25,872 figure is Business Standard's reading a few minutes after the open; Univest puts the day's high at 25,992.60. Kotak Neo lists HCL Technologies and Titan among the top five Nifty gainers, while Univest's top three include Tech Mahindra.",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "82,435.99 (−1,483.72)"
-    },
-    {
-     "k": "Nifty Bank",
-     "v": "62,585.35 (−3.17%)"
-    },
-    {
-     "k": "Nifty IT",
-     "v": "+1.69%"
-    }
-   ],
-   "session": {
-    "prev": 25800.6,
-    "open": 25872.0,
-    "close": 25349.65
-   },
-   "sources": [
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-close-lower-as-banking-stocks-weigh-on-markets/",
-     "primary": true
-    },
-    {
-     "name": "Univest",
-     "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-    },
-    {
-     "name": "Business Standard (live blog, open)",
-     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-    }
-   ],
-   "added": "2026-11-23"
-  },
-  {
-   "date": "2026-11-25",
-   "dateLabel": "25 Nov 2026",
-   "phase": "market",
-   "title": "Nifty climbs 1.85% to 25,819 as consumer and bank shares recover",
-   "summary": "Trading resumed after Tuesday's Guru Nanak Jayanti holiday. The Nifty opened about 309 points higher at 25,658, according to Liquide, and closed up 469.60 points (1.85%) at 25,819.25, according to Kotak Neo, Liquide and DSIJ. That recovers most of Monday's fall. The Sensex rose 1,502.29 points (1.82%) to 83,938.28. The reports credit continued buying by foreign investors, lower crude oil prices and a stronger rupee. Consumer goods (FMCG) shares led: the Nifty FMCG index rose 3.79% and pharma 2.38%. Nifty Bank rose 1.79% to 63,703.25, per Liquide. Metal shares fell again (Nifty Metal −2.04%), which DSIJ links to Tata Steel's proposed deal with APL Apollo Tubes. Hindustan Unilever (+6.08%) gained the most in the Nifty and Tata Steel (−2.27%) fell the most, per Liquide and DSIJ. Smaller companies lagged: the Nifty Smallcap 100 fell 0.44%, per Kotak Neo.",
-   "status": "Market data · Kotak Neo, Liquide, DSIJ",
-   "differs": "InCred Money gives a Nifty close of 25,791.25 (+1.74%) and a Sensex close of 83,982.08 (+1.88%), describing the Nifty figure as from the closing auction; Kotak Neo, Liquide and DSIJ all give 25,819.25 and 83,938.28. Only Liquide gives an opening level. DSIJ puts the fall in Nifty Metal at 2.06% and the Smallcap 100 fall at 0.52%.",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "83,938.28 (+1,502.29)"
-    },
-    {
-     "k": "Nifty Bank",
-     "v": "63,703.25 (+1.79%)"
-    },
-    {
-     "k": "Nifty FMCG",
-     "v": "+3.79%"
-    },
-    {
-     "k": "Nifty Metal",
-     "v": "−2.04%"
-    }
-   ],
-   "session": {
-    "prev": 25349.65,
-    "open": 25658.0,
-    "close": 25819.25
-   },
-   "sources": [
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/",
-     "primary": true
-    },
-    {
-     "name": "Liquide",
-     "url": "https://blog.liquide.life/share-market-today-nifty-surges-470-points-to-25-819-sensex-jumps-1-502-points-as-fmcg-pharma-and-financial-services-lead-market-rally/"
-    },
-    {
-     "name": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
-    },
-    {
-     "name": "InCred Money",
-     "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-25-november-2026/"
-    }
-   ],
-   "added": "2026-11-25"
-  },
-  {
-   "date": "2026-11-26",
-   "dateLabel": "26 Nov 2026",
-   "phase": "market",
-   "title": "Nifty ends 0.25% higher at 25,884 as IT shares rally; gains trimmed late",
-   "summary": "The Nifty opened 53.95 points higher at 25,873.20, according to India TV (PTI) and Univest. It gave up some early gains and closed up 65.25 points (0.25%) at 25,884.50, according to Kotak Neo, InCred Money and Industry Wired. The Sensex rose 390.31 points (0.46%) to 84,328.59. Technology shares led: the Nifty IT index rose 3.66%, and realty (+2.77%) and metal (+1.19%) shares also gained. Kotak Neo says rising crude oil prices kept investors cautious and points to a late-session pullback. Nifty Bank slipped 0.26%. HCL Technologies (+5.59%) gained the most in the Nifty and Shriram Finance (−2.82%) fell the most, per InCred Money and Industry Wired. The India VIX, a gauge of expected price swings, fell 4.70% to 16.84.",
-   "status": "Market data · Kotak Neo, InCred Money, Industry Wired",
-   "differs": "HDFC Sky gives a Nifty opening level of 25,826.65, a largely flat start; India TV (PTI) and Univest give 25,873.20. Reports differ on the weakest sector: Kotak Neo names FMCG (−0.94%), while InCred Money and Industry Wired name consumer durables (−1.36%) and put FMCG at −0.76% and −0.97%. Kotak Neo names Asian Paints as the top Nifty loser. The Nifty Smallcap 100 rose 0.74% per Kotak Neo and 0.69% per the other two.",
-   "numbers": [
-    {
-     "k": "Sensex close",
-     "v": "84,328.59 (+390.31)"
-    },
-    {
-     "k": "Nifty IT",
-     "v": "+3.66%"
-    },
-    {
-     "k": "Nifty Bank",
-     "v": "−0.26%"
-    },
-    {
-     "k": "India VIX",
-     "v": "16.84 (−4.70%)"
-    }
-   ],
-   "session": {
-    "prev": 25819.25,
-    "open": 25873.2,
-    "close": 25884.5
-   },
-   "sources": [
-    {
-     "name": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-manage-to-close-higher-despite-paring-early-gains/",
-     "primary": true
-    },
-    {
-     "name": "InCred Money",
-     "url": "https://www.incredmoney.com/blog/stock-market-today-highlights-26-november-2026/"
-    },
-    {
-     "name": "Industry Wired",
-     "url": "https://industrywired.com/stocks/closing-bell-indian-stock-market-ends-higher-hcl-tech-bse-lead-nifty-gainers-12843466"
-    },
-    {
-     "name": "India TV (PTI)",
-     "url": "https://www.indiatvnews.com/business/markets/26-november-2026-stock-market-updates-sensex-gains-363-points-nifty-near-25-900-it-stocks-rally-2026-11-26-1060406"
-    },
-    {
-     "name": "Univest",
-     "url": "https://univest.in/blogs/nifty-today-hovers-near-25900-sensex-slips-from-days-high-reasons"
-    },
-    {
-     "name": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/india-vix-falls-1-75percent-amid-it-rally-foreign-inflows-november-26-2026"
-    }
-   ],
-   "added": "2026-11-26"
-  }
- ]
+  ]
 }

@@ -1,0 +1,674 @@
+{
+  "slug": "starlink-2026",
+  "short": "Starlink",
+  "category": "Tech",
+  "regions": [
+    "World",
+    "India",
+    "US"
+  ],
+  "title": "Starlink: a million-satellite plan, India's long wait and the fight over Ukraine",
+  "dek": "SpaceX won US approval for up to a million data-centre satellites, while Starlink still waits to launch in India and faces disputes in Ukraine and South Africa.",
+  "seoTitle": "Starlink 2026: million satellites, India launch",
+  "importance": 4,
+  "status": "FCC approves 1 million satellites",
+  "tone": "hot",
+  "big": "1 million",
+  "delta": "approved 25 Nov",
+  "deltaTone": "neutral",
+  "bigLabel": "Data-centre satellites the FCC has allowed SpaceX to launch, by 2040",
+  "updated": "2026-11-27",
+  "heroTitle": "US clears SpaceX to launch up to a million data-centre satellites",
+  "heroDek": "The FCC approved the Starmind network on 25 November over objections from astronomers and Amazon. In India, Starlink is licensed but still waiting for spectrum and security clearance.",
+  "heroAsOf": "2026-11-27",
+  "glance": {
+    "what": "Starlink is SpaceX's satellite internet service, with over 11,100 satellites in low Earth orbit and 13.6 million home subscribers. On 25 November the US Federal Communications Commission (FCC) approved a separate SpaceX plan for up to 1,000,000 satellites that would work as data centres for AI in orbit. In India, Starlink got its licence in June 2025 but has not launched.",
+    "why": "Starlink can bring internet to villages and remote areas that cables and towers do not reach. A million more satellites would crowd orbit; astronomers say they would spoil the night sky and telescope images. In Ukraine, the army relies on the service for drones and communications.",
+    "next": "In India, Starlink, Eutelsat OneWeb and Jio's satellite venture are waiting for security clearance and a final decision on spectrum charges; a panel backed 5% of revenue in September, but the Cabinet has not signed off. No Indian price has been announced. SpaceX must put its first Starmind satellite in orbit by November 2033."
+  },
+  "keyNumbers": [
+    {
+      "label": "Starmind satellites approved",
+      "value": "1,000,000",
+      "note": "FCC, 25 Nov 2026",
+      "hot": true
+    },
+    {
+      "label": "Starlink satellites in orbit",
+      "value": "11,100+",
+      "note": "SpaceX, Oct 2026"
+    },
+    {
+      "label": "Home subscribers",
+      "value": "13.6 million",
+      "note": "30 Sep 2026"
+    },
+    {
+      "label": "India spectrum charge",
+      "value": "5% of AGR",
+      "note": "panel-approved, not final"
+    }
+  ],
+  "forYou": "In India, Starlink is not yet on sale, and no official price exists; figures that appeared on its website in December 2025 were withdrawn as test data. When it launches, it is likely to matter most where broadband and mobile signals are weak. Jio and Airtel have deals to sell its equipment.",
+  "upcoming": [],
+  "next": "India's final spectrum decision and security clearances for Starlink, OneWeb and Jio; whether Ukraine's Starshield speed limits are lifted.",
+  "links": [
+    "spacex-starship",
+    "ukraine-peace-talks-2026",
+    "xai-grok-2026"
+  ],
+  "events": [
+    {
+      "date": "2025-03-11",
+      "dateLabel": "11 Mar 2025",
+      "phase": "trade",
+      "title": "Airtel and Jio sign deals to sell Starlink in India",
+      "summary": "Bharti Airtel announced an agreement with SpaceX to offer Starlink satellite internet in India. It said it would look at selling Starlink equipment in its stores, serving business customers and connecting rural schools and health centres. Reliance Jio announced a similar deal the next day, saying it would sell Starlink equipment in its shops and online. Both deals depended on SpaceX getting its own approvals from the Indian government.",
+      "status": "Confirmed · Airtel, Jio",
+      "sources": [
+        {
+          "name": "Airtel",
+          "url": "https://www.airtel.in/press-release/03-2025/airtel-announces-agreement-with-spaceX-to-bring-starlinks-high-speed-internet-to-its-customers-in-india/",
+          "primary": true
+        },
+        {
+          "name": "The Wire",
+          "url": "https://m.thewire.in/article/business/reliance-jio-and-bharti-airtel-announce-pacts-to-bring-elon-musks-starlink-to-india/amp"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-05-05",
+      "dateLabel": "5 May 2025",
+      "phase": "policy",
+      "title": "India sets security rules for satellite internet companies",
+      "summary": "The Department of Telecommunications (DoT) said satellite internet firms may not process Indian users' data abroad or connect Indian users through facilities outside India. Lawful interception, which lets security agencies monitor traffic, must be in place before services start. Each ground station (gateway) in India needs its own security clearance, and blocked websites must also be blocked on satellite services.",
+      "status": "Confirmed · DoT",
+      "numbers": [
+        {
+          "k": "Made-in-India ground equipment",
+          "v": "20%, within a few years of launch"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ThePrint (PTI)",
+          "url": "https://theprint.in/economy/govt-mandates-legal-interception-of-satcom-services-bars-data-routing-outside-country/2616374",
+          "primary": true
+        },
+        {
+          "name": "Indian Infrastructure",
+          "url": "https://indianinfrastructure.com/2025/05/07/department-of-telecommunications-issues-stringent-security-norms-for-satcom-services/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-05-09",
+      "dateLabel": "9 May 2025",
+      "phase": "policy",
+      "title": "Regulator TRAI recommends a 4% charge on satellite internet revenue",
+      "summary": "The Telecom Regulatory Authority of India (TRAI) recommended that satellite operators pay 4% of their adjusted gross revenue (AGR) for the use of spectrum, the radio frequencies they need. Operators of moving low-orbit satellites, such as Starlink, would also pay ₹500 a year for each urban customer; rural users would be exempt. Spectrum would be handed out by the government rather than auctioned, for five years.",
+      "status": "Confirmed · TRAI",
+      "numbers": [
+        {
+          "k": "Spectrum charge",
+          "v": "4% of AGR"
+        },
+        {
+          "k": "Urban user fee",
+          "v": "₹500 a year"
+        },
+        {
+          "k": "Minimum fee",
+          "v": "₹3,500 per MHz a year"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/industry/news/trai-proposes-4-agr-charge-5-year-term-for-satellite-spectrum-use-125050900892_1.html",
+          "primary": true
+        },
+        {
+          "name": "ThePrint",
+          "url": "https://theprint.in/economy/trai-recommends-4-pc-of-revenue-plus-rs-500-per-subscriber-as-spectrum-fee-for-satcom-operators/2620256"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-06-06",
+      "dateLabel": "6 Jun 2025",
+      "phase": "law",
+      "title": "Starlink gets its Indian telecom licence",
+      "summary": "The DoT granted Starlink a GMPCS licence, the permit for satellite-based communication services, about two and a half years after it applied in November 2022. Officials told Business Standard Starlink could now begin marketing subscriptions and open registrations. It still needed a space regulator's approval, security clearance and spectrum before it could start service.",
+      "status": "Reported · officials via Business Standard",
+      "key": true,
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/industry/news/starlink-gets-gmpcs-license-to-offer-satellite-internet-in-india-125060600918_1.html",
+          "primary": true
+        },
+        {
+          "name": "Lokmat Times",
+          "url": "https://www.lokmattimes.com/business/starlink-gets-necessary-clearance-from-indias-space-regulator"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-07-08",
+      "dateLabel": "8 Jul 2025",
+      "phase": "law",
+      "title": "India's space regulator authorises Starlink's satellites",
+      "summary": "IN-SPACe, India's space regulator, authorised Starlink's first-generation satellites to serve India, valid until 7 July 2030. RCR Wireless puts that group at 4,408 satellites.",
+      "status": "Reported",
+      "differs": "Advanced Television dates the approval 8 July; Lokmat Times says it was reported on 9 July.",
+      "sources": [
+        {
+          "name": "Advanced Television",
+          "url": "https://www.advanced-television.com/2025/07/10/indian-approval-for-starlink",
+          "primary": true
+        },
+        {
+          "name": "RCR Wireless",
+          "url": "https://www.rcrwireless.com/20250717/carriers/starlink-india"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2025-12-09",
+      "dateLabel": "9 Dec 2025",
+      "phase": "tech",
+      "title": "Starlink says Indian prices shown on its website were a glitch",
+      "summary": "On 8 December Starlink's India website briefly showed a residential plan at ₹8,600 a month and a ₹34,000 equipment kit, per India TV. The next day Starlink's vice-president of business operations, Lauren Dreyer, said on X that \"a config glitch\" had made \"dummy test data visible\" and that the figures do not reflect what the service will cost in India. No official Indian price has been announced.",
+      "status": "Stated · Starlink",
+      "sources": [
+        {
+          "name": "Inc42",
+          "url": "https://inc42.com/buzz/glitch-made-dummy-data-visible-starlink-on-india-pricing-leak",
+          "primary": true
+        },
+        {
+          "name": "India TV",
+          "url": "https://www.indiatvnews.com/technology/news/starlink-india-price-revealed-what-users-get-for-rs-8600-per-month-plan-and-how-to-apply-2025-12-08-1020769"
+        },
+        {
+          "name": "Deccan Herald",
+          "url": "https://www.deccanherald.com/technology/elon-musks-starlink-india-pricing-was-glitch-tariff-plans-to-be-updated-soon-on-website-3824815"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-01-30",
+      "dateLabel": "30 Jan 2026",
+      "phase": "tech",
+      "title": "SpaceX asks to launch up to a million satellites as orbiting AI data centres",
+      "summary": "A SpaceX application to the US Federal Communications Commission (FCC) became public, asking to launch up to 1,000,000 solar-powered satellites that would work as data centres for artificial intelligence. They would fly 500 to 2,000 km up and pass data between each other by laser. SpaceX asked to skip the usual round that lets rivals file competing plans. The filing says the project is \"a first step towards becoming a Kardashev II-level civilization\", a term for a civilisation that harnesses its star's energy.",
+      "status": "Filed · SpaceX",
+      "numbers": [
+        {
+          "k": "Satellites requested",
+          "v": "up to 1,000,000"
+        },
+        {
+          "k": "Altitude",
+          "v": "500–2,000 km"
+        }
+      ],
+      "differs": "GeekWire and LatinTimes date the filing 30 January; the FCC's file number (SAT-LOA-20260108-00016) suggests it was lodged on 8 January and made public later.",
+      "key": true,
+      "sources": [
+        {
+          "name": "GeekWire",
+          "url": "https://www.geekwire.com/2026/spacex-fcc-million-data-center-satellites/",
+          "primary": true
+        },
+        {
+          "name": "FCC public notice",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-113A1.txt"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-02-04",
+      "dateLabel": "4 Feb 2026",
+      "phase": "law",
+      "title": "FCC accepts the million-satellite application and asks for comments",
+      "summary": "The FCC's Space Bureau accepted SpaceX's application for review and invited comments, with a deadline of 6 March. FCC Chairman Brendan Carr said the agency \"welcomes and now seeks comment\" on the plan.",
+      "status": "Confirmed · FCC",
+      "sources": [
+        {
+          "name": "FCC public notice",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-113A1.txt",
+          "primary": true
+        },
+        {
+          "name": "Futurism",
+          "url": "https://futurism.com/space/spacex-one-million-orbital-data-centers-astronomy"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "6 Mar 2026",
+      "phase": "law",
+      "title": "Amazon asks the FCC to reject SpaceX's plan",
+      "summary": "Amazon, which is building its own satellite network, petitioned the FCC to deny the application. It called it \"a speculative placeholder rather than a complete application\" with no plan for avoiding collisions at that scale, and warned of \"an orbital monopoly\". Futurism counted about 1,000 public comments by the deadline, most opposed. On 11 March Carr replied on X that Amazon \"should focus on the fact that it will fall roughly 1,000 satellites short\" of its own deployment target.",
+      "status": "Stated · Amazon, FCC chairman",
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/2026/03/09/amazon_petitions_to_block_spacexs/",
+          "primary": true
+        },
+        {
+          "name": "Broadband Breakfast",
+          "url": "https://broadbandbreakfast.com/carr-not-receptive-to-amazons-petition-to-deny-spacex-application/"
+        },
+        {
+          "name": "Futurism",
+          "url": "https://futurism.com/space/spacex-one-million-orbital-data-centers-astronomy"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-03-16",
+      "dateLabel": "16 Mar 2026",
+      "phase": "world",
+      "title": "Astronomers warn of damage to the night sky; SpaceX rejects the objections",
+      "summary": "The UK's Royal Astronomical Society said \"deploying more than one million exceptionally bright satellites would utterly destroy\" dark skies and urged the FCC to reject the plan. It said thousands would be visible to the naked eye. An astronomer at the European Southern Observatory told Space.com its Very Large Telescope could lose up to 10% of the pixels in its images. The same day SpaceX filed a reply to objectors including Amazon, Blue Origin, Viasat and the American Astronomical Society, saying the system \"seeks no exclusive use of any spectrum or orbital resources\".",
+      "status": "Stated · Royal Astronomical Society, SpaceX",
+      "sources": [
+        {
+          "name": "Royal Astronomical Society",
+          "url": "https://www.ras.ac.uk/news-and-press/news/spacex-and-reflect-orbital-plans-would-permanently-scar-night-sky",
+          "primary": true
+        },
+        {
+          "name": "SpaceX filing (via PEER)",
+          "url": "https://peer.org/wp-content/uploads/2026/03/3-16-26-SpaceX-Consolidated-Opposition-re-Orbital-Data-Centers.pdf"
+        },
+        {
+          "name": "Space.com",
+          "url": "https://www.space.com/space-exploration/satellites/this-is-really-intolerable-astronomers-protest-giant-orbiting-mirror-project-and-spacexs-million-ai-satellites"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-06-10",
+      "dateLabel": "10 Jun 2026",
+      "phase": "policy",
+      "title": "Report says Indian security agencies froze Starlink approvals; Starlink says talks continue",
+      "summary": "Bloomberg reported, citing unnamed people, that security agencies under India's Home Ministry had \"effectively frozen approvals\" for Starlink. Starlink's Lauren Dreyer replied on X that it is in \"active and productive discussions with the Government of India\". ThePrint reported Starlink then had about 10 gateways and a hub in Mumbai.",
+      "status": "Reported · Bloomberg; Starlink disputes",
+      "sources": [
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/capital-markets/starlink-india-launch-hits-security-roadblock-before-spacex-ipo",
+          "primary": true
+        },
+        {
+          "name": "ThePrint",
+          "url": "https://theprint.in/tech/starlink-pushes-back-on-india-freeze-reports-by-bloomberg-says-talks-with-government-are-ongoing/2955929/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-06-12",
+      "dateLabel": "12 Jun 2026",
+      "phase": "market",
+      "title": "SpaceX lists on Nasdaq; its filing names orbital AI computing as a growth plan",
+      "summary": "SpaceX shares began trading on Nasdaq after a $75 billion share sale at $135 a share, valuing the company at about $1.77 trillion, per Nasdaq.com. Its listing document, filed on 20 May, lists \"deploying orbital AI compute at scale\" as a growth strategy, per Via Satellite.",
+      "status": "Market data · Nasdaq",
+      "numbers": [
+        {
+          "k": "Raised",
+          "v": "$75 billion"
+        },
+        {
+          "k": "IPO price",
+          "v": "$135"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Nasdaq",
+          "url": "https://www.nasdaq.com/articles/spacex-commences-trading-nasdaq-after-record-75-billion-ipo",
+          "primary": true
+        },
+        {
+          "name": "Via Satellite",
+          "url": "https://www.satellitetoday.com/finance/2026/05/20/spacexs-ipo-filing-gives-first-look-into-companys-financials/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-09-03",
+      "dateLabel": "3 Sep 2026",
+      "phase": "policy",
+      "title": "Telecom department panel backs a 5% spectrum charge; final decision still pending",
+      "summary": "The Digital Communications Commission, the DoT's top decision-making body, approved a spectrum charge of 5% of AGR for satellite internet operators, and 4% for those serving government-notified remote areas, according to reports. It dropped TRAI's ₹500 fee per urban user. Spectrum would be allotted for five years. The decision still needs approval from an inter-ministerial panel and the Cabinet, per ThePrint.",
+      "status": "Reported",
+      "numbers": [
+        {
+          "k": "Spectrum charge",
+          "v": "5% of AGR (4% for remote areas)"
+        }
+      ],
+      "differs": "Light Reading says the panel did not keep TRAI's minimum fee of ₹3,500 per MHz; Free Press Journal says that is unclear. Hans India says the panel approved most of TRAI's recommendations, although it raised the rate from 4% to 5%.",
+      "sources": [
+        {
+          "name": "Light Reading",
+          "url": "https://www.lightreading.com/satellite/india-approves-5-spectrum-charge-for-satellite-players-report",
+          "primary": true
+        },
+        {
+          "name": "Free Press Journal (citing Mint)",
+          "url": "https://www.freepressjournal.in/business/dot-approves-5-spectrum-charge-for-starlink-oneweb-and-jio-satellite-internet-services"
+        },
+        {
+          "name": "Hans India",
+          "url": "https://www.thehansindia.com/technology/tech-news/starlink-india-launch-moves-closer-after-satcom-spectrum-approval-1119939"
+        },
+        {
+          "name": "ThePrint",
+          "url": "https://theprint.in/tech/starlink-being-blocked-by-certain-oligarchs-in-india-you-can-guess-who-they-are-says-elon-musk/3065024/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "7 Oct 2026",
+      "phase": "tech",
+      "title": "FCC approves 15,000 SpaceX satellites for direct-to-phone service",
+      "summary": "The FCC approved up to 15,000 SpaceX satellites that connect directly to ordinary mobile phones, flying about 330 km up and using spectrum SpaceX bought from EchoStar. Half must be in orbit by October 2032 and the rest by October 2035. SpaceX is aiming for speeds of up to 150 Mbit/s, against about 4 Mbit/s today, per Light Reading.",
+      "status": "Confirmed · FCC",
+      "numbers": [
+        {
+          "k": "Direct-to-phone satellites",
+          "v": "15,000"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Light Reading",
+          "url": "https://lightreading.com/satellite/fcc-oks-spacex-to-deploy-15k-d2d-satellites-and-nine-years-to-complete-it",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "7 Oct 2026",
+      "phase": "policy",
+      "title": "Starlink says it is ready for India; Musk alleges it is being blocked",
+      "summary": "At India Mobile Congress, Starlink's Lauren Dreyer said it had built 20 gateway sites in India and keeps Indian users' data in the country: \"Starlink is ready to serve India when India is ready for it.\" The same day Elon Musk wrote on X: \"we are being blocked by certain oligarchs in order to maintain their monopolistic chokehold on the Indian people\". In a later post he named Ambani.",
+      "status": "Allegation · Elon Musk",
+      "numbers": [
+        {
+          "k": "Gateways built in India",
+          "v": "20 (Starlink)"
+        }
+      ],
+      "key": true,
+      "sources": [
+        {
+          "name": "ThePrint",
+          "url": "https://theprint.in/tech/starlink-being-blocked-by-certain-oligarchs-in-india-you-can-guess-who-they-are-says-elon-musk/3065024/",
+          "primary": true
+        },
+        {
+          "name": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/corporate/starlink-gets-india-ready-with-20-gateways-awaits-final-nod"
+        },
+        {
+          "name": "Light Reading",
+          "url": "https://lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-08",
+      "dateLabel": "8 Oct 2026",
+      "phase": "policy",
+      "title": "Government calls Musk's claim 'baseless and misconceived'",
+      "summary": "The Ministry of Communications said \"the suggestion that the framework or its application is unfair or discriminatory is baseless and misconceived\". It said a security assessment is under way for all three licensed operators (Starlink, Eutelsat OneWeb and Jio's satellite venture), which are \"at broadly the same regulatory stage\", and that spectrum is assigned only after security clearance.",
+      "status": "Stated · Ministry of Communications",
+      "sources": [
+        {
+          "name": "Inc42",
+          "url": "https://inc42.com/buzz/centre-rejects-elon-musks-claim-on-starlink-says-satcom-rules-non-discriminatory/",
+          "primary": true
+        },
+        {
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/tech/baseless-and-misconceived-india-rejects-elon-musks-claim-that-starlink-is-being-blocked"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026",
+      "phase": "world",
+      "title": "Ukrainian forces report Starlink speed limits on drones",
+      "summary": "Ukrainian units reported that Starshield, the military version of Starlink that the US government buys for Ukraine, had been restricted overnight so that it stopped working on drones moving faster than about 160 km/h. A front-line source told Ukrainska Pravda the speed \"has been restricted by partners\". CBS News reported some units still had problems on 22 October.",
+      "status": "Reported",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057920/index.amp",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-14",
+      "dateLabel": "14 Oct 2026",
+      "phase": "law",
+      "title": "South Africa orders Starlink to stop unauthorised operations",
+      "summary": "South Africa's telecoms regulator ICASA issued SpaceX a formal notice of non-compliance ordering it to stop operating Starlink without a licence, a minister said in a reply to Parliament. Starlink has no South African licence; the law requires 30% local ownership by historically disadvantaged groups.",
+      "status": "Confirmed · South African government",
+      "sources": [
+        {
+          "name": "Parliamentary Monitoring Group",
+          "url": "https://pmg.org.za/committee-question/41694/",
+          "primary": true
+        },
+        {
+          "name": "Streamline",
+          "url": "https://streamlinefeed.co.ke/news/south-africa-orders-starlink-to-stop-unauthorised-operations"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-16",
+      "dateLabel": "16 Oct 2026",
+      "phase": "policy",
+      "title": "Reliance says it welcomes competition from Starlink",
+      "summary": "In its first response to Musk, Reliance said in a statement: \"At Reliance, we have never feared competition\" and \"We welcome competition in satellite communications, including Starlink.\" It said \"Jio's own satellite services await clearances\" and that every company must follow Indian law.",
+      "status": "Stated · Reliance",
+      "sources": [
+        {
+          "name": "Khaleej Times (Reuters)",
+          "url": "https://www.khaleejtimes.com/world/asia/ambani-reliance-starlink-competition-first-response-musk",
+          "primary": true
+        },
+        {
+          "name": "Inc42",
+          "url": "https://inc42.com/buzz/have-never-feared-competition-reliance-responds-to-elon-musks-starlink-allegations/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-20",
+      "dateLabel": "20 Oct 2026",
+      "phase": "data",
+      "title": "SpaceX reports 13.6 million Starlink subscribers",
+      "summary": "SpaceX's third-quarter results gave 13.6 million Starlink consumer subscribers at 30 September, up from 7.2 million a year earlier, plus hundreds of thousands of business customers. Its quarterly filing says it has over 11,100 Starlink satellites in low Earth orbit and operates in 174 countries, territories and other markets.",
+      "status": "Official data · SpaceX",
+      "numbers": [
+        {
+          "k": "Consumer subscribers",
+          "v": "13.6 million (30 Sep)"
+        },
+        {
+          "k": "Satellites in orbit",
+          "v": "over 11,100"
+        },
+        {
+          "k": "Markets",
+          "v": "174"
+        }
+      ],
+      "sources": [
+        {
+          "name": "SpaceX Q3 results",
+          "url": "https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf",
+          "primary": true
+        },
+        {
+          "name": "SpaceX 10-Q (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001181412/000162828026066880/spcx-20260930.htm"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-10-24",
+      "dateLabel": "24 Oct 2026",
+      "phase": "world",
+      "title": "Ukraine's Starlink speeds restored; Musk says Ukraine broke the terms",
+      "summary": "President Zelenskyy said \"the speeds are now where they need to be\". Musk wrote on X that \"Ukraine military violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week.\" President Trump said he did not make the call, and Defense Secretary Pete Hegseth said \"We haven't made any directives\". The next day Zelenskyy's adviser Serhii Beskrestnov disputed Musk's claim, saying commercial Starlink is capped on drones and does not work in Russia.",
+      "status": "Allegation · Elon Musk; Ukraine disputes",
+      "differs": "CBS quotes an earlier Musk statement that limits \"are decided by the US military and ultimately POTUS\"; his 24 October post says SpaceX closed a \"loophole\".",
+      "key": true,
+      "sources": [
+        {
+          "name": "PBS (AP)",
+          "url": "https://www.pbs.org/newshour/world/ukraines-starlink-satellite-speeds-restored-after-a-week-of-front-line-disruption",
+          "primary": true
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/"
+        },
+        {
+          "name": "PBS (AP), 25 Oct",
+          "url": "https://pbs.org/newshour/world/ukraine-disputes-elon-musks-claim-that-its-military-violated-starlinks-terms-of-service"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-06",
+      "dateLabel": "6 Nov 2026",
+      "phase": "policy",
+      "title": "Government sources say Starlink was last of three to file its security papers",
+      "summary": "Unnamed government sources told Open magazine the process is \"completely transparent\" and that Starlink was the last of the three licensed operators to apply, to get its licence and to submit its security compliance documents. They said two steps remain: a spectrum pricing and allocation decision, and all three meeting security requirements.",
+      "status": "Stated · government sources (unnamed)",
+      "sources": [
+        {
+          "name": "Open",
+          "url": "https://openthemagazine.com/india/india-welcomes-all-satcom-players-starlink-last-to-apply-and-submit-compliance-say-govt-sources",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-12",
+      "dateLabel": "12 Nov 2026",
+      "phase": "world",
+      "title": "Ukraine says Starshield speed limits are back",
+      "summary": "Zelenskyy said Ukrainian units had seen Starshield speeds limited for several days, stopping interceptor drones from catching Russian jet-powered drones: \"This helps Russians kill more Ukrainians\". SpaceX declined to comment, and the Pentagon and White House did not reply, per Reuters. Whether the limits have since been lifted is not confirmed.",
+      "status": "Stated · President Zelenskyy",
+      "sources": [
+        {
+          "name": "Honolulu Star-Advertiser (Reuters)",
+          "url": "https://www.staradvertiser.com/2026/11/12/breaking-news/ukraine-says-musks-starshield-service-is-again-limiting-speeds/",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-23",
+      "dateLabel": "23 Nov 2026",
+      "phase": "policy",
+      "title": "Space industry group says Starlink will enter India 'very soon'",
+      "summary": "Lt Gen Anil Kumar Bhatt (retd), director general of the Indian Space Association (ISpA), told ANI: \"Starlink is also going to come into India very soon. They are waiting for the final spectrum allocation for them.\" He gave no date. He said Eutelsat OneWeb is ready to offer services and Jio plans a large satellite network by 2029.",
+      "status": "Stated · ISpA",
+      "sources": [
+        {
+          "name": "Millennium Post (ANI)",
+          "url": "https://www.millenniumpost.in/business/starlink-awaits-spectrum-allocation-as-jio-plans-satellite-constellation-by-2029-684288",
+          "primary": true
+        },
+        {
+          "name": "Nagaland Post",
+          "url": "https://nagalandpost.com/starlink-set-to-enter-india-soon-awaits-spectrum-nod/"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026",
+      "phase": "law",
+      "title": "FCC approves SpaceX's million-satellite 'Starmind' data-centre network",
+      "summary": "The FCC authorised SpaceX to launch up to 1,000,000 \"Starmind\" satellites that work as data centres in orbit, calling it \"the first authorization in U.S. history for a constellation of data centers in space\". It approved altitudes of 500 to 1,002 km, lower than the 2,000 km SpaceX asked for. SpaceX must have one working satellite by November 2033 and the full network by November 2040. The FCC put off SpaceX's request to dispose of higher satellites away from Earth instead of letting them burn up, and said concerns about astronomy were outside this decision. Carr said it \"opens a bold new frontier\"; the American Astronomical Society said it was \"disheartened and dismayed\".",
+      "status": "Confirmed · FCC",
+      "numbers": [
+        {
+          "k": "Satellites approved",
+          "v": "up to 1,000,000"
+        },
+        {
+          "k": "Altitude approved",
+          "v": "500–1,002 km"
+        },
+        {
+          "k": "Full deployment deadline",
+          "v": "Nov 2040"
+        }
+      ],
+      "differs": "Nature World News reports that no satellites may operate above 600 km until a final debris plan is filed; GeekWire and LatinTimes describe only a deferred request on disposing of satellites above 600 km.",
+      "key": true,
+      "sources": [
+        {
+          "name": "GeekWire",
+          "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/",
+          "primary": true
+        },
+        {
+          "name": "LatinTimes",
+          "url": "https://latintimes.com/fcc-authorizes-spacex-starmind-ai-satellites-601871"
+        }
+      ],
+      "added": "2026-11-27"
+    }
+  ]
+}

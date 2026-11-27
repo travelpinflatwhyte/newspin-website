@@ -48,6 +48,11 @@
     {"term": "FCRA", "case": true, "def": "The Foreign Contribution (Regulation) Act: the Indian law that controls how charities and other groups receive money from abroad."},
     {"term": "open-weight", "def": "An AI model whose trained weights are published, so anyone can download and run it, even if its training data and code are not."},
     {"term": "context window", "def": "How much text an AI model can take in and consider at once."},
-    {"term": "reasoning model", "also": ["reasoning models"], "def": "An AI model that works through a problem step by step before answering. It is usually slower but better at maths and code."}
+    {"term": "reasoning model", "also": ["reasoning models"], "def": "An AI model that works through a problem step by step before answering. It is usually slower but better at maths and code."},
+    {"term": "FCC", "case": true, "def": "The Federal Communications Commission, the US regulator that licenses radio spectrum and satellite networks."},
+    {"term": "AGR", "case": true, "def": "Adjusted gross revenue: the part of a telecom company's income that India uses to calculate the fees it owes the government."},
+    {"term": "low Earth orbit", "def": "The band of space closest to Earth where satellites circle the planet quickly. Being close means less delay for internet signals."},
+    {"term": "Starshield", "def": "The military version of SpaceX's Starlink, sold to governments. The US government buys it for Ukraine's armed forces."},
+    {"term": "gateway", "also": ["gateways"], "def": "A ground station with large antennas that links satellites to the regular internet."}
   ]
 }

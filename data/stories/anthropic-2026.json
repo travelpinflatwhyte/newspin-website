@@ -18,7 +18,7 @@
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17, fell below the $83 IPO price on 24 November and closed at $82.79 on 25 November. Axios reported on 24 November that some staff doubt some unreleased models can be released safely. Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17, fell below the $83 IPO price on 24 November and closed at $82.79 on 25 November. Axios reported on 24 November that some staff doubt some unreleased models can be released safely; on 25 November Dario Amodei called an Axios claim that he wants to hand human decisions to AI \"absurd\". Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
@@ -842,7 +842,28 @@
       ],
       "link": "us-markets-daily",
       "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25 Nov 2026 (US time)",
+      "phase": "policy",
+      "title": "Amodei calls a claim that he wants to 'surrender human free will' to AI 'absurd'",
+      "summary": "Axios reported on 25 November, citing unnamed sources, that some people inside Anthropic think very advanced AI should eventually take over some decisions now made by humans. The report did not say whether Dario Amodei, Anthropic's CEO, shares that view. Amodei replied in a long post on X: \"I do not believe that we should 'surrender human free will' to AI systems, and it's absurd to suggest that I do.\" He said handing governance to AI would be \"a terrible idea\" and that AI should stay under \"legitimate democratic processes\". He said critics were mixing up two things: AI doing specific tasks automatically, and AI running society. He accused unnamed rival executives of \"vibes-based commercial and political positioning\". Axios said it stands by its reporting.",
+      "status": "Reported · Axios; Stated · Dario Amodei",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/11/25/dario-amodei-rejects-idea-he-wants-to-surrender-human-free-will-to-ai/",
+          "primary": true
+        },
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/politics/articles/anthropic-ceo-warns-against-handing-224319103.html"
+        }
+      ],
+      "added": "2026-11-27"
     }
   ],
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
 }

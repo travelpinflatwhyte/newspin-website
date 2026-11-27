@@ -15,11 +15,11 @@
   "big": "15",
   "delta": "test flights",
   "bigLabel": "Starship test flights since April 2023: 10 counted as successes and 5 as failures, as of 14 November 2026",
-  "updated": "2026-11-24",
+  "updated": "2026-11-27",
   "glance": {
     "what": "Starship is SpaceX's giant two-stage rocket: a Super Heavy booster and the Starship spacecraft on top, both meant to be reused. On Flight 15 the spacecraft was caught by the arms of its launch tower in Texas after about 22.5 hours in space, the first time a rocket's upper stage has been recovered this way. The booster's catch was called off and it came down in the Gulf of Mexico.",
     "why": "Reusing both stages, like an aircraft, could make launches much cheaper. Starship is central to SpaceX's next-generation Starlink satellites and to NASA's plan to land astronauts on the Moon.",
-    "next": "SpaceX is expected to try catching both stages on the next flight, and to begin launching from Florida. Mexico's environment agency is checking debris that washed up near the border after Flight 15; SpaceX says it found very little. NASA's Moon plans need a demonstration of refuelling in orbit, planned for 2027."
+    "next": "SpaceX is expected to try catching both stages on the next flight, and to begin launching from Florida. Mexico's environment agency is checking debris that washed up near the border after Flight 15; SpaceX says it found very little. Mexico wants talks with the US on Starship flights over its airspace. NASA's Moon plans need a demonstration of refuelling in orbit, planned for 2027."
   },
   "keyNumbers": [
     {
@@ -101,7 +101,7 @@
   ],
   "forYou": "Starship is how SpaceX plans to launch its next-generation Starlink internet satellites, which are bigger and faster than today's. If both stages can be caught and flown again quickly, the cost of getting things into space could fall sharply, which affects everything from satellite internet to Moon missions.",
   "upcoming": [],
-  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida; no date announced. Mexico wants SpaceX to clean up suspected debris near Matamoros; SpaceX says little was found.",
+  "next": "Flight 16: a likely attempt to catch both stages, and Starship's first launch from Florida; no date announced. Mexico is seeking US talks on Starship flights over its airspace and wants SpaceX to collect suspected debris; SpaceX says little was found.",
   "links": [
     "xai-grok-2026",
     "us-flights-ground-stop"
@@ -487,6 +487,28 @@
         }
       ],
       "added": "2026-11-24"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "world",
+      "title": "Mexico seeks talks with the US on Starship flights over its airspace",
+      "summary": "Mexico's President Claudia Sheinbaum said her government will seek, through its embassy, a meeting between US and Mexican airspace authorities to set terms for Starship flights over Mexico, including how often they happen. She said the launch site could be moved \"if necessary\", and that the suspected debris near Matamoros is a separate issue. Mexico's navy is holding the debris, and its environment agency, Profepa, says it will ask SpaceX to collect it. SpaceX says it is working with Mexican authorities, that partners found \"very little debris\", and that what was found is \"not clearly from SpaceX operations\". SpaceX has asked US regulators to allow many more launches a year from Starbase.",
+      "status": "Stated · President Sheinbaum; SpaceX disputes debris link",
+      "numbers": [],
+      "sources": [
+        {
+          "name": "Al Jazeera (Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris",
+          "primary": true
+        },
+        {
+          "name": "Alto Nivel",
+          "url": "https://altonivel.com.mx/sheinbaum-pedira-a-estados-unidos-reubicar-la-base-de-spacex-por-residuos-de-starship-en-costas-de-tamaulipas"
+        }
+      ],
+      "differs": "Alto Nivel's headline says Sheinbaum will ask the US to relocate SpaceX's base; its report and Reuters both say she only did not rule out moving the launch site if necessary.",
+      "added": "2026-11-27"
     }
   ]
 }

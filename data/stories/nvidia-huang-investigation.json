@@ -15,9 +15,9 @@
  "big": "$149.30",
  "delta": "▼ 3.91% on 25 Nov",
  "bigLabel": "Nvidia share price at the close on 25 November (Yahoo Finance, Motley Fool), after falls on 24 and 25 November that followed the 31% jump on Huang's return",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "glance": {
-  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist. Reuters reported on 25 November that the Justice Department never opened a formal investigation into Huang himself.",
+  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist. Reuters reported on 25 November that the Justice Department never opened a formal investigation into Huang himself. The Washington Post reported that Pentagon leaders discussed using a wartime law as leverage on Nvidia's board; the Pentagon denies it.",
   "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
   "next": "Huang is due to be questioned behind closed doors by House committees on 1 December, and Nvidia's general counsel on 2 December. Senate Banking Committee chair Tim Scott wants public testimony; a hearing is reported for 3 December. The board's own investigation continues."
  },
@@ -1118,10 +1118,31 @@
    ],
    "link": "us-markets-daily",
    "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026 (US time)",
+   "phase": "probe",
+   "title": "Washington Post: Pentagon leaders discussed a wartime law as leverage to bring Huang back; Pentagon denies it",
+   "summary": "Defense Secretary Pete Hegseth, his deputy Steve Feinberg and Under Secretary Emil Michael discussed whether threatening to use the Defense Production Act could pressure Nvidia's board to reinstate Jensen Huang, The Washington Post reported, citing three people familiar with the matter. The 1950 law lets the president make companies put national security orders first; it does not let the government choose a company's executives. An administration official told the Post it could be used to make Nvidia shift more production to military work. A Pentagon official said the discussions \"never happened\" and that \"no such proposal was made\" by the three officials. Nvidia's board has said senior US officials told it Huang's return poses no national security risk.",
+   "status": "Reported · The Washington Post; Pentagon denies",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "Newsweek",
+     "url": "https://www.newsweek.com/pentagon-denies-pete-hegseth-floated-wartime-law-to-pressure-nvidia-12770979",
+     "primary": true
+    },
+    {
+     "name": "The Jerusalem Post",
+     "url": "https://www.jpost.com/international/article-916168"
+    }
+   ],
+   "added": "2026-11-27"
   }
  ],
- "heroTitle": "Justice Department never opened a probe of Huang, Reuters reports, as Nvidia shares slip again",
- "heroDek": "The attorney general found no evidence Huang broke the law, based on cases against two Nvidia customers, sources told Reuters. Vance says Huang does not need a pardon. Shares fell 3.9% on Wednesday.",
- "heroAsOf": "2026-11-26",
+ "heroTitle": "Pentagon denies a report that it weighed a wartime law to push Nvidia to rehire Huang",
+ "heroDek": "The Washington Post says Hegseth and his deputies discussed using the Defense Production Act as leverage on Nvidia's board; a Pentagon official says the talks \"never happened\". Huang faces House investigators on 1 December.",
+ "heroAsOf": "2026-11-27",
  "deltaTone": "neutral"
 }

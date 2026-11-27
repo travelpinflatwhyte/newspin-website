@@ -9,29 +9,29 @@
  "dek": "An Ebola strain with no approved vaccine has spread across eastern Congo and into four other countries, and fighting is slowing the response.",
  "seoTitle": "Ebola outbreak in Congo 2026: timeline",
  "importance": 4,
- "status": "Health workers evacuated as fighting hits response",
+ "status": "Cases pass 12,000 as fighting hits response",
  "tone": "live",
- "big": "11,986",
- "delta": "confirmed cases, 23 Nov",
+ "big": "12,021",
+ "delta": "confirmed cases, 24 Nov",
  "deltaTone": "bad",
- "bigLabel": "Confirmed Ebola cases as of 23 November, per the US CDC, with 5,871 deaths. Counts may change.",
- "updated": "2026-11-26",
+ "bigLabel": "Confirmed Ebola cases as of 24 November, per Congo's National Institute of Public Health, with 5,904 deaths. Counts may change.",
+ "updated": "2026-11-27",
  "glance": {
-  "what": "An outbreak of the Bundibugyo strain of Ebola, declared in May, has infected 11,986 confirmed people and killed 5,871 as of 23 November, per the US CDC. Almost all cases are in the Democratic Republic of the Congo, across 8 of its 26 provinces. Uganda, Kenya, Nigeria and France have also had cases. WHO has declared it a global health emergency.",
+  "what": "An outbreak of the Bundibugyo strain of Ebola, declared in May, has infected 12,021 confirmed people and killed 5,904 as of 24 November, per Congo's National Institute of Public Health. Almost all cases are in the Democratic Republic of the Congo, across 8 of its 26 provinces. Uganda, Kenya, Nigeria and France have also had cases. WHO has declared it a global health emergency.",
   "why": "Ebola spreads through contact with an infected person's body fluids and often kills. This strain has no approved vaccine or treatment. Fighting by armed groups in eastern Congo is hampering health workers, and travellers have carried the virus to other countries, which has led to airport screening and travel rules.",
-  "next": "WHO and ECDC publish regular updates on case numbers. The US rule that air passengers sign they have not been in Congo runs to 18 December unless changed."
+  "next": "WHO and Africa CDC have a response plan to May 2027 that they say needs about $1.58 billion. WHO and ECDC publish regular updates on case numbers. The US rule that air passengers sign they have not been in Congo runs to 18 December unless changed."
  },
  "keyNumbers": [
   {
-   "label": "Confirmed cases, 23 Nov",
-   "value": "11,986",
-   "note": "US CDC",
+   "label": "Confirmed cases, 24 Nov",
+   "value": "12,021",
+   "note": "Congo INSP",
    "hot": true
   },
   {
    "label": "Deaths",
-   "value": "5,871",
-   "note": "US CDC"
+   "value": "5,904",
+   "note": "Congo INSP"
   },
   {
    "label": "Congo provinces affected",
@@ -316,6 +316,41 @@
     }
    ],
    "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "24–26 Nov 2026",
+   "phase": "data",
+   "title": "Confirmed Ebola cases pass 12,000; WHO and Africa CDC seek about $1.58 billion",
+   "summary": "Congo's National Institute of Public Health counted 12,021 confirmed cases and 5,904 deaths as of 24 November, per Xinhua. New daily cases fell to 66 that day, from 109 a week earlier, per UPI. Ituri province accounts for about two-thirds of all cases. WHO said testing and contact tracing have improved but \"important gaps persist\": more than 80% of new infections were in people not on known contact lists. It rates the risk \"very high\" in Congo and \"high\" in Kenya and Nigeria. The UN mission in Congo said fighting with the armed group CRP has displaced thousands more people. WHO and Africa CDC published a joint response plan for November 2026 to May 2027 that estimates about $1.58 billion is needed. Counts may change.",
+   "status": "Official data · Congo health institute (INSP); Stated · WHO",
+   "differs": "The US CDC counted 11,986 cases and 5,871 deaths as of 23 November; Congo's INSP gives 12,021 and 5,904 as of 24 November.",
+   "numbers": [
+    {
+     "k": "Confirmed cases, 24 Nov",
+     "v": "12,021 (INSP)"
+    },
+    {
+     "k": "Deaths",
+     "v": "5,904 (INSP)"
+    },
+    {
+     "k": "Response plan, Nov–May",
+     "v": "≈ $1.58 billion"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Xinhua",
+     "url": "https://english.news.cn/africa/20261126/b64d784260af4b0ca81c2ecf0c822a1f/c.html",
+     "primary": true
+    },
+    {
+     "name": "Yahoo News (UPI)",
+     "url": "https://www.yahoo.com/news/world/articles/officials-ebola-cases-pass-12-185026815.html"
+    }
+   ],
+   "added": "2026-11-27"
   }
  ]
 }

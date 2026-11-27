@@ -10,22 +10,22 @@
   "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
   "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
   "importance": 4,
-  "status": "Houthi refinery claim lifts oil",
+  "status": "Jazan refinery hit; Brent near $96",
   "tone": "live",
-  "big": "$94.61",
-  "delta": "▲ 3.5% on 25 Nov",
-  "bigLabel": "Brent settlement (January contract) on 25 Nov, per Reuters and the WSJ. It was $91.40 on 24 Nov and $89.37 on 23 Nov, a three-month low.",
-  "updated": "2026-11-26",
+  "big": "$96.03",
+  "delta": "▲ 1.5% on 26 Nov",
+  "bigLabel": "Brent (January contract) during trading on 26 Nov, per TASS; Bloomberg put it near $96. Trade was thin with US markets shut for Thanksgiving. Brent settled at $94.61 on 25 Nov and $89.37 on 23 Nov, a three-month low.",
+  "updated": "2026-11-27",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent rose 3.5% to $94.61 on 25 November, a second daily gain, after Yemen's Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery; the Saudi-led coalition says it downed four drones there. Tankers keep being hit near Hormuz, and Iran's army chief says the strait must be \"closed further\" until Iran's conditions are met. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November."
+    "next": "Brent rose for a third day, to about $96, on 26 November. Saudi Arabia says a projectile hit its Jazan refinery, killing a worker and halting some operations; the Saudi-led coalition blames the Houthis, who also claim a strike on Ras Tanura. Iran's Revolutionary Guards say two tankers hit mines near Hormuz, which has not been confirmed. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November."
   },
   "keyNumbers": [
     {
-      "label": "Brent, 25 Nov",
-      "value": "$94.61",
-      "note": "per barrel, settlement",
+      "label": "Brent, 26 Nov",
+      "value": "$96.03",
+      "note": "per barrel, intraday (TASS)",
       "hot": true
     },
     {
@@ -52,7 +52,7 @@
       "text": "OPEC+ ministers meet to set output for 2027"
     }
   ],
-  "next": "Whether Qatar can restart US–Iran talks; more attacks on Saudi sites and tankers in Hormuz; OPEC+ meets on 29 November to set 2027 output.",
+  "next": "Whether Qatar can restart US–Iran talks; more attacks on Saudi oil sites and tankers in Hormuz; OPEC+ meets on 29 November to set 2027 output.",
   "links": [
     "rupee-slide-2026",
     "russian-oil",
@@ -1017,6 +1017,75 @@
         }
       ],
       "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "world",
+      "title": "Strike on Saudi Arabia's Jazan refinery kills a worker and halts some operations; Iran's Guards say two tankers hit mines",
+      "summary": "Saudi Arabia's energy ministry said a \"hostile aerial projectile\" hit the Jazan refinery on the Red Sea coast on 26 November, starting a fire and forcing some operations to stop, per Arab News. One Nepali worker was killed and several were injured. The refinery can process up to 400,000 barrels a day. The Saudi-led coalition blamed Yemen's Houthis and said it destroyed a missile launch platform at Hodeidah port used in the attack. Separately, Iran's Revolutionary Guards said two tankers exploded and caught fire after hitting sea mines north of Khasab, Oman, while crossing the Strait of Hormuz by an \"unauthorised route\", per the semi-official Tasnim agency. They said one was a supertanker carrying more than 2 million barrels. The ships were not named and the claim has not been independently confirmed. The UK's maritime agency UKMTO reported an explosion near a tanker about 50 nautical miles west of Dubai the same day; it is not clear if this was the same incident.",
+      "status": "Confirmed · Saudi energy ministry (Jazan); Allegation · Iran's Revolutionary Guards (mines)",
+      "numbers": [
+        {
+          "k": "Jazan refinery capacity",
+          "v": "400,000 barrels a day"
+        },
+        {
+          "k": "Killed at Jazan",
+          "v": "1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-saudi-arabias-jazan-refinery-kills-nepali-worker-3014153",
+          "primary": true
+        },
+        {
+          "name": "The Spokesman-Review (Bloomberg)",
+          "url": "https://www.spokesman.com/stories/2026/nov/26/oil-climbs-as-yemens-houthi-rebels-strike-key-saud/"
+        },
+        {
+          "name": "Arab News (Reuters)",
+          "url": "https://www.arabnews.com/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-3014111"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans"
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "market",
+      "title": "Brent climbs to about $96, a third daily gain, in thin holiday trade",
+      "summary": "Brent crude for January traded near $96 a barrel on Thursday 26 November, per Bloomberg; TASS reported it at $96.03 during the day, up 1.5%, with a high of $96.20. It was the third gain in a row; Bloomberg said Brent had risen almost 6% over the previous two sessions. Traders cited the strike on Saudi Arabia's Jazan refinery, the Houthi claim on Ras Tanura and Iran's claim that two tankers hit mines near Hormuz. US markets were closed for Thanksgiving, so trading was thin, which can exaggerate price moves, and there was no settlement for US crude (WTI). Higher shipping through Hormuz this month and an expected supply surplus limited gains. OPEC+ meets on 29 November.",
+      "status": "Market data · Bloomberg, TASS",
+      "differs": "One market report citing Reuters gives a settlement of $96.57, up $1.96; this could not be confirmed in a second source, so it is not used here.",
+      "numbers": [
+        {
+          "k": "Brent, 26 Nov (intraday)",
+          "v": "$96.03 (+1.5%), high $96.20"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Spokesman-Review (Bloomberg)",
+          "url": "https://www.spokesman.com/stories/2026/nov/26/oil-climbs-as-yemens-houthi-rebels-strike-key-saud/",
+          "primary": true
+        },
+        {
+          "name": "TASS",
+          "url": "https://tass.com/economy/2225021"
+        },
+        {
+          "name": "The Library (Reuters)",
+          "url": "https://thelibraryestate.com/futures-options-market-report-brent-settles-higher-on-gulf-supply-claims-as-u-s-markets-sit-closed-for-thanksgiving-nov-26-2026/"
+        }
+      ],
+      "added": "2026-11-27"
     }
   ],
   "deltaTone": "bad"

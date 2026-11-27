@@ -1,6 +1,7 @@
 {
   "_note": "Plain-English definitions shown when a reader taps a term in a story summary or the 30-second panel. Keep each to one or two short sentences, with no figures that go out of date. 'case': true means match the exact capitalisation (for acronyms). 'also' lists other spellings that should show the same definition.",
   "terms": [
+    {"term": "Friends of Cohesion", "def": "A group of mostly central, eastern and southern EU countries that want to protect EU money for poorer regions (cohesion funds) and farming in the bloc's budget."},
     {"term": "repo rate", "def": "The interest rate at which the Reserve Bank of India lends money to banks for short periods. When it goes up, loan and EMI rates usually follow."},
     {"term": "MPC", "case": true, "def": "The Monetary Policy Committee: the RBI panel that votes on the repo rate."},
     {"term": "CPI", "case": true, "def": "Consumer Price Index: tracks the prices of a basket of everyday goods and services. Its yearly rise is the main measure of retail inflation."},

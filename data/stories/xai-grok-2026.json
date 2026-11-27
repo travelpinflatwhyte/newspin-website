@@ -18,7 +18,7 @@
  "glance": {
   "what": "xAI released Grok 3 in February 2025 and Grok 4 in July 2025, then a run of Grok 4.x models through 2026. SpaceX acquired xAI in February 2026, and the company now uses SpaceX branding.",
   "why": "Grok is built into X and Tesla products, and xAI's huge Colossus computers make it one of the few labs able to train the largest models.",
-  "next": "Grok 5: xAI said in January it was in training; SpaceX has pointed to before the end of 2026. Virginia and Oregon's lawsuits over Grok deepfakes are at an early stage."
+  "next": "Grok 5: xAI said in January it was in training; SpaceX has pointed to before the end of 2026. Virginia and Oregon's lawsuits over Grok deepfakes are at an early stage. SpaceX's Starmind computing satellites, approved by the FCC on 25 November, must start operating by 2033."
  },
  "keyNumbers": [
   {
@@ -359,7 +359,37 @@
     }
    ],
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026 (US time)",
+   "phase": "tech",
+   "title": "US regulator clears SpaceX to launch up to a million AI computing satellites",
+   "summary": "The Federal Communications Commission (FCC), which licenses US satellites, authorised SpaceX's 'Starmind' network: up to one million satellites that would work as data centres in orbit, processing data such as AI tasks for use on Earth. The FCC called it the first US authorisation for a constellation of data centres in space. The first satellite must be working by 2033 and the full network by 2040, per GeekWire, with conditions including a plan to limit space debris. Amazon, Viasat and the American Astronomical Society had objected; the astronomers said they were \"disheartened and dismayed\". Critics also question whether SpaceX will ever launch that many; about 17,000 satellites from all operators are in orbit today, per Al Jazeera. Elon Musk said the network \"will be a great asset to America and the world\".",
+   "status": "Confirmed · FCC",
+   "numbers": [
+    {
+     "k": "Satellites authorised",
+     "v": "up to 1,000,000"
+    },
+    {
+     "k": "Full network due",
+     "v": "2040"
+    }
+   ],
+   "sources": [
+    {
+     "name": "GeekWire",
+     "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/",
+     "primary": true
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres"
+    }
+   ],
+   "added": "2026-11-27"
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-27"
 }

@@ -1,0 +1,130 @@
+{
+  "slug": "eu-budget-ukraine-loan",
+  "short": "EU budget and Ukraine loan",
+  "category": "World",
+  "regions": [
+    "World"
+  ],
+  "title": "EU budget fight: the next seven-year budget and a new loan for Ukraine",
+  "dek": "All 27 EU countries must agree the bloc's 2028–2034 budget and a new loan to keep Ukraine funded in 2027. A first summit ended without a deal.",
+  "seoTitle": "EU budget 2028–2034 and €45bn Ukraine loan: timeline",
+  "importance": 3,
+  "status": "Summit ends without a deal",
+  "tone": "live",
+  "big": "€45bn",
+  "delta": "no deal yet",
+  "deltaTone": "neutral",
+  "bigLabel": "Proposed EU loan to cover Ukraine's 2027 wartime budget, per Euronews; AP and Al Jazeera give it as $49bn. EU leaders did not agree it at their 26 Nov summit.",
+  "updated": "2026-11-27",
+  "glance": {
+    "what": "EU leaders met in Brussels on 26 November to agree the bloc's long-term budget for 2028–2034 and a new loan for Ukraine. After more than 12 hours of talks they had no deal on either, per AP. Some countries want a smaller budget, others want more money for farming and poorer regions, and four countries oppose using EU money for military aid to Ukraine.",
+    "why": "The EU budget pays for farm subsidies, help for poorer regions, research and more across 27 countries. Ukraine depends on European money to keep its government and army running while the war with Russia goes on. Every country must agree, so one government can hold up the deal.",
+    "next": "Leaders meet again on 17–18 December. EU Council President António Costa wants a deal by the end of the year, and France's President Macron says it cannot come after 31 December."
+  },
+  "keyNumbers": [
+    {
+      "label": "Proposed Ukraine loan for 2027",
+      "value": "€45bn",
+      "note": "about $49bn (AP)",
+      "hot": true
+    },
+    {
+      "label": "Costa's budget compromise, 2028–34",
+      "value": "€1.78tn",
+      "note": "Euronews; a 10% cut from the Commission's plan"
+    },
+    {
+      "label": "Ukraine envelope in the budget",
+      "value": "€100bn",
+      "note": "over seven years (AP)"
+    },
+    {
+      "label": "Countries that must agree",
+      "value": "27",
+      "note": "all EU members"
+    }
+  ],
+  "forYou": "Little changes for people outside Europe right away. A long delay could leave Ukraine short of money in 2027, which could affect the war and, through it, energy and food markets that India and other countries watch closely.",
+  "upcoming": [
+    {
+      "date": "2026-12-17",
+      "label": "17–18 Dec",
+      "text": "EU leaders' summit; another attempt at a budget and Ukraine loan deal"
+    },
+    {
+      "date": "2026-12-31",
+      "label": "31 Dec",
+      "text": "Deadline set by France's Macron and Costa for a deal"
+    }
+  ],
+  "next": "EU leaders try again at their 17–18 December summit. Costa wants a deal by the end of the year.",
+  "links": [
+    "ukraine-peace-talks-2026",
+    "russia-nato-eastern-flank"
+  ],
+  "events": [
+    {
+      "date": "2026-10-21",
+      "dateLabel": "21 Oct 2026",
+      "phase": "data",
+      "title": "EU officials say Ukraine faces a funding gap of about €70bn for 2027",
+      "summary": "Ahead of an EU summit, EU officials said Ukraine's money needs for 2026 were covered but that it faced an unmet need of about €70 billion in 2027, per Reuters. The EU had €45 billion for Ukraine this year: €14 billion had been paid out and about €31 billion was waiting on reforms in Kyiv. Countries outside the EU had been expected to give about €45 billion over 2026 and 2027, but not all of it had arrived. Leaders agreed to come back to Ukraine's 2027 money and the next long-term budget at a special summit on 26–27 November.",
+      "status": "Reported · Reuters, citing EU officials",
+      "numbers": [
+        {
+          "k": "Ukraine's unmet need, 2027",
+          "v": "≈ €70bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Devdiscourse (Reuters)",
+          "url": "https://www.devdiscourse.com/article/international/3995935-eu-leaders-to-discuss-2027-money-for-ukraine-next-eu-budget-on-november-26-27",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "phase": "policy",
+      "key": true,
+      "title": "EU summit ends without a deal on the 2028–2034 budget or a new Ukraine loan",
+      "summary": "EU leaders met in Brussels for a special summit on the bloc's long-term budget for 2028–2034 and a new loan for Ukraine. After more than 12 hours of talks they had no deal on either, per AP. The European Commission had proposed a €45 billion loan, backed by joint EU borrowing, to cover Ukraine's 2027 wartime budget, per Euronews; AP and Al Jazeera put it at $49 billion. It would add to a €90 billion loan EU leaders backed about a year ago. Costa's compromise cut the Commission's roughly €2 trillion budget plan by about 10%, per Euronews. The budget includes €100 billion for Ukraine over seven years, per AP. Countries split several ways. A group of 'frugal' countries wants a smaller budget, while 17 'Friends of Cohesion' countries called the compromise unacceptable because it cuts money for farming and poorer regions, per Euronews. Bulgaria, the Czech Republic, Hungary and Slovakia oppose using EU money for military aid to Ukraine, per AP and Al Jazeera. Germany's Chancellor Friedrich Merz said: \"We can't and we mustn't take on more debt.\" Italy's Giorgia Meloni said the sides were \"light years away\" from a solution. France's Emmanuel Macron said he would not sign \"an unbalanced agreement\" and that a deal cannot come after 31 December, per Euronews. Euronews reported that Costa would decide whether talks continued on Friday.",
+      "status": "Confirmed · AP; Stated · EU leaders",
+      "differs": "Reports give different figures for the budget compromise: Euronews says €1.78 trillion over seven years, Al Jazeera about $1.76 trillion, and another report a ceiling of €1.58 trillion on commitments. The loan is €45bn in euro terms (Euronews) and $49bn in dollar terms (AP, Al Jazeera).",
+      "numbers": [
+        {
+          "k": "Proposed Ukraine loan, 2027",
+          "v": "€45bn ($49bn)"
+        },
+        {
+          "k": "Budget compromise, 2028–34",
+          "v": "€1.78tn (Euronews)"
+        },
+        {
+          "k": "Ukraine envelope, 2028–34",
+          "v": "€100bn"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP via Arab News",
+          "url": "https://www.arabnews.com/world/eu-leaders-split-over-budget-spending-and-a-49-billion-loan-to-ukraine-3014203",
+          "primary": true
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine"
+        },
+        {
+          "name": "Euronews live blog",
+          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid"
+        }
+      ],
+      "link": "ukraine-peace-talks-2026",
+      "added": "2026-11-27"
+    }
+  ]
+}

@@ -18,7 +18,7 @@
  "glance": {
   "what": "Llama 4 launched in April 2025 amid a benchmark controversy. Meta then invested about $14 bn in Scale AI, set up Meta Superintelligence Labs under Alexandr Wang, and from April 2026 released the closed Muse Spark, open Muse Glimmer and, in October, Muse Wonder, which Mark Zuckerberg called Meta's first frontier model.",
   "why": "Meta AI is built into WhatsApp, Instagram and Facebook, used by billions, and Meta's shift away from fully open models changes what developers can freely use.",
-  "next": "How Muse Wonder performs, how Meta answers reported privacy slips by its Muse agent, how the Muse agent does after its UK launch, and whether Meta keeps releasing open-weight models."
+  "next": "How Muse Wonder performs, how Meta answers reported privacy slips by its Muse agent, how the Muse agent does after its UK launch, whether Amazon lifts its block on Muse after reported talks, and whether Meta keeps releasing open-weight models."
  },
  "keyNumbers": [
   {
@@ -326,7 +326,28 @@
     }
    ],
    "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-25",
+   "dateLabel": "25 Nov 2026",
+   "phase": "ai",
+   "title": "Fortune: Amazon and Meta in talks to let the Muse agent shop on Amazon",
+   "summary": "Amazon and Meta have held several rounds of talks on letting Meta's Muse agent buy things on Amazon's store, Fortune reported, citing people familiar with the talks. Amazon blocked Muse from checking out in September, saying its access broke Amazon's user agreements. The main sticking points are how search results would be shown and how advertising would be handled; Amazon worries that agents shopping for people would bypass the ads it sells. Any deal would reportedly need approval from both chief executives, and neither side has committed to an outcome. Neither company commented.",
+   "status": "Reported · Fortune",
+   "numbers": [],
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune"
+    }
+   ],
+   "added": "2026-11-27"
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

@@ -18,7 +18,7 @@
  "glance": {
   "what": "DeepSeek's R1 shook the industry in January 2025. In 2026 Chinese labs released a wave of large open-weight models, including DeepSeek V4, Moonshot's Kimi K3, Alibaba's Qwen3.8-Max and Zhipu's GLM-5.2, often far cheaper than US rivals. In November Alibaba released Qwen4-Max and Zhipu GLM-5.4.",
   "why": "Open, cheap models let anyone build AI products without paying US companies, and they sit at the centre of the US–China technology contest.",
-  "next": "Alibaba plans open versions of smaller Qwen4 models, and DeepSeek has confirmed a V4.1 Pro; neither has a date."
+  "next": "Alibaba plans open versions of smaller Qwen4 models, and DeepSeek has confirmed a V4.1 Pro; neither has a date. Reuters reports that US computing limits could delay Zhipu's GLM-5.5 to 2027 and Moonshot's Kimi K4 to around mid-2027."
  },
  "keyNumbers": [
   {
@@ -45,7 +45,7 @@
  ],
  "forYou": "Chinese models are free to download and run, and some apps you use may be built on them. Their chatbots follow Chinese content rules, which shape answers on some political topics.",
  "upcoming": [],
- "next": "Smaller open Qwen4 models and DeepSeek V4.1 Pro, both undated.",
+ "next": "Smaller open Qwen4 models and DeepSeek V4.1 Pro, both undated; GLM-5.5, reportedly delayed.",
  "links": [
   "ai-model-tracker",
   "anthropic-2026"
@@ -400,7 +400,42 @@
    ],
    "link": "nvidia-huang-investigation",
    "added": "2026-11-25"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "26 Nov 2026",
+   "phase": "tech",
+   "title": "Reuters: US chip rules and copying defences are delaying Zhipu's and Moonshot's next models",
+   "summary": "Zhipu (Z.AI) planned to release its flagship GLM-5.5, with about 3 trillion parameters (the internal settings a model learns), in November but has not, Reuters reported, citing two unnamed sources. New US limits on renting computing power abroad could push it to early 2027 or later. One source said better defences against 'distillation', training a model on a rival model's answers, are part of the delay. Moonshot's gap between major Kimi models could grow from about six months to a year or more if it loses overseas computing, and Kimi K4 could slip to around mid-2027, per one person. The US rule took effect on 19 November and requires licences for large amounts of computing power from advanced US chips in overseas data centres. Zhipu did not immediately comment to Reuters.",
+   "status": "Reported · Reuters (anonymous sources)",
+   "numbers": [
+    {
+     "k": "GLM-5.5 size",
+     "v": "≈ 3 trillion parameters (reported)"
+    },
+    {
+     "k": "US licence threshold",
+     "v": "≈ 750 Nvidia H100s"
+    }
+   ],
+   "differs": "A Zhipu executive called the day's \"so-called leaks\" \"fake news\" in a private WeChat post, according to a screenshot reported by Chinese media; he did not name GLM-5.5 or give a release date.",
+   "sources": [
+    {
+     "name": "Reuters via Investing.com",
+     "url": "https://investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154",
+     "primary": true
+    },
+    {
+     "name": "Taipei Times (Reuters)",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"
+    },
+    {
+     "name": "Pasquale Pillitteri",
+     "url": "https://pasqualepillitteri.it/en/news/36976/glm-5-5-delayed-to-2027-zhipu-executive-denies-it"
+    }
+   ],
+   "added": "2026-11-27"
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-27"
 }

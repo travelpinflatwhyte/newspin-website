@@ -9,22 +9,22 @@
  "dek": "From near 89 to the dollar in January to a record low near 96.90, then a rebound in November. What moved the rupee this year.",
  "seoTitle": "Rupee vs dollar 2026: record lows and the rebound",
  "importance": 4,
- "status": "Eight-month high",
+ "status": "Slips from eight-month high",
  "tone": "live",
- "big": "92.16",
- "delta": "▲ ≈ 4.9% off the low",
+ "big": "92.44",
+ "delta": "▲ ≈ 4.6% off the low",
  "deltaTone": "good",
- "bigLabel": "Rupees per US dollar at the close on 25 Nov (PTI, provisional), an eight-month high. Record low near 96.90.",
- "updated": "2026-11-26",
+ "bigLabel": "Rupees per US dollar at the close on 26 Nov (PTI, provisional). Eight-month high of 92.20 on 25 Nov; record low near 96.90.",
+ "updated": "2026-11-27",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It has strengthened for most of November. On 25 November it closed at 92.16 (provisional), per PTI, up 69 paise on the day: an eight-month high that erases its losses since April. It had closed at 92.85 on 23 November.",
+  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It strengthened for most of November. On 25 November it closed at 92.20, per PTI's revised figure: an eight-month high that erased its losses since April. On 26 November it slipped 24 paise to 92.44 (provisional) as oil prices rose and the proposed US tariffs weighed.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 25 Nov",
-   "value": "92.16",
+   "label": "Rupee per $, 26 Nov",
+   "value": "92.44",
    "note": "close, provisional (PTI)",
    "hot": true
   },
@@ -519,6 +519,42 @@
     }
    ],
    "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "26 Nov 2026",
+   "phase": "market",
+   "title": "Rupee slips 24 paise to 92.44 as oil rises and US tariff worries weigh",
+   "summary": "The rupee opened at 92.50 per dollar on Thursday and closed at 92.44 (provisional), down 24 paise, PTI reports. It moved between 92.31 and 92.66 during the day. Forex traders blamed higher crude oil prices and worries over the proposed US tariffs of up to 25% on Indian goods; foreign investor inflows limited the fall. Rajeev Sharan of Brickwork Ratings said Brent crude climbing back above $95 a barrel and the tariff proposal were the two pressures. Brent was at $93.80 a barrel in futures trade at the time of the report. Foreign investors bought a net ₹4,479.08 crore of Indian shares on Wednesday, per exchange data. PTI now gives Wednesday's close as 92.20, up 65 paise, not the provisional 92.16 shown earlier.",
+   "status": "Market data · PTI",
+   "differs": "PTI's afternoon report gives a provisional close of 92.44, down 24 paise; a later Millennium Post report says the rupee settled at 92.38, down 18 paise.",
+   "numbers": [
+    {
+     "k": "Open, 26 Nov",
+     "v": "92.50"
+    },
+    {
+     "k": "Close, 26 Nov",
+     "v": "92.44 (provisional), −24 paise"
+    },
+    {
+     "k": "Wednesday's close (revised)",
+     "v": "92.20"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/rupee-retreats-after-65-paise-rally-settles-at-92-44-against-dollar",
+     "primary": true
+    },
+    {
+     "name": "Millennium Post",
+     "url": "https://www.millenniumpost.in/business/rupee-declines-18-paise-to-9238-against-us-dollar-684683"
+    }
+   ],
+   "link": "india-us-trade-deal",
+   "added": "2026-11-27"
   }
  ]
 }

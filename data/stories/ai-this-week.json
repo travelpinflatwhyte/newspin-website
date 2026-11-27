@@ -15,9 +15,9 @@
   "big": "5",
   "delta": "AI firms sued",
   "bigLabel": "Companies named in a lawsuit filed on 12 Nov that asks a court to freeze advanced AI development",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "glance": {
-    "what": "In the past ten days OpenAI, Google, Meta, Anthropic, Alibaba, Zhipu and Microsoft released new models. Nvidia forced out its founder, reported doubled sales, then brought Jensen Huang back, and the US blacklisted Megaspeed, the firm at the centre of the reports. Anthropic listed on Nasdaq and has traded just below its IPO price since 24 November. Nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Anthropic and OpenAI have both posted AI-made maths proofs, including OpenAI's 24 November claim on matrix multiplication; none has been checked by outside mathematicians. Axios reported that some staff at both firms doubt some unreleased models can be released safely.",
+    "what": "In the past two weeks OpenAI, Google, Meta, Anthropic, Alibaba, Zhipu and Microsoft released new models. Nvidia forced out its founder, reported doubled sales, then brought Jensen Huang back, and the US blacklisted Megaspeed, the firm at the centre of the reports. Anthropic listed on Nasdaq and has traded just below its IPO price since 24 November. Nonprofits asked a court to freeze frontier AI, and California sued OpenAI over AI safety. Anthropic and OpenAI have both posted AI-made maths proofs that outside mathematicians have not yet checked. Axios reported that some staff at both firms doubt some unreleased models can be released safely; Dario Amodei called a related Axios claim about him \"absurd\". The FCC approved SpaceX's plan for up to a million AI computing satellites, and Reuters reported that US limits are delaying Chinese models.",
     "why": "AI is now in phones, offices and government services. Who builds it, who pays for it and what rules apply decide what you can use, what it costs and how safe it is.",
     "next": "A US list of AI 'national champions' is reportedly due within a week."
   },
@@ -859,6 +859,41 @@
       ],
       "link": "anthropic-2026",
       "added": "2026-11-26"
+    },
+    {
+      "date": "2026-11-25",
+      "dateLabel": "25–26 Nov 2026",
+      "phase": "tech",
+      "title": "Amodei rejects an Axios claim; FCC clears SpaceX's million-satellite AI network; Reuters reports Chinese model delays",
+      "summary": "Anthropic CEO Dario Amodei called it \"absurd\" to suggest he wants to \"surrender human free will\" to AI, after Axios reported that some Anthropic staff think advanced AI should eventually take over some human decisions; Axios stands by its reporting. The US Federal Communications Commission authorised SpaceX's Starmind network of up to one million satellites that would act as data centres in orbit, with the full network due by 2040. Amazon and Meta are in talks to let Meta's Muse agent shop on Amazon, Fortune reported. On 26 November Reuters reported that new US limits on overseas computing could delay Zhipu's GLM-5.5 into 2027 and Moonshot's next Kimi model to around mid-2027.",
+      "status": "Stated · Amodei; Confirmed · FCC; Reported · Fortune, Reuters",
+      "numbers": [
+        {
+          "k": "Starmind satellites authorised",
+          "v": "up to 1,000,000"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/11/25/dario-amodei-rejects-idea-he-wants-to-surrender-human-free-will-to-ai/",
+          "primary": true
+        },
+        {
+          "name": "GeekWire",
+          "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+        },
+        {
+          "name": "Taipei Times (Reuters)",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"
+        }
+      ],
+      "link": "anthropic-2026",
+      "added": "2026-11-27"
     }
   ]
 }

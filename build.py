@@ -427,7 +427,12 @@ def delta_html(text):
 # ---------- ranking (mirrors rank() in static/app.js) ----------
 QUIET_DAYS = 60
 KEY_BONUS = 3  # points for a key event added today or yesterday
-NEW_DAYS = 3  # a story is tagged "New" for this many days after it was first added
+NEW_DAYS = 3
+# Most readers are in the US and India: stories tagged with those regions get a small lift.
+# A story tagged with both gets the larger bonus, not both. Keep in step with AUDIENCE in static/app.js.
+AUDIENCE = {"US": 2, "India": 1}
+# Daily market wraps stay in the ranking but never take the lead card.
+NO_LEAD = {"india-markets-daily", "us-markets-daily"}  # a story is tagged "New" for this many days after it was first added
 
 
 def is_new_story(s, today):
@@ -438,14 +443,29 @@ def is_new_story(s, today):
 NEW_TAG = '<span class="new-tag">New</span>'
 
 
+def news_day(ev):
+    """When an event counts as news for ranking: the day it was added, but never more than two days
+    after it happened. Back-story added with a new timeline keeps its own (old) date, so it does not
+    count as fresh activity or a fresh turning point."""
+    added = ev.get("added", ev["date"])
+    cap = (d(ev["date"]) + dt.timedelta(days=2)).isoformat()
+    return min(added, cap)
+
+
 def story_facts(s, today):
     added = sorted(ev["added"] for ev in s["events"])
     nxt = sorted(u["date"] for u in s.get("upcoming", []) if d(u["date"]) >= today)
     # items marked "minor" (market holidays and other non-events) still show in Next, but earn no ranking bonus
     upn = sorted(u["date"] for u in s.get("upcoming", []) if d(u["date"]) >= today and not u.get("minor"))
-    keys = sorted(ev["added"] for ev in s["events"] if ev.get("key"))
+    news = sorted(news_day(ev) for ev in s["events"])
+    keys = sorted(news_day(ev) for ev in s["events"] if ev.get("key"))
     return {"latest": added[-1], "next": nxt[0] if nxt else "", "upnext": upn[0] if upn else "",
-            "keyat": keys[-1] if keys else "", "added": added, "imp": s.get("importance", 3)}
+            "keyat": keys[-1] if keys else "", "added": added, "news": news, "imp": s.get("importance", 3),
+            "aud": audience_bonus(s)}
+
+
+def audience_bonus(s):
+    return max([AUDIENCE.get(r, 0) for r in s.get("regions", [])] or [0])
 
 
 def rank(f, today):
@@ -455,10 +475,10 @@ def rank(f, today):
     if f["upnext"]:
         until = (d(f["upnext"]) - today).days
         up = 6 - until * 0.5 if until <= 7 else (2 if until <= 21 else 0)
-    recent = min(4, sum(1 for a in f["added"] if 0 <= (today - d(a)).days <= 14))
+    recent = min(4, sum(1 for a in f["news"] if 0 <= (today - d(a)).days <= 14))
     # a turning point ("key": true) added in the last 48 hours lifts the story
     turn = KEY_BONUS if f["keyat"] and 0 <= (today - d(f["keyat"])).days <= 1 else 0
-    score = fresh + up + f["imp"] * 2 + recent + turn
+    score = fresh + up + f["imp"] * 2 + recent + turn + f["aud"]
     quiet = days > QUIET_DAYS and not (f["next"] and (d(f["next"]) - today).days <= 30)
     return score, quiet
 
@@ -657,7 +677,8 @@ def build_home(site, stories, order, axis):
     ranked = sorted(order, key=lambda x: -rank(facts[x], today)[0])
     live = [x for x in ranked if not rank(facts[x], today)[1]]
     quiet = [x for x in ranked if rank(facts[x], today)[1]]
-    hero_slug = live[0] if live else ranked[0]
+    leadable = [x for x in live if x not in NO_LEAD]
+    hero_slug = leadable[0] if leadable else (live[0] if live else ranked[0])
     grid_live = [x for x in live if x != hero_slug]
     # Moving now: up to four stories with news in the last 48 hours (roll-ups and the lead excluded),
     # topped up with the next most active stories if fewer than four moved.
@@ -683,7 +704,7 @@ def build_home(site, stories, order, axis):
         else:
             status_pill = f'<span class="status tone-quiet">No update in {(today - d(f["latest"])).days} days</span>'
         target.append(f"""
-<article class="card {cat_class(s['category'])}{feat}{hot}" data-slug="{e(slug)}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}" data-latest="{e(f['latest'])}" data-next="{e(f['next'])}" data-upnext="{e(f['upnext'])}" data-keyat="{e(f['keyat'])}" data-imp="{f['imp']}" data-added="{e(' '.join(f['added']))}">
+<article class="card {cat_class(s['category'])}{feat}{hot}" data-slug="{e(slug)}" data-cat="{e(s['category'])}" data-regions="{e(' '.join(s.get('regions', ['India'])))}" data-latest="{e(f['latest'])}" data-next="{e(f['next'])}" data-upnext="{e(f['upnext'])}" data-keyat="{e(f['keyat'])}" data-imp="{f['imp']}" data-added="{e(' '.join(f['added']))}" data-news="{e(' '.join(f['news']))}" data-aud="{f['aud']}">
   <div class="card-band">
     <div class="row"><span class="cat">{e(s['category'])}{NEW_TAG if is_new_story(s, today) else ''}</span>{status_pill}</div>
     <div class="big-row"><span class="big{long_}">{e(s['big'])}</span><span class="delta">{e(s['delta'])}</span></div>

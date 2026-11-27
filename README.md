@@ -50,13 +50,16 @@ Stories are ranked automatically; there is no manual order. Each story's score i
 - **freshness:** up to 10 points, fading over 20 days since the last event was added
 - **coming up:** up to 6 points if a scheduled event is within a week (2 if within three weeks). Upcoming items marked `"minor": true` (market holidays and other non-events) still show in the Next strip but earn no points.
 - **importance × 2:** `"importance"` in the story file, 1 (niche) to 5 (huge)
-- **activity:** 1 point per event added in the last 14 days, up to 4
-- **turning point:** 3 points if an event marked `"key": true` was added today or yesterday (`KEY_BONUS` in build.py), so a story's big day lifts it to the top
+- **activity:** 1 point per event that became news in the last 14 days, up to 4
+- **turning point:** 3 points if an event marked `"key": true` became news today or yesterday (`KEY_BONUS` in build.py), so a story's big day lifts it to the top
+- **audience:** most readers are in the US and India, so stories tagged `US` get 2 points and stories tagged `India` get 1 (the larger one only, not both; `AUDIENCE` in build.py)
+
+"Became news" means the day the event was added, but never later than two days after the event's own date (`news_day()` in build.py). So the back-story added with a brand-new timeline keeps its old dates and does not count as fresh activity or a fresh turning point; the new timeline still gets full freshness points.
 
 The home page, top to bottom:
 
 - **Greeting and story bubbles:** the top eight stories; tapping one opens "Catch me up".
-- **Lead card:** the highest-ranked story.
+- **Lead card:** the highest-ranked story, except the daily market wraps (`NO_LEAD` in build.py), which never take the lead.
 - **Next strip:** firm, dated events coming up.
 - **Moving now:** up to four stories in the full card style, with news in the last 48 hours (topped up with the next highest-ranked stories if fewer moved). The roll-ups `ai-this-week` and `ai-model-tracker` are left out here and in Latest updates, because they repeat news from each company's timeline (`ROLLUPS` in `build.py`). Followed stories are not forced in.
 - **Latest updates:** the eight newest events across all stories, grouped by day, each linking to that event.

@@ -14,16 +14,16 @@
   "dek": "US-brokered talks restarted in November after nine months and agreed a big prisoner swap. Then Ukraine hit the Crimean bridge, Putin hardened his line and Russia struck Kyiv's bridges.",
   "seoTitle": "Russia–Ukraine peace talks 2026: timeline",
   "importance": 4,
-  "status": "Both sides prepare a large swap; Russian missiles hit Kyiv",
+  "status": "Zelenskyy urges US pressure on Putin; swap still being prepared",
   "tone": "live",
   "big": "1,000+",
   "delta": "prisoners per side",
   "bigLabel": "Size of the prisoner exchange agreed in Abu Dhabi on 11 Nov, per a Russian general quoted by TASS. Kyiv says the first prisoners could return in late November or early December; the final number is not set.",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "glance": {
     "what": "The US brokered three-way talks with Russia and Ukraine in Abu Dhabi in January and February 2026, then they stalled for nine months. They resumed on 10–11 November and agreed a large prisoner exchange, but not the main dispute: Russia wants all of Ukraine's Donbas region. In the week after, Ukraine struck the bridge linking Russia to occupied Crimea three times. On 20 November Russia hit three bridges in Kyiv; Ukraine said eight people were killed.",
     "why": "It is Europe's largest war since 1945. Its course affects energy and food prices, sanctions on Russia (including on the oil India buys) and European security.",
-    "next": "No date is set for the next round. The Kremlin says lists for a \"truly large-scale\" prisoner exchange are being drawn up with mediators, and Zelenskyy says Ukraine is preparing it; Kyiv expects the first stage in late November or early December. The Kremlin says the peace process \"isn't going along smoothly\" and blames Europe. Russian missiles and drones hit Kyiv, Kharkiv and Kryvyi Rih on 25–26 November. Trump says he asked Putin to pull back military aggression across Europe; the Kremlin has not said whether Putin will attend the G20 summit in Florida on 14–15 December."
+    "next": "No date is set for the next round. The Kremlin says lists for a \"truly large-scale\" prisoner exchange are being drawn up with mediators, and Zelenskyy says Ukraine is preparing it; Kyiv expects the first stage in late November or early December. The Kremlin says the peace process \"isn't going along smoothly\" and blames Europe. Russian missiles and drones hit Kyiv, Kharkiv and Kryvyi Rih on 25–26 November. Trump says he asked Putin to pull back military aggression across Europe; the Kremlin has not said whether Putin will attend the G20 summit in Florida on 14–15 December. On 27 November Zelenskyy urged the US to put more pressure on Putin and called Trump's 'my friend' remark about him strange; the Kremlin said he was insulting Trump."
   },
   "keyNumbers": [
     {
@@ -653,6 +653,22 @@
         }
       ],
       "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026",
+      "phase": "world",
+      "title": "Zelenskyy urges the US to press Putin and calls Trump's 'my friend' remark strange",
+      "summary": "In a BBC interview broadcast on 27 November, President Zelenskyy said he wants the US to put more pressure on President Putin, AP reports. He called Trump's description of Putin as \"my friend\" at the recent summit in China \"strange\", saying \"He can't be a friend.\" Kremlin spokesman Dmitry Peskov said Zelenskyy was \"insulting his counterpart\". Speaking on 26 November, Trump said: \"We want to make a deal. We want to stop the killing.\" He said the biggest obstacle was that the two leaders \"really hate each other\". Zelenskyy also said the Pentagon is not delivering Patriot missiles Ukraine has paid for, and warned that a major Russian attack on the power grid is \"looming\". Ukraine said it shot down 110 of 155 Russian drones overnight; Russia said it downed 318 Ukrainian drones.",
+      "status": "Stated · Zelenskyy, Peskov, Trump (via AP)",
+      "sources": [
+        {
+          "name": "ClickOnDetroit (AP)",
+          "url": "https://clickondetroit.com/news/world/2026/11/27/zelenskyy-urges-the-us-to-pressure-putin-calling-trumps-my-friend-remark-strange",
+          "primary": true
+        }
+      ],
+      "added": "2026-11-28"
     }
   ]
 }

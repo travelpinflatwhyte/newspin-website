@@ -15,15 +15,15 @@
  "dek": "The Supreme Court threw out Trump's emergency tariffs in February. Washington has been rebuilding them, law by law, ever since. Here is where they stand.",
  "seoTitle": "US tariffs 2026: Supreme Court ruling, Section 122 and Section 301 explained",
  "importance": 4,
- "status": "New tariffs proposed on 14 economies",
+ "status": "Partners push back on proposed tariffs",
  "tone": "hot",
  "big": "25%",
  "delta": "proposed for India",
  "deltaTone": "neutral",
  "bigLabel": "Highest proposed US tariff on Indian goods under the 25 Nov plan (now 10%)",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "glance": {
-  "what": "In February the US Supreme Court ruled that Trump's emergency tariffs were illegal. The US replaced them with a temporary 10% tariff, then in July with 10% or 12.5% tariffs on 60 economies. On 25 November it proposed further tariffs on 14 economies, up to 25% for India and 35% for Vietnam.",
+  "what": "In February the US Supreme Court ruled that Trump's emergency tariffs were illegal. The US replaced them with a temporary 10% tariff, then in July with 10% or 12.5% tariffs on 60 economies. On 25 November it proposed further tariffs on 14 economies, up to 25% for India and 35% for Vietnam. China, Japan, the EU and Singapore objected; China said it would take \"necessary measures\".",
   "why": "Tariffs are taxes paid by US importers on foreign goods. Higher rates make exports such as Indian textiles, gems and engineering goods dearer in the US, and can raise prices for US shoppers.",
   "next": "Comments on the new proposal are due by 5 January 2027 and hearings begin on 25 January. No start date has been set; USTR Jamieson Greer said none of the new tariffs is likely to take effect for at least a couple of months. An appeal over the temporary 10% tariff is still pending."
  },
@@ -338,6 +338,36 @@
     }
    ],
    "added": "2026-11-26"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "26 Nov 2026",
+   "phase": "trade",
+   "title": "China, Japan, the EU and Singapore push back against the proposed tariffs",
+   "summary": "Several of the 14 economies named in the US proposal objected on 26 November, AP reports. China's foreign ministry spokesperson Guo Jiakun said \"tariff wars and trade wars serve no one's interests\" and that China would take \"necessary measures\" to defend its interests; China called the idea of its 'overcapacity' a false premise. Japan's Chief Cabinet Secretary Minoru Kihara said Japan has no \"structural excess production capacity\" and that the government had conveyed its position to the US. The EU rejected the premise that Europe is a source of structural overcapacity. Singapore's trade ministry said it was \"very disappointed\". Malaysia said it has no excess capacity that distorts markets and will keep talking to the US. Vietnam said it is working with the US on a trade deal, and Thailand said its proposed cap of 18% was better than expected. AP's report does not mention a response from India. Overcapacity means producing far more than a country uses at home, often with state support, and exporting the surplus.",
+   "status": "Stated · governments of China, Japan, the EU, Singapore, Malaysia, Vietnam and Thailand (via AP)",
+   "numbers": [
+    {
+     "k": "China, proposed",
+     "v": "20%"
+    },
+    {
+     "k": "Japan and EU, proposed",
+     "v": "up to 15%"
+    },
+    {
+     "k": "Thailand, proposed cap",
+     "v": "18%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "MPR News (AP)",
+     "url": "https://www.mprnews.org/story/2026/11/26/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans",
+     "primary": true
+    }
+   ],
+   "added": "2026-11-28"
   }
  ]
 }

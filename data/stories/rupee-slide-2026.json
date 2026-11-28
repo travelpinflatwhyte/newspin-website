@@ -9,29 +9,29 @@
  "dek": "From near 89 to the dollar in January to a record low near 96.90, then a rebound in November. What moved the rupee this year.",
  "seoTitle": "Rupee vs dollar 2026: record lows and the rebound",
  "importance": 4,
- "status": "Slips from eight-month high",
+ "status": "Falls 60 paise on oil and a firmer dollar",
  "tone": "live",
- "big": "92.44",
- "delta": "▲ ≈ 4.6% off the low",
+ "big": "92.98",
+ "delta": "▲ ≈ 4.0% off the low",
  "deltaTone": "good",
- "bigLabel": "Rupees per US dollar at the close on 26 Nov (PTI, provisional). Eight-month high of 92.20 on 25 Nov; record low near 96.90.",
- "updated": "2026-11-27",
+ "bigLabel": "Rupees per US dollar at the close on 27 Nov (PTI, provisional). Eight-month high of 92.20 on 25 Nov; record closing low 96.88 on 8 Oct.",
+ "updated": "2026-11-28",
  "glance": {
-  "what": "The rupee hit a string of record lows in 2026, bottoming near 96.90 per dollar. It strengthened for most of November. On 25 November it closed at 92.20, per PTI's revised figure: an eight-month high that erased its losses since April. On 26 November it slipped 24 paise to 92.44 (provisional) as oil prices rose and the proposed US tariffs weighed.",
+  "what": "The rupee hit a string of record lows in 2026, with a record closing low of 96.88 per dollar on 8 October. It strengthened for most of November. On 25 November it closed at 92.20, per PTI's revised figure: an eight-month high that erased its losses since April. It then slipped for two days, closing at 92.98 (provisional) on 27 November, down 60 paise, as oil prices rose and the dollar firmed.",
   "why": "A weaker rupee makes imports like oil, electronics and foreign travel or education more expensive, and adds to inflation.",
   "next": "Falling oil prices, foreign inflows and RBI dollar sales have helped. A stronger dollar on US rate-rise bets, or a renewed oil spike, would push the other way."
  },
  "keyNumbers": [
   {
-   "label": "Rupee per $, 26 Nov",
-   "value": "92.44",
+   "label": "Rupee per $, 27 Nov",
+   "value": "92.98",
    "note": "close, provisional (PTI)",
    "hot": true
   },
   {
-   "label": "Record low",
-   "value": "≈ 96.90",
-   "note": "per dollar"
+   "label": "Record closing low",
+   "value": "96.88",
+   "note": "8 Oct (PTI)"
   },
   {
    "label": "Start of 2026",
@@ -555,6 +555,45 @@
    ],
    "link": "india-us-trade-deal",
    "added": "2026-11-27"
+  },
+  {
+   "date": "2026-11-27",
+   "dateLabel": "27 Nov 2026",
+   "phase": "market",
+   "title": "Rupee falls 60 paise to 92.98 as oil climbs and the dollar firms",
+   "summary": "The rupee opened at 92.44 per dollar on Friday and closed at 92.98 (provisional), down 60 paise, PTI reports. It touched 93.01 during the day, its weakest level of the session. Anuj Choudhary of Mirae Asset Sharekhan said crude oil rose after reports that Houthis attacked a Saudi Aramco facility, and also pointed to a firmer dollar and month-end dollar demand from importers. Brent crude was at $97.19 a barrel in futures trade, and the dollar index at 103.77. Kaveri More of Choice Broking said record foreign share purchases in November, of $15.16 billion, had supported the rupee. Foreign investors bought a net ₹5,843.33 crore of Indian shares on Thursday. The Sensex fell 1.17% and the Nifty 1.07% on Friday. PTI notes the rupee had recovered nearly 5% from its record closing low of 96.88 on 8 October.",
+   "status": "Market data",
+   "numbers": [
+    {
+     "k": "Close, 27 Nov",
+     "v": "92.98 (provisional)"
+    },
+    {
+     "k": "Change",
+     "v": "−60 paise"
+    },
+    {
+     "k": "Day's weakest",
+     "v": "93.01"
+    },
+    {
+     "k": "Brent",
+     "v": "$97.19"
+    }
+   ],
+   "differs": "PTI's Friday report gives Thursday's close as 92.38, after an 18-paise fall; its Thursday report had given a provisional close of 92.44, down 24 paise.",
+   "sources": [
+    {
+     "name": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98",
+     "primary": true
+    },
+    {
+     "name": "HDFC Sky (PTI)",
+     "url": "https://hdfcsky.com/news/rupee-nosedives-60-paise-to-settle-at-92-98-against-us-dollar"
+    }
+   ],
+   "added": "2026-11-28"
   }
  ]
 }

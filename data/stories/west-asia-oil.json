@@ -13,22 +13,22 @@
   "dek": "How the US–Iran conflict disrupted the world’s most important oil route, and why it matters so much to India.",
   "seoTitle": "Strait of Hormuz crisis 2026: oil and India",
   "importance": 4,
-  "status": "Jazan refinery hit; Brent near $96",
+  "status": "US disables blockade runner; Brent near $97.50",
   "tone": "live",
-  "big": "$96.03",
-  "delta": "▲ 1.5% on 26 Nov",
-  "bigLabel": "Brent (January contract) during trading on 26 Nov, per TASS; Bloomberg put it near $96. Trade was thin with US markets shut for Thanksgiving. Brent settled at $94.61 on 25 Nov and $89.37 on 23 Nov, a three-month low.",
-  "updated": "2026-11-27",
+  "big": "$97.49",
+  "delta": "▲ 0.95% on 27 Nov",
+  "bigLabel": "Brent during Friday morning trading on 27 Nov (11:30 am UAE time), per The National; on track for a weekly gain of about 7%. Brent settled at $94.61 on 25 Nov and $89.37 on 23 Nov, a three-month low.",
+  "updated": "2026-11-28",
   "glance": {
     "what": "Since the war began, shipping through the Strait of Hormuz has been disrupted. Brent peaked near $118 in late October, then fell sharply in November as Qatar mediated talks between Iran and the US, before rebounding on fresh attacks.",
     "why": "India imports most of its crude oil, and a large share of its oil, LNG and almost all its LPG has passed through Hormuz. The government says it absorbed ₹43 of a needed ₹50-a-litre diesel increase.",
-    "next": "Brent rose for a third day, to about $96, on 26 November. Saudi Arabia says a projectile hit its Jazan refinery, killing a worker and halting some operations; the Saudi-led coalition blames the Houthis, who also claim a strike on Ras Tanura. Iran's Revolutionary Guards say two tankers hit mines near Hormuz, which has not been confirmed. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November. A drone attack on an air-defence site in Kuwait killed two Italian technicians on 26 November; Kuwait blames Iran, which denies it."
+    "next": "Brent was near $97.50 on 27 November, on track for a weekly gain of about 7%. US forces disabled a ship that tried to breach the blockade of Iran, Central Command said, and Iran offered to help Kuwait and Italy investigate the drone attack that killed two Italian technicians, which it denies carrying out. Brent rose for a third day, to about $96, on 26 November. Saudi Arabia says a projectile hit its Jazan refinery, killing a worker and halting some operations; the Saudi-led coalition blames the Houthis, who also claim a strike on Ras Tanura. Iran's Revolutionary Guards say two tankers hit mines near Hormuz, which has not been confirmed. Qatar is trying to revive US–Iran talks. OPEC+ meets on 29 November. A drone attack on an air-defence site in Kuwait killed two Italian technicians on 26 November; Kuwait blames Iran, which denies it."
   },
   "keyNumbers": [
     {
-      "label": "Brent, 26 Nov",
-      "value": "$96.03",
-      "note": "per barrel, intraday (TASS)",
+      "label": "Brent, 27 Nov",
+      "value": "$97.49",
+      "note": "per barrel, intraday (The National)",
       "hot": true
     },
     {
@@ -1109,6 +1109,49 @@
         }
       ],
       "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026",
+      "phase": "world",
+      "title": "US forces disable a ship trying to breach the blockade of Iran; Iran offers to help investigate the Kuwait attack",
+      "summary": "The US military struck and disabled a commercial ship in the Gulf of Oman after it left an Iranian port and tried to breach the US naval blockade despite repeated warnings, US Central Command said, per Gulf News and ABC's Good Morning America. The ship was not named. Iran's foreign ministry said Iran was ready to work with Kuwait and Italy to \"determine the origin\" of Thursday's drone attack in Kuwait that killed two Italian technicians, per Gulf News and The National. Foreign Minister Abbas Araghchi said Iran had \"no role or involvement whatsoever\". Iran's Revolutionary Guards claimed a tanker caught fire after hitting mines north of Oman's Al Ghanam Island; this has not been independently confirmed. Brent crude was up 0.95% at $97.49 a barrel on Friday morning UAE time and on track for a weekly gain of about 7%, per The National. OPEC+ meets on Sunday 29 November and is expected to keep its current policy, The National reported.",
+      "status": "Stated · US Central Command; Stated · Iran's foreign ministry; Allegation · Iran's Revolutionary Guards (mine strike); Market data · The National",
+      "numbers": [
+        {
+          "k": "Brent, 27 Nov (11:30 am UAE)",
+          "v": "$97.49 (+0.95%)"
+        },
+        {
+          "k": "WTI, same time",
+          "v": "$86.17 (+2.98%)"
+        },
+        {
+          "k": "Brent, week so far",
+          "v": "≈ +7%"
+        }
+      ],
+      "differs": "Gulf News and CBS give different transcripts of what President Trump said about Iran at Mar-a-Lago on 26 November; both quote him as saying victory was at hand.",
+      "sources": [
+        {
+          "name": "Gulf News live updates",
+          "url": "https://gulfnews.com/world/mena/middle-east-tensions-trump-signals-victory-as-iran-offers-kuwait-drone-probe-1.500762639",
+          "primary": true
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/"
+        },
+        {
+          "name": "Good Morning America live updates",
+          "url": "https://www.goodmorningamerica.com/news/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands-138369648"
+        },
+        {
+          "name": "CBS News live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/"
+        }
+      ],
+      "added": "2026-11-28"
     }
   ],
   "deltaTone": "bad"

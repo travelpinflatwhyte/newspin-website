@@ -18,19 +18,19 @@
   "importance": 4,
   "status": "Listed on Nasdaq as ANT",
   "tone": "hot",
-  "big": "$82.79",
-  "delta": "▼ $0.21 below $83 IPO price",
-  "bigLabel": "Anthropic's closing share price on 25 Nov (US time), its fifth day of trading, per TradingKey: up 1.08% on the day after an early fall to about $75.71",
+  "big": "$91.88",
+  "delta": "▲ 10.98% on 27 Nov",
+  "bigLabel": "Anthropic's closing share price on 27 Nov (US time), per The Motley Fool and StockAnalysis; back above the $83 IPO price",
   "glance": {
     "what": "Anthropic released Claude 4 in May 2025, then a new top model every few months, adding a 'Mythos' tier above Opus in 2026. It filed publicly for an IPO in October and began marketing its shares on 10 November.",
     "why": "Claude is one of the leading AI assistants, especially for coding and business use, and Anthropic's listing is a test of how investors value AI labs.",
-    "next": "Anthropic's shares closed their first day at $97.17, fell below the $83 IPO price on 24 November and closed at $82.79 on 25 November. Axios reported on 24 November that some staff doubt some unreleased models can be released safely; on 25 November Dario Amodei called an Axios claim that he wants to hand human decisions to AI \"absurd\". Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
+    "next": "Anthropic's shares closed their first day at $97.17, fell below the $83 IPO price on 24 November, then jumped 11% to $91.88 on 27 November. Axios reported on 24 November that some staff doubt some unreleased models can be released safely; on 25 November Dario Amodei called an Axios claim that he wants to hand human decisions to AI \"absurd\". Claude-made proofs of the Riemann Hypothesis and of the VP ≠ VNP conjecture both await human checking. Its first results as a listed company and the end of share lock-ups will be watched."
   },
   "keyNumbers": [
     {
-      "label": "Close, 25 Nov",
-      "value": "$82.79",
-      "note": "+1.08%; IPO price $83",
+      "label": "Close, 27 Nov",
+      "value": "$91.88",
+      "note": "+10.98%; IPO price $83",
       "hot": true
     },
     {
@@ -51,7 +51,7 @@
   ],
   "forYou": "Anthropic's most capable model, Claude Fable, is public. A version with fewer safety limits, Claude Mythos, is available only to approved organisations working in cybersecurity and life sciences.",
   "upcoming": [],
-  "next": "How the shares trade in the coming weeks; Anthropic's first filings as a listed company; human review of the Riemann and VP ≠ VNP proofs.",
+  "next": "How the shares trade as insider selling limits start to lift on 15 December (per StockAnalysis); Anthropic's first filings as a listed company; human review of the Riemann and VP ≠ VNP proofs.",
   "links": [
     "ai-model-tracker",
     "openai-2026",
@@ -869,7 +869,47 @@
         }
       ],
       "added": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "dateLabel": "27 Nov 2026",
+      "phase": "market",
+      "title": "Shares jump 11% to $91.88, back above the $83 IPO price",
+      "summary": "Anthropic's shares rose 10.98% to close at $91.88 on Friday, per The Motley Fool and StockAnalysis, after two closes below the $83 IPO price on Tuesday and Wednesday. The rise came in a half-day session in which chip and AI shares rebounded across the market. The Motley Fool put it down to \"renewed buying interest in artificial intelligence (AI) stocks\". StockAnalysis says the shares gained 3.3% over the week. StockAnalysis also notes that, under the prospectus, insiders can start selling about 303 million more shares from 15 December.",
+      "status": "Market data · The Motley Fool, StockAnalysis",
+      "numbers": [
+        {
+          "k": "Close, 27 Nov",
+          "v": "$91.88 (+$9.09, +10.98%)"
+        },
+        {
+          "k": "IPO price",
+          "v": "$83"
+        },
+        {
+          "k": "Week",
+          "v": "+3.3% (StockAnalysis)"
+        }
+      ],
+      "differs": "Market value figures differ with the share count used: The Motley Fool gives $1.09 trillion (publicly traded shares), StockAnalysis $1.26 trillion (shares outstanding). GuruFocus, writing during the session, reported a rise of 8.49%.",
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-anthropic-jumps-11-reclaiming-its-usd83-ipo-price-as-wall-street-rallies/",
+          "primary": true
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/"
+        },
+        {
+          "name": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey"
+        }
+      ],
+      "link": "us-markets-daily",
+      "added": "2026-11-28"
     }
   ],
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }

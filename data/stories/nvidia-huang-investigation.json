@@ -17,28 +17,28 @@
  "dek": "A report that Nvidia's founder was targeted by Chinese intelligence led to a board inquiry, his resignation, a share slide, regulator inquiries and, 11 days later, his reinstatement.",
  "seoTitle": "Jensen Huang reinstated as Nvidia CEO: timeline",
  "importance": 4,
- "status": "Huang back · no DOJ probe, Reuters says",
+ "status": "Blackwell servers found at Megaspeed-linked site, Bloomberg says",
  "tone": "hot",
- "big": "$149.30",
- "delta": "▼ 3.91% on 25 Nov",
- "bigLabel": "Nvidia share price at the close on 25 November (Yahoo Finance, Motley Fool), after falls on 24 and 25 November that followed the 31% jump on Huang's return",
- "updated": "2026-11-27",
+ "big": "$150.49",
+ "delta": "▲ 0.80% on 27 Nov",
+ "bigLabel": "Nvidia share price at the close on 27 November, a half-day session (BigGo Finance, Motley Fool), after falls on 24 and 25 November that followed the 31% jump on Huang's return",
+ "updated": "2026-11-28",
  "glance": {
-  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist. Reuters reported on 25 November that the Justice Department never opened a formal investigation into Huang himself. The Washington Post reported that Pentagon leaders discussed using a wartime law as leverage on Nvidia's board; the Pentagon denies it.",
+  "what": "Nvidia's board unanimously reinstated Jensen Huang as CEO on 23 November, 11 days after he resigned. He left after The New York Times reported that US intelligence found he had a close relationship with a Megaspeed executive they concluded was working for Beijing, and a second relationship, with a senior Nvidia executive, was reported. Since then California's attorney general has subpoenaed Nvidia, Reuters and the Times have reported an SEC inquiry into its accounting, and the US has put Megaspeed and six other companies on its trade blacklist. Reuters reported on 25 November that the Justice Department never opened a formal investigation into Huang himself. The Washington Post reported that Pentagon leaders discussed using a wartime law as leverage on Nvidia's board; the Pentagon denies it. On 27 November Bloomberg reported that Nvidia Blackwell servers had turned up at a Shanghai data centre linked to Megaspeed; how they got there is not clear.",
   "why": "Nvidia makes the chips behind most of the world's AI and is one of the most valuable companies on earth. The board says senior US officials told it Huang's return poses no national security risk, but it has not named them, and several investigations are still open.",
   "next": "Huang is due to be questioned behind closed doors by House committees on 1 December, and Nvidia's general counsel on 2 December. Senate Banking Committee chair Tim Scott wants public testimony; a hearing is reported for 3 December. The board's own investigation continues."
  },
  "keyNumbers": [
   {
-   "label": "Shares, 25 Nov",
-   "value": "$149.30",
-   "note": "−3.91%",
+   "label": "Shares, 27 Nov",
+   "value": "$150.49",
+   "note": "+0.80%",
    "hot": true
   },
   {
-   "label": "Shares, 24 Nov",
-   "value": "−5.86%",
-   "note": "after +31% on 23 Nov"
+   "label": "Shares, 25 Nov",
+   "value": "$149.30",
+   "note": "−3.91%"
   },
   {
    "label": "Firms blacklisted",
@@ -1146,10 +1146,48 @@
     }
    ],
    "added": "2026-11-27"
+  },
+  {
+   "date": "2026-11-27",
+   "dateLabel": "27 Nov 2026",
+   "phase": "tech",
+   "title": "Bloomberg: Nvidia Blackwell servers turn up at a Shanghai data centre linked to Megaspeed",
+   "summary": "Bloomberg reported that Chinese company filings show Nvidia Blackwell servers at a large data centre in Shanghai, per IBTimes UK, which summarised the report. Blackwell chips cannot be shipped to China without a US licence. One company at the site pledged a GB300 server rack, which holds 72 Blackwell Ultra chips, as collateral for a 96 million yuan loan, per the filings. That company has said it provides services to Megaspeed, the Singapore firm the US put on its trade blacklist this month, and calls the link \"ordinary commercial cooperation\". Bloomberg said it had no evidence that Megaspeed itself sent the hardware there, and it is not clear how the equipment reached China. Megaspeed has denied wrongdoing. Gigabyte, the Taiwanese maker of the rack, would not say who bought it. Nvidia's response was not reported. Huang is due to testify at a Senate Banking Committee hearing on export controls on 3 December. Nvidia shares rose 0.80% to $150.49 on Friday, per BigGo Finance and The Motley Fool.",
+   "status": "Reported · Bloomberg (via IBTimes UK)",
+   "numbers": [
+    {
+     "k": "Loan backed by the rack",
+     "v": "96 million yuan"
+    },
+    {
+     "k": "Chips in one GB300 rack",
+     "v": "72"
+    },
+    {
+     "k": "Nvidia shares, 27 Nov",
+     "v": "$150.49 (+0.80%)"
+    }
+   ],
+   "sources": [
+    {
+     "name": "IBTimes UK (summarising Bloomberg)",
+     "url": "https://www.ibtimes.co.uk/nvidia-blackwell-servers-shanghai-megaspeed-links-1835285",
+     "primary": true
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+    },
+    {
+     "name": "BigGo Finance (share price)",
+     "url": "https://finance.biggo.com/news/96a6dd9c-dfde-447d-9fba-83a4a62a0c21"
+    }
+   ],
+   "added": "2026-11-28"
   }
  ],
- "heroTitle": "Pentagon denies a report that it weighed a wartime law to push Nvidia to rehire Huang",
- "heroDek": "The Washington Post says Hegseth and his deputies discussed using the Defense Production Act as leverage on Nvidia's board; a Pentagon official says the talks \"never happened\". Huang faces House investigators on 1 December.",
- "heroAsOf": "2026-11-27",
+ "heroTitle": "Bloomberg finds Nvidia Blackwell servers at a Shanghai site linked to Megaspeed",
+ "heroDek": "Chinese filings show the chips, which need a US licence to go to China, at a data centre tied to a Megaspeed service provider. Huang faces House investigators on 1 December and a Senate hearing on 3 December.",
+ "heroAsOf": "2026-11-28",
  "deltaTone": "neutral"
 }

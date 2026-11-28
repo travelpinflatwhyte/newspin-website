@@ -1102,14 +1102,17 @@ def build_story(site, stories, s, axis):
     show_key = n_key >= 3 and len(evs) >= 10
     default_mode = "key" if show_key and len(evs) >= 20 and n_key >= 5 else "all"
     desc = s.get("order") == "desc"
+    def grp(label, inner):
+        return f'<div class="tl-grp"><span class="tl-lbl" aria-hidden="true">{label}</span>{inner}</div>'
     tools = ""
     if show_key:
-        tools += (f'<div class="seg seg-sm" role="group" aria-label="How much to show"><button type="button" data-tl-mode="key" aria-pressed="{str(default_mode == "key").lower()}">Key moments</button>'
-                  f'<button type="button" data-tl-mode="all" aria-pressed="{str(default_mode == "all").lower()}">Everything</button></div>')
+        tools += grp("Show", f'<div class="seg seg-sm" role="group" aria-label="How much to show"><button type="button" data-tl-mode="key" aria-pressed="{str(default_mode == "key").lower()}">Key moments</button>'
+                     f'<button type="button" data-tl-mode="all" aria-pressed="{str(default_mode == "all").lower()}">Everything</button></div>')
     if len(evs) >= 4:
-        tools += (f'<button type="button" class="ord-btn" data-tl-order-toggle aria-label="Change order">'
-                  f'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4"/></svg>'
-                  f'<span>{"Newest first" if desc else "Oldest first"}</span></button>')
+        tools += grp("Order", f'<div class="seg seg-sm" role="group" aria-label="Order"><button type="button" data-tl-order="desc" aria-pressed="{str(desc).lower()}">Newest first</button>'
+                     f'<button type="button" data-tl-order="asc" aria-pressed="{str(not desc).lower()}">Oldest first</button></div>')
+    tools += grp("Detail", '<div class="seg seg-sm" role="group" aria-label="Detail level"><button type="button" data-mode="simple" aria-pressed="true">Simple</button>'
+                 '<button type="button" data-mode="detailed" aria-pressed="false">Detailed</button></div>')
     phases = {}
     for ev in evs:
         phases[ev["phase"]] = phases.get(ev["phase"], 0) + 1
@@ -1118,21 +1121,26 @@ def build_story(site, stories, s, axis):
         g = status_group(ev["status"])
         if g:
             groups[g] = groups.get(g, 0) + 1
-    chips = ""
+    topic_chips, status_chips = "", ""
     if len(phases) > 1:
-        chips += "".join(f'<button type="button" class="fchip" data-tl-filter="phase:{e(p)}" aria-pressed="false">{e(PHASES.get(p, PHASES["policy"])[0])}<span>{c}</span></button>' for p, c in phases.items())
+        topic_chips = "".join(f'<button type="button" class="fchip" data-tl-filter="phase:{e(p)}" aria-pressed="false">{e(PHASES.get(p, PHASES["policy"])[0])}<span>{c}</span></button>' for p, c in phases.items())
     phase_names = {PHASES.get(p, PHASES["policy"])[0] for p in phases} if len(phases) > 1 else set()
     groups = {g: c for g, c in groups.items() if g not in phase_names}
     if len(groups) > 1:
         order_g = [g for _, g in STATUS_GROUPS]
-        chips += "".join(f'<button type="button" class="fchip st" data-tl-filter="status:{e(g)}" aria-pressed="false">{e(g)}<span>{groups[g]}</span></button>'
-                         for g in sorted(groups, key=order_g.index))
-    if chips and len(evs) >= 6:
-        chips = f'<div class="fchips" role="group" aria-label="Filter events"><button type="button" class="fchip" data-tl-filter="all" aria-pressed="true">All<span>{len(evs)}</span></button>{chips}</div>'
-    else:
-        chips = ""
-    tools_html = (f'<div class="tl-tools" id="tl-tools" data-default-mode="{default_mode}">{tools}<span class="tl-count" aria-live="polite"></span></div>{chips}'
-                  if tools or chips else "")
+        status_chips = "".join(f'<button type="button" class="fchip st" data-tl-filter="status:{e(g)}" aria-pressed="false">{e(g)}<span>{groups[g]}</span></button>'
+                               for g in sorted(groups, key=order_g.index))
+    chips = ""
+    if (topic_chips or status_chips) and len(evs) >= 6:
+        all_chip = f'<button type="button" class="fchip" data-tl-filter="all" aria-pressed="true">All<span>{len(evs)}</span></button>'
+        rows = []
+        if topic_chips:
+            rows.append(f'<div class="fchips" role="group" aria-label="Filter by topic"><span class="tl-lbl" aria-hidden="true">Topic</span>{all_chip}{topic_chips}</div>')
+            all_chip = ""
+        if status_chips:
+            rows.append(f'<div class="fchips" role="group" aria-label="Filter by sourcing"><span class="tl-lbl" aria-hidden="true">Sourcing</span>{all_chip}{status_chips}</div>')
+        chips = f'<div class="tl-filters">{"".join(rows)}</div>'
+    tools_html = (f'<div class="tl-bar" id="tl-tools" data-default-mode="{default_mode}"><div class="tl-ctrls">{tools}</div>{chips}</div>')
     scrub_html = '<div class="scrub" id="scrub" hidden></div>' if len(evs) >= 8 else ""
     chart_html = chart_panel(s)
 
@@ -1167,8 +1175,7 @@ def build_story(site, stories, s, axis):
       </section>
       <section aria-labelledby="tl-h" style="display:flex;flex-direction:column;gap:18px">
         <div class="tl-head">
-          <div><h2 id="tl-h">Timeline</h2><span class="sub">Simple: key events · Detailed: sources, documents and numbers</span></div>
-          <div class="seg" role="group" aria-label="Detail level"><button type="button" data-mode="simple" aria-pressed="true">Simple</button><button type="button" data-mode="detailed" aria-pressed="false">Detailed</button></div>
+          <h2 id="tl-h">Timeline</h2><span class="tl-count" id="tl-count" aria-live="polite">{len(evs)} events</span>
         </div>
         {tools_html}
         {scrub_html}

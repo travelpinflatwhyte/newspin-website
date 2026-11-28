@@ -164,7 +164,7 @@ button{font-family:inherit}
 .newbar[hidden]{display:none}
 .newbar .k{font-size:13px;color:#C9CCD3;display:block}
 .newbar .h{font-size:18px;font-weight:600}
-.tl-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+.tl-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 12px}
 .tl-head h2{margin:0;font-family:var(--serif);font-size:30px;font-weight:600}
 .tl-head .sub{font-size:13px;color:var(--muted)}
 .seg{display:inline-flex;background:#ECECE7;border-radius:12px;padding:4px;gap:4px}
@@ -707,9 +707,15 @@ html{scroll-padding-top:84px}
 @media (max-width:640px){.mkt-bar text{display:none}.mkt-bar svg{max-height:70px}.mkt-nums{display:block}}
 
 /* ---------- timeline tools: key moments, order, filters, folds, scrubber, chart ---------- */
-.tl-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:-4px}
+.tl-bar{display:flex;flex-direction:column;gap:12px;padding:14px;border:1px solid var(--line);border-radius:16px;background:var(--surface);margin-top:-6px}
+.tl-ctrls{display:flex;flex-wrap:wrap;gap:12px 24px}
+.tl-grp{display:flex;flex-direction:column;gap:6px}
+.tl-lbl{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tl-filters{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line-2)}
+.tl-bar .fchips{align-items:center}
+.tl-bar .fchips .tl-lbl{min-width:72px}
 .seg-sm button{min-height:34px;padding:0 12px;font-size:13px}
-.tl-count{font-size:12px;color:var(--muted);margin-left:auto}
+.tl-count{font-size:13px;color:var(--muted)}
 .fchips{display:flex;flex-wrap:wrap;gap:8px}
 .fchip{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font-size:13px;font-weight:600;cursor:pointer}
 .fchip span{font-size:11px;font-weight:700;color:var(--muted)}
@@ -759,7 +765,6 @@ html{scroll-padding-top:84px}
 [data-theme="dark"] .sc-dot.k,[data-theme="dark"] .ch-pt::after{background:#6FC39C}
 [data-theme="dark"] .ch-line{stroke:#6FC39C}
 @media (max-width:640px){
-  .tl-count{flex-basis:100%;margin-left:0}
   .fchips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:0 16px 4px;scrollbar-width:none}
   .fchips::-webkit-scrollbar{display:none}
   .fchip{flex:0 0 auto}
@@ -776,7 +781,15 @@ html{scroll-padding-top:84px}
 .ord-btn{display:inline-flex;align-items:center;gap:7px;min-height:42px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font-size:13px;font-weight:600;cursor:pointer}
 .ord-btn:hover{border-color:var(--pin)}
 .ord-btn:focus-visible{outline:2px solid var(--pin);outline-offset:2px}
-@media (max-width:640px){.tl-tools{gap:8px}.seg-sm button{padding:0 10px}.ord-btn{padding:0 11px}}
+@media (max-width:640px){
+  .tl-bar{padding:12px}
+  .tl-ctrls{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;align-items:center}
+  .tl-grp{display:contents}
+  .tl-grp .seg{display:flex}
+  .tl-grp .seg button{flex:1;padding:0 8px}
+  .tl-bar .fchips{margin:0 -12px;padding:0 12px 2px}
+  .tl-bar .fchips .tl-lbl{min-width:0;flex:0 0 auto;margin-right:4px}
+}
 /* "New" tag for stories added in the last few days (NEW_DAYS in build.py) */
 .new-tag{display:inline-flex;align-items:center;margin-left:8px;padding:2px 8px;border-radius:999px;background:var(--pin-ink);color:#fff;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;vertical-align:middle;white-space:nowrap}
 .meta .new-tag{margin-left:0}

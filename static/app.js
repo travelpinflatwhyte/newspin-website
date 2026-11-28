@@ -593,7 +593,7 @@
     // ---- timeline controls: key moments + folds, order, filters, scrubber ----
     var TL = (function () {
       var ol = document.querySelector('ol.events'), wrap = document.querySelector('.tl-wrap');
-      var tools = document.getElementById('tl-tools'), countEl = tools && tools.querySelector('.tl-count');
+      var tools = document.getElementById('tl-tools'), countEl = document.getElementById('tl-count');
       var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
       var st = { mode: (tools && tools.getAttribute('data-default-mode')) || 'all', filter: 'all', onlyNew: false, opened: [], apply: apply };
       var latestLi = document.querySelector('.ev.latest-ev');
@@ -610,7 +610,7 @@
         document.querySelectorAll('[data-tl-mode]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tl-mode') === st.mode ? 'true' : 'false'); });
         document.querySelectorAll('[data-tl-filter]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tl-filter') === st.filter ? 'true' : 'false'); });
         var desc = ol && ol.getAttribute('data-order') === 'desc';
-        document.querySelectorAll('[data-tl-order-toggle] span').forEach(function (t) { t.textContent = desc ? 'Newest first' : 'Oldest first'; });
+        document.querySelectorAll('[data-tl-order]').forEach(function (b) { b.setAttribute('aria-pressed', (b.getAttribute('data-tl-order') === 'desc') === desc ? 'true' : 'false'); });
       }
       function apply() {
         if (!ol) return;
@@ -635,7 +635,7 @@
           flush(null);
         }
         ol.classList.toggle('mode-key', st.mode === 'key' && st.filter === 'all' && !st.onlyNew);
-        if (countEl) countEl.textContent = shown < evs.length ? 'Showing ' + shown + ' of ' + evs.length + ' events' : 'All ' + evs.length + ' events';
+        if (countEl) countEl.textContent = (shown < evs.length ? 'Showing ' + shown + ' of ' + evs.length + ' events' : 'All ' + evs.length + ' events') + ' · ' + (ol.getAttribute('data-order') === 'desc' ? 'newest first' : 'oldest first');
         sync(); paintScrub();
       }
       function setOrder(o) {
@@ -655,7 +655,7 @@
       }
       document.querySelectorAll('[data-tl-mode]').forEach(function (b) { b.addEventListener('click', function () { st.mode = b.getAttribute('data-tl-mode'); st.opened = []; apply(); }); });
       document.querySelectorAll('[data-tl-filter]').forEach(function (b) { b.addEventListener('click', function () { st.filter = b.getAttribute('data-tl-filter'); apply(); }); });
-      document.querySelectorAll('[data-tl-order-toggle]').forEach(function (b) { b.addEventListener('click', function () { setOrder(ol.getAttribute('data-order') === 'desc' ? 'asc' : 'desc'); }); });
+      document.querySelectorAll('[data-tl-order]').forEach(function (b) { b.addEventListener('click', function () { setOrder(b.getAttribute('data-tl-order')); }); });
       document.addEventListener('click', function (ev) {
         var a = ev.target.closest && ev.target.closest('a[href^="#e"], a[href^="#u-"]');
         if (a) reveal(a.getAttribute('href').slice(1));

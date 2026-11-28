@@ -1,0 +1,364 @@
+{
+ "slug": "us-work-visas-tech-2026",
+ "short": "US work visas",
+ "category": "Policy",
+ "regions": [
+  "US",
+  "India"
+ ],
+ "companies": [
+  "IBM",
+  "Microsoft",
+  "Tata"
+ ],
+ "flag": "us",
+ "title": "US work visas in 2026: tech companies pull back from the H-1B and green cards",
+ "dek": "New fees, wage rules and bans have made US work visas costlier for employers. IBM is the latest to step back. Here is how it got here.",
+ "seoTitle": "H-1B 2026: IBM, Microsoft and the US visa crackdown",
+ "importance": 4,
+ "status": "IBM ends most consulting visa sponsorship",
+ "tone": "hot",
+ "big": "150,000+",
+ "delta": "staff in the IBM unit",
+ "deltaTone": "neutral",
+ "bigLabel": "People in IBM Consulting, where IBM is ending US visa and green card sponsorship for most roles (10 Nov). IBM has not said how many visa holders are affected.",
+ "updated": "2026-11-28",
+ "glance": {
+  "what": "Since September 2025 the US has made skilled-worker visas harder and costlier: a $100,000 payment for new H-1B petitions (since blocked in court), a lottery that favours higher pay, a proposal to raise H-1B minimum wages, and in October a ban on green card sponsorship by Microsoft, Adobe and six IT services firms. Lottery entries fell 38.5%, and Infosys, TCS and Cognizant almost stopped entering. On 10 November IBM said it would end visa and green card sponsorship for most roles in IBM Consulting; affected staff can move to IBM jobs abroad or leave at the end of 2026.",
+  "why": "Indian-born workers get most H-1B visas, and Indian IT firms have long sent staff to US clients on them. Fewer sponsored jobs means fewer US placements for Indian engineers and more work done from India. For visa holders already in the US, losing a sponsor can mean changing jobs quickly or leaving the country.",
+  "next": "IBM staff who do not relocate reportedly finish on 31 December. The government is appealing the rulings that blocked the $100,000 fee, and the proposed $103,265 fee and higher wage rules are not yet final. No end date has been set for the green card ban on the eight companies."
+ },
+ "keyNumbers": [
+  {
+   "label": "IBM Consulting staff",
+   "value": "150,000+",
+   "note": "most roles lose sponsorship",
+   "hot": true
+  },
+  {
+   "label": "H-1B lottery entries",
+   "value": "−38.5%",
+   "note": "FY2027 vs FY2026 (USCIS)"
+  },
+  {
+   "label": "Firms barred from PERM",
+   "value": "8",
+   "note": "incl. Microsoft, Infosys, TCS"
+  },
+  {
+   "label": "Proposed H-1B fee",
+   "value": "$103,265",
+   "note": "not in force"
+  }
+ ],
+ "forYou": "If you hold an H-1B, a pending green card case is only as secure as your employer's sponsorship. If you work for IBM Consulting or one of the eight barred companies, check with your employer and an immigration lawyer about your timeline. Laid-off H-1B workers have generally had up to 60 days to find a new sponsor or leave, but rules have been changing.",
+ "upcoming": [
+  {
+   "date": "2026-12-31",
+   "label": "31 Dec",
+   "text": "Last working day for IBM Consulting staff who do not relocate (reported)"
+  }
+ ],
+ "next": "IBM's 31 December deadline; appeals over the $100,000 fee; final versions of the wage and fee rules.",
+ "links": [
+  "us-tariffs-2026",
+  "india-us-trade-deal"
+ ],
+ "events": [
+  {
+   "date": "2025-09-19",
+   "dateLabel": "19 Sep 2025",
+   "phase": "policy",
+   "key": true,
+   "title": "Trump orders a $100,000 payment for new H-1B petitions",
+   "summary": "A presidential proclamation required employers to pay $100,000 for certain new H-1B petitions filed from 21 September 2025. It mainly affected workers hired from outside the US; most people already in the US changing visa status were not the main target. The same proclamation told the Labor Department to start work on raising the minimum wages employers must pay H-1B workers. The H-1B is the main US visa for skilled foreign workers, used heavily by tech firms; Indian-born workers received about 70% of approvals in recent years, per USCIS data cited by IBTimes.",
+   "status": "Confirmed · White House proclamation",
+   "numbers": [
+    {
+     "k": "Payment",
+     "v": "$100,000"
+    },
+    {
+     "k": "Applies from",
+     "v": "21 Sep 2025"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ahluwalia Law (fee tracker)",
+     "url": "https://www.ahluwalialaw.com/what-is-happening-to-the-100000-h-1b-fee-where-things-stand-in-november-2026/",
+     "primary": true
+    },
+    {
+     "name": "Interesting Engineering",
+     "url": "https://interestingengineering.com/culture/us-suspends-microsoft-adobe-green-card-program"
+    },
+    {
+     "name": "Boundless",
+     "url": "https://www.boundless.com/blog/dol-h1b-prevailing-wage-nprm-2026"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-03-27",
+   "dateLabel": "27 Mar 2026",
+   "phase": "policy",
+   "title": "Labor Department proposes higher minimum wages for H-1B workers",
+   "summary": "The Labor Department published a proposal to raise the 'prevailing wage' levels that set the minimum pay for H-1B workers and for green card sponsorship. Its four wage levels would move from roughly the 17th, 34th, 50th and 67th percentiles of local pay for a job to the 34th, 52nd, 70th and 88th, Boundless reports from the proposal. On Boundless's figures, the lowest level would rise by about 33%. The department estimated employers would pay up to $6.6 billion a year more in wages at first. The proposal would apply only to new filings after a final rule takes effect.",
+   "status": "Official · Labor Department proposal (via Boundless)",
+   "numbers": [
+    {
+     "k": "Lowest wage level",
+     "v": "≈ +33%"
+    },
+    {
+     "k": "Extra wages, est.",
+     "v": "up to $6.6 bn a year"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Boundless",
+     "url": "https://www.boundless.com/blog/dol-h1b-prevailing-wage-nprm-2026",
+     "primary": true
+    },
+    {
+     "name": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/10/21/infosys-tcs-cognizant-h1b-registrations-fy2027-490486/"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-05-23",
+   "dateLabel": "23 May 2026",
+   "phase": "data",
+   "title": "H-1B lottery entries fall 38.5% under the new wage-weighted draw",
+   "summary": "USCIS said properly submitted H-1B registrations fell 38.5%, from 343,981 for the 2026 fiscal year to 211,600 for 2027. This was the first year of a weighted lottery that gives better odds to higher-paid jobs instead of a purely random draw. USCIS said 71.5% of those selected hold a US master's degree or higher, up from 57%, and 17.7% of selected registrations were at the lowest wage level. The yearly cap is 85,000 new visas. USCIS said on 17 July it had enough petitions to fill the cap, so there was no second draw.",
+   "status": "Official data · USCIS",
+   "numbers": [
+    {
+     "k": "Registrations, FY2027",
+     "v": "211,600"
+    },
+    {
+     "k": "FY2026",
+     "v": "343,981"
+    },
+    {
+     "k": "Change",
+     "v": "−38.5%"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Pioneer",
+     "url": "https://dailypioneer.com/news/h-1b-visa-registrations-drop-38-5-in-fy-2027",
+     "primary": true
+    },
+    {
+     "name": "Fragomen",
+     "url": "https://www.fragomen.com/insights/united-states-h-1b-cap-is-reached-for-fy-2027.html"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-06-08",
+   "dateLabel": "8 Jun 2026",
+   "phase": "law",
+   "key": true,
+   "title": "Judge strikes down the $100,000 H-1B fee",
+   "summary": "Federal Judge Leo Sorokin in Boston sided with 20 states and struck down the $100,000 fee, AP reports. He wrote that the policy \"imposes a tax on H-1B petitions without the requisite delegation by Congress\". The states had argued the fee hurt hiring of school teachers, college staff and medical workers. The White House said it was confident the ruling would be reversed on appeal. A separate court in Washington, DC, had earlier refused to block the fee in a case brought by the US Chamber of Commerce.",
+   "status": "Confirmed · US District Court, Boston",
+   "sources": [
+    {
+     "name": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/politics/federal-judge-strikes-down-trumps-100000-fee-on-new-h-1b-visas-for-high-skilled-workers",
+     "primary": true
+    },
+    {
+     "name": "GBH (AP)",
+     "url": "https://www.wgbh.org/news/national/2026-06-09/boston-judge-strikes-down-trumps-100-000-fee-on-new-h-1b-visas"
+    },
+    {
+     "name": "Ahluwalia Law (fee tracker)",
+     "url": "https://www.ahluwalialaw.com/what-is-happening-to-the-100000-h-1b-fee-where-things-stand-in-november-2026/"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-08-25",
+   "dateLabel": "25 Aug 2026",
+   "phase": "policy",
+   "title": "Homeland Security proposes a $103,265 fee on capped H-1B petitions",
+   "summary": "The Department of Homeland Security proposed a new fee of $103,265 on every H-1B petition that counts against the yearly cap. This is a formal rule, separate from the $100,000 proclamation. It would not apply to employers exempt from the cap (such as universities), to visa extensions or to workers changing employer. Comments closed on 24 September. It is still a proposal and not in force. On 18 September a second proclamation extended the $100,000 requirement to 21 September 2027, and on 30 September a court in California blocked the policies that put it into effect; the government is appealing.",
+   "status": "Official · DHS proposed rule",
+   "numbers": [
+    {
+     "k": "Proposed fee",
+     "v": "$103,265"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ahluwalia Law (fee tracker)",
+     "url": "https://www.ahluwalialaw.com/what-is-happening-to-the-100000-h-1b-fee-where-things-stand-in-november-2026/",
+     "primary": true
+    },
+    {
+     "name": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/10/21/infosys-tcs-cognizant-h1b-registrations-fy2027-490486/"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/ibm-visa-green-card-sponsorship-consulting"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-10-08",
+   "dateLabel": "8 Oct 2026",
+   "phase": "policy",
+   "key": true,
+   "title": "US bars Microsoft, Adobe and six IT services firms from green card sponsorship",
+   "summary": "Vice President JD Vance and Labor Secretary Keith Sonderling announced that eight companies were suspended, with no end date, from PERM, the labour certification step most employers must complete to sponsor a worker for a green card. They are Microsoft, Adobe, Cognizant, Infosys, Tata Consultancy Services, Wipro, HCL Technologies and Capgemini. Sonderling said the department would not accept new or process pending applications for them. Vance said no US company had \"abused the system more than Microsoft\". Microsoft said about 80% of its roughly 6,000 H-1B applications last year were extensions or status changes for existing staff, and that it pays H-1B workers the same as others doing comparable work. TCS said its PERM filings had been in single digits. Existing H-1B visas are not cancelled, but workers who rely on a green card case to stay beyond six years may have to change employer or leave. Immigration lawyers questioned whether the department has the power to do this.",
+   "status": "Confirmed · US Labor Department",
+   "numbers": [
+    {
+     "k": "Companies suspended",
+     "v": "8"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bloomberg Tax",
+     "url": "https://news.bloombergtax.com/in-house-counsel/us-suspends-visa-program-for-tech-firms-including-microsoft-2",
+     "primary": true
+    },
+    {
+     "name": "Channel Insider",
+     "url": "https://www.channelinsider.com/ai/news-us-perm-suspension-microsoft-adobe-it-services-firms/"
+    },
+    {
+     "name": "Interesting Engineering",
+     "url": "https://interestingengineering.com/culture/us-suspends-microsoft-adobe-green-card-program"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-10-21",
+   "dateLabel": "21 Oct 2026",
+   "phase": "data",
+   "title": "Congress researchers: Infosys, TCS and Cognizant almost stopped H-1B lottery entries",
+   "summary": "A Congressional Research Service report found that Infosys's H-1B registrations fell from 8,886 for fiscal 2026 to 759 for 2027 (−91%), TCS's from 5,955 to 284 (−95%), and Cognizant's from 3,752 to zero, American Bazaar and Staffing Industry Analysts report. The report lists several policy changes but does not say any single one caused the fall. Registrations are lottery entries, not visas granted or people hired. Earlier, on 29 September, Business Today reported an Economic Times analysis that six Indian IT firms filed 1,763 registrations for fiscal 2027, down 92% from 21,919. Nasscom's president said most Indian companies are not very dependent on H-1B visas and now hire more locally in the US, per Business Today.",
+   "status": "Official data · Congressional Research Service (via American Bazaar, SIA)",
+   "numbers": [
+    {
+     "k": "Infosys",
+     "v": "8,886 → 759"
+    },
+    {
+     "k": "TCS",
+     "v": "5,955 → 284"
+    },
+    {
+     "k": "Cognizant",
+     "v": "3,752 → 0"
+    }
+   ],
+   "differs": "Reports give two different '92%' falls for different groups: six firms (TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra) 21,919 → 1,763 (Economic Times analysis via Business Today), and 'major IT staffing and outsourcing companies' 24,946 → 2,055 (a September 2026 proclamation, via American Bazaar).",
+   "sources": [
+    {
+     "name": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/10/21/infosys-tcs-cognizant-h1b-registrations-fy2027-490486/",
+     "primary": true
+    },
+    {
+     "name": "Staffing Industry Analysts",
+     "url": "https://www.staffingindustry.com/news/global-daily-news/federal-actions-take-severe-toll-on-h-1b-visa-congressional-research-service-finds"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://businesstoday.in/nri/visa/story/h-1b-visa-registrations-plunge-92-percent-as-top-six-indian-it-firms-cut-down-filing-report-558420-2026-09-29"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-11-10",
+   "dateLabel": "10 Nov 2026",
+   "phase": "tech",
+   "key": true,
+   "title": "IBM ends US visa and green card sponsorship for most IBM Consulting jobs",
+   "summary": "IBM will stop sponsoring US visas and green cards for most roles in IBM Consulting, its largest division with more than 150,000 of its 264,300 staff. Bloomberg first reported the change from a document sent to managers; IBM confirmed it to Reuters. Affected employees can keep working for IBM from another country or leave the company at the end of 2026. An IBM spokesperson said the unit used US high-skilled visa programmes \"to address skill shortages\", that this \"has been declining for a number of years\" as skill availability and client needs changed, and that it had \"opted to discontinue visa and green card sponsorship for the majority of such roles\". IBM has not said how many people are affected. It is not a company-wide change.",
+   "status": "Confirmed · IBM (to Reuters)",
+   "numbers": [
+    {
+     "k": "IBM Consulting staff",
+     "v": "150,000+"
+    },
+    {
+     "k": "IBM staff worldwide",
+     "v": "264,300"
+    }
+   ],
+   "differs": "IBM's H-1B approval figures are given for different periods: 1,611 'through 30 September 2026', down from 2,045 a year earlier (IBTimes); 1,611 for October 2025 to June 2026 (Analytics India Magazine, from USCIS data). All cite USCIS.",
+   "sources": [
+    {
+     "name": "Al Jazeera (Reuters)",
+     "url": "https://www.aljazeera.com/economy/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships",
+     "primary": true
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/ibm-visa-green-card-sponsorship-consulting"
+    },
+    {
+     "name": "People Matters",
+     "url": "https://www.peoplematters.in/news/economy-policy/ibm-consulting-ends-h-1b-visa-sponsorship-citing-availability-of-us-talent-53265"
+    },
+    {
+     "name": "Analytics India Magazine",
+     "url": "https://analyticsindiamag.com/ai-news/ibm-ends-h-1b-green-card-sponsorship-for-most-roles-in-consulting-division"
+    }
+   ],
+   "added": "2026-11-28"
+  },
+  {
+   "date": "2026-11-26",
+   "dateLabel": "26 Nov 2026",
+   "phase": "tech",
+   "title": "Affected IBM staff reportedly have three weeks to choose, with 31 December as the last day",
+   "summary": "Employees affected by IBM's decision were given three weeks to decide whether to move to an IBM job outside the US, Business Today reports, citing Bloomberg. Those who do not relocate would get three months' severance, with 31 December as their final working day, according to the report. On 19 November IBM's careers site listed 1,278 consulting roles outside the US, 1,125 of them in India, against 89 in the US, Business Today reports. IBM has not commented publicly on these details. Moving to an IBM job in India would usually mean a much lower salary.",
+   "status": "Reported",
+   "numbers": [
+    {
+     "k": "Severance (reported)",
+     "v": "3 months"
+    },
+    {
+     "k": "Last day (reported)",
+     "v": "31 Dec 2026"
+    }
+   ],
+   "differs": "Business Today attributes the three-week deadline to Bloomberg; VisaVerge attributes it to the chief executive of the workplace forum Blind, speaking on 23 November. IBM has not confirmed it.",
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/nri/visa/story/relocate-to-another-country-or-ibm-to-end-h-1b-visa-green-card-sponsorship-for-most-consulting-jobs-569676-2026-11-26",
+     "primary": true
+    },
+    {
+     "name": "VisaVerge",
+     "url": "https://www.visaverge.com/h1b/ibm-consulting-visa-sponsorship-cuts-leave-covered-employees/"
+    }
+   ],
+   "added": "2026-11-28"
+  }
+ ]
+}

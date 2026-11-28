@@ -56,6 +56,10 @@
     {"term": "gateway", "also": ["gateways"], "def": "A ground station with large antennas that links satellites to the regular internet."},
     {"term": "ARR", "case": true, "def": "Annual recurring revenue: the yearly value of a company's ongoing subscription or service contracts."},
     {"term": "managed premium", "def": "The total insurance premium written on a software company's platform by the insurers that use it."},
-    {"term": "buyback", "def": "When a company buys its own shares from the market, reducing the number of shares in circulation."}
+    {"term": "buyback", "def": "When a company buys its own shares from the market, reducing the number of shares in circulation."},
+    {"term": "H-1B", "also": ["H1B"], "case": true, "def": "The main US visa for skilled foreign workers, such as software engineers. An employer must sponsor it, and new visas each year are capped and given out by lottery."},
+    {"term": "PERM", "case": true, "def": "The US Labor Department's labour certification, in which an employer shows that hiring a foreign worker will not hurt US workers. It is usually the first step in sponsoring someone for a green card."},
+    {"term": "green card", "def": "US permanent residency. It lets a person live and work in the US without an employer's visa sponsorship."},
+    {"term": "prevailing wage", "def": "The minimum pay the US government says an employer must offer a foreign worker for a given job and place, so that local wages are not undercut."}
   ]
 }
